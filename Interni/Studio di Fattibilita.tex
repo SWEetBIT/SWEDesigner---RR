@@ -1,0 +1,132 @@
+%Document-Author: Salvatore Pilò
+%Document-Date: 2017-02-27
+%Document-Description: Studio di fattibilità relativo al capitolato C6
+
+
+\documentclass[a4paper]{report}
+\usepackage[english, italian]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{url}
+\usepackage{graphicx}
+\graphicspath{{Immagini/}}
+\usepackage[hidelinks]{hyperref}
+\usepackage{lipsum}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{pifont}
+\usepackage[table]{xcolor}
+\usepackage{float}
+\usepackage{geometry}
+\geometry{margin=1in}
+
+\newcolumntype{s}{>{\hsize=.21\hsize}X}
+\newcolumntype{f}{>{\hsize=.37\hsize}X}
+\newcolumntype{m}{>{\hsize=.42\hsize}X}
+
+\newcommand{\mychapter}[2]{
+	\setcounter{chapter}{#1}
+	\setcounter{section}{0}
+	\setcounter{subsection}{1}
+	\chapter*{#2}
+	\addcontentsline{toc}{chapter}{#2}
+}
+
+\renewcommand{\abstractname}{Tabella contenuti}
+
+\begin{document}
+
+  \begin{titlepage}
+    % Defines a new command for the horizontal lines, change thickness here
+		\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+		\center
+
+		% HEADING SECTION
+		\textsc{\LARGE SWEetBIT}\\[1.5cm]
+		\textsc{\Large SWEDesigner}\\[0.5cm]
+		\textsc{\large  editor di diagrammi UML con generazione di codice}\\[0.5cm]
+
+    % TITLE SECTION
+		\HRule \\[0.4cm]
+		{ \huge \bfseries Studio di fattibilità}\\[0.4cm]
+		\HRule \\[1.5cm]
+
+		% AUTHOR SECTION
+		\begin{minipage}{0.4\textwidth}
+			\begin{flushleft} \large
+				\emph{Redattori:}\\
+				Salvatore Pilò \\
+			\end{flushleft}
+		\end{minipage}
+		~
+		\begin{minipage}{0.4\textwidth}
+			\begin{flushright} \large
+				\emph{Approvazione:} \\
+				NomeCognome \\
+				\emph{Verifica:} \\
+				NomeCognome \\
+			\end{flushright}
+		\end{minipage}
+
+    %immagine
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale=0.8]{sweet.png}
+		\end{figure}
+		\begin{center}
+			Versione 1.0.0
+		\end{center}
+		% Date, change the \today to a set date if you want to be precise
+		{\large \today}\\[3cm]
+		% Fill the rest of the page with whitespace
+		\vfill
+	\end{titlepage}
+
+  \tableofcontents
+
+	\mychapter{0}{Diario delle modifiche}
+		\begin{table}[H]
+			\begin{tabularx}{\textwidth}{s f m X}
+				\noalign{\hrule height 1.5pt}
+				\rowcolor{orange!85} Versione & Data & Autore & Descrizione \\
+				\noalign{\hrule height 1.5pt}
+        1.0.0 & 2017-02-27 & \emph{Analista} Salvatore Pilò & Creazione scheletro del documento e stesura introduzione \\
+				\noalign{\hrule height 1.5pt}
+			\end{tabularx}
+			\caption{Diario delle modifiche \label{tab:table_label}}
+		\end{table}
+
+    \mychapter{1}{Introduzione}
+	\section{Scopo del documento}
+          Lo scopo di questo documento è quello di descrivere le motivazioni dietro la scelta del capitolato C6, SWEDesigner, da parte del gruppo SWEtBIT.
+  \section{Scopo del Prodotto}
+          Lo scopo del progetto è la realizzazone di una Web App che fornisca all'utente un UML Designer con il quale riuscire a disegnare correttamente diagrammi delle classi
+          e descrivere il comportamento dei metodi interni alle stsse attraverso l'utilizzo di -da decidere il tipo di schema-.
+          La Web App permetterà all'utente di generare codice Java o Javascript dal diagramma disegnato ed eventualmente andare a ritoccarne il risultato al fine di ottenere un codice
+          eseguibile, funzonante e funzionale.
+  \section{Glossario}
+		      Con lo scopo di evitare ambiguità di linguaggio e di massimizzare la comprensione dei documenti, il
+          gruppo ha steso un documento interno che è il \emph{Glossario v1.0.0}. In esso saranno definiti, in modo
+          chiaro e conciso i termini che possono causare ambiguità o incomprensione del testo.
+          \section{Riferimenti}
+        	\subsection{Informativi}
+        		\begin{itemize}
+        			\item \textbf{Capitolato d'appalto C1:} APIM: An API Market Platform \\
+        			\url{http://www.math.unipd.it/~tullio/IS-1/2016/Progetto/C1.pdf}
+        			\item \textbf{Capitolato d'appalto C2:} AtAVi: Accoglienza tramite Assistente Virtuale \\
+        			\url{http://www.math.unipd.it/~tullio/IS-1/2016/Progetto/C2p.pdf}
+        			\item \textbf{Capitolato d'appalto C3:} DeGeOP: A Designer and Geo-localizer Web App for
+              Organizational Plants \\
+        			\url{http://www.math.unipd.it/~tullio/IS-1/2016/Progetto/C3p.pdf}
+        			\item \textbf{Capitolato d'appalto C4:} eBread: applicazione di lettura per dislessici \\
+        			\url{http://www.math.unipd.it/~tullio/IS-1/2016/Progetto/C4p.pdf}
+        			\item \textbf{Capitolato d'appalto C5:} Monolith: an interactive bubble provider \\
+        			\url{http://www.math.unipd.it/~tullio/IS-1/201/Progetto/C5p.pdf}
+        			\item \textbf{Capitolato d'appalto C6:} SWEDesigner: editor di diagrammi UML con generazione di codice \\
+        			\url{http://www.math.unipd.it/~tullio/IS-1/2016/Progetto/C6p.pdf}
+        		\end{itemize}
+        	\subsection{Normativi}
+        		\begin{itemize}
+        			\item \textbf{Norme di progetto:} \emph{Norme di progetto v1.0.0}
+        		\end{itemize}
+\end{document}
