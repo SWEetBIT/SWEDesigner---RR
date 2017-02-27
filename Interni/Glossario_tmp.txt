@@ -1,0 +1,23 @@
+C
+
+
+D
+
+Designer: Un designer è una figura professionale che si occupa di progettare qualcosa. Nel nostro caso specifico tendiamo ad indicare con questo termine un tool che ci permetta
+di disegnare, e progettare quindi, qualcosa.
+
+Drag-and-drop: sistema di "trascinamento" di un elemento sullo schermo.
+
+S
+
+Server: Componente di elaborazione e gestione del traffico di informazioni che fornisce un servizio ad altre componenti (tipicamente clients)
+
+U
+
+UML: L'UML, o unified modeling language (linguaggio di modellizzazione unificato) è un linguaggio di modellazione basato sul paradigma dell'orientamento agli oggetti
+che mira a creare uno standard che possa unificare tutti i linguaggi che ne fanno uso.
+
+W
+
+Web App: Si indica con Web App, genericamente, tutte quelle applicazioni web-based, ovvero un'applicazione fruibile via web tramite un network, ovvero
+mediante l'utilizzo di una struttura tipica client-server.

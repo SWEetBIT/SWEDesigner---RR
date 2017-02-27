@@ -1,10 +1,11 @@
 # Fdb version 3
-["pdflatex"] 1488216782 "Studio di Fattibilita.tex" "Studio di Fattibilita.pdf" "Studio di Fattibilita" 1488216784
+["pdflatex"] 1488230329 "Studio di Fattibilita.tex" "Studio di Fattibilita.pdf" "Studio di Fattibilita" 1488230331
   "Immagini/sweet.png" 1488215651 154424 15d1b0fd4fa60474f49298dd53388851 ""
-  "Studio di Fattibilita.aux" 1488216783 1871 cff65c1308993cc95e6f8c48894ab88c ""
-  "Studio di Fattibilita.out" 1488216783 477 1a45f3b9e86796f76814b92c125b0f5e ""
-  "Studio di Fattibilita.tex" 1488216777 5153 b4f57d57ce075679aadff5b51a1d5616 ""
-  "Studio di Fattibilita.toc" 1488216783 621 fee85b8cf4a16f0a8a3afb497462a4d7 ""
+  "Studio di Fattibilita.aux" 1488230331 3264 055ca0fb2a63911ece25e9d07c00fade ""
+  "Studio di Fattibilita.lot" 1488230331 146 cb4fd7b46b681b24ca5607fd2db586f4 ""
+  "Studio di Fattibilita.out" 1488230331 1456 65ae12ac7aa930f929a04fbd1c8c501f ""
+  "Studio di Fattibilita.tex" 1488230325 13463 b3c4904665bfd87e83d075b831db6bd3 ""
+  "Studio di Fattibilita.toc" 1488230331 1762 415b3efcd8142dbe766fb502e1c31fb2 ""
   "c:/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1488209582 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map" 1488210255 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "c:/texlive/2016/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1488212121 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -98,8 +99,9 @@
   "c:/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt" 1488213161 3870139 04fddad7db47aeabf82f5a32c34f58df ""
   "c:/texlive/2016/texmf.cnf" 1488212837 673 4ae7b2f49cee444c5343a45b5d0f169c ""
   (generated)
-  "Studio di Fattibilita.toc"
   "Studio di Fattibilita.pdf"
-  "Studio di Fattibilita.aux"
-  "Studio di Fattibilita.log"
+  "Studio di Fattibilita.toc"
   "Studio di Fattibilita.out"
+  "Studio di Fattibilita.log"
+  "Studio di Fattibilita.aux"
+  "Studio di Fattibilita.lot"

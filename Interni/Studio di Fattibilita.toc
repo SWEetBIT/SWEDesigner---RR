@@ -8,3 +8,17 @@
 \contentsline {section}{\numberline {1.4}Riferimenti}{3}{section.1.4}
 \contentsline {subsection}{\numberline {1.4.1}Informativi}{3}{subsection.1.4.1}
 \contentsline {subsection}{\numberline {1.4.2}Normativi}{3}{subsection.1.4.2}
+\contentsline {chapter}{Scelta del capitolato C6}{4}{chapter*.4}
+\contentsline {section}{\numberline {2.1}Descrizione del capitolato}{4}{section.2.1}
+\contentsline {section}{\numberline {2.2}Dominio applicativo}{4}{section.2.2}
+\contentsline {section}{\numberline {2.3}Dominio tecnologico}{4}{section.2.3}
+\contentsline {section}{\numberline {2.4}Criticit\IeC {\`a} potenziali e costi}{5}{section.2.4}
+\contentsline {section}{\numberline {2.5}Analisi del mercato e benefici}{5}{section.2.5}
+\contentsline {section}{\numberline {2.6}Considerazioni e valutazioni finali}{5}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Aspetti positivi}{5}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}Aspetti negativi}{6}{subsection.2.6.2}
+\contentsline {chapter}{Gli altri progetti}{7}{chapter*.5}
+\contentsline {section}{\numberline {3.1}NomeCapitolato}{7}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Valutazione Generale}{7}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Potenziali Criticit\IeC {\`a}}{7}{subsection.3.1.2}
+\contentsline {chapter}{Elenco delle tabelle}{8}{subsection.3.1.2}
