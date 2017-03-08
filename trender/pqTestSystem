@@ -1,0 +1,12 @@
+\def\arraystretch{1.5}
+\rowcolors{2}{D}{P}
+\begin{longtable}{p{1.5cm}!{\VRule[1pt]}p{5cm}!{\VRule[1pt]}p{1cm}!{\VRule[1pt]}p{2cm}}
+\rowcolor{I}
+\color{white} \textbf{Test} & \color{white} \textbf{Descrizione} & \color{white} \textbf{Stato} & \color{white} \textbf{Requisito} \\ 
+\endfirsthead 
+\rowcolor{I} 
+\color{white} \textbf{Test} & \color{white} \textbf{Descrizione} & \color{white} \textbf{Stato} & \color{white} \textbf{Requisito} \\ 
+\endhead 
+\rowcolor{white}
+\caption{Riepilogo test di sistema}
+\end{longtable}
