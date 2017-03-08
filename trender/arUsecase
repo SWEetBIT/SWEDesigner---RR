@@ -1,0 +1,8 @@
+\subsubsection{UC1 - Autenticazione} 
+\label{sssec:UC1} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente non autenticato.
+\item \textbf{Descrizione}: utente si autentica;
+\item \textbf{Precondizione}: registrato;
+\item \textbf{Postcondizione}: accede ai dati;
+\end{itemize} 
