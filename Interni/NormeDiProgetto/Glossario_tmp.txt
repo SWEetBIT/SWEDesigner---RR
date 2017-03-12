@@ -5,3 +5,7 @@ Committente: Colui che ordina un lavoro, una prestazione, o si impegna all'acqui
 P
 
 Proponente: Colui che propone un lavoro o una prestazione.
+
+R
+
+Repository: Si tratta di uno stile architetturale che può essere utilizzato come base di un'architettura software. I sottosistemi che compongono il software accedono e modificano una singola struttura dati chiamata appunto repository.
