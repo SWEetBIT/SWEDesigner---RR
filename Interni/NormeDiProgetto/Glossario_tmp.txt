@@ -2,7 +2,25 @@ C
 
 Committente: Colui che ordina un lavoro, una prestazione, o si impegna all'acquisto di una merce per conto proprio.
 
+I:
+ISO: L'Organizzazione internazionale per la normazione, in inglese ISO, è la più importante organizzazione a livello mondiale per la definizione di norme tecniche.
+
 P
+
+PNG: il PNG è un formato grafico per i file che offre:
+  \begin{itemize}
+    \item gestione dei colori classica tipo bitmap oppure indicizzata;
+    \item possibilità di trasmettere l'immagine lungo un canale di comunicazione seriale (serializzazione dell'immagine);
+    \item visualizzazione progressiva dell'immagine, grazie all'interlacciamento della medesima;
+    \item supporto alla trasparenza mediante un canale alfa dedicato, ampliando le caratteristiche già presenti nel tipo GIF89a;
+    \item informazioni ausiliarie di qualsiasi natura accluse al file;
+    \item indipendenza dall'hardware e dalla piattaforma in uso;
+    \item compressione dei dati di tipo lossless grazie all'algoritmo deflate;
+    \item immagini truecolor fino a 48 bpp;
+    \item immagini in scala di grigio sino a 16 bpp;
+    \item filtraggio per migliorare le prestazioni della compressione;
+    \item informazioni sulla correzione di gamma dell'immagine;
+  \end{itemize}
 
 Proponente: Colui che propone un lavoro o una prestazione.
 

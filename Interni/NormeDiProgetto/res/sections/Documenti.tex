@@ -49,9 +49,111 @@
       Questa sezione racchiude le convenzioni riguardanti tipografia, ortografia e uno stile uniforme per tutti i documenti.
       \subsubsection{Punteggiatura}
         \begin{itemize}
-          \item \textbf{Parentesi: }il testo racchiuso tra parentesi non deve aprirsi o chiudersi con un carattere di spaziatura e non deve terminare con un carattere di punteggiatura;
-          \item \textbf{Punteggiatura: }un carattere di punteggiatura non deve mai seguire un carattere di spaziatura;
-          \item \textbf{Lettere maiuscole: }le lettere maiuscole vanno poste solo dopo il punto, il punto di domanda, il punto esclamativo e all’inizio di ogni elemento di un elenco puntato,
+          \item \textbf{Parentesi: }Il testo racchiuso tra parentesi non deve aprirsi o chiudersi con un carattere di spaziatura e non deve terminare con un carattere di punteggiatura;
+          \item \textbf{Punteggiatura: }Un carattere di punteggiatura non deve mai seguire un carattere di spaziatura;
+          \item \textbf{Lettere maiuscole: }Le lettere maiuscole vanno poste solo dopo il punto, il punto di domanda, il punto esclamativo e all’inizio di ogni elemento di un elenco puntato,
           oltre che dove previsto dalla lingua italiana. È inoltre utilizzata l’iniziale maiuscola nel nome del team, del progetto, dei documenti, dei ruoli di progetto, delle fasi di
           lavoro e nelle parole Proponente e Committente.
         \end{itemize}
+      \subsubsection{Stile di testo}
+        \begin{itemize}
+          \item \textbf{Corsivo: }Il corsivo deve essere utilizzato nei seguenti casi:
+            \bgroup
+              \begin{itemize}
+                \item \textbf{Citazioni: }Quando si deve citare una frase questa sarà scritta in corsivo;
+                \item \textbf{Nomi particolari: }Il corsviso deve essere utilizzato quando ci si rierisce a figure particolari (es. \emph{Analista});
+                \item \textbf{Documenti: }Il corsivo deve essere utilizzato quando ci si riferisce a documenti particolari (es. \emph{Glossario});
+                \item \textbf{Altri casi: }Il corsivo sarà utilizzato in tutte quelle situazioni in cui è necessario dare rilievo ad una parola o passaggio
+                significativo;
+              \end{itemize}
+            \egroup
+          \item \textbf{Grassetto: }Il grassetto deve essere utilizzato nei seguenti casi:
+            \bgroup
+              \begin{itemize}
+                \item \textbf{Elenchi puntati: }In questo caso il grassetto può essere utilizzato per mettere in evidenza i punti sviluppati nella loro continuazione;
+                \item \textbf{Altri casi: }Il grasstto dovrà essere sempre utilizzato per evidenziare passaggi o parole chiave;
+              \end{itemize}
+            \egroup
+          \item \textbf{\textbackslash path: }Il comando \textbackslash path deve essere utilizzato per indicare i percorsi all'interno di directory;
+          \item \textbf{Maiuscolo: }L'utilizzo di parole completamente in maiuscolo è riservato solo ed esplusivamente alle sigle o alle macro \LaTeX riportate
+          nei documenti;
+          \item \textbf{\LaTeX : }Ogni riferimento a \LaTeX deve essere scritto utilizzano la macro \textbackslash LaTeX;
+        \end{itemize}
+      \subsubsection{Composizione del testo}
+        \begin{itemize}
+          \item \textbf{Elenchi puntati: }Ogni punto dell'elenco puntato deve essere scritto in grassetto e con la prima lettera in maiuscolo.\\
+            Nella definizione del punto la prima lettera dovrà essere maiuscola ad eccezione di casi isolati (es. nome di file) e dovrà terminare sempre con un ";" ;
+          \item \textbf{Note a piè di pagina: }Ogni nota dovrà cominciare con l’iniziale della prima parola maiuscola e non deve essere preceduta da alcun carattere di spaziatura.\\
+            Ogni nota deve terminare con un punto.
+        \end{itemize}
+      \subsubsection{Formati}
+        \begin{itemize}
+          \item \textbf{Percorsi: }Per tutti gli indirizzi e-mail e web completi dovrà essere utilizzato il comando \LaTeX \textbackslash url mentre per i percorsi
+            relativi si utilizzerà il comando \textbackslash path;
+          \item \textbf{Date: }Tutte le date presenti all'interno della documentazione devono seguire la notazione definiti nello standard \glossaryItem{ISO} 8601:2004:
+            \begin{center}
+              AAAA-MM-GG\\
+            \end{center}
+            dove:
+            \bgroup
+              \begin{itemize}
+                \item AAAA: rappresenta l'anno utilizzando quattro cifre;
+                \item MM: rappresenta il mese utilizzando due cifre;
+                \item GG: rappresenta il giorno utilizzando due cifre;
+              \end{itemize}
+            \egroup
+          \item \textbf{Nomi propri: }l'utilizzo dei nomi propri dei membri del team (e non) deve seguire la notazione "Cognome Nome";
+          \item \textbf{Nome gruppo: }ci si riferirà al gruppo solo come "SWEetBIT";
+          \item \textbf{Nome del proponente: }ci si riferirà al proponente come "Zucchetti s.r.l" o semplicemente come "Proponente";
+          \item \textbf{Nome del committente: }ci si riferià al committente come "prof. Vardanega Tullio" o semplicemente come "Committente";
+          \item \textbf{Nome del progetto: }ci si riferirà al progetto solo come "SWEDesigner";
+        \end{itemize}
+      \subsubsection{Sigle}
+        Le sigle dei documenti potranno essere utilizzate solo ed esclusivamente all'interno di tabelle o diagrammi. Sono previste le seguenti sigle:
+        \begin{itemize}
+          \item \textbf{AdR} = Analisi dei Requisiti;
+          \item \textbf{GL} = Glossario;
+          \item \textbf{NdP} = Norme di Progetto;
+          \item \textbf{PdP} = Piano di Progetto;
+          \item \textbf{PdQ} = Piano di Qualifica;
+          \item \textbf{SdF} = Studio di Fattibilità;
+          \item \textbf{ST} = Specifica Tecnica;
+          \item \textbf{RA} = Revisione d'Accettazione;
+          \item \textbf{RP} = Revisione di Progettazione;
+          \item \textbf{RQ} = Revisione di Qualifica;
+          \item \textbf{RR} = Revisione dei Requisiti;
+        \end{itemize}
+    \subsection{Componenti grafiche}
+      \subsubsection{Tabelle}
+        Ogni tabella presente all’interno dei documenti dev’essere accompagnata da una didascalia, in cui deve comparire un numero identificativo incrementale per la tracciabilità
+        della stessa all’interno del documento.
+      \subsubsection{Immagini}
+        Le immagini da includere all'interno del documento devono avere preferibilmente il formato Portable Network Graphics (\glossaryItem{PNG}).
+    \subsection{Classificazione dei documenti}
+      \subsubsection{Documenti formali}
+        Un documento viene definito formale quando viene approvato dal \emph{Responsabile di Progetto} ed è quindi pronto per essere inviato ai richiedenti.\\
+        Per raggiungere questo stato il documento deve seguire l'iter descritto nel \emph{Piano di Qualifica} e nel paragrafo \ref{subsec:ciclovita} riguardante il ciclo di vita dei documenti.
+      \subsubsection{Documenti informali}
+        Un documento è definito informale fino a quando non approvato dal \emph{Responsabile di Progetto}, fino ad allora il suo uso è da considerarsi unicamente interno.
+      \subsubsection{Versionamento}
+        La documentazione prodotta deve essere corredata dal numero di versione attuale utilizzando la codifica:
+        \begin{center}
+          \emph{v.X.Y.Z}
+        \end{center}
+        dove:
+        \begin{itemize}
+          \item X: indica il numero crescente di uscite formali del documento;
+          \item Y: indica il numero crescente di modifiche sotanziali al documento;
+          \item Z: indica il numero crescente di modifiche minori apportate al documento;
+        \end{itemize}
+    \subsection{Ciclo di vita}\label{subsec:ciclovita}
+      Ogni documento prodotto segue un preciso iter che scandisce le fasi in cui si trova in ogni istante. Un documento può trovarsi in tre stati diversi:\\
+      \begin{itemize}
+        \item \textbf{In lavorazione: }Un documento entra in qquesta fase nel momento della sua crezione e vi rimane per tutto il periodo della sua stesura
+          o per eventuali successive modifiche;
+        \item \textbf{Da verificare: }Un documento entra in questa fase alla fine della sua stesura quando entra in possesso dei verificatori che avranno il compito
+          di individuare e correggere eventuali errori sintattici o semantici;
+        \item \textbf{Approvato: }Un documento entra in questa fase una volta che il \emph{Responsabile di Progetto} lo ha approvato dopo la fase di veriica.\\
+          L'approvazione sancisce la fine del ciclo di vita del documento per la data versione;
+      \end{itemize}
+      Ogni fase del ciclo di vita può essere affrontata anche più volte da parte di un documento.
