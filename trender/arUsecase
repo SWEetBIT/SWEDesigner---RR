@@ -26,3 +26,11 @@
 \item \textbf{Precondizione}: giaaa;
 \item \textbf{Postcondizione}: aaa;
 \end{itemize} 
+\subsubsection{UC2 - secondooo} 
+\label{sssec:UC2} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: sddasda;
+\item \textbf{Precondizione}: sdada;
+\item \textbf{Postcondizione}: dasda;
+\end{itemize} 
