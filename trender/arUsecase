@@ -5,4 +5,24 @@
 \item \textbf{Descrizione}: utente si autentica;
 \item \textbf{Precondizione}: registrato;
 \item \textbf{Postcondizione}: accede ai dati;
+\item \textbf{Scenario principale}: \begin{enumerate}\item dsadsa (UC1.1). 
+ \end{enumerate}
+\end{itemize} 
+\subsubsection{UC1.1 - dsadsa} 
+\label{sssec:UC1.1} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: dassda;
+\item \textbf{Precondizione}: sdadsa;
+\item \textbf{Postcondizione}: dada;
+\item \textbf{Scenario principale}: \begin{enumerate}\item Prova2 (UC1.1.1). 
+ \end{enumerate}
+\end{itemize} 
+\subsubsection{UC1.1.1 - Prova2} 
+\label{sssec:UC1.1.1} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: speremo ben;
+\item \textbf{Precondizione}: giaaa;
+\item \textbf{Postcondizione}: aaa;
 \end{itemize} 
