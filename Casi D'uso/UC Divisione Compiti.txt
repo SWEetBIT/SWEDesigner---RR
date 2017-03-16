@@ -1,0 +1,15 @@
+UC 1 - Da sistemare GIAN
+UC 2- da sistemare  GIAN
+UC 3 - da sistemare (gestione profilo > visualizza profilo) FABIO
+UC 4 - x
+UC 5 - SALVATORE
+UC 5.5:
+-Menù:
+ 	-Layers/tool GIAN
+	-File/Edit/window MALIK
+-Tooolbar:
+	-Class FABIO
+	-Method DAVIDE
+	-Activity SEBA
+-Window
+SALVATORE
