@@ -1,0 +1,34 @@
+A
+
+*Activity diagram: è un diagramma definito all'interno dell’UML che definisce le attività da svolgere per realizzare una data funzionalità. Può essere utilizzato durante la progettazione del software per dettagliare un determinato algoritmo.
+
+C
+
+*Capitolato: : atto allegato a un contratto d'appalto che intercorre tra il cliente ed una ditta in cui vengono indicate modalità, costi e tempi di realizzazione dell'opera oggetto del contratto.
+
+*Codice: è una rappresentazione di un insieme di simboli in grado di rappresentare l'informazione che viene così codificata.
+
+D
+
+*Dominio: nel contesto utilizzato si intende focalizzarsi su di un specifico ambito; ovvero la dove si è deciso l’ambito su cui rappresentare i diagrammi (ad esempio i giochi da tavolo), tutto ciò che riguarda argomenti esterni viene ignorato perché non fa parte di tale dominio.
+
+*Diagrammi: è una rappresentazione simbolica di dati che si prefigge lo scopo di renderli facilmente consultabili, elaborato graficamente secondo convenzioni prestabilite. I diagrammi si differenziano in base al metodo di rappresentazione e allo scopo specifico che viene prefissato.
+
+M
+
+*Metodo: in informatica, è un termine che viene usato principalmente nel contesto della programmazione orientata agli oggetti per indicare un sottoprogramma associato in modo esclusivo ad una classe e che rappresenta (in genere) un'operazione eseguibile sugli oggetti e istanze di quella classe. È formato da:
+- una firma ovvero la definizione/dichiarazione del metodo con tipo di ritorno, nome del metodo, tipo e nome degli eventuali parametri passati in input.
+- un corpo, opportunamente delimitato da inizio e fine, con all'interno una o più sequenze o blocchi di istruzioni scritte per eseguire una determinata azione
+
+S
+
+
+U
+
+*UML: L'UML, o unified modeling language (linguaggio di modellizzazione unificato) è un linguaggio di modellazione basato sul paradigma dell'orientamento agli oggetti
+che mira a creare uno standard che possa unificare tutti i linguaggi che ne fanno uso.
+
+W
+
+*Web App: Si indica con Web App, genericamente, tutte quelle applicazioni web-based, ovvero un'applicazione fruibile via web tramite un network, ovvero
+mediante l'utilizzo di una struttura tipica client-server.
