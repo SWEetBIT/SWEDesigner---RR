@@ -25,11 +25,11 @@
       \begin{itemize}
         \item \textbf{Importanza} può assumere i seguenti valori:
           \bgroup
-            \begin{enumerate}
-              \item Requisito obbligatorio;
-              \item Requisito desiderabile;
-              \item Requisito opzionale;
-            \end{enumerate}
+            \begin{labeling}{}
+              \item [0]: Requisito obbligatorio;
+              \item [1]: Requisito desiderabile;
+              \item [2]: Requisito opzionale;
+            \end{labeling}
           \egroup
         \item \textbf{Tipo} può assumere i seguenti valori:
           \bgroup
@@ -52,7 +52,39 @@
       \emph{use case} o con l'acrnimo UC.\\
       È richiesta agli analisti l'identificazione dei vari casi d'uso, procedendo dal generale al particolare che verranno inseriti nel software di tracciamento
       \glossaryItem{Trender}.\\
-      Il caso d'uso dovrà essere accompagnato da un grafico riassuntivo in \glossaryItem{UML}2.x, titolato come il caso d'usco in questione.\\
+      Per ogni UC è richiesto l'inserimento, all'interno del software, di:
+      \begin{itemize}
+        \item \textbf{Titolo: }Nome del Caso d'Uso;
+        \item \textbf{Descrizione: }Descrizione breve e coincisa dell'UC;
+        \item \textbf{Precondizione: }Condizione d'accesso al Caso d'Uso;
+        \item \textbf{Postcondizione: }Condizione d'uscita al Caso d'Uso;
+      \end{itemize}
+      Gli altri campi da comilare, da non ritenere obbligatori ma desiderabili, sono:
+      \begin{itemize}
+        \item \textbf{Padre: }Indicare codice univoco del Caso d'Uso padre;
+        \item \textbf{Tipo: }Può essere di tre tipi differenti:
+        \bgroup
+          \begin{itemize}
+            \item \textbf{Inclusione}
+            \item \textbf{Estensione}
+            \item \textbf{Gerarchia}
+          \end{itemize}
+        \egroup
+        \item \textbf{Scenario: }Descrizione dello scenario rappresentato;
+        \item \textbf{Scenario alternativo: }Descrizione scenari alternativi, se presenti;
+        \item \textbf{Percorso immagine: }Il percorso dell'immagine rappresentate l'UML;
+        \item \textbf{Descrizione immagine: }Descrizione breve e sommaria dell'immagine;
+      \end{itemize}
+      Una volta creato l'UC, selezionrlo dalla lista per:
+      \begin{itemize}
+        \item Modificare i campi dati inseriti;
+        \item Osservare i figli dell'UC corrente;
+        \item Associare un \textbf{Attore} selezionandolo dal menù a tendina;
+        \item Associare un \textbf{Requisito};
+      \end{itemize}
+      Il caso d'uso dovrà essere accompagnato da un grafico riassuntivo in \glossaryItem{UML}2.x, titolato come il caso d'uso in questione.\\
+      È compito del software di tracciamento tracciare gli UC con un codice univoco e gerarchico nella forma:
       \begin{center}
-        \textbf{\large{INSERIRE SOFTWARE DI TRACCIAMENTO E CODICE GENERATO}}
+        UC[codice univoco del padre].[codice univoco del figlio]
       \end{center}
+      Il software provvederà a generare anche i file \LaTeX corrispondenti.
