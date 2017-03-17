@@ -6,6 +6,8 @@ C
 
 * Capitolato: : atto allegato a un contratto d'appalto che intercorre tra il cliente ed una ditta in cui vengono indicate modalità, costi e tempi di realizzazione dell'opera oggetto del contratto.
 
+* Classe: è un costrutto di un linguaggio di programmazione atto a rappresentare una persona, un luogo, oppure una cosa, ed è quindi l'astrazione di un concetto.
+
 * Client: in informatica, indica una componente che accede ai servizi o alle risorse di un'altra componente detta server, la quale fornisce il servizio richiesto.
 
 * Codice: è una rappresentazione di un insieme di simboli in grado di rappresentare l'informazione che viene così codificata.
@@ -28,6 +30,7 @@ J
 
 * JavaScript: è un linguaggio di \glossaryItem{scripting} orientato agli oggetti e agli eventi, comunemente utilizzato nella programmazione Web lato \glossaryItem{client} per la creazione, in siti web e web-app, di effetti dinamici interattivi tramite funzioni di script invocate da eventi innescati a loro volta in vari modi dall'utente sulla pagina web in uso (mouse, tastiera, caricamento della pagina ecc...).
 
+* JSON: acronimo di JavaScript Object Notation, è un formato adatto all'interscambio di dati fra applicazioni client-server.
 L
 * Layer: sinonimo di strati.
 
@@ -37,6 +40,10 @@ M
 - una firma ovvero la definizione/dichiarazione del metodo con tipo di ritorno, nome del metodo, tipo e nome degli eventuali parametri passati in input.
 - un corpo, opportunamente delimitato da inizio e fine, con all'interno una o più sequenze o blocchi di istruzioni scritte per eseguire una determinata azione
 
+P 
+
+* Pattern: è un termine inglese, che può essere tradotto, a seconda del contesto, con "disegno, modello, schema, schema ricorrente, struttura ripetitiva" e, in generale, può essere utilizzato per indicare una regolarità che si riscontra all'interno di un insieme di oggetti osservati.
+ 
 S
 
 * Script: in informatica, designa un tipo particolare di programma, scritto in una particolare classe di linguaggi di programmazione, detti linguaggi di scripting.

@@ -1,0 +1,52 @@
+	\section{Riunione 1}
+	  \subsection{Informazioni sulla riunione}
+	    \begin{itemize}
+	      \item \textbf{Data: } 15/03/2017
+	      \item \textbf{Luogo: } Zucchetti - sede di Padova , via Giovanni Cittadella 7
+	      \item \textbf{Ora: } 11:30
+	      \item \textbf{Durata: } 20 min
+	      \item \textbf{Argomento: } Proposta una soluzione nella realizzazione dei \glossaryItem{diagrammi}
+	      \item \textbf{Partecipanti Interni: } Davide Santimaria - Fabio Massignan - Gianmarco Salmistraro - Malick Bodian - Salvatore Pilò - Sebastiano Bertolin
+	      \item \textbf{Partecipanti Esterni: } Gregorio Piccoli
+	    \end{itemize}
+	    
+	  \subsection{Domande e Risposte}
+	   \begin{itemize}
+	   
+	   	   	\item 
+	   	%dDOMANDA
+	   		\textbf{Abbiamo pensato di rappresentare i \glossaryItem{diagrammi} dei \glossaryItem{metodi} collegando tra loro un \glossaryItem{flow chart} ed un \glossaryItem{activity diagram},come le sembra questa soluzione?}
+	   	%RISPOSTA
+	    	\justifying     		
+L'idea di sfruttare questi \glossaryItem{diagrammi} è apprezzata, così come la possibilità di scegliere quale dei due \gloassaryItem{diagrammi} mettere in primo piano.\\
+	   	\item 
+	   	%dDOMANDA
+	   		\textbf{Data la scelta del \glossaryItem{dominio} dei giochi da tavolo, possiamo aggiungere dei \glossaryItem{template} di classi e funzioni legate al dominio?}
+	   	%RISPOSTA
+	    	\justifying     		
+L'\glossaryItem{UML} non ha un grande supporto dei \glossaryItem{template}, solitamente si usano le collaborazioni, che son un ente che descrivono un insieme statico di relazioni tra istanze, e i ruoli che queste istanze svolgono in queste relazioni. Questa soluzione è abbastanza scomoda; suggerisco di approffondire i \gloassaryItem{pattern} che utilizza l'\glossaryItem{UML} per capire da sé che inizialmente l'\glossaryItem{UML} è nato per disegnare \glossaryItem{classi} e quindi con l'uso dei \glossaryItem{pattern} c'è contrasto. 
+Ci son due rappresentazioni di \glossaryItem{pattern} quella della sua definizione e quella del suo uso; implementare la possibilità all'\glossaryItem{utente} di crearsi i propri \glossaryItem{template}. Quando l'\glossaryItem{utente} crerà il suo \glossaryItem{template}, le \glossaryItem{classi} che ne fanno parte dovranno avere una etichetta che ne definisce il ruolo e la funzionalità del cambio del nome; altrimenti se in un \glossaryItem{diagramma} si richiama più volte lo stesso \glossaryItem{template} darà luogo ad errori visto che il nome è un attributo univoco. Un esempio può essere un videogioco di calcio, dove per rappresentare la testa dei giocatori si usa un \glossaryItem{pattern}, che a sua volta può esser un contenitore di altri \glossaryItem{pattern} come occhi, e naso. Già questo \glossaryItem{pattern} si può utilizzare 22 volte per il numero di giocatori in campo ed ognuno di essi avrà delle caratteristiche differenti, ma seguono tutti lo stesso modello.
+\\
+	  		   	\item 
+	   	%dDOMANDA
+	   		\textbf{Il passaggio tra \glossaryItem{codice} e disegno è un requisito richiesto?}
+	   	%RISPOSTA
+	    	\justifying     		
+No non è necessario questa caratteristica, si potrebbe valutare eventualmente la sincronizzazione , o meglio dare la possibilità a due persone di lavorare allo stesso \glossaryItem{diagramma} , ma anche questo è  un requisito che può esser inserito nei nei requisiti opzionali. Ci si potrebbe orientare su un disegnatore collaborativo eventualmente supportate con \glossaryItem{JSON} e con librerie come \emph{diff-match-Patch} che permette di far lavorare in maniera collaborativa grazie allo scambio di file in formato \glossaryItem{JSON}; resta comunque una caratteristica che diventa un progetto all'interno del progetto attuale e quindi, come già detto, è un requisito opzionale.
+\\
+
+	  		   	\item 
+	   	%dDOMANDA
+	   		\textbf{È obbligatorio fornire l'auto compilazione del \glossaryItem{codice}?}
+	   	%RISPOSTA
+	    	\justifying     		
+Se si intende che il \glossaryItem{codice} generato debba compilare questo è banalmente ovvio. La compilazione automatica sarebbe gradita.
+\\
+		  		   	\item 
+	   	%dDOMANDA
+	   		\textbf{Dobbiamo aggiungere la presenza di un \glossaryItem{utente} amministratore?}
+	   	%RISPOSTA
+	    	\justifying     		
+Credo che la mole di lavoro sia sufficiente e che quindi aggiungere nuove funzionalità al momento si possa esculdere, basta concentrarsi sui requisiti già definiti. Avete accennato alla possibilità di aggiungere dei gruppi, ma preferisco che vi concentriate sull'inserimento dei \glossaryItem{template} anzichè di questa funzionalità.
+\\
+	   	 \end{itemize}
