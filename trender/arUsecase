@@ -1,44 +1,134 @@
-\subsubsection{UC1 - Autenticazione} 
+\subsubsection{UC1 - Registrazione} 
 \label{sssec:UC1} 
 \begin{itemize} 
-\item \textbf{Attori}: Utente non autenticato.
-\item \textbf{Descrizione}: utente si autentica;
-\item \textbf{Precondizione}: registrato;
-\item \textbf{Postcondizione}: accede ai dati;
-\item \textbf{Scenario principale}: \begin{enumerate}\item dsadsa (UC1.1). 
- \end{enumerate}
-\end{itemize} 
-\subsubsection{UC1.1 - dsadsa} 
-\label{sssec:UC1.1} 
-\begin{itemize} 
 \item \textbf{Attori}: .
-\item \textbf{Descrizione}: dassda;
-\item \textbf{Precondizione}: sdadsa;
-\item \textbf{Postcondizione}: dada;
-\item \textbf{Scenario principale}: \begin{enumerate}\item Prova2 (UC1.1.1). 
- \end{enumerate}
+\item \textbf{Descrizione}: Registrazione;
+\item \textbf{Precondizione}: Registrazione;
+\item \textbf{Postcondizione}: Registrazione;
 \end{itemize} 
-\subsubsection{UC1.1.1 - Prova2} 
-\label{sssec:UC1.1.1} 
-\begin{itemize} 
-\item \textbf{Attori}: .
-\item \textbf{Descrizione}: speremo ben;
-\item \textbf{Precondizione}: giaaa;
-\item \textbf{Postcondizione}: aaa;
-\end{itemize} 
-\subsubsection{UC2 - secondooo} 
+\subsubsection{UC2 - Autenticazione} 
 \label{sssec:UC2} 
 \begin{itemize} 
 \item \textbf{Attori}: .
-\item \textbf{Descrizione}: sddasda;
-\item \textbf{Precondizione}: sdada;
-\item \textbf{Postcondizione}: dasda;
+\item \textbf{Descrizione}: Autenticazione;
+\item \textbf{Precondizione}: Autenticazione;
+\item \textbf{Postcondizione}: Autenticazione;
 \end{itemize} 
-\subsubsection{UC3 - daasdas} 
+\subsubsection{UC3 - Gestione Profilo} 
 \label{sssec:UC3} 
 \begin{itemize} 
 \item \textbf{Attori}: .
-\item \textbf{Descrizione}: ffasfa;
-\item \textbf{Precondizione}: sdasdda;
-\item \textbf{Postcondizione}: fdsffsa;
+\item \textbf{Descrizione}: Gestione Profilo;
+\item \textbf{Precondizione}: Gestione Profilo;
+\item \textbf{Postcondizione}: Gestione Profilo;
+\end{itemize} 
+\subsubsection{UC4 - Logout} 
+\label{sssec:UC4} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: Logout;
+\item \textbf{Precondizione}: Logout;
+\item \textbf{Postcondizione}: Logout;
+\end{itemize} 
+\subsubsection{UC5 - Gestione Progetti} 
+\label{sssec:UC5} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: Gestione Progetti;
+\item \textbf{Precondizione}: Gestione Progetti;
+\item \textbf{Postcondizione}: Gestione Progetti;
+\end{itemize} 
+\subsubsection{UC6 - Tool Designer} 
+\label{sssec:UC6} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: Tool Designer;
+\item \textbf{Precondizione}: Tool Designer;
+\item \textbf{Postcondizione}: Tool Designer;
+\item \textbf{Scenario principale}: \begin{enumerate}\item Menu (UC6.1);\item Toolbar (UC6.2);\item Mainwindows (UC6.3). 
+ \end{enumerate}
+\end{itemize} 
+\subsubsection{UC6.1 - Menu} 
+\label{sssec:UC6.1} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: Menu;
+\item \textbf{Precondizione}: Menu;
+\item \textbf{Postcondizione}: Menu;
+\end{itemize} 
+\subsubsection{UC6.2 - Toolbar} 
+\label{sssec:UC6.2} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: Toolbar;
+\item \textbf{Precondizione}: Toolbar;
+\item \textbf{Postcondizione}: Toolbar;
+\item \textbf{Scenario principale}: \begin{enumerate}\item Class Tool (UC6.2.1). 
+ \end{enumerate}
+\end{itemize} 
+\subsubsection{UC6.2.1 - Class Tool} 
+\label{sssec:UC6.2.1} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: Class Tool;
+\item \textbf{Precondizione}: Class Tool;
+\item \textbf{Postcondizione}: Class Tool;
+\item \textbf{Scenario principale}: \begin{enumerate}\item New Class (UC6.2.1.1);\item New Package (UC6.2.1.2);\item New Association (UC6.2.1.3);\item New Interface (UC6.2.1.4). 
+ \end{enumerate}
+\end{itemize} 
+\subsubsection{UC6.2.1.1 - New Class} 
+\label{sssec:UC6.2.1.1} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: New Class;
+\item \textbf{Precondizione}: New Class;
+\item \textbf{Postcondizione}: New Class;
+\end{itemize} 
+\subsubsection{UC6.2.1.2 - New Package} 
+\label{sssec:UC6.2.1.2} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: New Package;
+\item \textbf{Precondizione}: New Package;
+\item \textbf{Postcondizione}: New Package;
+\end{itemize} 
+\subsubsection{UC6.2.1.3 - New Association} 
+\label{sssec:UC6.2.1.3} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: New Association;
+\item \textbf{Precondizione}: New Association;
+\item \textbf{Postcondizione}: New Association;
+\end{itemize} 
+\subsubsection{UC6.2.1.4 - New Interface} 
+\label{sssec:UC6.2.1.4} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: New Interface;
+\item \textbf{Precondizione}: New Interface;
+\item \textbf{Postcondizione}: New Interface;
+\end{itemize} 
+\subsubsection{UC6.3 - Mainwindows} 
+\label{sssec:UC6.3} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: Mainwindows;
+\item \textbf{Precondizione}: Mainwindows;
+\item \textbf{Postcondizione}: Mainwindows;
+\end{itemize} 
+\subsubsection{UC7 - New Generalization} 
+\label{sssec:UC7} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: New Generalization;
+\item \textbf{Precondizione}: New Generalization;
+\item \textbf{Postcondizione}: New Generalization;
+\end{itemize} 
+\subsubsection{UC8 - New Entity} 
+\label{sssec:UC8} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: New Entity;
+\item \textbf{Precondizione}: New Entity;
+\item \textbf{Postcondizione}: New Entity;
 \end{itemize} 
