@@ -1,34 +1,62 @@
 A
 
-*Activity diagram: è un diagramma definito all'interno dell’UML che definisce le attività da svolgere per realizzare una data funzionalità. Può essere utilizzato durante la progettazione del software per dettagliare un determinato algoritmo.
+* Activity diagram: è un diagramma definito all'interno dell’UML che definisce le attività da svolgere per realizzare una data funzionalità. Può essere utilizzato durante la progettazione del software per dettagliare un determinato algoritmo.
 
 C
 
-*Capitolato: : atto allegato a un contratto d'appalto che intercorre tra il cliente ed una ditta in cui vengono indicate modalità, costi e tempi di realizzazione dell'opera oggetto del contratto.
+* Capitolato: : atto allegato a un contratto d'appalto che intercorre tra il cliente ed una ditta in cui vengono indicate modalità, costi e tempi di realizzazione dell'opera oggetto del contratto.
 
-*Codice: è una rappresentazione di un insieme di simboli in grado di rappresentare l'informazione che viene così codificata.
+* Client: in informatica, indica una componente che accede ai servizi o alle risorse di un'altra componente detta server, la quale fornisce il servizio richiesto.
+
+* Codice: è una rappresentazione di un insieme di simboli in grado di rappresentare l'informazione che viene così codificata.
 
 D
 
-*Dominio: nel contesto utilizzato si intende focalizzarsi su di un specifico ambito; ovvero la dove si è deciso l’ambito su cui rappresentare i diagrammi (ad esempio i giochi da tavolo), tutto ciò che riguarda argomenti esterni viene ignorato perché non fa parte di tale dominio.
+* Desktop: si intende il processo di scrittura di software che verrà eseguito in un computer standard (desktop, portatile o generico). Il software sviluppato potrebbe essere software applicativo, concepito per l'esecuzione di una o più attività e include elementi quali giochi, elaboratori di testo e applicazioni aziendali personalizzate, oppure software di supporto al sistema operativo. Solitamente una applicazione desktop richiede una installazione prima di poter esser utilizzata.
 
-*Diagrammi: è una rappresentazione simbolica di dati che si prefigge lo scopo di renderli facilmente consultabili, elaborato graficamente secondo convenzioni prestabilite. I diagrammi si differenziano in base al metodo di rappresentazione e allo scopo specifico che viene prefissato.
+* Dominio: nel contesto utilizzato si intende focalizzarsi su di un specifico ambito; ovvero la dove si è deciso l’ambito su cui rappresentare i diagrammi (ad esempio i giochi da tavolo), tutto ciò che riguarda argomenti esterni viene ignorato perché non fa parte di tale dominio.
+
+* Diagrammi: è una rappresentazione simbolica di dati che si prefigge lo scopo di renderli facilmente consultabili, elaborato graficamente secondo convenzioni prestabilite. I diagrammi si differenziano in base al metodo di rappresentazione e allo scopo specifico che viene prefissato.
+
+F
+
+* File: traducibile come "archivio", ma comunemente chiamato anche "documento"; in informatica, viene utilizzato per riferirsi a un contenitore di informazioni/dati in formato digitale. Le informazioni scritte/codificate al suo interno sono leggibili solo tramite uno specifico software in grado di effettuare l'operazione.
+
+J
+
+* Java: è un linguaggio di programmazione ad alto livello, orientato agli oggetti e a tipizzazione statica, specificatamente progettato per essere il più possibile indipendente dalla piattaforma di esecuzione.
+
+* JavaScript: è un linguaggio di \glossaryItem{scripting} orientato agli oggetti e agli eventi, comunemente utilizzato nella programmazione Web lato \glossaryItem{client} per la creazione, in siti web e web-app, di effetti dinamici interattivi tramite funzioni di script invocate da eventi innescati a loro volta in vari modi dall'utente sulla pagina web in uso (mouse, tastiera, caricamento della pagina ecc...).
+
+L
+* Layer: sinonimo di strati.
 
 M
 
-*Metodo: in informatica, è un termine che viene usato principalmente nel contesto della programmazione orientata agli oggetti per indicare un sottoprogramma associato in modo esclusivo ad una classe e che rappresenta (in genere) un'operazione eseguibile sugli oggetti e istanze di quella classe. È formato da:
+* Metodo: in informatica, è un termine che viene usato principalmente nel contesto della programmazione orientata agli oggetti per indicare un sottoprogramma associato in modo esclusivo ad una classe e che rappresenta (in genere) un'operazione eseguibile sugli oggetti e istanze di quella classe. È formato da:
 - una firma ovvero la definizione/dichiarazione del metodo con tipo di ritorno, nome del metodo, tipo e nome degli eventuali parametri passati in input.
 - un corpo, opportunamente delimitato da inizio e fine, con all'interno una o più sequenze o blocchi di istruzioni scritte per eseguire una determinata azione
 
 S
 
+* Script: in informatica, designa un tipo particolare di programma, scritto in una particolare classe di linguaggi di programmazione, detti linguaggi di scripting.
+
+T
+
+* Template: in informatica indica un documento o programma nel quale, come in un foglio semicompilato cartaceo, su una struttura generica o standard esistono spazi temporaneamente "bianchi" da riempire successivamente.
 
 U
 
-*UML: L'UML, o unified modeling language (linguaggio di modellizzazione unificato) è un linguaggio di modellazione basato sul paradigma dell'orientamento agli oggetti
+* UML: L'UML, o unified modeling language (linguaggio di modellizzazione unificato) è un linguaggio di modellazione basato sul paradigma dell'orientamento agli oggetti
 che mira a creare uno standard che possa unificare tutti i linguaggi che ne fanno uso.
+
+*Utente:è colui che usufruisce di un bene o di un servizio, generalmente collettivo, fornito da enti pubblici o strutture private. In ambito informatico è colui che interagisce con un computer.
 
 W
 
-*Web App: Si indica con Web App, genericamente, tutte quelle applicazioni web-based, ovvero un'applicazione fruibile via web tramite un network, ovvero
+* Web App: Si indica con Web App, genericamente, tutte quelle applicazioni web-based, ovvero un'applicazione fruibile via web tramite un network, ovvero
 mediante l'utilizzo di una struttura tipica client-server.
+
+Z
+
+* Zoom: sinonimo di ingrandimento.
