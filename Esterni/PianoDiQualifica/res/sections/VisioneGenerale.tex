@@ -1,4 +1,4 @@
-\section{Visione generale della strategia di gestione della qualità}
+\section{Visione generale delle strategie di verifica}
   \subsection{Definizione obiettivi di qualità}
   Questa sezione si presta a descrivere sia gli obiettivi di qualità, richiesti dal committente, riguardanti il prodotto
   che quelli relativi ai processi necessari alla sua produzione.
@@ -6,57 +6,48 @@
     Il gruppo SWEet BIT si è impegnato ad aderire allo standard \glossaryItem{ISO}/\glossaryItem{IEC} 9126, in modo garantire
     le seguenti caratteristiche di qualità per il prodotto:
     \begin{description}
-      \item [Funzionalità:] il prodotto deve soddisfare i requisiti indicati nel documento \emph{Analisi dei Requisiti}. Rispettando:
-      \begin{itemize}
-          \item Appropriatezza
-          \item Accuratezza
-          \item Interoperabilità
-          \item Conformità
-          \item Sicurezza
-      \end{itemize}
-      \item [Affidabilità:] il software prodotto deve essere robusto, deve essere prevista una completa gestione degli errori ed eccezioni,
-       in modo da prevenire perdite di dati e facilitarne il ripristino. Il software prodotto per essere affidabile deve avere le sequenti caratteristiche:
-       \begin{itemize}
-         \item Maturità
-         \item Tolleranza agli errori
-         \item Recuperabilità
-         \item Aderenza
-       \end{itemize}
-      \item [Usabilità:] il software prodotto deve risultare semplice e di facile utilizzo da parte dell'utente; esso deve essere di facile apprendimento,
-      l'interfaccia utente deve risultare familiare e intuitiva. Il prodotto deve soddisfare al meglio le esigenze dell'utente finale. Caratteristiche fondamentali sono:
-      \begin{itemize}
-        \item Comprensibilità
-        \item Apprendibilità
-        \item Operabilità
-        \item Attrattiva
-        \item Conformità
-      \end{itemize}
-      \item [Efficienza:] Il software deve essere capaci di fornire tutti i servizi attesi con il minimo dispendio di risorse. Caratteristiche critiche sono:
-      \begin{itemize}
-        \item Comportamento rispetto al tempo
-        \item Utilizzo delle risorse
-        \item Conformità
-      \end{itemize}
-      \item [Manutenibilità:] Il software prodotto deve essere facilmente modificabile, in caso di correzione di errori e migliorie da apportare; esso deve essere facilmente
-      adattabile in caso di cambio di ambiente operativo e/o cambio di requisiti. Il software deve possedere le seguenti caratteristiche:
-      \begin{itemize}
-        \item Analizzabilità
-        \item Modificabilità
-        \item Stabilità
-        \item Testabilità
-      \end{itemize}
-      \item [Portabilità:] Il software prodotto deve, per la parte \glossaryItem{front end}, offrire gli stessi servizi nella maggior parte dei \glossaryItem{browser};
-      la parte di \glossaryItem{back end} deve funzionare su vari sistemi operativi. Caratteristiche per la portabilità sono:
-      \begin{itemize}
-        \item Adattabilità
-        \item Installabilità
-        \item Conformità
-        \item Sostituibilità
-      \end{itemize}
+      \item [Funzionalità:] il prodotto deve soddisfare i requisiti indicati nel documento \emph{Analisi dei Requisiti}.
 
-    \end{description}
+      \item [Affidabilità:] il software prodotto deve essere robusto, deve essere prevista una completa gestione degli errori ed eccezioni,
+       in modo da prevenire perdite di dati e facilitarne il ripristino.
+
+      \item [Usabilità:] il software prodotto deve risultare semplice e di facile utilizzo da parte dell'utente; esso deve essere di facile apprendimento,
+      l'interfaccia utente deve risultare familiare e intuitiva. Il prodotto deve soddisfare al meglio le esigenze dell'utente finale.
+
+      \item [Efficienza:] Il software deve essere capace di fornire tutti i servizi attesi con il minimo dispendio di risorse.
+
+      \item [Manutenibilità:] Il software prodotto deve essere facilmente modificabile, in caso di correzione di errori e migliorie da apportare; esso deve essere facilmente
+      adattabile in caso di cambio di ambiente operativo e/o cambio di requisiti.
+
+      \item [Portabilità:] Il software prodotto deve, per la parte \glossaryItem{front end}, offrire gli stessi servizi nella maggior parte dei \glossaryItem{browser};
+      la parte di \glossaryItem{back end} deve funzionare su vari sistemi operativi.
+
+    Per ognuna delle caratteristiche principali appena elencate esistono diverse sotto-caratteristiche,
+    le quali sono approfondite nella sotto-sezione Standard e metodi per la gestione della Qualità dove è descritto lo standard \glossaryItem{ISO}/\glossaryItem{IEC} 9126
+    \end{description}.
+
     \subsubsection{Qualità di processo}
-    La qualità dei processi che portano allo sviluppo di un software hanno un ruolo fondamentale sulla qualità del prodotto;
-    pertanto il gruppo SWEet BIT ha adottato lo standard \glossaryItem{ISO}/\glossaryItem{IEC} 15504 detto \glossaryItem{SPICE},
-    il quale fornisce un modello per la valutazione di questi processi.
-    Si deve sottoporre ogni processo a valutazione continua
+    La qualità dei processi che portano allo sviluppo di un software hanno un ruolo fondamentale sulla qualità del prodotto.
+    Il gruppo SWEet BIT ha deciso di adottare il ciclo di Deming, o ciclo \glossaryItem{PDCA}, come modello per il continuo miglioramento dei processi produttivi;
+    come complemento al ciclo di Deming è stato scelto il modello descritto dallo standard \glossaryItem{ISO}/\glossaryItem{IEC} 15504 detto \glossaryItem{SPICE},
+    il quale fornisce gli stumenti per la valutazione dei processi produttivi.
+
+  \subsection{Organizzazione}
+    Per onguna delle fasi descritte dal \emph{Piano di progetto} è necessario seguire una verifica mirata al tipo di processo e relativo prodotto:
+    \begin{itemize}
+      \item \textbf{Analisi:} in questa fase vengono controllati i processi e la documentazione prodotta,
+      la verifica dovà essere eseguita secondo i metodi descritti nel documento \emph{Norme di progetto}.
+      \item \textbf{Analisi nel dettaglio:} durante questa fase sono verificati i processi che portano all'incemento dei documenti, e i documenti stessi, prodotti nella precedente fase di Analisi.
+      Le procedure di verifica sono descritte nel documento \emph{Norme di progetto}.
+      \item \textbf{Progettazione architetturale:} in questa fase vengono verificati i processi, e relativi prodotti, che portano all'incremento dei documenti redatti nella precedente fase;
+      sempre in questa fase sono verificati i processi e prodotti riguardanti la progettazione architetturale.
+      Le procedure di verifica sono descritte in dettaglio nel documento \emph{Norme di progetto}.
+    \end{itemize}
+  \subsection{Pianificazione strategica e temporale}
+    Intendendo rispettare le scadenze specificate nel \emph{Piano di progetto} è necessario un approccio organico e ben pianificato alle attività di verifica.
+    Deve essere pianificato ogni incremento su codice e documentazione, di conseguenza lo dovranno essere tutte le attività di verifica
+    in modo da avere il tempo di effettuare le dovute correzioni. Ogni processo di verifica dovrà essere automatizzato il più possibile, questo per poter, dove possibilie,
+    risparmiare su risorse umane. L'utilizzo di software apposito, e i metodi, per la verifica sono descritti nel documento \emph{Norme di progetto}.
+  \subsection{Gestione delle responsabilità}
+    Il \emph{Responsabile di progetto} e i \emph{Verificatori} hanno la responsabilità delle attività di verifica;
+    i compiti di queste figure sono argomento trattato nel documento \emph{Piano di progetto}.
