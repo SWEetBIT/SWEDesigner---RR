@@ -28,16 +28,16 @@ Ebbene nel \glossaryItem{dominio} dei giochi da tavolo, la ripetitività è molt
 		%risposta
 		\justifying
 		Si, a patto che venga scelto un \glossaryItem{dominio} su cui il \glossaryItem{designer} si basi.\\
-		Mettere a disposizione ad esempio una scacchiera 8x8, evitando che l'utente finale debba crearsela da zero.
+		Mettere a disposizione ad esempio una scacchiera 8x8, evitando che l'\glossaryItem{utente} finale debba crearsela da zero.
 		Ovviamente i giochi da tavolo non son l'unico \glossaryItem{dominio} su cui ci si può basare, la scelta potrebbe ricadere in altri settori, ma tale scelta deve esser fatta per poter avere dei \glossaryItem{diagrammi} e quindi del \glossaryItem{codice}.\\
-	Il dominio fin ora citato è consigliato perchè offre molti approfondimenti sull'adattamento in \glossaryItem{diagrammi} ed inoltre garantirà una fase di testing più piacevole. \\
+	Il \glossaryItem{dominio} fin ora citato è consigliato perchè offre molti approfondimenti sull'adattamento in \glossaryItem{diagrammi} ed inoltre garantirà una fase di testing più piacevole. \\
 	
 	    \item
 	    %domanda
 	    \textbf{Se viene modificato il \glossaryItem{codice} generato, il \glossaryItem{diagramma} deve aggiornarsi anch'esso?\\}
 	    \justifying
-	   È un aspetto sicuramente interessante se si riuscisse ad implementare. Solitamente dopo la creazione dei \glossaryItem{diagrammi} ed il rispettivo \glossaryItem{codice}, le successive modifiche vengono apportate solo al \glossaryItem{codice}; in quanto il \glossaryItem{diagramma} ha lo scopo principale da fungere da linea guida, rappresentando solo le classi principali, tralasciando nella visualizzazione quelle di supporto. Rappresentare tutte le classi che costituiscono il progetto,potrebbe ridurre la leggibilità del \glossaryItem{diagramma}; una soluzione potrebbe essere quella di celare o inserire in un layer diverso le classi di supporto.\\
-     Visualizzare solo lo scheletro della classe senza l'implementazione dei \glossaryItem{metodi} può esser una soluzione alla domanda posta.\\
+	   È un aspetto sicuramente interessante se si riuscisse ad implementare. Solitamente dopo la creazione dei \glossaryItem{diagrammi} ed il rispettivo \glossaryItem{codice}, le successive modifiche vengono apportate solo al \glossaryItem{codice}; in quanto il \glossaryItem{diagramma} ha lo scopo principale da fungere da linea guida, rappresentando solo le \glossaryItem{classi} principali, tralasciando nella visualizzazione quelle di supporto. Rappresentare tutte le \glossaryItem{classi} che costituiscono il progetto,potrebbe ridurre la leggibilità del \glossaryItem{diagramma}; una soluzione potrebbe essere quella di celare o inserire in un \glossaryItem{layer} diverso le \glossaryItem{classi} di supporto.\\
+     Visualizzare solo lo scheletro della \glossaryItem{classe} senza l'implementazione dei \glossaryItem{metodi} può esser una soluzione alla domanda posta.\\
 	     
 	   	 \item
 	   	 %domanda
@@ -51,7 +51,7 @@ Ebbene nel \glossaryItem{dominio} dei giochi da tavolo, la ripetitività è molt
 	   	 \textbf{Il \glossaryItem{codice} prodotto deve esser in formato \glossaryItem{Java} o \glossaryItem{JavaScript}?\\}
 	   	 %risposta
 	   	 \justifying
-	   	 Nella fase di disegno dei \glossaryItem{diagrammi} , in particolare a quelli dei \glossaryItem{metodi}, si deve procedere in modo astratto , ovvero tracciando solo l'algoritmo necessario al \glossaryItem{metodo} in esame. Procedendo con quest'ottica si può generare \glossaryItem{codice} in entrambi i linguaggi. Proseguire in quest'ottica di pensare per specifiche risulta interessante ed una buona sfida , ma se si decidesse di pensare per programma, iI consiglio è quello di procedere inizialmente con Java, il quale è un linguaggio più controllato e verificato.\\
+	   	 Nella fase di disegno dei \glossaryItem{diagrammi} , in particolare a quelli dei \glossaryItem{metodi}, si deve procedere in modo astratto , ovvero tracciando solo l'algoritmo necessario al \glossaryItem{metodo} in esame. Procedendo con quest'ottica si può generare \glossaryItem{codice} in entrambi i linguaggi. Proseguire in quest'ottica di pensare per specifiche risulta interessante ed una buona sfida , ma se si decidesse di pensare per programma, iI consiglio è quello di procedere inizialmente con \glossaryItem{Java}, il quale è un linguaggio più controllato e verificato.\\
 		
 		   	 \item
 	   	 %domanda
@@ -65,12 +65,12 @@ Ebbene nel \glossaryItem{dominio} dei giochi da tavolo, la ripetitività è molt
 	   	 \textbf{Considerando che il numero di gruppi che aderiscono a tale \glossaryItem{capitolato} è aumentato, alcuni dei requisiti opzionali son diventati obbligatori?\\}
 	   	 %risposta
 	   	\justifying
-	   	I requisiti opzionali rimangono invariati, un aspetto su cui focalizzarsi è lo studio dell'\glossaryItem{UML}. Il progetto consiste nel creare un disegnatore che abbia il \glossaryItem{diagramma} della classe con i rispettivi \glossaryItem{diagrammi} dei \glossaryItem{metodi}; la soluzione di come rappresentare il collegamento tra questi \glossaryItem{diagrammi}, è sicuramente il punto su cui ci si deve concentrare, proponendo anche modelli ibridi dei \glossaryItem{diagrammi}.\\
+	   	I requisiti opzionali rimangono invariati, un aspetto su cui focalizzarsi è lo studio dell'\glossaryItem{UML}. Il progetto consiste nel creare un disegnatore che abbia il \glossaryItem{diagramma} della \glossaryItem{classe} con i rispettivi \glossaryItem{diagrammi} dei \glossaryItem{metodi}; la soluzione di come rappresentare il collegamento tra questi \glossaryItem{diagrammi}, è sicuramente il punto su cui ci si deve concentrare, proponendo anche modelli ibridi dei \glossaryItem{diagrammi}.\\
 	   	 
 	   	 		\item
 	   	 %domanda
 	   	 \textbf{Ci devono esser dei controlli nella costruzione del \glossaryItem{diagramma}? e come devo restituire il \glossaryItem{codice} generato? \\}
 	   	 %risposta
 	   	\justifying
-	   	 Ciò che viene restituito può essere un pacchetto contenente i \glossaryItem{file} oppure una visualizzazione testuale del \glossaryItem{codice}; l'importante è che venga visualizzato il risultato che l'\glossaryItem{utente} si aspetta. Per quanto riguarda i controlli, son un lavoro di cortesia, evitare che l'utente durante la fase di "disegno" faccia degli errori come ad esempio dimenticarsi il nome della classe è sicuramente apprezzato. Ovviamente se si desse la possibilità di aggiungere nel \glossaryItem{diagramma} un rettangolo dove si possa aggiungere del \glossaryItem{codice} manualmente, in quella situazione risulterà impegnativo gestire automaticamente l'errore. 
+	   	 Ciò che viene restituito può essere un pacchetto contenente i \glossaryItem{file} oppure una visualizzazione testuale del \glossaryItem{codice}; l'importante è che venga visualizzato il risultato che l'\glossaryItem{utente} si aspetta. Per quanto riguarda i controlli, son un lavoro di cortesia, evitare che l'\glossaryItem{utente} durante la fase di "disegno" faccia degli errori come ad esempio dimenticarsi il nome della \glossaryItem{classe} è sicuramente apprezzato. Ovviamente se si desse la possibilità di aggiungere nel \glossaryItem{diagramma} un rettangolo dove si possa aggiungere del \glossaryItem{codice} manualmente, in quella situazione risulterà impegnativo gestire automaticamente l'errore. 
 	   	 \end{itemize}
