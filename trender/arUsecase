@@ -73,7 +73,7 @@
 \item \textbf{Descrizione}: L'attore, per la creazione di un diagramma della classi ha la possibilità di selezionare una nuova classe, inserire un package per raggruppare delle classi o inserire delle relazioni tra le classi.;
 \item \textbf{Precondizione}: è disponibile un foglio di lavoro dove inserire gli oggetti desiderati;
 \item \textbf{Postcondizione}: Il sistema inserisce all'interno della mainwindows gli elementi selezionati dall'utente;
-\item \textbf{Scenario principale}: \begin{enumerate}\item New Class (UC6.2.1.1);\item New Package (UC6.2.1.2);\item New Association (UC6.2.1.3);\item New Interface (UC6.2.1.4). 
+\item \textbf{Scenario principale}: \begin{enumerate}\item New Class (UC6.2.1.1);\item New package (UC6.2.1.2);\item New Association (UC6.2.1.3). 
  \end{enumerate}
 \end{itemize} 
 \subsubsection{UC6.2.1.1 - New Class} 
@@ -152,13 +152,13 @@
 \item \textbf{Precondizione}: viene visualizzato un form che permette l'assegnazione della keyword <<interface>>;
 \item \textbf{Postcondizione}: il sistema registra il dato inserito;
 \end{itemize} 
-\subsubsection{UC6.2.1.2 - New Package} 
+\subsubsection{UC6.2.1.2 - New package} 
 \label{sssec:UC6.2.1.2} 
 \begin{itemize} 
 \item \textbf{Attori}: .
-\item \textbf{Descrizione}: New Package;
-\item \textbf{Precondizione}: New Package;
-\item \textbf{Postcondizione}: New Package;
+\item \textbf{Descrizione}: New package;
+\item \textbf{Precondizione}: New package;
+\item \textbf{Postcondizione}: New package;
 \end{itemize} 
 \subsubsection{UC6.2.1.3 - New Association} 
 \label{sssec:UC6.2.1.3} 
@@ -167,14 +167,6 @@
 \item \textbf{Descrizione}: New Association;
 \item \textbf{Precondizione}: New Association;
 \item \textbf{Postcondizione}: New Association;
-\end{itemize} 
-\subsubsection{UC6.2.1.4 - New Interface} 
-\label{sssec:UC6.2.1.4} 
-\begin{itemize} 
-\item \textbf{Attori}: .
-\item \textbf{Descrizione}: New Interface;
-\item \textbf{Precondizione}: New Interface;
-\item \textbf{Postcondizione}: New Interface;
 \end{itemize} 
 \subsubsection{UC6.3 - Mainwindows} 
 \label{sssec:UC6.3} 
@@ -193,7 +185,7 @@
 \item \textbf{Descrizione}: Interazione con la schermata principale;
 \item \textbf{Precondizione}: L'utente crea o apre un progetto.;
 \item \textbf{Postcondizione}: L'utente chiude il progetto.;
-\item \textbf{Scenario principale}: \begin{enumerate}\item Elimina Classe (UC6.3.1.1);\item Elimina Relazione (UC6.3.1.2);\item Elimina pacchetto (UC6.3.1.3);\item Elimina Flowchart (UC6.3.1.4);\item Modifica Classe (UC6.3.1.5);\item Modifica Relazione (UC6.3.1.6);\item Modifica pacchetto (UC6.3.1.7). 
+\item \textbf{Scenario principale}: \begin{enumerate}\item Elimina Classe (UC6.3.1.1);\item Elimina Relazione (UC6.3.1.2);\item Elimina pacchetto (UC6.3.1.3);\item Elimina Flowchart (UC6.3.1.4);\item Modifica Classe (UC6.3.1.5);\item Modifica Relazione (UC6.3.1.6);\item Modifica pacchetto (UC6.3.1.7);\item Modifica flowchart (UC6.3.1.8);\item Eliminazione Interfaccia (UC6.3.1.9). 
  \end{enumerate}
 \end{itemize} 
 \subsubsection{UC6.3.1.1 - Elimina Classe} 
@@ -255,7 +247,7 @@
 \item \textbf{Descrizione}: Elimina il flowchart di un metodo.;
 \item \textbf{Precondizione}: È stato creato il flowchart di un metodo.;
 \item \textbf{Postcondizione}: Elimina il flowchart di un metodo, i collegamenti con le classi coinvolte e tutti i suoi elementi.;
-\item \textbf{Scenario principale}: \begin{enumerate}\item Elimina punto entrata/uscita (UC6.3.1.4.1);\item Eliminazione blocco I/O (UC6.3.1.4.2);\item Eliminazione relazione (UC6.3.1.4.3). 
+\item \textbf{Scenario principale}: \begin{enumerate}\item Elimina punto entrata/uscita (UC6.3.1.4.1);\item Eliminazione blocco I/O (UC6.3.1.4.2);\item Eliminazione relazione (UC6.3.1.4.3);\item Eliminazione processo (UC6.3.1.4.4);\item Eliminazione blocco decisione (UC6.3.1.4.5);\item Eliminazione processo predefinito (UC6.3.1.4.6);\item Eliminare una preparazione (UC6.3.1.4.7);\item Eliminare on-page connector (UC6.3.1.4.8);\item Eliminare off-page connector (UC6.3.1.4.9). 
  \end{enumerate}
 \end{itemize} 
 \subsubsection{UC6.3.1.4.1 - Elimina punto entrata/uscita} 
@@ -283,6 +275,55 @@
 \item \textbf{Precondizione}: Esiste un flowchart contenente almeno due elementi in relazione fra loro.;
 \item \textbf{Postcondizione}: La relazione fra i due elementi viene cancellata assieme alla sua annotazione e il flowchart risultante non può generare codice.;
 \item \textbf{Scenario principale}: L'utente ha creato un flowchart con almeno due elementi in connessione fra loro e desidera eliminare quest'ultima.;\end{itemize} 
+\subsubsection{UC6.3.1.4.4 - Eliminazione processo} 
+\label{sssec:UC6.3.1.4.4} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: Eliminazione del blocco di processo.;
+\item \textbf{Precondizione}: È stato creato un flowchart con almeno un blocco di processo al suo interno.;
+\item \textbf{Postcondizione}: Viene eliminato il blocco di processo selezionato assieme alle sue relazioni. Il flowchart risultante non potrà generare codice.;
+\item \textbf{Scenario principale}: L'utente ha disegnato un flowchart con almeno un blocco di rpocesso al suo interno e desidera eliminarlo.;\end{itemize} 
+\subsubsection{UC6.3.1.4.5 - Eliminazione blocco decisione} 
+\label{sssec:UC6.3.1.4.5} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: Eliminazione di un blocco di decisione all'interno del flowchart.;
+\item \textbf{Precondizione}: È stato creato un flowchart con almeno un blocco di decisione al suo interno.;
+\item \textbf{Postcondizione}: Il blocco di decisione selezionato è stato eliminato assieme alle sue relazioni. Il flowchart risultante non potrà generare codice.;
+\item \textbf{Scenario principale}: L'utente ha  disegnato un flowchart con almeno un blocco di decisione al suo interno e desidera eliminarlo.;\end{itemize} 
+\subsubsection{UC6.3.1.4.6 - Eliminazione processo predefinito} 
+\label{sssec:UC6.3.1.4.6} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: Eliminazione di un processo predefinito all'interno del flowchart.;
+\item \textbf{Precondizione}: È stato creato un flowchart con almeno un processo predefinito al suo interno.;
+\item \textbf{Postcondizione}: Il processo predefinito selezionato viene eliminato e con lui le sue relazioni e il flowchart di riferimento. Il flowchart risultante non potrà generare codice.;
+\item \textbf{Scenario principale}: L'utente ha disegnato un flowchart con almeno un processo predefinito al suo interno e desidera eliminarlo.;\end{itemize} 
+\subsubsection{UC6.3.1.4.7 - Eliminare una preparazione} 
+\label{sssec:UC6.3.1.4.7} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: Eliminazione di una preparazione;
+\item \textbf{Precondizione}: È stato disegnato un flowchart con almeno una preparazione al suo interno.;
+\item \textbf{Postcondizione}: La preparazione selezionata viene eliminata assieme alle sue relazioni. Il flowchart risultante non potrà generare codice.;
+\item \textbf{Scenario principale}: L'utente ha disegnato un flowchart con almeno una preparazione al suo interno e desidera eliminarla.;\end{itemize} 
+\subsubsection{UC6.3.1.4.8 - Eliminare on-page connector} 
+\label{sssec:UC6.3.1.4.8} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: Eliminazione di un on-page connector;
+\item \textbf{Precondizione}: È stato creato un flowchart con almeno un on-page connector al suo interno.;
+\item \textbf{Postcondizione}: L'on-page connector selezionato viene eliminato assieme alle sue relazioni. Il flowchart risultante non potrà generare codice.;
+\item \textbf{Scenario principale}: L'utente ha disegnato un flowchart con almeno un on-page connector al suo interno e desidera eliminarlo.;\end{itemize} 
+\subsubsection{UC6.3.1.4.9 - Eliminare off-page connector} 
+\label{sssec:UC6.3.1.4.9} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: Eliminazione di un off-page connector dal flowchart.;
+\item \textbf{Precondizione}: È stato creato un flowchart con almeno un off-page connector al suo interno.;
+\item \textbf{Postcondizione}: L'off-page connector viene eliminato assieme alle sue relazioni. Il flowchart risultante non potrà generare codice.;
+\item \textbf{Scenario principale}: L'utente ha creato un flowchart con almeno un off-page connector e desidera eliminarlo.
+;\end{itemize} 
 \subsubsection{UC6.3.1.5 - Modifica Classe} 
 \label{sssec:UC6.3.1.5} 
 \begin{itemize} 
@@ -359,3 +400,111 @@
 \item \textbf{Precondizione}: Esiste un pacchetto con almeno una classe al suo interno.;
 \item \textbf{Postcondizione}: La classe selezionata si trova fuori dal pacchetto.;
 \item \textbf{Scenario principale}: L'utente trascina la classe dal pacchetto al suo esterno.;\end{itemize} 
+\subsubsection{UC6.3.1.8 - Modifica flowchart} 
+\label{sssec:UC6.3.1.8} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: Modifica di un flowchart selezionato;
+\item \textbf{Precondizione}: È stato creato un flowchart;
+\item \textbf{Postcondizione}: Il flowchart selezionato è stato modificato;
+\item \textbf{Scenario principale}: \begin{enumerate}\item Modifica blocchi inizio/fine (UC6.3.1.8.1);\item Modifica blocco di I/O (UC6.3.1.8.2);\item Modifica relazione (UC6.3.1.8.3);\item Modifica processo (UC6.3.1.8.4);\item Modifica processo predefinito (UC6.3.1.8.5);\item Modifica di una preparazione (UC6.3.1.8.6);\item Modifica on-page connector (UC6.3.1.8.7);\item Modifica off-page connector (UC6.3.1.8.8). 
+ \end{enumerate}
+\end{itemize} 
+\subsubsection{UC6.3.1.8.1 - Modifica blocchi inizio/fine} 
+\label{sssec:UC6.3.1.8.1} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: Modifica dei blocchi di inizio/fine;
+\item \textbf{Precondizione}: È stato creato un flowchart con almeno un blocco di inizio/fine.;
+\item \textbf{Postcondizione}: I blocchi di inizio/fine vengono modificati dall'utente.;
+\item \textbf{Scenario principale}: L'utente ha creato un flowchart con almeno un blocco di inizio/fine;\end{itemize} 
+\subsubsection{UC6.3.1.8.2 - Modifica blocco di I/O} 
+\label{sssec:UC6.3.1.8.2} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: Modifica di un blocco I/O all'interno del flowchart.;
+\item \textbf{Precondizione}: È stato creato un flowchart con almeno un blocco di I/O al suo interno.;
+\item \textbf{Postcondizione}: Il blocco di I/O selezionato viene modificato riferendosi così ad un altro elemento di una classe.;
+\item \textbf{Scenario principale}: L'utente ha disegnato un flowchart con almeno un blocco di I/O al suo interno e desidera modificarlo.;\end{itemize} 
+\subsubsection{UC6.3.1.8.3 - Modifica relazione} 
+\label{sssec:UC6.3.1.8.3} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: Modifica di una relazione all'interno del flowchart;
+\item \textbf{Precondizione}: È stato creato un flowchart con almeno due elementi in relazione fra di loro.;
+\item \textbf{Postcondizione}: L'annotazione della relazione fra i due oggetti è stata modificata.;
+\item \textbf{Scenario principale}: L'utente ha disegnato un flowchart con almeno due elementi in realzione fra di loro e desidera modificare quest'ultima.;\end{itemize} 
+\subsubsection{UC6.3.1.8.4 - Modifica processo} 
+\label{sssec:UC6.3.1.8.4} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: Modifica di un processo;
+\item \textbf{Precondizione}: È stato creato un flowchart con almeno un processo al suo interno.;
+\item \textbf{Postcondizione}: Il processo selezionato è stato modificato.;
+\item \textbf{Scenario principale}: L'utente ha disegnato un flowchart con all'interno un processo e desidera modificarlo.;\end{itemize} 
+\subsubsection{UC6.3.1.8.5 - Modifica processo predefinito} 
+\label{sssec:UC6.3.1.8.5} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: Modifica di un processo predefinito all'interno del flowchart;
+\item \textbf{Precondizione}: È stato creato un flowchart con almeno un processo predefinito al suo interno.;
+\item \textbf{Postcondizione}: Il processo predefinito selezionato è stato modificato.;
+\item \textbf{Scenario principale}: L'utente ha disegnato un processo predefinito all'interno del flowchart e desidera modificarlo.;\end{itemize} 
+\subsubsection{UC6.3.1.8.6 - Modifica di una preparazione} 
+\label{sssec:UC6.3.1.8.6} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: Modifica di una preparazione all'interno del flowchart.;
+\item \textbf{Precondizione}: È stato creato un flowchart con almeno un preparazione al suo interno.;
+\item \textbf{Postcondizione}: La preparazione selezionata è stata modificata.;
+\item \textbf{Scenario principale}: L'utente ha disegnato un flowchart con almeno una preparazione al suo interno e desidera modificarla.;\end{itemize} 
+\subsubsection{UC6.3.1.8.7 - Modifica on-page connector} 
+\label{sssec:UC6.3.1.8.7} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: Modifica di un on-page connector all'interno del flowchart.;
+\item \textbf{Precondizione}: È stato creato un flowchart con almeno un on-page connector al suo interno.;
+\item \textbf{Postcondizione}: L'on-page connector selezionato è stato modificato.;
+\item \textbf{Scenario principale}: L'utente ha creato un flowchart con almeno un on-page connector al suo interno e desidera modificarlo.;\end{itemize} 
+\subsubsection{UC6.3.1.8.8 - Modifica off-page connector} 
+\label{sssec:UC6.3.1.8.8} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: Modifica dell'off-page connector al'interno di un flowchart.;
+\item \textbf{Precondizione}: È stato creato un flowchart con almeno un off-page connector al suo interno.;
+\item \textbf{Postcondizione}: L'off-page conncetor selezionato è stato eliminato.;
+\item \textbf{Scenario principale}: L'utente ha creato un flowchart con almeno un off-page connector al suo interno e desidera modificarlo.;\end{itemize} 
+\subsubsection{UC6.3.1.9 - Eliminazione Interfaccia} 
+\label{sssec:UC6.3.1.9} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: Eliminazione di un'interfaccia nel designer.;
+\item \textbf{Precondizione}: È stata creata un'interfaccia all'interno del designer.;
+\item \textbf{Postcondizione}: L'interfaccia selezionata è stata eliminata assieme ai suoi elementi.;
+\item \textbf{Scenario principale}: \begin{enumerate}\item Eliminazione Nome (UC6.3.1.9.1);\item Eliminazione attributo (UC6.3.1.9.2);\item Eliminazione Metodo (UC6.3.1.9.3). 
+ \end{enumerate}
+\end{itemize} 
+\subsubsection{UC6.3.1.9.1 - Eliminazione Nome} 
+\label{sssec:UC6.3.1.9.1} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: Eliminazione del nome dell'interfaccia;
+\item \textbf{Precondizione}: È stata creata un'interfaccia all'interno del designer;
+\item \textbf{Postcondizione}: Il nome dell'interfaccia selezionata viene eliminato.;
+\item \textbf{Scenario principale}: L'utente ha disegnato un'interfaccia all'interno del designer e desidera eliminarne il nome.;\end{itemize} 
+\subsubsection{UC6.3.1.9.2 - Eliminazione attributo} 
+\label{sssec:UC6.3.1.9.2} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: Eliminazione di un attributo dell'interfaccia.;
+\item \textbf{Precondizione}: È stata creata n'interfaccia con almeno un attributo al suo interno.;
+\item \textbf{Postcondizione}: L'attributo selezionato viene eliminato.;
+\item \textbf{Scenario principale}: L'utente ha disegnato un'interfaccia con almeno un attributo al suo interno e desidera eliminarlo.;\end{itemize} 
+\subsubsection{UC6.3.1.9.3 - Eliminazione Metodo} 
+\label{sssec:UC6.3.1.9.3} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: Eliminazione di un metodo dell'interfaccia;
+\item \textbf{Precondizione}: È stata creata un'interfaccia con almeno un metodo al suo interno.;
+\item \textbf{Postcondizione}: Il metodo selezionato è stato eliminato assieme al suo eventuale flowchart associato.;
+\item \textbf{Scenario principale}: L'utente ha creato un'interfaccia con almeno un metodo al suo interno e desidera eliminarlo.;\end{itemize} 
