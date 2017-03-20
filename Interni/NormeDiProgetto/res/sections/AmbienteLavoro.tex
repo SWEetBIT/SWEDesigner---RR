@@ -59,8 +59,17 @@
         Per ridurre al minimo gli errori di calcolo di alcuni indici o di formattazione del testo si è scelto di utilizzare alcuni strumenti
         automatici che si occupano di svolgere alcuni semplici compiti di calcolo e formattazione:
         \begin{itemize}
-          \item \large{TOOL INDICE DI GULPEASE}
-          \item \large{GLOSSARIZZAZIONE DEI TERMINI}
+          \item \textbf{Script Perl per il calcolo dell'indice di Gulpease: }All'interno della directory \path{tools\gulpease} dentro la repository è presente
+          uno script in Perl per il calcolo automatico dell'indice di Gulpease che segue la seguente formula:
+          \begin{center}
+            \begin{equation}
+              Gulpease Index = 89+\frac{300*( numero delle frasi ) - 10*( numero delle lettere )}{numero delle parole}
+            \end{equation}
+          \end{center}
+          \item \textbf{Script Per per la glossarizzazione dei termini: }Per ridurre al minimo gli errori nell'inserimento di un termine all'interno
+          del \emph{Glossario} si è deciso di utilizzare uno script in Perl, reperibile nella directory \path{tools\glossary}, che si occupa di inserire
+          il comando \LaTeX \textbackslash glossaryItem{} su tutti i termini presenti all'interno del \emph{Glossario} dati in input un \emph{Glossario}
+          e un documento;
           \item \textbf{Aspell: }si tratta di un tool offerto dall'editor stesso o presente in forma stand-alone che effettua un controllo ortografico
           su tutto il documento;
         \end{itemize}
