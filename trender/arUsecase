@@ -83,10 +83,10 @@
 \item \textbf{Descrizione}: New Class;
 \item \textbf{Precondizione}: New Class;
 \item \textbf{Postcondizione}: New Class;
-\item \textbf{Scenario principale}: \begin{enumerate}\item Add class name (UC6.2.1.1.1);\item Aggiunta attributo (UC6.2.1.1.2);\item Assegna classe abstract (UC6.2.1.1.3). 
+\item \textbf{Scenario principale}: \begin{enumerate}\item Aggiunta nome (UC6.2.1.1.1);\item Aggiunta attributo (UC6.2.1.1.2);\item Assegnazione abstract (UC6.2.1.1.3);\item Assegnazione interface (UC6.2.1.1.4). 
  \end{enumerate}
 \end{itemize} 
-\subsubsection{UC6.2.1.1.1 - Add class name} 
+\subsubsection{UC6.2.1.1.1 - Aggiunta nome} 
 \label{sssec:UC6.2.1.1.1} 
 \begin{itemize} 
 \item \textbf{Attori}: .
@@ -101,13 +101,55 @@
 \item \textbf{Descrizione}: l'attore inserisce un attributo per la classe selezionata;
 \item \textbf{Precondizione}: viene visualizzato un form che permette l'inserimento di attributi della classe;
 \item \textbf{Postcondizione}: il sistema registra il dato inserito;
+\item \textbf{Scenario principale}: \begin{enumerate}\item Aggiunta visibilità attributo (UC6.2.1.1.2.1);\item Aggiunta nome attributo (UC6.2.1.1.2.2);\item Aggiunta tipo attributo (UC6.2.1.1.2.3);\item Aggiunta valore default attributo (UC6.2.1.1.2.4). 
+ \end{enumerate}
 \end{itemize} 
-\subsubsection{UC6.2.1.1.3 - Assegna classe abstract} 
+\subsubsection{UC6.2.1.1.2.1 - Aggiunta visibilità attributo} 
+\label{sssec:UC6.2.1.1.2.1} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: viene scelta dall'attore la visibilità per l'attributo;
+\item \textbf{Precondizione}: viene visualizzato un form che permette la selezione della visibilità;
+\item \textbf{Postcondizione}: il sistema registra il dato inserito;
+\item \textbf{Scenario principale}: Viene scelta la visibilità nell'insieme di valori disponibili;\end{itemize} 
+\subsubsection{UC6.2.1.1.2.2 - Aggiunta nome attributo} 
+\label{sssec:UC6.2.1.1.2.2} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: viene inserito dall'attore il nome per l'attributo;
+\item \textbf{Precondizione}: viene visualizzato un form che permette l'inserimento del nome dell'attributo;
+\item \textbf{Postcondizione}: il sistema registra il dato inserito;
+\end{itemize} 
+\subsubsection{UC6.2.1.1.2.3 - Aggiunta tipo attributo} 
+\label{sssec:UC6.2.1.1.2.3} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: viene inserito il tipo dell'attributo che si sta inserendo;
+\item \textbf{Precondizione}: viene visualizzato un form che permette l'inserimento tipo dell'attributo;
+\item \textbf{Postcondizione}: il sistema registra il dato inserito;
+\end{itemize} 
+\subsubsection{UC6.2.1.1.2.4 - Aggiunta valore default attributo} 
+\label{sssec:UC6.2.1.1.2.4} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: viene inserito il valore di default che può avere l'attributo;
+\item \textbf{Precondizione}: viene visualizzato un form che permette l'inserimento del valore di default dell'attributo;
+\item \textbf{Postcondizione}: il sistema registra il dato inserito;
+\end{itemize} 
+\subsubsection{UC6.2.1.1.3 - Assegnazione abstract} 
 \label{sssec:UC6.2.1.1.3} 
 \begin{itemize} 
 \item \textbf{Attori}: .
-\item \textbf{Descrizione}: l'attore definisce le la classe è astratta;
+\item \textbf{Descrizione}: l'attore definisce se la classe è astratta;
 \item \textbf{Precondizione}: viene visualizzato un form che permette l'assegnazione della keyword <<abstract>>;
+\item \textbf{Postcondizione}: il sistema registra il dato inserito;
+\end{itemize} 
+\subsubsection{UC6.2.1.1.4 - Assegnazione interface} 
+\label{sssec:UC6.2.1.1.4} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: l'attore definisce se la classe un'interfaccia;
+\item \textbf{Precondizione}: viene visualizzato un form che permette l'assegnazione della keyword <<interface>>;
 \item \textbf{Postcondizione}: il sistema registra il dato inserito;
 \end{itemize} 
 \subsubsection{UC6.2.1.2 - New Package} 
@@ -151,7 +193,7 @@
 \item \textbf{Descrizione}: Interazione con la schermata principale;
 \item \textbf{Precondizione}: L'utente crea o apre un progetto.;
 \item \textbf{Postcondizione}: L'utente chiude il progetto.;
-\item \textbf{Scenario principale}: \begin{enumerate}\item Elimina Classe (UC6.3.1.1);\item Elimina Relazione (UC6.3.1.2);\item Elimina pacchetto (UC6.3.1.3);\item Elimina Flowchart (UC6.3.1.4);\item Modifica Classe (UC6.3.1.5);\item Modifica Relazione (UC6.3.1.6). 
+\item \textbf{Scenario principale}: \begin{enumerate}\item Elimina Classe (UC6.3.1.1);\item Elimina Relazione (UC6.3.1.2);\item Elimina pacchetto (UC6.3.1.3);\item Elimina Flowchart (UC6.3.1.4);\item Modifica Classe (UC6.3.1.5);\item Modifica Relazione (UC6.3.1.6);\item Modifica pacchetto (UC6.3.1.7). 
  \end{enumerate}
 \end{itemize} 
 \subsubsection{UC6.3.1.1 - Elimina Classe} 
@@ -194,7 +236,7 @@
 \label{sssec:UC6.3.1.2} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: Viene eliminata una relazione fra Classi;
+\item \textbf{Descrizione}: Viene eliminata una relazione fra oggetti all'interno del designer.;
 \item \textbf{Precondizione}: È stata disegnata una Relazione.;
 \item \textbf{Postcondizione}: Viene eliminata la relazione selezionata ed eventuali etichette associate.;
 \item \textbf{Scenario principale}: L'utente ha disegnato una relazione, la seleziona e decide di cancellarla.;\end{itemize} 
@@ -213,7 +255,34 @@
 \item \textbf{Descrizione}: Elimina il flowchart di un metodo.;
 \item \textbf{Precondizione}: È stato creato il flowchart di un metodo.;
 \item \textbf{Postcondizione}: Elimina il flowchart di un metodo, i collegamenti con le classi coinvolte e tutti i suoi elementi.;
-\item \textbf{Scenario principale}: L'utente ha disegnato un flowchart e decide di eliminarlo.;\end{itemize} 
+\item \textbf{Scenario principale}: \begin{enumerate}\item Elimina punto entrata/uscita (UC6.3.1.4.1);\item Eliminazione blocco I/O (UC6.3.1.4.2);\item Eliminazione relazione (UC6.3.1.4.3). 
+ \end{enumerate}
+\end{itemize} 
+\subsubsection{UC6.3.1.4.1 - Elimina punto entrata/uscita} 
+\label{sssec:UC6.3.1.4.1} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: Eliminazione del punto di entrata o di uscita del flowchart.;
+\item \textbf{Precondizione}: È stato creato un flowchart con almeno un punto di entrata o almeno un punto di uscita.;
+\item \textbf{Postcondizione}: Il flowchart risultante manca di entrata o uscita e non potrà generare codice.;
+\item \textbf{Scenario principale}: L'utente ha creato un flowchart con almeno un unto di entrata o di uscita che desidera eliminare.;\end{itemize} 
+\subsubsection{UC6.3.1.4.2 - Eliminazione blocco I/O} 
+\label{sssec:UC6.3.1.4.2} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: Eliminazione del blocco I/O selezionato.;
+\item \textbf{Precondizione}: È stato creato un flowchart con almeno un blocco di I/o al suo interno.;
+\item \textbf{Postcondizione}: Il blocco di I/O selezionato viene eliminato assieme alle sue relazioni. Il flowchart risultante non può generare codice.;
+\item \textbf{Scenario principale}: L'utente ha creato un flowchart con almeno un blocco di I/O che vuole eliminare.
+;\end{itemize} 
+\subsubsection{UC6.3.1.4.3 - Eliminazione relazione} 
+\label{sssec:UC6.3.1.4.3} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: Eliminazione della relazione fra i blocchi del flowchart.;
+\item \textbf{Precondizione}: Esiste un flowchart contenente almeno due elementi in relazione fra loro.;
+\item \textbf{Postcondizione}: La relazione fra i due elementi viene cancellata assieme alla sua annotazione e il flowchart risultante non può generare codice.;
+\item \textbf{Scenario principale}: L'utente ha creato un flowchart con almeno due elementi in connessione fra loro e desidera eliminare quest'ultima.;\end{itemize} 
 \subsubsection{UC6.3.1.5 - Modifica Classe} 
 \label{sssec:UC6.3.1.5} 
 \begin{itemize} 
@@ -256,3 +325,37 @@
 \item \textbf{Precondizione}: È stata creata una relazione fra due o più classi.;
 \item \textbf{Postcondizione}: L'etichetta della relazione corrente è stata modificata.;
 \item \textbf{Scenario principale}: L'utente ha creato una nuova relazione fra classi e desidera modificarne l'etichetta.;\end{itemize} 
+\subsubsection{UC6.3.1.7 - Modifica pacchetto} 
+\label{sssec:UC6.3.1.7} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: Modifica un pacchetto.;
+\item \textbf{Precondizione}: È stato creato un pacchetto.;
+\item \textbf{Postcondizione}: Il pacchetto è stato modificato.;
+\item \textbf{Scenario principale}: \begin{enumerate}\item Modifica Nome (UC6.3.1.7.1);\item Eliminare classe (UC6.3.1.7.2);\item Estrarre classe (UC6.3.1.7.3). 
+ \end{enumerate}
+\end{itemize} 
+\subsubsection{UC6.3.1.7.1 - Modifica Nome} 
+\label{sssec:UC6.3.1.7.1} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: Modifica il nome di un pacchetto.;
+\item \textbf{Precondizione}: È stato creato un pacchetto.;
+\item \textbf{Postcondizione}: Il nome del pacchetto selezionato viene modificato.;
+\item \textbf{Scenario principale}: L'utente ha creato un nuovo pacchetto di cui desidera cambiare il nome.;\end{itemize} 
+\subsubsection{UC6.3.1.7.2 - Eliminare classe} 
+\label{sssec:UC6.3.1.7.2} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: Viene eliminata una classe all'interno del pacchetto.;
+\item \textbf{Precondizione}: Esiste un pacchetto con almeno una classe al suo interno.;
+\item \textbf{Postcondizione}: La classe selezionata viene eliminata dal pacchetto.;
+\item \textbf{Scenario principale}: L'utente ha inserito almeno una classe all'interno del pacchetto.;\end{itemize} 
+\subsubsection{UC6.3.1.7.3 - Estrarre classe} 
+\label{sssec:UC6.3.1.7.3} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: Una classe viene estratta dal pacchetto.;
+\item \textbf{Precondizione}: Esiste un pacchetto con almeno una classe al suo interno.;
+\item \textbf{Postcondizione}: La classe selezionata si trova fuori dal pacchetto.;
+\item \textbf{Scenario principale}: L'utente trascina la classe dal pacchetto al suo esterno.;\end{itemize} 
