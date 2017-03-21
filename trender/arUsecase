@@ -175,7 +175,7 @@
 \item \textbf{Descrizione}: Mainwindows;
 \item \textbf{Precondizione}: Mainwindows;
 \item \textbf{Postcondizione}: Mainwindows;
-\item \textbf{Scenario principale}: \begin{enumerate}\item MainFrame (UC6.3.1). 
+\item \textbf{Scenario principale}: \begin{enumerate}\item MainFrame (UC6.3.1);\item Zoom-in (UC6.3.2);\item Zoom-out (UC6.3.3);\item Drag di un oggetto (UC6.3.4);\item Aggiunta relazione (UC6.3.5);\item Bottoni Switch (UC6.3.6);\item SideFrame (UC6.3.7). 
  \end{enumerate}
 \end{itemize} 
 \subsubsection{UC6.3.1 - MainFrame} 
@@ -434,10 +434,3 @@
 \item \textbf{Precondizione}: Esiste un pacchetto con almeno una classe al suo interno.;
 \item \textbf{Postcondizione}: La classe selezionata si trova fuori dal pacchetto.;
 \item \textbf{Scenario principale}: L'utente trascina la classe dal pacchetto al suo esterno.;\end{itemize} 
-\subsubsection{UC6.3.1.8 - Modifica flowchart} 
-\label{sssec:UC6.3.1.8} 
-\begin{itemize} 
-\item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: Modifica di un flowchart selezionato;
-\item \textbf{Precondizione}: È stato creato un flowchart;
-\item \textbf{Postcondizione}: Il flowchart selezionato è stato modificato;
