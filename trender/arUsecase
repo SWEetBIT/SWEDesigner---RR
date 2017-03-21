@@ -5,6 +5,22 @@
 \item \textbf{Descrizione}: Registrazione;
 \item \textbf{Precondizione}: Registrazione;
 \item \textbf{Postcondizione}: Registrazione;
+\item \textbf{Scenario principale}: \begin{enumerate}\item Inserisci Username (UC1.1). 
+ \end{enumerate}
+\end{itemize} 
+\subsubsection{UC1.1 - Inserisci Username} 
+\label{sssec:UC1.1} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente non autenticato.
+\item \textbf{Descrizione}: L’utente inserisce l’username che desidera utilizzare, la
+password che desidera utilizzare e uno dei propri indirizzi mail per effettuare la
+registrazione;
+\item \textbf{Precondizione}: Il sistema richiede all’utente le informazioni necessarie per effettuare
+la registrazione;
+\item \textbf{Postcondizione}: l sistema elabora i dati inseriti dall’utente e, nel caso la registrazione
+avvenga con successo, gli concede la possibilità di accedere al sistema.
+In caso contrario viene visualizzato un messaggio d’errore e viene indicato dove è
+stato commesso, per l’appunto, l’errore;
 \end{itemize} 
 \subsubsection{UC2 - Autenticazione} 
 \label{sssec:UC2} 
