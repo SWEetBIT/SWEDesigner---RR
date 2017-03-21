@@ -41,10 +41,41 @@ stato commesso, per l’appunto, l’errore;
 \subsubsection{UC2 - Autenticazione} 
 \label{sssec:UC2} 
 \begin{itemize} 
+\item \textbf{Attori}: Utente non autenticato.
+\item \textbf{Descrizione}: L'utente inserisce il proprio username e la propria password
+per effettuare l’autenticazione. In caso di password dimenticata è possibile chiedere assistenza;
+\item \textbf{Precondizione}: L'utente ha già effettuato con successo la registrazione e decide di autenticarsi. Il sistema
+richiede quindi l’inserimento delle informazioni necessarie per permettere l’operazione.;
+\item \textbf{Postcondizione}: Il sistema elabora i dati forniti dall'utente e concede la possibilità
+di usufruire delle proprie funzionalità, se l’autenticazione avviene con successo.
+In caso contrario viene visualizzato un messaggio di autenticazione fallita e viene
+invitato l’utente a controllare i dati inseriti.;
+\item \textbf{Scenario principale}: \begin{enumerate}\item Inserisci Username (UC2.1);\item Inserisci Password (UC2.2);\item Password dimenticata (UC2.3). 
+ \end{enumerate}
+\end{itemize} 
+\subsubsection{UC2.1 - Inserisci Username} 
+\label{sssec:UC2.1} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente non autenticato.
+\item \textbf{Descrizione}: L’utente inserisce l’username che aveva scelto durante l'operazione di registrazione;
+\item \textbf{Precondizione}: L'utente ha selezionato l'opzione di autenticazione e non ha ancora inserito il proprio username;
+\item \textbf{Postcondizione}: L'utente ha inserito il proprio username e si appresta a compilare i campi rimanenti per effettuare l'autenticazione;
+\end{itemize} 
+\subsubsection{UC2.2 - Inserisci Password} 
+\label{sssec:UC2.2} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente non autenticato.
+\item \textbf{Descrizione}: L'utente inserisce la password che aveva scelto durante l'operazione di registrazione;
+\item \textbf{Precondizione}: L'utente ha selezionato l'opzione di autenticazione e non ha ancora inserito la propria password;
+\item \textbf{Postcondizione}: L'utente ha inserito la propria password e si appresta a compilare i campi rimanenti per effettuare l'autenticazione;
+\end{itemize} 
+\subsubsection{UC2.3 - Password dimenticata} 
+\label{sssec:UC2.3} 
+\begin{itemize} 
 \item \textbf{Attori}: .
-\item \textbf{Descrizione}: Autenticazione;
-\item \textbf{Precondizione}: Autenticazione;
-\item \textbf{Postcondizione}: Autenticazione;
+\item \textbf{Descrizione}: L'utente non ricorda la propria password e desidera richiedere assistenza;
+\item \textbf{Precondizione}: L'utente ha selezionato l'opzione di autenticazione e non è in grado di inserire la propria password poiché non la ricorda;
+\item \textbf{Postcondizione}: L'utente ottiene una password temporanea per poter effettuare l'autenticazione e decidere la nuova password che intende utilizzare;
 \end{itemize} 
 \subsubsection{UC3 - Gestione Profilo} 
 \label{sssec:UC3} 
@@ -87,6 +118,18 @@ stato commesso, per l’appunto, l’errore;
 \item \textbf{Descrizione}: L’utente autenticato può accedere alle voci file, edit, tool,
 layers e window appartenenti al menù del tool designer.;
 \item \textbf{Precondizione}: L’applicazione offre all’utente una barra dei menù.;
+\item \textbf{Postcondizione}: L’applicazione, a seconda dell’operazione richiesta dall’utente,
+svolge le sue funzioni.;
+\item \textbf{Scenario principale}: \begin{enumerate}\item File (UC6.1.1). 
+ \end{enumerate}
+\end{itemize} 
+\subsubsection{UC6.1.1 - File} 
+\label{sssec:UC6.1.1} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: L’utente autenticato può accedere alle voci save, close,
+export e generates code appartenenti alla voce file del menù.;
+\item \textbf{Precondizione}: L’applicazione offre all’utente la voce file nella barra dei menù.;
 \item \textbf{Postcondizione}: L’applicazione, a seconda dell’operazione richiesta dall’utente,
 svolge le sue funzioni.;
 \end{itemize} 
