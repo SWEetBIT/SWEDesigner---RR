@@ -379,6 +379,17 @@ zoom out, sottovoce di edit appartenente al menù.;
 \item \textbf{Descrizione}: L'attore può selezionare da questa lista uno degli strumenti per la creazione di nuovi elementi nel Activity Diagram Frame;
 \item \textbf{Precondizione}: nel sistema deve essere caricato correttamente un progetto;
 \item \textbf{Postcondizione}: nel progetto, caricato nel sistema, vengono visualizzati gli eventuali inserimenti di elementi operati dall'attore;
+\item \textbf{Scenario principale}: \begin{enumerate}\item Aggiunta azione (UC6.2.2.1). 
+ \end{enumerate}
+\item \textbf{Eredi}:\begin{itemize}\item Aggiunta azione (UC6.2.2.1). 
+\end{itemize}\end{itemize} 
+\subsubsection{UC6.2.2.1 - Aggiunta azione} 
+\label{sssec:UC6.2.2.1} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: l'attore  inserisce un nuovo elemento azione nel Activity Diagram Frame;
+\item \textbf{Precondizione}: nel sistema è caricato un progetto e;
+\item \textbf{Postcondizione}: v;
 \end{itemize} 
 \subsubsection{UC6.3 - Mainwindows} 
 \label{sssec:UC6.3} 
@@ -845,7 +856,7 @@ zoom out, sottovoce di edit appartenente al menù.;
 \item \textbf{Precondizione}: È stato aperto o avviato un nuovo progetto.;
 \item \textbf{Postcondizione}: Viene gestito l'activity.
 ;
-\item \textbf{Scenario principale}: \begin{enumerate}\item Elimina nodo iniziale/finale (UC6.3.7.1);\item Elimina Merge Node (UC6.3.7.10);\item Elimina commento (UC6.3.7.11);\item Elimina Call Behaviour Action (UC6.3.7.12);\item Elimina Join Node (UC6.3.7.13);\item Elimina Action (UC6.3.7.2);\item Elimina decision (UC6.3.7.3);\item Elimina Time Event (UC6.3.7.4);\item Elimina Send Signal (UC6.3.7.5);\item Elimina Receive Signal (UC6.3.7.6);\item Elimina Fork Node (UC6.3.7.7);\item Elimina relazione (UC6.3.7.8);\item Elimina Guard (UC6.3.7.9). 
+\item \textbf{Scenario principale}: \begin{enumerate}\item Elimina nodo iniziale/finale (UC6.3.7.1);\item Elimina Merge Node (UC6.3.7.10);\item Elimina commento (UC6.3.7.11);\item Elimina Call Behaviour Action (UC6.3.7.12);\item Elimina Join Node (UC6.3.7.13);\item Elimina Object Node (UC6.3.7.14);\item Elimina Action (UC6.3.7.2);\item Elimina decision (UC6.3.7.3);\item Elimina Time Event (UC6.3.7.4);\item Elimina Send Signal (UC6.3.7.5);\item Elimina Receive Signal (UC6.3.7.6);\item Elimina Fork Node (UC6.3.7.7);\item Elimina relazione (UC6.3.7.8);\item Elimina Guard (UC6.3.7.9). 
  \end{enumerate}
 \end{itemize} 
 \subsubsection{UC6.3.7.1 - Elimina nodo iniziale/finale} 
@@ -889,6 +900,14 @@ zoom out, sottovoce di edit appartenente al menù.;
 \item \textbf{Precondizione}: È stato creato un activity con almeno un join node al suo interno.;
 \item \textbf{Postcondizione}: Il join node selezionato è stato eliminato insieme a tutte le sue relazioni. Il programma non può essere generato.;
 \item \textbf{Scenario principale}: L'utente ha disegnato un activity con almeno un join node al suo interno e desidera eliminarlo.;\end{itemize} 
+\subsubsection{UC6.3.7.14 - Elimina Object Node} 
+\label{sssec:UC6.3.7.14} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: Eliminazione di un object node dall'activity;
+\item \textbf{Precondizione}: È stato creato un acivity con almeno un object node al suo interno.;
+\item \textbf{Postcondizione}: L'object node selezionato è stato eliminato insieme a tutte le sue relazioni. Il programma non può essere generato.;
+\item \textbf{Scenario principale}: L'utente ha creato un activity con almeno un object node al suo interno e desidera eliminarlo.;\end{itemize} 
 \subsubsection{UC6.3.7.2 - Elimina Action} 
 \label{sssec:UC6.3.7.2} 
 \begin{itemize} 
