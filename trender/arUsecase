@@ -5,22 +5,24 @@
 \item \textbf{Descrizione}: Registrazione;
 \item \textbf{Precondizione}: Registrazione;
 \item \textbf{Postcondizione}: Registrazione;
-\item \textbf{Scenario principale}: \begin{enumerate}\item Inserisci Username (UC1.1). 
+\item \textbf{Scenario principale}: \begin{enumerate}\item Inserisci Username (UC1.1);\item Inserisci Password (UC1.2). 
  \end{enumerate}
 \end{itemize} 
 \subsubsection{UC1.1 - Inserisci Username} 
 \label{sssec:UC1.1} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente non autenticato.
-\item \textbf{Descrizione}: L’utente inserisce l’username che desidera utilizzare, la
-password che desidera utilizzare e uno dei propri indirizzi mail per effettuare la
-registrazione;
-\item \textbf{Precondizione}: Il sistema richiede all’utente le informazioni necessarie per effettuare
-la registrazione;
-\item \textbf{Postcondizione}: l sistema elabora i dati inseriti dall’utente e, nel caso la registrazione
-avvenga con successo, gli concede la possibilità di accedere al sistema.
-In caso contrario viene visualizzato un messaggio d’errore e viene indicato dove è
-stato commesso, per l’appunto, l’errore;
+\item \textbf{Descrizione}: L’utente inserisce l’username che desidera utilizzare;
+\item \textbf{Precondizione}: L'utente ha selezionato l'opzione di registrazione e non ha ancora inserito un username;
+\item \textbf{Postcondizione}: L'utente ha inserito l'username che desidera utilizzare e si appresta a compilare i campi rimanenti per effettuare la registrazione;
+\end{itemize} 
+\subsubsection{UC1.2 - Inserisci Password} 
+\label{sssec:UC1.2} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente non autenticato.
+\item \textbf{Descrizione}: L’utente inserisce la password che desidera utilizzare;
+\item \textbf{Precondizione}: L'utente ha selezionato l'opzione di registrazione e non ha ancora inserito una password;
+\item \textbf{Postcondizione}: L'utente ha inserito la password che desidera utilizzare e si appresta a compilare i campi rimanenti per effettuare la registrazione;
 \end{itemize} 
 \subsubsection{UC2 - Autenticazione} 
 \label{sssec:UC2} 
@@ -61,16 +63,18 @@ stato commesso, per l’appunto, l’errore;
 \item \textbf{Descrizione}: Tool Designer;
 \item \textbf{Precondizione}: Tool Designer;
 \item \textbf{Postcondizione}: Tool Designer;
-\item \textbf{Scenario principale}: \begin{enumerate}\item Menu (UC6.1);\item Toolbar (UC6.2);\item Mainwindows (UC6.3). 
+\item \textbf{Scenario principale}: \begin{enumerate}\item Menù (UC6.1);\item Toolbar (UC6.2);\item Mainwindows (UC6.3). 
  \end{enumerate}
 \end{itemize} 
-\subsubsection{UC6.1 - Menu} 
+\subsubsection{UC6.1 - Menù} 
 \label{sssec:UC6.1} 
 \begin{itemize} 
-\item \textbf{Attori}: .
-\item \textbf{Descrizione}: Menu;
-\item \textbf{Precondizione}: Menu;
-\item \textbf{Postcondizione}: Menu;
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: L’utente autenticato può accedere alle voci file, edit, tool,
+layers e window appartenenti al menù del tool designer.;
+\item \textbf{Precondizione}: L’applicazione offre all’utente una barra dei menù.;
+\item \textbf{Postcondizione}: L’applicazione, a seconda dell’operazione richiesta dall’utente,
+svolge le sue funzioni.;
 \end{itemize} 
 \subsubsection{UC6.2 - Toolbar} 
 \label{sssec:UC6.2} 
