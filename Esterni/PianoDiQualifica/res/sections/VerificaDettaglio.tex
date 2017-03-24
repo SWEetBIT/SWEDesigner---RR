@@ -2,6 +2,86 @@
   Questa sezione del documento descrive le metriche utilizzate per la quantificazione della qualità e le tecniche di analisi adottate.
 
   \subsection{Metriche software e misurazioni}
+  Le metrice ritenute necessarie per una corretta misurazione della qualità di processi e prodotti è descritta in questa sezione;
+  l'attività di verifica si baserà su queste metriche e per ognuna di queste è stato necessario stabilire due range:
+  \begin{itemize}
+    \item \textbf{Range di accettazione:} l'intervallo di valori entro il quale deve trovarsi il risultato della misurazione di un processo, o prodotto, per essere ritenuto accettabile.
+    \item \textbf{Range di ottimalità:} l'intervallo di valori in cui si deve trovare il risultato della misurazione di un processo, o prodotto, per essere considerato ottimale;
+    questo range è l'obiettivo del gruppo SWEet BIT.
+  \end{itemize}
+    \subsubsection{Metriche riguardanti i processi}
+    Per la verifica dei processi sono state adottate due metriche di seguito descritte:
+    \begin{description}
+      \item[Schedule Variance (SV):] È un indice che dà informazione necessarie a determinare se ci si trova in anticipo,
+      in ritardo o in linea alle tempistiche delle attività di progetto.
+      La seguente formula dà SV in termini di costo:
+      \begin{center}
+        \emph{SV = BCWP - BCWS}
+      \end{center}
+      Dove:
+      \begin{itemize}
+        \item BCWP = costo totale del lavoro svolto al momento della misurazione;
+        \item BCWS = costo totale del lavoro pianificato al momento della misurazione.
+      \end{itemize}
+      SV ha tre significativi risultati:
+      \begin{itemize}
+        \item SV>0 indica che si è avanti rispetto alle pianificazione temporale del lavoro;
+        \item SV=0 indica che si è in linea alle tempistiche delle attività di progetto;
+        \item SV<0 indica che si è in ritardo rispetto alla pianificazione temporale delle attività.
+      \end{itemize}
+      I range stabiliti sono:
+      \begin{itemize}
+        \item Range di accettazione = [\(\geq\)-(\emph{preventivo fase} * 5\%)]
+        \item Range di ottimalità = [\(\geq\)0]
+      \end{itemize}
+      \item[Cost Variance (CV):] indica se vi sono state più o meno spese rispetto al previsto.
+      La seguente formula dà CV in termini di costo:
+      \begin{center}
+        \emph{CV = BCWP - ACWP}
+      \end{center}
+      Dove:
+      \begin{itemize}
+        \item BCWP = costo totale del lavoro svolto al momento della misurazione;
+        \item ACWP = costo totale richiesto per il completamento del lavoro al momento della misurazione.
+      \end{itemize}
+      CV ha tre significativi risultati:
+      \begin{itemize}
+        \item CV>0 indica che il progetto sta avendo un costo inferiore rispetto a quanto preventivato;
+        \item CV=0 indica che il progetto ha un costo in linea a quanto preventivato;
+        \item CV<0 indica che il progetto ha superato il costo preventivato.
+      \end{itemize}
+      I range stabiliti sono:
+      \begin{itemize}
+        \item Range di accettazione = [\(\geq\)-(\emph{preventivo fase} * 10\%)]
+        \item Range di ottimalità = [\(\geq\)0]
+      \end{itemize}
+    \end{description}
+    \subsubsection{Metriche riguardanti i documenti}
+    \begin{description}
+      \item[Indice Gulpease:] è un idice di leggibilità di un testo per la lungua italiana.
+      Questo indice considera due variabili linguistiche: la lunghezza della parola e la lunghezza della frase rispetto al numero delle lettere.
+      La formula per il calcolo dell'indice Gulpease è:
+      \begin{center}
+        \( 89+\frac{300 * (\emph{numero delle frasi}) - 10 * (\emph{numero delle lettere})}{\emph{numero delle parole}} \)
+      \end{center}
+      Il risultato è un numero nell'intervallo [0-100], generalmente risulta che:
+      \begin{itemize}
+        \item inferiore a 80 il testo è difficile da leggere per chi ha la licenza elementare;
+        \item inferiore a 60 il testo è difficile da leggere per chi ha la licenza media;
+        \item inferiore a 40 il testo è difficile da leggere per chi ha un duploma superiore.
+      \end{itemize}
+      I range stabiliti sono:
+      \begin{itemize}
+        \item Range di accettazione = [40-100]
+        \item Range di ottimalità = [50-100]
+      \end{itemize}
+    \end{description}
+    \subsubsection{Metriche riguardanti il software prodotto}
+
+
+
+
+
 
 
   \subsection{Tecniche di analisi}
