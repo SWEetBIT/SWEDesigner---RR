@@ -13,6 +13,7 @@ In caso contrario viene visualizzato un messaggio d’errore e viene indicato do
 stato commesso, per l’appunto, l’errore;
 \item \textbf{Scenario principale}: \begin{enumerate}\item Inserisci Username (UC1.1);\item Inserisci Password (UC1.2);\item Inserisci Email (UC1.3). 
  \end{enumerate}
+\item \textbf{Estensioni}:\begin{itemize}\item ciao (UC1.4).\end{itemize}
 \end{itemize} 
 \subsubsection{UC1.1 - Inserisci Username} 
 \label{sssec:UC1.1} 
@@ -37,6 +38,14 @@ stato commesso, per l’appunto, l’errore;
 \item \textbf{Descrizione}: L’utente inserisce l'email che intende utilizzare per la registrazione;
 \item \textbf{Precondizione}: L'utente ha selezionato l'opzione di registrazione e non ha ancora inserito la propria email;
 \item \textbf{Postcondizione}: L'utente ha inserito l'email che desidera utilizzare e si appresta a compilare i campi rimanenti per effettuare la registrazione;
+\end{itemize} 
+\subsubsection{UC1.4 - ciao} 
+\label{sssec:UC1.4} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: ciao;
+\item \textbf{Precondizione}: ciao;
+\item \textbf{Postcondizione}: ciao;
 \end{itemize} 
 \subsubsection{UC2 - Autenticazione} 
 \label{sssec:UC2} 
@@ -418,3 +427,58 @@ zoom out, sottovoce di edit appartenente al menù.;
 \item \textbf{Postcondizione}: L'utente chiude il progetto.;
 \item \textbf{Scenario principale}: \begin{enumerate}\item Elimina Classe (UC6.3.1.1);\item Modifica interfaccia (UC6.3.1.10);\item Apri dettagli elemento (UC6.3.1.11);\item Elimina Relazione (UC6.3.1.2);\item Elimina pacchetto (UC6.3.1.3);\item Elimina Flowchart (UC6.3.1.4);\item Modifica Classe (UC6.3.1.5);\item Modifica Relazione (UC6.3.1.6);\item Modifica pacchetto (UC6.3.1.7);\item Modifica flowchart (UC6.3.1.8);\item Eliminazione Interfaccia (UC6.3.1.9). 
  \end{enumerate}
+\end{itemize} 
+\subsubsection{UC6.3.1.1 - Elimina Classe} 
+\label{sssec:UC6.3.1.1} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: Una classe viene eliminata dal progetto corrente;
+\item \textbf{Precondizione}: Deve essere stata disegnata una classe;
+\item \textbf{Postcondizione}: Viene eliminata la classe selezionata e, a cascata, tutti i metodi (quindi i flowchart) ad essa, e solo ad essa, associati, tutti gli attributi e tutte le relazioni che la coinvolgono.;
+\item \textbf{Scenario principale}: \begin{enumerate}\item Elimina Nome (UC6.3.1.1.1);\item Elimina Attributo (UC6.3.1.1.2);\item Elimina Metodo (UC6.3.1.1.3). 
+ \end{enumerate}
+\end{itemize} 
+\subsubsection{UC6.3.1.1.1 - Elimina Nome} 
+\label{sssec:UC6.3.1.1.1} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: Eliminazione Nome di una classe;
+\item \textbf{Precondizione}: È stata creata una classe con un nome.;
+\item \textbf{Postcondizione}: Viene eliminato il nome della classe.;
+\item \textbf{Scenario principale}: L'utente ha disegnato una classe fornendole un nome e desidera cancellarlo.;\end{itemize} 
+\subsubsection{UC6.3.1.1.2 - Elimina Attributo} 
+\label{sssec:UC6.3.1.1.2} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: Viene eliminato un attributo della classe.;
+\item \textbf{Precondizione}: È stata creata una classe con almeno un attributo.;
+\item \textbf{Postcondizione}: L'attributo selezionato viene eliminato.;
+\item \textbf{Scenario principale}: L'utente ha disegnato una classe con almeno un attributo al suo interno e desidera eliminarlo.;\item \textbf{Scenari alternativi}: L'utente ha aggiunto un nuovo attributo e desidera eliminarlo..
+\end{itemize} 
+\subsubsection{UC6.3.1.1.3 - Elimina Metodo} 
+\label{sssec:UC6.3.1.1.3} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: Viene eliminato un metodo della classe.;
+\item \textbf{Precondizione}: È stata creata una classe con almeno un metodo.;
+\item \textbf{Postcondizione}: Viene eliminato il metodo selezionato e, a cascata, il flowchart associato se esistente.;
+\item \textbf{Scenario principale}: L'utente ha disegnato una classe con almeno un metodo ed  eventualmente anche il flowchart corrispondente e desidera eliminarlo.;\item \textbf{Scenari alternativi}: L'utente ha aggiunto un nuovo metodo e desidera eliminarlo..
+\end{itemize} 
+\subsubsection{UC6.3.1.10 - Modifica interfaccia} 
+\label{sssec:UC6.3.1.10} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: Modifica di un'interfaccia presente sul designer.;
+\item \textbf{Precondizione}: § stata creata un'interfaccia.;
+\item \textbf{Postcondizione}: L'interfaccia è stata modificata in uno o più campi dato.;
+\item \textbf{Scenario principale}: \begin{enumerate}\item Modifica Nome (UC6.3.1.10.1);\item Modifica attributo (UC6.3.1.10.2);\item Modifica Metodo (UC6.3.1.10.3). 
+ \end{enumerate}
+\end{itemize} 
+\subsubsection{UC6.3.1.10.1 - Modifica Nome} 
+\label{sssec:UC6.3.1.10.1} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: Modifica del nome dell'interfaccia.;
+\item \textbf{Precondizione}: È stata creata un'interfaccia sul designer.;
+\item \textbf{Postcondizione}: Il nome dell'interfaccia è stato modificato.;
+\item \textbf{Scenario principale}: L'utente ha disegnato un'interfaccia e desidera modificarne il nome.;\end{itemize} 
