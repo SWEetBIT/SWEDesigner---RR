@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2017-03-27" view-index="0" gantt-divider-location="461" resource-divider-location="300" version="2.8.4" locale="it">
     <description/>
-    <view zooming-state="default:0" id="gantt-chart">
-        <field id="tpd3" name="Nome" width="289" order="0"/>
-        <field id="tpd4" name="Data d'inizio" width="75" order="1"/>
-        <field id="tpd5" name="Data di fine" width="78" order="2"/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Nome" width="294" order="0"/>
+        <field id="tpd4" name="Data d'inizio" width="80" order="1"/>
+        <field id="tpd5" name="Data di fine" width="83" order="2"/>
     </view>
     <view id="resource-table">
         <field id="0" name="Nome" width="210" order="0"/>
@@ -33,105 +33,40 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="Norme di Progetto" meeting="false" start="2017-03-27" duration="2" complete="0" expand="true">
-            <depend id="12" type="2" difference="0" hardness="Strong"/>
-            <depend id="17" type="2" difference="0" hardness="Strong"/>
-            <depend id="51" type="2" difference="0" hardness="Strong"/>
-            <depend id="52" type="2" difference="0" hardness="Strong"/>
-            <depend id="67" type="2" difference="0" hardness="Strong"/>
-            <task id="7" name="Comunicazioni" meeting="false" start="2017-03-27" duration="1" complete="0" expand="true">
-                <depend id="9" type="2" difference="0" hardness="Strong"/>
+        <task id="124" name="Glossario" meeting="false" start="2017-03-27" duration="2" complete="0" expand="true">
+            <depend id="157" type="2" difference="0" hardness="Strong"/>
+            <task id="147" name="Incremento" meeting="false" start="2017-03-27" duration="1" complete="0" expand="true">
+                <depend id="148" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="5" name="Ambiente di lavoro" meeting="false" start="2017-03-27" duration="1" complete="0" expand="true">
-                <depend id="9" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="8" name="Documentazione" meeting="false" start="2017-03-27" duration="1" complete="0" expand="true">
-                <depend id="9" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="9" name="Verifica" meeting="false" start="2017-03-28" duration="1" complete="0" expand="true"/>
+            <task id="148" name="Verifica" meeting="false" start="2017-03-28" duration="1" complete="0" expand="true"/>
         </task>
-        <task id="12" name="Studio Fattibilità" meeting="false" start="2017-03-29" duration="2" complete="0" expand="true">
-            <depend id="67" type="2" difference="0" hardness="Strong"/>
-            <depend id="69" type="2" difference="0" hardness="Strong"/>
-            <task id="27" name="Valutazione costi-benefici" meeting="false" start="2017-03-29" duration="1" complete="0" expand="true">
-                <depend id="31" type="2" difference="0" hardness="Strong"/>
+        <task id="127" name="Norme di Progetto" meeting="false" start="2017-03-27" duration="2" complete="0" expand="true">
+            <depend id="157" type="2" difference="0" hardness="Strong"/>
+            <task id="149" name="Incremento" meeting="false" start="2017-03-27" duration="1" complete="0" expand="true">
+                <depend id="150" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="28" name="Valutazione rischi" meeting="false" start="2017-03-29" duration="1" complete="0" expand="true">
-                <depend id="31" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="29" name="Fattibilità tecnico-organizzativa" meeting="false" start="2017-03-29" duration="1" complete="0" expand="true">
-                <depend id="31" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="30" name="Valutazione scadenze temporali" meeting="false" start="2017-03-29" duration="1" complete="0" expand="true">
-                <depend id="31" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="31" name="Verifica" meeting="false" start="2017-03-30" duration="1" complete="0" expand="true"/>
+            <task id="150" name="Verifica" meeting="false" start="2017-03-28" duration="1" complete="0" expand="true"/>
         </task>
-        <task id="69" name="Analisi Requisiti" meeting="false" start="2017-03-31" duration="5" complete="0" expand="true">
-            <depend id="67" type="2" difference="0" hardness="Strong"/>
-            <task id="72" name="Descrizione Generale" meeting="false" start="2017-03-31" duration="1" complete="0" expand="true">
-                <depend id="82" type="2" difference="0" hardness="Strong"/>
+        <task id="130" name="Piano di Progetto" meeting="false" start="2017-03-27" duration="2" complete="0" expand="true">
+            <task id="151" name="Consuntivo" meeting="false" start="2017-03-27" duration="1" complete="0" expand="true">
+                <depend id="152" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="82" name="Casi d'uso" meeting="false" start="2017-04-01" duration="1" complete="0" expand="true">
-                <depend id="80" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="80" name="Requisiti" meeting="false" start="2017-04-02" duration="1" complete="0" expand="true">
-                <depend id="76" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="76" name="Tracciamento" meeting="false" start="2017-04-03" duration="1" complete="0" expand="true">
-                <depend id="73" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="73" name="Verifica" meeting="false" start="2017-04-04" duration="1" complete="0" expand="true"/>
+            <task id="152" name="Verifica" meeting="false" start="2017-03-28" duration="1" complete="0" expand="true"/>
         </task>
-        <task id="17" name="Piano di Progetto" meeting="false" start="2017-03-29" duration="4" complete="0" expand="true">
-            <depend id="67" type="2" difference="0" hardness="Strong"/>
-            <task id="32" name="Analisi e calendario attività" meeting="false" start="2017-03-29" duration="1" complete="0" expand="true">
-                <depend id="38" type="2" difference="0" hardness="Strong"/>
+        <task id="133" name="Analisi dei Requisiti" meeting="false" start="2017-03-27" duration="2" complete="0" expand="true">
+            <depend id="157" type="2" difference="0" hardness="Strong"/>
+            <task id="153" name="Incremento" meeting="false" start="2017-03-27" duration="1" complete="0" expand="true">
+                <depend id="154" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="33" name="Analisi scadenze" meeting="false" start="2017-03-29" duration="1" complete="0" expand="true">
-                <depend id="38" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="34" name="Organigramma" meeting="false" start="2017-03-29" duration="1" complete="0" expand="true">
-                <depend id="38" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="112" name="Scelta ciclo di vita" meeting="false" start="2017-03-29" duration="1" complete="0" expand="true"/>
-            <task id="36" name="Analisi dei rischi" meeting="false" start="2017-03-29" duration="1" complete="0" expand="true">
-                <depend id="38" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="37" name="Assegnazione risorse" meeting="false" start="2017-03-29" duration="1" complete="0" expand="true">
-                <depend id="38" type="2" difference="0" hardness="Strong"/>
-                <depend id="107" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="107" name="Prospetto economico" meeting="false" start="2017-03-30" duration="1" complete="0" expand="true">
-                <depend id="38" type="2" difference="0" hardness="Strong"/>
-                <depend id="109" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="109" name="Consuntivo" meeting="false" start="2017-03-31" duration="1" complete="0" expand="true">
-                <depend id="38" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="38" name="Verifica" meeting="false" start="2017-04-01" duration="1" complete="0" expand="true"/>
+            <task id="154" name="Verifica" meeting="false" start="2017-03-28" duration="1" complete="0" expand="true"/>
         </task>
-        <task id="51" name="Piano di Qualifica" meeting="false" start="2017-03-29" duration="3" complete="0" expand="true">
-            <depend id="67" type="2" difference="0" hardness="Strong"/>
-            <task id="55" name="Visione generale della strategia di verifica" meeting="false" start="2017-03-29" duration="1" complete="0" expand="true">
-                <depend id="118" type="2" difference="0" hardness="Strong"/>
+        <task id="136" name="Piano di Qualifica" meeting="false" start="2017-03-27" duration="2" complete="0" expand="true">
+            <task id="155" name="Incremento" meeting="false" start="2017-03-27" duration="1" complete="0" expand="true">
+                <depend id="156" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="120" name="Gestione amministrativa della revisione" meeting="false" start="2017-03-29" duration="1" complete="0" expand="true">
-                <depend id="118" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="118" name="Resoconto delle attività di verifica" meeting="false" start="2017-03-30" duration="1" complete="0" expand="true">
-                <depend id="59" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="59" name="Verifica" meeting="false" start="2017-03-31" duration="1" complete="0" expand="true"/>
+            <task id="156" name="Verifica" meeting="false" start="2017-03-28" duration="1" complete="0" expand="true"/>
         </task>
-        <task id="52" name="Glossario" meeting="false" start="2017-03-29" duration="2" complete="0" expand="true">
-            <depend id="67" type="2" difference="0" hardness="Strong"/>
-            <task id="56" name="Stesura" meeting="false" start="2017-03-29" duration="1" complete="0" expand="true">
-                <depend id="61" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="61" name="Verifica" meeting="false" start="2017-03-30" duration="1" complete="0" expand="true"/>
-        </task>
-        <task id="67" name="Consegna" color="#8cb6ce" meeting="true" start="2017-04-05" duration="0" complete="0" expand="true"/>
+        <task id="157" name="Presentazione" color="#8cb6ce" meeting="true" start="2017-03-29" duration="0" complete="0" expand="true"/>
     </tasks>
     <resources/>
     <allocations/>
