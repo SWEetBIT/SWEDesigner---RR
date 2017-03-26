@@ -77,7 +77,26 @@
       \end{itemize}
     \end{description}
     \subsubsection{Metriche riguardanti il software prodotto}
-
+    Come descritto nello standard \glossaryItem{ISO}/\glossaryItem{IEC} 9126, si posso identificare due tipi di metriche utilizzate per misurare la qualita del prodotto software, esse sono:
+    \begin{itemize}
+      \item \emph{Metriche interne}: vengono applicate al software non eseguibile durante le fasi di progettazione e codifica.
+      \item \emph{Metriche esterne}: servono per poter misurare il comportamento del prodotto software attraverso test effettuati in fase di esecuzione.
+    \end{itemize}
+    Per ogni caratteristica identificata nella \S2.1.1 del presente documento, è stata trovata almeno una metrica interna e una esterna, esse sono:
+    \begin{itemize}
+      \item \textbf{Funzionalità} come metrica interna verrà utilizzata l'\textbf{accuratezza delle funzioni sviluppate}, lo scopo è qullo di poter misurare
+      il livello di accuratezza con cui le funzioni sviluppate rispettano quelle indentificate nell'analisi dei requisiti. La formula è la seguente:
+      \begin{center}
+        AF = Fa / Fs
+      \end{center}
+      Dove:
+      \begin{itemize}
+        \item AF = accuratezza funzione;
+        \item Fa = numero di funzioni sviluppate con l'accuratezza richiesta;
+        \item Fs = numero totale di funzioni sviluppate.
+      \end{itemize}
+      come metrica esterna 
+    \end{itemize}
 
 
 
@@ -85,3 +104,19 @@
 
 
   \subsection{Tecniche di analisi}
+    \subsubsection{Analisi statica}
+    L'analisi statica è il processo di verifica del sistema o di un suo componente, senza che esso debba necessariamente poter essere eseguito.
+    Questa tecnica permette di verificare sia la documentazione che il codice.
+    Durante il processo di analisi statica vengono utilizzate le metriche di qualità interna per la verifica del prodotto software.
+    \subsubsection{Analisi dinamica}
+    L'analisi dinamica è il processo che verifica il prodotto software mentre esso è in esecuzione; viene effettuata tramite test che devono essere coerentemente pianificati in modo da evitare spreco di risosrse.
+    Durante l'attività di analisi dinamica vengono utilizzate le metriche di qualità esterna per la verifica del prodotto software in esecuzione.
+    Organizzazione delle attività di test:
+    \begin{itemize}
+      \item \textbf{Test di unità}: L'obiettivo di questa fase è quello di riuscire a capire se ogni unità del codice si comporti esattamente come previsto, un unità di codice è la più piccola parte di software testabile.
+      \item \textbf{Test di integrazione}: In questa fase di test viene testata una componente, una componente è l'aggragazione di più unità software.
+      Questo tipo di test consente di trovare errori che si verificano nell'aggregazione di varie unità.
+      \item \textbf{Test di sistema}: in questa fase viene verificato il comportamento del prodotto software finale, lo scopo è quello di capire se esso rispetta i requisiti individuati nella fase di analisi.
+      \item \textbf{Test di regressione}: Questo test ha lo scopo di stabilire se le modifiche apportate al software hanno compromesso componenti software precedentemente funzionanti.
+      Questi test vengono eseguiti ogni volta che viene apportata una modifica al software.
+    \end{itemize}
