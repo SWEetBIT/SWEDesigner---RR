@@ -172,7 +172,7 @@ layers e window appartenenti al menù del tool designer.;
 \item \textbf{Precondizione}: L’applicazione offre all’utente una barra dei menù.;
 \item \textbf{Postcondizione}: L’applicazione, a seconda dell’operazione richiesta dall’utente,
 svolge le sue funzioni.;
-\item \textbf{Scenario principale}: \begin{enumerate}\item File (UC6.1.1);\item Edit (UC6.1.2). 
+\item \textbf{Scenario principale}: \begin{enumerate}\item File (UC6.1.1);\item Edit (UC6.1.2);\item Template (UC6.1.3). 
  \end{enumerate}
 \end{itemize} 
 \subsubsection{UC6.1.1 - File} 
@@ -310,6 +310,14 @@ una determinata sezione.;
 \item \textbf{Precondizione}: L’applicazione offre all’utente la possibilità di selezionare la voce
 zoom out, sottovoce di edit appartenente al menù.;
 \item \textbf{Postcondizione}: L’applicazione rimpicciolisce la sezione prescelta.;
+\end{itemize} 
+\subsubsection{UC6.1.3 - Template} 
+\label{sssec:UC6.1.3} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: Template;
+\item \textbf{Precondizione}: Template;
+\item \textbf{Postcondizione}: Template;
 \end{itemize} 
 \subsubsection{UC6.2 - Toolbar} 
 \label{sssec:UC6.2} 
@@ -927,83 +935,3 @@ zoom out, sottovoce di edit appartenente al menù.;
 \item \textbf{Precondizione}: È stato creato un activity con almeno una decision al suo interno.;
 \item \textbf{Postcondizione}: La decision selezionata è stata modificata.;
 \item \textbf{Scenario principale}: L'utente ha disegnato un activity con almeno una decision al suo interno e desidera modificarla.;\end{itemize} 
-\subsubsection{UC6.3.7.2 - Elimina Action} 
-\label{sssec:UC6.3.7.2} 
-\begin{itemize} 
-\item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: Eliminazione di un action all'interno dell'actvity.;
-\item \textbf{Precondizione}: È stato disegnato un activity con almeno un action al suo interno.;
-\item \textbf{Postcondizione}: L'action selezionata è stata eliminata dal diagramma assieme a tutte le sue relazioni. Il programma non può essere generato.;
-\item \textbf{Scenario principale}: L'utente ha disegnato un activity con almeno un action al suo interno e desidera eliminarla.;\end{itemize} 
-\subsubsection{UC6.3.7.20 - Modifica Time Event Action} 
-\label{sssec:UC6.3.7.20} 
-\begin{itemize} 
-\item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: Modifica di una time event action dell'activity.;
-\item \textbf{Precondizione}: È stato creato un activity con almeno una time event action al suo interno.;
-\item \textbf{Postcondizione}: La time event action selezionata è stata modificata.;
-\item \textbf{Scenario principale}: L'utente ha disegnato un activity con almeno una time event action al suo interno e desidera modificarla.;\end{itemize} 
-\subsubsection{UC6.3.7.21 - Modifica Send Signal Code} 
-\label{sssec:UC6.3.7.21} 
-\begin{itemize} 
-\item \textbf{Attori}: .
-\item \textbf{Descrizione}: Modifica di un send signal code dell'activity.;
-\item \textbf{Precondizione}: È stato creato un activity con almeno un send signal code al suo interno.;
-\item \textbf{Postcondizione}: Il send signal code selezionato è stato modificato.;
-\item \textbf{Scenario principale}: L'utente ha disegnato un activity con almeno un send signal code al suo interno e desidera modificarlo.;\end{itemize} 
-\subsubsection{UC6.3.7.3 - Elimina decision} 
-\label{sssec:UC6.3.7.3} 
-\begin{itemize} 
-\item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: Eliminazione di una decision all'interno dell'activity.;
-\item \textbf{Precondizione}: È stato disegnato un activity con almeno un decision al suo interno.;
-\item \textbf{Postcondizione}: La decision all'interno del diagramma è stata eliminata assieme a tutte le sue relazioni. Il programma non può essere generato.;
-\item \textbf{Scenario principale}: L'utente ha disegnato un activity con almeno una decision al suo interno e desidera eliminarla.;\end{itemize} 
-\subsubsection{UC6.3.7.4 - Elimina Time Event} 
-\label{sssec:UC6.3.7.4} 
-\begin{itemize} 
-\item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: Eliminazione di un time event all'interno dell'activity.;
-\item \textbf{Precondizione}: È stato disegnato un activity con almeno un time event al suo interno.;
-\item \textbf{Postcondizione}: Il time event è stato eliminato dal diagramma assieme a tutte le sue relazioni.  Il programma non può essere generato.;
-\item \textbf{Scenario principale}: L'utente ha disegnato almeno un activity con almeno un time event al suo interno e desidera eliminarlo.;\end{itemize} 
-\subsubsection{UC6.3.7.5 - Elimina Send Signal} 
-\label{sssec:UC6.3.7.5} 
-\begin{itemize} 
-\item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: Eliminazione Send Signal dall'activity;
-\item \textbf{Precondizione}: È stato creato un activity con almeno un send signal al suo interno.;
-\item \textbf{Postcondizione}: Il send signal è stato eliminato dall'activity assieme a tutte le sue relazioni.  Il programma non può essere generato.;
-\item \textbf{Scenario principale}: L'utente ha disegnato un activity con almeno un send signal al suo interno e desidera eliminarlo.;\end{itemize} 
-\subsubsection{UC6.3.7.6 - Elimina Receive Signal} 
-\label{sssec:UC6.3.7.6} 
-\begin{itemize} 
-\item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: Eliminazione di un receive signal dall'activity.;
-\item \textbf{Precondizione}: È stato disegnato un activity con almeno un receive signal al suo interno;
-\item \textbf{Postcondizione}: Il receive signal all'interno dell'activity è stato eliminato assieme alle sue relazioni. Il programma non può essere generato.;
-\item \textbf{Scenario principale}: L'utente ha creato un activity con almeno un receive signal al suo interno e desidera eliminarlo.;\end{itemize} 
-\subsubsection{UC6.3.7.7 - Elimina Fork Node} 
-\label{sssec:UC6.3.7.7} 
-\begin{itemize} 
-\item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: Eliminazione di un fork node dall'activity.;
-\item \textbf{Precondizione}: È stato creato un activity con almeno un fork node al suo interno.;
-\item \textbf{Postcondizione}: Il fork node è stato eliminato assieme alle sue relazioni. Il programma non può essere generato.;
-\item \textbf{Scenario principale}: L'utente ha disegnato un activity con almeno un fork node al suo interno e desidera eliminarlo.;\end{itemize} 
-\subsubsection{UC6.3.7.8 - Elimina relazione} 
-\label{sssec:UC6.3.7.8} 
-\begin{itemize} 
-\item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: Eliminazione di una relazione fra gli elementi dell'activity.;
-\item \textbf{Precondizione}: È stato creato un activity con almeno due elementi in relazione fra loro.;
-\item \textbf{Postcondizione}: La relazione selezionata è stata eliminata. Il programma non può essere generato.;
-\item \textbf{Scenario principale}: L'utente ha disegnato un activity con almeno due elementi in relazione e desidera rimuovere quest'ultima.;\end{itemize} 
-\subsubsection{UC6.3.7.9 - Elimina Guard} 
-\label{sssec:UC6.3.7.9} 
-\begin{itemize} 
-\item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: Eliminazione Guard dall'activity;
-\item \textbf{Precondizione}: È stato creato un activity con almeno un guard al suo interno.;
-\item \textbf{Postcondizione}: Il guard all'interno del diagramma è stato eliminato assieme a tutte le sue relazioni. Il programma non può essere generato.;
-\item \textbf{Scenario principale}: L'utente ha creato un activity con almeno un guard al suo interno e desidera eliminarlo.;\end{itemize} 
