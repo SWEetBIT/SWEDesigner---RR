@@ -9,16 +9,17 @@
 	      \item \textbf{Partecipanti Interni: } Davide Santimaria - Fabio Massignan - Gianmarco Salmistraro - Malick Bodian - Salvatore Pilò - Sebastiano Bertolin
 	      \item \textbf{Partecipanti Esterni: } Gregorio Piccoli
 	    \end{itemize}
-	    
+
 	  \subsection{Domande e Risposte}
 	   \begin{itemize}
 	   
 	   	   	\item 
 	   	%dDOMANDA
-	   		\textbf{Abbiamo pensato di rappresentare i \glossaryItem{diagrammi} dei \glossaryItem{metodi} collegando tra loro un \glossaryItem{flow chart} ed un \glossaryItem{activity diagram},come le sembra questa soluzione?} \\
+	   		\textbf{Per la gestione tra i diagrammi delle classi e dei metodi, abbiamo pensato di mettere a disposizione dell'utente una finestra principalmente divisa in 3 parti. La prima parte comprende gli strumenti necessari a disegnare i vari diagrammi, la seconda finestra è quella principale e consiste nello schema delle classi e, in caso di doppio click sul metodo di una classe, si aprirà un \glossaryItem{activity diagram}, col quale l'utente potrà creare e definire il corpo del metodo. Nella terza finestra, l'utente ha a disposizione un \glossaryItem{activity diagram} in sola lettura, sul quale è possibile visualizzare il flusso dell'intero progetto. Come le sembra la nostra soluzione? } \\
 	   	%RISPOSTA
 	    	\justifying     		
-L'idea di sfruttare questi \glossaryItem{diagrammi} è apprezzata, così come la possibilità di scegliere quale dei due \glossaryItem{diagrammi} mettere in primo piano.\\
+Questa disposizione è apprezzata, l' importante è non saltare il diagramma delle classi e trattare il \glossaryItem{activity diagram} in modo da poter generare il codice..\\
+
 	   	\item 
 	   	%dDOMANDA
 	   		\textbf{Data la scelta del \glossaryItem{dominio} dei giochi da tavolo, possiamo aggiungere dei \glossaryItem{template} di \glossaryItem{classi} e funzioni legate al \glossaryItem{dominio}?} \\
@@ -32,9 +33,8 @@ Ci son due rappresentazioni di \glossaryItem{pattern} quella della sua definizio
 	   		\textbf{Il passaggio tra \glossaryItem{codice} e disegno è un requisito richiesto?} \\
 	   	%RISPOSTA
 	    	\justifying     		
-No non è necessario questa caratteristica, si potrebbe valutare eventualmente la sincronizzazione , o meglio dare la possibilità a due persone di lavorare allo stesso \glossaryItem{diagramma} , ma anche questo è  un requisito che può esser inserito nei nei requisiti opzionali. Ci si potrebbe orientare su un disegnatore collaborativo eventualmente supportate con \glossaryItem{JSON} e con librerie come \emph{diff-match-Patch} che permette di far lavorare in maniera collaborativa grazie allo scambio di \glossaryItem{file} in formato \glossaryItem{JSON}; resta comunque una caratteristica che diventa un progetto all'interno del progetto attuale e quindi, come già detto, è un requisito opzionale.
+No, non è necessario questa caratteristica, si potrebbe valutare eventualmente la sincronizzazione , o meglio dare la possibilità a due persone di lavorare allo stesso \glossaryItem{diagramma} , ma anche questo è una caratteristica che può esser inserita nei nei requisiti opzionali. Ci si potrebbe orientare su un disegnatore collaborativo, che supporti \glossaryItem{JSON} e librerie come \emph{diff-match-Patch}, così da permetter di far lavorare in maniera collaborativa più utenti, grazie allo scambio di \glossaryItem{file} in formato \glossaryItem{JSON}; resta comunque una caratteristica che diventa un progetto all'interno del progetto attuale e quindi, come già detto, è un requisito opzionale.
 \\
-
 	  		   	\item 
 	   	%dDOMANDA
 	   		\textbf{È obbligatorio fornire l'auto compilazione del \glossaryItem{codice}?} \\
@@ -47,6 +47,6 @@ Se si intende che il \glossaryItem{codice} generato debba compilare questo è ba
 	   		\textbf{Dobbiamo aggiungere la presenza di un \glossaryItem{utente} amministratore?} \\
 	   	%RISPOSTA
 	    	\justifying     		
-Credo che la mole di lavoro sia sufficiente e che quindi aggiungere nuove funzionalità al momento si possa esculdere, basta concentrarsi sui requisiti già definiti. Avete accennato alla possibilità di aggiungere dei gruppi, ma preferisco che vi concentriate sull'inserimento dei \glossaryItem{template} anzichè di questa funzionalità.
+Credo che la mole di lavoro sia sufficiente e che quindi aggiungere nuove funzionalità al momento si possa esculdere, basta concentrarsi sui requisiti già definiti. Avete accennato alla possibilità di aggiungere dei gruppi di lavoro, ma preferisco che vi concentriate sull'inserimento dei \glossaryItem{template} anzichè di questa funzionalità.
 \\
 	   	 \end{itemize}
