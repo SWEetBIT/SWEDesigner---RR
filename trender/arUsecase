@@ -11,7 +11,7 @@ la registrazione;
 avvenga con successo, gli concede la possibilità di accedere al sistema.
 In caso contrario viene visualizzato un messaggio d’errore e viene indicato dove è
 stato commesso, per l’appunto, l’errore;
-\item \textbf{Scenario principale}: \begin{enumerate}\item Inserisci Username (UC1.1);\item Inserisci Password (UC1.2);\item Inserisci Email (UC1.3). 
+\item \textbf{Scenario principale}: \begin{enumerate}\item Inserisci Username (UC1.1);\item Inserisci Password (UC1.2);\item Inserisci Email (UC1.3);\item Conferma registrazione (UC1.4). 
  \end{enumerate}
 \end{itemize} 
 \subsubsection{UC1.1 - Inserisci Username} 
@@ -37,6 +37,14 @@ stato commesso, per l’appunto, l’errore;
 \item \textbf{Descrizione}: L’utente inserisce l'email che intende utilizzare per la registrazione;
 \item \textbf{Precondizione}: L'utente ha selezionato l'opzione di registrazione e non ha ancora inserito la propria email;
 \item \textbf{Postcondizione}: L'utente ha inserito l'email che desidera utilizzare e si appresta a compilare i campi rimanenti per effettuare la registrazione;
+\end{itemize} 
+\subsubsection{UC1.4 - Conferma registrazione} 
+\label{sssec:UC1.4} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: a;
+\item \textbf{Precondizione}: a;
+\item \textbf{Postcondizione}: a;
 \end{itemize} 
 \subsubsection{UC2 - Autenticazione} 
 \label{sssec:UC2} 
@@ -938,4 +946,38 @@ Tale template viene eliminato dalla lista se la conferma ha esito positivo.;\ite
 \item \textbf{Descrizione}: Eliminazione di un output pin dall'activity;
 \item \textbf{Precondizione}: È stato creato un activity con almeno un output pin al suo interno.;
 \item \textbf{Postcondizione}: L'output pin selezionato viene eliminato dal diagramma insieme a tutte le sue relazioni. Il programma non può essere generato.;
-\item \textbf{Scenario principale}: L'utente ha disegnato un activity con almeno un input pin al suo interno e desidera eliminarlo.;
+\item \textbf{Scenario principale}: L'utente ha disegnato un activity con almeno un input pin al suo interno e desidera eliminarlo.;\end{itemize} 
+\subsubsection{UC6.4 - Pannello laterale} 
+\label{sssec:UC6.4} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: Sezione di schermo nella quale è possibile visionare il flusso del programma a partire dal metodo main;
+\item \textbf{Precondizione}: è aperto un progetto;
+\item \textbf{Postcondizione}: visualizza un diagramma delle attività;
+\item \textbf{Scenario principale}: \begin{enumerate}\item Esplorazione metodi (UC6.4.1);\item Visione Breadcrumb (UC6.4.2). 
+ \end{enumerate}
+\end{itemize} 
+\subsubsection{UC6.4.1 - Esplorazione metodi} 
+\label{sssec:UC6.4.1} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: selezionando una chiamata a metodo è possibile visionare il diagramma delle attività di tale metodo;
+\item \textbf{Precondizione}: è visualizzato un diagramma delle attività;
+\item \textbf{Postcondizione}: viene mostrato il diagramma delle attività del metodo selezionato;
+\end{itemize} 
+\subsubsection{UC6.4.2 - Visione Breadcrumb} 
+\label{sssec:UC6.4.2} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: Viene visualizzata una Breadcrumb che rappresenta il percorso effettuato dall'utente durante la navigazione dei vari metodo selezionati;
+\item \textbf{Precondizione}: è visualizzato un diagramma delle attività;
+\item \textbf{Postcondizione}: vengono visualizzati in ordine di accesso tutti i metodi selezionati dall'utente nella visione principale del programma;
+\end{itemize} 
+\subsubsection{UC7 - Inserimento lista parametri metodo} 
+\label{sssec:UC7} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: viene inserita la lista dei parametri che verranno utilizzati nella realizzazione del metodo;
+\item \textbf{Precondizione}: viene visualizzato un form che permette l'inserimento della lista dei parametri;
+\item \textbf{Postcondizione}: il sistema registra il dato inserito;
+\end{itemize} 
