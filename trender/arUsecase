@@ -160,7 +160,7 @@ invitato l’utente a controllare i dati inseriti.;
 \item \textbf{Descrizione}: Tool Designer;
 \item \textbf{Precondizione}: Tool Designer;
 \item \textbf{Postcondizione}: Tool Designer;
-\item \textbf{Scenario principale}: \begin{enumerate}\item Menù (UC6.1);\item Toolbar (UC6.2);\item Mainwindows (UC6.3). 
+\item \textbf{Scenario principale}: \begin{enumerate}\item Menù (UC6.1);\item Toolbar (UC6.2);\item Disegnatore diagrammi (UC6.3);\item Pannello laterale (UC6.4). 
  \end{enumerate}
 \end{itemize} 
 \subsubsection{UC6.1 - Menù} 
@@ -172,7 +172,7 @@ layers e window appartenenti al menù del tool designer.;
 \item \textbf{Precondizione}: L’applicazione offre all’utente una barra dei menù.;
 \item \textbf{Postcondizione}: L’applicazione, a seconda dell’operazione richiesta dall’utente,
 svolge le sue funzioni.;
-\item \textbf{Scenario principale}: \begin{enumerate}\item File (UC6.1.1);\item Edit (UC6.1.2);\item Template (UC6.1.3). 
+\item \textbf{Scenario principale}: \begin{enumerate}\item File (UC6.1.1);\item Edit (UC6.1.2);\item Template (UC6.1.3);\item Layers (UC6.1.4). 
  \end{enumerate}
 \end{itemize} 
 \subsubsection{UC6.1.1 - File} 
@@ -318,6 +318,14 @@ zoom out, sottovoce di edit appartenente al menù.;
 \item \textbf{Descrizione}: Template;
 \item \textbf{Precondizione}: Template;
 \item \textbf{Postcondizione}: Template;
+\end{itemize} 
+\subsubsection{UC6.1.4 - Layers} 
+\label{sssec:UC6.1.4} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: Layers;
+\item \textbf{Precondizione}: Layers;
+\item \textbf{Postcondizione}: Layers;
 \end{itemize} 
 \subsubsection{UC6.2 - Toolbar} 
 \label{sssec:UC6.2} 
@@ -544,24 +552,24 @@ zoom out, sottovoce di edit appartenente al menù.;
 \item \textbf{Precondizione}: è aperta, nel frame delle diagramma delle  classi, il diagramma delle attività del un metodo di una classe; è presente un elemento chiamata a metodo nel diagramma;
 \item \textbf{Postcondizione}: viene annesso ad un elemento chiamata a metodo, presente nel diagramma delle attività di un metodo, un nuovo elemento output pin;
 \item \textbf{Scenario principale}: l'attore ha selezionato l'elemento nuovo input pin dalla lista degli strumenti del diagramma delle attività;\end{itemize} 
-\subsubsection{UC6.3 - Mainwindows} 
+\subsubsection{UC6.3 - Disegnatore diagrammi} 
 \label{sssec:UC6.3} 
 \begin{itemize} 
 \item \textbf{Attori}: .
-\item \textbf{Descrizione}: Mainwindows;
-\item \textbf{Precondizione}: Mainwindows;
-\item \textbf{Postcondizione}: Mainwindows;
-\item \textbf{Scenario principale}: \begin{enumerate}\item MainFrame (UC6.3.1);\item Zoom-in (UC6.3.2);\item Zoom-out (UC6.3.3);\item Drag di un oggetto (UC6.3.4);\item Aggiunta relazione (UC6.3.5);\item Bottoni Switch (UC6.3.6);\item SideFrame (UC6.3.7). 
+\item \textbf{Descrizione}: Disegnatore diagrammi;
+\item \textbf{Precondizione}: Disegnatore diagrammi;
+\item \textbf{Postcondizione}: Disegnatore diagrammi;
+\item \textbf{Scenario principale}: \begin{enumerate}\item Editor Diagrammi delle Classi (UC6.3.1);\item Zoom-in (UC6.3.2);\item Zoom-out (UC6.3.3);\item Drag di un oggetto (UC6.3.4);\item Editor Diagrammi dei Metodi (UC6.3.5). 
  \end{enumerate}
 \end{itemize} 
-\subsubsection{UC6.3.1 - MainFrame} 
+\subsubsection{UC6.3.1 - Editor Diagrammi delle Classi} 
 \label{sssec:UC6.3.1} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
 \item \textbf{Descrizione}: Interazione con la schermata principale;
 \item \textbf{Precondizione}: L'utente crea o apre un progetto.;
 \item \textbf{Postcondizione}: L'utente chiude il progetto.;
-\item \textbf{Scenario principale}: \begin{enumerate}\item Elimina Classe (UC6.3.1.1);\item Modifica interfaccia (UC6.3.1.10);\item Apri dettagli elemento (UC6.3.1.11);\item Elimina Relazione (UC6.3.1.2);\item Elimina pacchetto (UC6.3.1.3);\item Modifica Classe (UC6.3.1.5);\item Modifica Relazione (UC6.3.1.6);\item Modifica pacchetto (UC6.3.1.7);\item Eliminazione Interfaccia (UC6.3.1.9). 
+\item \textbf{Scenario principale}: \begin{enumerate}\item Elimina Classe (UC6.3.1.1);\item Elimina Relazione (UC6.3.1.2);\item Elimina pacchetto (UC6.3.1.3);\item Apri dettagli elemento (UC6.3.1.4);\item Modifica Classe (UC6.3.1.5);\item Modifica Relazione (UC6.3.1.6);\item Modifica pacchetto (UC6.3.1.7). 
  \end{enumerate}
 \end{itemize} 
 \subsubsection{UC6.3.1.1 - Elimina Classe} 
@@ -600,48 +608,6 @@ zoom out, sottovoce di edit appartenente al menù.;
 \item \textbf{Postcondizione}: Viene eliminato il metodo selezionato e, a cascata, il flowchart associato se esistente.;
 \item \textbf{Scenario principale}: L'utente ha disegnato una classe con almeno un metodo ed  eventualmente anche il flowchart corrispondente e desidera eliminarlo.;\item \textbf{Scenari alternativi}: L'utente ha aggiunto un nuovo metodo e desidera eliminarlo..
 \end{itemize} 
-\subsubsection{UC6.3.1.10 - Modifica interfaccia} 
-\label{sssec:UC6.3.1.10} 
-\begin{itemize} 
-\item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: Modifica di un'interfaccia presente sul designer.;
-\item \textbf{Precondizione}: § stata creata un'interfaccia.;
-\item \textbf{Postcondizione}: L'interfaccia è stata modificata in uno o più campi dato.;
-\item \textbf{Scenario principale}: \begin{enumerate}\item Modifica Nome (UC6.3.1.10.1);\item Modifica attributo (UC6.3.1.10.2);\item Modifica Metodo (UC6.3.1.10.3). 
- \end{enumerate}
-\end{itemize} 
-\subsubsection{UC6.3.1.10.1 - Modifica Nome} 
-\label{sssec:UC6.3.1.10.1} 
-\begin{itemize} 
-\item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: Modifica del nome dell'interfaccia.;
-\item \textbf{Precondizione}: È stata creata un'interfaccia sul designer.;
-\item \textbf{Postcondizione}: Il nome dell'interfaccia è stato modificato.;
-\item \textbf{Scenario principale}: L'utente ha disegnato un'interfaccia e desidera modificarne il nome.;\end{itemize} 
-\subsubsection{UC6.3.1.10.2 - Modifica attributo} 
-\label{sssec:UC6.3.1.10.2} 
-\begin{itemize} 
-\item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: Modifica di un attributo dell'interfaccia.;
-\item \textbf{Precondizione}: È stata creata un'interfaccia con almeno un attributo al suo interno.;
-\item \textbf{Postcondizione}: L'attributo selezionato è stato modificato.;
-\item \textbf{Scenario principale}: L'utente ha disegnato un'interfaccia con almeno un attributo al suo interno e desidera modificarlo.;\end{itemize} 
-\subsubsection{UC6.3.1.10.3 - Modifica Metodo} 
-\label{sssec:UC6.3.1.10.3} 
-\begin{itemize} 
-\item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: Modifica di un metodo dell'interfaccia.;
-\item \textbf{Precondizione}: È stata creata un'interfaccia con almeno un metodo al suo interno.;
-\item \textbf{Postcondizione}: Il metodo selezionato è stato modificato.;
-\item \textbf{Scenario principale}: L'utente ha creato un'interfaccia con almeno un metodo al suo interno e desidera modificarlo.;\end{itemize} 
-\subsubsection{UC6.3.1.11 - Apri dettagli elemento} 
-\label{sssec:UC6.3.1.11} 
-\begin{itemize} 
-\item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: Visualizza i dettagli implementativi dell'elemento desiderato.;
-\item \textbf{Precondizione}: È stato disegnato almeno un elemento all'interno del designer.;
-\item \textbf{Postcondizione}: Vengono visualizzati tutti i dettagli dell'elemento.;
-\item \textbf{Scenario principale}: L'utente ha disegnato un elemento e desidera visualizzare ogni sua parte.;\end{itemize} 
 \subsubsection{UC6.3.1.2 - Elimina Relazione} 
 \label{sssec:UC6.3.1.2} 
 \begin{itemize} 
@@ -658,6 +624,14 @@ zoom out, sottovoce di edit appartenente al menù.;
 \item \textbf{Precondizione}: È stato disegnato un pacchetto.;
 \item \textbf{Postcondizione}: Viene eliminato il pacchetto dal designer assieme a tutti i suoi eventuali elementi contenuti.;
 \item \textbf{Scenario principale}: L'utente ha disegnato un pacchetto e lo ha riempito con delle classi prima di cancellarlo.;\end{itemize} 
+\subsubsection{UC6.3.1.4 - Apri dettagli elemento} 
+\label{sssec:UC6.3.1.4} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: Visualizza i dettagli implementativi dell'elemento desiderato.;
+\item \textbf{Precondizione}: È stato disegnato almeno un elemento all'interno del designer.;
+\item \textbf{Postcondizione}: Vengono visualizzati tutti i dettagli dell'elemento.;
+\item \textbf{Scenario principale}: L'utente ha disegnato un elemento e desidera visualizzare ogni sua parte.;\end{itemize} 
 \subsubsection{UC6.3.1.5 - Modifica Classe} 
 \label{sssec:UC6.3.1.5} 
 \begin{itemize} 
@@ -734,40 +708,6 @@ zoom out, sottovoce di edit appartenente al menù.;
 \item \textbf{Precondizione}: Esiste un pacchetto con almeno una classe al suo interno.;
 \item \textbf{Postcondizione}: La classe selezionata si trova fuori dal pacchetto.;
 \item \textbf{Scenario principale}: L'utente trascina la classe dal pacchetto al suo esterno.;\end{itemize} 
-\subsubsection{UC6.3.1.9 - Eliminazione Interfaccia} 
-\label{sssec:UC6.3.1.9} 
-\begin{itemize} 
-\item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: Eliminazione di un'interfaccia nel designer.;
-\item \textbf{Precondizione}: È stata creata un'interfaccia all'interno del designer.;
-\item \textbf{Postcondizione}: L'interfaccia selezionata è stata eliminata assieme ai suoi elementi.;
-\item \textbf{Scenario principale}: \begin{enumerate}\item Eliminazione Nome (UC6.3.1.9.1);\item Eliminazione attributo (UC6.3.1.9.2);\item Eliminazione Metodo (UC6.3.1.9.3). 
- \end{enumerate}
-\end{itemize} 
-\subsubsection{UC6.3.1.9.1 - Eliminazione Nome} 
-\label{sssec:UC6.3.1.9.1} 
-\begin{itemize} 
-\item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: Eliminazione del nome dell'interfaccia;
-\item \textbf{Precondizione}: È stata creata un'interfaccia all'interno del designer;
-\item \textbf{Postcondizione}: Il nome dell'interfaccia selezionata viene eliminato.;
-\item \textbf{Scenario principale}: L'utente ha disegnato un'interfaccia all'interno del designer e desidera eliminarne il nome.;\end{itemize} 
-\subsubsection{UC6.3.1.9.2 - Eliminazione attributo} 
-\label{sssec:UC6.3.1.9.2} 
-\begin{itemize} 
-\item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: Eliminazione di un attributo dell'interfaccia.;
-\item \textbf{Precondizione}: È stata creata n'interfaccia con almeno un attributo al suo interno.;
-\item \textbf{Postcondizione}: L'attributo selezionato viene eliminato.;
-\item \textbf{Scenario principale}: L'utente ha disegnato un'interfaccia con almeno un attributo al suo interno e desidera eliminarlo.;\end{itemize} 
-\subsubsection{UC6.3.1.9.3 - Eliminazione Metodo} 
-\label{sssec:UC6.3.1.9.3} 
-\begin{itemize} 
-\item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: Eliminazione di un metodo dell'interfaccia;
-\item \textbf{Precondizione}: È stata creata un'interfaccia con almeno un metodo al suo interno.;
-\item \textbf{Postcondizione}: Il metodo selezionato è stato eliminato assieme al suo eventuale flowchart associato.;
-\item \textbf{Scenario principale}: L'utente ha creato un'interfaccia con almeno un metodo al suo interno e desidera eliminarlo.;\end{itemize} 
 \subsubsection{UC6.3.2 - Zoom-in} 
 \label{sssec:UC6.3.2} 
 \begin{itemize} 
@@ -793,145 +733,61 @@ zoom out, sottovoce di edit appartenente al menù.;
 \item \textbf{Precondizione}: È stato disegnato almeno un oggetto, di qualsiasi natura, sul designer.;
 \item \textbf{Postcondizione}: L'oggetto selezionato viene spostato nella posizione desiderata.;
 \item \textbf{Scenario principale}: L'utente, tramite un click del mouse, desidera trascinare un oggetto da un punto all'altro del designer.;\end{itemize} 
-\subsubsection{UC6.3.5 - Aggiunta relazione} 
+\subsubsection{UC6.3.5 - Editor Diagrammi dei Metodi} 
 \label{sssec:UC6.3.5} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: Aggiunta di una relazione fra un oggetto generico e un altro.;
-\item \textbf{Precondizione}: Sono stati disegnati almeno due oggetti sul designer.;
-\item \textbf{Postcondizione}: È stata creata una relazione fra i due oggetti selezionati.;
-\item \textbf{Scenario principale}: L'utente vuole inserire una relazione fra due oggetti.;\end{itemize} 
-\subsubsection{UC6.3.6 - Bottoni Switch} 
-\label{sssec:UC6.3.6} 
-\begin{itemize} 
-\item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: Utilizzo dei bottoni di switch fra frame e/o diagrammi;
-\item \textbf{Precondizione}: È stato aperto o avviato un nuovo progetto.;
-\item \textbf{Postcondizione}: Viene visualizzato il frame indicato con i diagrammi selezionati.;
-\item \textbf{Scenario principale}: \begin{enumerate}\item Switch Classe (UC6.3.6.1);\item Switch Activity (UC6.3.6.2);\item Switch diagramma classi (UC6.3.6.4). 
+\item \textbf{Descrizione}: L'attore può modificare il diagramma del metodo di una classe;
+\item \textbf{Precondizione}: Nel sistema è caricato correttamente un progetto che  contiene almeno una classe con un metodo, è visualizzata la finestra di modifica del metodo;
+\item \textbf{Postcondizione}: Il diagramma del metodo di una classe viene cambiato dalle eventuali modifiche dell'attore;
+\item \textbf{Scenario principale}: \begin{enumerate}\item Elimina relazione (UC6.3.5.1);\item Elimina Parameter Node (UC6.3.5.10);\item Modifica Action (UC6.3.5.11);\item Modifica Decision (UC6.3.5.12);\item Elimina Action (UC6.3.5.2);\item Elimina decision (UC6.3.5.3);\item Elimina Merge Node (UC6.3.5.4);\item Elimina commento (UC6.3.5.5);\item Elimina Call Behaviour Action (UC6.3.5.6);\item Elimina Object Node (UC6.3.5.7);\item Elimina Input Pin (UC6.3.5.8);\item Elimina Output Pin (UC6.3.5.9). 
  \end{enumerate}
 \end{itemize} 
-\subsubsection{UC6.3.6.1 - Switch Classe} 
-\label{sssec:UC6.3.6.1} 
+\subsubsection{UC6.3.5.1 - Elimina relazione} 
+\label{sssec:UC6.3.5.1} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: Viene effettuato uno switch fra il frame dell'activity e il frame delle classi.;
-\item \textbf{Precondizione}: È stato selezionato il frame dell'activity.;
-\item \textbf{Postcondizione}: Viene visualizzato il frame delle classi.;
-\item \textbf{Scenario principale}: L'utente decide di passare dalla vista dell'activity alla vista delle classi.;\end{itemize} 
-\subsubsection{UC6.3.6.2 - Switch Activity} 
-\label{sssec:UC6.3.6.2} 
-\begin{itemize} 
-\item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: Switch del frame delle classi a quello dell'activity;
-\item \textbf{Precondizione}: È stato selezionato il frame delle classi.;
-\item \textbf{Postcondizione}: Viene visualizzato il frame dell'activity.;
-\item \textbf{Scenario principale}: L'utente decide di passare dalla vista del frame delle classi a quella del frame dell'activity.;\end{itemize} 
-\subsubsection{UC6.3.6.4 - Switch diagramma classi} 
-\label{sssec:UC6.3.6.4} 
-\begin{itemize} 
-\item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: Il diagramma delle classi passa in primo piano rispetto al flowchart.;
-\item \textbf{Precondizione}: È stata disegnata almeno una classe all'interno del designer e il focus è sui flowchart.;
-\item \textbf{Postcondizione}: I diagrammi delle classi vengono messi in primo piano rispetto ai flowchart dei metodi.;
-\item \textbf{Scenario principale}: L'utente decide di passare dalla vista dei flowchart a quella dei diagrammi delle classi.;\end{itemize} 
-\subsubsection{UC6.3.7 - SideFrame} 
-\label{sssec:UC6.3.7} 
-\begin{itemize} 
-\item \textbf{Attori}: .
-\item \textbf{Descrizione}: Utilizzo del frame dedicato all'activity;
-\item \textbf{Precondizione}: È stato aperto o avviato un nuovo progetto.;
-\item \textbf{Postcondizione}: Viene gestito l'activity.
-;
-\item \textbf{Scenario principale}: \begin{enumerate}\item Elimina nodo iniziale/finale (UC6.3.7.1);\item Elimina Merge Node (UC6.3.7.10);\item Elimina commento (UC6.3.7.11);\item Elimina Call Behaviour Action (UC6.3.7.12);\item Elimina Join Node (UC6.3.7.13);\item Elimina Object Node (UC6.3.7.14);\item Elimina Input Pin (UC6.3.7.15);\item Elimina Output Pin (UC6.3.7.16);\item Elimina Parameter Node (UC6.3.7.17);\item Modifica Action (UC6.3.7.18);\item Modifica Decision (UC6.3.7.19);\item Elimina Action (UC6.3.7.2);\item Modifica Time Event Action (UC6.3.7.20);\item Modifica Send Signal Code (UC6.3.7.21);\item Elimina decision (UC6.3.7.3);\item Elimina Time Event (UC6.3.7.4);\item Elimina Send Signal (UC6.3.7.5);\item Elimina Receive Signal (UC6.3.7.6);\item Elimina Fork Node (UC6.3.7.7);\item Elimina relazione (UC6.3.7.8);\item Elimina Guard (UC6.3.7.9). 
- \end{enumerate}
-\end{itemize} 
-\subsubsection{UC6.3.7.1 - Elimina nodo iniziale/finale} 
-\label{sssec:UC6.3.7.1} 
-\begin{itemize} 
-\item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: Eliminazione del nodo  finale;
-\item \textbf{Precondizione}: È stato creato un activity con almeno un nodo iniziale o finale.;
-\item \textbf{Postcondizione}: Il nodo iniziale o finale selezionato è stato eliminato dal diagramma. Il programma non può essere generato.;
-\item \textbf{Scenario principale}: L'utente ha disegnato un nodo iniziale o finale all'interno di un activity e desidera eliminarlo.;\end{itemize} 
-\subsubsection{UC6.3.7.10 - Elimina Merge Node} 
-\label{sssec:UC6.3.7.10} 
-\begin{itemize} 
-\item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: Eliminazione di un merge node all'interno dell'activity.;
-\item \textbf{Precondizione}: È stato creato un activity con almeno un merge node al suo interno;
-\item \textbf{Postcondizione}: Il merge node del diagramma è stato eliminato assieme a tutte le sue relazioni. Il programma non può essere generato.;
-\item \textbf{Scenario principale}: L'utente ha creato un activity con almeno un merge node al suo interno e desidera eliminarlo.;\end{itemize} 
-\subsubsection{UC6.3.7.11 - Elimina commento} 
-\label{sssec:UC6.3.7.11} 
-\begin{itemize} 
-\item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: Eliminazione di un commento dell'activity;
-\item \textbf{Precondizione}: È stato creato un activity con almeno un commento al suo interno.
-;
-\item \textbf{Postcondizione}: Il commento selezionato è stato eliminato.;
-\item \textbf{Scenario principale}: L'utente ha disegnato un activity con almeno un commento al suo interno e desidera eliminarlo.;\end{itemize} 
-\subsubsection{UC6.3.7.12 - Elimina Call Behaviour Action} 
-\label{sssec:UC6.3.7.12} 
-\begin{itemize} 
-\item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: Eliminazione di una call behaviour action dall'activity.;
-\item \textbf{Precondizione}: È stato creato un activity con almeno una call behaviour action al suo interno.;
-\item \textbf{Postcondizione}: La call behaviour action del diagramma è stata eliminata insieme a tutte le sue relazioni. Il programma non può essere generato.;
-\item \textbf{Scenario principale}: L''utente ha disegnato un activity con almeno una call behaviour action al suo interno e desidera eliminarla.;\end{itemize} 
-\subsubsection{UC6.3.7.13 - Elimina Join Node} 
-\label{sssec:UC6.3.7.13} 
-\begin{itemize} 
-\item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: Eliminazione di un join node dall'activity;
-\item \textbf{Precondizione}: È stato creato un activity con almeno un join node al suo interno.;
-\item \textbf{Postcondizione}: Il join node selezionato è stato eliminato insieme a tutte le sue relazioni. Il programma non può essere generato.;
-\item \textbf{Scenario principale}: L'utente ha disegnato un activity con almeno un join node al suo interno e desidera eliminarlo.;\end{itemize} 
-\subsubsection{UC6.3.7.14 - Elimina Object Node} 
-\label{sssec:UC6.3.7.14} 
-\begin{itemize} 
-\item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: Eliminazione di un object node dall'activity;
-\item \textbf{Precondizione}: È stato creato un acivity con almeno un object node al suo interno.;
-\item \textbf{Postcondizione}: L'object node selezionato è stato eliminato insieme a tutte le sue relazioni. Il programma non può essere generato.;
-\item \textbf{Scenario principale}: L'utente ha creato un activity con almeno un object node al suo interno e desidera eliminarlo.;\end{itemize} 
-\subsubsection{UC6.3.7.15 - Elimina Input Pin} 
-\label{sssec:UC6.3.7.15} 
-\begin{itemize} 
-\item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: Eliminazione di un input pin dall'activity.;
-\item \textbf{Precondizione}: È stato creato un activity con almeno un input pin al suo interno.;
-\item \textbf{Postcondizione}: L'input pin selezionato viene eliminato dal diagramma insieme a tutte le sue relazioni. Il programma non può essere generato.;
-\item \textbf{Scenario principale}: L'utente ha creato un activity con almeno un input pin al suo interno e desidera eliminarlo.;\end{itemize} 
-\subsubsection{UC6.3.7.16 - Elimina Output Pin} 
-\label{sssec:UC6.3.7.16} 
-\begin{itemize} 
-\item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: Eliminazione di un output pin dall'activity;
-\item \textbf{Precondizione}: È stato creato un activity con almeno un output pin al suo interno.;
-\item \textbf{Postcondizione}: L'output pin selezionato viene eliminato dal diagramma insieme a tutte le sue relazioni. Il programma non può essere generato.;
-\item \textbf{Scenario principale}: L'utente ha disegnato un activity con almeno un input pin al suo interno e desidera eliminarlo.;\end{itemize} 
-\subsubsection{UC6.3.7.17 - Elimina Parameter Node} 
-\label{sssec:UC6.3.7.17} 
+\item \textbf{Descrizione}: Eliminazione di una relazione fra gli elementi dell'activity.;
+\item \textbf{Precondizione}: È stato creato un activity con almeno due elementi in relazione fra loro.;
+\item \textbf{Postcondizione}: La relazione selezionata è stata eliminata. Il programma non può essere generato.;
+\item \textbf{Scenario principale}: L'utente ha disegnato un activity con almeno due elementi in relazione e desidera rimuovere quest'ultima.;\end{itemize} 
+\subsubsection{UC6.3.5.10 - Elimina Parameter Node} 
+\label{sssec:UC6.3.5.10} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
 \item \textbf{Descrizione}: Eliminazione di un parameter node;
 \item \textbf{Precondizione}: È stato creato un activity con almeno un parameter node al suo interno.;
 \item \textbf{Postcondizione}: Il parameter node selezionato viene eliminato dal diagramma insieme a tutte le sue relazioni. Il programma non può essere generato.;
 \item \textbf{Scenario principale}: L'utente ha disegnato un activity con almeno un parameter node al suo interno e desidera eliminarlo.;\end{itemize} 
-\subsubsection{UC6.3.7.18 - Modifica Action} 
-\label{sssec:UC6.3.7.18} 
+\subsubsection{UC6.3.5.11 - Modifica Action} 
+\label{sssec:UC6.3.5.11} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
 \item \textbf{Descrizione}: Modifica di un action all'interno del'activity.;
 \item \textbf{Precondizione}: È stato creato un activity con almeno un action al suo interno.;
 \item \textbf{Postcondizione}: L'action selezionato è stato modificato.;
 \item \textbf{Scenario principale}: L'utente ha disegnato un activity con almeno un action al suo interno e desidera modificarlo.;\end{itemize} 
-\subsubsection{UC6.3.7.19 - Modifica Decision} 
-\label{sssec:UC6.3.7.19} 
+\subsubsection{UC6.3.5.12 - Modifica Decision} 
+\label{sssec:UC6.3.5.12} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
 \item \textbf{Descrizione}: Modifica di una decision dell'activity.;
 \item \textbf{Precondizione}: È stato creato un activity con almeno una decision al suo interno.;
 \item \textbf{Postcondizione}: La decision selezionata è stata modificata.;
 \item \textbf{Scenario principale}: L'utente ha disegnato un activity con almeno una decision al suo interno e desidera modificarla.;\end{itemize} 
+\subsubsection{UC6.3.5.2 - Elimina Action} 
+\label{sssec:UC6.3.5.2} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: Eliminazione di un action all'interno dell'actvity.;
+\item \textbf{Precondizione}: È stato disegnato un activity con almeno un action al suo interno.;
+\item \textbf{Postcondizione}: L'action selezionata è stata eliminata dal diagramma assieme a tutte le sue relazioni. Il programma non può essere generato.;
+\item \textbf{Scenario principale}: L'utente ha disegnato un activity con almeno un action al suo interno e desidera eliminarla.;\end{itemize} 
+\subsubsection{UC6.3.5.3 - Elimina decision} 
+\label{sssec:UC6.3.5.3} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: Eliminazione di una decision all'interno dell'activity.;
+\item \textbf{Precondizione}: È stato disegnato un activity con almeno un decision al suo interno.;
+\item \textbf{Postcondizione}: La decision all'interno del diagramma è stata eliminata assieme a tutte le sue relazioni. Il programma non può essere generato.;
+\item \textbf{Scenario principale}: L'utente ha disegnato un activity con almeno una decision al suo interno e desidera eliminarla.;\end{itemize} 
