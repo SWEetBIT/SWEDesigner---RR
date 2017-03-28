@@ -232,46 +232,45 @@ export e generates code appartenenti alla voce file del menù.;
 \item \textbf{Precondizione}: L’applicazione offre all’utente la voce file nella barra dei menù.;
 \item \textbf{Postcondizione}: L’applicazione, a seconda dell’operazione richiesta dall’utente,
 svolge le sue funzioni.;
-\item \textbf{Scenario principale}: \begin{enumerate}\item Save (UC6.1.1.1);\item Close (UC6.1.1.2);\item Export (UC6.1.1.3);\item Generate code (UC6.1.1.4);\item Salva template (UC6.1.1.5). 
+\item \textbf{Scenario principale}: \begin{enumerate}\item Salva (UC6.1.1.1);\item Chiudi (UC6.1.1.2);\item Esporta (UC6.1.1.3);\item Genera codice (UC6.1.1.4);\item Salva template (UC6.1.1.5). 
  \end{enumerate}
 \end{itemize} 
-\subsubsection{UC6.1.1.1 - Save} 
+\subsubsection{UC6.1.1.1 - Salva} 
 \label{sssec:UC6.1.1.1} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
 \item \textbf{Descrizione}: L’utente autenticato può salvare il suo progetto nello stato
 corrente.;
-\item \textbf{Precondizione}: L’applicazione offre all’utente il salvataggio, disponibile nella voce
-file della barra del menù.;
+\item \textbf{Precondizione}: L’applicazione offre all’utente il salvataggio, disponibile alla voce salva del file appartenente alla barra del menù.;
 \item \textbf{Postcondizione}: L’applicazione salva il progetto nello stato corrente.;
 \end{itemize} 
-\subsubsection{UC6.1.1.2 - Close} 
+\subsubsection{UC6.1.1.2 - Chiudi} 
 \label{sssec:UC6.1.1.2} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
 \item \textbf{Descrizione}: L’utente autenticato può chiudere il progetto corrente.;
 \item \textbf{Precondizione}: L’applicazione offre all’attore la chiusura del progetto, disponibile
-alla voce close del menù.;
+alla voce chiudi del menù.;
 \item \textbf{Postcondizione}: L’applicazione chiude il progetto corrente.;
 \end{itemize} 
-\subsubsection{UC6.1.1.3 - Export} 
+\subsubsection{UC6.1.1.3 - Esporta} 
 \label{sssec:UC6.1.1.3} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
 \item \textbf{Descrizione}: L’utente autenticato può esportare il progetto corrente in
 un altro formato.;
 \item \textbf{Precondizione}: L’applicazione offre all’attore la possibilità di esportare il progetto,
-selezionando la voce export nel menù.;
+selezionando la voce esporta nel menù.;
 \item \textbf{Postcondizione}: L’applicazione esporta il progetto.;
 \end{itemize} 
-\subsubsection{UC6.1.1.4 - Generate code} 
+\subsubsection{UC6.1.1.4 - Genera codice} 
 \label{sssec:UC6.1.1.4} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
 \item \textbf{Descrizione}: L’utente autenticato può generare il codice relativo all’UML
 prodotto.;
 \item \textbf{Precondizione}: L’applicazione offre all’utente la possibilità di generare il codice
-relativo all’UML, alla voce generate code del menù.;
+relativo all’UML, alla voce genera codice del menù.;
 \item \textbf{Postcondizione}: L’applicazione genera il codice relativo al disegno UML.;
 \end{itemize} 
 \subsubsection{UC6.1.1.5 - Salva template} 
@@ -292,58 +291,58 @@ cut, copy, paste, zoom in e zoom out appartenenti alla voce edit del menù.;
 dei menù.;
 \item \textbf{Postcondizione}: L’applicazione, a seconda dell’operazione richiesta dall’utente,
 effettua la modifica.;
-\item \textbf{Scenario principale}: \begin{enumerate}\item Undo (UC6.1.2.1);\item Redo (UC6.1.2.2);\item Cut (UC6.1.2.3);\item Copy (UC6.1.2.4);\item Paste (UC6.1.2.5);\item Zoom in (UC6.1.2.6);\item Zoom out (UC6.1.2.7). 
+\item \textbf{Scenario principale}: \begin{enumerate}\item Annulla (UC6.1.2.1);\item Ripristina (UC6.1.2.2);\item Taglia (UC6.1.2.3);\item Copia (UC6.1.2.4);\item Incolla (UC6.1.2.5);\item Zoom in (UC6.1.2.6);\item Zoom out (UC6.1.2.7). 
  \end{enumerate}
 \end{itemize} 
-\subsubsection{UC6.1.2.1 - Undo} 
+\subsubsection{UC6.1.2.1 - Annulla} 
 \label{sssec:UC6.1.2.1} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
 \item \textbf{Descrizione}: L’utente autenticato può tornare allo stato precedente l’ultima
 modifica.;
 \item \textbf{Precondizione}: L’applicazione offre all’utente la possibilità di selezionare la voce
-undo, sottovoce di edit nella barra del menù.;
+annulla, sottovoce di edit nella barra del menù.;
 \item \textbf{Postcondizione}: L’applicazione torna allo stato precedente l’ultima modifica.;
 \end{itemize} 
-\subsubsection{UC6.1.2.2 - Redo} 
+\subsubsection{UC6.1.2.2 - Ripristina} 
 \label{sssec:UC6.1.2.2} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
 \item \textbf{Descrizione}: L’utente autenticato può ripristinare le modifiche effettuate
 successivamente allo stato attuale.;
 \item \textbf{Precondizione}: L’applicazione offre all’utente la possibilità di selezionare la voce
-redo, sottovoce di edit nella barra del menù, solamente se si era tornati ad uno
+ripristina, sottovoce di edit nella barra del menù, solamente se si era tornati ad uno
 stato precedente all’ultima modifica.;
 \item \textbf{Postcondizione}: L’applicazione torna allo stato precedente l’ultima modifica.;
 \end{itemize} 
-\subsubsection{UC6.1.2.3 - Cut} 
+\subsubsection{UC6.1.2.3 - Taglia} 
 \label{sssec:UC6.1.2.3} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
 \item \textbf{Descrizione}: L’utente autenticato può tagliare un determinato elemento
 del progetto.;
-\item \textbf{Precondizione}: L’applicazione offre all’utente la voce cut, sottovoce di edit appartenente
+\item \textbf{Precondizione}: L’applicazione offre all’utente la voce taglia, sottovoce di edit appartenente
 al menù.;
 \item \textbf{Postcondizione}: L’applicazione taglia l’elemento selezionato.;
 \end{itemize} 
-\subsubsection{UC6.1.2.4 - Copy} 
+\subsubsection{UC6.1.2.4 - Copia} 
 \label{sssec:UC6.1.2.4} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
 \item \textbf{Descrizione}: L’utente autenticato può copiare un determinato elemento
 del progetto.;
-\item \textbf{Precondizione}: L’applicazione offre all’utente la voce copy, sottovoce di edit appartenente
+\item \textbf{Precondizione}: L’applicazione offre all’utente la voce copia, sottovoce di edit appartenente
 al menù.;
 \item \textbf{Postcondizione}: L’applicazione copia l’elemento selezionato.;
 \end{itemize} 
-\subsubsection{UC6.1.2.5 - Paste} 
+\subsubsection{UC6.1.2.5 - Incolla} 
 \label{sssec:UC6.1.2.5} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
 \item \textbf{Descrizione}: L’utente autenticato può incollare un elemento precedentemente
 tagliato o copiato.;
 \item \textbf{Precondizione}: L’applicazione offre all’utente la possibilità di selezionare la voce
-paste, sottovoce di edit appartenente a menù, se un elemento era stato copiato o
+incolla, sottovoce di edit appartenente a menù, se un elemento era stato copiato o
 tagliato precedentemente .;
 \item \textbf{Postcondizione}: L’applicazione inserisce l’elemento designato.;
 \end{itemize} 
@@ -669,79 +668,4 @@ Tale template viene eliminato dalla lista se la conferma ha esito positivo.;\ite
 \item \textbf{Descrizione}: Eliminazione di un package;
 \item \textbf{Precondizione}: È stato disegnato un pacchetto.;
 \item \textbf{Postcondizione}: Viene eliminato il pacchetto dal designer assieme a tutti i suoi eventuali elementi contenuti.;
-\item \textbf{Scenario principale}: L'utente ha disegnato un pacchetto e lo ha riempito con delle classi prima di cancellarlo.;\end{itemize} 
-\subsubsection{UC6.3.1.4 - Apri dettagli elemento} 
-\label{sssec:UC6.3.1.4} 
-\begin{itemize} 
-\item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: Visualizza i dettagli implementativi dell'elemento desiderato.;
-\item \textbf{Precondizione}: È stato disegnato almeno un elemento all'interno del designer.;
-\item \textbf{Postcondizione}: Vengono visualizzati tutti i dettagli dell'elemento.;
-\item \textbf{Scenario principale}: L'utente ha disegnato un elemento e desidera visualizzare ogni sua parte.;\end{itemize} 
-\subsubsection{UC6.3.1.5 - Modifica Classe} 
-\label{sssec:UC6.3.1.5} 
-\begin{itemize} 
-\item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: Modifica degli elementi interni ad una classe;
-\item \textbf{Precondizione}: È stata disegnata una classe sul progetto.;
-\item \textbf{Postcondizione}: La classe risulta modificata.;
-\item \textbf{Scenario principale}: \begin{enumerate}\item Modifica Nome (UC6.3.1.5.1);\item Modifica Attributo (UC6.3.1.5.2);\item Aggiungi attributo (UC6.3.1.5.3);\item Modifica Metodo (UC6.3.1.5.4);\item Aggiungi Metodo (UC6.3.1.5.5);\item Assegnazione abstract (UC6.3.1.5.6);\item Assegnazione interface (UC6.3.1.5.7). 
- \end{enumerate}
-\end{itemize} 
-\subsubsection{UC6.3.1.5.1 - Modifica Nome} 
-\label{sssec:UC6.3.1.5.1} 
-\begin{itemize} 
-\item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: Viene modificato il nome della classe.;
-\item \textbf{Precondizione}: È stata creata una classe con un nome.;
-\item \textbf{Postcondizione}: Viene modificato il nome della classe.;
-\item \textbf{Scenario principale}: L'utente ha disegnato una classe con un nome e desidera modificarlo.;\end{itemize} 
-\subsubsection{UC6.3.1.5.2 - Modifica Attributo} 
-\label{sssec:UC6.3.1.5.2} 
-\begin{itemize} 
-\item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: Viene modificato l'attributo della classe.;
-\item \textbf{Precondizione}: È stata disegnata una classe con almeno un attributo.;
-\item \textbf{Postcondizione}: Viene modificato l'attributo selezionato.;
-\item \textbf{Scenario principale}: \begin{enumerate}\item Aggiunta visibilità attributo (UC6.3.1.5.2.1);\item Aggiunta nome attributo (UC6.3.1.5.2.2);\item Aggiunta tipo attributo (UC6.3.1.5.2.3);\item Aggiunta valore default attributo (UC6.3.1.5.2.4). 
- \end{enumerate}
-\end{itemize} 
-\subsubsection{UC6.3.1.5.2.1 - Aggiunta visibilità attributo} 
-\label{sssec:UC6.3.1.5.2.1} 
-\begin{itemize} 
-\item \textbf{Attori}: .
-\item \textbf{Descrizione}: viene scelta dall'attore la visibilità per l'attributo;
-\item \textbf{Precondizione}: viene visualizzato un form che permette la selezione della visibilità;
-\item \textbf{Postcondizione}: il sistema registra il dato inserito;
-\item \textbf{Scenario principale}: Viene scelta la visibilità nell'insieme di valori disponibili;\end{itemize} 
-\subsubsection{UC6.3.1.5.2.2 - Aggiunta nome attributo} 
-\label{sssec:UC6.3.1.5.2.2} 
-\begin{itemize} 
-\item \textbf{Attori}: .
-\item \textbf{Descrizione}: viene inserito dall'attore il nome per l'attributo;
-\item \textbf{Precondizione}: viene visualizzato un form che permette l'inserimento del nome dell'attributo;
-\item \textbf{Postcondizione}: il sistema registra il dato inserito;
-\end{itemize} 
-\subsubsection{UC6.3.1.5.2.3 - Aggiunta tipo attributo} 
-\label{sssec:UC6.3.1.5.2.3} 
-\begin{itemize} 
-\item \textbf{Attori}: .
-\item \textbf{Descrizione}: viene inserito il tipo dell'attributo che si sta inserendo;
-\item \textbf{Precondizione}: viene visualizzato un form che permette l'inserimento tipo dell'attributo;
-\item \textbf{Postcondizione}: il sistema registra il dato inserito;
-\end{itemize} 
-\subsubsection{UC6.3.1.5.2.4 - Aggiunta valore default attributo} 
-\label{sssec:UC6.3.1.5.2.4} 
-\begin{itemize} 
-\item \textbf{Attori}: .
-\item \textbf{Descrizione}: viene inserito il valore di default che può avere l'attributo;
-\item \textbf{Precondizione}: viene visualizzato un form che permette l'inserimento del valore di default dell'attributo;
-\item \textbf{Postcondizione}: il sistema registra il dato inserito;
-\end{itemize} 
-\subsubsection{UC6.3.1.5.3 - Aggiungi attributo} 
-\label{sssec:UC6.3.1.5.3} 
-\begin{itemize} 
-\item \textbf{Attori}: .
-\item \textbf{Descrizione}: l'attore inserisce un attributo per la classe selezionata;
-\item \textbf{Precondizione}: viene visualizzato un form che permette l'inserimento di attributi della classe;
-\item \textbf{Postcondizione}: il sistema registra il dato inserito;
+\item \textbf{Scenario principale}: L'utente ha disegnato un pacchetto e lo ha riempito con delle classi prima di cancellarlo.;

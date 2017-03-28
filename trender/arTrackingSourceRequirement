@@ -7,6 +7,27 @@
 \rowcolor{I} 
 \color{white} \textbf{Fonte} & \color{white} \textbf{Requisito} \\ 
 \endhead 
+Interno \newline UC1
+ & R0F1 \\
+Interno \newline UC1
+ \newline UC1.1
+ & R0F1.1 \\
+Interno & R0F1.2 \\
+Interno \newline UC1
+ \newline UC1.3
+ & R0F1.3 \\
+Interno \newline UC1
+ \newline UC1.4
+ & R0F1.4 \\
+Interno \newline UC1
+ \newline UC1.5
+ & R0F1.5 \\
+Interno \newline UC1
+ \newline UC1.6
+ & R0F1.6 \\
+Interno \newline UC1
+ \newline UC1.7
+ & R0F1.7 \\
 \rowcolor{white}
 \caption{Tracciamento fonti-requisito}
 \end{longtable}
