@@ -1,11 +1,11 @@
 \section{Strategia di verifica nel dettaglio}
   Questa sezione del documento descrive le metriche utilizzate per la quantificazione della qualità e le tecniche di analisi adottate.
 
-  \subsection{Metriche software e misurazioni}
-  Le metrice ritenute necessarie per una corretta misurazione della qualità di processi e prodotti è descritta in questa sezione;
+  \subsection{Metriche software, metriche di processo e misurazioni}
+  Le metriche ritenute necessarie per una corretta misurazione della qualità di processi e prodotti sono descritte in questa sezione;
   l'attività di verifica si baserà su queste metriche e per ognuna di queste è stato necessario stabilire due range:
   \begin{itemize}
-    \item \textbf{Range di accettazione:} l'intervallo di valori entro il quale deve trovarsi il risultato della misurazione di un processo, o prodotto, per essere ritenuto accettabile.
+    \item \textbf{Range di accettabilità:} l'intervallo di valori entro il quale deve trovarsi il risultato della misurazione di un processo, o prodotto, per essere ritenuto accettabile.
     \item \textbf{Range di ottimalità:} l'intervallo di valori in cui si deve trovare il risultato della misurazione di un processo, o prodotto, per essere considerato ottimale;
     questo range è l'obiettivo del gruppo SWEet BIT.
   \end{itemize}
@@ -31,7 +31,7 @@
       \end{itemize}
       I range stabiliti sono:
       \begin{itemize}
-        \item Range di accettazione = [\(\geq\)-(\emph{preventivo fase} * 5\%)]
+        \item Range di accettabilità = [\(\geq\)-(\emph{preventivo fase} * 5\%)]
         \item Range di ottimalità = [\(\geq\)0]
       \end{itemize}
       \item[Cost Variance (CV):] indica se vi sono state più o meno spese rispetto al previsto.
@@ -52,7 +52,7 @@
       \end{itemize}
       I range stabiliti sono:
       \begin{itemize}
-        \item Range di accettazione = [\(\geq\)-(\emph{preventivo fase} * 10\%)]
+        \item Range di accettabilità = [\(\geq\)-(\emph{preventivo fase} * 10\%)]
         \item Range di ottimalità = [\(\geq\)0]
       \end{itemize}
     \end{description}
@@ -72,11 +72,11 @@
       \end{itemize}
       I range stabiliti sono:
       \begin{itemize}
-        \item Range di accettazione = [40-100]
+        \item Range di accettabilità = [40-100]
         \item Range di ottimalità = [50-100]
       \end{itemize}
     \end{description}
-    \subsubsection{Metriche riguardanti il software prodotto}
+    \subsubsection{Metriche riguardanti il prodotto software}
     Come descritto nello standard \glossaryItem{ISO}/\glossaryItem{IEC} 9126, si posso identificare due tipi di metriche utilizzate per misurare la qualita del prodotto software, esse sono:
     \begin{itemize}
       \item \emph{Metriche interne}: vengono applicate al software non eseguibile durante le fasi di progettazione e codifica.
@@ -84,18 +84,113 @@
     \end{itemize}
     Per ogni caratteristica identificata nella \S2.1.1 del presente documento, è stata trovata almeno una metrica interna e una esterna, esse sono:
     \begin{itemize}
-      \item \textbf{Funzionalità} come metrica interna verrà utilizzata l'\textbf{accuratezza delle funzioni sviluppate}, lo scopo è qullo di poter misurare
-      il livello di accuratezza con cui le funzioni sviluppate rispettano quelle indentificate nell'analisi dei requisiti. La formula è la seguente:
+      \item \textbf{Funzionalità}\\
+      Come \textbf{metrica interna} viene utilizzata la \textbf{Completezza funzionale};
+      lo scopo è quello di poter quantificare il livello di copertura delle funzioni del software, sui requisiti individuati durante il periodo di analisi;
+      la formula per il calcolo della completezza funzionale è la seguente:
       \begin{center}
-        AF = Fa / Fs
+        \emph{CompF = (Fs - Fo) / Ri}
       \end{center}
       Dove:
       \begin{itemize}
-        \item AF = accuratezza funzione;
-        \item Fa = numero di funzioni sviluppate con l'accuratezza richiesta;
-        \item Fs = numero totale di funzioni sviluppate.
+        \item CompF = livello completezza funzionale;
+        \item Fs = numero di funzionalità sviluppate;
+        \item Fo = numero di funzionalità obbligatorie (che coprono \emph{requisiti obbligatori})
+        \item Ri = numero di \emph{requisiti desiderabili}.
       \end{itemize}
-      come metrica esterna 
+      I range stabiliti sono:
+      \begin{itemize}
+        \item Range di accettabilità = [\(\geq\)0.5]
+        \item Range di ottimalità = [\(\geq\)1]
+      \end{itemize}
+      Come \textbf{metrica esterna} si è deciso di utilizzare la \textbf{Correttezza funzionale};
+      questa metrica permette di misurare il livello di correttezza funzionale del software.
+      La formula per il calcolo della correttezza funzionale è:
+      \begin{center}
+        \emph{CorrF = 1 - Fe / Fp}
+      \end{center}
+      Dove:
+      \begin{itemize}
+        \item CorrF = livello correttezza funzionale;
+        \item Fe = numero funzioni che rilevate errate dai test;
+        \item Fp = numero di funzioni previste dalle specifiche.
+      \end{itemize}
+      I range stabiliti sono:
+      \begin{itemize}
+        \item Range di accettabilità = [0.75-1]
+        \item Range di ottimalità = [0.9-1]
+      \end{itemize}
+      \item \textbf{Affidabilità}\\
+      Come \textbf{metrica interna} si è optato per la \textbf{Rimozione errori},
+      la quale permette di misurare il livello di efficacia di rimozione degli errori;
+      la formula per il calcolo della rimozione degli errori è:
+      \begin{center}
+        \emph{Re = Dc / Dr}
+      \end{center}
+      Dove:
+      \begin{itemize}
+        \item Re = livello efficacia rimozione errori;
+        \item Dc = numero difetti corretti;
+        \item Dr = numero difetti rilevati.
+      \end{itemize}
+      I range stabiliti sono:
+      \begin{itemize}
+        \item Range di accettabilità = [0.8-1]
+        \item Range di ottimalità = [1]
+      \end{itemize}
+      Come \textbf{metrica esterna} viene utilizzata la \textbf{Frequenza/Assenza di malfunzionamenti},
+      questa è applicata per misurare quanto efficaciemente sono gestite le situazioni in cui si verificano errori durante l'operatività del sistema.
+      La formula è:
+      \begin{center}
+        \emph{FreqE = Mc / Mr}
+      \end{center}
+      Dove:
+      \begin{itemize}
+        \item FreqE = indice di frequenza errori gestiti, e risolti, correttamente;
+        \item Mc = numero di malfunzionamenti gestiti e risolti correttamente;
+        \item Mr = numero di malfunzionamenti rilevati durante i test.
+      \end{itemize}
+      I range stabiliti sono:
+      \begin{itemize}
+        \item Range di accettabilità = [0.7-1]
+        \item Range di ottimalità = [0.95-1]
+      \end{itemize}
+      \item \textbf{Usabilità}
+      \textbf{Metrica interna} utilizzata è la \textbf{Completezza descrittiva},
+      la quale da un indice di completezza celle funzionalità descritte nella documentazione del prodotto.
+      La formila per la misurazione è:
+      \begin{center}
+        \emph{CompDesc = Fd / Fp}
+      \end{center}
+      Dove:
+      \begin{itemize}
+        \item CompDesc = indice di completezza descrittiva;
+        \item Fd = numero di funzioni descritte nella documentazione del prodotto;
+        \item Fp = numero di funzioni previste.
+      \end{itemize}
+      I range stabiliti sono:
+      \begin{itemize}
+        \item Range di accettabilità = [0.8-1]
+        \item Range di ottimalità = [1]
+      \end{itemize}
+      \textbf{Metrica esterna} utilizata è la \textbf{Efficacia documentazione}, che serve a misurare l'efficacia con la quale la documentazione viene compresa dall'utente,
+      quando egli necessita di consultare la documentazione per comprendere una funzione.
+      La formula per il calcolo è:
+      \begin{center}
+        \emph{EffDoc = Fappr / Fnd}
+      \end{center}
+      Dove:
+      \begin{itemize}
+        \item EffDoc = indice di efficacia documentazione;
+        \item Fappr = numero di funzioni apprese e completate con successo dall'utente accedendo alla documentazione;
+        \item Fnd = numero di funzioni totali in cui l'utente ha acceduto alla documentazione durante il test.
+      \end{itemize}
+      I range stabiliti sono:
+      \begin{itemize}
+        \item Range di accettabilità = [0.7-1]
+        \item Range di ottimalità = [0.9-1]
+      \end{itemize}
+
     \end{itemize}
 
 
