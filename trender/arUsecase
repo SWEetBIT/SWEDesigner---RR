@@ -128,10 +128,10 @@ invitato l’utente a controllare i dati inseriti.;
 \subsubsection{UC3 - Gestione Profilo} 
 \label{sssec:UC3} 
 \begin{itemize} 
-\item \textbf{Attori}: .
-\item \textbf{Descrizione}: Gestione Profilo;
-\item \textbf{Precondizione}: Gestione Profilo;
-\item \textbf{Postcondizione}: Gestione Profilo;
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: L' utente autenticato vuole gestire il suo username, la sua password o il suo indirizzo e-mail.;
+\item \textbf{Precondizione}: L' utente ha già effettuato l'accesso e l'applicazione rende disponibile la voce Gestione Profilo.;
+\item \textbf{Postcondizione}: L' applicazione visualizza i dati dell'utente con opportuni pulsanti di modifica.;
 \item \textbf{Scenario principale}: \begin{enumerate}\item Modifica Username (UC3.1);\item Modifica Password (UC3.2);\item Modifica Email (UC3.3). 
  \end{enumerate}
 \end{itemize} 
@@ -405,7 +405,7 @@ Tale template viene eliminato dalla lista se la conferma ha esito positivo.;\ite
 \item \textbf{Attori}: Utente Autenticato.
 \item \textbf{Descrizione}: L’utente autenticato può accedere alla visualizzazione della lista dei layers. Può inoltre creare nuovi layer oppure rinominarne o eliminarne di già esistenti.;
 \item \textbf{Precondizione}: L’applicazione offre all’utente una barra dei menù.;
-\item \textbf{Postcondizione}: L'applicazione;
+\item \textbf{Postcondizione}: L'applicazione ha eseguito l'operazione richiesta dallutente.;
 \item \textbf{Scenario principale}: \begin{enumerate}\item Nuovo (UC6.1.4.1);\item Lista (UC6.1.4.2);\item Modifica (UC6.1.4.3). 
  \end{enumerate}
 \end{itemize} 
@@ -413,25 +413,25 @@ Tale template viene eliminato dalla lista se la conferma ha esito positivo.;\ite
 \label{sssec:UC6.1.4.1} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: a;
-\item \textbf{Precondizione}: a;
-\item \textbf{Postcondizione}: a;
+\item \textbf{Descrizione}: L'utente crea un nuovo layer a cui è possibile assegnare delle classi.;
+\item \textbf{Precondizione}: L'utente ha aperto la finestra di gestione dei layer.;
+\item \textbf{Postcondizione}: L'utente ha aggiunto un nuovo layer assegnandogli il nome desiderato.;
 \end{itemize} 
 \subsubsection{UC6.1.4.2 - Lista} 
 \label{sssec:UC6.1.4.2} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: a;
-\item \textbf{Precondizione}: a;
-\item \textbf{Postcondizione}: a;
+\item \textbf{Descrizione}: L'utente seleziona il layer di cui desidera visualizzare le classi che gli sono state assegnate.;
+\item \textbf{Precondizione}: L'utente ha aperto la finestra di gestione dei layer.;
+\item \textbf{Postcondizione}: L'utente ha visualizzato le classi assegnate al layer desiderato.;
 \end{itemize} 
 \subsubsection{UC6.1.4.3 - Modifica} 
 \label{sssec:UC6.1.4.3} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: a;
-\item \textbf{Precondizione}: a;
-\item \textbf{Postcondizione}: a;
+\item \textbf{Descrizione}: L'utente desidera rinominare oppure eliminare un layer tra quelli esistenti.;
+\item \textbf{Precondizione}: L'utente ha aperto la finestra di gestione dei layer.;
+\item \textbf{Postcondizione}: L'utente ha eseguito l'operazione desiderata.;
 \item \textbf{Scenario principale}: \begin{enumerate}\item Rinomina (UC6.1.4.3.1);\item Elimina (UC6.1.4.3.2). 
  \end{enumerate}
 \end{itemize} 
@@ -439,17 +439,17 @@ Tale template viene eliminato dalla lista se la conferma ha esito positivo.;\ite
 \label{sssec:UC6.1.4.3.1} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: a;
-\item \textbf{Precondizione}: a;
-\item \textbf{Postcondizione}: a;
+\item \textbf{Descrizione}: L'utente desidera rinominare un layer tra quelli esistenti.;
+\item \textbf{Precondizione}: L'utente ha aperto la finestra di gestione dei layer e ha selezionato l'opzione di modifica.;
+\item \textbf{Postcondizione}: L'utente ha modificato il nome del layer che intendeva modificare, mantenendo tutte le classi associate.;
 \end{itemize} 
 \subsubsection{UC6.1.4.3.2 - Elimina} 
 \label{sssec:UC6.1.4.3.2} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: a;
-\item \textbf{Precondizione}: a;
-\item \textbf{Postcondizione}: a;
+\item \textbf{Descrizione}: L'utente desidera eliminare un layer tra quelli esistenti.;
+\item \textbf{Precondizione}: L'utente ha aperto la finestra di gestione dei layer e ha selezionato l'opzione di modifica.;
+\item \textbf{Postcondizione}: L'utente ha eliminato il layer che intendeva modificare e tutte le classi assegnate a tale layer, se ce n'erano, non risultano più assegnate a nessun layer.;
 \end{itemize} 
 \subsubsection{UC6.2 - Toolbar} 
 \label{sssec:UC6.2} 
@@ -947,19 +947,11 @@ Tale template viene eliminato dalla lista se la conferma ha esito positivo.;\ite
 \item \textbf{Descrizione}: L'attore può modificare l'elemento variabile di un diagramma del metodo di una classe;
 \item \textbf{Precondizione}: È visualizzato il diagramma di un metodo che contiene almeno un elemento variabile;
 \item \textbf{Postcondizione}: L'elemento variabile viene modificato con le modifiche apportate dall'attore;
-\item \textbf{Scenario principale}: \begin{enumerate}\item Selezione variabile (UC6.3.5.12.1);\item Istanziazione nuova variabile (UC6.3.5.12.2). 
+\item \textbf{Scenario principale}: \begin{enumerate}\item Istanziazione nuova variabile (UC6.3.5.12.1). 
  \end{enumerate}
 \end{itemize} 
-\subsubsection{UC6.3.5.12.1 - Selezione variabile} 
+\subsubsection{UC6.3.5.12.1 - Istanziazione nuova variabile} 
 \label{sssec:UC6.3.5.12.1} 
-\begin{itemize} 
-\item \textbf{Attori}: .
-\item \textbf{Descrizione}: L'utente può selezionare una variabile dalla lista variabili;
-\item \textbf{Precondizione}: Viene visualizzata correttamente la finestra di modifica dell'elemento variabile;
-\item \textbf{Postcondizione}: La variabile scelta è applicata all'elemento variabile;
-\item \textbf{Scenario principale}: L'attore vuole assegnare una variabile predefinita all'elemento variabile;\end{itemize} 
-\subsubsection{UC6.3.5.12.2 - Istanziazione nuova variabile} 
-\label{sssec:UC6.3.5.12.2} 
 \begin{itemize} 
 \item \textbf{Attori}: .
 \item \textbf{Descrizione}: L'attore può definire una nuova variabile per l'elemento variabile corrente;
@@ -1047,30 +1039,3 @@ Tale template viene eliminato dalla lista se la conferma ha esito positivo.;\ite
 \item \textbf{Descrizione}: L'attore può eliminare, dal diagramma del metodo di una classe, un elemento output pin;
 \item \textbf{Precondizione}: È visualizzato il diagramma di un metodo che contiene almeno un elemento output pin;
 \item \textbf{Postcondizione}: L'elemento output pin, selezionato dall'utente, viene rimosso dal diagramma del metodo;
-\end{itemize} 
-\subsubsection{UC6.4 - Pannello laterale} 
-\label{sssec:UC6.4} 
-\begin{itemize} 
-\item \textbf{Attori}: .
-\item \textbf{Descrizione}: Sezione di schermo nella quale è possibile visionare il flusso del programma a partire dal metodo main;
-\item \textbf{Precondizione}: è aperto un progetto;
-\item \textbf{Postcondizione}: visualizza un diagramma delle attività;
-\item \textbf{Scenario principale}: \begin{enumerate}\item Esplorazione metodi (UC6.4.1);\item Visione Breadcrumb (UC6.4.2). 
- \end{enumerate}
-\end{itemize} 
-\subsubsection{UC6.4.1 - Esplorazione metodi} 
-\label{sssec:UC6.4.1} 
-\begin{itemize} 
-\item \textbf{Attori}: .
-\item \textbf{Descrizione}: selezionando una chiamata a metodo è possibile visionare il diagramma delle attività di tale metodo;
-\item \textbf{Precondizione}: è visualizzato un diagramma delle attività;
-\item \textbf{Postcondizione}: viene mostrato il diagramma delle attività del metodo selezionato;
-\end{itemize} 
-\subsubsection{UC6.4.2 - Visione Breadcrumb} 
-\label{sssec:UC6.4.2} 
-\begin{itemize} 
-\item \textbf{Attori}: .
-\item \textbf{Descrizione}: Viene visualizzata una Breadcrumb che rappresenta il percorso effettuato dall'utente durante la navigazione dei vari metodo selezionati;
-\item \textbf{Precondizione}: è visualizzato un diagramma delle attività;
-\item \textbf{Postcondizione}: vengono visualizzati in ordine di accesso tutti i metodi selezionati dall'utente nella visione principale del programma;
-\end{itemize} 
