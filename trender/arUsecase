@@ -2,15 +2,12 @@
 \label{sssec:UC1} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente non autenticato.
-\item \textbf{Descrizione}: L’utente inserisce l’username che desidera utilizzare, la
-password che desidera utilizzare e uno dei propri indirizzi mail per effettuare la
-registrazione;
-\item \textbf{Precondizione}: Il sistema richiede all'utente le informazioni necessarie per effettuare
-la registrazione;
-\item \textbf{Postcondizione}: Il sistema elabora i dati inseriti dall'utente e, nel caso la registrazione
-avvenga con successo, gli concede la possibilità di accedere al sistema.
-In caso contrario viene visualizzato un messaggio d’errore e viene indicato dove è
-stato commesso, per l’appunto, l’errore;
+\item \textbf{Descrizione}: L'attore desidera effettuare l'operazione di registrazione. Vengono richiesti dal sistema un username, univoco e conforme alle richieste, una password conforme alle richieste e una mail che rispetti il pattern predefinito.;
+\item \textbf{Precondizione}: Il sistema richiede all'attore le informazioni necessarie per effettuare
+la registrazione.;
+\item \textbf{Postcondizione}: Il sistema ha elaborato i dati inseriti dall'utente e, nel caso la registrazione
+avvenga con successo, gli ha concesso la possibilità di accedere al sistema.
+In caso contrario il sistema ha visualizzato un messaggio che illustra il tipo di errore che è stato commesso.;
 \item \textbf{Scenario principale}: \begin{enumerate}\item Inserisci Username (UC1.1);\item Inserisci Password (UC1.2);\item Inserisci Email (UC1.3);\item Conferma registrazione (UC1.4);\item Messaggio errore: "Username non conforme" (UC1.5);\item Messaggio errore: "Password non conforme" (UC1.6);\item Messaggio errore: "Email non conforme" (UC1.7). 
  \end{enumerate}
 \end{itemize} 
@@ -18,57 +15,57 @@ stato commesso, per l’appunto, l’errore;
 \label{sssec:UC1.1} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente non autenticato.
-\item \textbf{Descrizione}: L’utente inserisce l’username che desidera utilizzare;
-\item \textbf{Precondizione}: L'utente ha selezionato l'opzione di registrazione e non ha ancora inserito un username;
-\item \textbf{Postcondizione}: L'utente ha inserito l'username che desidera utilizzare e si appresta a compilare i campi rimanenti per effettuare la registrazione;
+\item \textbf{Descrizione}: L’attore inserisce l'username: deve essere univoco all'interno del sistema e deve essere alfanumerico.;
+\item \textbf{Precondizione}: L'attore ha selezionato l'opzione di registrazione e non ha ancora inserito un username.;
+\item \textbf{Postcondizione}: L'attore ha inserito un username conforme alle richieste del sistema.;
 \end{itemize} 
 \subsubsection{UC1.2 - Inserisci Password} 
 \label{sssec:UC1.2} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente non autenticato.
-\item \textbf{Descrizione}: L’utente inserisce la password che desidera utilizzare;
-\item \textbf{Precondizione}: L'utente ha selezionato l'opzione di registrazione e non ha ancora inserito una password;
-\item \textbf{Postcondizione}: L'utente ha inserito la password che desidera utilizzare e si appresta a compilare i campi rimanenti per effettuare la registrazione;
+\item \textbf{Descrizione}: L’attore inserisce la password: deve essere di tipo alfanumerico e può contenere caratteri di punteggiatura.;
+\item \textbf{Precondizione}: L'attore ha selezionato l'opzione di registrazione e non ha ancora inserito una password.;
+\item \textbf{Postcondizione}: L'attore ha inserito una password conforme alle richieste del sistema.;
 \end{itemize} 
 \subsubsection{UC1.3 - Inserisci Email} 
 \label{sssec:UC1.3} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente non autenticato.
-\item \textbf{Descrizione}: L’utente inserisce l'email che intende utilizzare per la registrazione;
-\item \textbf{Precondizione}: L'utente ha selezionato l'opzione di registrazione e non ha ancora inserito la propria email;
-\item \textbf{Postcondizione}: L'utente ha inserito l'email che desidera utilizzare e si appresta a compilare i campi rimanenti per effettuare la registrazione;
+\item \textbf{Descrizione}: L’attore inserisce l'email, che deve essere scritta in maniera corretta.;
+\item \textbf{Precondizione}: L'attore ha selezionato l'opzione di registrazione e non ha ancora inserito un email.;
+\item \textbf{Postcondizione}: L'attore ha inserito un'email nel modo corretto.;
 \end{itemize} 
 \subsubsection{UC1.4 - Conferma registrazione} 
 \label{sssec:UC1.4} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente non autenticato.
-\item \textbf{Descrizione}: a;
-\item \textbf{Precondizione}: a;
-\item \textbf{Postcondizione}: a;
+\item \textbf{Descrizione}: Dopo che un attore ha effettuato correttamente una registrazione, gli viene inviato un messaggio di conferma.;
+\item \textbf{Precondizione}: L'attore ha scelto di effettuare l'operazione di registrazione.;
+\item \textbf{Postcondizione}: L'utente ha ricevuto un messaggio di conferma dell'avvenuta registrazione.;
 \end{itemize} 
 \subsubsection{UC1.5 - Messaggio errore: "Username non conforme"} 
 \label{sssec:UC1.5} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente non autenticato.
-\item \textbf{Descrizione}: a;
-\item \textbf{Precondizione}: a;
-\item \textbf{Postcondizione}: a;
+\item \textbf{Descrizione}: L'attore ha inserito un username non conforme e gli viene quindi comunicato l'errore.;
+\item \textbf{Precondizione}: L'attore ha selezionato l'opzione di registrazione e ha inserito un username.;
+\item \textbf{Postcondizione}: L'attore ha inserito un username non conforme e ha ricevuto la comunicazione dell'errore.;
 \end{itemize} 
 \subsubsection{UC1.6 - Messaggio errore: "Password non conforme"} 
 \label{sssec:UC1.6} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente non autenticato.
-\item \textbf{Descrizione}: a;
-\item \textbf{Precondizione}: a;
-\item \textbf{Postcondizione}: a;
+\item \textbf{Descrizione}: L'attore ha inserito una password non conforme e gli viene quindi comunicato l'errore.;
+\item \textbf{Precondizione}: L'attore ha selezionato l'opzione di registrazione e ha inserito una password.;
+\item \textbf{Postcondizione}: L'attore ha inserito una password non conforme e ha ricevuto la comunicazione dell'errore.;
 \end{itemize} 
 \subsubsection{UC1.7 - Messaggio errore: "Email non conforme"} 
 \label{sssec:UC1.7} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente non autenticato.
-\item \textbf{Descrizione}: a;
-\item \textbf{Precondizione}: a;
-\item \textbf{Postcondizione}: a;
+\item \textbf{Descrizione}: L'attore ha inserito un'email con una sintassi non valida e gli viene quindi comunicato l'errore.;
+\item \textbf{Precondizione}: L'attore ha selezionato l'opzione di registrazione e ha inserito un'email.;
+\item \textbf{Postcondizione}: L'attore ha inserito un'email non conforme e ha ricevuto la comunicazione dell'errore.;
 \end{itemize} 
 \subsubsection{UC2 - Autenticazione} 
 \label{sssec:UC2} 
@@ -129,9 +126,9 @@ invitato l’utente a controllare i dati inseriti.;
 \label{sssec:UC3} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: L' utente autenticato vuole gestire il suo username, la sua password o il suo indirizzo e-mail.;
-\item \textbf{Precondizione}: L' utente ha già effettuato l'accesso e l'applicazione rende disponibile la voce Gestione Profilo.;
-\item \textbf{Postcondizione}: L' applicazione visualizza i dati dell'utente con opportuni pulsanti di modifica.;
+\item \textbf{Descrizione}: L' attore vuole gestire il suo username, la sua password o il suo indirizzo e-mail.;
+\item \textbf{Precondizione}: L' attore ha già effettuato l'accesso e l'applicazione rende disponibile la voce Gestione Profilo.;
+\item \textbf{Postcondizione}: L' applicazione visualizza i dati dell'attore con gli opportuni pulsanti di modifica.;
 \item \textbf{Scenario principale}: \begin{enumerate}\item Modifica Username (UC3.1);\item Modifica Password (UC3.2);\item Modifica Email (UC3.3). 
  \end{enumerate}
 \end{itemize} 
@@ -139,15 +136,15 @@ invitato l’utente a controllare i dati inseriti.;
 \label{sssec:UC3.1} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: L' utente autenticato può modificare il suo nome utente.;
+\item \textbf{Descrizione}: L' attore può modificare il suo nome utente.;
 \item \textbf{Precondizione}: L' applicazione deve rendere disponibile il pulsante di modifica username.;
-\item \textbf{Postcondizione}: L' applicazione modifica l'username dell'utente.;
+\item \textbf{Postcondizione}: L' applicazione modifica l'username dell'attore.;
 \end{itemize} 
 \subsubsection{UC3.2 - Modifica Password} 
 \label{sssec:UC3.2} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: L' utente autenticato ha la possibilità di modificare la sua password.;
+\item \textbf{Descrizione}: L' attore ha la possibilità di modificare la sua password.;
 \item \textbf{Precondizione}: L' applicazione rende disponibile il pulsante di modifica.;
 \item \textbf{Postcondizione}: L' applicazione modifica la password o restituisce il messaggio d'errore.;
 \end{itemize} 
@@ -155,33 +152,33 @@ invitato l’utente a controllare i dati inseriti.;
 \label{sssec:UC3.3} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: L' utente autenticato ha la possibilità di modificare la propria email.;
+\item \textbf{Descrizione}: L' attore ha la possibilità di modificare la propria email.;
 \item \textbf{Precondizione}: L' applicazione rende disponibile il pulsante per la modifica della email.;
 \item \textbf{Postcondizione}: L' applicazione aggiorna la nuova email.;
 \end{itemize} 
 \subsubsection{UC4 - Logout} 
 \label{sssec:UC4} 
 \begin{itemize} 
-\item \textbf{Attori}: .
-\item \textbf{Descrizione}: Logout;
-\item \textbf{Precondizione}: Logout;
-\item \textbf{Postcondizione}: Logout;
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: L' attore può effettuare il logout dal suo profilo.;
+\item \textbf{Precondizione}: L' applicazione offre il pulsante di logout visibile all'utente che ha effettuato l'accesso.;
+\item \textbf{Postcondizione}: L' applicazione effettua il logout dell'attore.;
 \end{itemize} 
 \subsubsection{UC5 - Gestione Progetti} 
 \label{sssec:UC5} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: L’utente autenticato ha la possibilità di aggiungere un nuovo progetto e di aprire o modificare un progetto già esistente.;
-\item \textbf{Precondizione}: L’applicazione visualizza i pulsanti predisposti per l’esecuzione delle azioni sopra indicate.;
-\item \textbf{Postcondizione}: L’applicazione, a seconda dell’azione scelta dall’utente, svolgerà le sue funzioni;
-\item \textbf{Scenario principale}: \begin{enumerate}\item Aggiungi Progetto (UC5.1);\item Apri progetto (UC5.2);\item Elimina Progetto (UC5.3). 
+\item \textbf{Descrizione}: L’ attore ha la possibilità di aggiungere un nuovo progetto e di aprire o modificare un progetto già esistente.;
+\item \textbf{Precondizione}: L’ applicazione visualizza i pulsanti predisposti per l’esecuzione delle azioni sopra indicate.;
+\item \textbf{Postcondizione}: L’ applicazione, a seconda dell’azione scelta dall’utente, svolgerà le sue funzioni;
+\item \textbf{Scenario principale}: \begin{enumerate}\item Aggiunta Progetto (UC5.1);\item Apri progetto (UC5.2);\item Elimina Progetto (UC5.3). 
  \end{enumerate}
 \end{itemize} 
-\subsubsection{UC5.1 - Aggiungi Progetto} 
+\subsubsection{UC5.1 - Aggiunta Progetto} 
 \label{sssec:UC5.1} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: L’utente autenticato ha la possibilità di creare un nuovo progetto.;
+\item \textbf{Descrizione}: L’ attore ha la possibilità di creare un nuovo progetto.;
 \item \textbf{Precondizione}: L’applicazione rende disponibile il pulsante aggiungi progetti.;
 \item \textbf{Postcondizione}: L’applicazione apre un nuovo foglio per la realizzazione del nuovo progetto.;
 \end{itemize} 
@@ -189,15 +186,15 @@ invitato l’utente a controllare i dati inseriti.;
 \label{sssec:UC5.2} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: L’utente autenticato ha la possibilità di aprire un progetto precedentemente salvato.;
-\item \textbf{Precondizione}: L’applicazione rende disponibile il pulsante apri progetto, se precedentemente ne era stato salvato almeno uno.;
+\item \textbf{Descrizione}: L’ attore ha la possibilità di aprire un progetto precedentemente salvato.;
+\item \textbf{Precondizione}: L’ applicazione rende disponibile il pulsante apri progetto, se precedentemente ne era stato salvato almeno uno.;
 \item \textbf{Postcondizione}: L’applicazione apre il progetto selezionato.;
 \end{itemize} 
 \subsubsection{UC5.3 - Elimina Progetto} 
 \label{sssec:UC5.3} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: L’utente autenticato ha la possibilità di eliminare un progetto precedentemente salvato.;
+\item \textbf{Descrizione}: L' attore ha la possibilità di eliminare un progetto precedentemente salvato.;
 \item \textbf{Precondizione}: L’applicazione rende disponibile il pulsante elimina progetto, se precedentemente ne era stato salvato almeno uno.;
 \item \textbf{Postcondizione}: L’applicazione elimina il progetto selezionato.;
 \end{itemize} 
@@ -215,7 +212,7 @@ invitato l’utente a controllare i dati inseriti.;
 \label{sssec:UC6.1} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: L’utente autenticato può accedere alle voci file, edit, tool,
+\item \textbf{Descrizione}: L’ attore può accedere alle voci file, edit, tool,
 layers e window appartenenti al menù del tool designer.;
 \item \textbf{Precondizione}: L’applicazione offre all’utente una barra dei menù.;
 \item \textbf{Postcondizione}: L’applicazione, a seconda dell’operazione richiesta dall’utente,
@@ -227,8 +224,7 @@ svolge le sue funzioni.;
 \label{sssec:UC6.1.1} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: L’utente autenticato può accedere alle voci save, close,
-export e generates code appartenenti alla voce file del menù.;
+\item \textbf{Descrizione}: L’attore può accedere alle voci salva, chiudi, esporta, genera codice e salva template appartenenti alla voce file del menù.;
 \item \textbf{Precondizione}: L’applicazione offre all’utente la voce file nella barra dei menù.;
 \item \textbf{Postcondizione}: L’applicazione, a seconda dell’operazione richiesta dall’utente,
 svolge le sue funzioni.;
@@ -239,7 +235,7 @@ svolge le sue funzioni.;
 \label{sssec:UC6.1.1.1} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: L’utente autenticato può salvare il suo progetto nello stato
+\item \textbf{Descrizione}: L’attore può salvare il suo progetto nello stato
 corrente.;
 \item \textbf{Precondizione}: L’applicazione offre all’utente il salvataggio, disponibile alla voce salva del file appartenente alla barra del menù.;
 \item \textbf{Postcondizione}: L’applicazione salva il progetto nello stato corrente.;
@@ -248,7 +244,7 @@ corrente.;
 \label{sssec:UC6.1.1.2} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: L’utente autenticato può chiudere il progetto corrente.;
+\item \textbf{Descrizione}: L’attore può chiudere il progetto corrente.;
 \item \textbf{Precondizione}: L’applicazione offre all’attore la chiusura del progetto, disponibile
 alla voce chiudi del menù.;
 \item \textbf{Postcondizione}: L’applicazione chiude il progetto corrente.;
@@ -257,7 +253,7 @@ alla voce chiudi del menù.;
 \label{sssec:UC6.1.1.3} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: L’utente autenticato può esportare il progetto corrente in
+\item \textbf{Descrizione}: L’attore può esportare il progetto corrente in
 un altro formato.;
 \item \textbf{Precondizione}: L’applicazione offre all’attore la possibilità di esportare il progetto,
 selezionando la voce esporta nel menù.;
@@ -267,7 +263,7 @@ selezionando la voce esporta nel menù.;
 \label{sssec:UC6.1.1.4} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: L’utente autenticato può generare il codice relativo all’UML
+\item \textbf{Descrizione}: L’attore può generare il codice relativo all’UML
 prodotto.;
 \item \textbf{Precondizione}: L’applicazione offre all’utente la possibilità di generare il codice
 relativo all’UML, alla voce genera codice del menù.;
@@ -277,7 +273,7 @@ relativo all’UML, alla voce genera codice del menù.;
 \label{sssec:UC6.1.1.5} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: L’utente autenticato ha la possibilità di salvare determinate classi o gerarchie, aggiungendole così alla lista di template già salvati.;
+\item \textbf{Descrizione}: L’attore ha la possibilità di salvare determinate classi o gerarchie, aggiungendole così alla lista di template già salvati.;
 \item \textbf{Precondizione}: L’applicazione offre all’utente la voce salva template, sottovoce di file nel menù, solamente se sono state create una o più classi, ed ognuna di esse ha un commento che le identifica.;
 \item \textbf{Postcondizione}: Viene aggiunto alla lista dei template il template desiderato.;
 \end{itemize} 
@@ -285,8 +281,7 @@ relativo all’UML, alla voce genera codice del menù.;
 \label{sssec:UC6.1.2} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: L’utente autenticato può accedere alle voci undo, redo,
-cut, copy, paste, zoom in e zoom out appartenenti alla voce edit del menù.;
+\item \textbf{Descrizione}: L’attore può accedere alle voci annulla, ripristina, taglia, copia, incolla, zoom in e zoom out appartenenti alla voce edit del menù.;
 \item \textbf{Precondizione}: L’applicazione offre all’utente la voce edit appartenente barra
 dei menù.;
 \item \textbf{Postcondizione}: L’applicazione, a seconda dell’operazione richiesta dall’utente,
@@ -298,7 +293,7 @@ effettua la modifica.;
 \label{sssec:UC6.1.2.1} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: L’utente autenticato può tornare allo stato precedente l’ultima
+\item \textbf{Descrizione}: L’attore può tornare allo stato precedente l’ultima
 modifica.;
 \item \textbf{Precondizione}: L’applicazione offre all’utente la possibilità di selezionare la voce
 annulla, sottovoce di edit nella barra del menù.;
@@ -308,7 +303,7 @@ annulla, sottovoce di edit nella barra del menù.;
 \label{sssec:UC6.1.2.2} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: L’utente autenticato può ripristinare le modifiche effettuate
+\item \textbf{Descrizione}: L’attore può ripristinare le modifiche effettuate
 successivamente allo stato attuale.;
 \item \textbf{Precondizione}: L’applicazione offre all’utente la possibilità di selezionare la voce
 ripristina, sottovoce di edit nella barra del menù, solamente se si era tornati ad uno
@@ -319,7 +314,7 @@ stato precedente all’ultima modifica.;
 \label{sssec:UC6.1.2.3} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: L’utente autenticato può tagliare un determinato elemento
+\item \textbf{Descrizione}: L’attore può tagliare un determinato elemento
 del progetto.;
 \item \textbf{Precondizione}: L’applicazione offre all’utente la voce taglia, sottovoce di edit appartenente
 al menù.;
@@ -329,7 +324,7 @@ al menù.;
 \label{sssec:UC6.1.2.4} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: L’utente autenticato può copiare un determinato elemento
+\item \textbf{Descrizione}: L’attore può copiare un determinato elemento
 del progetto.;
 \item \textbf{Precondizione}: L’applicazione offre all’utente la voce copia, sottovoce di edit appartenente
 al menù.;
@@ -339,7 +334,7 @@ al menù.;
 \label{sssec:UC6.1.2.5} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: L’utente autenticato può incollare un elemento precedentemente
+\item \textbf{Descrizione}: L’attore può incollare un elemento precedentemente
 tagliato o copiato.;
 \item \textbf{Precondizione}: L’applicazione offre all’utente la possibilità di selezionare la voce
 incolla, sottovoce di edit appartenente a menù, se un elemento era stato copiato o
@@ -350,7 +345,7 @@ tagliato precedentemente .;
 \label{sssec:UC6.1.2.6} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: L’utente autenticato può ingrandire la visualizzazione di
+\item \textbf{Descrizione}: L’attore può ingrandire la visualizzazione di
 una determinata sezione.;
 \item \textbf{Precondizione}: L’applicazione offre all’utente la possibilità di selezionare la voce
 zoom in, sottovoce di edit appartenente al menù.;
@@ -360,7 +355,7 @@ zoom in, sottovoce di edit appartenente al menù.;
 \label{sssec:UC6.1.2.7} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: L’utente autenticato può rimpicciolire la visualizzazione di
+\item \textbf{Descrizione}: L’attore può rimpicciolire la visualizzazione di
 una determinata sezione.;
 \item \textbf{Precondizione}: L’applicazione offre all’utente la possibilità di selezionare la voce
 zoom out, sottovoce di edit appartenente al menù.;
@@ -668,4 +663,222 @@ Tale template viene eliminato dalla lista se la conferma ha esito positivo.;\ite
 \item \textbf{Descrizione}: Eliminazione di un package;
 \item \textbf{Precondizione}: È stato disegnato un pacchetto.;
 \item \textbf{Postcondizione}: Viene eliminato il pacchetto dal designer assieme a tutti i suoi eventuali elementi contenuti.;
-\item \textbf{Scenario principale}: L'utente ha disegnato un pacchetto e lo ha riempito con delle classi prima di cancellarlo.;
+\item \textbf{Scenario principale}: L'utente ha disegnato un pacchetto e lo ha riempito con delle classi prima di cancellarlo.;\end{itemize} 
+\subsubsection{UC6.3.1.4 - Apri dettagli elemento} 
+\label{sssec:UC6.3.1.4} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: Visualizza i dettagli implementativi dell'elemento desiderato.;
+\item \textbf{Precondizione}: È stato disegnato almeno un elemento all'interno del designer.;
+\item \textbf{Postcondizione}: Vengono visualizzati tutti i dettagli dell'elemento.;
+\item \textbf{Scenario principale}: L'utente ha disegnato un elemento e desidera visualizzare ogni sua parte.;\end{itemize} 
+\subsubsection{UC6.3.1.5 - Modifica Classe} 
+\label{sssec:UC6.3.1.5} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: Modifica degli elementi interni ad una classe;
+\item \textbf{Precondizione}: È stata disegnata una classe sul progetto.;
+\item \textbf{Postcondizione}: La classe risulta modificata.;
+\item \textbf{Scenario principale}: \begin{enumerate}\item Modifica Nome (UC6.3.1.5.1);\item Modifica Attributo (UC6.3.1.5.2);\item Aggiungi attributo (UC6.3.1.5.3);\item Modifica Metodo (UC6.3.1.5.4);\item Aggiungi Metodo (UC6.3.1.5.5);\item Assegnazione abstract (UC6.3.1.5.6);\item Assegnazione interface (UC6.3.1.5.7). 
+ \end{enumerate}
+\end{itemize} 
+\subsubsection{UC6.3.1.5.1 - Modifica Nome} 
+\label{sssec:UC6.3.1.5.1} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: Viene modificato il nome della classe.;
+\item \textbf{Precondizione}: È stata creata una classe con un nome.;
+\item \textbf{Postcondizione}: Viene modificato il nome della classe.;
+\item \textbf{Scenario principale}: L'utente ha disegnato una classe con un nome e desidera modificarlo.;\end{itemize} 
+\subsubsection{UC6.3.1.5.2 - Modifica Attributo} 
+\label{sssec:UC6.3.1.5.2} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: Viene modificato l'attributo della classe.;
+\item \textbf{Precondizione}: È stata disegnata una classe con almeno un attributo.;
+\item \textbf{Postcondizione}: Viene modificato l'attributo selezionato.;
+\item \textbf{Scenario principale}: \begin{enumerate}\item Aggiunta visibilità attributo (UC6.3.1.5.2.1);\item Aggiunta nome attributo (UC6.3.1.5.2.2);\item Aggiunta tipo attributo (UC6.3.1.5.2.3);\item Aggiunta valore default attributo (UC6.3.1.5.2.4). 
+ \end{enumerate}
+\end{itemize} 
+\subsubsection{UC6.3.1.5.2.1 - Aggiunta visibilità attributo} 
+\label{sssec:UC6.3.1.5.2.1} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: viene scelta dall'attore la visibilità per l'attributo;
+\item \textbf{Precondizione}: viene visualizzato un form che permette la selezione della visibilità;
+\item \textbf{Postcondizione}: il sistema registra il dato inserito;
+\item \textbf{Scenario principale}: Viene scelta la visibilità nell'insieme di valori disponibili;\end{itemize} 
+\subsubsection{UC6.3.1.5.2.2 - Aggiunta nome attributo} 
+\label{sssec:UC6.3.1.5.2.2} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: viene inserito dall'attore il nome per l'attributo;
+\item \textbf{Precondizione}: viene visualizzato un form che permette l'inserimento del nome dell'attributo;
+\item \textbf{Postcondizione}: il sistema registra il dato inserito;
+\end{itemize} 
+\subsubsection{UC6.3.1.5.2.3 - Aggiunta tipo attributo} 
+\label{sssec:UC6.3.1.5.2.3} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: viene inserito il tipo dell'attributo che si sta inserendo;
+\item \textbf{Precondizione}: viene visualizzato un form che permette l'inserimento tipo dell'attributo;
+\item \textbf{Postcondizione}: il sistema registra il dato inserito;
+\end{itemize} 
+\subsubsection{UC6.3.1.5.2.4 - Aggiunta valore default attributo} 
+\label{sssec:UC6.3.1.5.2.4} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: viene inserito il valore di default che può avere l'attributo;
+\item \textbf{Precondizione}: viene visualizzato un form che permette l'inserimento del valore di default dell'attributo;
+\item \textbf{Postcondizione}: il sistema registra il dato inserito;
+\end{itemize} 
+\subsubsection{UC6.3.1.5.3 - Aggiungi attributo} 
+\label{sssec:UC6.3.1.5.3} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: l'attore inserisce un attributo per la classe selezionata;
+\item \textbf{Precondizione}: viene visualizzato un form che permette l'inserimento di attributi della classe;
+\item \textbf{Postcondizione}: il sistema registra il dato inserito;
+\end{itemize} 
+\subsubsection{UC6.3.1.5.4 - Modifica Metodo} 
+\label{sssec:UC6.3.1.5.4} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: Viene modificato il metodo della classe.;
+\item \textbf{Precondizione}: È stata creata una classe con almeno un metodo al suo interno.;
+\item \textbf{Postcondizione}: Il metodo selezionato viene modificato.;
+\item \textbf{Scenario principale}: \begin{enumerate}\item Aggiunta visibilità metodo (UC6.3.1.5.4.1);\item Aggiunta nome metodo (UC6.3.1.5.4.2);\item Aggiunta tipo di ritorno del metodo (UC6.3.1.5.4.3);\item Inserimento lista parametri metodo (UC6.3.1.5.4.4). 
+ \end{enumerate}
+\end{itemize} 
+\subsubsection{UC6.3.1.5.4.1 - Aggiunta visibilità metodo} 
+\label{sssec:UC6.3.1.5.4.1} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: viene scelta dall'attore la visibilità per il metodo;
+\item \textbf{Precondizione}: viene visualizzato un form che permette la selezione della visibilità;
+\item \textbf{Postcondizione}: il sistema registra il dato inserito;
+\end{itemize} 
+\subsubsection{UC6.3.1.5.4.2 - Aggiunta nome metodo} 
+\label{sssec:UC6.3.1.5.4.2} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: viene inserito dall'attore il nome per il metodo;
+\item \textbf{Precondizione}: viene visualizzato un form che permette l'inserimento del nome del metodo;
+\item \textbf{Postcondizione}: il sistema registra il dato inserito;
+\end{itemize} 
+\subsubsection{UC6.3.1.5.4.3 - Aggiunta tipo di ritorno del metodo} 
+\label{sssec:UC6.3.1.5.4.3} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: viene inserito il tipo di ritorno del metodo che si sta inserendo;
+\item \textbf{Precondizione}: viene visualizzato un form che permette l'inserimento tipo di ritorno del metodo;
+\item \textbf{Postcondizione}: il sistema registra il dato inserito;
+\end{itemize} 
+\subsubsection{UC6.3.1.5.4.4 - Inserimento lista parametri metodo} 
+\label{sssec:UC6.3.1.5.4.4} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: viene inserita la lista dei parametri che verranno utilizzati nella realizzazione del metodo;
+\item \textbf{Precondizione}: viene visualizzato un form che permette l'inserimento della lista dei parametri;
+\item \textbf{Postcondizione}: il sistema registra il dato inserito;
+\end{itemize} 
+\subsubsection{UC6.3.1.5.5 - Aggiungi Metodo} 
+\label{sssec:UC6.3.1.5.5} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: Aggiungi Metodo;
+\item \textbf{Precondizione}: Aggiungi Metodo;
+\item \textbf{Postcondizione}: Aggiungi Metodo;
+\end{itemize} 
+\subsubsection{UC6.3.1.5.6 - Assegnazione abstract} 
+\label{sssec:UC6.3.1.5.6} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: l'attore definisce se la classe è astratta;
+\item \textbf{Precondizione}: viene visualizzato un form che permette l'assegnazione della keyword <<abstract>>;
+\item \textbf{Postcondizione}: il sistema registra il dato inserito;
+\end{itemize} 
+\subsubsection{UC6.3.1.5.7 - Assegnazione interface} 
+\label{sssec:UC6.3.1.5.7} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: l'attore definisce se la classe un'interfaccia;
+\item \textbf{Precondizione}: viene visualizzato un form che permette l'assegnazione della keyword <<interface>>;
+\item \textbf{Postcondizione}: il sistema registra il dato inserito;
+\end{itemize} 
+\subsubsection{UC6.3.1.6 - Modifica Relazione} 
+\label{sssec:UC6.3.1.6} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: Viene modificata l'etichetta della relazione.;
+\item \textbf{Precondizione}: È stata creata una relazione fra due o più classi.;
+\item \textbf{Postcondizione}: L'etichetta della relazione corrente è stata modificata.;
+\item \textbf{Scenario principale}: L'utente ha creato una nuova relazione fra classi e desidera modificarne l'etichetta.;\end{itemize} 
+\subsubsection{UC6.3.1.7 - Modifica pacchetto} 
+\label{sssec:UC6.3.1.7} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: Modifica un pacchetto.;
+\item \textbf{Precondizione}: È stato creato un pacchetto.;
+\item \textbf{Postcondizione}: Il pacchetto è stato modificato.;
+\item \textbf{Scenario principale}: \begin{enumerate}\item Modifica Nome (UC6.3.1.7.1);\item Eliminare classe (UC6.3.1.7.2);\item Estrarre classe (UC6.3.1.7.3). 
+ \end{enumerate}
+\end{itemize} 
+\subsubsection{UC6.3.1.7.1 - Modifica Nome} 
+\label{sssec:UC6.3.1.7.1} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: Modifica il nome di un pacchetto che deve essere univoco.;
+\item \textbf{Precondizione}: È stato creato un pacchetto e viene visualizzato un form che permette l'inserimento del nome.;
+\item \textbf{Postcondizione}: Il nome del pacchetto selezionato viene salvato.;
+\item \textbf{Scenario principale}: L'utente ha creato un nuovo pacchetto di cui desidera cambiare il nome.;\end{itemize} 
+\subsubsection{UC6.3.1.7.2 - Eliminare classe} 
+\label{sssec:UC6.3.1.7.2} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: Viene eliminata una classe all'interno del pacchetto.;
+\item \textbf{Precondizione}: Esiste un pacchetto con almeno una classe al suo interno.;
+\item \textbf{Postcondizione}: La classe selezionata viene eliminata dal pacchetto.;
+\item \textbf{Scenario principale}: L'utente ha inserito almeno una classe all'interno del pacchetto.;\end{itemize} 
+\subsubsection{UC6.3.1.7.3 - Estrarre classe} 
+\label{sssec:UC6.3.1.7.3} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: Una classe viene estratta dal pacchetto.;
+\item \textbf{Precondizione}: Esiste un pacchetto con almeno una classe al suo interno.;
+\item \textbf{Postcondizione}: La classe selezionata si trova fuori dal pacchetto.;
+\item \textbf{Scenario principale}: L'utente trascina la classe dal pacchetto al suo esterno.;\end{itemize} 
+\subsubsection{UC6.3.1.8 - Modifica commento} 
+\label{sssec:UC6.3.1.8} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: Modifica del testo inserito nel commento;
+\item \textbf{Precondizione}: è stato inserito un commento;
+\item \textbf{Postcondizione}: il commento risulta modificato;
+\end{itemize} 
+\subsubsection{UC6.3.1.9 - Elimina commento} 
+\label{sssec:UC6.3.1.9} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: Eliminazione di un commento del diagramma delle classi;
+\item \textbf{Precondizione}: È stato creato un diagramma delle classi con almeno un commento al suo interno.
+;
+\item \textbf{Postcondizione}: Il commento selezionato è stato eliminato.;
+\end{itemize} 
+\subsubsection{UC6.3.2 - Zoom-in} 
+\label{sssec:UC6.3.2} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: Zoom-in su una particolare zona del designer.;
+\item \textbf{Precondizione}: È stato aperto o avviato un nuovo progetto e lo zoom non è ancora al massimo.;
+\item \textbf{Postcondizione}: SI è effettuato uno zoom nel punto indicato dal mouse.
+;
+\item \textbf{Scenario principale}: L'utente, utilizzando lo scroll del mouse, vuole effettuare uno zoom nel punto desiderato.;\end{itemize} 
+\subsubsection{UC6.3.3 - Zoom-out} 
+\label{sssec:UC6.3.3} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: Zoom-out su una porzione del designer.;
+\item \textbf{Precondizione}: È stato aperto o avviato un nuovo progetto ed è già stato operato almeno uno zoom-in.;
+\item \textbf{Postcondizione}: Viene effettuato uno zoom-out sulla porzione di designer desiderata.;
+\item \textbf{Scenario principale}: L'utente, dopo aver effettuato uno zoom-in, desidera effettuare l'operazione contraria.;
