@@ -97,9 +97,9 @@ In caso contrario il sistema ha visualizzato un messaggio che illustra il tipo d
 \label{sssec:UC2.3} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente non autenticato.
-\item \textbf{Descrizione}: a;
-\item \textbf{Precondizione}: a;
-\item \textbf{Postcondizione}: a;
+\item \textbf{Descrizione}: L'attore ha smarrito oppure ha dimenticato la propria password e il sistema fornisce uno strumento per fornirgliene una temporanea.;
+\item \textbf{Precondizione}: L'attore possiede un account all'interno del sistema ma non è più in possesso della password.;
+\item \textbf{Postcondizione}: L'utente ha ricevuto una email contenente la nuova password temporanea.;
 \end{itemize} 
 \subsubsection{UC2.4 - Messaggio errore: "Username/Email o password errato"} 
 \label{sssec:UC2.4} 
@@ -283,3 +283,65 @@ dei menù.;
 effettua la modifica.;
 \item \textbf{Scenario principale}: \begin{enumerate}\item Annulla (UC6.1.2.1);\item Ripristina (UC6.1.2.2);\item Taglia (UC6.1.2.3);\item Copia (UC6.1.2.4);\item Incolla (UC6.1.2.5);\item Zoom in (UC6.1.2.6);\item Zoom out (UC6.1.2.7). 
  \end{enumerate}
+\end{itemize} 
+\subsubsection{UC6.1.2.1 - Annulla} 
+\label{sssec:UC6.1.2.1} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: L’attore può tornare allo stato precedente l’ultima
+modifica.;
+\item \textbf{Precondizione}: L’applicazione offre all’utente la possibilità di selezionare la voce
+annulla, sottovoce di edit nella barra del menù.;
+\item \textbf{Postcondizione}: L’applicazione torna allo stato precedente l’ultima modifica.;
+\end{itemize} 
+\subsubsection{UC6.1.2.2 - Ripristina} 
+\label{sssec:UC6.1.2.2} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: L’attore può ripristinare le modifiche effettuate
+successivamente allo stato attuale.;
+\item \textbf{Precondizione}: L’applicazione offre all’utente la possibilità di selezionare la voce
+ripristina, sottovoce di edit nella barra del menù, solamente se si era tornati ad uno
+stato precedente all’ultima modifica.;
+\item \textbf{Postcondizione}: L’applicazione torna allo stato precedente l’ultima modifica.;
+\end{itemize} 
+\subsubsection{UC6.1.2.3 - Taglia} 
+\label{sssec:UC6.1.2.3} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: L’attore può tagliare un determinato elemento
+del progetto.;
+\item \textbf{Precondizione}: L’applicazione offre all’utente la voce taglia, sottovoce di edit appartenente
+al menù.;
+\item \textbf{Postcondizione}: L’applicazione taglia l’elemento selezionato.;
+\end{itemize} 
+\subsubsection{UC6.1.2.4 - Copia} 
+\label{sssec:UC6.1.2.4} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: L’attore può copiare un determinato elemento
+del progetto.;
+\item \textbf{Precondizione}: L’applicazione offre all’utente la voce copia, sottovoce di edit appartenente
+al menù.;
+\item \textbf{Postcondizione}: L’applicazione copia l’elemento selezionato.;
+\end{itemize} 
+\subsubsection{UC6.1.2.5 - Incolla} 
+\label{sssec:UC6.1.2.5} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: L’attore può incollare un elemento precedentemente
+tagliato o copiato.;
+\item \textbf{Precondizione}: L’applicazione offre all’utente la possibilità di selezionare la voce
+incolla, sottovoce di edit appartenente a menù, se un elemento era stato copiato o
+tagliato precedentemente .;
+\item \textbf{Postcondizione}: L’applicazione inserisce l’elemento designato.;
+\end{itemize} 
+\subsubsection{UC6.1.2.6 - Zoom in} 
+\label{sssec:UC6.1.2.6} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: L’attore può ingrandire la visualizzazione di
+una determinata sezione.;
+\item \textbf{Precondizione}: L’applicazione offre all’utente la possibilità di selezionare la voce
+zoom in, sottovoce di edit appartenente al menù.;
+\item \textbf{Postcondizione}: L’applicazione ingrandisce la sezione prescelta.;
