@@ -74,7 +74,7 @@ In caso contrario il sistema ha visualizzato un messaggio che illustra il tipo d
 \item \textbf{Descrizione}: L'attore che già in possesso delle credenziali per accedere al sistema, potrà effettuare l'operazione di autenticazione inserendo l'username o l'email e la password utilizzati per l'autenticazione. Nel caso l’attore abbia perso la password o se la sia dimenticata, il sistema fornisce la possibilità di resettarla.;
 \item \textbf{Precondizione}: L'attore decide di autenticarsi e il sistema richiede l'inserimento dei dati necessari per l'autenticazione.;
 \item \textbf{Postcondizione}: L'attore ha avuto accesso alle funzionalità del sistema in caso l'autenticazione sia avvenuta con successo. In caso contrario il sistema ha visualizzato un messaggio d'errore.;
-\item \textbf{Scenario principale}: \begin{enumerate}\item Inserisci Username/Email (UC2.1);\item Inserisci Password (UC2.2);\item Messaggio errore: "Username/Email o password errato" (UC2.4);\item Invio password per email (UC2.5). 
+\item \textbf{Scenario principale}: \begin{enumerate}\item Inserisci Username/Email (UC2.1);\item Inserisci Password (UC2.2);\item Password dimenticata (UC2.3);\item Messaggio errore: "Username/Email o password errato" (UC2.4);\item Invio password per email (UC2.5). 
  \end{enumerate}
 \end{itemize} 
 \subsubsection{UC2.1 - Inserisci Username/Email} 
@@ -93,6 +93,14 @@ In caso contrario il sistema ha visualizzato un messaggio che illustra il tipo d
 \item \textbf{Precondizione}: L'utente ha selezionato l'opzione di autenticazione e non ha ancora inserito la propria password.;
 \item \textbf{Postcondizione}: L'attore ha inserito la propria email.;
 \end{itemize} 
+\subsubsection{UC2.3 - Password dimenticata} 
+\label{sssec:UC2.3} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente non autenticato.
+\item \textbf{Descrizione}: a;
+\item \textbf{Precondizione}: a;
+\item \textbf{Postcondizione}: a;
+\end{itemize} 
 \subsubsection{UC2.4 - Messaggio errore: "Username/Email o password errato"} 
 \label{sssec:UC2.4} 
 \begin{itemize} 
@@ -105,9 +113,9 @@ In caso contrario il sistema ha visualizzato un messaggio che illustra il tipo d
 \label{sssec:UC2.5} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente non autenticato.
-\item \textbf{Descrizione}: Se l'attore ha perso oppure ha dimenticato la propria password, il sistema fornisce uno strumento per riceverne una nuova.;
-\item \textbf{Precondizione}: L'attore è in possesso di un account all'interno del sistema, ma non ricorda più la password.;
-\item \textbf{Postcondizione}: L'attore ha ricevuto una nuova email contenente una nuova password temporanea.;
+\item \textbf{Descrizione}: Viene inviata una password temporanea all'attore per permettergli di accedere al sistema.;
+\item \textbf{Precondizione}: L'attore ha inserito il proprio username o la propria password.;
+\item \textbf{Postcondizione}: Il sistema ha inviato all'attore una mail contenente la password temporanea.;
 \end{itemize} 
 \subsubsection{UC3 - Gestione Profilo} 
 \label{sssec:UC3} 
@@ -275,151 +283,3 @@ dei menù.;
 effettua la modifica.;
 \item \textbf{Scenario principale}: \begin{enumerate}\item Annulla (UC6.1.2.1);\item Ripristina (UC6.1.2.2);\item Taglia (UC6.1.2.3);\item Copia (UC6.1.2.4);\item Incolla (UC6.1.2.5);\item Zoom in (UC6.1.2.6);\item Zoom out (UC6.1.2.7). 
  \end{enumerate}
-\end{itemize} 
-\subsubsection{UC6.1.2.1 - Annulla} 
-\label{sssec:UC6.1.2.1} 
-\begin{itemize} 
-\item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: L’attore può tornare allo stato precedente l’ultima
-modifica.;
-\item \textbf{Precondizione}: L’applicazione offre all’utente la possibilità di selezionare la voce
-annulla, sottovoce di edit nella barra del menù.;
-\item \textbf{Postcondizione}: L’applicazione torna allo stato precedente l’ultima modifica.;
-\end{itemize} 
-\subsubsection{UC6.1.2.2 - Ripristina} 
-\label{sssec:UC6.1.2.2} 
-\begin{itemize} 
-\item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: L’attore può ripristinare le modifiche effettuate
-successivamente allo stato attuale.;
-\item \textbf{Precondizione}: L’applicazione offre all’utente la possibilità di selezionare la voce
-ripristina, sottovoce di edit nella barra del menù, solamente se si era tornati ad uno
-stato precedente all’ultima modifica.;
-\item \textbf{Postcondizione}: L’applicazione torna allo stato precedente l’ultima modifica.;
-\end{itemize} 
-\subsubsection{UC6.1.2.3 - Taglia} 
-\label{sssec:UC6.1.2.3} 
-\begin{itemize} 
-\item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: L’attore può tagliare un determinato elemento
-del progetto.;
-\item \textbf{Precondizione}: L’applicazione offre all’utente la voce taglia, sottovoce di edit appartenente
-al menù.;
-\item \textbf{Postcondizione}: L’applicazione taglia l’elemento selezionato.;
-\end{itemize} 
-\subsubsection{UC6.1.2.4 - Copia} 
-\label{sssec:UC6.1.2.4} 
-\begin{itemize} 
-\item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: L’attore può copiare un determinato elemento
-del progetto.;
-\item \textbf{Precondizione}: L’applicazione offre all’utente la voce copia, sottovoce di edit appartenente
-al menù.;
-\item \textbf{Postcondizione}: L’applicazione copia l’elemento selezionato.;
-\end{itemize} 
-\subsubsection{UC6.1.2.5 - Incolla} 
-\label{sssec:UC6.1.2.5} 
-\begin{itemize} 
-\item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: L’attore può incollare un elemento precedentemente
-tagliato o copiato.;
-\item \textbf{Precondizione}: L’applicazione offre all’utente la possibilità di selezionare la voce
-incolla, sottovoce di edit appartenente a menù, se un elemento era stato copiato o
-tagliato precedentemente .;
-\item \textbf{Postcondizione}: L’applicazione inserisce l’elemento designato.;
-\end{itemize} 
-\subsubsection{UC6.1.2.6 - Zoom in} 
-\label{sssec:UC6.1.2.6} 
-\begin{itemize} 
-\item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: L’attore può ingrandire la visualizzazione di
-una determinata sezione.;
-\item \textbf{Precondizione}: L’applicazione offre all’utente la possibilità di selezionare la voce
-zoom in, sottovoce di edit appartenente al menù.;
-\item \textbf{Postcondizione}: L’applicazione ingrandisce la sezione prescelta.;
-\end{itemize} 
-\subsubsection{UC6.1.2.7 - Zoom out} 
-\label{sssec:UC6.1.2.7} 
-\begin{itemize} 
-\item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: L’attore può rimpicciolire la visualizzazione di
-una determinata sezione.;
-\item \textbf{Precondizione}: L’applicazione offre all’utente la possibilità di selezionare la voce
-zoom out, sottovoce di edit appartenente al menù.;
-\item \textbf{Postcondizione}: L’applicazione rimpicciolisce la sezione prescelta.;
-\end{itemize} 
-\subsubsection{UC6.1.3 - Template} 
-\label{sssec:UC6.1.3} 
-\begin{itemize} 
-\item \textbf{Attori}: .
-\item \textbf{Descrizione}: L’utente autenticato può accedere alla visualizzazione della lista dei template. I template visualizzati comprendono sia quelli già dati dagli sviluppatore, sia i propri template.;
-\item \textbf{Precondizione}: L’applicazione offre all’utente una barra dei menù.;
-\item \textbf{Postcondizione}: L'applicazione ha aperto una finestra dove viene visualizzata la lista dei template e fornisce la possibilità di inserimento od eliminazione.;
-\item \textbf{Scenario principale}: \begin{enumerate}\item Inserisci template (UC6.1.3.1);\item Elimina template (UC6.1.3.2). 
- \end{enumerate}
-\end{itemize} 
-\subsubsection{UC6.1.3.1 - Inserisci template} 
-\label{sssec:UC6.1.3.1} 
-\begin{itemize} 
-\item \textbf{Attori}: .
-\item \textbf{Descrizione}: L'utente inserisce nella finestra del disegnatore dei diagrammi ( UC 6.3 ) il template selezionato.;
-\item \textbf{Precondizione}: L'utente ha aperto la finestra di gestione dei template.;
-\item \textbf{Postcondizione}: L'utente aggiunge il template selezionato nella finestra del disegnatore dei diagrammi( UC 6.3 ).;
-\item \textbf{Scenario principale}: L'utente seleziona il template desiderato da inserire.
-L'utente clicca nella finestra del disegnatore dei diagrammi( UC 6.3 ) nel punto dove inserire il template.;\item \textbf{Scenari alternativi}: L'utente chiude la finestra di gestione template ( UC 6.1.3 ) e non viene effettuata nessuna operazione..
-\end{itemize} 
-\subsubsection{UC6.1.3.2 - Elimina template} 
-\label{sssec:UC6.1.3.2} 
-\begin{itemize} 
-\item \textbf{Attori}: .
-\item \textbf{Descrizione}: L'utente elimina dalla lista il template selezionato.;
-\item \textbf{Precondizione}: L'utente ha aperto la finestra di gestione dei template ( UC 6.1.3 ).;
-\item \textbf{Postcondizione}: Il template selezionato viene rimosso dalla lista.;
-\item \textbf{Scenario principale}: L'utente seleziona il template desiderato da eliminare.
-L'utente clicca il bottone nella stessa linea rappresentato da una "X".
-Viene fatta una richiesta di conferma di eliminazione.
-Tale template viene eliminato dalla lista se la conferma ha esito positivo.;\item \textbf{Scenari alternativi}: L'utente chiude la finestra di gestione template ( UC 6.1.3 ) e non viene effettuata nessuna operazione..
-\end{itemize} 
-\subsubsection{UC6.1.4 - Layers} 
-\label{sssec:UC6.1.4} 
-\begin{itemize} 
-\item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: L’utente autenticato può accedere alla visualizzazione della lista dei layers. Può inoltre creare nuovi layer oppure rinominarne o eliminarne di già esistenti.;
-\item \textbf{Precondizione}: L’applicazione offre all’utente una barra dei menù.;
-\item \textbf{Postcondizione}: L'applicazione ha eseguito l'operazione richiesta dallutente.;
-\item \textbf{Scenario principale}: \begin{enumerate}\item Nuovo (UC6.1.4.1);\item Lista (UC6.1.4.2);\item Modifica (UC6.1.4.3). 
- \end{enumerate}
-\end{itemize} 
-\subsubsection{UC6.1.4.1 - Nuovo} 
-\label{sssec:UC6.1.4.1} 
-\begin{itemize} 
-\item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: L'utente crea un nuovo layer a cui è possibile assegnare delle classi.;
-\item \textbf{Precondizione}: L'utente ha aperto la finestra di gestione dei layer.;
-\item \textbf{Postcondizione}: L'utente ha aggiunto un nuovo layer assegnandogli il nome desiderato.;
-\end{itemize} 
-\subsubsection{UC6.1.4.2 - Lista} 
-\label{sssec:UC6.1.4.2} 
-\begin{itemize} 
-\item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: L'utente seleziona il layer di cui desidera visualizzare le classi che gli sono state assegnate.;
-\item \textbf{Precondizione}: L'utente ha aperto la finestra di gestione dei layer.;
-\item \textbf{Postcondizione}: L'utente ha visualizzato le classi assegnate al layer desiderato.;
-\end{itemize} 
-\subsubsection{UC6.1.4.3 - Modifica} 
-\label{sssec:UC6.1.4.3} 
-\begin{itemize} 
-\item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: L'utente desidera rinominare oppure eliminare un layer tra quelli esistenti.;
-\item \textbf{Precondizione}: L'utente ha aperto la finestra di gestione dei layer.;
-\item \textbf{Postcondizione}: L'utente ha eseguito l'operazione desiderata.;
-\item \textbf{Scenario principale}: \begin{enumerate}\item Rinomina (UC6.1.4.3.1);\item Elimina (UC6.1.4.3.2). 
- \end{enumerate}
-\end{itemize} 
-\subsubsection{UC6.1.4.3.1 - Rinomina} 
-\label{sssec:UC6.1.4.3.1} 
-\begin{itemize} 
-\item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: L'utente desidera rinominare un layer tra quelli esistenti.;
-\item \textbf{Precondizione}: L'utente ha aperto la finestra di gestione dei layer e ha selezionato l'opzione di modifica.;
-\item \textbf{Postcondizione}: L'utente ha modificato il nome del layer che intendeva modificare, mantenendo tutte le classi associate.;
