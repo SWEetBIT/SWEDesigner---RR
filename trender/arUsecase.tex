@@ -2,10 +2,10 @@
 \label{sssec:UC1} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente non autenticato.
-\item \textbf{Descrizione}: L'attore desidera effettuare l'operazione di registrazione. Vengono richiesti dal sistema un username, univoco e conforme alle richieste, una password conforme alle richieste e una mail che rispetti il pattern predefinito;
-\item \textbf{Precondizione}: Il sistema predispone la possibilità di registrazione;
-\item \textbf{Postcondizione}: Il sistema ha creato un nuovo account utente;
-\item \textbf{Scenario principale}: \begin{enumerate}\item Inserimento Username (UC1.1);\item Inserimento Password (UC1.2);\item Inserimento Email (UC1.3);\item Conferma registrazione (UC1.4);\item Messaggio errore: "Username non conforme" (UC1.5);\item Messaggio errore: "Password non conforme" (UC1.6);\item Messaggio errore: "Email non conforme" (UC1.7). 
+\item \textbf{Descrizione}: L'attore desidera effettuare l'operazione di registrazione. Vengono richiesti dall'applicazione un username, univoco e conforme alle richieste, una password conforme alle richieste e una mail che rispetti il pattern predefinito;
+\item \textbf{Precondizione}: L'applicazione predispone la possibilità di registrazione;
+\item \textbf{Postcondizione}: L'applicazione ha creato un nuovo account utente;
+\item \textbf{Scenario principale}: \begin{enumerate}\item Inserimento Username (UC1.1);\item Inserimento Password (UC1.2);\item Inserimento Email (UC1.3);\item Conferma registrazione (UC1.4);\item Messaggio di errore: "Username non conforme" (UC1.5);\item Messaggio di errore: "Password non conforme" (UC1.6);\item Messaggio di errore: "Email non conforme" (UC1.7). 
  \end{enumerate}
 \item \textbf{Scenari alternativi}: L’attore non autenticato interrompe l’operazione di registrazione non creando un nuovo account.
 \end{itemize} 
@@ -13,9 +13,9 @@
 \label{sssec:UC1.1} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente non autenticato.
-\item \textbf{Descrizione}: L’attore inserisce l'username: deve essere univoco all'interno del sistema e deve essere alfanumerico;
-\item \textbf{Precondizione}: Il sistema è pronto e l'attore intende autenticarsi;
-\item \textbf{Postcondizione}: Il sistema ha l’informazione relativa all'email inserita dall’utente;
+\item \textbf{Descrizione}: L’attore inserisce l'username: deve essere univoco all'interno dell'applicazione e deve essere alfanumerico;
+\item \textbf{Precondizione}: L'applicazione è pronta e l'attore intende autenticarsi;
+\item \textbf{Postcondizione}: L'applicazione ha l’informazione relativa all'email inserita dall’utente;
 \end{itemize} 
 \subsubsection{UC1.2 - Inserimento Password} 
 \label{sssec:UC1.2} 
@@ -23,15 +23,15 @@
 \item \textbf{Attori}: Utente non autenticato.
 \item \textbf{Descrizione}: L’attore inserisce la password: deve essere di tipo alfanumerico e può contenere caratteri di punteggiatura.;
 \item \textbf{Precondizione}: L'attore intende effettuare la registrazione inserendo la password.;
-\item \textbf{Postcondizione}: L'attore ha inserito una password conforme alle richieste del sistema.;
+\item \textbf{Postcondizione}: L'attore ha inserito una password conforme alle richieste dell'applicazione.;
 \end{itemize} 
 \subsubsection{UC1.3 - Inserimento Email} 
 \label{sssec:UC1.3} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente non autenticato.
-\item \textbf{Descrizione}: L’attore inserisce l'emal per effettuare l registrazione;
+\item \textbf{Descrizione}: L’attore inserisce l'email per effettuare la registrazione;
 \item \textbf{Precondizione}: L'attore ha selezionato l'opzione di registrazione e non ha ancora inserito un email;
-\item \textbf{Postcondizione}: Il sistema ha l’informazione relativa alla password inserita dall’utente;
+\item \textbf{Postcondizione}: L'applicazione ha l’informazione relativa alla password inserita dall’utente;
 \end{itemize} 
 \subsubsection{UC1.4 - Conferma registrazione} 
 \label{sssec:UC1.4} 
@@ -39,123 +39,161 @@
 \item \textbf{Attori}: Utente non autenticato.
 \item \textbf{Descrizione}: Dopo che un attore ha effettuato correttamente una registrazione, ne viene informato;
 \item \textbf{Precondizione}: L'attore ha scelto di effettuare l'operazione di registrazione;
-\item \textbf{Postcondizione}: L'utente ha ricevuto un messaggio di conferma dell'avvenuta registrazione;
+\item \textbf{Postcondizione}: L'attore ha ricevuto un messaggio di conferma dell'avvenuta registrazione;
 \end{itemize} 
-\subsubsection{UC1.5 - Messaggio errore: "Username non conforme"} 
+\subsubsection{UC1.5 - Messaggio di errore: "Username non conforme"} 
 \label{sssec:UC1.5} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente non autenticato.
-\item \textbf{Descrizione}: L'attore ha inserito un username non conforme e gli viene quindi comunicato l'errore.;
-\item \textbf{Precondizione}: L'attore ha selezionato l'opzione di registrazione e ha inserito un username.;
-\item \textbf{Postcondizione}: L'attore ha inserito un username non conforme e ha ricevuto la comunicazione dell'errore.;
+\item \textbf{Descrizione}: L'attore può inserire un username non conforme e gli viene quindi comunicato l'errore;
+\item \textbf{Precondizione}: L'applicazione è pronta e l'utente intende registrarsi;
+\item \textbf{Postcondizione}: L'attore ha inserito un username non conforme e ha ricevuto la comunicazione dell'errore;
 \end{itemize} 
-\subsubsection{UC1.6 - Messaggio errore: "Password non conforme"} 
+\subsubsection{UC1.6 - Messaggio di errore: "Password non conforme"} 
 \label{sssec:UC1.6} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente non autenticato.
-\item \textbf{Descrizione}: L'attore ha inserito una password non conforme e gli viene quindi comunicato l'errore.;
-\item \textbf{Precondizione}: L'attore ha selezionato l'opzione di registrazione e ha inserito una password.;
-\item \textbf{Postcondizione}: L'attore ha inserito una password non conforme e ha ricevuto la comunicazione dell'errore.;
+\item \textbf{Descrizione}: L'attore può inserire una password non conforme e gli viene quindi comunicato l'errore;
+\item \textbf{Precondizione}: L'applicazione è pronta e l'utente intende registrarsi;
+\item \textbf{Postcondizione}: L'attore ha inserito una password non conforme e ha ricevuto la comunicazione dell'errore;
 \end{itemize} 
-\subsubsection{UC1.7 - Messaggio errore: "Email non conforme"} 
+\subsubsection{UC1.7 - Messaggio di errore: "Email non conforme"} 
 \label{sssec:UC1.7} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente non autenticato.
-\item \textbf{Descrizione}: L'attore ha inserito un'email con una sintassi non valida e gli viene quindi comunicato l'errore.;
-\item \textbf{Precondizione}: L'attore ha selezionato l'opzione di registrazione e ha inserito un'email.;
-\item \textbf{Postcondizione}: L'attore ha inserito un'email non conforme e ha ricevuto la comunicazione dell'errore.;
+\item \textbf{Descrizione}: L'attore può inserire un'email con una sintassi non valida e gli viene quindi comunicato l'errore;
+\item \textbf{Precondizione}: Il sistema è pronto e l'utente intende registrarsi;
+\item \textbf{Postcondizione}: L'attore ha inserito un'email non conforme e ha ricevuto la comunicazione dell'errore;
 \end{itemize} 
 \subsubsection{UC2 - Autenticazione} 
 \label{sssec:UC2} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente non autenticato.
-\item \textbf{Descrizione}: L'attore che già in possesso delle credenziali per accedere al sistema, potrà effettuare l'operazione di autenticazione inserendo l'username o l'email e la password utilizzati per l'autenticazione. Nel caso l’attore abbia perso la password o se la sia dimenticata, il sistema fornisce la possibilità di resettarla.;
-\item \textbf{Precondizione}: L'attore decide di autenticarsi e il sistema richiede l'inserimento dei dati necessari per l'autenticazione.;
-\item \textbf{Postcondizione}: L'attore ha avuto accesso alle funzionalità del sistema in caso l'autenticazione sia avvenuta con successo. In caso contrario il sistema ha visualizzato un messaggio d'errore.;
-\item \textbf{Scenario principale}: \begin{enumerate}\item Inserisci Username/Email (UC2.1);\item Inserisci Password (UC2.2);\item Password dimenticata (UC2.3);\item Messaggio errore: "Username/Email o password errato" (UC2.4);\item Invio password per email (UC2.5). 
+\item \textbf{Descrizione}: L'attore che già in possesso delle credenziali per accedere all'applicazione, potrà effettuare l'operazione di autenticazione inserendo l'email e la password. Nel caso l’attore abbia perso la password o se la sia dimenticata, l'applicazione fornisce la possibilità di averne una temporanea per poi resettarla;
+\item \textbf{Precondizione}: L'attore decide di autenticarsi e l'applicazione richiede l'inserimento dei dati necessari per l'autenticazione;
+\item \textbf{Postcondizione}: L'attore ha avuto accesso alle funzionalità del l'applicazione, in caso l'autenticazione sia avvenuta con successo, altrimenti viene visualizzato un messaggio d'errore;
+\item \textbf{Scenario principale}: \begin{enumerate}\item Inserimento Username/Email (UC2.1);\item Inserimento Password (UC2.2);\item Password dimenticata (UC2.3);\item Credenziali errate (UC2.4);\item Invio password per email (UC2.5). 
  \end{enumerate}
+\item \textbf{Scenari alternativi}: L’attore non effettua l’autenticazione.
 \end{itemize} 
-\subsubsection{UC2.1 - Inserisci Username/Email} 
+\subsubsection{UC2.1 - Inserimento Username/Email} 
 \label{sssec:UC2.1} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente non autenticato.
-\item \textbf{Descrizione}: Durante la fase di autenticazione viene richiesto all'attore il proprio username o la propria email.;
-\item \textbf{Precondizione}: L'attore ha selezionato l'opzione di autenticazione e non ha ancora inserito il proprio username o la propria email.;
-\item \textbf{Postcondizione}: L'attore ha inserito il proprio username o la propria email.;
+\item \textbf{Descrizione}: Durante la fase di autenticazione viene richiesto all'attore il proprio username oppure la propria email;
+\item \textbf{Precondizione}: L'applicazione è pronta e l'attore intende autenticarsi;
+\item \textbf{Postcondizione}: L'applicazione ha l’informazione relativa all' email/username inserita dall’attore;
 \end{itemize} 
-\subsubsection{UC2.2 - Inserisci Password} 
+\subsubsection{UC2.2 - Inserimento Password} 
 \label{sssec:UC2.2} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente non autenticato.
-\item \textbf{Descrizione}: Durante la fase di autenticazione viene richiesta all'attore la propria password.;
-\item \textbf{Precondizione}: L'utente ha selezionato l'opzione di autenticazione e non ha ancora inserito la propria password.;
-\item \textbf{Postcondizione}: L'attore ha inserito la propria email.;
+\item \textbf{Descrizione}: Durante la fase di autenticazione viene richiesta all'attore la propria password;
+\item \textbf{Precondizione}: L'applicazione è pronta e l'attore intende autenticarsi;
+\item \textbf{Postcondizione}: L'applicazione ha l’informazione relativa alla password inserita dall’attore
+;
 \end{itemize} 
 \subsubsection{UC2.3 - Password dimenticata} 
 \label{sssec:UC2.3} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente non autenticato.
-\item \textbf{Descrizione}: L'attore ha smarrito oppure ha dimenticato la propria password e il sistema fornisce uno strumento per fornirgliene una temporanea.;
-\item \textbf{Precondizione}: L'attore possiede un account all'interno del sistema ma non è più in possesso della password.;
-\item \textbf{Postcondizione}: L'utente ha ricevuto una email contenente la nuova password temporanea.;
+\item \textbf{Descrizione}: L'attore ha smarrito oppure ha l'applicazione può fornirgliene una temporanea;
+\item \textbf{Precondizione}: L'attore possiede un account all'interno dell'applicazione, ma non è più in possesso della password;
+\item \textbf{Postcondizione}: L'attore ha ricevuto una email contenente la nuova password temporanea;
 \end{itemize} 
-\subsubsection{UC2.4 - Messaggio errore: "Username/Email o password errato"} 
+\subsubsection{UC2.4 - Credenziali errate} 
 \label{sssec:UC2.4} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente non autenticato.
-\item \textbf{Descrizione}: L'attore, già in possesso delle credenziali d'accesso, tenta di autenticarsi, ma l'operazione non va a buon fine e viene visualizzato un messaggio d'errore.;
-\item \textbf{Precondizione}: L'attore ha intenzione di effettuare l'operazione di autenticazione ed ha inserito il proprio username o la propria email.;
-\item \textbf{Postcondizione}: Il sistema ha ricevuto informazioni errate e quindi ha mostrato un messaggio d'errore.;
+\item \textbf{Descrizione}: L’attore visualizza un messaggio di errore dato dall’inserimento di credenziali errate;
+\item \textbf{Precondizione}: L'applicazione ha verificato le credenziali inserite dall’attore;
+\item \textbf{Postcondizione}: L'applicazione predispone la visualizzazione di un messaggio di errore;
 \end{itemize} 
 \subsubsection{UC2.5 - Invio password per email} 
 \label{sssec:UC2.5} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente non autenticato.
-\item \textbf{Descrizione}: Viene inviata una password temporanea all'attore per permettergli di accedere al sistema.;
-\item \textbf{Precondizione}: L'attore ha inserito il proprio username o la propria password.;
-\item \textbf{Postcondizione}: Il sistema ha inviato all'attore una mail contenente la password temporanea.;
+\item \textbf{Descrizione}: Viene inviata una password temporanea all'attore per permettergli di accedere all'applicazione;
+\item \textbf{Precondizione}: L'attore richiede una password temporanea;
+\item \textbf{Postcondizione}: L'applicazione ha inviato all'attore una mail contenente la password temporanea;
 \end{itemize} 
 \subsubsection{UC3 - Gestione Profilo} 
 \label{sssec:UC3} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: L' attore vuole gestire il suo username, la sua password o il suo indirizzo e-mail.;
-\item \textbf{Precondizione}: L' attore ha già effettuato l'accesso e l'applicazione rende disponibile la voce Gestione Profilo.;
-\item \textbf{Postcondizione}: L' applicazione visualizza i dati dell'attore con gli opportuni pulsanti di modifica.;
-\item \textbf{Scenario principale}: \begin{enumerate}\item Modifica Username (UC3.1);\item Modifica Password (UC3.2);\item Modifica Email (UC3.3). 
+\item \textbf{Descrizione}: L' attore può gestire il suo username, la sua password o il suo indirizzo email;
+\item \textbf{Precondizione}: L' attore ha già effettuato l'accesso e l'applicazione rende disponibile la voce Gestione Profilo nel menù;
+\item \textbf{Postcondizione}: L' applicazione visualizza i dati dell'attore con gli opportuni pulsanti di modifica;
+\item \textbf{Scenario principale}: \begin{enumerate}\item Modifica Username (UC3.1);\item Modifica Password (UC3.2);\item Modifica Email (UC3.3);\item Eliminazione Profilo (UC3.4);\item Messaggio di errore: "Username non conforme" (UC3.5);\item Messaggio di errore: "Password non conforme" (UC3.6);\item Messaggio di errore: "Email non conforme" (UC3.7). 
  \end{enumerate}
 \end{itemize} 
 \subsubsection{UC3.1 - Modifica Username} 
 \label{sssec:UC3.1} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: L' attore può modificare il suo nome utente.;
-\item \textbf{Precondizione}: L' applicazione deve rendere disponibile il pulsante di modifica username.;
-\item \textbf{Postcondizione}: L' applicazione modifica l'username dell'attore.;
+\item \textbf{Descrizione}: L' attore può modificare il suo username;
+\item \textbf{Precondizione}: L'  attore vuole modificare l'username;
+\item \textbf{Postcondizione}: L' applicazione modifica l' username dell'attore;
+\item \textbf{Scenari alternativi}: L' attore annulla la modifica dell'username.
 \end{itemize} 
 \subsubsection{UC3.2 - Modifica Password} 
 \label{sssec:UC3.2} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: L' attore ha la possibilità di modificare la sua password.;
-\item \textbf{Precondizione}: L' applicazione rende disponibile il pulsante di modifica.;
-\item \textbf{Postcondizione}: L' applicazione modifica la password o restituisce il messaggio d'errore.;
+\item \textbf{Descrizione}: L' attore ha la possibilità di modificare la sua password;
+\item \textbf{Precondizione}: L'  attore vuole modificare la password;
+\item \textbf{Postcondizione}: L' applicazione modifica la password o restituisce il messaggio d'errore;
+\item \textbf{Scenari alternativi}: L' attore annulla la modifica della password.
 \end{itemize} 
 \subsubsection{UC3.3 - Modifica Email} 
 \label{sssec:UC3.3} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: L' attore ha la possibilità di modificare la propria email.;
-\item \textbf{Precondizione}: L' applicazione rende disponibile il pulsante per la modifica della email.;
-\item \textbf{Postcondizione}: L' applicazione aggiorna la nuova email.;
+\item \textbf{Descrizione}: L' attore ha la possibilità di modificare la propria email;
+\item \textbf{Precondizione}: L' attore vuole modificare l'email;
+\item \textbf{Postcondizione}: L' applicazione aggiorna l'email;
+\item \textbf{Scenari alternativi}: L' attore annulla la modifica dell'email.
+\end{itemize} 
+\subsubsection{UC3.4 - Eliminazione Profilo} 
+\label{sssec:UC3.4} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: L'attore può eliminare il profilo, cancellando ogni tipo di personalizzazione da lui creata;
+\item \textbf{Precondizione}: L'applicazione permette l'eliminazione del profilo;
+\item \textbf{Postcondizione}: L'applicazione ha cancellato a cascata ogni informazione legata a tale profilo ed essa non è più recuperabile;
+\item \textbf{Scenari alternativi}: L'attore annulla la cancellazione del profilo.
+\end{itemize} 
+\subsubsection{UC3.5 - Messaggio di errore: "Username non conforme"} 
+\label{sssec:UC3.5} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: L'attore può inserire un username non conforme e gli viene quindi comunicato l'errore;
+\item \textbf{Precondizione}: L'applicazione è pronta e l'utente modificare l'username;
+\item \textbf{Postcondizione}: L'attore ha inserito un username non conforme e ha ricevuto la comunicazione dell'errore;
+\end{itemize} 
+\subsubsection{UC3.6 - Messaggio di errore: "Password non conforme"} 
+\label{sssec:UC3.6} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: L'attore può inserire una password non conforme e gli viene quindi comunicato l'errore;
+\item \textbf{Precondizione}: L'applicazione è pronta e l'utente modificare la password;
+\item \textbf{Postcondizione}: L'attore ha inserito una password non conforme e ha ricevuto la comunicazione dell'errore;
+\end{itemize} 
+\subsubsection{UC3.7 - Messaggio di errore: "Email non conforme"} 
+\label{sssec:UC3.7} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: L'attore può inserire l'email con una sintassi non valida e gli viene quindi comunicato l'errore;
+\item \textbf{Precondizione}: Il sistema è pronto e l'utente intende modificare l'email;
+\item \textbf{Postcondizione}: L'attore ha inserito un'email non conforme e ha ricevuto la comunicazione dell'errore;
 \end{itemize} 
 \subsubsection{UC4 - Logout} 
 \label{sssec:UC4} 
 \begin{itemize} 
 \item \textbf{Attori}: Utente Autenticato.
-\item \textbf{Descrizione}: L' attore può effettuare il logout dal suo profilo.;
-\item \textbf{Precondizione}: L' applicazione offre il pulsante di logout visibile all'utente che ha effettuato l'accesso.;
-\item \textbf{Postcondizione}: L' applicazione effettua il logout dell'attore.;
+\item \textbf{Descrizione}: L' attore può effettuare il logout dal suo profilo;
+\item \textbf{Precondizione}: L’applicazione mette a disposizione dell’attore la possibilità di logout;
+\item \textbf{Postcondizione}: L' applicazione effettua il logout dell'attore;
 \end{itemize} 
 \subsubsection{UC5 - Gestione Progetti} 
 \label{sssec:UC5} 
@@ -499,7 +537,7 @@ Tale template viene eliminato dalla lista se la conferma ha esito positivo.;\ite
 \item \textbf{Descrizione}: Nuova Relazione;
 \item \textbf{Precondizione}: Nuova Relazione;
 \item \textbf{Postcondizione}: Nuova Relazione;
-\item \textbf{Scenario principale}: \begin{enumerate}\item Definizione classe di partenza (UC6.2.1.3.1);\item Definizione classe di arrivo (UC6.2.1.3.2). 
+\item \textbf{Scenario principale}: \begin{enumerate}\item Definizione classe di partenza (UC6.2.1.3.1);\item Definizione classe di arrivo (UC6.2.1.3.2);\item Selezione tipo relazione (UC6.2.1.3.3). 
  \end{enumerate}
 \end{itemize} 
 \subsubsection{UC6.2.1.3.1 - Definizione classe di partenza} 
@@ -518,6 +556,14 @@ Tale template viene eliminato dalla lista se la conferma ha esito positivo.;\ite
 \item \textbf{Precondizione}: esiste almeno una classe;
 \item \textbf{Postcondizione}: il sistema associa il disegno dell'assegnazione alla relativa classe di destinazione;
 \end{itemize} 
+\subsubsection{UC6.2.1.3.3 - Selezione tipo relazione} 
+\label{sssec:UC6.2.1.3.3} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: L'attore seleziona il tipo di relazione tra: dipendenza, associazione, gerarchia;
+\item \textbf{Precondizione}: il sistema visualizza il form per l'inserimento dei dati;
+\item \textbf{Postcondizione}: il sistema ha registrato i dati inseriti;
+\end{itemize} 
 \subsubsection{UC6.2.1.4 - Nuovo commento} 
 \label{sssec:UC6.2.1.4} 
 \begin{itemize} 
@@ -525,7 +571,17 @@ Tale template viene eliminato dalla lista se la conferma ha esito positivo.;\ite
 \item \textbf{Descrizione}: L'utente ha la possibilità di inserire un commento associato ad un elemento del diagramma delle classi;
 \item \textbf{Precondizione}: La main windows è in modalità modifica diagrammi delle classi;
 \item \textbf{Postcondizione}: Viene rappresentato il disegno del commento;
-\item \textbf{Scenario principale}: L'utente dopo l'inserimento del commento lo associa ad un elemento del diagramma delle classi;\end{itemize} 
+\item \textbf{Scenario principale}: \begin{enumerate}\item Aggiunta relazione commento (UC6.2.1.4.1). 
+ \end{enumerate}
+\end{itemize} 
+\subsubsection{UC6.2.1.4.1 - Aggiunta relazione commento} 
+\label{sssec:UC6.2.1.4.1} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: il commento può associato ad un qualsiasi elemento del diagramma delle classi;
+\item \textbf{Precondizione}: è presente almeno un elemento;
+\item \textbf{Postcondizione}: il commento è stato associato ad un elemento;
+\end{itemize} 
 \subsubsection{UC6.2.2 - Strumenti Diagramma delle Attività} 
 \label{sssec:UC6.2.2} 
 \begin{itemize} 
@@ -866,6 +922,16 @@ Tale template viene eliminato dalla lista se la conferma ha esito positivo.;\ite
 \item \textbf{Descrizione}: L'attore può modificare il testo inserito nel commento.;
 \item \textbf{Precondizione}: E' stato inserito un commento;
 \item \textbf{Postcondizione}: Il commento risulta modificato;
+\item \textbf{Scenario principale}: \begin{enumerate}\item Modifica testo commento (UC6.3.1.8.1). 
+ \end{enumerate}
+\end{itemize} 
+\subsubsection{UC6.3.1.8.1 - Modifica testo commento} 
+\label{sssec:UC6.3.1.8.1} 
+\begin{itemize} 
+\item \textbf{Attori}: .
+\item \textbf{Descrizione}: l'attore può modificare il testo di un commento;
+\item \textbf{Precondizione}: il sistema visualizza il form per l'inserimento dei dati;
+\item \textbf{Postcondizione}: il sistema ha registrato il dato inserito;
 \end{itemize} 
 \subsubsection{UC6.3.1.9 - Eliminazione commento} 
 \label{sssec:UC6.3.1.9} 
@@ -1006,3 +1072,78 @@ Tale template viene eliminato dalla lista se la conferma ha esito positivo.;\ite
 \item \textbf{Descrizione}: L'attore può eliminare un elemento variabile presente nel diagramma del metodo di una classe;
 \item \textbf{Precondizione}: È visualizzato il diagramma di un metodo che contiene almeno un elemento variabile;
 \item \textbf{Postcondizione}: Viene eliminato, dal diagramma del metodo,  l'elemento variabile selezionato dall'attore;
+\end{itemize} 
+\subsubsection{UC6.3.5.4 - Eliminazione connettore} 
+\label{sssec:UC6.3.5.4} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: L'attore può eliminare, dal diagramma del metodo di una classe, un elemento connettore;
+\item \textbf{Precondizione}: È visualizzato il diagramma di un metodo che contiene almeno un elemento connettore;
+\item \textbf{Postcondizione}: Viene eliminato, dal diagramma del metodo,  l'elemento chiamata a metodo selezionato dall'attore;
+\end{itemize} 
+\subsubsection{UC6.3.5.5 - Eliminazione nodo decisione} 
+\label{sssec:UC6.3.5.5} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: L'attore ha la possibilità di eliminare un elemento nodo decisione dal diagramma del metodo di una classe;
+\item \textbf{Precondizione}: È visualizzato il diagramma di un metodo che contiene almeno un elemento nodo decisione;
+\item \textbf{Postcondizione}: Viene eliminato, dal diagramma del metodo,  l'elemento nodo decisione selezionato dall'attore;
+\end{itemize} 
+\subsubsection{UC6.3.5.6 - Eliminazione nodo merge} 
+\label{sssec:UC6.3.5.6} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: L'attore può eliminare, dal diagramma del metodo di una classe, un elemento nodo merge;
+\item \textbf{Precondizione}: È visualizzato il diagramma di un metodo che contiene almeno un elemento nodo merge;
+\item \textbf{Postcondizione}: Viene eliminato, dal diagramma del metodo,  l'elemento nodo merge selezionato dall'attore;
+\end{itemize} 
+\subsubsection{UC6.3.5.7 - Eliminazione commento} 
+\label{sssec:UC6.3.5.7} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: L'attore può eliminare, dal diagramma del metodo di una classe, un elemento commento;
+\item \textbf{Precondizione}: È visualizzato il diagramma di un metodo che contiene almeno un elemento commento;
+\item \textbf{Postcondizione}: Viene eliminato, dal diagramma del metodo,  l'elemento commento selezionato dall'attore;
+\end{itemize} 
+\subsubsection{UC6.3.5.8 - Eliminazione output pin} 
+\label{sssec:UC6.3.5.8} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: L'attore può eliminare, dal diagramma del metodo di una classe, un elemento output pin;
+\item \textbf{Precondizione}: È visualizzato il diagramma di un metodo che contiene almeno un elemento output pin;
+\item \textbf{Postcondizione}: L'elemento output pin, selezionato dall'utente, viene rimosso dal diagramma del metodo;
+\end{itemize} 
+\subsubsection{UC6.3.5.9 - Modifica commento} 
+\label{sssec:UC6.3.5.9} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: L'attore può modificare un elemento commento presente nel diagramma del metodo di una classe;
+\item \textbf{Precondizione}: È visualizzato il diagramma di un metodo che contiene almeno un elemento commento;
+\item \textbf{Postcondizione}: Vengono apportate le modifiche, all'elemento commento, effettuate dall'attore;
+\end{itemize} 
+\subsubsection{UC6.4 - Pannello laterale} 
+\label{sssec:UC6.4} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: L'attore può accedere a questa sezione di schermo nella quale è possibile visionare il flusso del programma a partire dal metodo main;
+\item \textbf{Precondizione}: È aperto un progetto;
+\item \textbf{Postcondizione}: Visualizza un diagramma delle attività;
+\item \textbf{Scenario principale}: \begin{enumerate}\item Esplorazione metodi (UC6.4.1);\item Visione Breadcrumb (UC6.4.2). 
+ \end{enumerate}
+\end{itemize} 
+\subsubsection{UC6.4.1 - Esplorazione metodi} 
+\label{sssec:UC6.4.1} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: L'attore, selezionando una chiamata a metodo, può visionare il diagramma delle attività di tale metodo.;
+\item \textbf{Precondizione}: È visualizzato un diagramma delle attività.;
+\item \textbf{Postcondizione}: Viene mostrato il diagramma delle attività del metodo selezionato.;
+\end{itemize} 
+\subsubsection{UC6.4.2 - Visione Breadcrumb} 
+\label{sssec:UC6.4.2} 
+\begin{itemize} 
+\item \textbf{Attori}: Utente Autenticato.
+\item \textbf{Descrizione}: Viene visualizzata una Breadcrumb che rappresenta il percorso effettuato dall'utente durante la navigazione dei vari metodo selezionati;
+\item \textbf{Precondizione}: è visualizzato un diagramma delle attività;
+\item \textbf{Postcondizione}: vengono visualizzati in ordine di accesso tutti i metodi selezionati dall'utente nella visione principale del programma;
+\end{itemize} 
