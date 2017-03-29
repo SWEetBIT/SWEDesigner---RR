@@ -82,10 +82,10 @@
       \item \emph{Metriche interne}: vengono applicate al software non eseguibile durante le fasi di progettazione e codifica.
       \item \emph{Metriche esterne}: servono per poter misurare il comportamento del prodotto software attraverso test effettuati in fase di esecuzione.
     \end{itemize}
-    Per ogni caratteristica identificata nella \S2.1.1 del presente documento, è stata trovata almeno una metrica interna e una esterna, esse sono:
+    Per ogni caratteristica identificata nella \S2.1.1 del presente documento, si è cercato almeno una metrica interna e una esterna, esse sono:
     \begin{itemize}
       \item \textbf{Funzionalità}\\
-      Come \textbf{metrica interna} viene utilizzata la \textbf{Completezza funzionale};
+      Come \emph{metrica interna} viene utilizzata la \textbf{Completezza funzionale};
       lo scopo è quello di poter quantificare il livello di copertura delle funzioni del software, sui requisiti individuati durante il periodo di analisi;
       la formula per il calcolo della completezza funzionale è la seguente:
       \begin{center}
@@ -103,7 +103,7 @@
         \item Range di accettabilità = [\(\geq\)0.5]
         \item Range di ottimalità = [\(\geq\)1]
       \end{itemize}
-      Come \textbf{metrica esterna} si è deciso di utilizzare la \textbf{Correttezza funzionale};
+      Come \emph{metrica esterna} si è deciso di utilizzare la \textbf{Correttezza funzionale};
       questa metrica permette di misurare il livello di correttezza funzionale del software.
       La formula per il calcolo della correttezza funzionale è:
       \begin{center}
@@ -121,7 +121,7 @@
         \item Range di ottimalità = [0.9-1]
       \end{itemize}
       \item \textbf{Affidabilità}\\
-      Come \textbf{metrica interna} si è optato per la \textbf{Rimozione errori},
+      Come \emph{metrica interna} si è optato per la \textbf{Rimozione errori},
       la quale permette di misurare il livello di efficacia di rimozione degli errori;
       la formula per il calcolo della rimozione degli errori è:
       \begin{center}
@@ -138,7 +138,7 @@
         \item Range di accettabilità = [0.8-1]
         \item Range di ottimalità = [1]
       \end{itemize}
-      Come \textbf{metrica esterna} viene utilizzata la \textbf{Frequenza/Assenza di malfunzionamenti},
+      Come \emph{metrica esterna} viene utilizzata la \textbf{Frequenza/Assenza di malfunzionamenti},
       questa è applicata per misurare quanto efficaciemente sono gestite le situazioni in cui si verificano errori durante l'operatività del sistema.
       La formula è:
       \begin{center}
@@ -155,8 +155,8 @@
         \item Range di accettabilità = [0.7-1]
         \item Range di ottimalità = [0.95-1]
       \end{itemize}
-      \item \textbf{Usabilità}
-      \textbf{Metrica interna} utilizzata è la \textbf{Completezza descrittiva},
+      \item \textbf{Usabilità}\\
+      \emph{Metrica interna} utilizzata è la \textbf{Completezza descrittiva},
       la quale da un indice di completezza celle funzionalità descritte nella documentazione del prodotto.
       La formila per la misurazione è:
       \begin{center}
@@ -173,7 +173,7 @@
         \item Range di accettabilità = [0.8-1]
         \item Range di ottimalità = [1]
       \end{itemize}
-      \textbf{Metrica esterna} utilizata è la \textbf{Efficacia documentazione}, che serve a misurare l'efficacia con la quale la documentazione viene compresa dall'utente,
+      \emph{Metrica esterna} utilizata è la \textbf{Efficacia documentazione}, che serve a misurare l'efficacia con la quale la documentazione viene compresa dall'utente,
       quando egli necessita di consultare la documentazione per comprendere una funzione.
       La formula per il calcolo è:
       \begin{center}
@@ -190,11 +190,64 @@
         \item Range di accettabilità = [0.7-1]
         \item Range di ottimalità = [0.9-1]
       \end{itemize}
-
+      \item \textbf{Efficienza}\\
+      Non è stata individuata una \emph{metrica interna} per l'efficienza.\\
+      Come \emph{metrica esterna} si è oprato per il \textbf{Tempo di risposta};
+      il quale indica il tempo medio di risposta del sistema ad un comando immesso dall'utente.
+      \begin{center}
+        \emph{Trisp = tempo che intercorre tra l'immisione del comando da parte dell'operatore e la presentazione della risposta da parte del sistema}
+      \end{center}
+      I range di accettabilità e ottimalità verranno stabiliti sucessivamente al periodo di analisi.
+      \item \textbf{Manutenibilità}\\
+        \emph{Metriche interne}:
+        \begin{itemize}
+          \item \textbf{Complessità ciclomatica}: è una metrica per la misura della complessità del codice; la quale è calcolata mediate il grafo di controllo di flusso relativo al codice,
+            i nodi del grafo sono gruppi di istruzioni indivisibili. Se nel codice non sono presenti punti decisionali o cicli allora la complessità ciclomatica sarà pari a 1. La formula per il caclolo della complessità ciclomatica è:
+            \begin{center}
+              \emph{Cc = a - n + 2p}
+            \end{center}
+            Dove:
+            \begin{itemize}
+              \item Cc = indice di complessità ciclomatica;
+              \item a = numero di archi nel grafo del codice;
+              \item n = numero di nodi nel grafo del codice;
+              \item p = numero di componenti connesse (per un singolo programma, metodo o funzione p è sempre 1).
+            \end{itemize}
+            I range stabiliti sono:
+            \begin{itemize}
+              \item Range di accettabilità = [1-20]
+              \item Range di ottimalità = [1-15]
+            \end{itemize}
+          \item \textbf{Complessità delle classi}: serve a misurare il livello di complessità di una classe, si basa sul conteteggio dei campi dati presenti in essa.
+            \begin{center}
+              \emph{Complessità classe = numero campi dati}
+            \end{center}
+            I range stabiliti sono:
+            \begin{itemize}
+              \item Range di accettabilità = [0 - 15]
+              \item Range di ottimalità = [0 - 5]
+            \end{itemize}
+        \end{itemize}
+        \emph{Metrica esterna} è stata adottata l'\textbf{Efficacia delle modifiche},
+        la quale ha lo scopo è di riuscire a misurare la facilità di manutenzione del codice senza che si generino ulteriori errori.
+        La formula è:
+        \begin{center}
+          \emph{EdM = 1 - Merr / Mtot}
+        \end{center}
+        Dove:
+        \begin{itemize}
+          \item EdM = indice di efficacia delle modifiche;
+          \item Merr = numero di modifiche che generano ulteriori errori;
+          \item Mtot = numero totale di modifiche effettuate.
+        \end{itemize}
+        I range stabiliti sono:
+        \begin{itemize}
+          \item Range di accettabilità = [0.75-1]
+          \item Range di ottimalità = [0.9-1]
+        \end{itemize}
+      \item \textbf{Portabilità}\\
+      Non sono state ritenute necessarie metriche interne ed esterne per questa categoria.
     \end{itemize}
-
-
-
 
 
 
