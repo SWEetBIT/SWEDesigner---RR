@@ -2,17 +2,17 @@
   Questa sezione del documento descrive le metriche utilizzate per la quantificazione della qualità e le tecniche di analisi adottate.
 
   \subsection{Metriche software, metriche di processo e misurazioni}
-  Le metriche ritenute necessarie per una corretta misurazione della qualità di processi e prodotti sono descritte in questa sezione;
-  l'attività di verifica si baserà su queste metriche e per ognuna di queste è stato necessario stabilire due range:
+  Le metriche ritenute necessarie per una corretta misurazione della qualità di processi e prodotti sono descritte in questa sezione.
+  L'attività di verifica si baserà su queste metriche e per ognuna di queste è stato necessario stabilire due range:
   \begin{itemize}
-    \item \textbf{Range di accettabilità:} l'intervallo di valori entro il quale deve trovarsi il risultato della misurazione di un processo, o prodotto, per essere ritenuto accettabile.
-    \item \textbf{Range di ottimalità:} l'intervallo di valori in cui si deve trovare il risultato della misurazione di un processo, o prodotto, per essere considerato ottimale;
-    questo range è l'obiettivo del gruppo SWEet BIT.
+    \item \textbf{Range di accettabilità:} l'intervallo di valori entro il quale deve trovarsi il risultato della misurazione di un processo, o prodotto, per essere ritenuto accettabile;
+    \item \textbf{Range di ottimalità:} l'intervallo di valori in cui si deve trovare il risultato della misurazione di un processo, o prodotto, per essere considerato ottimale.
+    Questo range è l'obiettivo del gruppo SWEet BIT.
   \end{itemize}
     \subsubsection{Metriche riguardanti i processi}
     Per la verifica dei processi sono state adottate due metriche di seguito descritte:
     \begin{description}
-      \item[Schedule Variance (SV):] È un indice che dà informazione necessarie a determinare se ci si trova in anticipo,
+      \item[Schedule Variance (SV):] È un indice che dà informazioni necessarie a determinare se ci si trova in anticipo,
       in ritardo o in linea alle tempistiche delle attività di progetto.
       La seguente formula dà SV in termini di costo:
       \begin{center}
@@ -31,8 +31,8 @@
       \end{itemize}
       I range stabiliti sono:
       \begin{itemize}
-        \item Range di accettabilità = [\(\geq\)-(\emph{preventivo fase} * 5\%)]
-        \item Range di ottimalità = [\(\geq\)0]
+        \item Range di accettabilità = [\(\geq\)-(\emph{preventivo periodo} * 5\%)];
+        \item Range di ottimalità = [\(\geq\)0].
       \end{itemize}
       \item[Cost Variance (CV):] indica se vi sono state più o meno spese rispetto al previsto.
       La seguente formula dà CV in termini di costo:
@@ -52,8 +52,8 @@
       \end{itemize}
       I range stabiliti sono:
       \begin{itemize}
-        \item Range di accettabilità = [\(\geq\)-(\emph{preventivo fase} * 10\%)]
-        \item Range di ottimalità = [\(\geq\)0]
+        \item Range di accettabilità = [\(\geq\)-(\emph{preventivo periodo} * 10\%)];
+        \item Range di ottimalità = [\(\geq\)0].
       \end{itemize}
     \end{description}
     \subsubsection{Metriche riguardanti i documenti}
@@ -72,20 +72,20 @@
       \end{itemize}
       I range stabiliti sono:
       \begin{itemize}
-        \item Range di accettabilità = [40-100]
-        \item Range di ottimalità = [50-100]
+        \item Range di accettabilità = [40-100];
+        \item Range di ottimalità = [50-100].
       \end{itemize}
     \end{description}
     \subsubsection{Metriche riguardanti il prodotto software}
     Come descritto nello standard \glossaryItem{ISO}/\glossaryItem{IEC} 9126, si posso identificare due tipi di metriche utilizzate per misurare la qualita del prodotto software, esse sono:
     \begin{itemize}
-      \item \emph{Metriche interne}: vengono applicate al software non eseguibile durante le fasi di progettazione e codifica.
-      \item \emph{Metriche esterne}: servono per poter misurare il comportamento del prodotto software attraverso test effettuati in fase di esecuzione.
+      \item \textbf{Metriche interne}: vengono applicate al software non eseguibile durante le fasi di progettazione e codifica.
+      \item \textbf{Metriche esterne}: servono per poter misurare il comportamento del prodotto software attraverso test effettuati in fase di esecuzione.
     \end{itemize}
     Per ogni caratteristica identificata nella \S2.1.1 del presente documento, si è cercato almeno una metrica interna e una esterna, esse sono:
     \begin{itemize}
-      \item \textbf{Funzionalità}\\
-      Come \emph{metrica interna} viene utilizzata la \textbf{Completezza funzionale};
+      \item \textbf{Funzionalità}:\\
+      Come \textbf{metrica interna} viene utilizzata la \textbf{Completezza funzionale};
       lo scopo è quello di poter quantificare il livello di copertura delle funzioni del software, sui requisiti individuati durante il periodo di analisi;
       la formula per il calcolo della completezza funzionale è la seguente:
       \begin{center}
@@ -100,14 +100,14 @@
       \end{itemize}
       I range stabiliti sono:
       \begin{itemize}
-        \item Range di accettabilità = [\(\geq\)0.5]
-        \item Range di ottimalità = [\(\geq\)1]
+        \item Range di accettabilità = [\(\geq\)0.5];
+        \item Range di ottimalità = [\(\geq\)1].
       \end{itemize}
-      Come \emph{metrica esterna} si è deciso di utilizzare la \textbf{Correttezza funzionale};
+      Come \textbf{metrica esterna} si è deciso di utilizzare la \textbf{Correttezza funzionale};
       questa metrica permette di misurare il livello di correttezza funzionale del software.
-      La formula per il calcolo della correttezza funzionale è:
+      La formula per il calcolo della correttezza funzionale è la seguente:
       \begin{center}
-        \emph{CorrF = 1 - Fe / Fp}
+        \emph{CorrF = 1 - (Fe / Fp)}
       \end{center}
       Dove:
       \begin{itemize}
@@ -117,13 +117,13 @@
       \end{itemize}
       I range stabiliti sono:
       \begin{itemize}
-        \item Range di accettabilità = [0.75-1]
-        \item Range di ottimalità = [0.9-1]
+        \item Range di accettabilità = [0.75-1];
+        \item Range di ottimalità = [0.9-1].
       \end{itemize}
-      \item \textbf{Affidabilità}\\
-      Come \emph{metrica interna} si è optato per la \textbf{Rimozione errori},
+      \item \textbf{Affidabilità}:\\
+      Come \textbf{metrica interna} si è optato per la \textbf{Rimozione errori},
       la quale permette di misurare il livello di efficacia di rimozione degli errori;
-      la formula per il calcolo della rimozione degli errori è:
+      la formula per il calcolo della rimozione degli errori è la seguente:
       \begin{center}
         \emph{Re = Dc / Dr}
       \end{center}
@@ -135,12 +135,12 @@
       \end{itemize}
       I range stabiliti sono:
       \begin{itemize}
-        \item Range di accettabilità = [0.8-1]
-        \item Range di ottimalità = [1]
+        \item Range di accettabilità = [0.8-1];
+        \item Range di ottimalità = [1].
       \end{itemize}
-      Come \emph{metrica esterna} viene utilizzata la \textbf{Frequenza/Assenza di malfunzionamenti},
-      questa è applicata per misurare quanto efficaciemente sono gestite le situazioni in cui si verificano errori durante l'operatività del sistema.
-      La formula è:
+      Come \textbf{metrica esterna} viene utilizzata la \textbf{Frequenza/Assenza di malfunzionamenti}.
+      Questa è applicata per misurare quanto efficaciemente sono gestite le situazioni in cui si verificano errori durante l'operatività del sistema.
+      La formula è la seguente:
       \begin{center}
         \emph{FreqE = Mc / Mr}
       \end{center}
@@ -152,13 +152,13 @@
       \end{itemize}
       I range stabiliti sono:
       \begin{itemize}
-        \item Range di accettabilità = [0.7-1]
-        \item Range di ottimalità = [0.95-1]
+        \item Range di accettabilità = [0.7-1];
+        \item Range di ottimalità = [0.95-1].
       \end{itemize}
-      \item \textbf{Usabilità}\\
-      \emph{Metrica interna} utilizzata è la \textbf{Completezza descrittiva},
-      la quale da un indice di completezza celle funzionalità descritte nella documentazione del prodotto.
-      La formila per la misurazione è:
+      \item \textbf{Usabilità}:\\
+      La \textbf{metrica interna} utilizzata è la \textbf{Completezza descrittiva},
+      la quale da un indice di completezza delle funzionalità descritte nella documentazione del prodotto.
+      La formila per la misurazione è la seguente:
       \begin{center}
         \emph{CompDesc = Fd / Fp}
       \end{center}
@@ -170,39 +170,38 @@
       \end{itemize}
       I range stabiliti sono:
       \begin{itemize}
-        \item Range di accettabilità = [0.8-1]
-        \item Range di ottimalità = [1]
+        \item Range di accettabilità = [0.8-1];
+        \item Range di ottimalità = [1].
       \end{itemize}
-      \emph{Metrica esterna} utilizata è la \textbf{Efficacia documentazione}, che serve a misurare l'efficacia con la quale la documentazione viene compresa dall'utente,
-      quando egli necessita di consultare la documentazione per comprendere una funzione.
-      La formula per il calcolo è:
+      La \textbf{metrica esterna} utilizata è l'\textbf{Efficacia della documentazione}, la quale serve a misurare l'efficacia con la quale la documentazione viene compresa dall'utente,
+      nel momento in cui egli necessiti di consultare la documentazione per comprendere una funzione.
+      La formula per il calcolo è la seguente:
       \begin{center}
-        \emph{EffDoc = Fappr / Fnd}
+        \emph{EffDoc = FAppr / Fnd}
       \end{center}
       Dove:
       \begin{itemize}
         \item EffDoc = indice di efficacia documentazione;
-        \item Fappr = numero di funzioni apprese e completate con successo dall'utente accedendo alla documentazione;
-        \item Fnd = numero di funzioni totali in cui l'utente ha acceduto alla documentazione durante il test.
+        \item FAppr = numero di funzioni apprese e completate con successo dall'utente accedendo alla documentazione;
+        \item Fnd = numero di volte in cui l'utente ha dovuto accedere alla documentazione, per capire il funzionamento di una funzione, durante i test.
       \end{itemize}
       I range stabiliti sono:
       \begin{itemize}
-        \item Range di accettabilità = [0.7-1]
-        \item Range di ottimalità = [0.9-1]
+        \item Range di accettabilità = [0.7-1];
+        \item Range di ottimalità = [0.9-1].
       \end{itemize}
-      \item \textbf{Efficienza}\\
-      Non è stata individuata una \emph{metrica interna} per l'efficienza.\\
-      Come \emph{metrica esterna} si è oprato per il \textbf{Tempo di risposta};
+      \item \textbf{Efficienza}:\\
+      Come \textbf{metrica esterna} si è oprato per il \textbf{Tempo di risposta},
       il quale indica il tempo medio di risposta del sistema ad un comando immesso dall'utente.
       \begin{center}
         \emph{Trisp = tempo che intercorre tra l'immisione del comando da parte dell'operatore e la presentazione della risposta da parte del sistema}
       \end{center}
       I range di accettabilità e ottimalità verranno stabiliti sucessivamente al periodo di analisi.
       \item \textbf{Manutenibilità}\\
-        \emph{Metriche interne}:
+        \textbf{Metriche interne}:
         \begin{itemize}
-          \item \textbf{Complessità ciclomatica}: è una metrica per la misura della complessità del codice; la quale è calcolata mediate il grafo di controllo di flusso relativo al codice,
-            i nodi del grafo sono gruppi di istruzioni indivisibili. Se nel codice non sono presenti punti decisionali o cicli allora la complessità ciclomatica sarà pari a 1. La formula per il caclolo della complessità ciclomatica è:
+          \item \textbf{Complessità ciclomatica}: è una metrica per la misura della complessità del codice; la quale è calcolata mediate il grafo di controllo di flusso relativo al codice.
+            I nodi del grafo sono gruppi di istruzioni indivisibili. Se nel codice non sono presenti punti decisionali o cicli, allora la complessità ciclomatica sarà pari a 1. La formula per il caclolo della complessità ciclomatica è:
             \begin{center}
               \emph{Cc = a - n + 2p}
             \end{center}
@@ -215,24 +214,25 @@
             \end{itemize}
             I range stabiliti sono:
             \begin{itemize}
-              \item Range di accettabilità = [1-20]
-              \item Range di ottimalità = [1-15]
+              \item Range di accettabilità = [1-20];
+              \item Range di ottimalità = [1-15].
             \end{itemize}
           \item \textbf{Complessità delle classi}: serve a misurare il livello di complessità di una classe, si basa sul conteteggio dei campi dati presenti in essa.
+          Se una classe presenta troppi campi dati è probabile che essa possa essere divisa in più classi.
             \begin{center}
               \emph{Complessità classe = numero campi dati}
             \end{center}
             I range stabiliti sono:
             \begin{itemize}
-              \item Range di accettabilità = [0 - 15]
-              \item Range di ottimalità = [0 - 5]
+              \item Range di accettabilità = [0 - 15];
+              \item Range di ottimalità = [0 - 5].
             \end{itemize}
         \end{itemize}
-        \emph{Metrica esterna} è stata adottata l'\textbf{Efficacia delle modifiche},
+        \textbf{Metrica esterna} è stata adottata l'\textbf{Efficacia delle modifiche},
         la quale ha lo scopo è di riuscire a misurare la facilità di manutenzione del codice senza che si generino ulteriori errori.
-        La formula è:
+        La formula è la seguente:
         \begin{center}
-          \emph{EdM = 1 - Merr / Mtot}
+          \emph{EdM = 1 -( Merr / Mtot)}
         \end{center}
         Dove:
         \begin{itemize}
@@ -242,8 +242,8 @@
         \end{itemize}
         I range stabiliti sono:
         \begin{itemize}
-          \item Range di accettabilità = [0.75-1]
-          \item Range di ottimalità = [0.9-1]
+          \item Range di accettabilità = [0.75-1];
+          \item Range di ottimalità = [0.9-1].
         \end{itemize}
       \item \textbf{Portabilità}\\
       Non sono state ritenute necessarie metriche interne ed esterne per questa categoria.
@@ -257,14 +257,14 @@
     Questa tecnica permette di verificare sia la documentazione che il codice.
     Durante il processo di analisi statica vengono utilizzate le metriche di qualità interna per la verifica del prodotto software.
     \subsubsection{Analisi dinamica}
-    L'analisi dinamica è il processo che verifica il prodotto software mentre esso è in esecuzione; viene effettuata tramite test che devono essere coerentemente pianificati in modo da evitare spreco di risosrse.
+    L'analisi dinamica è il processo che verifica il prodotto software mentre esso è in esecuzione. Viene effettuata tramite test che devono essere coerentemente pianificati in modo da evitare spreco di risosrse.
     Durante l'attività di analisi dinamica vengono utilizzate le metriche di qualità esterna per la verifica del prodotto software in esecuzione.
     Organizzazione delle attività di test:
     \begin{itemize}
-      \item \textbf{Test di unità}: L'obiettivo di questa fase è quello di riuscire a capire se ogni unità del codice si comporti esattamente come previsto, un unità di codice è la più piccola parte di software testabile.
-      \item \textbf{Test di integrazione}: In questa fase di test viene testata una componente, una componente è l'aggragazione di più unità software.
-      Questo tipo di test consente di trovare errori che si verificano nell'aggregazione di varie unità.
-      \item \textbf{Test di sistema}: in questa fase viene verificato il comportamento del prodotto software finale, lo scopo è quello di capire se esso rispetta i requisiti individuati nella fase di analisi.
-      \item \textbf{Test di regressione}: Questo test ha lo scopo di stabilire se le modifiche apportate al software hanno compromesso componenti software precedentemente funzionanti.
+      \item \textbf{Test di unità}: l'obiettivo di questo test è quello di riuscire a capire se ogni unità del codice si comporti esattamente come previst. Un unità di codice è la più piccola parte di software testabile;
+      \item \textbf{Test di integrazione}: in questo test viene verificata la componente. Una componente è l'aggragazione di più unità software.
+      Questo tipo di test consente di trovare errori che si verificano nell'aggregazione di varie unità;
+      \item \textbf{Test di sistema}: durante questo test viene verificato il comportamento del prodotto software finale. Lo scopo è quello di capire se esso rispetta i requisiti individuati nella fase di Analisi.
+      \item \textbf{Test di regressione}: questo test ha lo scopo di stabilire se le modifiche apportate al software hanno compromesso componenti software precedentemente funzionanti.
       Questi test vengono eseguiti ogni volta che viene apportata una modifica al software.
     \end{itemize}
