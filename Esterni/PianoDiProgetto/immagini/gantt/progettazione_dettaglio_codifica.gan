@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2017-03-27" view-index="0" gantt-divider-location="461" resource-divider-location="300" version="2.8.4" locale="it">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2017-05-20" view-index="0" gantt-divider-location="461" resource-divider-location="300" version="2.8.4" locale="it">
     <description/>
-    <view zooming-state="default:0" id="gantt-chart">
+    <view zooming-state="default:2" id="gantt-chart">
         <field id="tpd3" name="Nome" width="289" order="0"/>
         <field id="tpd4" name="Data d'inizio" width="75" order="1"/>
         <field id="tpd5" name="Data di fine" width="78" order="2"/>
@@ -33,82 +33,76 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="124" name="Analisi dei Requisiti" meeting="false" start="2017-03-27" duration="2" complete="0" expand="true">
+        <task id="124" name="Analisi dei Requisiti" meeting="false" start="2017-05-16" duration="15" complete="0" expand="true">
             <depend id="156" type="2" difference="0" hardness="Strong"/>
-            <task id="170" name="Incremento" meeting="false" start="2017-03-27" duration="1" complete="0" expand="true">
+            <task id="170" name="Incremento" color="#8cb6ce" meeting="false" start="2017-05-16" duration="10" complete="0" expand="true">
                 <depend id="171" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="171" name="Verifica" meeting="false" start="2017-03-28" duration="1" complete="0" expand="true"/>
+            <task id="171" name="Verifica" color="#8cb6ce" meeting="false" start="2017-05-26" duration="5" complete="0" expand="true"/>
         </task>
-        <task id="127" name="Glossario" meeting="false" start="2017-03-27" duration="2" complete="0" expand="true">
-            <depend id="156" type="2" difference="0" hardness="Strong"/>
-            <task id="173" name="Incremento" meeting="false" start="2017-03-27" duration="1" complete="0" expand="true">
+        <task id="127" name="Glossario" meeting="false" start="2017-05-16" duration="50" complete="0" expand="true">
+            <depend id="156" type="2" difference="1" hardness="Strong"/>
+            <task id="173" name="Incremento" color="#8cb6ce" meeting="false" start="2017-05-16" duration="47" complete="0" expand="true">
                 <depend id="172" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="172" name="Verifica" meeting="false" start="2017-03-28" duration="1" complete="0" expand="true"/>
+            <task id="172" name="Verifica" color="#8cb6ce" meeting="false" start="2017-07-02" duration="3" complete="0" expand="true"/>
         </task>
-        <task id="130" name="Norme di Progetto" meeting="false" start="2017-03-27" duration="2" complete="0" expand="true">
+        <task id="130" name="Norme di Progetto" meeting="false" start="2017-05-16" duration="15" complete="0" expand="true">
             <depend id="156" type="2" difference="0" hardness="Strong"/>
-            <task id="174" name="Incremento" meeting="false" start="2017-03-27" duration="1" complete="0" expand="true">
+            <task id="174" name="Incremento" color="#8cb6ce" meeting="false" start="2017-05-16" duration="10" complete="0" expand="true">
                 <depend id="175" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="175" name="Verifica" meeting="false" start="2017-03-28" duration="1" complete="0" expand="true"/>
+            <task id="175" name="Verifica" color="#8cb6ce" meeting="false" start="2017-05-26" duration="5" complete="0" expand="true"/>
         </task>
-        <task id="133" name="Piano di Progetto" meeting="false" start="2017-03-27" duration="3" complete="0" expand="true">
+        <task id="133" name="Piano di Progetto" meeting="false" start="2017-05-16" duration="50" complete="0" expand="true">
             <depend id="156" type="2" difference="0" hardness="Strong"/>
-            <task id="176" name="Incremento" meeting="false" start="2017-03-27" duration="2" complete="0" expand="true">
+            <task id="176" name="Incremento" meeting="false" start="2017-05-16" duration="47" complete="0" expand="true">
                 <depend id="179" type="2" difference="0" hardness="Strong"/>
-                <task id="177" name="Correzioni" meeting="false" start="2017-03-27" duration="1" complete="0" expand="true">
-                    <depend id="178" type="2" difference="0" hardness="Strong"/>
+                <task id="177" name="Correzioni" color="#8cb6ce" meeting="false" start="2017-05-16" duration="4" complete="0" expand="true">
+                    <depend id="178" type="2" difference="40" hardness="Strong"/>
                 </task>
-                <task id="178" name="Consuntivo" meeting="false" start="2017-03-28" duration="1" complete="0" expand="true"/>
+                <task id="178" name="Consuntivo" color="#8cb6ce" meeting="false" start="2017-06-29" duration="3" complete="0" expand="true"/>
             </task>
-            <task id="179" name="Verifica" meeting="false" start="2017-03-29" duration="1" complete="0" expand="true"/>
+            <task id="179" name="Verifica" color="#8cb6ce" meeting="false" start="2017-07-02" duration="3" complete="0" expand="true"/>
         </task>
-        <task id="138" name="Piano di Qualifica" meeting="false" start="2017-03-27" duration="2" complete="0" expand="true">
-            <depend id="141" type="2" difference="0" hardness="Strong"/>
+        <task id="138" name="Piano di Qualifica" meeting="false" start="2017-05-16" duration="15" complete="0" expand="true">
             <depend id="156" type="2" difference="0" hardness="Strong"/>
-            <task id="180" name="Incremento" meeting="false" start="2017-03-27" duration="1" complete="0" expand="true">
+            <task id="180" name="Incremento" color="#8cb6ce" meeting="false" start="2017-05-16" duration="10" complete="0" expand="true">
                 <depend id="181" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="181" name="Verifica" meeting="false" start="2017-03-28" duration="1" complete="0" expand="true"/>
+            <task id="181" name="Verifica" color="#8cb6ce" meeting="false" start="2017-05-26" duration="5" complete="0" expand="true"/>
         </task>
-        <task id="141" name="Resoconto delle Attività di Verifica" meeting="false" start="2017-03-29" duration="1" complete="0" expand="true">
+        <task id="144" name="Specifica Tecnica" meeting="false" start="2017-05-16" duration="15" complete="0" expand="true">
             <depend id="156" type="2" difference="0" hardness="Strong"/>
-            <task id="183" name="Analisi statica" meeting="false" start="2017-03-29" duration="1" complete="0" expand="true"/>
-            <task id="182" name="Analisi dinamica" meeting="false" start="2017-03-29" duration="1" complete="0" expand="true"/>
-        </task>
-        <task id="144" name="Specifica Tecnica" meeting="false" start="2017-03-27" duration="2" complete="0" expand="true">
-            <depend id="156" type="2" difference="0" hardness="Strong"/>
-            <task id="184" name="Incremento" meeting="false" start="2017-03-27" duration="1" complete="0" expand="true">
+            <task id="184" name="Incremento" color="#8cb6ce" meeting="false" start="2017-05-16" duration="10" complete="0" expand="true">
                 <depend id="185" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="185" name="Verifica" meeting="false" start="2017-03-28" duration="1" complete="0" expand="true"/>
+            <task id="185" name="Verifica" color="#8cb6ce" meeting="false" start="2017-05-26" duration="5" complete="0" expand="true"/>
         </task>
-        <task id="147" name="Definizione del Prodotto" meeting="false" start="2017-03-27" duration="2" complete="0" expand="true">
+        <task id="147" name="Definizione del Prodotto" meeting="false" start="2017-05-16" duration="20" complete="0" expand="true">
+            <depend id="152" type="2" difference="0" hardness="Strong"/>
+            <task id="186" name="Standard di progetto" color="#8cb6ce" meeting="false" start="2017-05-16" duration="16" complete="0" expand="true">
+                <depend id="189" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="187" name="Specifica delle componenti" color="#8cb6ce" meeting="false" start="2017-05-16" duration="16" complete="0" expand="true">
+                <depend id="189" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="188" name="Tracciamento requisiti-componenti" color="#8cb6ce" meeting="false" start="2017-05-16" duration="16" complete="0" expand="true">
+                <depend id="189" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="189" name="Verifica" color="#8cb6ce" meeting="false" start="2017-06-01" duration="4" complete="0" expand="true"/>
+        </task>
+        <task id="152" name="Codifica" color="#8cb6ce" meeting="false" start="2017-06-05" duration="23" complete="0" expand="true">
             <depend id="153" type="2" difference="0" hardness="Strong"/>
-            <task id="186" name="Standard di progetto" meeting="false" start="2017-03-27" duration="1" complete="0" expand="true">
-                <depend id="189" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="187" name="Specifica delle componenti" meeting="false" start="2017-03-27" duration="1" complete="0" expand="true">
-                <depend id="189" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="188" name="Tracciamento requisiti-componenti" meeting="false" start="2017-03-27" duration="1" complete="0" expand="true">
-                <depend id="189" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="189" name="Verifica" meeting="false" start="2017-03-28" duration="1" complete="0" expand="true"/>
         </task>
-        <task id="152" name="Codifica" color="#8cb6ce" meeting="false" start="2017-03-28" duration="1" complete="0" expand="true">
-            <depend id="153" type="2" difference="0" hardness="Strong"/>
-        </task>
-        <task id="153" name="Manuale Utente" meeting="false" start="2017-03-29" duration="2" complete="0" expand="true">
+        <task id="153" name="Manuale Utente" color="#000000" meeting="false" start="2017-06-28" duration="7" complete="0" expand="true">
             <depend id="156" type="2" difference="0" hardness="Strong"/>
-            <task id="191" name="Stesura" meeting="false" start="2017-03-29" duration="1" complete="0" expand="true">
+            <task id="191" name="Stesura" color="#8cb6ce" meeting="false" start="2017-06-28" duration="4" complete="0" expand="true">
                 <depend id="192" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="192" name="Verifica" meeting="false" start="2017-03-30" duration="1" complete="0" expand="true"/>
+            <task id="192" name="Verifica" color="#8cb6ce" meeting="false" start="2017-07-02" duration="3" complete="0" expand="true"/>
         </task>
-        <task id="156" name="Consegna" color="#8cb6ce" meeting="true" start="2017-03-31" duration="0" complete="0" expand="true"/>
+        <task id="156" name="Consegna" color="#8cb6ce" meeting="true" start="2017-07-06" duration="0" complete="0" expand="true"/>
     </tasks>
     <resources/>
     <allocations/>
