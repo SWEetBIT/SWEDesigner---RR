@@ -1,6 +1,6 @@
 \section{Scelta del Capitolato C6}
   \subsection{Descrizione del capitolato}
-    Il capitolato C6, proposto dall'azienda \emph{Zucchetti S.p.a.}, propone lo sviluppo di una \glossaryItem{Web App} costituita da un \glossaryItem{designer} di \glossaryItem{UML} che possa utilizzare sia gli schemi tipici
+    Il capitolato C6, proposto dall'azienda \emph{Zucchetti S.p.a.}, richiede lo sviluppo di una \glossaryItem{Web App} costituita da un \glossaryItem{designer} di \glossaryItem{UML} che possa utilizzare sia gli schemi tipici
     del linguaggio, come ad esempio il diagramma delle classi, sia alcuni ibridi ideati appositamente per lo scopo.
     Dal diagramma prodotto sarà possibile generare automaticamente del codice \emph{Java}.
     Le richieste principali del capitolato sono le seguenti:
@@ -11,43 +11,42 @@
       \item Il corretto funzionamento del prodotto finale su browser supportanti \emph{Html 5.0} e \emph{CSS 3}.
      \end{itemize}
    \subsection{Dominio applicativo}
-    Il capitolato pone come obbiettivo quello di creare uno strumento che possa automatizzare, nei limiti del possibile, il processo di generazione di codice.
-    Negli ultimi anni si sente sempre di più l'esigenza di sviluppare \emph{software} in tempi esigui e spendendo meno risorse possibili nella mano d'opera.
+    Il capitolato pone come obiettivo quello di creare uno strumento che possa automatizzare, nei limiti del possibile, il processo di generazione di codice.
+    Negli ultimi anni si è sentita sempre di più l'esigenza di sviluppare \emph{software} in tempi esigui spendendo meno risorse possibili nella mano d'opera.
     Oltre a tutto questo, si sente la necessità di avere del codice quanto più pulito possibile da errori umani, pertanto nasce l'esigenza di un tool in grado di
     automatizzare questo processo macchinoso, rendendo meno influente l'azione umana, ed i relativi errori, sul prodotto finale. \\
     Nella pratica un tale sistema sarebbe impossibile da realizzare per via della mole di variabili in gioco, pertanto occorre provare a ridimensionare il problema ponendolo
     all'interno di un dominio specifico.
-    In questo caso il dominio indicato dal proponente è quello dei giochi da tavolo, così da ridimensionare notevolmente il problema:
-    si tratta di un dominio molto specifico in cui è più semplice riuscire a generare del codice adatto alla situazione molto più particolare.
+    In questo caso il dominio indicato dal proponente è quello dei giochi da tavolo, si tratta di un dominio molto specifico in cui è più semplice riuscire a generare del codice adatto alla particolare situazione.
     Ad esempio, è noto a tutti che un gioco da tavolo mette sempre a disposizione una plancia di gioco, la quale, nonostante ne esistano varie versioni, ha sempre degli
-    elementi fissi che possono essere utilizzati a proprio vantaggio.
+    elementi fissi che possono essere utilizzati a proprio piacimento.
   \subsection{Dominio tecnologico}
     Vista la natura di \glossaryItem{Web App} del capitolato, e sopratutto alla luce dei requisiti richiesti dal proponente, si è reso necessario uno studio approfondito in diversi campi:
       \begin{itemize}
-        \item \textbf{\glossaryItem{Server} TOMCAT:}  Conoscenza delle strumentazioni offerte da questa particolare tecnologia Apache con conseguenti pro e contro del caso;
-        \item \textbf{Node.js:} Conoscenza di questa piattaforma. In particolare si rendono necessarie le conoscenze della sua offerta e della possibili applicazioni
+        \item \textbf{\glossaryItem{Server} TOMCAT:}  conoscenza delle strumentazioni offerte da questa particolare tecnologia Apache con relativi pro e contro del caso;
+        \item \textbf{Node.js:} conoscenza di questa piattaforma. In particolare si rendono necessarie le conoscenze di quello che offre e delle sue possibili applicazioni
         all'interno del progetto;
-        \item \textbf{JVM:} Conoscenze di base del funzionamento della macchina virtuale di Java.
-        \item \textbf{Java:} Conoscenza abbastanza approfondita del linguaggio, necessaria per la generazione del codice automatico;
-        \item \textbf{Diagrammi \glossaryItem{UML}:} Conoscenza dei principali schemi utilizzati all'interno dello standard \glossaryItem{UML};
-        \item \textbf{Meteor:} Conoscenza basilare della piattaforma per agevolare la scrittura del lato \glossaryItem{Client} della \glossaryItem{Web App}.
+        \item \textbf{JVM:} conoscenze di base del funzionamento della macchina virtuale di Java.
+        \item \textbf{Java:} conoscenza abbastanza approfondita del linguaggio, necessaria per la generazione del codice automatico;
+        \item \textbf{Diagrammi \glossaryItem{UML}:} conoscenza dei principali schemi utilizzati all'interno dello standard \glossaryItem{UML};
+        \item \textbf{Meteor:} conoscenza basilare della piattaforma per agevolare la scrittura del lato \glossaryItem{Client} della \glossaryItem{Web App}.
       \end{itemize}
   \subsection{Criticità potenziali e costi}
-    Tutte le tecnologie richieste per la realizzazione del progetto sono gratuite quindi non è richiesto
-    un'impegno monetario per utilizzarle, tuttavia, essendo in gran parte nuove per i membri del gruppo,
+    Tutte le tecnologie necessarie per la realizzazione del progetto sono gratuite quindi non è richiesto
+    un impegno monetario per utilizzarle, tuttavia, essendo in gran parte nuove per i membri del gruppo,
     l'acquisizione delle competenze necessarie richiederà un investimento non banale in termini di
     tempo.
     \\ \\
     In maniera più specifica le tecnologie che possono essere fonti di forti criticità sono le seguenti:
       \begin{itemize}
-        \item \textbf{Diagrammi \glossaryItem{UML}:} Nessun componente del gruppo ha mai avuto a che fare con la progettazione di diagrammi \glossaryItem{UML}. Lo studio approfondito di tali strumenti è fondamentale per la realizzazione del progetto;
+        \item \textbf{Diagrammi \glossaryItem{UML}:} nessun componente del gruppo ha mai avuto a che fare con la progettazione di diagrammi \glossaryItem{UML}. Lo studio approfondito di tali strumenti è fondamentale per la realizzazione del progetto;
         \item \textbf{Java:} il gruppo possiede una conoscenza piuttosto generale del linguaggi in questione. Si rende quindi necessario un approfondimento di tali conoscenze;
         \item \textbf{Node.js/TOMCAT:} nessun componente del gruppo ha avuto a che fare con tali tecnologie per lo sviluppo del lato \glossaryItem{Server}, si rende pertanto necessaria una conoscenza
         generale per la scelta della tecnologia da adoperare da approfondire maggiormente in seguito;
         \item \textbf{Meteor:} nonostante i componenti del gruppo abbiano una conoscenza piuttosto basilare e generica della piattaforma, è necessario uno studio più approfondito della stessa.
       \end{itemize}
   \subsection{Analisi del mercato e benefici}
-    Attualmente sul mercato non sono disponibili strumenti di questo genere e che offrano di generare del codice in maniera automatizzata. I pochi esempi che possiamo ritrovare
+    Attualmente sul mercato non sono disponibili strumenti di questo genere che offrano di generare del codice in maniera automatizzata. I pochi esempi che possiamo ritrovare
     prevedono un sistema poco funzionale di \glossaryItem{Drag-and-drop} che genera del codice non sempre ottimale.
     Oltre a questo si sente molto l'esigenza di un ambiente che possa diminuire drasticamente i tempi di sviluppo software all'interno di un'azienda, permettendo quindi al progetto
     di rispondere ad una richiesta piuttosto importante all'interno del mercato. \\
@@ -57,14 +56,14 @@
     insieme di aspetti positivi e negativi del capitolato:
     \subsubsection{Aspetti positivi}
       \begin{itemize}
-        \item \textbf{Interesse:} I componenti del gruppo hanno manifestato un interesse elevato nei confronti del dominio applicativo e delle tecnologie necessarie
+        \item \textbf{Interesse:} i componenti del gruppo hanno manifestato un interesse elevato nei confronti del dominio applicativo e delle tecnologie necessarie
         allo sviluppo, soprattutto per via dell'enorme potenzialità creativa dello stesso;
-        \item \textbf{Novità:} Il prodotto rappresenta un'interessante novità per il mercato, il che ha stimolato particolarmente i componenti del gruppo;
-        \item \textbf{Esperienza:} Lo sviluppo del prodotto permetterà ai membri del gruppo di acquisire competenze utili nel proseguimento della carriera;
-        \item \textbf{Licenza:} Il rilascio del prodotto con licenza MIT fornisce interessanti
+        \item \textbf{Novità:} il prodotto rappresenta un'interessante novità per il mercato, il che ha stimolato particolarmente i componenti del gruppo;
+        \item \textbf{Esperienza:} lo sviluppo del prodotto permetterà ai membri del gruppo di acquisire competenze utili nel proseguimento della carriera;
+        \item \textbf{Licenza:} il rilascio del prodotto con licenza MIT fornisce interessanti
          prospettive future di utilizzo e sviluppo.
      \end{itemize}
    \subsubsection{Aspetti negativi}
-    Gli aspetti negativi del progetto sono da legarsi principalmente alle tecnologie da utilizzare, che sono poco familiari agli elementi del gruppo.
-    La criticità maggiore è da riscontrarsi invece sulla fattibilità del progetto stesso, il quale cerca una soluzione ad un problema piuttosto complesso che richiede grandi
-    capacità di pensiero e di sviluppo.
+    Gli aspetti negativi del progetto sono legati principalmente alle tecnologie da utilizzare, che sono poco familiari agli elementi del gruppo.
+    La criticità maggiore è da riscontrarsi invece sulla fattibilità del progetto stesso, il quale cerca una soluzione ad un problema piuttosto complesso e richiede grandi
+    capacità di ragionamento e di sviluppo.
