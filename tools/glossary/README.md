@@ -11,7 +11,11 @@ Glossario:<br />
 }<br />
 <br />
 -Creare un Glossario.tex seguendo il seguente template: <br />
-\glossaryElement{VOCE DEL GLOSSARIO}: DEFINIZIONE<br />
+\newglossaryentry{VOCE DEL GLOSSARIO}<br />
+{<br />
+name=nome,<br />
+description=Descrizione, nonumberlist<br />
+}
 <br />
 Script:<br />
 -Inserire nella stessa cartella lo script glossaryAdd.pl, il file di Glossario.tex e tutti gli altri file .tex da modificare (non devono avere lo stesso nome).<br />

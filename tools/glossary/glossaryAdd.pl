@@ -15,7 +15,7 @@ chomp $glossary_file;
 open $fh, '<:encoding(UTF-8)', $glossary_file or die "Could not open file $glossary_file for read $!";
 # populate @base array with glossary words
 while(<$fh>) {
-    if($_ =~/(?<=\\glossaryElement\{)(.*?)(?=\})/g) {
+    if($_ =~/(?<=\\newglossaryentry\{)(.*?)(?=\})/g) {
         push @base, $1;
     }
 }
