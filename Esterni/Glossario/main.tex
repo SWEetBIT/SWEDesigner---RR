@@ -1,0 +1,49 @@
+\input{../../common/global.tex}
+\input{../../common/layout.tex}
+\input{res/local}
+
+% Pacchetti per gli accenti
+\usepackage[utf8]{inputenc}
+
+\usepackage{tocloft}% http://ctan.org/pkg/tocloft
+
+\setlength{\cftsubsecnumwidth}{3em}
+
+\usepackage[section]{glossaries}
+
+\newglossarystyle{myaltlistgroup}{%
+  \setglossarystyle{altlistgroup}%
+  \renewcommand*{\glsgroupheading}[1]{%
+    \pagebreak%
+    \item\makebox[\linewidth]{\Large\textbf{\glsgetgrouptitle{##1}}}%
+    \vspace*{-\baselineskip}%
+    \item\makebox[\linewidth]{\hspace*{3cm}\hrulefill\hspace*{3cm}}%
+  }%
+}
+
+    \makeglossaries
+\loadglsentries{Glossario}
+
+
+\title{\textbf{Glossario}}
+\author{SWEet BIT}
+
+\date{1 marzo 2017}
+
+
+\begin{document}
+
+%\maketitle
+
+\makeFrontPage
+
+%\tableofcontents
+%\listoffigures
+%\listoftables
+
+\include{res/versions}
+\include{res/listOfSections}
+
+\glsaddall
+\printglossary[style=myaltlistgroup,title=Glossario]
+\end{document}
