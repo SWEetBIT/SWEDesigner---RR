@@ -14,14 +14,14 @@
 \newglossarystyle{myaltlistgroup}{%
   \setglossarystyle{altlistgroup}%
   \renewcommand*{\glsgroupheading}[1]{%
-    \pagebreak%
+	\pagebreak%  
     \item\makebox[\linewidth]{\Large\textbf{\glsgetgrouptitle{##1}}}%
     \vspace*{-\baselineskip}%
     \item\makebox[\linewidth]{\hspace*{3cm}\hrulefill\hspace*{3cm}}%
   }%
 }
 
-    \makeglossaries
+\makeglossaries
 \loadglsentries{Glossario}
 
 
@@ -44,6 +44,5 @@
 \include{res/versions}
 \include{res/listOfSections}
 
-\glsaddall
-\printglossary[style=myaltlistgroup,title=Glossario]
+
 \end{document}
