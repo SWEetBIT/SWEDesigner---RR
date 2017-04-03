@@ -29,11 +29,7 @@ foreach(grep { s/(\w?)(\s*)\([^()]*\)(\s*)(\w?)/($1&&$4)?($1.($2?$2:$3).$4):($1?
 }
 if(@ARGV == 0) {
     # find all project files .tex except Glossario*
-    @tex_files = `find . -type f -name "*.tex" -a -not -name "Glossario*"`;
-    foreach my $i(@tex_files){
-      my $str = substr $i, 2, 11;
-      push @mytex, $str;
-    }
+    @mytex= `find . -type f -name "*.tex" -a -not -name "Glossario*"`;
 } else {
     (@tex_files) = @ARGV;
     # .tex extension check on arguments
