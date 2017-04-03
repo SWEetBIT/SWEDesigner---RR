@@ -34,6 +34,8 @@
 \glsnonextpages \glossentry{Committente}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}\glsgroupskip
 \glsgroupheading{D}\relax \glsresetentrylist %
+\glsnonextpages \glossentry{Design Pattern}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{2}}}%
 \glsnonextpages \glossentry{Designer}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}%
 \glsnonextpages \glossentry{Desktop}{\glossaryentrynumbers{\relax 
@@ -54,6 +56,8 @@
 		\setentrycounter[]{page}\glsnumberformat{2}}}\glsgroupskip
 \glsgroupheading{F}\relax \glsresetentrylist %
 \glsnonextpages \glossentry{File}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{2}}}%
+\glsnonextpages \glossentry{Form}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}%
 \glsnonextpages \glossentry{Frame}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}%
