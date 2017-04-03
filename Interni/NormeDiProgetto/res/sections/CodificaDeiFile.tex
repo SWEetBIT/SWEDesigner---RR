@@ -3,27 +3,28 @@
   Tutti i \glossaryItem{File} contenenti \glossaryItem{Codice} o documentazione, dovranno essere in codifica \glossaryItem{UTF-8} senza \glossaryItem{BOM}.\\
   È ammessa la possibilità di effettuare modifiche alle convenzioni, le quali sono stabilite in seguito ad una decisione del \emph{Responsabile di Progetto}.\\
 
+\begin{comment}
   \subsection{Documentazione}
     I \glossaryItem{File} contenti \glossaryItem{Codice} dovranno essere provvisti di un'intestazione contenente:
-    \begin{lstlisting}[\glossaryItem{Frame}=single]
+    \begin{lstlisting}[frame=single]
       /*!
-      * \\glossaryItem{File} Nome del \glossaryItem{File}
+      * \file Nome del File
       * \author Autore (indirizzo e-mail dell'autore)
       * \date Data di creazione
-      * \brief Breve descrizione del \glossaryItem{File}
+      * \brief Breve descrizione del File
       *
-      * Descrizione dettagliata del \glossaryItem{File}
+      * Descrizione dettagliata del File
       */
     \end{lstlisting}
     Prima di ogni \glossaryItem{Classe} dovrà esserci un commento contenente:
-    \begin{lstlisting}[\glossaryItem{Frame}=single]
+    \begin{lstlisting}[frame=single]
       /*!
-      * \class Nome della \glossaryItem{Classe}
-      * \brief Breve descrizione della \glossaryItem{Classe}
+      * \class Nome della Classe
+      * \brief Breve descrizione della Classe
       */
     \end{lstlisting}
     Prima di ogni \glossaryItem{Metodo} dovrà essere inserito un commento contenente:
-    \begin{lstlisting}[\glossaryItem{Frame}=single]
+    \begin{lstlisting}[frame=single]
       /*!
       * \brief Breve descrizione della funzione
       * \param Nome del primo parametro
@@ -31,3 +32,4 @@
       * \return Valore ritornato dalla funzione
       */
     \end{lstlisting}
+\end{comment}
