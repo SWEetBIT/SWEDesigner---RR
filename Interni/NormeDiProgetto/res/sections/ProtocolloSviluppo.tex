@@ -1,6 +1,6 @@
 \section{Protocollo per lo sviluppo dell’applicazione}
-  Per procedere con una stesura controllata dei documenti e con uno sviluppo controllato del codice si è scelto di adottare
-  il sistema di ticketing \textbf{Redmine}.\\
+  Per procedere con una stesura controllata dei documenti e con uno sviluppo controllato del \glossaryItem{Codice} si è scelto di adottare
+  il sistema di \glossaryItem{Ticket}ing \textbf{Redmine}.\\
   La scelta di tale piattaforma è spiegata all'interno del capitolo 9.
   In questa sezine si faranno molti riferimenti impliciti al \emph{Piano di Progetto} e al \emph{Piano di  Qualifica}.
   \subsection{Creazione di un nuovo progetto}
@@ -15,15 +15,15 @@
       \item \textbf{Identificativo: }scrivere in minuscolo ed indicare il nome della fase a cui si riferisce (es. SdF-rr).
     \end{itemize}
   \subsection{Creazione ticket}
-    I ticket vengono creati da:
+    I \glossaryItem{Ticket} vengono creati da:
     \begin{itemize}
-      \item \textbf{\emph{Responsabile di Progetto}: }crea i ticket più importanti che rappresentano le macro-fasi evideziate
+      \item \textbf{\emph{Responsabile di Progetto}: }crea i \glossaryItem{Ticket} più importanti che rappresentano le macro-fasi evideziate
       all'interno della pianificazione;
-      \item \textbf{\emph{Responsabile di Sotto-progetto}: }crea i ticket per i processi non pianificati inizialmente ma che si rivelano necessari
+      \item \textbf{\emph{Responsabile di Sotto-progetto}: }crea i \glossaryItem{Ticket} per i processi non pianificati inizialmente ma che si rivelano necessari
       per l'avanzamento del sotto-progetto assegnato;
-      \item \textbf{\emph{Verificatore}: }crea i ticket per segnalare errori emersi durante il processo di verifica.
+      \item \textbf{\emph{Verificatore}: }crea i \glossaryItem{Ticket} per segnalare errori emersi durante il processo di verifica.
     \end{itemize}
-    I ticket possono essere di tre categorie:
+    I \glossaryItem{Ticket} possono essere di tre categorie:
     \begin{itemize}
       \item \textbf{Ticket di pianificazione: }rappresentano le macro-attività di maggiore importanza e sono organizzati in una gerarchia
       basata sul livello di importanza.\\
@@ -46,7 +46,7 @@
       \subsubsection{Ticket di pianificazione}
         \begin{itemize}
           \item Selezionare \textbf{Nuova segnalazione} dal menù principale;
-          \item \textbf{Tracker: }Indicare la natura del ticket:
+          \item \textbf{Tracker: }Indicare la natura del \glossaryItem{Ticket}:
           \bgroup
             \begin{itemize}
               \item \textbf{Documento: }Attività legata alla stesura di un documento;
@@ -54,18 +54,18 @@
               \item \textbf{Verifica: }Macro-attività legata alla verifica del prodotto delle macro-attività.
             \end{itemize}
           \egroup
-          \item \textbf{Oggetto: }Descrizione breve e significativa della natura del ticket;
+          \item \textbf{Oggetto: }Descrizione breve e significativa della natura del \glossaryItem{Ticket};
           \item \textbf{Descrizione: }Descrizione comprensibile dell'attività da svolgere;
           \item \textbf{Stato: }Plan;
-          \item \textbf{Attività principale: }Se si vuole identificare una \textbf{sotto-attività} indicare l'id del ticket padre;
-          \item \textbf{Categoria: }\glossaryItem{PDCA} se e solo se il ticket viene generato dal \emph{Responsabile di Progetto};
+          \item \textbf{Attività principale: }Se si vuole identificare una \textbf{sotto-attività} indicare l'id del \glossaryItem{Ticket} padre;
+          \item \textbf{Categoria: }\glossaryItem{PDCA} se e solo se il \glossaryItem{Ticket} viene generato dal \emph{Responsabile di Progetto};
           \item \textbf{Assegnato a: }Indicare il nome del responsabile;
           \item \textbf{Osservatori: }Aggiungere eventuali collaboratori.
         \end{itemize}
       \subsubsection{Ticket di realizzazione e controllo}
         \begin{itemize}
           \item Selezionare \textbf{Nuova segnalazione} dal menù principale;
-          \item \textbf{Tracker: }Indicare la natura del ticket:
+          \item \textbf{Tracker: }Indicare la natura del \glossaryItem{Ticket}:
           \bgroup
             \begin{itemize}
               \item \textbf{Documento: }Attività legata alla stesura di un documento;
@@ -73,10 +73,10 @@
               \item \textbf{Verifica: }Macro-attività legata alla verifica del prodotto delle macro-attività;
             \end{itemize}
           \egroup
-            \item \textbf{Oggetto: }Descrizione breve e significativa della natura del ticket;
+            \item \textbf{Oggetto: }Descrizione breve e significativa della natura del \glossaryItem{Ticket};
           \item \textbf{Descrizione: }Descrizione comprensibile dell'attività da svolgere;
           \item \textbf{Stato: }New;
-          \item \textbf{Attività principale: }Se si vuole identificare una \textbf{sotto-attività} indicare l'id del ticket padre;
+          \item \textbf{Attività principale: }Se si vuole identificare una \textbf{sotto-attività} indicare l'id del \glossaryItem{Ticket} padre;
           \item \textbf{Inizio: }Dare una presunta data di inizio;
           \item \textbf{Scadenza: }Dare una presunta data di fine;
           \item \textbf{Assegnato a: }Indicare il nome del responsabile;
@@ -87,16 +87,16 @@
         \begin{enumerate}
           \item Assicurarsi che esista all'interno del progetto l'attività \emph{Verifica}.\\
           Su questa attività devono essere presenti due sotto-attività: \emph{Verifica - realizzazione} e \emph{Verifica - approvazione}.\\
-          Tutti i ticket devono essere creati come sotto-attività di \emph{Verifica - realizzazione}.
-          \item Creare il ticket seguendo le seguenti direttive:
+          Tutti i \glossaryItem{Ticket} devono essere creati come sotto-attività di \emph{Verifica - realizzazione}.
+          \item Creare il \glossaryItem{Ticket} seguendo le seguenti direttive:
           \bgroup
             \begin{itemize}
               \item Selezionare \textbf{Nuova segnalazione} dal menù principale;
-              \item \textbf{Tracker: }Bug;
-              \item \textbf{Oggetto: }Descrizione breve e significativa della natura del ticket;
+              \item \textbf{Tracker: }\glossaryItem{Bug};
+              \item \textbf{Oggetto: }Descrizione breve e significativa della natura del \glossaryItem{Ticket};
               \item \textbf{Descrizione: }Descrizione comprensibile dell'attività da svolgere;
               \item \textbf{Stato: }New;
-              \item \textbf{Attività principale: }Se si vuole identificare una \textbf{sotto-attività} indicare l'id del ticket padre;
+              \item \textbf{Attività principale: }Se si vuole identificare una \textbf{sotto-attività} indicare l'id del \glossaryItem{Ticket} padre;
               \item \textbf{Assegnato a: }Indicare il nome del responsabile.
             \end{itemize}
           \egroup
@@ -104,19 +104,19 @@
       Tutti i campi non segnalati sono da lasciarsi vuoti.\\
       Il compito di assegnare la correzione dell'errore è dato al Responsabile del progetto padre.
     \subsubsection{Dipendenze temporali}
-      Dopo la creazione dei ticket è necessario assegnare le \textbf{dipendenze temporali} fra gli stessi.\\
+      Dopo la creazione dei \glossaryItem{Ticket} è necessario assegnare le \textbf{dipendenze temporali} fra gli stessi.\\
       La procedura da seguire è la seguente:
       \begin{itemize}
         \item Spostarsi su \textbf{Segnalazioni};
         \item Aprire il link alla segnalazione a cui aggiungere la dipendenza;
         \item Nella sezione \textbf{Segnalazioni correlate} premere su \textbf{Aggiungi};
-        \item Scegliere \textbf{segue} ed indicare il numero della segnalazione bloccante con eventuali giorni di slack.
+        \item Scegliere \textbf{segue} ed indicare il numero della segnalazione bloccante con eventuali giorni di \glossaryItem{Slack}.
       \end{itemize}
       Tutti i campi non segnalati sono da lasciarsi vuoti.
   \subsection{Aggiornamento ticket}
-    L'aggiornamento dei ticket avviene tramite il cambiamento del loro stato da:
+    L'aggiornamento dei \glossaryItem{Ticket} avviene tramite il cambiamento del loro stato da:
     \begin{itemize}
-      \item \textbf{In Progress: }segnala che uno o più membri del gruppo stanno lavorando al completamento di quel ticket.\\
+      \item \textbf{In Progress: }segnala che uno o più membri del gruppo stanno lavorando al completamento di quel \glossaryItem{Ticket}.\\
       In questo caso la percentuale di completamento deve essere compresa fra 0\% e 99\%;
       \item \textbf{Closed: }segnala che l'attività è stata conclusa.\\
       La percentuale di completamento in questo caso è fissata a 100\%;

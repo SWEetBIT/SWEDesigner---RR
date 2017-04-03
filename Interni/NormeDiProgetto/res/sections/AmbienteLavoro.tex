@@ -2,20 +2,20 @@
   \subsection{Coordinamento}
     Il coordinamento del gruppo avviene tramite:
     \begin{itemize}
-      \item Repository su \glossaryItem{GitHub};
+      \item \glossaryItem{Repository} su \glossaryItem{GitHub};
       \item \glossaryItem{Google Drive};
       \item \glossaryItem{Telegram}
     \end{itemize}
     \subsubsection{Repository}
-      Sulla repository di GitHub, raggiungibile all'indirizzo \url{https://github.com/SWEetBIT}, sono caricati i vari template da utilizzare
+      Sulla \glossaryItem{Repository} di \glossaryItem{GitHub}, raggiungibile all'indirizzo \url{https://\glossaryItem{GitHub}.com/SWEetBIT}, sono caricati i vari \glossaryItem{Template} da utilizzare
       durante la stesura dei documenti e la strumentazione da utilizzare per la formattazione dei termini del \emph{Glossario}.
     \subsubsection{Gestione del progetto}
       La piattaforma che è stata scelta per la gestione del progetto è \textbf{Redmine} che fornisce:
       \begin{itemize}
-        \item Un sistema flessibile di gestione dei ticket;
+        \item Un sistema flessibile di gestione dei \glossaryItem{Ticket};
         \item Il grafico Gantt delle attività;
         \item Un calendario per l'organizzazione e la distribuzione dei compiti;
-        \item La visualizzazione della repository relativa al progetto;
+        \item La visualizzazione della \glossaryItem{Repository} relativa al progetto;
         \item Un sistema di rendicontazione del tempo.
       \end{itemize}
       Sono state analizzate altre altenrative a \textbf{Redmine} che, dopo una fase di analisi iniziale, non sono risultate idonee allo scopo:
@@ -31,64 +31,64 @@
       Dopo aver preso in considerazione diverse opzioni per il versionamento, alla fine si è scelto di utilizzare \textbf{GitHub} per via della
       sua enrome flessibilità e per via delle esperienze pregresse di tutti i membri del gruppo che hanno manifestato una certa familiarità con
       tale strumento.\\
-      È stata creata una sola repository, alla quale si aggiungeranno le altre legate alle fasi successive, contenente tutte le cartelle necessarie
-      alla stesura dei documenti \LaTeX.\\
+      È stata creata una sola \glossaryItem{Repository}, alla quale si aggiungeranno le altre legate alle fasi successive, contenente tutte le cartelle necessarie
+      alla stesura dei documenti \\glossaryItem{LaTeX}.\\
       Una volta terminato il lavoro di redazione dei documenti sarà creato un \emph{branch} di verifica per permettere ai \emph{Verificatori} di
       lavorare in parallelo agli altri membri del gruppo.
     \subsubsection{Google Drive}
-      Lo strumento di cloud storage di Google, è stato utilizzato principalmente per tenere traccia di verbali interni e di documentazione interna
+      Lo strumento di \glossaryItem{Cloud storage} di \glossaryItem{Google}, è stato utilizzato principalmente per tenere traccia di verbali interni e di documentazione interna
       non formale, che può essere utile a tutti i membri del gruppo, durante le varie fasi di lavorazione del progetto.
   \subsection{Ambiente documentale}
     \subsubsection{Pianificazione}
       Per pianificare le attività legate allo sviluppo del progetto e la gestione delle risorse si è scelto di utilizzare \textbf{ProjectLibre}.\\
-      Si tratta di un ottimo software open-source basato su Java per il project management.\\
+      Si tratta di un ottimo software \glossaryItem{Open-source} basato su \glossaryItem{Java} per il project management.\\
       La scelta è ricaduta su questo software principlamente per quattro motivi:
       \begin{itemize}
-        \item Si tratta di un software portabile essendo basato su Java;
-        \item È open-source;
-        \item Genera automaticamente digrammi di Gannt;
-        \item Il salvataggio dei file è in XML, quindi un formato testuale che permette di utilizzare i merge senza causare troppi conflitti.
+        \item Si tratta di un software portabile essendo basato su \glossaryItem{Java};
+        \item È \glossaryItem{Open-source};
+        \item Genera automaticamente digrammi di \glossaryItem{Gannt};
+        \item Il salvataggio dei \glossaryItem{File} è in \glossaryItem{XML}, quindi un formato testuale che permette di utilizzare i \glossaryItem{Merge} senza causare troppi conflitti.
       \end{itemize}
     \subsubsection{Stesura documenti}
       \paragraph{\LaTeX}
-        Per la stesura dei documenti si è scelto di utilizzare il sistema \LaTeX\ poiché permette una netta seprazione fra contenuti
-        e formattazione; con \LaTeX\ è possible definire i template di layout in file condivisi da ogni documento rendendo la lavorazione
+        Per la stesura dei documenti si è scelto di utilizzare il sistema \\glossaryItem{LaTeX}\ poiché permette una netta seprazione fra contenuti
+        e formattazione; con \\glossaryItem{LaTeX}\ è possible definire i \glossaryItem{Template} di layout in \glossaryItem{File} condivisi da ogni documento rendendo la lavorazione
         degli stessi altamente più flessibile e ottimale.\\
-        \LaTeX\ consente poi l'utilizzo di funzioni e variabli locali definti dall'utente, in maniera tale da semplificare ulteriormente
+        \\glossaryItem{LaTeX}\ consente poi l'utilizzo di funzioni e variabli locali definti dall'\glossaryItem{Utente}, in maniera tale da semplificare ulteriormente
         il lavoro di stesura dei documenti, una volta definita la struttura degli stessi.\\
-        Per la scrittura dei documenti \LaTeX\ l'editor utilizzato è \textbf{TexMaker}.
+        Per la scrittura dei documenti \\glossaryItem{LaTeX}\ l'editor utilizzato è \textbf{TexMaker}.
       \paragraph{Strumentazione esterna}
         Per ridurre al minimo gli errori di calcolo di alcuni indici o di formattazione del testo si è scelto di utilizzare alcuni strumenti
         automatici che si occupano di svolgere alcuni semplici compiti di calcolo e formattazione:
         \begin{itemize}
-          \item \textbf{Script Perl per il calcolo dell'indice di Gulpease: }All'interno della directory \path{tools\gulpease} dentro la repository è presente
-          uno script in Perl per il calcolo automatico dell'indice di Gulpease che segue la seguente formula:
+          \item \textbf{Script \glossaryItem{Perl} per il calcolo dell'indice di Gulpease: }All'interno della directory \path{tools\gulpease} dentro la \glossaryItem{Repository} è presente
+          uno \glossaryItem{Script} in \glossaryItem{Perl} per il calcolo automatico dell'indice di Gulpease che segue la seguente formula:
           \begin{center}
             \begin{equation}
               Gulpease Index = 89+\frac{300*( numero delle frasi ) - 10*( numero delle lettere )}{numero delle parole}
             \end{equation}
           \end{center}
-          \item \textbf{Script Perl per la glossarizzazione dei termini: }Per ridurre al minimo gli errori nell'inserimento di un termine all'interno
-          del \emph{Glossario} si è deciso di utilizzare uno script in Perl, reperibile nella directory \path{tools\glossary}, che si occupa di inserire
-          il comando \LaTeX\ \textbackslash glossaryItem{} su tutti i termini presenti all'interno del \emph{Glossario} dati in input un \emph{Glossario}
+          \item \textbf{Script \glossaryItem{Perl} per la glossarizzazione dei termini: }Per ridurre al minimo gli errori nell'inserimento di un termine all'interno
+          del \emph{Glossario} si è deciso di utilizzare uno \glossaryItem{Script} in \glossaryItem{Perl}, reperibile nella directory \path{tools\glossary}, che si occupa di inserire
+          il comando \\glossaryItem{LaTeX}\ \textbackslash glossaryItem{} su tutti i termini presenti all'interno del \emph{Glossario} dati in input un \emph{Glossario}
           e un documento;
-          \item \textbf{Aspell: }si tratta di un tool offerto dall'editor stesso o presente in forma stand-alone che effettua un controllo ortografico
+          \item \textbf{Aspell: }si tratta di un tool offerto dall'editor stesso o presente in forma \glossaryItem{Stand-alone} che effettua un controllo ortografico
           su tutto il documento.
         \end{itemize}
-      \paragraph{Gestione Use Case e Requisiti}
-        Per semplificare il tracciamento degli Use Case e dei Requisiti si è scelto di utilizzare \textbf{Trender}, uno strumento open-source che permette
+      \paragraph{Gestione \glossaryItem{Use Case} e Requisiti}
+        Per semplificare il tracciamento degli \glossaryItem{Use Case} e dei Requisiti si è scelto di utilizzare \textbf{Trender}, uno strumento \glossaryItem{Open-source} che permette
         di gestire al meglio entrambi gli elementi e le realizioni fra gli stessi.\\
-        Il tool permette l'esportazione di questi direttamente in \LaTeX\, così da semplificare la scrittura degli stessi all'interno della documentazione.
+        Il tool permette l'esportazione di questi direttamente in \\glossaryItem{LaTeX}\, così da semplificare la scrittura degli stessi all'interno della documentazione.
     \paragraph{Grafici UML}
-      Per il disegno dei grafici UML si è scelto di utilizzare \textbf{Astah Professional} per via del suo enorme potenziale e della mole di strumenti offerti
+      Per il disegno dei grafici \glossaryItem{UML} si è scelto di utilizzare \textbf{Astah Professional} per via del suo enorme potenziale e della mole di strumenti offerti
       rispetto agli altri editor presenti sul mercato.\\
       Le alternative analizzate sono state \emph{Dia}, \emph{LuchiChart} e \emph{Papyrus} che si sono rivelati però troppo deboli in confronto ad \textbf{Astah Professional} che offre
       diverse funzionalità aggiuntive raggruppandone diverse dei tre software citati al suo interno.
   \subsection{Ambiente di verifica}
-    Vengono qui elencati, e sommariamente descritti, gli strumenti automatizzati per effettuare la verifica dei documenti redatti e del codice prodotto.\\
-    Le metriche ed i metodi per effettuare verifica sono ampiamente e dettagliatamente descritti nel \emph{Piano di Qualifica}.\\
+    Vengono qui elencati, e sommariamente descritti, gli strumenti automatizzati per effettuare la verifica dei documenti redatti e del \glossaryItem{Codice} prodotto.\\
+    Le metriche ed i \glossaryItem{Metodi} per effettuare verifica sono ampiamente e dettagliatamente descritti nel \emph{Piano di Qualifica}.\\
     \subsubsection{Documenti}
       \begin{itemize}
-        \item \textbf{TexMaker: }Per la stesura dei documenti è stato utilizzato TexMaker per via dell'integrazione con i dizionari di OpenOffice.org, i quali consentono un controllo ortografico in real-time;
-        \item \textbf{Aspell: }strumento per la correzione tipografica dei documenti redatti in \LaTeX.
+        \item \textbf{TexMaker: }Per la stesura dei documenti è stato utilizzato \glossaryItem{TexMaker} per via dell'integrazione con i dizionari di OpenOffice.org, i quali consentono un controllo ortografico in real-time;
+        \item \textbf{Aspell: }strumento per la correzione tipografica dei documenti redatti in \\glossaryItem{LaTeX}.
       \end{itemize}
