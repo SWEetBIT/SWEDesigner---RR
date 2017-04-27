@@ -63,7 +63,7 @@
   \subsection{Risorse}
     Si possono identificare due distinti tipi di risorse necessari a garantire la qualità dei prodotti e processi e sono:
     \begin{itemize}
-      \item \textbf{Risorse umane:} sono distinte dai ruoli rivestiti dai componenti del gruppo SWEet BIT:
+      \item \textbf{Risorse umane:} riguardano i ruoli rivestiti dai vari componenti del gruppo SWEet BIT:
       \begin{itemize}
         \item Responsabile di progetto;
         \item Amministratore;
@@ -72,8 +72,68 @@
         \item Programmatore;
         \item Verificatore.
       \end{itemize}
-      Ognuno dei sopracitati ruoli è descritto nel dettaglio nel documento \emph{Piano di Progetto \VersionePP{}};
-      \item \textbf{Risorse tecnologiche:} in questa categoria rientrano sia il software utilizzato per l'automazione delle verifiche,
-      sia l'hardware necessario per eseguire il suddetto software. Nel documento \emph{Norme di Progetto \VersioneNP{}} sono descritti nel dettaglio
-      tutti gli strumenti software utilizzati per verifica e validazione di processi e prodotti.
+
+		La responsabilità maggiore per l’attività di verifica e validazione ricade sul Responsabile di Progetto e sul Verificatore. Per una descrizione dettagliata di tutti gli altri ruoli e delle loro responsabilità fare riferimento al \emph{Piano di Progetto \VersionePP{}}.      
+
+      \item \textbf{Risorse tecnologiche:} riguardano tutti i software utilizzati per l'automazione delle attività di verifica su prodotti e processi, e l'hardware necessario per eseguire i suddetti software. Nel documento \emph{Norme di Progetto \VersioneNP{}} sono descritti nel dettaglio tutti gli strumenti software utilizzati.
+    \end{itemize}
+    
+\subsection{Tecniche di analisi}
+    \subsubsection{Analisi statica}
+    L'analisi statica è il processo di verifica del sistema o di un suo componente, senza che esso debba necessariamente poter essere eseguito.
+    Questa tecnica permette di verificare sia la documentazione che il \glossaryItem{Codice}, individuandone errori ed anomalie. Questa tecnica di analisi può essere svolta in due modi distinti e complementari.
+    
+    \subsubsubsection{Walkthrough}
+    Si svolge effettuando una lettura critica e a largo spettro del documento.
+È una tecnica utilizzata soprattutto nelle prime attività del progetto, quando ancora
+non è presente un'esperienza tale da permettere una verifica più mirata e precisa. 
+Il verificatore genererà, infatti, una lista di controllo con gli errori più frequenti
+in modo da favorire il miglioramento della verifica nei periodi successivi.
+Il walkthrough è un'attività onerosa e collaborativa che richiede l'intervento di
+più persone per essere efficace. Questa tecnica si svolge in tre fasi principali:
+\begin{itemize}
+\item \textbf{Fase uno:} lettura dei documenti ed individuazione degli errori;
+\item \textbf{Fase due:} discussione dei errori riscontrati e delle correzioni da applicare;
+\item \textbf{Fase tre:} correzione degli errori rilevati, e stesura di un rapporto che ne elenchi le modifiche effettuate
+\end{itemize}
+
+La lista di controllo risultante, contenente le tipologie di errori più frequenti è in appendice alle \emph{Norme di progetto \VersoneNP{}}
+
+    \subsubsubsection{Inspection}
+	Consiste nell'analisi mirata di alcune parti del documenti o del codice ritenute fonti maggiori di errore. Deve essere seguita una lista di controllo per svolgere efficacemente questa attività; tale lista deve essere redatta anticipatamente ed è sostanzialmente frutto dell'esperienza maturata dai membri del team con tecniche di walkthrough.
+L'inspection è dunque più rapida del walkthrough, in quanto il documento viene
+analizzato solo in alcune sue parti e con una lista di controllo ben precisa. In questa
+attività sono coinvolte solo i verificatori che, dopo aver individuato gli errori, procedono
+alla loro correzione e alla redazione di un rapporto che tenga traccia del lavoro svolto.
+
+\subsubsection{Analisi dinamica}
+    L'analisi dinamica è il processo che verifica il prodotto software mentre esso è in esecuzione. Viene effettuata tramite test che devono essere coerentemente pianificati in modo da evitare spreco di risorse.
+    L'obiettivo dei test sul software è la realizzazione di un prodotto il più possibile esente da errori. Il principale ostacolo alla fase di test è sintetizzato nella tesi di Dijkstra, che afferma che il test può indicare la presenza di errori, ma non ne può garantire l'assenza.
+Affinché tale attività sia utile e generi risultati attendibili è necessario che i test effettuati
+siano ripetibili: dato un certo input deve essere prodotto sempre uno stesso output in
+uno specifico ambiente. Di conseguenza, i tre elementi fondamentali di un test sono:    
+    \begin{itemize}
+    \item \textbf{Ambiente:}sistema hardware e software sui quali è stato pianificato l'utilizzo del
+prodotto software sviluppato. Su di essi deve essere specificato uno stato iniziale
+dal quale poter eseguire il test;
+    \item \textbf{Specifica:}definizione di quali input sono necessari per l'esecuzione del test e quali output sono attesi;
+    \item \textbf{Procedure:}definizione di come devono essere svolti i test, in che ordine devono
+essere eseguiti e come devono essere analizzati i risultati.
+    \end{itemize}
+    
+    
+    Organizzazione delle attività di test:
+    \begin{itemize}
+      \item \textbf{Test di unità}: l'obiettivo di questo test è verificare che ogni unità del \glossaryItem{Codice} si comporti esattamente come previsto. Un unità di \glossaryItem{Codice} è la più piccola parte di software che è utile verificare singolarmente e che viene prodotta da un singolo programmatore. Attraverso tali test si vuole verificare il corretto funzionamento dei moduli che compongono l'intero sistema, in modo da esaminare possibili errori di implementazione da parte dei programmatori.
+
+      \item \textbf{Test di integrazione}: l'obiettivo di questo test è verificare che le componenti del sistema vengano aggiunte incrementalmente al prodotto e analizzare che la combinazione di due o più unità software funzioni come previsto. Una componente è l'aggregazione di più unità software.
+Questo tipo di test serve ad individuare errori residui nella realizzazione dei singoli moduli, modifiche delle interfacce e comportamenti inaspettati di componenti software preesistenti forniti da terze parti che non si conoscono a fondo.  
+er effettuare tali test devono essere aggiunte delle componenti fittizie al posto di quelle che non sono ancora state sviluppate, in modo da non influenzare negativamente l'esito dell'analisi.    
+
+      \item \textbf{Test di sistema}: l'obiettivo di questo test è verificare il comportamento del prodotto software finale. Lo scopo è quello di capire se esso rispetta i requisiti individuati nella fase di Analisi.
+      
+      \item \textbf{Test di regressione}: l'obiettivo di questo test è stabilire se le modifiche apportate al software hanno compromesso componenti software precedentemente funzionanti.
+      Questi test vengono eseguiti ogni volta che viene apportata una modifica al software.
+      Tale operazione è aiutata dal tracciamento, che permette di individuare e ripetere facilmente i test di unità, integrazione ed eventualmente sistema che sono stati potenzialmente influenzati dalla modifica;
+      \item \textbf{Test di accettazione}: l'obiettivo di questo test è la realizzazione del collaudo del prodotto software eseguito in presenza del proponente. Se l'esito risulta positivo, si può procedere al rilascio ufficiale del prodotto.
     \end{itemize}
