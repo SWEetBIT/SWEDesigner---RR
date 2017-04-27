@@ -79,11 +79,11 @@
     \end{itemize}
     
 \subsection{Tecniche di analisi}
-    \subsubsection{Analisi statica}
+\subsubsection{Analisi statica}
     L'analisi statica è il processo di verifica del sistema o di un suo componente, senza che esso debba necessariamente poter essere eseguito.
     Questa tecnica permette di verificare sia la documentazione che il \glossaryItem{Codice}, individuandone errori ed anomalie. Questa tecnica di analisi può essere svolta in due modi distinti e complementari.
     
-    \subsubsubsection{Walkthrough}
+    \paragraph{Walkthrough}
     Si svolge effettuando una lettura critica e a largo spettro del documento.
 È una tecnica utilizzata soprattutto nelle prime attività del progetto, quando ancora
 non è presente un'esperienza tale da permettere una verifica più mirata e precisa. 
@@ -97,9 +97,10 @@ più persone per essere efficace. Questa tecnica si svolge in tre fasi principal
 \item \textbf{Fase tre:} correzione degli errori rilevati, e stesura di un rapporto che ne elenchi le modifiche effettuate
 \end{itemize}
 
-La lista di controllo risultante, contenente le tipologie di errori più frequenti è in appendice alle \emph{Norme di progetto \VersoneNP{}}
+La lista di controllo risultante, contenente le tipologie di errori più frequenti è in appendice alle 
+\emph{Norme di Progetto \VersioneNP{}}
 
-    \subsubsubsection{Inspection}
+    \paragraph{Inspection}
 	Consiste nell'analisi mirata di alcune parti del documenti o del codice ritenute fonti maggiori di errore. Deve essere seguita una lista di controllo per svolgere efficacemente questa attività; tale lista deve essere redatta anticipatamente ed è sostanzialmente frutto dell'esperienza maturata dai membri del team con tecniche di walkthrough.
 L'inspection è dunque più rapida del walkthrough, in quanto il documento viene
 analizzato solo in alcune sue parti e con una lista di controllo ben precisa. In questa
@@ -137,3 +138,54 @@ er effettuare tali test devono essere aggiunte delle componenti fittizie al post
       Tale operazione è aiutata dal tracciamento, che permette di individuare e ripetere facilmente i test di unità, integrazione ed eventualmente sistema che sono stati potenzialmente influenzati dalla modifica;
       \item \textbf{Test di accettazione}: l'obiettivo di questo test è la realizzazione del collaudo del prodotto software eseguito in presenza del proponente. Se l'esito risulta positivo, si può procedere al rilascio ufficiale del prodotto.
     \end{itemize}
+    
+\subsection{Misure e metriche}
+Il processo di verifica, per essere informativo, deve esse quantificabile. Le misure rilevate
+dal processo di verifica devono quindi essere basate su metriche stabilite a priori. Per automatizzare il più possibile il lavoro di misurazione saranno utilizzati degli strumenti, adeguatamente configurati, definiti nelle \emph{Norme di Progetto \VersioneNP{}}, con lo scopo di avere un resoconto affidabile e quantitativo che permetta di assicurare il grado di qualità voluto.
+Le metriche, essendo di natura molto variabile, vi possono essere due tipologie di range:
+\begin{itemize}
+\item \textbf{Accettazione}: l'intervallo di valori entro il quale deve trovarsi il risultato della misurazione di un processo, o prodotto, per essere ritenuto accettabile;
+\item \textbf{Ottimale}: l'intervallo di valori in cui si deve trovare il risultato della misurazione di un processo, o prodotto, per essere considerato ottimale.
+    Questo range è l'obiettivo del gruppo SWEet BIT.
+\end{itemize}
+
+\subsubsection{Metriche per i processi}
+Le seguenti metriche rappresentano un indicatore volto a monitorare i tempi e i costi associati al progetto. Sono metriche che danno un riscontro immediato sullo stato attuale del progetto, mantenendo il controllo sui processi durante il loro svolgimento.\linebreak
+Per ogni metrica indicata è stato definito nelle \emph{Norme di Progetto \VersioneNP{}} come si calcola, e con quale strumento. In \emph{Appendice B} si può visionare il resoconto di tali metriche.
+
+\paragraph{Schedule Variance (SV):} è un indice che dà informazioni necessarie a determinare se ci si trova in anticipo, in ritardo o in linea alle tempistiche delle attività di progetto. Si tratta di un indicatore di efficacia nei confronti del cliente. Se il risultato di tale metrica risulta positivo significa che il progetto sta procedendo con maggior velocità rispetto a quanto pianificato, viceversa
+se negativo. Alla fine del progetto questo indice assumerà il valore 0, perchè in quel momento tutte le attività saranno state realizzate.
+      
+\paragraph{Budget Variance (BV):} è un indice che dà informazioni necessarie a determinare se vi sono state più o meno spese rispetto al previsto. Si tratta di un indicatore che ha un valore contabile e finanziario. Se il risultato di tale metrica risulta positivo significa che l'attuazione del progetto sta consumando il proprio budget con minor velocità rispetto a quanto pianificato, viceversa se negativo.
+
+\paragraph{Copertura del codice:} rappresenta la percentuale di istruzioni che sono eseguite durante i test. Maggiore è la percentuale di istruzioni coperte dai test eseguiti, maggiore sarà la probabilità
+che le componenti testate abbiano una ridotta quantità di errori. Il valore di tale indice può essere abbassato da metodi molto semplici che non richiedono testing.
+
+\subsubsection{Metriche per i documenti}
+La seguente metrica rappresenta un indicatore volto a misurare la complessità con la quale vengono costruite le frasi all'interno dei documenti.
+É stato definito nelle \emph{Norme di Progetto \VersioneNP{}} come si calcola, e con quale strumento. In \emph{Appendice B} si può visionare il resoconto di tale metrica.
+
+\paragraph{Indice Gulpease:} è un indice di leggibilità di un testo per la lingua italiana.
+Rispetto ad altri ha il vantaggio di utilizzare la lunghezza delle parole in lettere anziché in sillabe, semplificandone il calcolo automatico. Permette di misurare la complessità dello stile di un documento.
+
+\subsubsection{Metriche per il software}
+Le presenti metriche rappresentano gli obbiettivi di qualità per il prodotto software da perseguire. Come descritto nello standard \glossaryItem{ISO}/\glossaryItem{IEC} 9126, si posso identificare due tipi di metriche utilizzate per misurare la qualità del prodotto software, esse sono:
+    \begin{itemize}
+      \item \textbf{Metriche interne}: vengono applicate al software non eseguibile durante le fasi di progettazione e codifica.
+      \item \textbf{Metriche esterne}: servono per poter misurare il comportamento del prodotto software attraverso test effettuati in fase di esecuzione.
+    \end{itemize}
+Per ogni metrica indicata è stato definito nelle \emph{Norme di Progetto \VersioneNP{}} come si calcola, e con quale strumento. In \emph{Appendice B} si può visionare il resoconto di tali metriche.
+
+\paragraph{Dimensione del prodotto software:} Rappresenta le dimensioni del prodotto software, è misurata in termini di migliaia di linee di codice (KLOCGs, Thousands Line Of Code), ma da alcuni anni è stata introdotto una nuova misura, legata al numero di funzionalità offerte, e quindi dal valore che il prodotto ha per l’utente.
+
+\paragraph{Complessità ciclomatica:} è una metrica per la misura della complessità di funzioni, moduli, metodi o classi di un programma; la quale è calcolata mediate il grafo di controllo di flusso relativo al \glossaryItem{Codice}.
+            I nodi del grafo sono gruppi di istruzioni indivisibili. Se nel \glossaryItem{Codice} non sono presenti punti decisionali o cicli, allora la complessità ciclomatica sarà pari a 1.
+            Alti valori di complessità ciclomatica implicano una ridotta manutenibilità del codice. Valori bassi di complessità ciclomatica potrebbero però determinare scarsa efficienza dei metodi.
+            
+\paragraph{Numero di metodi:} rappresenta la media di occorrenze di metodi per package: un package, infatti, non dovrebbe contenere un numero eccessivo di metodi. Valori troppo elevati indicano la necessità di una migliore decomposizione del package.
+
+\paragraph{Variabili non utilizzate e/o non definite:} rappresenta il numero di variabili che vengono definite, ma non utilizzate, o viceversa. Questo viene considerato pollution, e pertanto considerato inaccettabile. La misurazione avviene mediante un’analisi dell’ASTG (Abstract Syntax Tree).
+
+\paragraph{Numero di parametri per metodo:} rappresenta il numero di parametri formali di un metodo. Un metodo con troppi parametri formali risulta complesso e poco mantenibile; pertanto è necessario che tale numero sia contenuto.
+
+\paragraph{Linee di codice per linee di commento:} reppresenta il rapporto tra le linee di codice e linee di commento, utile per stimare la manutenibilità del codice.
