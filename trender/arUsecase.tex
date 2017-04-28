@@ -59,7 +59,7 @@ Il \glossaryItem{Codice} progressivo può includere diversi livelli di gerarchia
 \label{ssec:UC1.1}
 \begin{itemize}
 \item \textbf{Attori}: \glossaryItem{Utente} non autenticato;
-\item \textbf{Descrizione}: L’attore inserisce l'\glossaryItem{Username}: deve essere univoco all'interno dell'\glossaryItem{Applicazione} e deve essere alfanumerico;
+\item \textbf{Descrizione}: L’attore inserisce l'\glossaryItem{Username}: deve essere univoco all'interno dell'\glossaryItem{Applicazione} e può essere alfanumerico;
 \item \textbf{Precondizione}: L'\glossaryItem{Applicazione} è pronta e l'attore intende autenticarsi;
 \item \textbf{Postcondizione}: L'\glossaryItem{Applicazione} ha l’informazione relativa all'email inserita dall’attore.
 \end{itemize}
@@ -67,7 +67,7 @@ Il \glossaryItem{Codice} progressivo può includere diversi livelli di gerarchia
 \label{ssec:UC1.2}
 \begin{itemize}
 \item \textbf{Attori}: \glossaryItem{Utente} non autenticato;
-\item \textbf{Descrizione}: L’attore inserisce la password: deve essere di tipo alfanumerico e può contenere caratteri di punteggiatura;
+\item \textbf{Descrizione}: L’attore inserisce la password: deve essere di tipo alfanumerico e può contenere caratteri di punteggiatura e di almeno 8 caratteri;
 \item \textbf{Precondizione}: L'attore intende effettuare la registrazione inserendo la password;
 \item \textbf{Postcondizione}: L'attore ha inserito una password conforme alle richieste dell'\glossaryItem{Applicazione}.
 \end{itemize}
@@ -92,7 +92,7 @@ Il \glossaryItem{Codice} progressivo può includere diversi livelli di gerarchia
 \label{ssec:UC1.5}
 \begin{itemize}
 \item \textbf{Attori}: \glossaryItem{Utente} non autenticato;
-\item \textbf{Descrizione}: L'attore può inserire un \glossaryItem{Username} non conforme e gli viene quindi comunicato l'errore;
+\item \textbf{Descrizione}: L'attore può inserire un \glossaryItem{Username} non conforme e gli viene quindi comunicato l'errore. Le non conformità sono date dall'inserimento di un username già presente a database, o dalla presenza di caratteri non alfanumerici;
 \item \textbf{Precondizione}: L'\glossaryItem{Applicazione} è pronta e l'\glossaryItem{Utente} intende registrarsi;
 \item \textbf{Postcondizione}: L'attore ha inserito un \glossaryItem{Username} non conforme e ha ricevuto la comunicazione dell'errore.
 \end{itemize}
@@ -100,7 +100,7 @@ Il \glossaryItem{Codice} progressivo può includere diversi livelli di gerarchia
 \label{ssec:UC1.6}
 \begin{itemize}
 \item \textbf{Attori}: \glossaryItem{Utente} non autenticato;
-\item \textbf{Descrizione}: L'attore può inserire una password non conforme e gli viene quindi comunicato l'errore;
+\item \textbf{Descrizione}: L'attore può inserire una password non conforme e gli viene quindi comunicato l'errore. Le non conformità sono date dall'inserimento di una password inferiore agli 8 caratteri, o dalla presenza di caratteri non alfanumerici o di punteggiatura;
 \item \textbf{Precondizione}: L'\glossaryItem{Applicazione} è pronta e l'\glossaryItem{Utente} intende registrarsi;
 \item \textbf{Postcondizione}: L'attore ha inserito una password non conforme e ha ricevuto la comunicazione dell'errore.
 \end{itemize}
@@ -108,7 +108,7 @@ Il \glossaryItem{Codice} progressivo può includere diversi livelli di gerarchia
 \label{ssec:UC1.7}
 \begin{itemize}
 \item \textbf{Attori}: \glossaryItem{Utente} non autenticato;
-\item \textbf{Descrizione}: L'attore può inserire un'email con una sintassi non valida e gli viene quindi comunicato l'errore;
+\item \textbf{Descrizione}: L'attore può inserire un'email con una sintassi non valida e gli viene quindi comunicato l'errore. La non conformità è data dalla presenza di una Email diversa dal formato: "\emph{nomeutente@dominio}";
 \item \textbf{Precondizione}: L'\glossaryItem{Applicazione} è pronto e l'\glossaryItem{Utente} intende registrarsi;
 \item \textbf{Postcondizione}: L'attore ha inserito un'email non conforme e ha ricevuto la comunicazione dell'errore.
 \end{itemize}
