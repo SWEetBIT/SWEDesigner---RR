@@ -163,29 +163,25 @@ che le componenti testate abbiano una ridotta quantità di errori. Il valore di 
 
 \subsubsection{Metriche per i documenti}
 La seguente metrica rappresenta un indicatore volto a misurare la complessità con la quale vengono costruite le frasi all'interno dei documenti.
-É stato definito nelle \emph{Norme di Progetto \VersioneNP{}} come si calcola, e con quale strumento. In \emph{Appendice B} si può visionare il resoconto di tale metrica.
+È stato definito nelle \emph{Norme di Progetto \VersioneNP{}} come si calcola, e con quale strumento. In \emph{Appendice B} si può visionare il resoconto di tale metrica.
 
 \paragraph{Indice Gulpease:} è un indice di leggibilità di un testo per la lingua italiana.
 Rispetto ad altri ha il vantaggio di utilizzare la lunghezza delle parole in lettere anziché in sillabe, semplificandone il calcolo automatico. Permette di misurare la complessità dello stile di un documento.
 
 \subsubsection{Metriche per il software}
-Le presenti metriche rappresentano gli obbiettivi di qualità per il prodotto software da perseguire. Come descritto nello standard \glossaryItem{ISO}/\glossaryItem{IEC} 9126, si posso identificare due tipi di metriche utilizzate per misurare la qualità del prodotto software, esse sono:
-    \begin{itemize}
-      \item \textbf{Metriche interne}: vengono applicate al software non eseguibile durante le fasi di progettazione e codifica.
-      \item \textbf{Metriche esterne}: servono per poter misurare il comportamento del prodotto software attraverso test effettuati in fase di esecuzione.
-    \end{itemize}
+Le presenti metriche rappresentano gli obbiettivi di qualità per il prodotto software da perseguire.
 Per ogni metrica indicata è stato definito nelle \emph{Norme di Progetto \VersioneNP{}} come si calcola, e con quale strumento. In \emph{Appendice B} si può visionare il resoconto di tali metriche.
 
-\paragraph{Dimensione del prodotto software:} Rappresenta le dimensioni del prodotto software, è misurata in termini di migliaia di linee di codice (KLOCGs, Thousands Line Of Code), ma da alcuni anni è stata introdotto una nuova misura, legata al numero di funzionalità offerte, e quindi dal valore che il prodotto ha per l’utente.
+\paragraph{Dimensione del prodotto software:} Rappresenta le dimensioni del prodotto software, è misurata in termini di migliaia di linee di codice (KLOC s, Thousands Line Of Code), ma da alcuni anni è stata introdotto una nuova misura, legata al numero di funzionalità offerte, e quindi dal valore che il prodotto ha per l’utente.
 
 \paragraph{Complessità ciclomatica:} è una metrica per la misura della complessità di funzioni, moduli, metodi o classi di un programma; la quale è calcolata mediate il grafo di controllo di flusso relativo al \glossaryItem{Codice}.
             I nodi del grafo sono gruppi di istruzioni indivisibili. Se nel \glossaryItem{Codice} non sono presenti punti decisionali o cicli, allora la complessità ciclomatica sarà pari a 1.
             Alti valori di complessità ciclomatica implicano una ridotta manutenibilità del codice. Valori bassi di complessità ciclomatica potrebbero però determinare scarsa efficienza dei metodi.
             
-\paragraph{Numero di metodi:} rappresenta la media di occorrenze di metodi per package: un package, infatti, non dovrebbe contenere un numero eccessivo di metodi. Valori troppo elevati indicano la necessità di una migliore decomposizione del package.
+\paragraph{Numero di file:} rappresenta la media di occorrenze di metodi per file: un file, infatti, non dovrebbe contenere un numero eccessivo di metodi. Valori troppo elevati indicano la necessità di una migliore decomposizione del file.
 
-\paragraph{Variabili non utilizzate e/o non definite:} rappresenta il numero di variabili che vengono definite, ma non utilizzate, o viceversa. Questo viene considerato pollution, e pertanto considerato inaccettabile. La misurazione avviene mediante un’analisi dell’ASTG (Abstract Syntax Tree).
+\paragraph{Variabili non utilizzate e/o non definite:} rappresenta il numero di variabili che vengono definite, ma non utilizzate, o viceversa. Questo viene considerato pollution, e pertanto considerato inaccettabile. La misurazione avviene mediante un’analisi dell’AST (Abstract Syntax Tree).
 
-\paragraph{Numero di parametri per metodo:} rappresenta il numero di parametri formali di un metodo. Un metodo con troppi parametri formali risulta complesso e poco mantenibile; pertanto è necessario che tale numero sia contenuto.
+\paragraph{Numero di argomenti per funzione:} rappresenta il numero di argomenti di una funzione. Una funzione con troppi argomenti risulta complessa e poco mantenibile; pertanto è necessario che tale numero sia contenuto.
 
-\paragraph{Linee di codice per linee di commento:} reppresenta il rapporto tra le linee di codice e linee di commento, utile per stimare la manutenibilità del codice.
+\paragraph{Linee di codice per linee di commento:} rappresenta il rapporto tra le linee di codice e linee di commento, utile per stimare la manutenibilità del codice.
