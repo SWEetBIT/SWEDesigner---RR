@@ -1,60 +1,100 @@
 \section{Visione generale delle strategie di verifica}
   \subsection{Definizione obiettivi di qualità}
-  Questa sezione si presta a descrivere sia gli obiettivi di qualità riguardanti il prodotto
-  che quelli relativi ai processi necessari alla sua produzione.
-    \subsubsection{Qualità di prodotto}
-    Il gruppo SWEet BIT si è impegnato ad aderire allo standard \glossaryItem{ISO}/\glossaryItem{IEC} 9126, in modo garantire
-    le seguenti caratteristiche di qualità per il prodotto:
+  Questa sezione si presta a descrivere sia gli obiettivi di qualità riguardanti
+  il prodotto che quelli relativi ai processi necessari alla sua produzione.
+  \subsubsection{Qualità di prodotto}
+    Per garantire qualitativamente un prodotto software è necessario definire
+    degli obiettivi qualitativi e garantire il loro soddisfacimento. Per
+    stabilire gli obiettivi di qualità inerenti al prodotto software, il gruppo
+    SWEet BIT ha deciso di seguire lo standard ISO/IEC 9126; questo standard
+    descrive un modello per definire la qualità di un prodotto software e
+    suggerisce delle metriche per poterne misurare la qualità.\\
+    Lo standard ISO/IEC 9126 è descritto nell'Appendice \emph{A - Standard e
+    \glossaryItem{Metodi} per la gestione della Qualità} del presente documento.
+
+  \subsubsection{Qualità di processo}
+    La qualità dei processi che portano allo sviluppo di un software hanno un
+    ruolo fondamentale sulla qualità del prodotto. Il gruppo SWEet BIT ha deciso
+    di adottare il \emph{Ciclo di Deming}, o \emph{Ciclo} \glossaryItem{PDCA},
+    come modello per il continuo miglioramento dei processi produttivi. \\
+    Come complemento al ciclo di Deming è stato scelto il modello descritto
+    dallo standard \glossaryItem{ISO}/\glossaryItem{IEC} 15504 detto
+    \glossaryItem{SPICE}, il quale fornisce gli strumenti per la valutazione dei
+    processi produttivi.\\
+    Sia lo standard \glossaryItem{ISO}/\glossaryItem{IEC} 15504 che il
+    \emph{Ciclo di Deming} sono descritti nell'Appendice \emph{A - Standard e
+    \glossaryItem{Metodi} per la gestione della Qualità} del presente documento.
+
+
+  \subsection{Procedure di controllo di qualità del prodotto}
+    Il controllo per la qualità del prodotto definisce i seguenti processi:
     \begin{itemize}
-      \item \textbf{Funzionalità}: il prodotto deve soddisfare i requisiti indicati nel documento \emph{Analisi dei Requisiti \VersioneAR{}};
-
-      \item \textbf{Affidabilità}: il software prodotto deve essere robusto e deve essere prevista una completa gestione degli errori ed eccezioni,
-       in modo da prevenire perdite di dati e facilitarne il ripristino;
-
-      \item \textbf{Usabilità}: il software prodotto deve risultare semplice e di facile utilizzo da parte dell'\glossaryItem{Utente}.
-      Esso deve essere di facile apprendimento e l'interfaccia \glossaryItem{Utente} deve risultare familiare e intuitiva. Il prodotto deve soddisfare al meglio le esigenze dell'\glossaryItem{Utente} finale. \\
-      La documentazione per l'utilizzo del prodotto deve essere esaustiva e di facile comprensione;
-
-      \item \textbf{Efficienza}: Il software deve essere capace di fornire tutti i servizi attesi con il minimo dispendio di risorse;
-
-      \item \textbf{Manutenibilità}: Il software prodotto deve essere facilmente modificabile, in caso di correzione di errori e migliorie da apportare. Esso deve essere facilmente
-      adattabile in caso di cambio di ambiente operativo e/o cambio di requisiti;
-
-      \item \textbf{Portabilità}: Il software prodotto deve, per la parte \glossaryItem{front end}, offrire gli stessi servizi nella maggior parte dei \glossaryItem{browser}.
-      La parte di \glossaryItem{back end} deve poter funzionare su vari sistemi operativi.
+      \item \textbf{SQA} (Software Quality Assurance): si occupa di assicurare
+      che i processi siano implementati secondo quanto pianificato e che siano
+      forniti sistemi di misurazione dei processi;
+      \item \textbf{Verifica}: si occupa di accertare che l’esecuzione dei
+      processi non abbia introdotto degli errori, e accerta il rispetto delle
+      regole, delle convenzioni e delle procedure;
+      \item \textbf{Validazione}: si occupa di accertare che i prodotti
+      realizzati siano conformi alle attese.
     \end{itemize}
 
-    Per ognuna delle caratteristiche principali appena elencate esistono diverse sotto-caratteristiche,
-    le quali sono approfondite nell'Appendice \emph{A - Standard e \glossaryItem{Metodi} per la gestione della Qualità} di questo documento, dove è descritto lo standard \glossaryItem{ISO}/\glossaryItem{IEC} 9126.
-
-    \subsubsection{Qualità di processo}
-    La qualità dei processi che portano allo sviluppo di un software hanno un ruolo fondamentale sulla qualità del prodotto.
-    Il gruppo SWEet BIT ha deciso di adottare il \emph{Ciclo di Deming}, o \emph{Ciclo} \glossaryItem{PDCA}, come modello per il continuo miglioramento dei processi produttivi.
-    Come complemento al ciclo di Deming è stato scelto il modello descritto dallo standard \glossaryItem{ISO}/\glossaryItem{IEC} 15504 detto \glossaryItem{SPICE},
-    il quale fornisce gli strumenti per la valutazione dei processi produttivi.
-    Sia lo standard \glossaryItem{ISO}/\glossaryItem{IEC} 15504 che il \emph{Ciclo di Deming} sono descritti nell'Appendice \emph{A - Standard e \glossaryItem{Metodi} per la gestione della Qualità} del presente documento.
+  \subsection{Procedure di controllo di qualità di processo}
+  La pianificazione delle attività volte al miglioramento continuo dei processi
+  sono descritte nel \emph{Piano di Progetto \VersionePP{}}. Le linee guida per
+  la gestione della qualità del processo, invece, seguono il modello PDCA e
+  descrivono come devono essere attuate le procedure di controllo:
+  \begin{itemize}
+    \item La pianificazione deve essere dettagliata, e le attività pianificate
+    devono essere monitorate;
+    \item Le risorse necessarie per conseguire gli obiettivi devono essere
+    definite;
+    \item Il miglioramento della qualità del processo deve essere verificato
+    attraverso l’utilizzo di apposite metriche, che verranno descritte in seguito.
+  \end{itemize}
 
   \subsection{Organizzazione}
-    Per ognuno dei periodi descritto dal \VersionePP{} è necessario seguire una verifica mirata al tipo di processo e relativo prodotto:
+    Per ognuno dei periodi descritto dal \emph{Piano di Progetto \VersionePP{}}
+    è necessario seguire una verifica mirata al tipo di processo e relativo
+    prodotto:
     \begin{itemize}
-      \item \textbf{Analisi:} in questo periodo vengono controllati i processi e la documentazione prodotta.
-      La verifica dovrà essere eseguita secondo i metodi descritti nel documento \emph{Norme di Progetto \VersioneNP{}};
-      \item \textbf{Consolidamento dei requisiti:} durante questo periodo sono verificati i processi che portano all'incremento dei documenti, e i documenti stessi, prodotti durante il periodo di analisi.
-      Le procedure di verifica sono descritte nel documento \emph{Norme di Progetto \VersioneNP{}};
-      \item \textbf{Progettazione Architetturale:} in questo periodo vengono verificati i processi, e relativi prodotti, che portano all'incremento dei documenti redatti nel precedente periodo di \emph{Consolidamento dei Requisiti};
-      sempre in questa fase sono verificati i processi e prodotti riguardanti la \emph{Progettazione Architetturale}.
-      Le procedure di verifica sono descritte in dettaglio nel documento \emph{Norme di Progetto \VersioneNP{}};
-      \item \textbf{Progettazione di Dettaglio e Codifica:} anche in questo periodo vengono verificati i processi, e relativi prodotti, che portano all'incremento dei documenti del periodo di \emph{Progettazione Architetturale}.
-      Vengono verificati processi e prodotti della sotto-fase di codifica. Le procedure di verifica sono descritte nel documento \emph{Norme di Progetto \VersioneNP{}}.
-      \item \textbf{Verifica e Validazione:} sono verificati i processi che portano all'aggiornamento della documentazione e i documenti stessi.
-      In questo periodo vengono effettuati i test per la validazione del prodotto finale.
+      \item \textbf{Analisi:} in questo periodo vengono controllati i processi e
+      la documentazione prodotta. La verifica dovrà essere eseguita secondo i
+      metodi descritti nel documento \emph{Norme di Progetto \VersioneNP{}};
+      \item \textbf{Consolidamento dei requisiti:} durante questo periodo sono
+      verificati i processi che portano all'incremento dei documenti, e i
+      documenti stessi, prodotti durante il periodo di analisi.
+      Le procedure di verifica sono descritte nel documento
+      \emph{Norme di Progetto \VersioneNP{}};
+      \item \textbf{Progettazione Architetturale:} in questo periodo vengono
+      verificati i processi, e relativi prodotti, che portano all'incremento dei
+      documenti redatti nel precedente periodo di \emph{Consolidamento dei Requisiti};
+      sempre in questa fase sono verificati i processi e prodotti riguardanti la
+      \emph{Progettazione Architetturale}. Le procedure di verifica sono descritte
+      in dettaglio nel documento \emph{Norme di Progetto \VersioneNP{}};
+      \item \textbf{Progettazione di Dettaglio e Codifica:} anche in questo
+      periodo vengono verificati i processi, e relativi prodotti, che portano
+      all'incremento dei documenti del periodo di \emph{Progettazione Architetturale}.
+      Vengono verificati processi e prodotti della sotto-fase di codifica. Le
+      procedure di verifica sono descritte nel documento
+      \emph{Norme di Progetto \VersioneNP{}}.
+      \item \textbf{Verifica e Validazione:} sono verificati i processi che
+      portano all'aggiornamento della documentazione e i documenti stessi. In
+      questo periodo vengono effettuati i test per la validazione del prodotto
+      finale.
     \end{itemize}
 
   \subsection{Pianificazione strategica e temporale}
-    Intendendo rispettare le scadenze specificate nel \emph{Piano di Progetto \VersionePP{}}, è necessario un approccio organico e ben pianificato alle attività di verifica.
-    Deve essere pianificato ogni incremento su \glossaryItem{Codice} e documentazione e di conseguenza lo dovranno essere tutte le attività di verifica,
-    in modo da avere il tempo di effettuare le dovute correzioni. Ogni processo di verifica dovrà essere automatizzato il più possibile per poter, dove possibile,
-    risparmiare su risorse umane. L'utilizzo di software apposito, e dei metodi per la verifica, sono descritti nel documento \emph{Norme di Progetto \VersioneNP{}}.
+    Intendendo rispettare le scadenze specificate nel \emph{Piano di Progetto
+    \VersionePP{}}, è necessario un approccio organico e ben pianificato alle
+    attività di verifica. Deve essere pianificato ogni incremento su
+    \glossaryItem{Codice} e documentazione e di conseguenza lo dovranno essere
+    tutte le attività di verifica, in modo da avere il tempo di effettuare le
+    dovute correzioni. Ogni processo di verifica dovrà essere automatizzato il
+    più possibile per poter, dove possibile, risparmiare su risorse umane.
+    L'utilizzo di software apposito, e dei metodi per la verifica, sono descritti
+    nel documento \emph{Norme di Progetto \VersioneNP{}}.
+
 
   \subsection{Gestione delle responsabilità}
     Il \emph{Responsabile di Progetto} e i \emph{Verificatori} hanno la responsabilità delle attività di verifica.
@@ -73,20 +113,20 @@
         \item Verificatore.
       \end{itemize}
 
-		La responsabilità maggiore per l’attività di verifica e validazione ricade sul Responsabile di Progetto e sul Verificatore. Per una descrizione dettagliata di tutti gli altri ruoli e delle loro responsabilità fare riferimento al \emph{Piano di Progetto \VersionePP{}}.      
+		La responsabilità maggiore per l’attività di verifica e validazione ricade sul Responsabile di Progetto e sul Verificatore. Per una descrizione dettagliata di tutti gli altri ruoli e delle loro responsabilità fare riferimento al \emph{Piano di Progetto \VersionePP{}}.
 
       \item \textbf{Risorse tecnologiche:} riguardano tutti i software utilizzati per l'automazione delle attività di verifica su prodotti e processi, e l'hardware necessario per eseguire i suddetti software. Nel documento \emph{Norme di Progetto \VersioneNP{}} sono descritti nel dettaglio tutti gli strumenti software utilizzati.
     \end{itemize}
-    
+
 \subsection{Tecniche di analisi}
 \subsubsection{Analisi statica}
     L'analisi statica è il processo di verifica del sistema o di un suo componente, senza che esso debba necessariamente poter essere eseguito.
     Questa tecnica permette di verificare sia la documentazione che il \glossaryItem{Codice}, individuandone errori ed anomalie. Questa tecnica di analisi può essere svolta in due modi distinti e complementari.
-    
+
     \paragraph{Walkthrough}
     Si svolge effettuando una lettura critica e a largo spettro del documento.
 È una tecnica utilizzata soprattutto nelle prime attività del progetto, quando ancora
-non è presente un'esperienza tale da permettere una verifica più mirata e precisa. 
+non è presente un'esperienza tale da permettere una verifica più mirata e precisa.
 Il verificatore genererà, infatti, una lista di controllo con gli errori più frequenti
 in modo da favorire il miglioramento della verifica nei periodi successivi.
 Il walkthrough è un'attività onerosa e collaborativa che richiede l'intervento di
@@ -97,7 +137,7 @@ più persone per essere efficace. Questa tecnica si svolge in tre fasi principal
 \item \textbf{Fase tre:} correzione degli errori rilevati, e stesura di un rapporto che ne elenchi le modifiche effettuate
 \end{itemize}
 
-La lista di controllo risultante, contenente le tipologie di errori più frequenti è in appendice alle 
+La lista di controllo risultante, contenente le tipologie di errori più frequenti è in appendice alle
 \emph{Norme di Progetto \VersioneNP{}}
 
     \paragraph{Inspection}
@@ -112,7 +152,7 @@ alla loro correzione e alla redazione di un rapporto che tenga traccia del lavor
     L'obiettivo dei test sul software è la realizzazione di un prodotto il più possibile esente da errori. Il principale ostacolo alla fase di test è sintetizzato nella tesi di Dijkstra, che afferma che il test può indicare la presenza di errori, ma non ne può garantire l'assenza.
 Affinché tale attività sia utile e generi risultati attendibili è necessario che i test effettuati
 siano ripetibili: dato un certo input deve essere prodotto sempre uno stesso output in
-uno specifico ambiente. Di conseguenza, i tre elementi fondamentali di un test sono:    
+uno specifico ambiente. Di conseguenza, i tre elementi fondamentali di un test sono:
     \begin{itemize}
     \item \textbf{Ambiente:}sistema hardware e software sui quali è stato pianificato l'utilizzo del
 prodotto software sviluppato. Su di essi deve essere specificato uno stato iniziale
@@ -121,24 +161,24 @@ dal quale poter eseguire il test;
     \item \textbf{Procedure:}definizione di come devono essere svolti i test, in che ordine devono
 essere eseguiti e come devono essere analizzati i risultati.
     \end{itemize}
-    
-    
+
+
     Organizzazione delle attività di test:
     \begin{itemize}
       \item \textbf{Test di unità}: l'obiettivo di questo test è verificare che ogni unità del \glossaryItem{Codice} si comporti esattamente come previsto. Un unità di \glossaryItem{Codice} è la più piccola parte di software che è utile verificare singolarmente e che viene prodotta da un singolo programmatore. Attraverso tali test si vuole verificare il corretto funzionamento dei moduli che compongono l'intero sistema, in modo da esaminare possibili errori di implementazione da parte dei programmatori.
 
       \item \textbf{Test di integrazione}: l'obiettivo di questo test è verificare che le componenti del sistema vengano aggiunte incrementalmente al prodotto e analizzare che la combinazione di due o più unità software funzioni come previsto. Una componente è l'aggregazione di più unità software.
-Questo tipo di test serve ad individuare errori residui nella realizzazione dei singoli moduli, modifiche delle interfacce e comportamenti inaspettati di componenti software preesistenti forniti da terze parti che non si conoscono a fondo.  
-er effettuare tali test devono essere aggiunte delle componenti fittizie al posto di quelle che non sono ancora state sviluppate, in modo da non influenzare negativamente l'esito dell'analisi.    
+Questo tipo di test serve ad individuare errori residui nella realizzazione dei singoli moduli, modifiche delle interfacce e comportamenti inaspettati di componenti software preesistenti forniti da terze parti che non si conoscono a fondo.
+er effettuare tali test devono essere aggiunte delle componenti fittizie al posto di quelle che non sono ancora state sviluppate, in modo da non influenzare negativamente l'esito dell'analisi.
 
       \item \textbf{Test di sistema}: l'obiettivo di questo test è verificare il comportamento del prodotto software finale. Lo scopo è quello di capire se esso rispetta i requisiti individuati nella fase di Analisi.
-      
+
       \item \textbf{Test di regressione}: l'obiettivo di questo test è stabilire se le modifiche apportate al software hanno compromesso componenti software precedentemente funzionanti.
       Questi test vengono eseguiti ogni volta che viene apportata una modifica al software.
       Tale operazione è aiutata dal tracciamento, che permette di individuare e ripetere facilmente i test di unità, integrazione ed eventualmente sistema che sono stati potenzialmente influenzati dalla modifica;
       \item \textbf{Test di accettazione}: l'obiettivo di questo test è la realizzazione del collaudo del prodotto software eseguito in presenza del proponente. Se l'esito risulta positivo, si può procedere al rilascio ufficiale del prodotto.
     \end{itemize}
-    
+
 \subsection{Misure e metriche}
 Il processo di verifica, per essere informativo, deve esse quantificabile. Le misure rilevate
 dal processo di verifica devono quindi essere basate su metriche stabilite a priori. Per automatizzare il più possibile il lavoro di misurazione saranno utilizzati degli strumenti, adeguatamente configurati, definiti nelle \emph{Norme di Progetto \VersioneNP{}}, con lo scopo di avere un resoconto affidabile e quantitativo che permetta di assicurare il grado di qualità voluto.
@@ -155,7 +195,7 @@ Per ogni metrica indicata è stato definito nelle \emph{Norme di Progetto \Versi
 
 \paragraph{Schedule Variance (SV):} è un indice che dà informazioni necessarie a determinare se ci si trova in anticipo, in ritardo o in linea alle tempistiche delle attività di progetto. Si tratta di un indicatore di efficacia nei confronti del cliente. Se il risultato di tale metrica risulta positivo significa che il progetto sta procedendo con maggior velocità rispetto a quanto pianificato, viceversa
 se negativo. Alla fine del progetto questo indice assumerà il valore 0, perchè in quel momento tutte le attività saranno state realizzate.
-      
+
 \paragraph{Budget Variance (BV):} è un indice che dà informazioni necessarie a determinare se vi sono state più o meno spese rispetto al previsto. Si tratta di un indicatore che ha un valore contabile e finanziario. Se il risultato di tale metrica risulta positivo significa che l'attuazione del progetto sta consumando il proprio budget con minor velocità rispetto a quanto pianificato, viceversa se negativo.
 
 \subsubsection{Metriche per i documenti}
@@ -174,7 +214,7 @@ Per ogni metrica indicata è stato definito nelle \emph{Norme di Progetto \Versi
 \paragraph{Complessità ciclomatica:} è una metrica per la misura della complessità di funzioni, moduli, metodi o classi di un programma; la quale è calcolata mediate il grafo di controllo di flusso relativo al \glossaryItem{Codice}.
             I nodi del grafo sono gruppi di istruzioni indivisibili. Se nel \glossaryItem{Codice} non sono presenti punti decisionali o cicli, allora la complessità ciclomatica sarà pari a 1.
             Alti valori di complessità ciclomatica implicano una ridotta manutenibilità del codice. Valori bassi di complessità ciclomatica potrebbero però determinare scarsa efficienza dei metodi.
-            
+
 \paragraph{Numero di file:} rappresenta la media di occorrenze di metodi per file: un file, infatti, non dovrebbe contenere un numero eccessivo di metodi. Valori troppo elevati indicano la necessità di una migliore decomposizione del file.
 
 \paragraph{Variabili non utilizzate e/o non definite:} rappresenta il numero di variabili che vengono definite, ma non utilizzate, o viceversa. Questo viene considerato pollution, e pertanto considerato inaccettabile. La misurazione avviene mediante un’analisi dell’AST (Abstract Syntax Tree).
