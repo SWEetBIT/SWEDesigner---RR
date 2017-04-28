@@ -185,22 +185,13 @@ Il \glossaryItem{Codice} progressivo può includere diversi livelli di gerarchia
 \item \textbf{Precondizione}: L'attore ha già effettuato l'accesso e l'\glossaryItem{Applicazione} rende disponibile la voce Gestione Profilo nel menù;
 \item \textbf{Postcondizione}: L'\glossaryItem{Applicazione} visualizza i dati dell'attore con gli opportuni pulsanti di modifica;
 \item \textbf{Scenario principale}:
-	\begin{enumerate}\item Modifica \glossaryItem{Username} (UC3.1);\item Modifica Password (UC3.2);\item Modifica Email (UC3.3);\item Eliminazione Profilo (UC3.4);\end{enumerate}
+	\begin{enumerate}\item Modifica Password (UC3.1);\item Modifica Email (UC3.2);\item Eliminazione Profilo (UC3.3);\end{enumerate}
 \item \textbf{Scenario alternativo}:
-	\begin{enumerate} \item Messaggio di errore: "\glossaryItem{Username} non conforme" (UC3.5);\item Messaggio di errore: "Password non conforme" (UC3.6);\item Messaggio di errore: "Email non conforme" (UC3.7).
+	\begin{enumerate} \item Messaggio di errore: "Password non conforme" (UC3.4);\item Messaggio di errore: "Email non conforme" (UC3.5).
 	\end{enumerate}
 \end{itemize}
-\subsection{UC3.1 - Modifica Username}
+\subsection{UC3.1 - Modifica Password}
 \label{ssec:UC3.1}
-\begin{itemize}
-\item \textbf{Attori}: \glossaryItem{Utente} autenticato;
-\item \textbf{Descrizione}: L'attore può modificare il suo \glossaryItem{Username};
-\item \textbf{Precondizione}: L'attore vuole modificare l'\glossaryItem{Username};
-\item \textbf{Postcondizione}: L'\glossaryItem{Applicazione} modifica l' \glossaryItem{Username} dell'attore;
-\item \textbf{Scenari alternativi}: L'attore annulla la modifica dell'\glossaryItem{Username}.
-\end{itemize}
-\subsection{UC3.2 - Modifica Password}
-\label{ssec:UC3.2}
 \begin{itemize}
 \item \textbf{Attori}: \glossaryItem{Utente} autenticato;
 \item \textbf{Descrizione}: L'attore ha la possibilità di modificare la sua password;
@@ -208,8 +199,8 @@ Il \glossaryItem{Codice} progressivo può includere diversi livelli di gerarchia
 \item \textbf{Postcondizione}: L'\glossaryItem{Applicazione} modifica la password o restituisce il messaggio d'errore;
 \item \textbf{Scenari alternativi}: L'attore annulla la modifica della password.
 \end{itemize}
-\subsection{UC3.3 - Modifica Email}
-\label{ssec:UC3.3}
+\subsection{UC3.2 - Modifica Email}
+\label{ssec:UC3.2}
 \begin{itemize}
 \item \textbf{Attori}: \glossaryItem{Utente} autenticato;
 \item \textbf{Descrizione}: L'attore ha la possibilità di modificare la propria email;
@@ -217,8 +208,8 @@ Il \glossaryItem{Codice} progressivo può includere diversi livelli di gerarchia
 \item \textbf{Postcondizione}: L'\glossaryItem{Applicazione} aggiorna l'email;
 \item \textbf{Scenari alternativi}: L'attore annulla la modifica dell'email.
 \end{itemize}
-\subsection{UC3.4 - Eliminazione Profilo}
-\label{ssec:UC3.4}
+\subsection{UC3.3 - Eliminazione Profilo}
+\label{ssec:UC3.3}
 \begin{itemize}
 \item \textbf{Attori}: \glossaryItem{Utente} autenticato;
 \item \textbf{Descrizione}: L'attore può eliminare il profilo, cancellando ogni tipo di personalizzazione da lui creata;
@@ -226,24 +217,16 @@ Il \glossaryItem{Codice} progressivo può includere diversi livelli di gerarchia
 \item \textbf{Postcondizione}: L'\glossaryItem{Applicazione} ha cancellato a cascata ogni informazione legata a tale profilo ed essa non è più recuperabile;
 \item \textbf{Scenari alternativi}: L'attore annulla la cancellazione del profilo.
 \end{itemize}
-\subsection{UC3.5 - Messaggio di errore: "\glossaryItem{Username} non conforme"}
-\label{ssec:UC3.5}
-\begin{itemize}
-\item \textbf{Attori}: \glossaryItem{Utente} autenticato;
-\item \textbf{Descrizione}: L'attore può inserire un \glossaryItem{Username} non conforme e gli viene quindi comunicato l'errore;
-\item \textbf{Precondizione}: L'\glossaryItem{Applicazione} è pronta e l'attore modifica l'\glossaryItem{Username};
-\item \textbf{Postcondizione}: L'attore ha inserito un \glossaryItem{Username} non conforme e ha ricevuto la comunicazione dell'errore.
-\end{itemize}
-\subsection{UC3.6 - Messaggio di errore: "Password non conforme"}
-\label{ssec:UC3.6}
+\subsection{UC3.4 - Messaggio di errore: "Password non conforme"}
+\label{ssec:UC3.4}
 \begin{itemize}
 \item \textbf{Attori}: \glossaryItem{Utente} autenticato;
 \item \textbf{Descrizione}: L'attore può inserire una password non conforme e gli viene quindi comunicato l'errore;
 \item \textbf{Precondizione}: L'\glossaryItem{Applicazione} è pronta e l'\glossaryItem{Utente} modifica la password;
 \item \textbf{Postcondizione}: L'attore ha inserito una password non conforme e ha ricevuto la comunicazione dell'errore.
 \end{itemize}
-\subsection{UC3.7 - Messaggio di errore: "Email non conforme"}
-\label{ssec:UC3.7}
+\subsection{UC3.5 - Messaggio di errore: "Email non conforme"}
+\label{ssec:UC3.5}
 \begin{itemize}
 \item \textbf{Attori}: \glossaryItem{Utente} autenticato;
 \item \textbf{Descrizione}: L'attore può inserire l'email con una sintassi non valida e gli viene quindi comunicato l'errore;
@@ -306,8 +289,8 @@ Il \glossaryItem{Codice} progressivo può includere diversi livelli di gerarchia
 \label{ssec:UC5.1.2}
 \begin{itemize}
 \item \textbf{Attori}: \glossaryItem{Utente} autenticato;
-\item \textbf{Descrizione}: L'attore può importare un progetto;
-\item \textbf{Precondizione}: L'attore vuole importare un progetto;
+\item \textbf{Descrizione}: L'attore può importare un progetto precedentemente esportato dall'applicazione, presente nel proprio dispositivo;
+\item \textbf{Precondizione}: L'attore vuole importare un progetto, ha a disposizione un progetto valido;
 \item \textbf{Postcondizione}: L'\glossaryItem{Applicazione} importa il progetto richiesto;
 \item \textbf{Scenari alternativi}: L'attore decide di non importare nessun progetto.
 \end{itemize}
@@ -408,7 +391,7 @@ svolge le sue funzioni;
 \begin{itemize}
 \item \textbf{Attori}: \glossaryItem{Utente} autenticato;
 \item \textbf{Descrizione}: L’attore può generare il \glossaryItem{Codice} relativo all’\glossaryItem{UML} prodotto;
-\item \textbf{Precondizione}: L’attore vuole generare il \glossaryItem{Codice} dai suoi \glossaryItem{Diagrammi} \glossaryItem{UML};
+\item \textbf{Precondizione}: L’attore vuole generare il \glossaryItem{Codice} dai suoi \glossaryItem{Diagrammi} \glossaryItem{UML} in linguaggio Java;
 \item \textbf{Postcondizione}: L’\glossaryItem{Applicazione} genera il \glossaryItem{Codice} relativo al disegno \glossaryItem{UML}.
 \end{itemize}
 \subsection{UC6.1.1.5 - Salvataggio template}
