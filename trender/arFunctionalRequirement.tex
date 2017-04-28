@@ -1,4 +1,30 @@
 \def\arraystretch{1.5}
+
+Ogni requisito è rappresentato da un codice univoco e gerarchico, nella forma:
+\begin{center}
+        R[importanza][tipo][codice]
+      \end{center}
+      \begin{itemize}
+        \item \textbf{Importanza} può assumere i seguenti valori:
+          \bgroup
+            \begin{itemize}
+              \item [0]: Requisito obbligatorio;
+              \item [1]: Requisito desiderabile;
+              \item [2]: Requisito opzionale.
+            \end{itemize}
+          \egroup
+        \item \textbf{Tipo} può assumere i seguenti valori:
+          \bgroup
+            \begin{itemize}
+              \item [F]: Funzionale;
+              \item [Q]: Di Qualità;
+              \item [P]: Prestazionale;
+              \item [V]: Vincolo.
+            \end{itemize}
+          \egroup
+        \item \textbf{Codice} è il codice univoco di ogni requisito espresso in modo gerarchico.
+      \end{itemize}
+
 \rowcolors{2}{D}{P}
 \begin{longtable}{p{2.5cm}!{\VRule[1pt]}p{2cm}!{\VRule[1pt]}p{5cm}!{\VRule[1pt]}p{2.5cm}}
 \rowcolor{I}
