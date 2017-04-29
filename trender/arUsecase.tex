@@ -656,7 +656,7 @@ svolge le sue funzioni;
 \item \textbf{Attori}: \glossaryItem{Utente} autenticato:
 \item \textbf{Descrizione}: L'attore ha la possibilità di inserire il disegno rappresentante una \glossaryItem{Classe} nello standard \glossaryItem{UML} con i relativi campi compilati;
 \item \textbf{Precondizione}: L'attore ha un progetto aperto;
-\item \textbf{Postcondizione}: Viene rappresentato il disegno della \glossaryItem{Classe} e vengono salvati i dati contenuti in essa;
+\item \textbf{Postcondizione}: Viene rappresentato il disegno della \glossaryItem{Classe} e viene istanziato con il valore di default il campo nome;
 \item \textbf{Scenario principale}: L'attore inserisce il disegno di una nuova classe.
 \end{itemize}
 \subsection{UC6.2.1.2 - Nuovo Pacchetto}
@@ -665,7 +665,7 @@ svolge le sue funzioni;
 \item \textbf{Attori}: \glossaryItem{Utente} autenticato;
 \item \textbf{Descrizione}: L'attore ha la possibilità di inserire il disegno rappresentante un \glossaryItem{Package} nello standard \glossaryItem{UML};
 \item \textbf{Precondizione}: L'attore ha un progetto aperto;
-\item \textbf{Postcondizione}: L'\glossaryItem{Applicazione} rappresentata il disegno del \glossaryItem{Package} e vengono salvati i relativi dati;
+\item \textbf{Postcondizione}: L'\glossaryItem{Applicazione} rappresentata il disegno del \glossaryItem{Package} e viene istanziato con il valore di default il campo nome;
 \item \textbf{Scenario principale}: L'attore inserisce il disegno di una nuova package.
 \end{itemize}
 \newpage
@@ -678,9 +678,9 @@ svolge le sue funzioni;
  \end{figure}
 \begin{itemize}
 \item \textbf{Attori}: \glossaryItem{Utente} autenticato;
-\item \textbf{Descrizione}: L'\glossaryItem{Applicazione} fornisce una lista di relazioni tra le \glossaryItem{Classi};
+\item \textbf{Descrizione}: L'utente fa la possibilità di inserire il disegno rappresentante una relazione tra classi
 \item \textbf{Precondizione}: L'attore ha aperto un progetto;
-\item \textbf{Postcondizione}: L'\glossaryItem{Applicazione} fornisce una lista di relazioni tra le \glossaryItem{Classi};
+\item \textbf{Postcondizione}: L'\glossaryItem{Applicazione} inserisce la relazione tra le \glossaryItem{Classi} e viene istanziato con il valore di default il campo etichetta;
 \item \textbf{Scenario principale}: \begin{enumerate}\item Definizione \glossaryItem{Classe} di partenza (UC6.2.1.3.1);\item Definizione \glossaryItem{Classe} di arrivo (UC6.2.1.3.2);\item Selezione tipo relazione (UC6.2.1.3.3).
  \end{enumerate}
 \end{itemize}
@@ -717,7 +717,7 @@ svolge le sue funzioni;
 \item \textbf{Attori}: \glossaryItem{Utente} autenticato;
 \item \textbf{Descrizione}: L'attore ha la possibilità di inserire un commento associato ad un elemento del \glossaryItem{Diagramma} delle \glossaryItem{Classi};
 \item \textbf{Precondizione}: L'attore ha aperto un progetto;
-\item \textbf{Postcondizione}: L'\glossaryItem{Applicazione} rappresentata un rettangolo testuale con all'interno il testo inserito;
+\item \textbf{Postcondizione}: L'\glossaryItem{Applicazione} rappresentata un rettangolo testuale con all'interno il testo inserito e viene istanziato con il valore di default il campo testo;
 \item \textbf{Scenario principale}: \begin{enumerate}\item Aggiunta relazione commento (UC6.2.1.4.1).
  \end{enumerate}
 \end{itemize}
@@ -759,7 +759,7 @@ svolge le sue funzioni;
 \item \textbf{Attori}: \glossaryItem{Utente} autenticato;
 \item \textbf{Descrizione}: L'attore può aggiungere un nuovo elemento operazione al \glossaryItem{Diagramma delle attività} di un \glossaryItem{Metodo};
 \item \textbf{Precondizione}: Viene selezionato un \glossaryItem{Metodo} di una \glossaryItem{Classe} che risiede nel \glossaryItem{Frame} del \glossaryItem{Diagramma} delle  \glossaryItem{Classi};
-\item \textbf{Postcondizione}: Viene aggiunto al \glossaryItem{Diagramma delle attività} di un \glossaryItem{Metodo} un nuovo elemento operazione;
+\item \textbf{Postcondizione}: Viene aggiunto al \glossaryItem{Diagramma delle attività} di un \glossaryItem{Metodo} un nuovo elemento operazione e viene istanziato con il valore di default il campo operazione;
 \item \textbf{Scenario principale}: L'attore aggiunge un nuovo elemento operazione al diagramma delle attività;
 \item \textbf{Scenari alternativi}: L'elemento non è posizionato all'interno della finestra del \glossaryItem{Diagramma delle attività} di un \glossaryItem{Metodo}.
 \end{itemize}
@@ -779,7 +779,7 @@ svolge le sue funzioni;
 \item \textbf{Attori}: \glossaryItem{Utente} autenticato;
 \item \textbf{Descrizione}: L'attore può aggiungere un nuovo elemento variabile al \glossaryItem{Diagramma delle attività} di un \glossaryItem{Metodo};
 \item \textbf{Precondizione}: Viene selezionato un \glossaryItem{Metodo} di una \glossaryItem{Classe} che risiede nel \glossaryItem{Frame} del \glossaryItem{Diagramma} delle  \glossaryItem{Classi};
-\item \textbf{Postcondizione}: Viene aggiunto al \glossaryItem{Diagramma delle attività} di un \glossaryItem{Metodo} un nuovo elemento variabile;
+\item \textbf{Postcondizione}: Viene aggiunto al \glossaryItem{Diagramma delle attività} di un \glossaryItem{Metodo} un nuovo elemento variabile e viene istanziato con il valore di default il campo variabile;
 \item \textbf{Scenario principale}: L'attore aggiunge un nuovo elemento variabile al diagramma delle attività.
 \end{itemize}
 \subsection{UC6.2.2.4 - Nuovo connettore}
@@ -816,7 +816,7 @@ svolge le sue funzioni;
 \item \textbf{Attori}: \glossaryItem{Utente} autenticato;
 \item \textbf{Descrizione}: L'attore può aggiungere un nuovo elemento commento al \glossaryItem{Diagramma delle attività} di un \glossaryItem{Metodo};
 \item \textbf{Precondizione}: Viene selezionato un \glossaryItem{Metodo} di una \glossaryItem{Classe} che risiede nel \glossaryItem{Frame} del \glossaryItem{Diagramma} delle  \glossaryItem{Classi};
-\item \textbf{Postcondizione}: Viene aggiunto al \glossaryItem{Diagramma delle attività} di un \glossaryItem{Metodo} un nuovo elemento commento;
+\item \textbf{Postcondizione}: Viene aggiunto al \glossaryItem{Diagramma delle attività} di un \glossaryItem{Metodo} un nuovo elemento commento e viene istanziato con il valore di default il campo testo del commento;
 \item \textbf{Scenario principale}: L'attore aggiunge un nuovo elemento commento al diagramma delle attività;
 \end{itemize}
 \subsection{UC6.2.2.8 - Nuovo output pin}
