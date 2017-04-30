@@ -32,7 +32,7 @@ Il \glossaryItem{Codice} progressivo può includere diversi livelli di gerarchia
 \item \textbf{Descrizione}: Vengono visualizzate in generale le vari funzionalità che l'\glossaryItem{Applicazione} permette ai vari utenti di svolgere;
 \item \textbf{Precondizione}: L'\glossaryItem{Applicazione} predispone l'interazione con un attore, facendolo accedere alle diverse funzionalità proposte;
 \item \textbf{Postcondizione}: Dopo l'interazione avvenuta con un attore, l'\glossaryItem{Applicazione} si troverà in un nuovo stato pronto ad interagire con un nuovo attore;
-\item \textbf{Scenario principale}: \begin{enumerate}\item Registrazione (UC1);\item Autenticazione (UC2);\item Gestione profilo(UC3);\item Logout (UC4);\item Gestione progetti (UC5);\item Tool \glossaryItem{Designer} (UC6);
+\item \textbf{Scenario principale}: \begin{enumerate}\item Registrazione (UC1);\item Autenticazione (UC2);\item Gestione profilo(UC3);\item Logout (UC4);\item Gestione progetti (UC5);\item Visione generale Tool \glossaryItem{Designer} (UC6);
  \end{enumerate}
 \end{itemize}
 
@@ -279,11 +279,11 @@ Il \glossaryItem{Codice} progressivo può includere diversi livelli di gerarchia
 \newpage
 \subsection{UC5.1 - Aggiunta Progetto}
 \label{ssec:UC5.1}
-\begin{figure}[h!]
-\centering
-\includegraphics[scale=0.5]{../../Casi D'uso/UC5.1.png}
-\caption{Caso d'uso UC5.1}
- \end{figure}
+%\begin{figure}[h!]
+%\centering
+%\includegraphics[scale=0.5]{../../Casi D'uso/UC5.1.png}
+%\caption{Caso d'uso UC5.1}
+ %\end{figure}
 \begin{itemize}
 \item \textbf{Attori}: \glossaryItem{Utente} autenticato;
 \item \textbf{Descrizione}: L’attore ha la possibilità di creare o importare un progetto;
@@ -333,7 +333,7 @@ Il \glossaryItem{Codice} progressivo può includere diversi livelli di gerarchia
 \item \textbf{Scenario principale}: L'attore elimina un progetto precedentemente salvato.
 \end{itemize}
 \newpage
-\subsection{UC6 - Tool Designer}
+\subsection{UC6 - Visione generale Tool \glossaryItem{Designer}}
 \label{ssec:UC6}
 \begin{figure}[h!]
 \centering
@@ -345,11 +345,11 @@ Il \glossaryItem{Codice} progressivo può includere diversi livelli di gerarchia
 \item \textbf{Descrizione}: L'\glossaryItem{Applicazione} visualizza l'editor dei \glossaryItem{Diagrammi};
 \item \textbf{Precondizione}: L' attore ha effettuato l'accesso;
 \item \textbf{Postcondizione}: L'\glossaryItem{Applicazione} visualizza la finestra;
-\item \textbf{Scenario principale}: \begin{enumerate}\item Menù (UC6.1);\item Barra degli strumenti (UC6.2);\item Disegnatore \glossaryItem{Diagrammi} (UC6.3);\item Pannello laterale (UC6.4).
+\item \textbf{Scenario principale}: \begin{enumerate}\item Visione generale strumenti (UC6.1);\item Visione generale strumenti grafici (UC6.2);\item Visione generale disegnatore \glossaryItem{Diagrammi} (UC6.3);\item Visione generale pannello laterale (UC6.4).
  \end{enumerate}
 \end{itemize}
 \newpage
-\subsection{UC6.1 - Menù}
+\subsection{UC6.1 - Visione generale strumenti}
 \label{ssec:UC6.1}
 \begin{figure}[h!]
 \centering
@@ -363,11 +363,11 @@ Il \glossaryItem{Codice} progressivo può includere diversi livelli di gerarchia
 \item \textbf{Precondizione}: L’\glossaryItem{Applicazione} offre all’\glossaryItem{Utente} una barra dei menù;
 \item \textbf{Postcondizione}: L’\glossaryItem{Applicazione}, a seconda dell’operazione richiesta dall’\glossaryItem{Utente},
 svolge le sue funzioni;
-\item \textbf{Scenario principale}: \begin{enumerate}\item File (UC6.1.1);\item Edit (UC6.1.2);\item \glossaryItem{Template} (UC6.1.3);\item \glossaryItem{layers} (UC6.1.4).
+\item \textbf{Scenario principale}: \begin{enumerate}\item Gestione File (UC6.1.1);\item Gestione stumenti di modifica (UC6.1.2);\item Gestione \glossaryItem{Template} (UC6.1.3);\item Gestione \glossaryItem{layers} (UC6.1.4).
  \end{enumerate}
 \end{itemize}
 \newpage
-\subsection{UC6.1.1 - File}
+\subsection{UC6.1.1 - Gestione File}
 \label{ssec:UC6.1.1}
 \begin{figure}[h!]
 \centering
@@ -406,7 +406,7 @@ svolge le sue funzioni;
 \label{ssec:UC6.1.1.3}
 \begin{itemize}
 \item \textbf{Attori}: \glossaryItem{Utente} autenticato;
-\item \textbf{Descrizione}: L’attore può esportare il progetto corrente per possederne una copia digitale;
+\item \textbf{Descrizione}: L’attore può esportare il progetto corrente per possederne una copia digitale in un file criptato con estenzione \emph{.swed};
 \item \textbf{Precondizione}: L’attore ha un progetto aperto;
 \item \textbf{Postcondizione}: L’\glossaryItem{Applicazione} esporta il progetto in un formato compresso;
 \item \textbf{Scenario principale}: L'attore esporta il progetto corrente.
@@ -430,7 +430,7 @@ svolge le sue funzioni;
 \item \textbf{Scenario principale}: L'attore salva determinate classi o gerarchie tra i propri Template.
 \end{itemize}
 \newpage
-\subsection{UC6.1.2 - Edit}
+\subsection{UC6.1.2 - Gestione stumenti di modifica}
 \label{ssec:UC6.1.2}
 \begin{figure}[h!]
 \centering
@@ -509,7 +509,7 @@ svolge le sue funzioni;
 \item \textbf{Scenario principale}: L'attore rimpicciolisce la visualizzazione di una determinata sezione.
 \end{itemize}
 \newpage
-\subsection{UC6.1.3 - Template}
+\subsection{UC6.1.3 - Gestione Template}
 \label{ssec:UC6.1.3}
 \begin{figure}[h!]
 \centering
@@ -545,7 +545,7 @@ svolge le sue funzioni;
 \item \textbf{Scenari alternativi}: L'attore chiude la finestra di gestione \glossaryItem{Template} (UC 6.1.3) e non viene effettuata nessuna operazione.
 \end{itemize}
 \newpage
-\subsection{UC6.1.4 - \glossaryItem{layers}}
+\subsection{UC6.1.4 - Gestione \glossaryItem{Layers}}
 \label{ssec:UC6.1.4}
 \begin{figure}[h!]
 \centering
@@ -613,7 +613,7 @@ svolge le sue funzioni;
 \item \textbf{Scenario principale}: L'attore elimina un \glossaryItem{layer} esistente.
 \end{itemize}
 \newpage
-\subsection{UC6.2 - Barra degli strumenti}
+\subsection{UC6.2 - Visione generale strumenti grafici}
 \label{ssec:UC6.2}
 \begin{figure}[h!]
 \centering
@@ -625,11 +625,11 @@ svolge le sue funzioni;
 \item \textbf{Descrizione}: L'\glossaryItem{Applicazione} visualizza la barra degli strumenti grafici;
 \item \textbf{Precondizione}: L'attore ha effettuato l'accesso;
 \item \textbf{Postcondizione}: L'\glossaryItem{Applicazione} visualizza la barra degli strumenti grafici;
-\item \textbf{Scenario principale}: \begin{enumerate}\item Strumenti delle \glossaryItem{Classi} (UC6.2.1);\item Strumenti \glossaryItem{Diagramma delle Attività} (UC6.2.2).
+\item \textbf{Scenario principale}: \begin{enumerate}\item Gestione strumenti strumenti \glossaryItem{Diagramma delle Classi} (UC6.2.1);\item Gestione strumenti \glossaryItem{Diagramma delle Attività} (UC6.2.2).
  \end{enumerate}
 \end{itemize}
 \newpage
-\subsection{UC6.2.1 - Strumenti delle classi}
+\subsection{UC6.2.1 - Gestione strumenti strumenti \glossaryItem{Diagramma delle Classi}}
 \label{ssec:UC6.2.1}
 \begin{figure}[h!]
 \centering
@@ -641,14 +641,14 @@ svolge le sue funzioni;
 \item \textbf{Descrizione}: L'attore, per la creazione di un \glossaryItem{Diagramma delle Classi} ha la possibilità di selezionare una nuova \glossaryItem{Classe}, inserire un \glossaryItem{Package} per raggruppare delle \glossaryItem{Classi} o inserire delle relazioni tra le \glossaryItem{Classi};
 \item \textbf{Precondizione}: L'attore ha aperto un progetto;
 \item \textbf{Postcondizione}: L'\glossaryItem{Applicazione} visualizza gli strumenti per disegnare le \glossaryItem{Classi};
-\item \textbf{Scenario principale}: \begin{enumerate}\item Nuova \glossaryItem{Classe} (UC6.2.1.1);\item Nuovo Pacchetto (UC6.2.1.2);\item Nuova Relazione (UC6.2.1.3);\item Nuovo commento (UC6.2.1.4);
+\item \textbf{Scenario principale}: \begin{enumerate}\item Nuova \glossaryItem{Classe} (UC6.2.1.1);\item Nuovo Pacchetto (UC6.2.1.2);\item Nuova Relazione (UC6.2.1.3);\item Nuovo commento (UC6.2.1.4).
  \end{enumerate}
- \item \textbf{Inclusioni}: \begin{itemize}
+ \item \textbf{Inclusioni}: \begin{enumerate}
  	\item \textbf{ Modifica \glossaryItem{Classe} (UC 6.3.1.5)};
- 	\item \textbf{ Modifica Pacchetto (UC 6.3.1.7)};
- 	\item \textbf{ Modifica Relazione (UC 6.3.1.6)};
- 	\item \textbf{ Modifica Commento (UC 6.3.1.8)}.
- \end{itemize}
+ 	\item Modifica Pacchetto (UC 6.3.1.7);
+ 	\item Modifica Relazione (UC 6.3.1.6);
+ 	\item Modifica Commento (UC 6.3.1.8).
+ \end{enumerate}
 \end{itemize}
 \subsection{UC6.2.1.1 - Nuova Classe}
 \label{ssec:UC6.2.1.1}
@@ -730,7 +730,7 @@ svolge le sue funzioni;
 \item \textbf{Postcondizione}: Il commento è stato associato ad un elemento;
 \item \textbf{Scenario principale}: L'attore associa il commento ad un qualiasi elemento del diagramma delle classi.
 \end{itemize}
-\subsection{UC6.2.2 - Strumenti \glossaryItem{Diagramma delle Attività}}
+\subsection{UC6.2.2 - Gestione strumenti \glossaryItem{Diagramma delle Attività}}
 \label{ssec:UC6.2.2}
 \begin{figure}[H]
 \centering
@@ -742,15 +742,15 @@ svolge le sue funzioni;
 \item \textbf{Descrizione}: L'attore può selezionare da questa lista uno degli strumenti per la creazione di \glossaryItem{Diagrammi delle attività};
 \item \textbf{Precondizione}: L'attore deve aver caricato un progetto;
 \item \textbf{Postcondizione}: L'\glossaryItem{Applicazione} visualizza la lista di strumenti necessari per il disegno di \glossaryItem{Diagrammi delle attività};
-\item \textbf{Scenario principale}: \begin{enumerate}\item Nuova operazione (UC6.2.2.1);\item Nuova chiamata a \glossaryItem{Metodo} (UC6.2.2.2);\item Nuova variabile (UC6.2.2.3);\item Nuovo connettore (UC6.2.2.4);\item Nuovo nodo decisione (UC6.2.2.5);\item Nuovo nodo \glossaryItem{Merge} (UC6.2.2.6);\item Nuovo commento (UC6.2.2.7);\item Nuovo output pin (UC6.2.2.8);
+\item \textbf{Scenario principale}: \begin{enumerate}\item Nuova operazione (UC6.2.2.1);\item Nuova chiamata a \glossaryItem{Metodo} (UC6.2.2.2);\item Nuova variabile (UC6.2.2.3);\item Nuovo connettore (UC6.2.2.4);\item Nuovo nodo decisione (UC6.2.2.5);\item Nuovo nodo \glossaryItem{Merge} (UC6.2.2.6);\item Nuovo commento (UC6.2.2.7);\item Nuovo output pin (UC6.2.2.8).
  \end{enumerate}
- \item \textbf{Inclusioni}: \begin{itemize}
- \item \textbf{ Modifica operazione (UC 6.3.5.10)};
- \item \textbf{ Modifica chiamata a \glossaryItem{Metodo} (UC 6.3.5.11)};
- \item \textbf{ Modifica variabile (UC 6.3.5.12)};
-  \item \textbf{ Modifica connettore (UC 6.3.5.13)};
-  \item \textbf{ Modifica commento (UC 6.3.5.9)};
- \end{itemize}
+ \item \textbf{Inclusioni}: \begin{enumerate}
+ \item Modifica operazione (UC 6.3.5.10);
+ \item Modifica chiamata a \glossaryItem{Metodo} (UC 6.3.5.11);
+ \item Modifica variabile (UC 6.3.5.12);
+  \item Modifica connettore (UC 6.3.5.13);
+  \item Modifica commento (UC 6.3.5.9).
+ \end{enumerate}
 
 \end{itemize}
 \subsection{UC6.2.2.1 - Nuova operazione}
@@ -829,7 +829,7 @@ svolge le sue funzioni;
 \item \textbf{Scenario principale}: L'attore aggiunge un nuovo elemento output pin al diagramma delle attività.
 \end{itemize}
 \newpage
-\subsection{UC6.3 - Disegnatore diagrammi}
+\subsection{UC6.3 - Visione generale  disegnatore diagrammi}
 \label{ssec:UC6.3}
 \begin{figure}[h!]
 \centering
@@ -1374,7 +1374,7 @@ svolge le sue funzioni;
 \item \textbf{Scenario principale}: L'attore modifica un elemento commento nel diagramma del metodo del codice.
 \end{itemize};
 \newpage
-\subsection{UC6.4 - Pannello laterale}
+\subsection{UC6.4 - Visione generale pannello laterale}
 \label{ssec:UC6.4}
 
 \begin{figure}[h!]
