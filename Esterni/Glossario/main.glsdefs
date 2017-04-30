@@ -1,0 +1,2190 @@
+\ifglsentryexists{Account}{}%
+{%
+\gls@defglossaryentry{Account}%
+{%
+name={Account},%
+sort={Account},%
+type={main},%
+first={Account},%
+firstplural={Accounts},%
+text={Account},%
+plural={Accounts},%
+description={In informatica, attraverso il meccanismo dell'\glossaryItem {Account}, il sistema mette a disposizione dell'\glossaryItem {Utente} un ambiente con contenuti e funzionalità personalizzabili, oltre ad un conveniente grado di isolamento dalle altre utenze parallele},%
+descriptionplural={In informatica, attraverso il meccanismo dell'\glossaryItem {Account}, il sistema mette a disposizione dell'\glossaryItem {Utente} un ambiente con contenuti e funzionalità personalizzabili, oltre ad un conveniente grado di isolamento dalle altre utenze parallele},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{API}{}%
+{%
+\gls@defglossaryentry{API}%
+{%
+name={API},%
+sort={API},%
+type={main},%
+first={API},%
+firstplural={APIs},%
+text={API},%
+plural={APIs},%
+description={Application Programming Interface, è un insieme di procedure disponibili al programmatore, di solito raggruppate a formare un set di strumenti specifici per l'espletamento di un determinato compito all'interno di un certo programma},%
+descriptionplural={Application Programming Interface, è un insieme di procedure disponibili al programmatore, di solito raggruppate a formare un set di strumenti specifici per l'espletamento di un determinato compito all'interno di un certo programma},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Applicazione}{}%
+{%
+\gls@defglossaryentry{Applicazione}%
+{%
+name={Applicazione},%
+sort={Applicazione},%
+type={main},%
+first={Applicazione},%
+firstplural={Applicaziones},%
+text={Applicazione},%
+plural={Applicaziones},%
+description={In informatica individua un programma o una serie di programmi in fase di esecuzione su un computer con lo scopo e il risultato di rendere possibile una o più funzionalità, servizi o strumenti utili e selezionabili su richiesta dall'\glossaryItem {Utente} tramite interfaccia utente},%
+descriptionplural={In informatica individua un programma o una serie di programmi in fase di esecuzione su un computer con lo scopo e il risultato di rendere possibile una o più funzionalità, servizi o strumenti utili e selezionabili su richiesta dall'\glossaryItem {Utente} tramite interfaccia utente},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Back end}{}%
+{%
+\gls@defglossaryentry{Back end}%
+{%
+name={Back end},%
+sort={Back end},%
+type={main},%
+first={Back end},%
+firstplural={Back ends},%
+text={Back end},%
+plural={Back ends},%
+description={La parte del prodotto software su cui l'\glossaryItem {Utente} non può interagire e che permette l'esecuzione di tutte le funzioni della parte \glossaryItem {front end}},%
+descriptionplural={La parte del prodotto software su cui l'\glossaryItem {Utente} non può interagire e che permette l'esecuzione di tutte le funzioni della parte \glossaryItem {front end}},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{BOM}{}%
+{%
+\gls@defglossaryentry{BOM}%
+{%
+name={BOM},%
+sort={BOM},%
+type={main},%
+first={BOM},%
+firstplural={BOMs},%
+text={BOM},%
+plural={BOMs},%
+description={Il Byte Order Mark (\glossaryItem {BOM}) è una piccola sequenza di byte che viene posizionata all'inizio di un flusso di dati di puro testo (tipicamente un \glossaryItem {File}) per indicarne il tipo di codifica},%
+descriptionplural={Il Byte Order Mark (\glossaryItem {BOM}) è una piccola sequenza di byte che viene posizionata all'inizio di un flusso di dati di puro testo (tipicamente un \glossaryItem {File}) per indicarne il tipo di codifica},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Browser}{}%
+{%
+\gls@defglossaryentry{Browser}%
+{%
+name={Browser},%
+sort={Browser},%
+type={main},%
+first={Browser},%
+firstplural={Browsers},%
+text={Browser},%
+plural={Browsers},%
+description={Nello specifico web \glossaryItem {Browser}, è un'applicazone software per il recupero, la presentazione e la navigazione delle risorse presenti in rete},%
+descriptionplural={Nello specifico web \glossaryItem {Browser}, è un'applicazone software per il recupero, la presentazione e la navigazione delle risorse presenti in rete},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Bug}{}%
+{%
+\gls@defglossaryentry{Bug}%
+{%
+name={Bug},%
+sort={Bug},%
+type={main},%
+first={Bug},%
+firstplural={Bugs},%
+text={Bug},%
+plural={Bugs},%
+description={in informatica indica un errore presente nel \glossaryItem {Codice} di un prodotto software},%
+descriptionplural={in informatica indica un errore presente nel \glossaryItem {Codice} di un prodotto software},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Capitolato}{}%
+{%
+\gls@defglossaryentry{Capitolato}%
+{%
+name={Capitolato},%
+sort={Capitolato},%
+type={main},%
+first={Capitolato},%
+firstplural={Capitolatos},%
+text={Capitolato},%
+plural={Capitolatos},%
+description={Atto allegato a un contratto d'appalto che intercorre tra il \glossaryItem {Client}e ed una ditta in cui vengono indicate modalità, costi e tempi di realizzazione dell'opera oggetto del contratto},%
+descriptionplural={Atto allegato a un contratto d'appalto che intercorre tra il \glossaryItem {Client}e ed una ditta in cui vengono indicate modalità, costi e tempi di realizzazione dell'opera oggetto del contratto},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Cloud storage}{}%
+{%
+\gls@defglossaryentry{Cloud storage}%
+{%
+name={Cloud storage},%
+sort={Cloud storage},%
+type={main},%
+first={Cloud storage},%
+firstplural={Cloud storages},%
+text={Cloud storage},%
+plural={Cloud storages},%
+description={è un servizio offerto varie aziende che da la possibilità di immagazzinare i dati in \glossaryItem {Server} remoti},%
+descriptionplural={è un servizio offerto varie aziende che da la possibilità di immagazzinare i dati in \glossaryItem {Server} remoti},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Classe}{}%
+{%
+\gls@defglossaryentry{Classe}%
+{%
+name={Classe},%
+sort={Classe},%
+type={main},%
+first={Classe},%
+firstplural={Classes},%
+text={Classe},%
+plural={Classes},%
+description={È un costrutto di un linguaggio di programmazione atto a rappresentare una persona, un luogo, oppure una cosa, ed è quindi l'astrazione di un concetto},%
+descriptionplural={È un costrutto di un linguaggio di programmazione atto a rappresentare una persona, un luogo, oppure una cosa, ed è quindi l'astrazione di un concetto},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Client}{}%
+{%
+\gls@defglossaryentry{Client}%
+{%
+name={Client},%
+sort={Client},%
+type={main},%
+first={Client},%
+firstplural={Clients},%
+text={Client},%
+plural={Clients},%
+description={In informatica, indica una componente che accede ai servizi o alle risorse di un'altra componente detta \glossaryItem {Server}, la quale fornisce il servizio richiesto},%
+descriptionplural={In informatica, indica una componente che accede ai servizi o alle risorse di un'altra componente detta \glossaryItem {Server}, la quale fornisce il servizio richiesto},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Codice}{}%
+{%
+\gls@defglossaryentry{Codice}%
+{%
+name={Codice},%
+sort={Codice},%
+type={main},%
+first={Codice},%
+firstplural={Codices},%
+text={Codice},%
+plural={Codices},%
+description={È una rappresentazione di un insieme di simboli in grado di rappresentare l'informazione che viene così codificata},%
+descriptionplural={È una rappresentazione di un insieme di simboli in grado di rappresentare l'informazione che viene così codificata},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Committente}{}%
+{%
+\gls@defglossaryentry{Committente}%
+{%
+name={Committente},%
+sort={Committente},%
+type={main},%
+first={Committente},%
+firstplural={Committentes},%
+text={Committente},%
+plural={Committentes},%
+description={È la figura che ordina un lavoro, una prestazione, o si impegna all'acquisto di una merce per conto proprio},%
+descriptionplural={È la figura che ordina un lavoro, una prestazione, o si impegna all'acquisto di una merce per conto proprio},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Designer}{}%
+{%
+\gls@defglossaryentry{Designer}%
+{%
+name={Designer},%
+sort={Designer},%
+type={main},%
+first={Designer},%
+firstplural={Designers},%
+text={Designer},%
+plural={Designers},%
+description={Un \glossaryItem {Designer} è una figura professionale che si occupa di progettare qualcosa. Nel nostro caso specifico tendiamo ad indicare con questo termine un tool che ci permetta di disegnare, e progettare quindi, qualcosa},%
+descriptionplural={Un \glossaryItem {Designer} è una figura professionale che si occupa di progettare qualcosa. Nel nostro caso specifico tendiamo ad indicare con questo termine un tool che ci permetta di disegnare, e progettare quindi, qualcosa},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Desktop}{}%
+{%
+\gls@defglossaryentry{Desktop}%
+{%
+name={Desktop},%
+sort={Desktop},%
+type={main},%
+first={Desktop},%
+firstplural={Desktops},%
+text={Desktop},%
+plural={Desktops},%
+description={Si intende il processo di scrittura di software che verrà eseguito in un computer standard (\glossaryItem {Desktop}, portatile o generico). Il software sviluppato potrebbe essere software applicativo, concepito per l'esecuzione di una o più attività e include elementi quali giochi, elaboratori di testo e applicazioni aziendali personalizzate, oppure software di supporto al sistema operativo. Solitamente una \glossaryItem {Applicazione} \glossaryItem {Desktop} richiede una installazione prima di poter esser utilizzata},%
+descriptionplural={Si intende il processo di scrittura di software che verrà eseguito in un computer standard (\glossaryItem {Desktop}, portatile o generico). Il software sviluppato potrebbe essere software applicativo, concepito per l'esecuzione di una o più attività e include elementi quali giochi, elaboratori di testo e applicazioni aziendali personalizzate, oppure software di supporto al sistema operativo. Solitamente una \glossaryItem {Applicazione} \glossaryItem {Desktop} richiede una installazione prima di poter esser utilizzata},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Diagramma delle classi}{}%
+{%
+\gls@defglossaryentry{Diagramma delle classi}%
+{%
+name={Diagramma delle classi},%
+sort={Diagramma delle classi},%
+type={main},%
+first={Diagramma delle classi},%
+firstplural={Diagramma delle classis},%
+text={Diagramma delle classi},%
+plural={Diagramma delle classis},%
+description={È un \glossaryItem {Diagramma} che consente di descrivere dei \emph {tipi di entita}, le caratteristiche e le eventuali relazioni tra questi tipi},%
+descriptionplural={È un \glossaryItem {Diagramma} che consente di descrivere dei \emph {tipi di entita}, le caratteristiche e le eventuali relazioni tra questi tipi},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Diagramma}{}%
+{%
+\gls@defglossaryentry{Diagramma}%
+{%
+name={Diagramma},%
+sort={Diagramma},%
+type={main},%
+first={Diagramma},%
+firstplural={Diagrammas},%
+text={Diagramma},%
+plural={Diagrammas},%
+description={È una rappresentazione simbolica di dati che si prefigge lo scopo di renderli facilmente consultabili, elaborato graficamente secondo convenzioni prestabilite. I \glossaryItem {Diagrammi} si differenziano in base al \glossaryItem {Metodo} di rappresentazione e allo scopo specifico che viene prefissato},%
+descriptionplural={È una rappresentazione simbolica di dati che si prefigge lo scopo di renderli facilmente consultabili, elaborato graficamente secondo convenzioni prestabilite. I \glossaryItem {Diagrammi} si differenziano in base al \glossaryItem {Metodo} di rappresentazione e allo scopo specifico che viene prefissato},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Diagramma delle attivita}{}%
+{%
+\gls@defglossaryentry{Diagramma delle attivita}%
+{%
+name={Diagramma delle attività},%
+sort={Diagramma delle attività},%
+type={main},%
+first={Diagramma delle attivit\IeC {\`a}},%
+firstplural={Diagramma delle attivit\IeC {\`a}s},%
+text={Diagramma delle attivit\IeC {\`a}},%
+plural={Diagramma delle attivit\IeC {\`a}s},%
+description={È un \glossaryItem {Diagramma} definito all'interno dell’\glossaryItem {UML} che definisce le attività da svolgere per realizzare una data funzionalità. Può essere utilizzato durante la progettazione del software per dettagliare un determinato algoritmo},%
+descriptionplural={È un \glossaryItem {Diagramma} definito all'interno dell’\glossaryItem {UML} che definisce le attività da svolgere per realizzare una data funzionalità. Può essere utilizzato durante la progettazione del software per dettagliare un determinato algoritmo},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Diff-match-Patch}{}%
+{%
+\gls@defglossaryentry{Diff-match-Patch}%
+{%
+name={Diff-match-Patch},%
+sort={Diff-match-Patch},%
+type={main},%
+first={Diff-match-Patch},%
+firstplural={Diff-match-Patchs},%
+text={Diff-match-Patch},%
+plural={Diff-match-Patchs},%
+description={Libreria che offre algoritmi robusti per eseguire operazioni di sincronizzazione; si divide in 3 parti: \begin {itemize} \item \textbf {Diff}: Controlla dei blocchi di testo e restituisce un elenco delle differenze; \item \textbf {Match}: Data una sringa, trova la sua miglior corrispondenza rispetto all'accuratezza e alla posizione in cui si trova; \item \textbf {Patch}: Quando non viene effettuato nessu match, aggiunge il blocco di testo nella miglior posizione possibile. \end {itemize}},%
+descriptionplural={Libreria che offre algoritmi robusti per eseguire operazioni di sincronizzazione; si divide in 3 parti: \begin {itemize} \item \textbf {Diff}: Controlla dei blocchi di testo e restituisce un elenco delle differenze; \item \textbf {Match}: Data una sringa, trova la sua miglior corrispondenza rispetto all'accuratezza e alla posizione in cui si trova; \item \textbf {Patch}: Quando non viene effettuato nessu match, aggiunge il blocco di testo nella miglior posizione possibile. \end {itemize}},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Dominio}{}%
+{%
+\gls@defglossaryentry{Dominio}%
+{%
+name={Dominio},%
+sort={Dominio},%
+type={main},%
+first={Dominio},%
+firstplural={Dominios},%
+text={Dominio},%
+plural={Dominios},%
+description={Nel contesto utilizzato si intende focalizzarsi su di un specifico ambito; ovvero la dove si è deciso l’ambito su cui rappresentare i \glossaryItem {Diagrammi} (ad esempio i giochi da tavolo), tutto ciò che riguarda argomenti esterni viene ignorato perché non fa parte di tale dominio},%
+descriptionplural={Nel contesto utilizzato si intende focalizzarsi su di un specifico ambito; ovvero la dove si è deciso l’ambito su cui rappresentare i \glossaryItem {Diagrammi} (ad esempio i giochi da tavolo), tutto ciò che riguarda argomenti esterni viene ignorato perché non fa parte di tale dominio},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Drag-and-drop}{}%
+{%
+\gls@defglossaryentry{Drag-and-drop}%
+{%
+name={Drag-and-drop},%
+sort={Drag-and-drop},%
+type={main},%
+first={Drag-and-drop},%
+firstplural={Drag-and-drops},%
+text={Drag-and-drop},%
+plural={Drag-and-drops},%
+description={Sistema di "trascinamento" di un elemento sullo schermo},%
+descriptionplural={Sistema di "trascinamento" di un elemento sullo schermo},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Editor}{}%
+{%
+\gls@defglossaryentry{Editor}%
+{%
+name={Editor},%
+sort={Editor},%
+type={main},%
+first={Editor},%
+firstplural={Editors},%
+text={Editor},%
+plural={Editors},%
+description={In informatica, é uno strumento tipicamente usato per creare,modificare e salvare un determinato tipo di file. Ad esempio un editor di testo è un programma che permette di realizzare dei file di testo.},%
+descriptionplural={In informatica, é uno strumento tipicamente usato per creare,modificare e salvare un determinato tipo di file. Ad esempio un editor di testo è un programma che permette di realizzare dei file di testo.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{File}{}%
+{%
+\gls@defglossaryentry{File}%
+{%
+name={File},%
+sort={File},%
+type={main},%
+first={File},%
+firstplural={Files},%
+text={File},%
+plural={Files},%
+description={Traducibile come "archivio", ma comunemente chiamato anche "documento"; in informatica, viene utilizzato per riferirsi a un contenitore di informazioni/dati in formato digitale. Le informazioni scritte/codificate al suo interno sono leggibili solo tramite uno specifico software in grado di effettuare l'operazione},%
+descriptionplural={Traducibile come "archivio", ma comunemente chiamato anche "documento"; in informatica, viene utilizzato per riferirsi a un contenitore di informazioni/dati in formato digitale. Le informazioni scritte/codificate al suo interno sono leggibili solo tramite uno specifico software in grado di effettuare l'operazione},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Frame}{}%
+{%
+\gls@defglossaryentry{Frame}%
+{%
+name={Frame},%
+sort={Frame},%
+type={main},%
+first={Frame},%
+firstplural={Frames},%
+text={Frame},%
+plural={Frames},%
+description={In informatica, pagina scomposta in diverse sezioni tra loro indipendenti},%
+descriptionplural={In informatica, pagina scomposta in diverse sezioni tra loro indipendenti},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Framework}{}%
+{%
+\gls@defglossaryentry{Framework}%
+{%
+name={Framework},%
+sort={Framework},%
+type={main},%
+first={Framework},%
+firstplural={Frameworks},%
+text={Framework},%
+plural={Frameworks},%
+description={è un'architettura logica di supporto (spesso un'implementazione logica di un particolare design \glossaryItem {Pattern}) su cui un software può essere progettato e realizzato, spesso facilitandone lo sviluppo da parte del programmatore},%
+descriptionplural={è un'architettura logica di supporto (spesso un'implementazione logica di un particolare design \glossaryItem {Pattern}) su cui un software può essere progettato e realizzato, spesso facilitandone lo sviluppo da parte del programmatore},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Front end}{}%
+{%
+\gls@defglossaryentry{Front end}%
+{%
+name={Front end},%
+sort={Front end},%
+type={main},%
+first={Front end},%
+firstplural={Front ends},%
+text={Front end},%
+plural={Front ends},%
+description={La parte del prodotto software con cui l'\glossaryItem {Utente} può interagire},%
+descriptionplural={La parte del prodotto software con cui l'\glossaryItem {Utente} può interagire},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Gantt}{}%
+{%
+\gls@defglossaryentry{Gantt}%
+{%
+name={Gantt},%
+sort={Gantt},%
+type={main},%
+first={Gantt},%
+firstplural={Gantts},%
+text={Gantt},%
+plural={Gantts},%
+description={Il \glossaryItem {Diagramma} di Gantt usato principalmente nelle attività di project management, è costruito partendo da un asse orizzontale - a rappresentazione dell'arco temporale totale del progetto, suddiviso in fasi incrementali (ad esempio, giorni, settimane, mesi) - e da un asse verticale - a rappresentazione delle mansioni o attività che costituiscono il progetto},%
+descriptionplural={Il \glossaryItem {Diagramma} di Gantt usato principalmente nelle attività di project management, è costruito partendo da un asse orizzontale - a rappresentazione dell'arco temporale totale del progetto, suddiviso in fasi incrementali (ad esempio, giorni, settimane, mesi) - e da un asse verticale - a rappresentazione delle mansioni o attività che costituiscono il progetto},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{GitHub}{}%
+{%
+\gls@defglossaryentry{GitHub}%
+{%
+name={GitHub},%
+sort={GitHub},%
+type={main},%
+first={GitHub},%
+firstplural={GitHubs},%
+text={GitHub},%
+plural={GitHubs},%
+description={È un servizio di hosting per progetti software},%
+descriptionplural={È un servizio di hosting per progetti software},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Google}{}%
+{%
+\gls@defglossaryentry{Google}%
+{%
+name={Google},%
+sort={Google},%
+type={main},%
+first={Google},%
+firstplural={Googles},%
+text={Google},%
+plural={Googles},%
+description={Google Inc. è una multinazionale americana che offre vari servizi online},%
+descriptionplural={Google Inc. è una multinazionale americana che offre vari servizi online},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Google Drive}{}%
+{%
+\gls@defglossaryentry{Google Drive}%
+{%
+name={Google Drive},%
+sort={Google Drive},%
+type={main},%
+first={Google Drive},%
+firstplural={Google Drives},%
+text={Google Drive},%
+plural={Google Drives},%
+description={È un servizio, in ambiente cloud computing, di memorizzazione e sincronizzazione onlineche comprende il \glossaryItem {File} hosting, il \glossaryItem {File} sharing e la modifica collaborativa di documenti},%
+descriptionplural={È un servizio, in ambiente cloud computing, di memorizzazione e sincronizzazione onlineche comprende il \glossaryItem {File} hosting, il \glossaryItem {File} sharing e la modifica collaborativa di documenti},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{IA}{}%
+{%
+\gls@defglossaryentry{IA}%
+{%
+name={IA},%
+sort={IA},%
+type={main},%
+first={IA},%
+firstplural={IAs},%
+text={IA},%
+plural={IAs},%
+description={Acronimo che rappresenta \glossaryItem {Intelligenza Artificiale}},%
+descriptionplural={Acronimo che rappresenta \glossaryItem {Intelligenza Artificiale}},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{IEC}{}%
+{%
+\gls@defglossaryentry{IEC}%
+{%
+name={IEC},%
+sort={IEC},%
+type={main},%
+first={IEC},%
+firstplural={IECs},%
+text={IEC},%
+plural={IECs},%
+description={Commissione elettrotecnica internazionale, dall'inglese International Electrotechnical Commission, è un'organizzazione internazionale per la definizione di standard in materia di elettricità, elettronica e tecnologie correlate},%
+descriptionplural={Commissione elettrotecnica internazionale, dall'inglese International Electrotechnical Commission, è un'organizzazione internazionale per la definizione di standard in materia di elettricità, elettronica e tecnologie correlate},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ISO}{}%
+{%
+\gls@defglossaryentry{ISO}%
+{%
+name={ISO},%
+sort={ISO},%
+type={main},%
+first={ISO},%
+firstplural={ISOs},%
+text={ISO},%
+plural={ISOs},%
+description={L'Organizzazione internazionale per la normazione, in inglese ISO, è la più importante organizzazione a livello mondiale per la definizione di norme tecniche},%
+descriptionplural={L'Organizzazione internazionale per la normazione, in inglese ISO, è la più importante organizzazione a livello mondiale per la definizione di norme tecniche},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Intelligenza Artificiale}{}%
+{%
+\gls@defglossaryentry{Intelligenza Artificiale}%
+{%
+name={Intelligenza Artificiale},%
+sort={Intelligenza Artificiale},%
+type={main},%
+first={Intelligenza Artificiale},%
+firstplural={Intelligenza Artificiales},%
+text={Intelligenza Artificiale},%
+plural={Intelligenza Artificiales},%
+description={disciplina appartenente all'informatica che studia i fondamenti teorici, le \glossaryItem {Metodo}logie e le tecniche che consentono la progettazione di sistemi hardware e sistemi di programmi software capaci di fornire all’elaboratore elettronico prestazioni che, a un osservatore comune, sembrerebbero essere di pertinenza esclusiva dell’intelligenza umana},%
+descriptionplural={disciplina appartenente all'informatica che studia i fondamenti teorici, le \glossaryItem {Metodo}logie e le tecniche che consentono la progettazione di sistemi hardware e sistemi di programmi software capaci di fornire all’elaboratore elettronico prestazioni che, a un osservatore comune, sembrerebbero essere di pertinenza esclusiva dell’intelligenza umana},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Java}{}%
+{%
+\gls@defglossaryentry{Java}%
+{%
+name={Java},%
+sort={Java},%
+type={main},%
+first={Java},%
+firstplural={Javas},%
+text={Java},%
+plural={Javas},%
+description={È un linguaggio di programmazione ad alto livello, orientato agli oggetti e a tipizzazione statica, specificatamente progettato per essere il più possibile indipendente dalla piattaforma di esecuzione},%
+descriptionplural={È un linguaggio di programmazione ad alto livello, orientato agli oggetti e a tipizzazione statica, specificatamente progettato per essere il più possibile indipendente dalla piattaforma di esecuzione},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{JavaScript}{}%
+{%
+\gls@defglossaryentry{JavaScript}%
+{%
+name={JavaScript},%
+sort={JavaScript},%
+type={main},%
+first={JavaScript},%
+firstplural={JavaScripts},%
+text={JavaScript},%
+plural={JavaScripts},%
+description={È un linguaggio di \glossaryItem {Script}ing orientato agli oggetti e agli eventi, comunemente utilizzato nella programmazione Web lato \glossaryItem {Client} per la creazione, in siti web e web-app, di effetti dinamici interattivi tramite funzioni di \glossaryItem {Script} invocate da eventi innescati a loro volta in vari modi dall'\glossaryItem {Utente} sulla pagina web in uso (mouse, tastiera, caricamento della pagina ecc...)},%
+descriptionplural={È un linguaggio di \glossaryItem {Script}ing orientato agli oggetti e agli eventi, comunemente utilizzato nella programmazione Web lato \glossaryItem {Client} per la creazione, in siti web e web-app, di effetti dinamici interattivi tramite funzioni di \glossaryItem {Script} invocate da eventi innescati a loro volta in vari modi dall'\glossaryItem {Utente} sulla pagina web in uso (mouse, tastiera, caricamento della pagina ecc...)},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{JSON}{}%
+{%
+\gls@defglossaryentry{JSON}%
+{%
+name={JSON},%
+sort={JSON},%
+type={main},%
+first={JSON},%
+firstplural={JSONs},%
+text={JSON},%
+plural={JSONs},%
+description={Acronimo di \glossaryItem {Java}\glossaryItem {Script} Object Notation, è un formato adatto all'interscambio di dati fra applicazioni \glossaryItem {Client}-server},%
+descriptionplural={Acronimo di \glossaryItem {Java}\glossaryItem {Script} Object Notation, è un formato adatto all'interscambio di dati fra applicazioni \glossaryItem {Client}-server},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{LaTeX}{}%
+{%
+\gls@defglossaryentry{LaTeX}%
+{%
+name={LaTeX},%
+sort={LaTeX},%
+type={main},%
+first={LaTeX},%
+firstplural={LaTeXs},%
+text={LaTeX},%
+plural={LaTeXs},%
+description={È un linguaggio di markup usato per la preparazione di testi basato sul programma di composizione tipografica TEX},%
+descriptionplural={È un linguaggio di markup usato per la preparazione di testi basato sul programma di composizione tipografica TEX},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Layer}{}%
+{%
+\gls@defglossaryentry{Layer}%
+{%
+name={Layer},%
+sort={Layer},%
+type={main},%
+first={Layer},%
+firstplural={Layers},%
+text={Layer},%
+plural={Layers},%
+description={Sinonimo di strato,livello},%
+descriptionplural={Sinonimo di strato,livello},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Licenza MIT}{}%
+{%
+\gls@defglossaryentry{Licenza MIT}%
+{%
+name={Licenza MIT},%
+sort={Licenza MIT},%
+type={main},%
+first={Licenza MIT},%
+firstplural={Licenza MITs},%
+text={Licenza MIT},%
+plural={Licenza MITs},%
+description={è una licenza di software libero creata dal Massachusetts Institute of Technology (MIT). È una licenza permissiva, cioè permette il riutilizzo nel software proprietario sotto la condizione che la licenza sia distribuita con tale software},%
+descriptionplural={è una licenza di software libero creata dal Massachusetts Institute of Technology (MIT). È una licenza permissiva, cioè permette il riutilizzo nel software proprietario sotto la condizione che la licenza sia distribuita con tale software},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Login}{}%
+{%
+\gls@defglossaryentry{Login}%
+{%
+name={Login},%
+sort={Login},%
+type={main},%
+first={Login},%
+firstplural={Logins},%
+text={Login},%
+plural={Logins},%
+description={È un termine utilizzato per indicare la procedura di accesso ad un sistema informatico o ad un'\glossaryItem {Applicazione} informatica},%
+descriptionplural={È un termine utilizzato per indicare la procedura di accesso ad un sistema informatico o ad un'\glossaryItem {Applicazione} informatica},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Merge}{}%
+{%
+\gls@defglossaryentry{Merge}%
+{%
+name={Merge},%
+sort={Merge},%
+type={main},%
+first={Merge},%
+firstplural={Merges},%
+text={Merge},%
+plural={Merges},%
+description={tradotto dall'inglese fusione},%
+descriptionplural={tradotto dall'inglese fusione},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Metodo}{}%
+{%
+\gls@defglossaryentry{Metodo}%
+{%
+name={Metodo},%
+sort={Metodo},%
+type={main},%
+first={Metodo},%
+firstplural={Metodos},%
+text={Metodo},%
+plural={Metodos},%
+description={In informatica, è un termine che viene usato principalmente nel contesto della programmazione orientata agli oggetti per indicare un sottoprogramma associato in modo esclusivo ad una \glossaryItem {Classe} e che rappresenta (in genere) un'operazione eseguibile sugli oggetti e istanze di quella \glossaryItem {Classe}. È formato da: - una firma ovvero la definizione/dichiarazione del \glossaryItem {Metodo} con tipo di ritorno, nome del \glossaryItem {Metodo}, tipo e nome degli eventuali parametri passati in input. - un corpo, opportunamente delimitato da inizio e fine, con all'interno una o più sequenze o blocchi di istruzioni scritte per eseguire una determinata azione},%
+descriptionplural={In informatica, è un termine che viene usato principalmente nel contesto della programmazione orientata agli oggetti per indicare un sottoprogramma associato in modo esclusivo ad una \glossaryItem {Classe} e che rappresenta (in genere) un'operazione eseguibile sugli oggetti e istanze di quella \glossaryItem {Classe}. È formato da: - una firma ovvero la definizione/dichiarazione del \glossaryItem {Metodo} con tipo di ritorno, nome del \glossaryItem {Metodo}, tipo e nome degli eventuali parametri passati in input. - un corpo, opportunamente delimitato da inizio e fine, con all'interno una o più sequenze o blocchi di istruzioni scritte per eseguire una determinata azione},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Microservizi}{}%
+{%
+\gls@defglossaryentry{Microservizi}%
+{%
+name={Microservizi},%
+sort={Microservizi},%
+type={main},%
+first={Microservizi},%
+firstplural={Microservizis},%
+text={Microservizi},%
+plural={Microservizis},%
+description={sono dei servizi “piccoli” ed autonomi che interagiscono tra di loro e che hanno come finalità quella di fare una cosa e di farla bene; sono a tutti gli effetti dei sistemi distribuiti},%
+descriptionplural={sono dei servizi “piccoli” ed autonomi che interagiscono tra di loro e che hanno come finalità quella di fare una cosa e di farla bene; sono a tutti gli effetti dei sistemi distribuiti},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Node.js}{}%
+{%
+\gls@defglossaryentry{Node.js}%
+{%
+name={Node.js},%
+sort={Node.js},%
+type={main},%
+first={Node.js},%
+firstplural={Node.jss},%
+text={Node.js},%
+plural={Node.jss},%
+description={è un \glossaryItem {Frame}work per la realizzazione di applicazioni Web in \glossaryItem {Java}\glossaryItem {Script}, permettendo di utilizzare questo linguaggio, tipicamente utilizzato nella “\glossaryItem {Client}-side”, anche per la scrittura di applicazioni “\glossaryItem {Server}-side”},%
+descriptionplural={è un \glossaryItem {Frame}work per la realizzazione di applicazioni Web in \glossaryItem {Java}\glossaryItem {Script}, permettendo di utilizzare questo linguaggio, tipicamente utilizzato nella “\glossaryItem {Client}-side”, anche per la scrittura di applicazioni “\glossaryItem {Server}-side”},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Open-source}{}%
+{%
+\gls@defglossaryentry{Open-source}%
+{%
+name={Open-source},%
+sort={Open-source},%
+type={main},%
+first={Open-source},%
+firstplural={Open-sources},%
+text={Open-source},%
+plural={Open-sources},%
+description={Indica che il \glossaryItem {Codice} sorgente di un prodotto software è reso acessibile da una licenza, essa permette a terzi il diritto di poter studiare, cambiare e ridistribuire il software modificato},%
+descriptionplural={Indica che il \glossaryItem {Codice} sorgente di un prodotto software è reso acessibile da una licenza, essa permette a terzi il diritto di poter studiare, cambiare e ridistribuire il software modificato},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Package}{}%
+{%
+\gls@defglossaryentry{Package}%
+{%
+name={Package},%
+sort={Package},%
+type={main},%
+first={Package},%
+firstplural={Packages},%
+text={Package},%
+plural={Packages},%
+description={Nel linguaggio di programmazione \glossaryItem {Java}, un \glossaryItem {Package} è una collezione di \glossaryItem {Classi} e interfacce correlate},%
+descriptionplural={Nel linguaggio di programmazione \glossaryItem {Java}, un \glossaryItem {Package} è una collezione di \glossaryItem {Classi} e interfacce correlate},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Pattern}{}%
+{%
+\gls@defglossaryentry{Pattern}%
+{%
+name={Pattern},%
+sort={Pattern},%
+type={main},%
+first={Pattern},%
+firstplural={Patterns},%
+text={Pattern},%
+plural={Patterns},%
+description={È un termine inglese, che può essere tradotto, a seconda del contesto, con "disegno, modello, schema, schema ricorrente, struttura ripetitiva" e, in generale, può essere utilizzato per indicare una regolarità che si riscontra all'interno di un insieme di oggetti osservati},%
+descriptionplural={È un termine inglese, che può essere tradotto, a seconda del contesto, con "disegno, modello, schema, schema ricorrente, struttura ripetitiva" e, in generale, può essere utilizzato per indicare una regolarità che si riscontra all'interno di un insieme di oggetti osservati},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{PDCA}{}%
+{%
+\gls@defglossaryentry{PDCA}%
+{%
+name={PDCA},%
+sort={PDCA},%
+type={main},%
+first={PDCA},%
+firstplural={PDCAs},%
+text={PDCA},%
+plural={PDCAs},%
+description={Un \glossaryItem {Metodo} di gestione iterativo in quattro fasi utilizzato in attività per il controllo e il miglioramento continuo dei processi e dei prodotti},%
+descriptionplural={Un \glossaryItem {Metodo} di gestione iterativo in quattro fasi utilizzato in attività per il controllo e il miglioramento continuo dei processi e dei prodotti},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{PDSA}{}%
+{%
+\gls@defglossaryentry{PDSA}%
+{%
+name={PDSA},%
+sort={PDSA},%
+type={main},%
+first={PDSA},%
+firstplural={PDSAs},%
+text={PDSA},%
+plural={PDSAs},%
+description={sinonimo di \glossaryItem {PDCA} e acronimo di Plan Do Study Act},%
+descriptionplural={sinonimo di \glossaryItem {PDCA} e acronimo di Plan Do Study Act},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Perl}{}%
+{%
+\gls@defglossaryentry{Perl}%
+{%
+name={Perl},%
+sort={Perl},%
+type={main},%
+first={Perl},%
+firstplural={Perls},%
+text={Perl},%
+plural={Perls},%
+description={È una famiglia di linguaggi di programmazione ad alto livello, interpretati, e dinamici},%
+descriptionplural={È una famiglia di linguaggi di programmazione ad alto livello, interpretati, e dinamici},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{PNG}{}%
+{%
+\gls@defglossaryentry{PNG}%
+{%
+name={PNG},%
+sort={PNG},%
+type={main},%
+first={PNG},%
+firstplural={PNGs},%
+text={PNG},%
+plural={PNGs},%
+description={il \glossaryItem {PNG} è un formato grafico per i \glossaryItem {File} che offre: \begin {itemize} \item gestione dei colori \glossaryItem {Classi}ca tipo bitmap oppure indicizzata; \item possibilità di trasmettere l'immagine lungo un canale di comunicazione seriale (serializzazione dell'immagine); \item visualizzazione progressiva dell'immagine, grazie all'interlacciamento della medesima; \item supporto alla trasparenza mediante un canale alfa dedicato, ampliando le caratteristiche già presenti nel tipo GIF89a; \item informazioni ausiliarie di qualsiasi natura accluse al \glossaryItem {File}; \item indipendenza dall'hardware e dalla piattaforma in uso; \item compressione dei dati di tipo lossless grazie all'algoritmo deflate; \item immagini truecolor fino a 48 bpp; \item immagini in scala di grigio sino a 16 bpp; \item filtraggio per migliorare le prestazioni della compressione; \item informazioni sulla correzione di gamma dell'immagine; \end {itemize}},%
+descriptionplural={il \glossaryItem {PNG} è un formato grafico per i \glossaryItem {File} che offre: \begin {itemize} \item gestione dei colori \glossaryItem {Classi}ca tipo bitmap oppure indicizzata; \item possibilità di trasmettere l'immagine lungo un canale di comunicazione seriale (serializzazione dell'immagine); \item visualizzazione progressiva dell'immagine, grazie all'interlacciamento della medesima; \item supporto alla trasparenza mediante un canale alfa dedicato, ampliando le caratteristiche già presenti nel tipo GIF89a; \item informazioni ausiliarie di qualsiasi natura accluse al \glossaryItem {File}; \item indipendenza dall'hardware e dalla piattaforma in uso; \item compressione dei dati di tipo lossless grazie all'algoritmo deflate; \item immagini truecolor fino a 48 bpp; \item immagini in scala di grigio sino a 16 bpp; \item filtraggio per migliorare le prestazioni della compressione; \item informazioni sulla correzione di gamma dell'immagine; \end {itemize}},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Proponente}{}%
+{%
+\gls@defglossaryentry{Proponente}%
+{%
+name={Proponente},%
+sort={Proponente},%
+type={main},%
+first={Proponente},%
+firstplural={Proponentes},%
+text={Proponente},%
+plural={Proponentes},%
+description={Colui che propone un lavoro o una prestazione},%
+descriptionplural={Colui che propone un lavoro o una prestazione},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Repository}{}%
+{%
+\gls@defglossaryentry{Repository}%
+{%
+name={Repository},%
+sort={Repository},%
+type={main},%
+first={Repository},%
+firstplural={Repositorys},%
+text={Repository},%
+plural={Repositorys},%
+description={Si tratta di uno stile architetturale che può essere utilizzato come base di un'architettura software. I sottosistemi che compongono il software accedono e modificano una singola struttura dati chiamata appunto repository},%
+descriptionplural={Si tratta di uno stile architetturale che può essere utilizzato come base di un'architettura software. I sottosistemi che compongono il software accedono e modificano una singola struttura dati chiamata appunto repository},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Script}{}%
+{%
+\gls@defglossaryentry{Script}%
+{%
+name={Script},%
+sort={Script},%
+type={main},%
+first={Script},%
+firstplural={Scripts},%
+text={Script},%
+plural={Scripts},%
+description={In informatica, designa un tipo particolare di programma, scritto in una particolare \glossaryItem {Classe} di linguaggi di programmazione, detti linguaggi di \glossaryItem {Script}ing},%
+descriptionplural={In informatica, designa un tipo particolare di programma, scritto in una particolare \glossaryItem {Classe} di linguaggi di programmazione, detti linguaggi di \glossaryItem {Script}ing},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{SDK}{}%
+{%
+\gls@defglossaryentry{SDK}%
+{%
+name={SDK},%
+sort={SDK},%
+type={main},%
+first={SDK},%
+firstplural={SDKs},%
+text={SDK},%
+plural={SDKs},%
+description={Software Development Kit, indica genericamente un insieme di strumenti per lo sviluppo e la documentazione di software},%
+descriptionplural={Software Development Kit, indica genericamente un insieme di strumenti per lo sviluppo e la documentazione di software},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Server}{}%
+{%
+\gls@defglossaryentry{Server}%
+{%
+name={Server},%
+sort={Server},%
+type={main},%
+first={Server},%
+firstplural={Servers},%
+text={Server},%
+plural={Servers},%
+description={Componente di elaborazione e gestione del traffico di informazioni che fornisce un servizio ad altre componenti (tipicamente \glossaryItem {Client})},%
+descriptionplural={Componente di elaborazione e gestione del traffico di informazioni che fornisce un servizio ad altre componenti (tipicamente \glossaryItem {Client})},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Sistema di tiketing}{}%
+{%
+\gls@defglossaryentry{Sistema di tiketing}%
+{%
+name={Sistema di tiketing},%
+sort={Sistema di tiketing},%
+type={main},%
+first={Sistema di tiketing},%
+firstplural={Sistema di tiketings},%
+text={Sistema di tiketing},%
+plural={Sistema di tiketings},%
+description={strumento per la gestione e controllo di liste di tracciamento dei problemi},%
+descriptionplural={strumento per la gestione e controllo di liste di tracciamento dei problemi},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Slack}{}%
+{%
+\gls@defglossaryentry{Slack}%
+{%
+name={Slack},%
+sort={Slack},%
+type={main},%
+first={Slack},%
+firstplural={Slacks},%
+text={Slack},%
+plural={Slacks},%
+description={il periodo di tempo durante il quale un'attività può essere ritardata senza creare ritardi al progetto di cui fa parte},%
+descriptionplural={il periodo di tempo durante il quale un'attività può essere ritardata senza creare ritardi al progetto di cui fa parte},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Stand-alone}{}%
+{%
+\gls@defglossaryentry{Stand-alone}%
+{%
+name={Stand-alone},%
+sort={Stand-alone},%
+type={main},%
+first={Stand-alone},%
+firstplural={Stand-alones},%
+text={Stand-alone},%
+plural={Stand-alones},%
+description={Indica un software capace di funzionare da solo o in maniera indipendente da altri software},%
+descriptionplural={Indica un software capace di funzionare da solo o in maniera indipendente da altri software},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Template}{}%
+{%
+\gls@defglossaryentry{Template}%
+{%
+name={Template},%
+sort={Template},%
+type={main},%
+first={Template},%
+firstplural={Templates},%
+text={Template},%
+plural={Templates},%
+description={In informatica indica un documento o programma nel quale, come in un foglio semicompilato cartaceo, su una struttura generica o standard esistono spazi temporaneamente "bianchi" da riempire successivamente},%
+descriptionplural={In informatica indica un documento o programma nel quale, come in un foglio semicompilato cartaceo, su una struttura generica o standard esistono spazi temporaneamente "bianchi" da riempire successivamente},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Telegram}{}%
+{%
+\gls@defglossaryentry{Telegram}%
+{%
+name={Telegram},%
+sort={Telegram},%
+type={main},%
+first={Telegram},%
+firstplural={Telegrams},%
+text={Telegram},%
+plural={Telegrams},%
+description={È un servizio di messaggistica istantanea basato su cloud ed erogato senza fini di lucro},%
+descriptionplural={È un servizio di messaggistica istantanea basato su cloud ed erogato senza fini di lucro},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{TexMaker}{}%
+{%
+\gls@defglossaryentry{TexMaker}%
+{%
+name={TexMaker},%
+sort={TexMaker},%
+type={main},%
+first={TexMaker},%
+firstplural={TexMakers},%
+text={TexMaker},%
+plural={TexMakers},%
+description={Editor per la creazione, modifica e compilazione di \glossaryItem {File} \glossaryItem {\LaTeX }},%
+descriptionplural={Editor per la creazione, modifica e compilazione di \glossaryItem {File} \glossaryItem {\LaTeX }},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Ticket}{}%
+{%
+\gls@defglossaryentry{Ticket}%
+{%
+name={Ticket},%
+sort={Ticket},%
+type={main},%
+first={Ticket},%
+firstplural={Tickets},%
+text={Ticket},%
+plural={Tickets},%
+description={All'interno di un \glossaryItem {sistema di tiketing} un \glossaryItem {Ticket} è un rapporto su un particolare problema, il suo stato corrente e altri dati di interesse},%
+descriptionplural={All'interno di un \glossaryItem {sistema di tiketing} un \glossaryItem {Ticket} è un rapporto su un particolare problema, il suo stato corrente e altri dati di interesse},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Trender}{}%
+{%
+\gls@defglossaryentry{Trender}%
+{%
+name={Trender},%
+sort={Trender},%
+type={main},%
+first={Trender},%
+firstplural={Trenders},%
+text={Trender},%
+plural={Trenders},%
+description={È un software open source per il tracciamento dei requisiti e dei casi d'uso che genera il \glossaryItem {Codice} \glossaryItem {LaTeX}\ corrispondente},%
+descriptionplural={È un software open source per il tracciamento dei requisiti e dei casi d'uso che genera il \glossaryItem {Codice} \glossaryItem {LaTeX}\ corrispondente},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Use Case}{}%
+{%
+\gls@defglossaryentry{Use Case}%
+{%
+name={Use Case},%
+sort={Use Case},%
+type={main},%
+first={Use Case},%
+firstplural={Use Cases},%
+text={Use Case},%
+plural={Use Cases},%
+description={Rappresenta una funzione o servizio offerto dal sistema a uno o più attori},%
+descriptionplural={Rappresenta una funzione o servizio offerto dal sistema a uno o più attori},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{UML}{}%
+{%
+\gls@defglossaryentry{UML}%
+{%
+name={UML},%
+sort={UML},%
+type={main},%
+first={UML},%
+firstplural={UMLs},%
+text={UML},%
+plural={UMLs},%
+description={L'\glossaryItem {UML}, o unified modeling language (linguaggio di modellizzazione unificato) è un linguaggio di modellazione basato sul paradigma dell'orientamento agli oggetti che mira a creare uno standard che possa unificare tutti i linguaggi che ne fanno uso},%
+descriptionplural={L'\glossaryItem {UML}, o unified modeling language (linguaggio di modellizzazione unificato) è un linguaggio di modellazione basato sul paradigma dell'orientamento agli oggetti che mira a creare uno standard che possa unificare tutti i linguaggi che ne fanno uso},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Username}{}%
+{%
+\gls@defglossaryentry{Username}%
+{%
+name={Username},%
+sort={Username},%
+type={main},%
+first={Username},%
+firstplural={Usernames},%
+text={Username},%
+plural={Usernames},%
+description={(in lingua italiana nome \glossaryItem {Utente}) In informatica definisce il nome con il quale l'\glossaryItem {Utente} viene riconosciuto da un computer, da un programma o da un server},%
+descriptionplural={(in lingua italiana nome \glossaryItem {Utente}) In informatica definisce il nome con il quale l'\glossaryItem {Utente} viene riconosciuto da un computer, da un programma o da un server},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Utente}{}%
+{%
+\gls@defglossaryentry{Utente}%
+{%
+name={Utente},%
+sort={Utente},%
+type={main},%
+first={Utente},%
+firstplural={Utentes},%
+text={Utente},%
+plural={Utentes},%
+description={È colui che usufruisce di un bene o di un servizio, generalmente collettivo, fornito da enti pubblici o strutture private. In ambito informatico è colui che interagisce con un computer},%
+descriptionplural={È colui che usufruisce di un bene o di un servizio, generalmente collettivo, fornito da enti pubblici o strutture private. In ambito informatico è colui che interagisce con un computer},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{UTF-8}{}%
+{%
+\gls@defglossaryentry{UTF-8}%
+{%
+name={UTF-8},%
+sort={UTF-8},%
+type={main},%
+first={UTF-8},%
+firstplural={UTF-8s},%
+text={UTF-8},%
+plural={UTF-8s},%
+description={UTF-8 (Unicode Transformation Format, 8 bit) è una codifica di caratteri Unicode in sequenze di lunghezza variabile di byte},%
+descriptionplural={UTF-8 (Unicode Transformation Format, 8 bit) è una codifica di caratteri Unicode in sequenze di lunghezza variabile di byte},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Web App}{}%
+{%
+\gls@defglossaryentry{Web App}%
+{%
+name={Web App},%
+sort={Web App},%
+type={main},%
+first={Web App},%
+firstplural={Web Apps},%
+text={Web App},%
+plural={Web Apps},%
+description={Si indica con \glossaryItem {Web App}, genericamente, tutte quelle applicazioni web-based, ovvero un'\glossaryItem {Applicazione} fruibile via web tramite un network, ovvero mediante l'utilizzo di una struttura tipica \glossaryItem {Client}-server},%
+descriptionplural={Si indica con \glossaryItem {Web App}, genericamente, tutte quelle applicazioni web-based, ovvero un'\glossaryItem {Applicazione} fruibile via web tramite un network, ovvero mediante l'utilizzo di una struttura tipica \glossaryItem {Client}-server},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{XML}{}%
+{%
+\gls@defglossaryentry{XML}%
+{%
+name={XML},%
+sort={XML},%
+type={main},%
+first={XML},%
+firstplural={XMLs},%
+text={XML},%
+plural={XMLs},%
+description={È un linguaggio di markup che definisce un insieme di regole per scrivere documenti in un fromato che sia facilmente leggibile sia per l'uomo che per il software},%
+descriptionplural={È un linguaggio di markup che definisce un insieme di regole per scrivere documenti in un fromato che sia facilmente leggibile sia per l'uomo che per il software},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Zoom}{}%
+{%
+\gls@defglossaryentry{Zoom}%
+{%
+name={Zoom},%
+sort={Zoom},%
+type={main},%
+first={Zoom},%
+firstplural={Zooms},%
+text={Zoom},%
+plural={Zooms},%
+description={Sinonimo di ingrandimento},%
+descriptionplural={Sinonimo di ingrandimento},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%

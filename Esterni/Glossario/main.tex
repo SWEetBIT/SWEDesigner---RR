@@ -9,7 +9,8 @@
 
 \setlength{\cftsubsecnumwidth}{3em}
 
-\usepackage[section]{glossaries}
+%\usepackage{glossaries}
+\usepackage[toc]{glossaries}
 
 \newglossarystyle{myaltlistgroup}{%
   \setglossarystyle{altlistgroup}%
@@ -22,14 +23,16 @@
 }
 
 \makeglossaries
-\loadglsentries{diocane}
-
+\loadglsentries{res/sections/glossario}
+%\glstoctrue
 
 \title{\textbf{Glossario}}
 \author{SWEet BIT}
 
 \date{1 marzo 2017}
 
+%COMPILARE IL FILE DA TERMINALE CON:
+%makeindex -s main.ist -o main.gls main.glo
 
 \begin{document}
 
@@ -37,12 +40,16 @@
 
 \makeFrontPage
 
+\include{res/versions}
+
 %\tableofcontents
 %\listoffigures
 %\listoftables
 
-\include{res/versions}
+
 \include{res/listOfSections}
 
+
+%\printglossary[style=myaltlistgroup]
 
 \end{document}
