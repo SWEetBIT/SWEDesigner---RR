@@ -834,7 +834,7 @@ svolge le sue funzioni;
 \newpage
 \subsection{UC6.3.1 - Editor \glossaryItem{Diagrammi delle classi}}
 \label{ssec:UC6.3.1}
-\begin{figure}[h!]
+\begin{figure}[H]
 \centering
 \includegraphics[scale=0.5]{../../Casi D'uso/UC6.3.1.png}
 \caption{Caso d'uso UC6.3.1}
@@ -849,38 +849,18 @@ svolge le sue funzioni;
 \end{itemize}
 \subsection{UC6.3.1.1 - Eliminazione Classe}
 \label{ssec:UC6.3.1.1}
-\begin{figure}[h!]
-\centering
-\includegraphics[scale=0.5]{../../Casi D'uso/UC6.3.1.1.png}
-\caption{Caso d'uso UC6.3.1.1}
- \end{figure}
 \begin{itemize}
 \item \textbf{Attori}: \glossaryItem{Utente} autenticato;
 \item \textbf{Descrizione}: L'attore può eliminare una \glossaryItem{Classe} dal progetto corrente;
 \item \textbf{Precondizione}: Deve essere stata disegnata una \glossaryItem{Classe};
-\item \textbf{Postcondizione}: Viene eliminata la \glossaryItem{Classe} selezionata e, a cascata, tutti i \glossaryItem{Metodi} ad essa, e solo ad essa, associati, tutti gli attributi e tutte le relazioni che la coinvolgono;
-\item \textbf{Scenario principale}: \begin{enumerate}\item Eliminazione \glossaryItem{Metodo} (UC6.3.1.1.1);\item Eliminazione Attributo (UC6.3.1.1.2).
+\item \textbf{Postcondizione}: Viene eliminata la \glossaryItem{Classe} selezionata, la quale richiama l'eliminazione di:
+\begin{itemize}
+\item tutti i \glossaryItem{Metodi} che le appartengono (UC 6.3.1.10);
+\item tutti gli attributi associati(UC 6.3.1.11);
+\item tutte le relazioni(UC 6.3.1.2) che la coinvolgono;
+\end{itemize} 
+\item \textbf{Scenario principale}: \begin{enumerate}\item Eliminazione \glossaryItem{Metodo} (UC 6.3.1.10);\item Eliminazione Attributo (UC 6.3.1.11);\item Eliminazione Relazioni (UC 6.3.1.2)
  \end{enumerate}
-\end{itemize}
-\subsection{UC6.3.1.1.1 - Eliminazione Metodo}
-\label{ssec:UC6.3.1.1.1}
-\begin{itemize}
-\item \textbf{Attori}: \glossaryItem{Utente} autenticato;
-\item \textbf{Descrizione}: L'attore ha disegnato una \glossaryItem{Classe} con almeno un \glossaryItem{Metodo} ed  eventualmente anche il \glossaryItem{Diagramma delle attività} corrispondente e può eliminarlo;
-\item \textbf{Precondizione}: È stata creata una \glossaryItem{Classe} con almeno un \glossaryItem{Metodo};
-\item \textbf{Postcondizione}: Viene eliminato il \glossaryItem{Metodo} selezionato e, a cascata, il \glossaryItem{Diagramma delle attività} associato se esistente;
-\item \textbf{Scenario principale}: L'attore elimina un metodo di una classe;
-\item \textbf{Scenari alternativi}: L'attore ha aggiunto un nuovo \glossaryItem{Metodo} e desidera eliminarlo.
-\end{itemize}
-\subsection{UC6.3.1.1.2 - Eliminazione Attributo}
-\label{ssec:UC6.3.1.1.2}
-\begin{itemize}
-\item \textbf{Attori}: \glossaryItem{Utente} autenticato;
-\item \textbf{Descrizione}: L'attore ha disegnato una \glossaryItem{Classe} con almeno un attributo al suo interno e può eliminarlo;
-\item \textbf{Precondizione}: È stata creata una \glossaryItem{Classe} con almeno un attributo;
-\item \textbf{Postcondizione}: L'attributo selezionato viene eliminato;
-\item \textbf{Scenario principale}: L'attore elimina un attributo di una classe;
-\item \textbf{Scenari alternativi}: L'attore ha aggiunto un nuovo attributo e desidera eliminarlo.
 \end{itemize}
 \subsection{UC6.3.1.2 - Eliminazione Relazione}
 \label{ssec:UC6.3.1.2}
@@ -1159,6 +1139,26 @@ svolge le sue funzioni;
 \item \textbf{Precondizione}: È stato creato un \glossaryItem{Diagramma} delle \glossaryItem{Classi} con almeno un commento al suo interno;
 \item \textbf{Postcondizione}: Il commento selezionato è stato eliminato;
 \item \textbf{Scenario principale}: L'attore elimina un commento.
+\end{itemize}
+\subsection{UC6.3.1.10 - Eliminazione Metodo}
+\label{ssec:UC6.3.1.10}
+\begin{itemize}
+\item \textbf{Attori}: \glossaryItem{Utente} autenticato;
+\item \textbf{Descrizione}: L'attore ha disegnato una \glossaryItem{Classe} con almeno un \glossaryItem{Metodo} ed  eventualmente anche il \glossaryItem{Diagramma delle attività} corrispondente e può eliminarlo;
+\item \textbf{Precondizione}: È stata creata una \glossaryItem{Classe} con almeno un \glossaryItem{Metodo};
+\item \textbf{Postcondizione}: Viene eliminato il \glossaryItem{Metodo} selezionato e, a cascata, il \glossaryItem{Diagramma delle attività} associato se esistente;
+\item \textbf{Scenario principale}: L'attore elimina un metodo di una classe;
+\item \textbf{Scenari alternativi}: L'attore ha aggiunto un nuovo \glossaryItem{Metodo} e desidera eliminarlo.
+\end{itemize}
+\subsection{UC6.3.1.11 - Eliminazione Attributo}
+\label{ssec:UC6.3.1.11}
+\begin{itemize}
+\item \textbf{Attori}: \glossaryItem{Utente} autenticato;
+\item \textbf{Descrizione}: L'attore ha disegnato una \glossaryItem{Classe} con almeno un attributo al suo interno e può eliminarlo;
+\item \textbf{Precondizione}: È stata creata una \glossaryItem{Classe} con almeno un attributo;
+\item \textbf{Postcondizione}: L'attributo selezionato viene eliminato;
+\item \textbf{Scenario principale}: L'attore elimina un attributo di una classe;
+\item \textbf{Scenari alternativi}: L'attore ha aggiunto un nuovo attributo e desidera eliminarlo.
 \end{itemize}
 \subsection{UC6.3.2 - \glossaryItem{Zoom}-in}
 \label{ssec:UC6.3.2}
