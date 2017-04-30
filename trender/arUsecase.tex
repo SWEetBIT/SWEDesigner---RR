@@ -32,8 +32,13 @@ Il \glossaryItem{Codice} progressivo può includere diversi livelli di gerarchia
 \item \textbf{Descrizione}: Vengono visualizzate in generale le vari funzionalità che l'\glossaryItem{Applicazione} permette ai vari utenti di svolgere;
 \item \textbf{Precondizione}: L'\glossaryItem{Applicazione} predispone l'interazione con un attore, facendolo accedere alle diverse funzionalità proposte;
 \item \textbf{Postcondizione}: Dopo l'interazione avvenuta con un attore, l'\glossaryItem{Applicazione} si troverà in un nuovo stato pronto ad interagire con un nuovo attore;
-\item \textbf{Scenario principale}: \begin{enumerate}\item Registrazione (UC1);\item Autenticazione (UC2);\item Gestione profilo(UC3);\item Logout (UC4);\item Gestione progetti (UC5);\item Visione generale Tool \glossaryItem{Designer} (UC6);
+\item \textbf{Scenario principale}: \begin{enumerate}\item Registrazione (UC1);\item Autenticazione (UC2);\item Gestione profilo(UC3);\item Logout (UC4);\item Gestione progetti (UC5);\item Visione generale Tool \glossaryItem{Designer} (UC6).
  \end{enumerate}
+ \item \textbf{Scenario alternativo}: \begin{enumerate}
+ \item Password dimenticata (UC7;
+ \item Invio password per email (UC7.1).
+ \end{enumerate}
+ 
 \end{itemize}
 
 \subsection{UC1 - Registrazione}
@@ -132,10 +137,10 @@ Il \glossaryItem{Codice} progressivo può includere diversi livelli di gerarchia
 \item \textbf{Descrizione}: L'attore che già in possesso delle credenziali per accedere all'\glossaryItem{Applicazione}, potrà effettuare l'operazione di autenticazione inserendo l'email/\glossaryItem{Username} e la password. Nel caso l’attore abbia perso la password o se la sia dimenticata, l'\glossaryItem{Applicazione} fornisce la possibilità di averne una temporanea per poi resettarla;
 \item \textbf{Precondizione}: L'attore decide di autenticarsi e l'\glossaryItem{Applicazione} richiede l'inserimento dei dati necessari per l'autenticazione;
 \item \textbf{Postcondizione}: L'attore ha avuto accesso alle funzionalità del l'\glossaryItem{Applicazione}, in caso l'autenticazione sia avvenuta con successo, altrimenti viene visualizzato un messaggio d'errore.
-\item \textbf{Scenario principale}: \begin{enumerate}\item Inserimento \glossaryItem{Username}/Email (UC2.1);\item Inserimento Password (UC2.2);\item Password dimenticata (UC2.3);  \end{enumerate}
+\item \textbf{Scenario principale}: \begin{enumerate}\item Inserimento \glossaryItem{Username}/Email (UC2.1);\item Inserimento Password (UC2.2).  \end{enumerate}
 
 \item \textbf{Scenari alternativi}: \begin{enumerate}
-\item Credenziali errate (UC2.4);\item Invio password per email (UC2.5). \end{enumerate}
+\item Credenziali errate (UC2.3). \end{enumerate}
 
 \end{itemize}
 \subsection{UC2.1 - Inserimento \glossaryItem{Username}/Email}
@@ -156,32 +161,14 @@ Il \glossaryItem{Codice} progressivo può includere diversi livelli di gerarchia
 \item \textbf{Postcondizione}: L'\glossaryItem{Applicazione} ha l’informazione relativa alla password inserita dall’attore;
 \item \textbf{Scenario principale}: L'attore inserisce la password.
 \end{itemize}
-\subsection{UC2.3 - Password dimenticata}
+\subsection{UC2.3 - Credenziali errate}
 \label{ssec:UC2.3}
-\begin{itemize}
-\item \textbf{Attori}: \glossaryItem{Utente} non autenticato;
-\item \textbf{Descrizione}: L'attore ha smarrito la password e l'\glossaryItem{Applicazione} può fornirgliene una temporanea;
-\item \textbf{Precondizione}: L'attore possiede un \glossaryItem{Account} all'interno dell'\glossaryItem{Applicazione}, ma non è più in possesso della password;
-\item \textbf{Postcondizione}: L'attore ha ricevuto una email contenente la nuova password temporanea;
-\item \textbf{Scenario principale}: Viene fornita all'attore una password temporanea.
-\end{itemize}
-\subsection{UC2.4 - Credenziali errate}
-\label{ssec:UC2.4}
 \begin{itemize}
 \item \textbf{Attori}: \glossaryItem{Utente} non autenticato;
 \item \textbf{Descrizione}: L’attore visualizza un messaggio di errore dato dall’inserimento di credenziali errate;
 \item \textbf{Precondizione}: L'\glossaryItem{Applicazione} ha verificato le credenziali inserite dall’attore;
 \item \textbf{Postcondizione}: L'\glossaryItem{Applicazione} predispone la visualizzazione di un messaggio di errore;
 \item \textbf{Scenario principale}: L'attore viene avvisato che le credenziali sono errate.
-\end{itemize}
-\subsection{UC2.5 - Invio password per email}
-\label{ssec:UC2.5}
-\begin{itemize}
-\item \textbf{Attori}: \glossaryItem{Utente} non autenticato;
-\item \textbf{Descrizione}: Viene inviata una password temporanea all'attore per permettergli di accedere all'\glossaryItem{Applicazione};
-\item \textbf{Precondizione}: L'attore richiede una password temporanea;
-\item \textbf{Postcondizione}: L'\glossaryItem{Applicazione} ha inviato all'attore una mail contenente la password temporanea;
-\item \textbf{Scenario principale}: Viene inviata via mail una password temporanea.
 \end{itemize}
 \newpage
 \subsection{UC3 - Gestione Profilo}
@@ -1407,4 +1394,22 @@ svolge le sue funzioni;
 \item \textbf{Precondizione}: E' visualizzato un \glossaryItem{Diagramma delle attività};
 \item \textbf{Postcondizione}: Vengono visualizzati in ordine di accesso tutti i \glossaryItem{Metodi} selezionati dall'\glossaryItem{Utente} nella visione principale del programma;
 \item \textbf{Scenario principale}: L'attore visiona i vari metodi selezionati durante la navigazione tra le chiamate a metodi.
+\end{itemize}
+\subsection{UC7 - Password dimenticata}
+\label{ssec:UC7}
+\begin{itemize}
+\item \textbf{Attori}: \glossaryItem{Utente} non autenticato;
+\item \textbf{Descrizione}: L'attore ha smarrito la password e l'\glossaryItem{Applicazione} può fornirgliene una temporanea;
+\item \textbf{Precondizione}: L'attore possiede un \glossaryItem{Account} all'interno dell'\glossaryItem{Applicazione}, ma non è più in possesso della password;
+\item \textbf{Postcondizione}: L'attore ha ricevuto una email contenente la nuova password temporanea;
+\item \textbf{Scenario principale}: Viene fornita all'attore una password temporanea.
+\end{itemize}
+\subsection{UC7.1 - Invio password per email}
+\label{ssec:UC7.1}
+\begin{itemize}
+\item \textbf{Attori}: \glossaryItem{Utente} autenticato;
+\item \textbf{Descrizione}: Viene inviata una password temporanea all'attore per permettergli di accedere all'\glossaryItem{Applicazione};
+\item \textbf{Precondizione}: L'attore richiede una password temporanea;
+\item \textbf{Postcondizione}: L'\glossaryItem{Applicazione} ha inviato all'attore una mail contenente la password temporanea;
+\item \textbf{Scenario principale}: Viene inviata via mail una password temporanea.
 \end{itemize}
