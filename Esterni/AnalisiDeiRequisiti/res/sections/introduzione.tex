@@ -28,15 +28,25 @@ Lo scopo del documento è mostrare e descrivere le funzionalità che il prodotto
 Con il progetto SWEDesigner si vuole far avvicinare la fase di progettazione delle strutture delle \glossaryItem{Classi}, realizzata utilizzando i \glossaryItem{Diagrammi delle Classi} previsti dell'\glossaryItem{UML}, alla fase di creazione del corpo dei \glossaryItem{Metodi}, realizzata utilizzando i \glossaryItem{Diagrammi delle attività} previsti dall'\glossaryItem{UML}, in modo da  rendere più forte la sincronizzazione tra questi due standard. In particolare il progetto intende creare un ambiente di sviluppo online per la creazione dei \glossaryItem{Diagrammi} sopra citati e la conseguente realizzazione del \glossaryItem{Codice} applicativo descritto dall'\glossaryItem{Utente} in fase di disegno.
 
 \subsection{Funzione di Prodotto}
+L'obbiettivo del nostro prodotto è supportare ed aiutare l'utente attraverso un \glossaryItem{editor} che permetta la progettazione di \glossaryItem{classi} e la definizione dei propri \glossaryItem{metodi}; dallo svilluppo delle classi generate, l'\glossaryItem{editor} fornirà il codice generato da esse.
+Per la realizzazione delle \glossaryItem{classi} si utilizza il \glossaryItem{diagramma delle classi}, mentre la definizione dei metodi è realizzata con il \glossaryItem{diagramma delle attività}.\\ SWEDesigner risulterà orientato al dominio applicativo dei giochi da tavolo, pertanto l'\glossaryItem{editor} avrà caratteristiche, come ad esempio i \glossaryItem{template}, che saranno focalizzate su tale ambito.\\
 Le funzioni che saranno disponibili all'interno di SWEDesigner sono:
 \begin{itemize}
-\item Registrazione dell'\glossaryItem{Utente} per la visione dei propri progetti e dei \glossaryItem{Template} salvati;
-\item Creazione di un \glossaryItem{Diagramma delle Classi};
-\item Creazione di un \glossaryItem{Diagramma delle attività} per ogni \glossaryItem{Metodo} definito nelle \glossaryItem{Classi};
-\item Realizzazione del \glossaryItem{Codice} applicativo descritto tramite i \glossaryItem{Diagrammi};
-\item Gestione dei propri progetti;
-\item Gestione dei propri \glossaryItem{Template}.
+\item Creazione di un \glossaryItem{account} per avere i propri progetti e \glossaryItem{Template} salvati;
+\item Creazione dei \glossaryItem{diagrammi delle Classi};
+\item Creazione di \glossaryItem{diagramm delle attività} per ogni \glossaryItem{metodo} definito nelle \glossaryItem{classi};
+\item Generazione del \glossaryItem{Codice} applicativo descritto tramite i \glossaryItem{Diagrammi} in linguaggio \glossaryItem{Java};
+\item Gestione dei propri progetti.
 \end{itemize}
+
+Due funzionalità, che che fanno parte dei requisiti desiderabili, sono:
+	\begin{itemize}
+	\item \glossaryItem{Template};
+	\item \glossaryItem{Layer}.
+\end{itemize}
+
+Per quanto riguarda i \glossaryItem{template}, l'utente avrà la possibilità di usufruire dei \glossaryItem{template} di default, già resi disponibili dall’\glossaryItem{editor}, i quali saranno pertinenti al dominio applicativo sopra indicato; oppure l'utente potrà inserirne di propri, a patto che le \glossaryItem{classi} abbiano un commento per aiutarlo a riconoscerne la funzione in un successivo utilizzo. \\
+I \glossaryItem{layer} invece, servono per disporre le classi su diversi piani di lavoro. Grazie ad una finestra di gestione dei \glossaryItem{layer}, l’utente potrà effettuare le operazioni di inserimento, rinominazione ed eliminazione; così facendo, l’utente può creare dei \glossaryItem{layer} con nomi a lui intuitivi, ed associare su di essi le classi. L'inserimento di questa funzionalità è stato pensato per dare la possibilità di suddividere non solo logicamente, ma anche visivamente le componenti del progetto in uso.
 
 \subsection{Descrizione degli utenti}
 Gli utenti che possono accedere al progetto SWEDesigner sono delle persone che hanno già esperienze nell'ambito della programmazione, in particolare conoscono le convenzioni dello standard \glossaryItem{UML} riguardanti i \glossaryItem{Diagrammi delle Classi} e delle attività. 
