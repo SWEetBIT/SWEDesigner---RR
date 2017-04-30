@@ -1,7 +1,8 @@
 %how to: \input{res/chapters/argumentOfChapter}
 
-\input{res/sections/introduzione.tex}
-\renewcommand{\glossarysection}[2][]{}
-\glsaddall
+\input{res/sections/glossario.tex}
+\renewcommand{\glossarysection}[2][\theglstoctitle]{}
+%\glsaddall
+\clearpage
 \printglossary[style=myaltlistgroup]
-%\appendix
+\appendix
