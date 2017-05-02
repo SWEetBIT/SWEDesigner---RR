@@ -1,0 +1,292 @@
+\section{Processi Organizzativi}
+  I processi normatizzati in questa sezione servono all'organizzazione che li istanzia a progetto, quindi servon al gruppo stesso.
+  \subsection{Gestione di progetto}
+    \subsubsection{Ruoli}
+      Verranno assegnati dei ruoli corrispondendi a quelli professionali per lo sviluppo del progetto. Ogni membro del gruppo ricoprirà
+      tutti i ruoli almeno una volta durante ogni periodo di sviluppo.\\
+      Ogni attività di un processo verrà svolta solo ed esclusivamente dal membro del gruppo che ricopre il ruolo adatt all'attività rispettando la pianificazione
+      specificata all'interno del Piano di Progetto.
+        \paragraph{Responsabile di Progetto}
+          Il Responsabile di Progetto detiene la resposabilità di tutto il team e potere decisionale su ogni attività. Si occuperà inoltre delle comunicazioni esterne
+          ed avrà il pieno accesso alla mail del gruppo.
+          In particolare è di responsabilità del Responsabile di Progetto:
+          \begin{itemize}
+            \item Coordinamento, pianificazione e controllo delle attività;
+            \item Approvazione dei documenti;
+            \item Comunicazioni esterne;
+            \item Assegnazione compiti ai vari individui;
+            \item Convocazione riuinioni interne/esterne.
+          \end{itemize}
+          Nello specifico i suoi compiti sono:
+          \begin{itemize}
+            \item Redazine Piano di Progetto;
+            \item Collaborazione alla stesura del Piano di Qualifica;
+            \item Assicurarsi che le attività svolte siano conformi alle Norme di Progetto;
+            \item Garantire il rispetto dei ruoli;
+            \item Assegnare e gestire task agli altri membri del gruppo;
+            \item Approvare definitivamente i documenti.
+          \end{itemize}
+        \paragraph{Amministratore}
+          L'Amministratore è responsabile dell'ambiente di lavoro.\\
+          È sua responsabilità:
+          \begin{itemize}
+            \item Gestione ambiente di lavoro attrezzando il team di strumenti necessari;
+            \item Aggiungere all’ambiente di lavoro strumenti di automazione del lavoro;
+            \item Gestione del versionamento della documentazione;
+            \item Controllo delle versioni del prodotto;
+            \item Risoluzione dei problemi in merito alla gestione di risorse e processi.
+          \end{itemize}
+          L'Amministratore, inoltre, redige le Norme di Progetto, collabora alla stesura del Piano di Progetto e al Piano di Qualifica.
+        \paragraph{Analista}
+          L'Analista è il responsabile di tutte le analisi del problema.
+          È sua responsabilità:
+          \begin{itemize}
+            \item Studiare a fondo la natura del prodotto;
+            \item Classificare i requisiti;
+            \item Redigere diagramma dei Casi d'Uso;
+            \item Produrre una specifica di progetto precisa in ogni sui punto e comprensibile dal proponente, dal committente e dai progettisti;
+            \item Redigere lo Studio di Fattibilità e l'Analisi dei Requisiti.
+          \end{itemize}
+        \paragraph{Progettista}
+          Il Progettista è il responsabile delle attività di progettazione.
+          È sua responsabilità:
+          \begin{itemize}
+            \item Effettuare scelte progettuali volte ad applicare al prodotto soluzionni ottimali;
+            \item Effettuare scelte procedurali che ne garantiscano la manutenibilità;
+            \item Produrre una soluzione soddisfacente per il Committente.
+          \end{itemize}
+          Il Progettista, inoltre, redige la Specifica Tecnica, la Definizione di Prodotto e collabora alla stesura del Piano di Qualifica.
+        \paragraph{Programmatore}
+          Il Programmatore è responsabile delle attività di codifica e delle commenti ausiliarie necessari per il processo di verifica.
+          È sua responsabilità:
+          \begin{itemize}
+            \item Implementare le soluzioni descritte dal Progettista;
+            \item Scrivere codice documentato che rispetti le metriche stabilite;
+            \item Implementare i test da eseguire sul codice scritto durante i processi di verifica.
+          \end{itemize}
+          Il Programmatore ha, inoltre, il compito di redigere il Manuale Utente.
+        \paragraph{Verificatore}
+          Il verificatore è responsabile delle attività di verifica.
+          È sua responsabilità:
+          \begin{itemize}
+            \item Controllare la conformità del prodotto ad ogni stadio del sup ciclo di vita;
+            \item Garantire  che le attività seguano le norme stabilite.
+          \end{itemize}
+          Il Verificatre, inoltre, collabora alla stesura del Pian di Qualifica.
+    \subsubsection{Pianificazione}
+      \paragraph{Strumenti di Pianificazione}
+        Per pianificare le attività legate allo sviluppo del progetto e la gestione delle risorse si è scelto di utilizzare \textbf{ProjectLibre}.\\
+        Si tratta di un ottimo software \glossaryItem{Open-source} basato su \glossaryItem{Java} per il project management.\\
+        La scelta è ricaduta su questo software principlamente per quattro motivi:
+        \begin{itemize}
+          \item Si tratta di un software portabile essendo basato su \glossaryItem{Java};
+          \item È \glossaryItem{Open-source};
+          \item Genera automaticamente digrammi di \glossaryItem{Gannt};
+          \item Il salvataggio dei \glossaryItem{File} è in \glossaryItem{XML}, quindi un formato testuale che permette di utilizzare i \glossaryItem{Merge} senza causare troppi conflitti.
+        \end{itemize}
+      \paragraph{Ticketing}
+        La piattaforma che è stata scelta per la gestione del progetto è \textbf{Redmine} che fornisce:
+        \begin{itemize}
+          \item Un sistema flessibile di gestione dei \glossaryItem{Ticket};
+          \item Il grafico \glossaryItem{Gantt} delle attività;
+          \item Un calendario per l'organizzazione e la distribuzione dei compiti;
+          \item La visualizzazione della \glossaryItem{Repository} relativa al progetto;
+          \item Un sistema di rendicontazione del tempo.
+        \end{itemize}
+        Sono state analizzate altre altenrative a \textbf{Redmine} che, dopo una fase di analisi iniziale, non sono risultate idonee allo scopo:
+        \begin{itemize}
+          \item \textbf{Teamworks: }si tratta del software probabilmente più adatto per il project management vista la sua grande versatilità e
+          la strumentazione offerta. Purtroppo i suoi costi non hanno permesso un suo utilizzo in ambito universitario;
+          \item \textbf{Zohoo: }A differenza di Redimine o di Teamworks, questa piattaforma non offre un servizio di rendicontazione del tempo
+          e la generazione di grafici \glossaryItem{Gantt};
+        \end{itemize}
+        Tutti i digrammi di \glossaryItem{Gantt} presenti sono stati invece disegnati tramite il sotware \textbf{Ganttproject} sulla base dei dati inseriti e formiti da \textbf{Redmine}
+        per permettere una stesura più corretta e una maggiore flessibilità nella stessa.
+      \paragraph{Protocollo di Sviluppo}
+        Per procedere con una stesura controllata dei documenti e con uno sviluppo controllato del \glossaryItem{Codice} si è scelto di adottare
+        il sistema di \glossaryItem{Ticketing} \textbf{Redmine}.\\
+        La scelta di tale piattaforma è spiegata all'interno del capitolo 9.
+        In questa sezine si faranno molti riferimenti impliciti al \emph{Piano di Progetto} e al \emph{Piano di  Qualifica}.
+        \paragraph{Creazione di un nuovo progetto}
+          La creazione di un progetto è un compito del \emph{Responsabile di Progetto}.\\
+          Un nuovo progetto è una macro-attività formata da molte sotto-attività coordinate da un responsabile.\\
+          Per la creazione di un nuovo progetto la prassi da seguire è la seguente:
+          \begin{itemize}
+            \item Aprire \textbf{Progetti};
+            \item Selezionare \textbf{Nuovo Progetto};
+            \item Assegnare un \textbf{Nome} breve ma significativo;
+            \item Nel caso in cui sia necessario creare un sotto-progetto, indicare il nome del progetto padre nell'omonimo campo;
+            \item \textbf{Identificativo: }scrivere in minuscolo ed indicare il nome della fase a cui si riferisce (es. SdF-rr).
+          \end{itemize}
+        \paragraph{Creazione ticket}
+          I \glossaryItem{Ticket} vengono creati da:
+          \begin{itemize}
+            \item \textbf{\emph{Responsabile di Progetto}: }crea i \glossaryItem{Ticket} più importanti che rappresentano le macro-fasi evideziate
+            all'interno della pianificazione;
+            \item \textbf{\emph{Responsabile di Sotto-progetto}: }crea i \glossaryItem{Ticket} per i processi non pianificati inizialmente ma che si rivelano necessari
+            per l'avanzamento del sotto-progetto assegnato;
+            \item \textbf{\emph{Verificatore}: }crea i \glossaryItem{Ticket} per segnalare errori emersi durante il processo di verifica.
+          \end{itemize}
+          I \glossaryItem{Ticket} possono essere di tre categorie:
+          \begin{itemize}
+            \item \textbf{Ticket di pianificazione: }rappresentano le macro-attività di maggiore importanza e sono organizzati in una gerarchia
+            basata sul livello di importanza.\\
+            Tali attività vengono create da:
+            \bgroup
+              \begin{itemize}
+                \item \emph{Responsabile di Progetto} che durante la pianificazione individua le attività più importanti da svolgere;
+                \item \emph{Responsabile di Sotto-progetto} che durante lo svolgimento dell'attività principale può scomporla in sotto-problemi.
+              \end{itemize}
+            \egroup
+            \item \textbf{Ticket di realizzazione e controllo: }ogni documento, durante la sua stesura, passa attraverso due stadi:
+            \bgroup
+              \begin{itemize}
+                \item \textbf{Realizzazione: }un redattore realizzerà la prima stesura dell'interno documento;
+                \item \textbf{Controllo: }un redattore, diverso dal precedente, eseguirà un primo controllo di tutta la parte scritta.
+              \end{itemize}
+            \egroup
+            \item \textbf{Ticket di verifica: }rappresentano gli errori evidenziati dai \emph{Verificatori} durante l'operazione di controllo dell'intero documento.
+          \end{itemize}
+            \subsubsection{Ticket di pianificazione}
+              \begin{itemize}
+                \item Selezionare \textbf{Nuova segnalazione} dal menù principale;
+                \item \textbf{Tracker: }Indicare la natura del \glossaryItem{Ticket}:
+                \bgroup
+                  \begin{itemize}
+                    \item \textbf{Documento: }Attività legata alla stesura di un documento;
+                    \item \textbf{Codifica: }Attività legata alla  codifica del software;
+                    \item \textbf{Verifica: }Macro-attività legata alla verifica del prodotto delle macro-attività.
+                  \end{itemize}
+                \egroup
+                \item \textbf{Oggetto: }Descrizione breve e significativa della natura del \glossaryItem{Ticket};
+                \item \textbf{Descrizione: }Descrizione comprensibile dell'attività da svolgere;
+                \item \textbf{Stato: }Plan;
+                \item \textbf{Attività principale: }Se si vuole identificare una \textbf{sotto-attività} indicare l'id del \glossaryItem{Ticket} padre;
+                \item \textbf{Categoria: }\glossaryItem{PDCA} se e solo se il \glossaryItem{Ticket} viene generato dal \emph{Responsabile di Progetto};
+                \item \textbf{Assegnato a: }Indicare il nome del responsabile;
+                \item \textbf{Osservatori: }Aggiungere eventuali collaboratori.
+              \end{itemize}
+            \paragraph{Ticket di realizzazione e controllo}
+              \begin{itemize}
+                \item Selezionare \textbf{Nuova segnalazione} dal menù principale;
+                \item \textbf{Tracker: }Indicare la natura del \glossaryItem{Ticket}:
+                \bgroup
+                  \begin{itemize}
+                    \item \textbf{Documento: }Attività legata alla stesura di un documento;
+                    \item \textbf{Codifica: }Attività legata alla  codifica del software;
+                    \item \textbf{Verifica: }Macro-attività legata alla verifica del prodotto delle macro-attività;
+                  \end{itemize}
+                \egroup
+                  \item \textbf{Oggetto: }Descrizione breve e significativa della natura del \glossaryItem{Ticket};
+                \item \textbf{Descrizione: }Descrizione comprensibile dell'attività da svolgere;
+                \item \textbf{Stato: }New;
+                \item \textbf{Attività principale: }Se si vuole identificare una \textbf{sotto-attività} indicare l'id del \glossaryItem{Ticket} padre;
+                \item \textbf{Inizio: }Dare una presunta data di inizio;
+                \item \textbf{Scadenza: }Dare una presunta data di fine;
+                \item \textbf{Assegnato a: }Indicare il nome del responsabile;
+                \item \textbf{Osservatori: }Aggiungere eventuali collaboratori.
+              \end{itemize}
+            \paragraph{Ticket di verifica}
+              Un \emph{Verificatore} per creare un \emph{ticket di verifica} deve:
+              \begin{enumerate}
+                \item Assicurarsi che esista all'interno del progetto l'attività \emph{Verifica}.\\
+                Su questa attività devono essere presenti due sotto-attività: \emph{Verifica - realizzazione} e \emph{Verifica - approvazione}.\\
+                Tutti i \glossaryItem{Ticket} devono essere creati come sotto-attività di \emph{Verifica - realizzazione}.
+                \item Creare il \glossaryItem{Ticket} seguendo le seguenti direttive:
+                \bgroup
+                  \begin{itemize}
+                    \item Selezionare \textbf{Nuova segnalazione} dal menù principale;
+                    \item \textbf{Tracker: }\glossaryItem{Bug};
+                    \item \textbf{Oggetto: }Descrizione breve e significativa della natura del \glossaryItem{Ticket};
+                    \item \textbf{Descrizione: }Descrizione comprensibile dell'attività da svolgere;
+                    \item \textbf{Stato: }New;
+                    \item \textbf{Attività principale: }Se si vuole identificare una \textbf{sotto-attività} indicare l'id del \glossaryItem{Ticket} padre;
+                    \item \textbf{Assegnato a: }Indicare il nome del responsabile.
+                  \end{itemize}
+                \egroup
+              \end{enumerate}
+            Tutti i campi non segnalati sono da lasciarsi vuoti.\\
+            Il compito di assegnare la correzione dell'errore è dato al Responsabile del progetto padre.
+          \paragraph{Dipendenze temporali}
+            Dopo la creazione dei \glossaryItem{Ticket} è necessario assegnare le \textbf{dipendenze temporali} fra gli stessi.\\
+            La procedura da seguire è la seguente:
+            \begin{itemize}
+              \item Spostarsi su \textbf{Segnalazioni};
+              \item Aprire il link alla segnalazione a cui aggiungere la dipendenza;
+              \item Nella sezione \textbf{Segnalazioni correlate} premere su \textbf{Aggiungi};
+              \item Scegliere \textbf{segue} ed indicare il numero della segnalazione bloccante con eventuali giorni di \glossaryItem{Slack}.
+            \end{itemize}
+            Tutti i campi non segnalati sono da lasciarsi vuoti.
+        \paragraph{Aggiornamento ticket}
+          L'aggiornamento dei \glossaryItem{Ticket} avviene tramite il cambiamento del loro stato da:
+          \begin{itemize}
+            \item \textbf{In Progress: }segnala che uno o più membri del gruppo stanno lavorando al completamento di quel \glossaryItem{Ticket}.\\
+            In questo caso la percentuale di completamento deve essere compresa fra 0\% e 99\%;
+            \item \textbf{Closed: }segnala che l'attività è stata conclusa.\\
+            La percentuale di completamento in questo caso è fissata a 100\%;
+          \end{itemize}
+    \subsection{Riunioni}
+      \subsubsection{Frequenza}
+        Tutte le riunioni interne, salvo casi eccezionali, si svolgeranno settimanalmente mentre tutte quelle esterne saranno convocate solo quando sorgerà la necessità di contattare il \glossaryItem{Proponente} o con il \glossaryItem{Committente}.
+        \paragraph{Interna}
+          Il \emph{Responsabile di Progetto} ha il compito di convocare le riunioni generali valutando, di volta in volta, la possibilità di anticipare o posticipare la data
+          designata per la riunione del gruppo.\\
+          Qualora un membro del gruppo lo ritenesse necessario potrà fare richiesta, attraverso il gruppo \textbf{\glossaryItem{Telegram}}, di una riunione extra.\\
+          È auspicabile, infine, che diversi membri del gruppo possano organizzarsi fra di loro per svolgere alcuni compiti che non richiedono la presenza  del gruppo di lavoro
+          al completo. Ad esempio, è interessante e utile la collaborazione fra \emph{Progettista} e \emph{Analista}, senza che vengano coinvolte altre persone esterne ai compiti
+          da loro svolti.\\
+          Il responsabile avviserà tutti i membri del gruppo attraverso un messaggio sul gruppo \textbf{\glossaryItem{Telegram}} che verrà fissato in alto e conterrà luogo, data ed ora della riunione.\\
+          Ogni membro del gruppo è tenuto a confermare o meno la sua presenza nelle 24h successive. Il responsabile è tenuto ad avvertire telefonicamente tutti i membri che
+          non hanno ancora risposto al messaggio.\\
+          Ogni cambiamento nell'orario di convocazione deve essere comunicato per tempo dal responsabile attraverso le modalità sopra elencate.
+        \paragraph{Esterna}
+          Concordando con gli altri membri del gruppo la necessità di effettuare una riuinione con il \glossaryItem{Proponente} o con il \glossaryItem{Committente}, il \emph{Responsabile di Progetto}
+          si metterà in contatto con i diretti interessati per fissare una data consona a tutti.
+        \paragraph{Svolgimento riunione}
+          All’apertura della riunione, verificata la presenza dei membri previsti, viene scelto un segretario che avrà il compito di annotare ogni argomento trattato e di redigere il verbale
+          dell’assemblea, che dovrà poi essere inviato ai restanti componenti del gruppo.\\
+          Tutti i partecipanti devono osservare un comportamento consono al miglior svolgimento della riunione e al raggiungimento degli obbiettivi della stessa. Il segretario deve inoltre
+          controllare che venga seguito l’ordine del giorno in modo da non tralasciare alcun punto.
+        \subsubsection{Verbale}
+          \paragraph{Riunione interna}
+            Il verbale di una riunione interna è un documento informale che traccia semplicemente tutti gli argomenti trattati all'interno della riunione.\\
+            Verrà redatto dal segretario della riuione, ruolo scelto di volta in volta e a rotazione fra i presenti, e dovrà essere condiviso attraverso il gruppo \textbf{\glossaryItem{Telegram}}
+            per essere a disposizione, in qualsiasi momento (\textbf{\glossaryItem{Telegram}} offre la possibilità di tracciare istantaneamente i media condivisi) da ogni membro del gruppo.\\
+            Il verbale dovrà essere inoltre inviato via e-mail ad ogni componente del gruppo il quale avrà cura di mantenerlo localmente al fine di avere sempre a disposizione
+            gli argomenti trattati nel corso di una riunione.
+          \paragraph{Esterna}
+            Il verbale generato da una riunione esterna con il \glossaryItem{Proponente} o il \glossaryItem{Committente} è un documento ufficiale che può assumere il valore di normativo, quindi deve essere redatto
+            seguendo dei criteri specifici.\\
+            Per agevolarne la scrittura è stato creato un \glossaryItem{Template} con \glossaryItem{\LaTeX}\ che ne definisce la struttura.
+            Vi è, ovviamente, l'obbligo di seguire tale schema per la stesura del verbale di una riunione esterna che dovrà poi essere inviato a tutti i membri del gruppo seguendo
+            le stesse regole del verbale per una riunione interna.
+    \subsection{Comunicazioni}
+      \subsubsection{Comunicazioni esterne}
+        Per le comunicazioni esterne è stata creata un'apposita casella di posta elettronica:\\
+          \begin{center}
+            \href{mailto:sweet.bit.group@gmail.com}{sweet.bit.group@gmail.com}
+          \end{center}
+        Tale indirizzo deve essere l’unico canale di comunicazione esistente tra il gruppo di lavoro e l’esterno.\\
+        L'unico membro del gruppo ad avere accesso alla mail, e quindi alle comunicazioni con il \glossaryItem{Committente}, è il \emph{Responsabile di Progetto}.
+        Suo anche il compito di informare i membri del gruppo delle discussioni avvenute tramite la casella di posta eletronica e inoltrare, qualora dovesse ritenerlo necessario,
+        tali discussioni alle caselle postali dei vari membri del gruppo.
+      \subsection{Comunicazioni interne}
+        Per tutte le comunicazioni interne è stato creato un gruppo \textbf{\glossaryItem{Telegram}} in cui ogni membro può comunicare i propri impegni e il proprio stato dei lavori.\\
+        Il gruppo serve, inoltre, per la comunicazione delle date delle riuinioni, per comunicare tempestivamente le decisioni prese e per scambiare materiale utile al progetto.
+      \subsection{Composizione e-mail}
+        \subsubsection{Destinatario}
+          Il destinatario delle mail esterne può variare a seconda che ci si debba riferire al \glossaryItem{Proponente} del progetto, al Prof. Vardanega Tullio o al Prof. Cardin Riccardo.
+        \subsubsection{Mittente}
+          L’unico indirizzo utilizzabile è \href{mailto:sweet.bit.group@gmail.com}{sweet.bit.group@gmail.com} e deve essere usato solamente dal \emph{Responsabile di Progetto}.
+        \subsubsection{Oggetto}
+          L'oggetto di una comunicazione deve essere chiaro, stringato e possibilmente diverso da altri oggetti preesistenti.\\
+          Nel caso in cui si dovesse comporre un messaggio di risposta, vi è l'obbligo di utilizzare la particella "RE:" prima dell'oggetto in modo tale da identificare
+          il livello di risposta; Qualora si trattasse invece di un inoltro è obbligatorio utilizzare la particella "I:".\\
+          In ogni caso l'oggetto di una comunicazione già avviata non potrà essere cambiato.
+        \subsubsection{Corpo}
+          Il corpo di un messaggio deve contenere tutte le informazioni necessarie a rendere facilmente comprensibile l’argomento trattato a tutti i destinatari. Se alcune parti del messaggio hanno uno o più destinatari specifici, il loro nome dovrà essere aggiunto all’inizio del paragrafo tramite la seguente segnatura: \emph{@destinatario}.
+          In caso di risposta od inoltro del messaggio, il contenuto aggiunto deve essere sempre messo in testa (per non costringere gli altri membri a dover scorrere tutta la mail).
+          È caldamente consigliato, inoltre, evitare la cancellazione delle precedenti parti del messaggio in modo tale da rendere ogni partecipante alla discussione consapevole del contesto.
+        \subsubsection{Allegati}
+          L'uso di allegati è permesso qualora si ritenga necessario.\\
+          Un esempio è il resoconto di un incontro con il \glossaryItem{Proponente} o il \glossaryItem{Committente}.
