@@ -1,4 +1,4 @@
-\section{Tecnologie Utilizzate}
+\section{Tecnologie utilizzate}
 L'architettura è stata progettata utilizzando lo stack di \textbf{\glossaryItem{MEAN}} (\url {http://mean.io/ } ),il quale comprende 4 tecnologie, alcune delle quali espressamente richieste nel \glossaryItem{capitolato} d’appalto. Vengono di seguito elencate e descritte le principali tecnologie impiegate comprese in \textbf{\glossaryItem{MEAN}} e le motivazioni del loro utilizzo:
 \begin{itemize}
 \item \textbf{Node.js}: piattaforma per il \glossaryItem{back-end};
@@ -8,8 +8,8 @@ L'architettura è stata progettata utilizzando lo stack di \textbf{\glossaryItem
 \item \textbf{Angular.js}: \glossaryItem{framework} \glossaryItem{JavaScript} la realizzazione del \glossaryItem{front-end} .
 \end{itemize}
 
-Queste tecnologie 
-	\subsection{Node.js}
+	\subsection{Server}
+	\subsubsection{Node.js}
 \textbf{Node.js} è una \glossaryItem{piattaforma} software costruita sul motore \glossaryItem{JavaScript} di \glossaryItem{Chrome} che permette di realizzare facilmente applicazioni di rete scalabili e veloci. \glossaryItem{Node.js} utilizza \glossaryItem{JavaScript} come linguaggio di programmazione, e grazie al suo modello \glossaryItem{event-driven} con chiamate di input/output non bloccanti risulta essere leggero e e ciente.
 I principali vantaggi dell'utilizzo di \glossaryItem{Node.js} sono:
 
@@ -19,11 +19,13 @@ I principali vantaggi dell'utilizzo di \glossaryItem{Node.js} sono:
 
 \item \textbf{Architettura modulare}: Lavorando con \glossaryItem{Node.js} è molto facile organizzare il lavoro in librerie, importare i \glossaryItem{moduli} e combinarli fra loro.Questo è reso molto comodo attraverso il \glossaryItem{node package manager} (\textbf{npm}) attraverso il quale lo sviluppatore può contribuire e accedere ai \glossaryItem{package} messi a disposizione dalla community.
 \end{itemize}
-	\subsection{Express.js}
+
+	\subsection{Client}
+	\subsubsection{Express.js}
 \textbf{Express.js} è un \glossaryItem{framework} minimale per creare  \glossaryItem{Web App} con \glossaryItem{Node.js}. Richiede \glossaryItem{moduli} Node di terze parti per applicazioni che prevedono l'interazione con le \glossaryItem{database}.
 È stato utilizzato il \glossaryItem{framework} \glossaryItem{Express.js} per supportare lo sviluppo dell'application \glossaryItem{server} grazie alle utili e robuste caratteristiche da esso offerte, le quali sono pensate per non oscurare le funzionalità fornite da \glossaryItem{Node.js} aprendo così le porte all'utilizzo di moduli per \glossaryItem{Node.js} atti a supportare specifiche funzionalità.
 
-	\subsection{MongoDB}
+	\subsubsection{MongoDB}
 \textbf{\glossaryItem{MongoDB}} è un \glossaryItem{database} \glossaryItem{NoSQL} \glossaryItem{open source} scalabile e altamente performante di tipo document-oriented, in cui i dati sono archiviati sotto forma di documenti in stile \glossaryItem{JSON} con schemi dinamici, secondo una struttura semplice e potente. \\
 
 I principali vantaggi derivati dal suo utilizzo sono:
@@ -37,6 +39,8 @@ I principali vantaggi derivati dal suo utilizzo sono:
 \item Permette di processare parallelamente i dati (\glossaryItem{Map-Reduce});
 \item Tipi di dato più flessibili.
 \end{itemize}  
-	\subsection{Mongoose}
+	\subsubsection{Mongoose}
 \textbf{Mongoose} è una \glossaryItem{libreria} per interfacciarsi a \glossaryItem{MongoDB} che permette di definire degli schemi per modellare i dati del \glossaryItem{database}, imponendo una certa struttura per la creazione di nuovi Document . Inoltre fornisce molti strumenti utili per la validazione dei dati, per la definizione di query e per il cast dei tipi predefiniti.
 Per interfacciare l'application \glossaryItem{server} con \glossaryItem{MongoDB} sono disponibili diversi progetti \glossaryItem{open source}. Per questo progetto è stato scelto di utilizzare \glossaryItem{Mongoose.js} , attualmente il più di uso.
+
+	\subsubsection{mxGrafh}
