@@ -11,13 +11,18 @@ L'architettura è stata progettata utilizzando lo stack di \textbf{\glossaryItem
 	\subsection{Server}
 	\subsubsection{Node.js}
 \textbf{Node.js} è una \glossaryItem{piattaforma} software costruita sul motore \glossaryItem{JavaScript} di \glossaryItem{Chrome} che permette di realizzare facilmente applicazioni di rete scalabili e veloci. \glossaryItem{Node.js} utilizza \glossaryItem{JavaScript} come linguaggio di programmazione, e grazie al suo modello \glossaryItem{event-driven} con chiamate di input/output non bloccanti risulta essere leggero e e ciente.
-I principali vantaggi dell'utilizzo di \glossaryItem{Node.js} sono:
 
+\paragraph{Vantaggi} 
 \begin{itemize}
-
-\item \textbf{Approccio asincrono}: \glossaryItem{Node.js} permette di accedere alle risorse del sistema operativo in modalità \glossaryItem{event-driven} e non sfruttando il classico modello basato su processi concorrenti utilizzato dai classici web \glossaryItem{server}. Ciò garantisce una maggiore efficienza in termini di prestazioni, poiché durante le attese il runtime può gestire qualcos’altro in maniera asincrona.
-
+\item \textbf{Approccio asincrono}: \glossaryItem{Node.js} permette di accedere alle risorse del sistema operativo in modalità \glossaryItem{event-driven} e non sfruttando il classico modello basato su processi concorrenti utilizzato dai classici web \glossaryItem{server}. Ciò garantisce una maggiore efficienza in termini di prestazioni, poiché durante le attese il runtime può gestire qualcos’altro in maniera asincrona;
 \item \textbf{Architettura modulare}: Lavorando con \glossaryItem{Node.js} è molto facile organizzare il lavoro in librerie, importare i \glossaryItem{moduli} e combinarli fra loro.Questo è reso molto comodo attraverso il \glossaryItem{node package manager} (\textbf{npm}) attraverso il quale lo sviluppatore può contribuire e accedere ai \glossaryItem{package} messi a disposizione dalla community.
+\end{itemize}
+
+\paragraph{Svantaggi}
+\begin{itemize}
+\item \textbf{Supporto incompleto alle feature di ES6}: Molte delle feature di ES6 non
+sono supportate in Node nella versione 4.4 scelta come versione di riferimento per
+lo sviluppo del progetto.
 \end{itemize}
 
 	\subsection{Client}
@@ -25,11 +30,26 @@ I principali vantaggi dell'utilizzo di \glossaryItem{Node.js} sono:
 \textbf{Express.js} è un \glossaryItem{framework} minimale per creare  \glossaryItem{Web App} con \glossaryItem{Node.js}. Richiede \glossaryItem{moduli} Node di terze parti per applicazioni che prevedono l'interazione con le \glossaryItem{database}.
 È stato utilizzato il \glossaryItem{framework} \glossaryItem{Express.js} per supportare lo sviluppo dell'application \glossaryItem{server} grazie alle utili e robuste caratteristiche da esso offerte, le quali sono pensate per non oscurare le funzionalità fornite da \glossaryItem{Node.js} aprendo così le porte all'utilizzo di moduli per \glossaryItem{Node.js} atti a supportare specifiche funzionalità.
 
+\paragraph{Vantaggi}
+\begin{itemize}
+\item \textbf{Minimale}: si basa su \glossaryItem{Node.js} e permette di estenderlo a seconda dei bisogni
+dell’applicazione;
+\item\textbf{Documentazione}: esaustiva e completa;
+\item\textbf{Apprendimento}: facile da imparare.
+\end{itemize}
+
+\paragraph{Svantaggi}
+\begin{itemize}
+\item \textbf{Integrazione}: richiede di integrare \glossaryItem{moduli} diversi per comporre l’applicazione
+finale. Altri \glossaryItem{framework} permettono di definire \glossaryItem{API} (Application Programming
+Interface) \glossaryItem{REST} (REpresentational State Transfer) in modo semplice, ma vincolano
+maggiormente nelle scelte progettuali.
+\end{itemize}
+
 	\subsubsection{MongoDB}
 \textbf{\glossaryItem{MongoDB}} è un \glossaryItem{database} \glossaryItem{NoSQL} \glossaryItem{open source} scalabile e altamente performante di tipo document-oriented, in cui i dati sono archiviati sotto forma di documenti in stile \glossaryItem{JSON} con schemi dinamici, secondo una struttura semplice e potente. \\
 
-I principali vantaggi derivati dal suo utilizzo sono:
-
+\paragraph{Vantaggi}
  \begin{itemize}
 
 \item \textbf{Alte performance}: non ci sono join che possono rallentare le operazioni di lettura o scrittura. L'indicizzazione include gli indici di chiave anche sui documenti innestati e sugli array, permettendo una rapida interrogazione al \glossaryItem{database};
@@ -39,8 +59,52 @@ I principali vantaggi derivati dal suo utilizzo sono:
 \item Permette di processare parallelamente i dati (\glossaryItem{Map-Reduce});
 \item Tipi di dato più flessibili.
 \end{itemize}  
+
+\paragraph{Svantaggi}
+\begin{itemize}
+\item \textbf{Flessibilità}: per i tipi di dato. Sebbene questo possa essere visto come vantaggio,
+è opinione del team che un’eccessiva flessibilità possa portare più problemi che
+benefici: allo scopo di aggiungere rigidità è stato infatti scelto, come verrà descritto
+in seguito, Mongoose, che introduce una costruzione a schemi per le collections di
+\glossaryItem{MongoDB} e quindi vincola i documenti inseriti ad avere una struttura uniforme;
+\item \textbf{Nessun supporto per le transazioni}: sono supportate alcune operazioni atomiche,
+ma a livello di documento;
+\item \textbf{Nessun \glossaryItem{join}}: va simulato via codice attraverso query multiple;
+\item \textbf{Problemi di concorrenza}: per le operazioni di scrittura viene creato un lock
+sull’intero database. Questo lock blocca anche le operazioni di lettura.
+\end{itemize}
 	\subsubsection{Mongoose}
 \textbf{Mongoose} è una \glossaryItem{libreria} per interfacciarsi a \glossaryItem{MongoDB} che permette di definire degli schemi per modellare i dati del \glossaryItem{database}, imponendo una certa struttura per la creazione di nuovi Document . Inoltre fornisce molti strumenti utili per la validazione dei dati, per la definizione di query e per il cast dei tipi predefiniti.
 Per interfacciare l'application \glossaryItem{server} con \glossaryItem{MongoDB} sono disponibili diversi progetti \glossaryItem{open source}. Per questo progetto è stato scelto di utilizzare \glossaryItem{Mongoose.js} , attualmente il più di uso.
 
+\paragraph{Vantaggi}
+\begin{itemize}
+\item \textbf{Diffusione}: è la libreria più diffusa per interfacciarsi con \glossaryItem{MongoDB};
+\item \textbf{Funzionalità aggiuntive}: permette di definire strumenti per la validazione dei
+dati e per il cast dei tipi;
+\item \textbf{Permette di eseguire dei \glossaryItem{join} tra collections}: Sebbene non sia previsto da
+\glossaryItem{MongoDB}, \glossaryItem{mongoose} prevede la funzione populate per imitare la funzione di \glossaryItem{join} in modo completamente trasparente per l’utilizzatore;
+\item \textbf{Rapido ed intuitivo}: La strutturazione dei dati con questa libreria è rapida ed
+inutitiva, ciò dovuto anche dalla sintassi dichiarativa della libreria stessa.
+\end{itemize}
+
+\paragraph{Svantaggi}
+\begin{itemize}
+\item \textbf{Schema-based}: è basato sulla creazione di una forte schematizzazione per i
+documenti, e questo limita l’estrema flessibilità di \glossaryItem{MongoDB}.
+\end{itemize}
+
 	\subsubsection{mxGrafh}
+	\textbf{mxGraph} è una libreria \glossaryItem{JavaScript} di \glossaryItem{diagrammi} che consente di creare rapidamente applicazioni di grafici interattive e grafici che vengono eseguiti in modo nativo su tutti i browser principali.
+
+\paragraph{Vantaggi}
+\begin{itemize}
+\item \textbf{Non sono necessari altri plug-in}: Ciò elimina i plug-in di dipendenza dai fornitori;
+\item \textbf{\glossaryItem{Open-source}}:Le tecnologie coinvolte sono libere e ci sono molte implementazioni aperte, nessun fornitore può rimuovere un prodotto o una tecnologia che lascia in pratica la tua applicazione inoperabile;
+\item \textbf{Le tecnologie sono standardizzate}: L'applicazione è distribuibile al numero massimo di utenti del browser senza bisogno di ulteriori configurazioni o installazione sul computer \glossaryItem{client}. Gli ambienti aziendali di grandi dimensioni spesso non amano consentire agli individui di installare plug-in del \glossaryItem{browser} e non amano cambiare la build standard creata su tutte le macchine.
+\end{itemize}
+
+\paragraph{Svantaggi}
+\begin{itemize}
+\item \textbf{Aumento rapido di celle}: Poiché il numero di celle visibili sullo schermo degli utenti aumenta di centinaia, la valutazione rallenta oltre i limiti accettabili sulla maggior parte dei \glossaryItem{browser}. Nella teoria della gestione delle informazioni, visualizzare diverse centinaia di celle è generalmente sbagliato, in quanto l'utente non può interpretare i dati. 
+\end{itemize}
