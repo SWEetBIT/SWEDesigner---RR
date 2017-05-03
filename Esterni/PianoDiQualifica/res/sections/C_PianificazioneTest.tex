@@ -153,7 +153,7 @@ Codice & Descrizione & Requisito & N.E.\\
 
 
 
-
+\newpage
 \subsection{Test di Accettazione}
 \begin{longtable}{p{2cm}!{\VRule[1pt]}p{7.5cm}!{\VRule[1pt]}p{1cm}!{\VRule[1pt]}p{2.5cm}}
 \rowcolor{I}
@@ -162,25 +162,25 @@ Codice & Descrizione & Requisito & N.E.\\
 \rowcolor{I} 
 \color{white} \textbf{Test} & \color{white} \textbf{Descrizione}  & \color{white} \textbf{Stato}  & \color{white} \textbf{Requisito}\\  
 \endhead 
-TV1 & L'utente che non ha mai effettuato la registrazione deve prima registrarsi al sistema. All'utente è richiesto: \begin{itemize}
+TA1 & L'utente che non ha mai effettuato la registrazione deve prima registrarsi al sistema. All'utente è richiesto: \begin{itemize}
 \item inserire l'username secondo i criteri specificati;
 \item inserire la password secondo i criteri specificati;
 \item inserire l'email;
 \item confermare la registrazione.
 \end{itemize} & N.E. & R0F1, R0F1.1 \newline R0F1.2 R0F1.3 \newline R0F1.4\\
 
-TV2 & L'utente non autenticato intende accedere all'applicazione, per farlo deve inserire le proprie credenziali composte da username o email e password. All'utente è richiesto: \begin{itemize}
+TA2 & L'utente non autenticato intende accedere all'applicazione, per farlo deve inserire le proprie credenziali composte da username o email e password. All'utente è richiesto: \begin{itemize}
 \item inserire l'username o la mail nel campo apposito;
 \item inserire la password;
 \item procedere con l'autenticazione.
 \end{itemize} & N.E. & R0F2 R0F2.1 \newline R0F2.2\\
 
-TV3 & L'utente autenticato deve poter eseguire il logout dall'applicazione. All'utente è richiesto di:\begin{itemize}
+TA3 & L'utente autenticato deve poter eseguire il logout dall'applicazione. All'utente è richiesto di:\begin{itemize}
 \item essere autenticato;
 \item selezionare l'opzione di logout.
 \end{itemize} & N.E. & R0F4\\
 
-TV4 & L'utente autenticato ha la possibilità di gestire i propri progetti aggiungendone di nuovi, importandone di esistenti, esportandone o eliminandone. All'utente è richiesto di: \begin{itemize}
+TA4 & L'utente autenticato ha la possibilità di gestire i propri progetti aggiungendone di nuovi, importandone di esistenti, esportandone o eliminandone. All'utente è richiesto di: \begin{itemize}
 \item essere autenticato;
 \item accedere alla pagina della gestione dei progetti.
 \item selezionare "Nuovo Progetto" se vuole creare uno di nuovo;
@@ -188,7 +188,7 @@ TV4 & L'utente autenticato ha la possibilità di gestire i propri progetti aggiu
 \item selezionare "Esporta" se vuole salvare nel proprio sistema il progetto;
 \item selezionare "Elimina" se vuole eliminare un progetto.
 \end{itemize} & N.E. & R0F5 R0F5.1 R0F5.1.1 R0F5.1.2 R0F5.2 R0F5.3 \\
-TV5 & L'utente autenticato ha la possibilità di salvare, chiudere, esportare, generere il codice sorgente, salvare come template il progetto in uso dal menu File. All'utente è richiesto di: \begin{itemize}
+TA5 & L'utente autenticato ha la possibilità di salvare, chiudere, esportare, generere il codice sorgente, salvare come template il progetto in uso dal menu File. All'utente è richiesto di: \begin{itemize}
 \item essere autenticato;
 \item avere un progetto aperto;
 \item selezionare "Salva" per salvare nel database il progetto;
@@ -197,17 +197,155 @@ TV5 & L'utente autenticato ha la possibilità di salvare, chiudere, esportare, g
 \item selezionare "Genera" per effettuare la generazione del codice sorgente;
 \item selezionare "Salva template" per salvare il progetto come template per un futuro riutilizzo.
 \end{itemize}  & N.E. & R0F6.1.1 R0F6.1.1.1 R0F6.1.1.2 R0F6.1.1.3 R0F6.1.1.4 R0F6.1.1.5\\
- & & N.E. & \\
- & & N.E. & \\
- & & N.E. & \\
- & & N.E. & \\
- & & N.E. & \\
- & & N.E. & \\
- & & N.E. & \\
- & & N.E. & \\
- & & N.E. & \\
-
-
+TA6 & L'utente autenticato ha la possibilità di annullare, ripristinare una operazione, oppure tagliare, copiare, incollare un oggetto  o fare operazioni di zoom, dal menu Edit. All'utente è richiesto di: \begin{itemize}
+\item essere autenticato;
+\item avere un progetto aperto;
+\item selezionare "Annulla" per annullare l'ultima operazione effettuata;
+\item selezionare "Ripristina" per ripristinare l'ultima operazione effettuata;
+\item selezionare "Taglia" per tagliare un elemento selezionato;
+\item selezionare "Copia" per copiare un elemento selezionato;
+\item selezionare "Incolla" per incollare un elemento copiato;
+\item selezionare "Zoom-in" per effettuare una operazione di zoom in
+\item selezionare "Zoom-out" per effettuare una operazione di zoom out
+\end{itemize} & N.E. & R1F6.1.2.1 R1F6.1.2.2 R1F6.1.2.3 R1F6.1.2.4 R1F6.1.2.5 R1F6.1.2.6 R1F6.1.2.7\\
+TA7 & L'utente autenticato ha la possibilità di visionare i template forniti dal dominio applicativo, e gestire i propri, dal menu Template. All'utente è richiesto di:\begin{itemize}
+\item essere autenticato;
+\item avere un progetto aperto;
+\item accedere alla pagina di gestione dei template;
+\item selezionare "Aggiungi" per aggiuungere al proprio progetto un template;
+\item selezionare "Elimina" per eliminare un proprio template precedentemente salvato;
+\end{itemize} & N.E. & R1F6.1.3 R1F6.1.3.1 R1F6.1.3.2 \\
+TA8 & L'utente autenticato ha la possibilità di visionare e gestire i layer disponibili, dal menu Layer. All'utente è richiesto di:\begin{itemize}
+\item essere autenticato;
+\item avere un progetto aperto;
+\item selezionare "Aggiungi" per creare un nuovo layer;
+\item selezionare "Visualizza" per visualizzare i layer desiderati;
+\item selezionare "Modifica" per modificare il nome del layer;
+\item selezionare "Elimina" per eliminare un layer.
+\end{itemize} & N.E. & R2F6.1.4 R2F6.1.4.1 R2F6.1.4.2 R2F6.1.4.3.1 R2F6.1.4.3.2\\
+TA9 & L'utente autenticato ha la possibilità di aggiungere al proprio progetto gli elementi dei diagrammi delle classi, tramite la barra degli strumenti. All'utente è richiesto di:\begin{itemize}
+\item essere autenticato;
+\item avere un progetto aperto;
+\item selezionare l'icona "Classe" per inserire il disegno di una Classe;
+\item selezionare l'icona "Pacchetto" per inserire il disegno di un Pacchetto;
+\item selezionare l'icona "Relazione" per inserire il disegno di una Relazione indicandone classe di  partenza e destinazione e il tipo di relazione;
+\item selezionare l'icona "Commento" per inserire il disegno di un Commento, indicandone a quali elemento è riferito.
+\end{itemize} & N.E. & R0F6.2.1 R0F6.2.1.1 R0F6.2.1.2 R0F6.2.1.3 R0F6.2.1.3.1 R0F6.2.1.3.2 R0F6.2.1.3.3 R0F6.2.1.4 R0F6.2.1.4.1\\
+TA10 & L'utente autenticato ha la possibilità di aggiungere al proprio progetto gli elementi dei diagrammi dei metodi, tramite la barra degli strumenti. All'utente è richiesto di: \begin{itemize}
+\item essere autenticato;
+\item avere un progetto aperto;
+\item avere selezionato un metodo da implementare;
+\item selezionare l'icona "Operazione" per inserire il disegno di una operazione;
+\item selezionare l'icona "Chiamata a Metodo" per inserire il disegno di una chiamata a metodo;
+\item selezionare l'icona "Variabile" per inserire il disegno di una variabile;
+\item selezionare l'icona "Connettore" per inserire il disegno di un connettore;
+\item selezionare l'icona "Nodo di Decisione" per inserire il disegno di un nodo di decisione;
+\item selezionare l'icona "Nodo di Merge" per inserire il disegno di un nodo di merge;
+\item selezionare l'icona "Commento" per inserire il disegno di un commento;
+\item selezionare l'icona "Output pin" per inserire il disegno di un output pin;
+\end{itemize} & N.E. & R0F6.2.2 R0F6.2.2.1 R0F6.2.2.2 R0F6.2.2.3 R0F6.2.2.4 R0F6.2.2.5 R0F6.2.2.6 R0F6.2.2.7 R0F6.2.2.8\\
+TA11 & L'utente autenticato ha la possibilità di eliminare gli elementi dei diagrammi delle classi aggiunti del disegnatore. All'utente è richiesto di:\begin{itemize}
+\item essere autenticato;
+\item avere un progetto aperto;
+\item avere almeno un elemento del diagramma delle classi inserito nel progetto;
+\item eliminare un elemento "Classe";
+\item eliminare un elemento "Relazione";
+\item eliminare un elemento "Pacchetto";
+\item eliminare un elemento "Commento";
+\item eliminare un elemento "Metodo" in una classe;
+\item eliminare un elemento "Attributo" in una classe;
+\end{itemize} & N.E. & R0F6.3.1 R0F6.3.1.1 R0F6.3.1.2 R0F6.3.1.3 R0F6.3.1.9 R0F6.3.1.10 R0F6.3.1.11\\
+TA12 & L'utente autenticato ha la possibilità di modificare un elemento Classe. All'utente è richiesto di:
+\begin{itemize}
+\item essere autenticato;
+\item avere un progetto aperto;
+\item avere un elemento classe disegnato; 
+\item modificare campo "nome";
+\item modificare campo "attributo";
+\item modificare campo "visibilità attributo";
+\item modificare campo "nome attributo";
+\item modificare campo "tipo attributo";
+\item modificare campo "valore di default attributo";
+\item modificare campo "metodo";
+\item modificare campo "visibilità metodo";
+\item modificare campo "nome metodo";
+\item modificare campo "tipo di ritorno metodo";
+\item modificare campo "lista parametri metodo";
+\item aggiungere campo "metodo";
+\item aggiungere campo "attributo";
+\item modificare campo "classe astratta";
+\item modificare campo "interfaccia";
+\item modificare campo "assegnazione layer";
+\item modificare campo "relazione";
+\end{itemize} & N.E. & R0F6.3.1.5.1 R0F6.3.1.5.2 R0F6.3.1.5.2.1 R0F6.3.1.5.2.2 R0F6.3.1.5.2.3 R0F6.3.1.5.2.4 R0F6.3.1.5.3 R0F6.3.1.5.4 R0F6.3.1.5.4.1 R0F6.3.1.5.4.2 R0F6.3.1.5.4.3 R0F6.3.1.5.4.4 R0F6.3.1.5.5 R0F6.3.1.5.6 R0F6.3.1.5.7 R0F6.3.1.5.8\\
+TA13 & L'utente autenticato ha la possibilità di modificare un elemento relazione tra classi. All'utente è richiesto di:\begin{itemize}
+\item essere autenticato;
+\item avere un progetto aperto;
+\item avere un elemento relazione disegnato;
+\item modificare tipo relazione;
+\end{itemize} & N.E. & R0F6.3.1.6\\
+TA14 & L'utente autenticato ha la possibilità di modificare un elemento pacchetto presente nel disegnatore. All'utente è richiesto di:\begin{itemize}
+\item essere registrato;
+\item avere un progetto aperto;
+\item avere un elemento pacchetto disegnato;
+\item modificare campo "nome";
+\item modificare campo "nome";
+\item eliminare una classe all'interno del pacchetto;
+\item estrarre una classe dal pacchetto per portarla all'esterno;
+\end{itemize} & N.E. & R0F6.3.1.7 R0F6.3.1.7.1 R0F6.3.1.7.2 R0F6.3.1.7.3\\
+TA15 & L'utente autenticato ha la possibilità di modificare un elemento commento presente nel disegnatore. All'utente è richiesto di:\begin{itemize}
+\item essere autenticato;
+\item avere un progetto aperto;
+\item avere un elemento commento disegnato;
+\item modificare il campo "testo".
+\end{itemize} & N.E. & R0F6.3.1.8 R0F6.3.1.8.1 \\
+TA16 & L'utente autenticato ha la possibilità di spostare all'interno dell'editor ogni elemento disegnato. All'utente è richiesto di:\begin{itemize}
+\item essere registrato;
+\item avere un progetto aperto;
+\item avere un qualsiasi elemento disegnato.
+\end{itemize} & N.E. & R0F6.3.4\\
+TA17 & L'utente autenticato ha la possibilità di eliminare gli elementi dei diagrammi dei metodi aggiunti del disegnatore. All'utente è richiesto di:\begin{itemize}
+\item essere autenticato;
+\item avere un progetto aperto;
+\item avere aperto la creazione di un diagramma dei metodi;
+\item eliminare un elemento "Operazione";
+\item eliminare un elemento "Chiamata a metodo";
+\item eliminare un elemento "Variabile";
+\item eliminare un elemento "Connettore";
+\item eliminare un elemento "Nodo decisione";
+\item eliminare un elemento "Nodo merge";
+\item eliminare un elemento "Commento";
+\item eliminare un elemento "Output pin";
+\end{itemize} & N.E. & R0F6.3.5 R0F6.3.5.1 R0F6.3.5.2 R0F6.3.5.3 R0F6.3.5.4 R0F6.3.5.5 R0F6.3.5.6 R0F6.3.5.7 R0F6.3.5.8\\
+TA18 & L'utente autenticato ha la possibilità di modificare gli elementi dei diagrammi dei metodi aggiunti del disegnatore. All'utente è richiesto di: \begin{itemize}
+\item essere autenticato;
+\item avere un progetto aperto;
+\item avere aperto la creazione di un diagramma dei metodi;
+\item modificare il campo "testo" di un commento;
+\item modificare il campo "operazione" tra variabili di un elemento operazione;
+\item modificare un campo "metodo" di un elemento chiamata a metodo;
+\item modificare un campo "variabile" di un elemento variabile;
+\item modificare il campo "guardia" di un connettore;
+\end{itemize} & N.E. & R0F6.3.5.9 R0F6.3.5.10 R0F6.3.5.10.1 R0F6.3.5.11 R0F6.3.5.11.1 R0F6.3.5.12 R0F6.3.5.12.1 R0F6.3.5.13 R0F6.3.5.13.1\\
+TA18 & L'utente autenticato ha la possibilità di visualizzare il pannello laterale contenente il diagramma dei metodi generale, permettendo la navigazione tra le varie chiamate a metodo. All'utente è richiesto di: \begin{itemize}
+\item essere autenticato;
+\item avere un progetto aperto;
+\item selezionare un elemento "Chiamata a metodo" per navigare tra le varie chiamate a metodo;
+\item selezionare dalla "Breadcrumb" una tra le classi percorse durante la navigazione tra le chiamate a metodo.
+\end{itemize} & N.E. & R0F6.4 R0F6.4.1 R0F6.4.2\\
+TA19 & L'utente autenticato ha la possibilità di gestire i propri dati personali. All'utente è richiesto di:\begin{itemize}
+\item essere autenticato;
+\item avere aperto la pagina di gestione profilo;
+\item modificare la propria password;
+\item modificare la propria email;
+\item eliminare il proprio profilo.
+\end{itemize} & N.E. & R1F3 R1F3.1 R1F3.2 R1F3.3\\
+TA20 & L'utente non ancora autenticato, che ha smarrito la password ha la possibilità di richiedere al sistema una nuova password di reset. All'utente è richiesto di:\begin{itemize}
+\item essere registrato;
+\item accedere alla pagina di recupero password;
+\item inserire l'indirizzo email fornito in fase di registrazione;
+\item confermare l'invio della nuova password.
+\end{itemize} & N.E. & R1F13 \\
 \rowcolor{white}
 \caption{Tracciamento Test di Accettazione - Requisiti}
 \end{longtable}
