@@ -209,13 +209,13 @@ Rispetto ad altri ha il vantaggio di utilizzare la lunghezza delle parole in let
 Le presenti metriche rappresentano gli obbiettivi di qualità per il prodotto software da perseguire.
 Per ogni metrica indicata è stato definito nelle \emph{Norme di Progetto \VersioneNP{}} come si calcola, e con quale strumento. In \emph{Appendice B} si può visionare il resoconto di tali metriche.
 
-\paragraph{Dimensione del prodotto software:} Rappresenta le dimensioni del prodotto software, è misurata in termini di migliaia di linee di codice (KLOC s, Thousands Line Of Code), ma da alcuni anni è stata introdotto una nuova misura, legata al numero di funzionalità offerte, e quindi dal valore che il prodotto ha per l’utente.
+\paragraph{Dimensione del prodotto software:} Rappresenta le dimensioni del prodotto software, è misurata in termini di migliaia di linee di codice (KLOC, Thousands Line Of Code),
+ma da alcuni anni è stata introdotto una nuova misura, legata al numero di funzionalità offerte, e quindi dal valore che il prodotto ha per l’utente.
+Questa seconda misurazione è espressa come numero di punti funzione (FP, Function Points).
 
 \paragraph{Complessità ciclomatica:} è una metrica per la misura della complessità di funzioni, moduli, metodi o classi di un programma; la quale è calcolata mediate il grafo di controllo di flusso relativo al \glossaryItem{Codice}.
             I nodi del grafo sono gruppi di istruzioni indivisibili. Se nel \glossaryItem{Codice} non sono presenti punti decisionali o cicli, allora la complessità ciclomatica sarà pari a 1.
             Alti valori di complessità ciclomatica implicano una ridotta manutenibilità del codice. Valori bassi di complessità ciclomatica potrebbero però determinare scarsa efficienza dei metodi.
-
-\paragraph{Numero di file:} rappresenta la media di occorrenze di metodi per file: un file, infatti, non dovrebbe contenere un numero eccessivo di metodi. Valori troppo elevati indicano la necessità di una migliore decomposizione del file.
 
 \paragraph{Variabili non utilizzate e/o non definite:} rappresenta il numero di variabili che vengono definite, ma non utilizzate, o viceversa. Questo viene considerato pollution, e pertanto considerato inaccettabile. La misurazione avviene mediante un’analisi dell’AST (Abstract Syntax Tree).
 
