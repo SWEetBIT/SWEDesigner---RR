@@ -140,3 +140,37 @@ nei diagrammi delle classi sono:
 \begin{itemize}
 \item classi Java;
 \end{itemize}
+
+\subsubsection{Codifica dei file e documentazione}
+   \paragraph{Codifica e convenzioni}
+   Tutti i file contenenti codice o documentazione dovranno essere in codifica \glossaryItem{UTF-8} senza \glossaryItem{BOM}.\\
+   È ammessa la possibilità di effettuare modifiche alle convenzioni stabilite in seguito ad una decisione del \emph{Responsabile di Progetto}.\\
+   L’unica lingua ammessa per i nomi di variabili, classi e funzioni è l’inglese.
+   \paragraph{Documentazione}
+     I file contenti codice dovranno essere provvisti di un'intestazione contenente:
+     \begin{lstlisting}[frame=single]
+       /*!
+       * \file Nome del file
+       * \author Autore (indirizzo e-mail dell'autore)
+       * \date Data di creazione
+       * \brief Breve descrizione del file
+       *
+       * Descrizione dettagliata del file
+       */
+     \end{lstlisting}
+     Prima di ogni classe dovrà esserci un commento contenente:
+     \begin{lstlisting}[frame=single]
+       /*!
+       * \class Nome della classe
+       * \brief Breve descrizione della classe
+       */
+     \end{lstlisting}
+     Prima di ogni metodo dovrà essere inserito un commento contenente:
+     \begin{lstlisting}[frame=single]
+       /*!
+       * \brief Breve descrizione della funzione
+       * \param Nome del primo parametro
+       * \param Nome del secondo parametro
+       * \return Valore ritornato dalla funzione
+      */
+  \end{lstlisting}
