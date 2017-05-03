@@ -118,6 +118,8 @@
 		\setentrycounter[]{page}\glsnumberformat{2}}}%
 \glsnonextpages \glossentry{PNG}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}%
+\glsnonextpages \glossentry{Progettazione ad alto livello}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{2}}}%
 \glsnonextpages \glossentry{Proponente}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}\glsgroupskip
 \glsgroupheading{R}\relax \glsresetentrylist %
