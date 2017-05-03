@@ -62,9 +62,59 @@ Questo capitolo descrive tutte le convenzioni scelte ed adottate da SWEet BIT ri
       Le alternative analizzate sono state \emph{Dia}, \emph{LuchiChart} e \emph{Papyrus} che si sono rivelati però troppo deboli in confronto ad \textbf{Astah Professional} che offre
       diverse funzionalità aggiuntive raggruppandone diverse dei tre software citati al suo interno.
   \subsubsection{Ambiente di verifica}
-    Vengono qui elencati, e sommariamente descritti, gli strumenti automatizzati per effettuare la verifica dei documenti redatti e del \glossaryItem{Codice} prodotto.\\
-    Le metriche ed i metodi per effettuare verifica sono ampiamente e dettagliatamente descritti nel \emph{Piano di Qualifica}.\\
-    \paragraph{Documenti}
+    Vengono qui elencati, e sommariamente descritti, gli strumenti automatizzati per effettuare la verifica dei documenti redatti e del \glossaryItem{Codice} prodotto.
+
+\paragraph{Analisi Statica}
+Per l'analisi statica del codice, descritta nel documento \emph{Piano di Qualifica v}\VersionePQ, e per aiutare l'identificazione automatica di errori, vengono usati i seguenti strumenti:
+\begin{itemize}
+\item \textbf{JSHint: }uno strumento che aiuta ad identificare gli errori e i potenziali problemi nel codice JavaScript;
+\item \textbf{JSLint: }uno strumento usato per verificare che il codice JavaSript compila secondo le regole del linguaggio;
+\item \textbf{Closure Compiler: }strumento utilizzato per  migliorare il codice, controllando la sintassi ed i riferimenti alle variabili.
+\end{itemize}
+
+\paragraph{Analisi Dinamica}
+Per l'analisi dinamica, descritta nel documento \emph{Piano di Qualifica v}\VersionePQ, per verificare tramite test se il prodotto software non abbia errori, viene utilizzato:
+\begin{itemize}
+\item \textbf{Mocha: } una libreria ricca di funzionalità per l'esecuzione di test JavScript
+\end{itemize}
+I tipi di test implementati sono:
+\begin{itemize}
+\item \textbf{Test di Unità: }Verificano che ogni singola unità funzioni correttamente; un'unità è la più piccola quantità di software che conviene verificare da sola. Vengono identificati tramite la seguente notazione:
+\begin{center}
+\emph{TU[CodiceTest]}
+\end{center}
+\item \textbf{Test di Integrazione: }Verificano che più unità funzionino assieme nel modo corretto. Vengono identificati tramite la seguente notazione:
+\begin{center}
+\emph{TI[CodiceTest]}
+\end{center}
+\item \textbf{Test di Sistema: }Verificano che il prodotto software copra i requisiti. Vengono identificati tramite la seguente notazione:
+\begin{center}
+\emph{TS[CodiceProgressivoRequisito]}
+\end{center}
+\item \textbf{Test di Accettazione: }Verificano in presenza del Proponente la completezza del prodotto durante il collaudo. Vengono identificati tramite la seguente notazione:
+\begin{center}
+\emph{TA[CodiceTest]}
+\end{center}
+\end{itemize}
+
+\paragraph{Metriche}
+Durante l'attività di verifica dei processi vengono definite delle metriche, di seguito riportate, utili alla misurazione quantitativa degli obiettivi di qualità prefissati dal documento \emph{Piano di Qualifica }\VersionePQ. Per ognuna delle metriche definite dal documento \emph{Piano di Qualifica }\VersionePQ viene definito il nome ed il range o il valore di accettazione stabilito. In appendice viene specificato come calcolare tali metriche.\\
+\begin{center}
+\begin{tabular}{|p{5cm}|p{3cm}|}
+\hline
+\textbf{Metrica} & \textbf{Range}\\ \hline
+Schedule Variance & [\(\geq\) -141]\\ \hline
+Budget Variance & [\(\geq\) -282.5]\\ \hline
+Indice Gulpease & [40-100]\\ \hline
+Complessità Ciclomatica & [0-15]\\ \hline
+Numero metodi per file & [3-10] \\ \hline
+Variabili non utilizzate e/o non definite & [0-0] \\ \hline
+Numero argomenti per funzione & [0-6]\\ \hline
+Linee di codice per linee di commento & [\(\geq\)0.25]\\ \hline
+Copertura del codice & [70-100]\\ \hline
+\end{tabular}
+\end{center}
+    \subsubsection{Documenti}
       \begin{itemize}
         \item \textbf{TexMaker: }Per la stesura dei documenti è stato utilizzato \glossaryItem{TexMaker} per via dell'integrazione con i dizionari di OpenOffice.org, i quali consentono un controllo ortografico in real-time;
         \item \textbf{Aspell: }strumento per la correzione tipografica dei documenti redatti in \glossaryItem{\LaTeX}.
