@@ -17,6 +17,9 @@
 	\subsection{Sviluppo}
 		\subsubsection{Analisi dei requisiti}
 		 La stesura del documento di \emph{Analisi dei Requisiti} è compito degli \emph{Analisti} e si divide nelle fasi di seguito riportante.\\
+		 Per semplificare il tracciamento degli \glossaryItem{Use Case} e dei Requisiti si è scelto di utilizzare \textbf{Trender}, uno strumento \glossaryItem{Open-source} che permette
+        di gestire al meglio entrambi gli elementi e le realizioni fra gli stessi.\\
+        Il tool permette l'esportazione di questi direttamente in \glossaryItem{\LaTeX}\, così da semplificare la scrittura degli stessi all'interno della documentazione.
     Il documento dovrà seguire, inoltre, le norme specificate di seguito.
     \paragraph{Classificazione dei requisiti}
       È compito degli \emph{Analisti} stilare una lista dei requisiti emersi dal \glossaryItem{capitolato} e da eventuali riunioni con il \glossaryItem{Proponente}. Questi dovranno essere
@@ -132,13 +135,49 @@ in sequenza e le varie scelte sono già state prese.
 Per disegnare i diagrammi appena esposti, i progettisti devono usare il software
 gratuito Astah ed esportare i diagrammi in formato PNG. Astah supporta la
 generazione di tutti i diagrammi che vengono usati dal gruppo (classi, attività,
-sequenza e package).
+sequenza e package). Le alternative analizzate sono state \emph{Dia}, \emph{LuchiChart} e \emph{Papyrus} che si sono rivelati però troppo deboli in confronto ad \textbf{Astah} che offre
+      diverse funzionalità aggiuntive raggruppandone diverse dei tre software citati al suo interno.
 
 \paragraph{Stile di progettazione} L’architettura di SWEDesigner segue lo
 stile dell’orientazione agli oggetti; perciò, le componenti software descritte
 nei diagrammi delle classi sono:
 \begin{itemize}
-\item classi Java;
+\item prototipi di oggetti JavaScript;
+\end{itemize}
+
+Al fine di aumentare la manutenibilità i progettisti devono seguire le seguenti regole:
+\begin{itemize}
+\item La progettazione dovrà usare quanto più possibile \glossaryItem{design pattern};
+\item L'architettura deve rispettare le regole di progettazione che ne garantiscono la correttezza rispetto allo standard UML;
+\item Suddividere il progetto in moduli, in accordo con lo stile di progettazione dell'ambiente Node.js;
+\item ogni componente deve avere un compito ben precisio, ricavabile dal proprio nome e dai metodi che costituiscono l'interfaccia;
+\end{itemize}
+
+\paragraph{Nomenclatura}
+I progettisti devono osservare le seguenti norme, al fine di uniformare il codice che verrà derivato dalla progettazione:
+\begin{itemize}
+\item le componenti vanno raggruppate in moduli. Il nome di tale modulo deve:
+\begin{itemize}
+\item contenere solo caratteri alfanumerici;
+\item essere in lingua inglese;
+\item avere il nome del modulo "padre" che lo contiene preposto al nome del metodo, seguito da una coppia di due punti (::);
+\item essere rappresentativo del ruolo che rappresenta.
+\end{itemize}
+\item ogni nome di componente di un modulo deve:
+\begin{itemize}
+\item contenere solo caratteri alfanumerici;
+\item essere in lingua inglese;
+\item se composto da più termini, l'iniziale di ogni termine deve essere maiuscola;
+\item non può essere un termine riservato del linguaggio JavaScript.
+\end{itemize}
+\item ogni nome di funzione deve:
+\begin{itemize}
+\item contenere solo caratteri alfanumerici;
+\item essere in lingua inglese;
+\item se composto da più termini, l'iniziale di ogni termine deve essere maiuscola;
+\item essere rappresentativo per il servizio che offre;
+\item non può essere un termine riservato del linguaggio JavaScript.
+\end{itemize}
 \end{itemize}
 
 \subsubsection{Codifica dei file e documentazione}
@@ -146,7 +185,16 @@ nei diagrammi delle classi sono:
    Tutti i file contenenti codice o documentazione dovranno essere in codifica \glossaryItem{UTF-8} senza \glossaryItem{BOM}.\\
    È ammessa la possibilità di effettuare modifiche alle convenzioni stabilite in seguito ad una decisione del \emph{Responsabile di Progetto}.\\
    L’unica lingua ammessa per i nomi di variabili, classi e funzioni è l’inglese.
-   \paragraph{Documentazione}
+
+\paragraph{Nomenclatura del codice:}
+In fase di codifica i programmatori devono rispettare le seguenti norme di codifica:
+\begin{itemize}
+\item I nomi di metodi e funzioni devono essere adottati quelli definiti nel documento \emph{Specifica Tecnica};
+\item I programmatori possono introdurre funzioni ausiliarie non presenti nella progettazione;
+\end{itemize}   
+     
+   
+   \paragraph{Documentazione del codice}
      I file contenti codice dovranno essere provvisti di un'intestazione contenente:
      \begin{lstlisting}[frame=single]
        /*!
@@ -174,3 +222,4 @@ nei diagrammi delle classi sono:
        * \return Valore ritornato dalla funzione
       */
   \end{lstlisting}
+      

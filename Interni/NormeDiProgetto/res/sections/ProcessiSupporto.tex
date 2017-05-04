@@ -1,37 +1,26 @@
 \section{Processi di supporto}
 Questo capitolo descrive tutte le convenzioni scelte ed adottate da SWEet BIT riguardo alla stesura, verifica e approvazione della documentazione da produrre.
-\subsection{Ambiente di lavoro}
-  \subsubsection{Coordinamento}
-    Il coordinamento del gruppo avviene tramite:
-    \begin{itemize}
-      \item \glossaryItem{Repository} su \textbf{\glossaryItem{GitHub}};
-      \item \glossaryItem{Google Drive};
-      \item \glossaryItem{Telegram}
-    \end{itemize}
-    \paragraph{Repository}
-      Sulla \glossaryItem{Repository} di \textbf{\glossaryItem{GitHub}}, raggiungibile all'indirizzo \url{https://GitHub.com/SWEetBIT}, sono caricati i vari \glossaryItem{Template} da utilizzare
-      durante la stesura dei documenti e la strumentazione da utilizzare per la formattazione dei termini del \emph{Glossario}.
-    \paragraph{Gestione del progetto}
-      
-    \paragraph{Versionamento}
-      Dopo aver preso in considerazione diverse opzioni per il versionamento, alla fine si è scelto di utilizzare \textbf{\glossaryItem{GitHub}} per via della
-      sua enrome flessibilità e per via delle esperienze pregresse di tutti i membri del gruppo che hanno manifestato una certa familiarità con
-      tale strumento.\\
-      È stata creata una sola \glossaryItem{Repository}, alla quale si aggiungeranno le altre legate alle fasi successive, contenente tutte le cartelle necessarie
-      alla stesura dei documenti \glossaryItem{\LaTeX}\.\\
-      Una volta terminato il lavoro di redazione dei documenti sarà creato un \emph{branch} di verifica per permettere ai \emph{Verificatori} di
-      lavorare in parallelo agli altri membri del gruppo.
-    \paragraph{Google Drive}
-      Lo strumento di \glossaryItem{Cloud storage} di \glossaryItem{Google}, è stato utilizzato principalmente per tenere traccia di verbali interni e di documentazione interna
-      non formale, che può essere utile a tutti i membri del gruppo, durante le varie fasi di lavorazione del progetto.
-  \subsubsection{Ambiente documentale}
 
+\subsection{Documentazione di progetto}
+La documentazione del progetto è contenuta in un \emph{repository} distinto da quello del codice sorgente. Tale \emph{repository} contiene i seguenti documenti:
+\begin{itemize}
+\item \textbf{Studio di Fattibilità: } Documento interno che valuta i pro e contro di ogni capitolato d'appalto;
+\item \textbf{Norme di Progetto: } Documento interno che descrive le norme utilizzate da SWEet BIT per la gestione dei processi;
+\item \textbf{Verbali: } Documento interno che riporta i verbali delle riunioni che interessano il gruppo;
+\item \textbf{Piano di Progetto: } Documento esterno che dichiara come il gruppo intende gestire le risorse umane e temporali;
+\item \textbf{Piano di Qualifica: } Documento esterno che descrive come il gruppo gestisce la qualità del prodotto;
+\item \textbf{Analisi dei Requisiti: } Documento esterno che elenca, descrive e traccia i requisiti ed i casi d'uso del prodotto;
+\item \textbf{Specifica Tecnica: } Documento esterno che descrive l'architettura logica del sistema, mostrandone l'interfaccia di ogni componente utilizzato;
+\item \textbf{Glossario: } Documento esterno che riporta la definizione di termini che possono portare ad ambiguità;
+\end{itemize} 
+
+\subsubsection{Ambiente di lavoro}
     \paragraph{Stesura documenti}
       \subparagraph{\LaTeX}
-        Per la stesura dei documenti si è scelto di utilizzare il sistema \glossaryItem{\LaTeX}\ poiché permette una netta seprazione fra contenuti
-        e formattazione; con \glossaryItem{\LaTeX}\ è possible definire i \glossaryItem{Template} di layout in \glossaryItem{File} condivisi da ogni documento rendendo la lavorazione
+        Per la stesura dei documenti si è scelto di utilizzare il sistema \glossaryItem{\LaTeX}\ poiché permette una netta separazione fra contenuti
+        e formattazione; con \glossaryItem{\LaTeX}\ è possibile definire i \glossaryItem{Template} di layout in \glossaryItem{File} condivisi da ogni documento rendendo la lavorazione
         degli stessi altamente più flessibile e ottimale.\\
-        \glossaryItem{\LaTeX}\ consente poi l'utilizzo di funzioni e variabli locali definti dall'\glossaryItem{Utente}, in maniera tale da semplificare ulteriormente
+        \glossaryItem{\LaTeX}\ consente poi l'utilizzo di funzioni e variabili locali definiti dall'\glossaryItem{Utente}, in maniera tale da semplificare ulteriormente
         il lavoro di stesura dei documenti, una volta definita la struttura degli stessi.\\
         Per la scrittura dei documenti \glossaryItem{\LaTeX}\ l'editor utilizzato è \textbf{TexMaker}.
       \subparagraph{Strumentazione esterna}
@@ -52,16 +41,210 @@ Questo capitolo descrive tutte le convenzioni scelte ed adottate da SWEet BIT ri
           \item \textbf{Aspell: }si tratta di un tool offerto dall'editor stesso o presente in forma \glossaryItem{Stand-alone} che effettua un controllo ortografico
           su tutto il documento.
         \end{itemize}
-      \subparagraph{Gestione \glossaryItem{Use Case} e Requisiti}
-        Per semplificare il tracciamento degli \glossaryItem{Use Case} e dei Requisiti si è scelto di utilizzare \textbf{Trender}, uno strumento \glossaryItem{Open-source} che permette
-        di gestire al meglio entrambi gli elementi e le realizioni fra gli stessi.\\
-        Il tool permette l'esportazione di questi direttamente in \glossaryItem{\LaTeX}\, così da semplificare la scrittura degli stessi all'interno della documentazione.
-    \subparagraph{Grafici UML}
-      Per il disegno dei grafici \glossaryItem{UML} si è scelto di utilizzare \textbf{Astah Professional} per via del suo enorme potenziale e della mole di strumenti offerti
-      rispetto agli altri editor presenti sul mercato.\\
-      Le alternative analizzate sono state \emph{Dia}, \emph{LuchiChart} e \emph{Papyrus} che si sono rivelati però troppo deboli in confronto ad \textbf{Astah Professional} che offre
-      diverse funzionalità aggiuntive raggruppandone diverse dei tre software citati al suo interno.
-  \subsubsection{Ambiente di verifica}
+   
+  \subsubsection{Template}
+    Per agevolare la redazione di un documento è stato prodotto un \glossaryItem{Template} e delle regole da seguire per la stesura degli stessi.\\
+    Tale modello e tali regole sono inseriti all'interno di una cartella \path{documents\template} sulla \glossaryItem{repository}.
+
+\subsubsection{Formattazione generale delle pagine}
+        L’intestazione di ogni pagina contiene:
+        \begin{itemize}
+          \item Logo del gruppo;
+          \item Nome del gruppo;
+          \item Nome del progetto;
+          \item Sezione corrente del documento;
+        \end{itemize}
+        A piè di pagina invece è presente:
+        \begin{itemize}
+          \item Nome e versione del documento;
+          \item Pagina corrente nel formato \emph{N} di \emph{T} dove \emph{N} è il numero di pagina corrente e \emph{T} è il numero di pagine totali.
+        \end{itemize}
+
+\subsubsection{Struttura del documento}
+      \paragraph{Prima pagina}
+        Ogni documento è caratterizzato da una prima pagina che contiene le seguenti informazioni sul documento:\\
+        \begin{itemize}
+          \item Nome del gruppo;
+          \item Nome del progetto;
+          \item Logo del gruppo;
+          \item Titolo del documento;
+          \item Versione del documento;
+          \item Cognome e nome dei redattori del documento;
+          \item Cognome e nome dei verificatori del documento;
+          \item Cognome e nome del responsabile approvatore del documento;
+          \item Destinazione d'uso del documento;
+          \item Lista di distribuzione del documento;
+          \item Breve descrizione del documento.
+        \end{itemize}
+      \paragraph{Diario delle modifiche}
+        La seconda pagina di ogni documento contiene il diario delle modifiche.\\
+        Ogni riga del diario delle modifiche contiene:
+        \begin{itemize}
+          \item Un breve sommario delle modifiche svolte;
+          \item Cognome e nome dell’autore;
+          \item Data della modifica;
+          \item Versione del documento dopo la modifica.
+        \end{itemize}
+        La tabella è ordinata per data in ordine decrescente, in modo che la prima riga corrisponda alla versione attuale del documento.
+      \paragraph{Indici}
+        In ogni documento è presente un indice delle sezioni, un indice delle figure e un indice delle tabelle. Nel caso non siano presenti figure o tabelle i rispettivi indici verranno omessi.        
+
+    \subsubsection{Ciclo di vita}
+      Ogni documento prodotto segue un preciso iter che scandisce le fasi in cui si trova in ogni istante. Un documento può trovarsi in tre stati diversi:\\
+      \begin{itemize}
+        \item \textbf{In lavorazione: }Un documento entra in questa fase nel momento della sua creazione e vi rimane per tutto il periodo della sua stesura
+          o per eventuali successive modifiche;
+        \item \textbf{Da verificare: }Un documento entra in questa fase alla fine della sua stesura quando entra in possesso dei verificatori che avranno il compito
+          di individuare e correggere eventuali errori sintattici o semantici;
+        \item \textbf{Approvato: }Un documento entra in questa fase una volta che il \emph{Responsabile di Progetto} lo ha approvato dopo la fase di verifica.\\
+          L'approvazione sancisce la fine del ciclo di vita del documento per la data versione.
+      \end{itemize}
+      Ogni fase del ciclo di vita può essere affrontata anche più volte da parte di un documento.
+\subsubsection{Glossario}
+  Il Glossario conterrà tutte le parole presenti negli altri documenti che fanno parte del contesto dell'applicazione o che possono essere fraintese. Le definizioni, presentate in
+  ordine alfabetico, dovranno essere concise e comprensibili.\\
+  I termini verranno inseriti nel glossario parallelamente al processo di stesura degli altri documenti, in modo da limitare l'errore umano.\\
+  È preferibile inserire un termine inizialmente privo di definizione, piuttosto che rimandare la stesura del glossario.
+
+    \subsubsection{Norme tipografiche}
+      Questa sezione racchiude le convenzioni riguardanti tipografia, ortografia e uno stile uniforme per tutti i documenti.
+      \paragraph{Punteggiatura}
+        \begin{itemize}
+          \item \textbf{Parentesi: }Il testo racchiuso tra parentesi non deve aprirsi o chiudersi con un carattere di spaziatura e non deve terminare con un carattere di punteggiatura;
+          \item \textbf{Punteggiatura: }Un carattere di punteggiatura non deve mai esser preceduto da un carattere di spaziatura;
+          \item \textbf{Lettere maiuscole: }Le lettere maiuscole vanno poste solo dopo il punto, il punto di domanda, il punto esclamativo e all’inizio di ogni elemento di un elenco puntato ed
+          oltre a dove sia previsto dalla lingua italiana. È inoltre utilizzata l’iniziale maiuscola nel nome del team, del progetto, dei documenti, dei ruoli di progetto, delle fasi di
+          lavoro e nelle parole \glossaryItem{Proponente} e \glossaryItem{Committente}.
+        \end{itemize}
+      \paragraph{Stile di testo}
+        \begin{itemize}
+          \item \textbf{Corsivo: }Il corsivo deve essere utilizzato nei seguenti casi:
+            \bgroup
+              \begin{itemize}
+                \item \textbf{Citazioni: }Quando si deve citare una frase questa sarà scritta in corsivo;
+                \item \textbf{Nomi particolari: }Il corsviso deve essere utilizzato quando ci si rierisce a figure particolari (es. \emph{Analista});
+                \item \textbf{Documenti: }Il corsivo deve essere utilizzato quando ci si riferisce a documenti particolari (es. \emph{Glossario});
+                \item \textbf{Altri casi: }Il corsivo sarà utilizzato in tutte quelle situazioni in cui è necessario dare rilievo ad una parola o passaggio
+                significativo;
+              \end{itemize}
+            \egroup
+          \item \textbf{Grassetto: }Il grassetto deve essere utilizzato nei seguenti casi:
+            \bgroup
+              \begin{itemize}
+                \item \textbf{Elenchi puntati: }In questo caso il grassetto può essere utilizzato per mettere in evidenza i punti sviluppati nella loro continuazione;
+                \item \textbf{Altri casi: }Il grasstto dovrà essere sempre utilizzato per evidenziare passaggi o parole chiave;
+              \end{itemize}
+            \egroup
+          \item \textbf{\textbackslash path: }Il comando \textbackslash path deve essere utilizzato per indicare i percorsi all'interno di directory;
+          \item \textbf{Maiuscolo: }L'utilizzo di parole completamente in maiuscolo è riservato solo ed esplusivamente alle sigle o alle macro \glossaryItem{\LaTeX}\ riportate
+          nei documenti;
+          \item \textbf{\glossaryItem{\LaTeX}\ : }Ogni riferimento a\glossaryItem{\LaTeX}\ deve essere scritto utilizzano la macro \textbackslash \glossaryItem{\LaTeX};
+        \end{itemize}
+      \paragraph{Composizione del testo}
+        \begin{itemize}
+          \item \textbf{Elenchi puntati: }Ogni punto dell'elenco puntato deve essere scritto in grassetto e con la prima lettera in maiuscolo.\\
+            Nella definizione del punto la prima lettera dovrà essere maiuscola ad eccezione di casi isolati (es. nome di file) e dovrà terminare sempre con un ";" ; mentre l'ultimo elemento terminerà con un "." ;
+          \item \textbf{Note a piè di pagina: }Ogni nota dovrà cominciare con l’iniziale della prima parola maiuscola e non deve essere preceduta da alcun carattere di spaziatura.\\
+            Ogni nota deve terminare con un punto.
+        \end{itemize}
+      \paragraph{Formati}
+        \begin{itemize}
+          \item \textbf{Percorsi: }Per tutti gli indirizzi e-mail e web completi dovrà essere utilizzato il comando \glossaryItem{\LaTeX}\ \textbackslash url mentre per i percorsi
+            relativi si utilizzerà il comando \textbackslash path;
+          \item \textbf{Date: }Tutte le date presenti all'interno della documentazione devono seguire la notazione definiti nello standard \glossaryItem{ISO} 8601:2004:
+            \begin{center}
+              AAAA-MM-GG\\
+            \end{center}
+            dove:
+            \bgroup
+              \begin{itemize}
+                \item AAAA: rappresenta l'anno utilizzando quattro cifre;
+                \item MM: rappresenta il mese utilizzando due cifre;
+                \item GG: rappresenta il giorno utilizzando due cifre.
+              \end{itemize}
+            \egroup
+          \item \textbf{Nomi propri: }L'utilizzo dei nomi propri dei membri del team (e non) deve seguire la notazione "Cognome Nome";
+          \item \textbf{Nome gruppo: }Ci si riferirà al gruppo solo come "SWEet BIT";
+          \item \textbf{Nome del \glossaryItem{Proponente}: }Ci si riferirà al \glossaryItem{Proponente} come "Zucchetti s.r.l" o semplicemente come "\glossaryItem{Proponente}";
+          \item \textbf{Nome del \glossaryItem{Committente}: }Ci si riferià al \glossaryItem{Committente} come "prof. Vardanega Tullio" o semplicemente come "\glossaryItem{Committente}";
+          \item \textbf{Nome del progetto: }Ci si riferirà al progetto solo come "SWEDesigner".
+        \end{itemize}
+      \paragraph{Sigle}
+        Le sigle dei documenti potranno essere utilizzate solo ed esclusivamente all'interno di tabelle o diagrammi. Sono previste le seguenti sigle:
+        \begin{itemize}
+          \item \textbf{AdR} = Analisi dei Requisiti;
+          \item \textbf{GL} = Glossario;
+          \item \textbf{NdP} = Norme di Progetto;
+          \item \textbf{PdP} = Piano di Progetto;
+          \item \textbf{PdQ} = Piano di Qualifica;
+          \item \textbf{SdF} = Studio di Fattibilità;
+          \item \textbf{ST} = Specifica Tecnica;
+          \item \textbf{RA} = Revisione d'Accettazione;
+          \item \textbf{RP} = Revisione di Progettazione;
+          \item \textbf{RQ} = Revisione di Qualifica;
+          \item \textbf{RR} = Revisione dei Requisiti.
+        \end{itemize}
+    \paragraph{Componenti grafiche}
+      \subparagraph{Tabelle}
+        Ogni tabella presente all’interno dei documenti dev’essere accompagnata da una didascalia, in cui deve comparire un numero identificativo incrementale per la tracciabilità
+        della stessa all’interno del documento.
+      \subparagraph{Immagini}
+        Le immagini da includere all'interno del documento devono avere preferibilmente il formato Portable Network Graphics (\glossaryItem{PNG}).
+        
+        \subsubsection{Classificazione dei documenti}
+  \paragraph{Documenti formali}
+        Un documento viene definito formale quando viene approvato dal \emph{Responsabile di Progetto} ed è quindi pronto per essere inviato ai richiedenti.\\
+        Per raggiungere questo stato il documento deve seguire l'iter descritto nel \emph{Piano di Qualifica} e nel paragrafo \ref{subsec:ciclovita} riguardante il ciclo di vita dei documenti.
+      \paragraph{Documenti informali}
+        Un documento è definito informale fino a quando non approvato dal \emph{Responsabile di Progetto}, fino ad allora il suo uso è da considerarsi unicamente interno.
+      \paragraph{Versionamento}
+        La documentazione prodotta deve essere corredata dal numero di versione attuale utilizzando la codifica:
+        \begin{center}
+          \emph{v.X.Y.Z}
+        \end{center}
+        dove:
+        \begin{itemize}
+          \item X: indica il numero crescente di uscite formali del documento;
+          \item Y: indica il numero crescente di modifiche sotanziali al documento;
+          \item Z: indica il numero crescente di modifiche minori apportate al documento;
+        \end{itemize}
+
+\subsection{Coordinamento}
+    Il coordinamento del gruppo avviene tramite:
+    \begin{itemize}
+      \item \glossaryItem{Repository} su \textbf{\glossaryItem{GitHub}};
+      \item \glossaryItem{Google Drive};
+      \item \glossaryItem{Telegram}
+    \end{itemize}
+    \subsubsection{Repository}
+      Sulla \glossaryItem{Repository} di \textbf{\glossaryItem{GitHub}}, raggiungibile all'indirizzo \url{https://GitHub.com/SWEetBIT}, sono caricati i vari \glossaryItem{Template} da utilizzare
+      durante la stesura dei documenti e la strumentazione da utilizzare per la formattazione dei termini del \emph{Glossario}.
+    
+    \subsection{Configurazione}
+      
+    \subsubsection{Versionamento}
+      Dopo aver preso in considerazione diverse opzioni per il versionamento, alla fine si è scelto di utilizzare \textbf{\glossaryItem{GitHub}} per via della
+      sua enrome flessibilità e per via delle esperienze pregresse di tutti i membri del gruppo che hanno manifestato una certa familiarità con
+      tale strumento.\\
+      È stata creata una sola \glossaryItem{Repository}, alla quale si aggiungeranno le altre legate alle fasi successive, contenente tutte le cartelle necessarie
+      alla stesura dei documenti \glossaryItem{\LaTeX}\.\\
+      Una volta terminato il lavoro di redazione dei documenti sarà creato un \emph{branch} di verifica per permettere ai \emph{Verificatori} di
+      lavorare in parallelo agli altri membri del gruppo.
+    \subsubsection{Google Drive}
+      Lo strumento di \glossaryItem{Cloud storage} di \glossaryItem{Google}, è stato utilizzato principalmente per tenere traccia di verbali interni e di documentazione interna
+      non formale, che può essere utile a tutti i membri del gruppo, durante le varie fasi di lavorazione del progetto.
+      
+      \subsubsection{Controllo della configurazione}
+      I cambiamenti nella configurazione del software e della documentazione vanno controllati e tracciati, possono nascere dal \emph{Piano di Progetto} o dall'iniziativa di un membro.
+      \paragraph{Cambiamenti pianificati}
+	Nascono dal \emph{Piano di Progetto}, il cambiamento è già controllato, e quindi basta registrallo aggiornando la versione dell'elemento che è stato cambiato.
+	\paragraph{Cambiamenti non pianificati}
+	Nascono dall'iniziativa di un membro, va proposto agli altri membri del gruppo tramite \emph{Telegram}, nel caso la maggioranza sia d'accordo, il responsabile di progetto incarica un amministratore di implementarlo e motivarlo nella documentazione.
+
+
+
+      
+  \subsubsection{Verifica}
     Vengono qui elencati, e sommariamente descritti, gli strumenti automatizzati per effettuare la verifica dei documenti redatti e del \glossaryItem{Codice} prodotto.
 
 \paragraph{Analisi Statica}
@@ -114,170 +297,19 @@ Linee di codice per linee di commento & [\(\geq\)0.25]\\ \hline
 Copertura del codice & [70-100]\\ \hline
 \end{tabular}
 \end{center}
-    \subsubsection{Documenti}
-      \begin{itemize}
-        \item \textbf{TexMaker: }Per la stesura dei documenti è stato utilizzato \glossaryItem{TexMaker} per via dell'integrazione con i dizionari di OpenOffice.org, i quali consentono un controllo ortografico in real-time;
-        \item \textbf{Aspell: }strumento per la correzione tipografica dei documenti redatti in \glossaryItem{\LaTeX}.
-      \end{itemize}
+
+
+
   
-  \subsection{Template}
-    Per agevolare la redazione di un documento è stato prodotto un \glossaryItem{Template} e delle regole da seguire per la stesura degli stessi.\\
-    Tale modello e tali regole sono inseriti all'interno di una cartella \path{documents\template} sulla \glossaryItem{repository}.
-    \subsection{Struttura del documento}
-      \subsubsection{Prima pagina}
-        Ogni documento è caratterizzato da una prima pagina che contiene le seguenti informazioni sul documento:\\
-        \begin{itemize}
-          \item Nome del gruppo;
-          \item Nome del progetto;
-          \item Logo del gruppo;
-          \item Titolo del documento;
-          \item Versione del documento;
-          \item Cognome e nome dei redattori del documento;
-          \item Cognome e nome dei verificatori del documento;
-          \item Cognome e nome del responsabile approvatore del documento;
-          \item Destinazione d’uso del documento;
-          \item Lista di distribuzione del documento;
-          \item Breve descrizione del documento.
-        \end{itemize}
-      \subsubsection{Diario delle modifiche}
-        La seconda pagina di ogni documento contiene il diario delle modifiche.\\
-        Ogni riga del diario delle modifiche contiene:
-        \begin{itemize}
-          \item Un breve sommario delle modifiche svolte;
-          \item Cognome e nome dell’autore;
-          \item Data della modifica;
-          \item Versione del documento dopo la modifica.
-        \end{itemize}
-        La tabella è ordinata per data in ordine decrescente, in modo che la prima riga corrisponda alla versione attuale del documento.
-      \subsubsection{Indici}
-        In ogni documento è presente un indice delle sezioni, un indice delle figure e un indice delle tabelle. Nel caso non siano presenti figure o tabelle i rispettivi indici verranno omessi.
-      \subsubsection{Formattazione generale delle pagine}
-        L’intestazione di ogni pagina contiene:
-        \begin{itemize}
-          \item Logo del gruppo;
-          \item Nome del gruppo;
-          \item Nome del progetto;
-          \item Sezione corrente del documento;
-        \end{itemize}
-        A piè di pagina invece è presente:
-        \begin{itemize}
-          \item Nome e versione del documento;
-          \item Pagina corrente nel formato \emph{N} di \emph{T} dove \emph{N} è il numero di pagina corrente e \emph{T} è il numero di pagine totali.
-        \end{itemize}
-    \subsection{Norme tipografiche}
-      Questa sezione racchiude le convenzioni riguardanti tipografia, ortografia e uno stile uniforme per tutti i documenti.
-      \subsubsection{Punteggiatura}
-        \begin{itemize}
-          \item \textbf{Parentesi: }Il testo racchiuso tra parentesi non deve aprirsi o chiudersi con un carattere di spaziatura e non deve terminare con un carattere di punteggiatura;
-          \item \textbf{Punteggiatura: }Un carattere di punteggiatura non deve mai esser preceduto da un carattere di spaziatura;
-          \item \textbf{Lettere maiuscole: }Le lettere maiuscole vanno poste solo dopo il punto, il punto di domanda, il punto esclamativo e all’inizio di ogni elemento di un elenco puntato ed
-          oltre a dove sia previsto dalla lingua italiana. È inoltre utilizzata l’iniziale maiuscola nel nome del team, del progetto, dei documenti, dei ruoli di progetto, delle fasi di
-          lavoro e nelle parole \glossaryItem{Proponente} e \glossaryItem{Committente}.
-        \end{itemize}
-      \subsubsection{Stile di testo}
-        \begin{itemize}
-          \item \textbf{Corsivo: }Il corsivo deve essere utilizzato nei seguenti casi:
-            \bgroup
-              \begin{itemize}
-                \item \textbf{Citazioni: }Quando si deve citare una frase questa sarà scritta in corsivo;
-                \item \textbf{Nomi particolari: }Il corsviso deve essere utilizzato quando ci si rierisce a figure particolari (es. \emph{Analista});
-                \item \textbf{Documenti: }Il corsivo deve essere utilizzato quando ci si riferisce a documenti particolari (es. \emph{Glossario});
-                \item \textbf{Altri casi: }Il corsivo sarà utilizzato in tutte quelle situazioni in cui è necessario dare rilievo ad una parola o passaggio
-                significativo;
-              \end{itemize}
-            \egroup
-          \item \textbf{Grassetto: }Il grassetto deve essere utilizzato nei seguenti casi:
-            \bgroup
-              \begin{itemize}
-                \item \textbf{Elenchi puntati: }In questo caso il grassetto può essere utilizzato per mettere in evidenza i punti sviluppati nella loro continuazione;
-                \item \textbf{Altri casi: }Il grasstto dovrà essere sempre utilizzato per evidenziare passaggi o parole chiave;
-              \end{itemize}
-            \egroup
-          \item \textbf{\textbackslash path: }Il comando \textbackslash path deve essere utilizzato per indicare i percorsi all'interno di directory;
-          \item \textbf{Maiuscolo: }L'utilizzo di parole completamente in maiuscolo è riservato solo ed esplusivamente alle sigle o alle macro \glossaryItem{\LaTeX}\ riportate
-          nei documenti;
-          \item \textbf{\glossaryItem{\LaTeX}\ : }Ogni riferimento a\glossaryItem{\LaTeX}\ deve essere scritto utilizzano la macro \textbackslash \glossaryItem{\LaTeX};
-        \end{itemize}
-      \subsubsection{Composizione del testo}
-        \begin{itemize}
-          \item \textbf{Elenchi puntati: }Ogni punto dell'elenco puntato deve essere scritto in grassetto e con la prima lettera in maiuscolo.\\
-            Nella definizione del punto la prima lettera dovrà essere maiuscola ad eccezione di casi isolati (es. nome di file) e dovrà terminare sempre con un ";" ; mentre l'ultimo elemento terminerà con un "." ;
-          \item \textbf{Note a piè di pagina: }Ogni nota dovrà cominciare con l’iniziale della prima parola maiuscola e non deve essere preceduta da alcun carattere di spaziatura.\\
-            Ogni nota deve terminare con un punto.
-        \end{itemize}
-      \subsubsection{Formati}
-        \begin{itemize}
-          \item \textbf{Percorsi: }Per tutti gli indirizzi e-mail e web completi dovrà essere utilizzato il comando \glossaryItem{\LaTeX}\ \textbackslash url mentre per i percorsi
-            relativi si utilizzerà il comando \textbackslash path;
-          \item \textbf{Date: }Tutte le date presenti all'interno della documentazione devono seguire la notazione definiti nello standard \glossaryItem{ISO} 8601:2004:
-            \begin{center}
-              AAAA-MM-GG\\
-            \end{center}
-            dove:
-            \bgroup
-              \begin{itemize}
-                \item AAAA: rappresenta l'anno utilizzando quattro cifre;
-                \item MM: rappresenta il mese utilizzando due cifre;
-                \item GG: rappresenta il giorno utilizzando due cifre.
-              \end{itemize}
-            \egroup
-          \item \textbf{Nomi propri: }L'utilizzo dei nomi propri dei membri del team (e non) deve seguire la notazione "Cognome Nome";
-          \item \textbf{Nome gruppo: }Ci si riferirà al gruppo solo come "SWEet BIT";
-          \item \textbf{Nome del \glossaryItem{Proponente}: }Ci si riferirà al \glossaryItem{Proponente} come "Zucchetti s.r.l" o semplicemente come "\glossaryItem{Proponente}";
-          \item \textbf{Nome del \glossaryItem{Committente}: }Ci si riferià al \glossaryItem{Committente} come "prof. Vardanega Tullio" o semplicemente come "\glossaryItem{Committente}";
-          \item \textbf{Nome del progetto: }Ci si riferirà al progetto solo come "SWEDesigner".
-        \end{itemize}
-      \subsubsection{Sigle}
-        Le sigle dei documenti potranno essere utilizzate solo ed esclusivamente all'interno di tabelle o diagrammi. Sono previste le seguenti sigle:
-        \begin{itemize}
-          \item \textbf{AdR} = Analisi dei Requisiti;
-          \item \textbf{GL} = Glossario;
-          \item \textbf{NdP} = Norme di Progetto;
-          \item \textbf{PdP} = Piano di Progetto;
-          \item \textbf{PdQ} = Piano di Qualifica;
-          \item \textbf{SdF} = Studio di Fattibilità;
-          \item \textbf{ST} = Specifica Tecnica;
-          \item \textbf{RA} = Revisione d'Accettazione;
-          \item \textbf{RP} = Revisione di Progettazione;
-          \item \textbf{RQ} = Revisione di Qualifica;
-          \item \textbf{RR} = Revisione dei Requisiti.
-        \end{itemize}
-    \subsection{Componenti grafiche}
-      \subsubsection{Tabelle}
-        Ogni tabella presente all’interno dei documenti dev’essere accompagnata da una didascalia, in cui deve comparire un numero identificativo incrementale per la tracciabilità
-        della stessa all’interno del documento.
-      \subsubsection{Immagini}
-        Le immagini da includere all'interno del documento devono avere preferibilmente il formato Portable Network Graphics (\glossaryItem{PNG}).
-    \subsection{Classificazione dei documenti}
-      \subsubsection{Documenti formali}
-        Un documento viene definito formale quando viene approvato dal \emph{Responsabile di Progetto} ed è quindi pronto per essere inviato ai richiedenti.\\
-        Per raggiungere questo stato il documento deve seguire l'iter descritto nel \emph{Piano di Qualifica} e nel paragrafo \ref{subsec:ciclovita} riguardante il ciclo di vita dei documenti.
-      \subsubsection{Documenti informali}
-        Un documento è definito informale fino a quando non approvato dal \emph{Responsabile di Progetto}, fino ad allora il suo uso è da considerarsi unicamente interno.
-      \subsubsection{Versionamento}
-        La documentazione prodotta deve essere corredata dal numero di versione attuale utilizzando la codifica:
-        \begin{center}
-          \emph{v.X.Y.Z}
-        \end{center}
-        dove:
-        \begin{itemize}
-          \item X: indica il numero crescente di uscite formali del documento;
-          \item Y: indica il numero crescente di modifiche sotanziali al documento;
-          \item Z: indica il numero crescente di modifiche minori apportate al documento;
-        \end{itemize}
-    \subsection{Ciclo di vita}\label{subsec:ciclovita}
-      Ogni documento prodotto segue un preciso iter che scandisce le fasi in cui si trova in ogni istante. Un documento può trovarsi in tre stati diversi:\\
-      \begin{itemize}
-        \item \textbf{In lavorazione: }Un documento entra in questa fase nel momento della sua crezione e vi rimane per tutto il periodo della sua stesura
-          o per eventuali successive modifiche;
-        \item \textbf{Da verificare: }Un documento entra in questa fase alla fine della sua stesura quando entra in possesso dei verificatori che avranno il compito
-          di individuare e correggere eventuali errori sintattici o semantici;
-        \item \textbf{Approvato: }Un documento entra in questa fase una volta che il \emph{Responsabile di Progetto} lo ha approvato dopo la fase di verifica.\\
-          L'approvazione sancisce la fine del ciclo di vita del documento per la data versione.
-      \end{itemize}
-      Ogni fase del ciclo di vita può essere affrontata anche più volte da parte di un documento.
-\subsection{Glossario}
-  Il Glossario conterrà tutte le parole presenti negli altri documenti che fanno parte del contesto dell’applicazione o che possono essere fraintese. Le definizioni, presentate in
-  ordine alfabetico, dovranno essere concise e comprensibili.\\
-  I termini verranno inseriti nel glossario parallelamente al processo di stesura degli altri documenti, in modo da limitare l’errore umano.\\
-  È preferibile inserire un termine inizialmente privo di definizione, piuttosto che rimandare la stesura del glossario.
+
+    
+      
+      
+      
+      
+      
+
+        
+        
+    
+
