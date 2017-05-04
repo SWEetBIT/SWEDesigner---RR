@@ -25,6 +25,21 @@ sono supportate in Node nella versione 4.4 scelta come versione di riferimento p
 lo sviluppo del progetto.
 \end{itemize}
 
+\subsubsection{Mustache}
+\textbf{Mustache} è un web \glossaryItem{template} che permette di espandere tags all'interno di un \glossaryItem{template}, racchiusi da 2 parentesi graffe,usando valori forniti da oggetti.
+
+\paragraph{Vantaggi} 
+\begin{itemize}
+
+\item Si presenta come uno strumento dalle caretteristiche semplici, (\emph{Logic-less templates}) in quanto rimuove i controlli di flusso if ed i cicli for, usa i solo tag di vario tipo per sostituirli;
+
+\item è usato principalmente per \glossaryItem{Web-App}.
+\end{itemize}
+
+\paragraph{Svantaggi} 
+\begin{itemize}
+\item La lettura dei file potrebbe risultare difficoltosa a causa del numero elevato di parentesi per ogni tag, ad esempio ignorare una variabile la sintassi richiede 3 parentesi graffe. 
+\end{itemize}
 	\subsection{Client}
 	\subsubsection{Express.js}
 \textbf{Express.js} è un \glossaryItem{framework} minimale per creare  \glossaryItem{Web App} con \glossaryItem{Node.js}. Richiede \glossaryItem{moduli} Node di terze parti per applicazioni che prevedono l'interazione con le \glossaryItem{database}.
@@ -107,4 +122,30 @@ documenti, e questo limita l’estrema flessibilità di \glossaryItem{MongoDB}.
 \paragraph{Svantaggi}
 \begin{itemize}
 \item \textbf{Aumento rapido di celle}: Poiché il numero di celle visibili sullo schermo degli utenti aumenta di centinaia, la valutazione rallenta oltre i limiti accettabili sulla maggior parte dei \glossaryItem{browser}. Nella teoria della gestione delle informazioni, visualizzare diverse centinaia di celle è generalmente sbagliato, in quanto l'utente non può interpretare i dati. 
+\end{itemize}
+
+\subsubsection{HTML5}
+È un linguaggio di markup per la strutturazione delle pagine web, pubblicato come W3C Recommendation da ottobre 2014. L’uso di HTML5 rispetto a XHTML
+(e\textbf{X}tensible \textbf{H}yper\textbf{T}ext \textbf{M}arkup \textbf{L}anguage) è stato deciso all'unanimità dal gruppo.
+
+\paragraph{Vantaggi}
+\begin{itemize}
+\item Raccomandazione W3C;
+\item reazione di pagine interattive: soprattutto se usato insieme a CSS.
+\end{itemize}
+
+\paragraph{Svantaggi}
+\begin{itemize}
+\item Supporto: non tutti i browser lo supportano allo stesso modo, e non tutte le caratteristiche definite sono ancora completamente supportate.
+\end{itemize}
+
+\subsubsection{CSS3}
+È un linguaggio utilizzato per definire la formattazione di documenti HTML.
+Le regole per la composizione di un foglio di stile CSS sono definite dal W3C
+a partire dal 1996. Inoltre permette di separare i contenuti delle pagine HTML dalla loro formattazione, assicurando una maggiore manutenibilità e riutilizzo.
+
+\paragraph{Vantaggi}
+\begin{itemize}
+\item Separazione tra contenuto e presentazione;
+\item Raccomandato da W3C.
 \end{itemize}
