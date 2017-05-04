@@ -138,17 +138,87 @@ TS13 & Verificare che i browser in uso siano Google Chrome versione 49.X o Mozil
 
 
 \subsection{Test di Integrazione}
-\begin{longtable}{p{2cm}!{\VRule[1pt]}p{5cm}!{\VRule[1pt]}p{5cm}!{\VRule[1pt]}p{1cm}}
+\begin{longtable}{p{2cm}!{\VRule[1pt]}p{10cm}!{\VRule[1pt]}p{1cm}}
 \rowcolor{I}
-\color{white} \textbf{Test} & \color{white} \textbf{Descrizione}  & \color{white} \textbf{Componenti aggiunte}  & \color{white} \textbf{Stato}\\ 
+\color{white} \textbf{Test} & \color{white} \textbf{Descrizione}  & \color{white} \textbf{Stato}\\ 
 \endfirsthead 
 \rowcolor{I} 
-\color{white} \textbf{Test} & \color{white} \textbf{Descrizione}  & \color{white} \textbf{Stato}  & \color{white} \textbf{Requisito}\\  
+\color{white} \textbf{Test} & \color{white} \textbf{Descrizione}  & \color{white} \textbf{Requisito}\\  
 \endhead 
-Codice & Descrizione & Requisito & N.E.\\
-Codice & Descrizione & Requisito & N.E.\\
+TI1 & Test di integrazione finale per le componenti client e server. & N.E.\\
+
+TI2 & Test di integrazione tra le componenti interne SWEDesigner::Server::Controller, SWEDesigner::Server::Model e SWEDesigner::Client e le librerie esterne Express.Js, Mongoose, MongoDB, BodyParcer, Passport, Moustache, Forge, PassportJWT e Bcrypt & N.E.\\
+
+TI3 & Verificare che il sistema gestisca correttamente le componenti relative al package SWEDesigner::Server::Controller. In particolare che gestisca correttamente l'iterazione con il SWEDesigner::Client e le librerie esterne Express.Js, BodyParcer, Passport, Moustache, Forge, PassportJWT e Bcrypt. & N.E.\\
+
+TI4 & Verificare che il sistema gestisca correttamente le componenti relative al package SWEDesigner::Server::Model. In particolare che gestisca correttamente l'iterazione con il SWEDesigner::Controller::Middleware e le librerie esterne Mongoose e MongoDB  & N.E.\\
+
+TI5 & Verificare che il sistema gestisca correttamente le componenti relative al package SWEDesigner::Server::Controller::Middleware. In particolare che gestisca correttamente l'iterazione con SWEDesigner::Controller::Services e le librerie esterne Express.Js, BodyParcer, Passport, Moustache, Forge, PassportJWT e Bcrypt. & N.E.\\
+
+TI6 & Verificare che il sistema gestisca correttamente le componenti relative al package SWEDesigner::Server::Controller::Services. In particolare che gestisca correttamente l'iterazione con SWEDesigner::Controller::Middleware e la libreria esterna Express.Js. & N.E.\\
+
+TI7 & Verificare che il sistema gestisca correttamente le componenti relative al package SWEDesigner::Server::Controller::Services::UserService. In particolare che gestisca correttamente l'iterazione con la libreria esterna Express. & N.E.\\
+
+TI8 & Test di integrazione tra le componenti interne SWEDesigner::Client::Component, SWEDesigner::Client::Services, SWEDesigner::Server e la libreria esterna Draw2D. & N.E.\\
+
+TI9 & Verificare che il sistema gestisca correttamente le componenti relative al package SWEDesigner::Client::Components. In particolare che gestisca correttamente l'iterazione con SWEDesigner::Client::Services & N.E.\\
+
+TI10 & Verificare che il sistema gestisca correttamente le componenti relative al package SWEDesigner::Client::Components::EditorComponents. & N.E.\\
+
+TI11 & Verificare che il sistema gestisca correttamente le componenti relative al package SWEDesigner::Client::Components::DashComponents. & N.E.\\
+
+TI12 & Verificare che il sistema gestisca correttamente le componenti relative al package SWEDesigner::Client::Service. In particolare che gestisca correttamente l'iterazione con SWEDesigner::Client::Components, SWEDesigner::Server e la libreria esterna Draw2D. & N.E.\\
+
+TI13 & Verificare che il sistema gestisca correttamente le componenti relative al package SWEDesigner::Client::Service::UserServices. & N.E.\\
+
+TI14 & Verificare che il sistema gestisca correttamente le componenti relative al package SWEDesigner::Client::Service::ProjectServices. & N.E.\\
+
+TI15 & Verificare che il sistema gestisca correttamente le componenti relative al package SWEDesigner::Client::Service::GraphLib. & N.E.\\
+
 \rowcolor{white}
 \caption{Descrizione test di Integrazione}
+\end{longtable}
+
+
+\begin{longtable}{p{2cm}!{\VRule[1pt]}p{10cm}}
+\rowcolor{I}
+\color{white} \textbf{Test} & \color{white} \textbf{Componenti aggiunte} \\ 
+\endfirsthead 
+\rowcolor{I} 
+\color{white} \textbf{Test} & \color{white} \textbf{Componenti aggiunte} \\ 
+\endhead 
+TI1 & SWEDesigner \\
+
+TI2 & SWEDesigner::Server\\
+
+TI3 & SWEDesigner::Server::Controller\\
+
+TI4 & SWEDesigner::Server::Model \\
+
+TI5 & SWEDesigner::Server::Controller::Middleware \\
+
+TI6 & SWEDesigner::Server::Controller::Services \\
+
+TI7 & SWEDesigner::Server::Controller::Services::UserService\\
+
+TI8 & SWEDesigner::Client\\
+
+TI9 & SWEDesigner::Client::Components\\
+
+TI10 & SWEDesigner::Client::Components::EditorComponents \\
+
+TI11 & SWEDesigner::Client::Components::DashComponents\\
+
+TI12 & SWEDesigner::Client::Service\\
+
+TI13 & SWEDesigner::Client::Service::UserServices\\
+
+TI14 & SWEDesigner::Client::Service::ProjectServices\\
+
+TI15 & SWEDesigner::Client::Service::GraphLib\\
+
+\rowcolor{white}
+\caption{Tracciamento test di Integrazione - Componenti}
 \end{longtable}
 
 
