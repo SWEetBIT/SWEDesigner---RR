@@ -7,7 +7,7 @@
     poter redigere uno \emph{Studio di Fattibilità} dei \glossaryItem{capitolati} disponibili basandosi su:\\
     \begin{itemize}
       \item \textbf{Dominio tecnologico e applicativo: }Conoscenza delle tecnologie richieste, esperienze precedenti con le problematiche poste dal \glossaryItem{capitolato}, conoscenza del
-      \glossaryItem{Dominio} applicativo;
+      \glossaryItem{\glossaryItem{Dominio}} applicativo;
       \item \textbf{Rapporto Costi/Benefici: }Competitori e prodotti simili già presenti sul mercato, quantità di requisiti obbligatori, costo della realizzazione rapportato al
       risultato previsto;
       \item \textbf{Individuazione dei rischi: }Comprensione dei punti critici della realizzazione, individuazione di eventuali lacune tecniche o di conoscenza del \glossaryItem{Dominio} applicativo
@@ -92,7 +92,7 @@
       \begin{center}
         UC[codice univoco del padre].[codice univoco del figlio]
       \end{center}
-      Il software provvederà a generare anche i \glossaryItem{File} \\glossaryItem{LaTeX}\ corrispondenti.
+      Il software provvederà a generare anche i \glossaryItem{File} \glossaryItem{LaTeX} corrispondenti.
 \subsubsection{Progettazione}
 	\paragraph{Attività progettuali} Il lavoro dei progettisti consiste nel progettare
 struttura e comportamento del software in modo da implementare tutti i requisiti
@@ -100,14 +100,12 @@ obbligatori individuati dagli analisti; inoltre, i progettisti dovranno preveder
 anche il massimo della copertura dei requisiti desiderabili. Nello specifico, il lavoro dei progettisti si articola in due
 attività:
 \begin{itemize}
-\item Progettazione architetturale (descritta in §5.3.5 di ISO/IEC 12207:1995)
-— definire l’architettura del sistema, cioè individuare e descrivere le componenti
+\item \textbf{Progettazione architetturale} (descritta in §5.3.5 di ISO/IEC 12207:1995): definire l’architettura del sistema, cioè individuare e descrivere le componenti
 del sistema, esplicitandone ruoli e relazioni tra essi; ogni progettista
-documenta i prodotti di questa attività nel documento di Specifica Tecnica.
-\item Progettazione di dettaglio (descritta in §5.3.6 di ISO/IEC 12207:1995)
-— definire, in dettaglio, il comportamento delle componenti del sistema;
+documenta i prodotti di questa attività nel documento di \emph{Specifica Tecnica}.
+\item \textbf{Progettazione di dettaglio} (descritta in §5.3.6 di ISO/IEC 12207:1995): definire, in dettaglio, il comportamento delle componenti del sistema;
 ogni progettista documenta i prodotti di questa attività nel documento di
-Definizione di Prodotto.
+\emph{Definizione di Prodotto}.
 \end{itemize}
 Per ognuna di queste due attività, ogni progettista deve definire dei test che
 permettano la verifica del sistema:
@@ -121,19 +119,19 @@ unità che verifichi il corretto funzionamento della componente isolata.
 
 \end{itemize}
 \paragraph{Diagrammi} Per descrivere l’architettura e il comportamento del
-sistema i progettisti utilizzano i diagrammi UML descritti qui di seguito, seguendo
-lo standard UML 2.0:
+sistema i progettisti utilizzano i diagrammi \glossaryItem{UML} descritti qui di seguito, seguendo
+lo standard \glossaryItem{UML} 2.0:
 \begin{itemize}
-\item Diagramma dei package — raggruppa un numero di elementi UML in
+\item\textbf{ Diagramma dei package: }raggruppa un numero di elementi \glossaryItem{UML} in
 una sola unità di livello più alto.
-\item Diagramma delle classi — descrive le interfacce delle componenti del
+\item \textbf{Diagramma delle classi: }descrive le interfacce delle componenti del
 sistema e le relazioni tra esse.
-\item Diagramma delle attività — descrive i passi di una procedura.
-\item Diagramma di sequenza: descrive uno scenario, dove le azioni sono disposte
+\item \textbf{Diagramma delle attività: }descrive i passi di una procedura.
+\item \textbf{Diagramma di sequenza: }descrive uno scenario, dove le azioni sono disposte
 in sequenza e le varie scelte sono già state prese.
 \end{itemize}
 Per disegnare i diagrammi appena esposti, i progettisti devono usare il software
-gratuito Astah ed esportare i diagrammi in formato PNG. Astah supporta la
+gratuito Astah ed esportare i diagrammi in formato \glossaryItem{PNG}. Astah supporta la
 generazione di tutti i diagrammi che vengono usati dal gruppo (classi, attività,
 sequenza e package). Le alternative analizzate sono state \emph{Dia}, \emph{LuchiChart} e \emph{Papyrus} che si sono rivelati però troppo deboli in confronto ad \textbf{Astah} che offre
       diverse funzionalità aggiuntive raggruppandone diverse dei tre software citati al suo interno.
@@ -142,33 +140,33 @@ sequenza e package). Le alternative analizzate sono state \emph{Dia}, \emph{Luch
 stile dell’orientazione agli oggetti; perciò, le componenti software descritte
 nei diagrammi delle classi sono:
 \begin{itemize}
-\item prototipi di oggetti JavaScript;
+\item prototipi di oggetti \glossaryItem{JavaScript};
 \end{itemize}
 
 Al fine di aumentare la manutenibilità i progettisti devono seguire le seguenti regole:
 \begin{itemize}
 \item La progettazione dovrà usare quanto più possibile \glossaryItem{design pattern};
-\item L'architettura deve rispettare le regole di progettazione che ne garantiscono la correttezza rispetto allo standard UML;
-\item Suddividere il progetto in moduli, in accordo con lo stile di progettazione dell'ambiente Node.js;
+\item L'architettura deve rispettare le regole di progettazione che ne garantiscono la correttezza rispetto allo standard \glossaryItem{UML};
+\item Suddividere il progetto in \glossaryItem{moduli}, in accordo con lo stile di progettazione dell'ambiente \glossaryItem{Node.js};
 \item ogni componente deve avere un compito ben precisio, ricavabile dal proprio nome e dai metodi che costituiscono l'interfaccia;
 \end{itemize}
 
 \paragraph{Nomenclatura}
 I progettisti devono osservare le seguenti norme, al fine di uniformare il codice che verrà derivato dalla progettazione:
 \begin{itemize}
-\item le componenti vanno raggruppate in moduli. Il nome di tale modulo deve:
+\item le componenti vanno raggruppate in \glossaryItem{moduli}. Il nome di tale \glossaryItem{modulo} deve:
 \begin{itemize}
 \item contenere solo caratteri alfanumerici;
 \item essere in lingua inglese;
-\item avere il nome del modulo "padre" che lo contiene preposto al nome del metodo, seguito da una coppia di due punti (::);
+\item avere il nome del \glossaryItem{modulo} "padre" che lo contiene preposto al nome del metodo, seguito da una coppia di due punti (::);
 \item essere rappresentativo del ruolo che rappresenta.
 \end{itemize}
-\item ogni nome di componente di un modulo deve:
+\item ogni nome di componente di un \glossaryItem{modulo} deve:
 \begin{itemize}
 \item contenere solo caratteri alfanumerici;
 \item essere in lingua inglese;
 \item se composto da più termini, l'iniziale di ogni termine deve essere maiuscola;
-\item non può essere un termine riservato del linguaggio JavaScript.
+\item non può essere un termine riservato del linguaggio \glossaryItem{JavaScript}.
 \end{itemize}
 \item ogni nome di funzione deve:
 \begin{itemize}
@@ -176,7 +174,7 @@ I progettisti devono osservare le seguenti norme, al fine di uniformare il codic
 \item essere in lingua inglese;
 \item se composto da più termini, l'iniziale di ogni termine deve essere maiuscola;
 \item essere rappresentativo per il servizio che offre;
-\item non può essere un termine riservato del linguaggio JavaScript.
+\item non può essere un termine riservato del linguaggio \glossaryItem{JavaScript}.
 \end{itemize}
 \end{itemize}
 

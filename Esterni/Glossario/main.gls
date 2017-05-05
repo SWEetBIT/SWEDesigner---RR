@@ -8,7 +8,7 @@
 \glsnonextpages \glossentry{Applicazione}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}\glsgroupskip
 \glsgroupheading{B}\relax \glsresetentrylist %
-\glsnonextpages \glossentry{Back end}{\glossaryentrynumbers{\relax 
+\glsnonextpages \glossentry{Back-end}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}%
 \glsnonextpages \glossentry{BOM}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}%
@@ -30,6 +30,12 @@
 \glsnonextpages \glossentry{Committente}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}\glsgroupskip
 \glsgroupheading{D}\relax \glsresetentrylist %
+\glsnonextpages \glossentry{Data base}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{2}}}%
+\glsnonextpages \glossentry{Deployment}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{2}}}%
+\glsnonextpages \glossentry{Design Pattern}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{2}}}%
 \glsnonextpages \glossentry{Designer}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}%
 \glsnonextpages \glossentry{Desktop}{\glossaryentrynumbers{\relax 
@@ -48,6 +54,10 @@
 		\setentrycounter[]{page}\glsnumberformat{2}}}\glsgroupskip
 \glsgroupheading{E}\relax \glsresetentrylist %
 \glsnonextpages \glossentry{Editor}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{2}}}%
+\glsnonextpages \glossentry{Event-driven}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{2}}}%
+\glsnonextpages \glossentry{Express.js}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}\glsgroupskip
 \glsgroupheading{F}\relax \glsresetentrylist %
 \glsnonextpages \glossentry{File}{\glossaryentrynumbers{\relax 
@@ -56,7 +66,7 @@
 		\setentrycounter[]{page}\glsnumberformat{2}}}%
 \glsnonextpages \glossentry{Framework}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}%
-\glsnonextpages \glossentry{Front end}{\glossaryentrynumbers{\relax 
+\glsnonextpages \glossentry{Front-end}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}\glsgroupskip
 \glsgroupheading{G}\relax \glsresetentrylist %
 \glsnonextpages \glossentry{Gantt}{\glossaryentrynumbers{\relax 
@@ -66,6 +76,9 @@
 \glsnonextpages \glossentry{Google}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}%
 \glsnonextpages \glossentry{Google Drive}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{2}}}\glsgroupskip
+\glsgroupheading{H}\relax \glsresetentrylist %
+\glsnonextpages \glossentry{HTTP}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}\glsgroupskip
 \glsgroupheading{I}\relax \glsresetentrylist %
 \glsnonextpages \glossentry{IA}{\glossaryentrynumbers{\relax 
@@ -88,19 +101,37 @@
 		\setentrycounter[]{page}\glsnumberformat{2}}}%
 \glsnonextpages \glossentry{Layer}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}%
+\glsnonextpages \glossentry{Libreria}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{2}}}%
 \glsnonextpages \glossentry{Licenza MIT}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}%
 \glsnonextpages \glossentry{Login}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}\glsgroupskip
 \glsgroupheading{M}\relax \glsresetentrylist %
+\glsnonextpages \glossentry{Map-Reduce}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{2}}}%
+\glsnonextpages \glossentry{Markup}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{2}}}%
+\glsnonextpages \glossentry{MEAN.io}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{2}}}%
 \glsnonextpages \glossentry{Merge}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}%
 \glsnonextpages \glossentry{Metodo}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}%
 \glsnonextpages \glossentry{Microservizi}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{2}}}%
+\glsnonextpages \glossentry{Middleware}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{2}}}%
+\glsnonextpages \glossentry{Moduli}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{2}}}%
+\glsnonextpages \glossentry{Mongodb}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{2}}}%
+\glsnonextpages \glossentry{Mongoose}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}\glsgroupskip
 \glsgroupheading{N}\relax \glsresetentrylist %
 \glsnonextpages \glossentry{Node.js}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{2}}}%
+\glsnonextpages \glossentry{NoSQL}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}\glsgroupskip
 \glsgroupheading{O}\relax \glsresetentrylist %
 \glsnonextpages \glossentry{Open-source}{\glossaryentrynumbers{\relax 
@@ -124,19 +155,31 @@
 		\setentrycounter[]{page}\glsnumberformat{2}}}\glsgroupskip
 \glsgroupheading{R}\relax \glsresetentrylist %
 \glsnonextpages \glossentry{Repository}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{2}}}%
+\glsnonextpages \glossentry{Rest}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{2}}}%
+\glsnonextpages \glossentry{RPC}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}\glsgroupskip
 \glsgroupheading{S}\relax \glsresetentrylist %
+\glsnonextpages \glossentry{Schema}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{2}}}%
 \glsnonextpages \glossentry{Script}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}%
 \glsnonextpages \glossentry{SDK}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}%
 \glsnonextpages \glossentry{Server}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}%
+\glsnonextpages \glossentry{Single-page application}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{2}}}%
 \glsnonextpages \glossentry{Sistema di tiketing}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}%
 \glsnonextpages \glossentry{Slack}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}%
+\glsnonextpages \glossentry{SQL}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{2}}}%
 \glsnonextpages \glossentry{Stand-alone}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{2}}}%
+\glsnonextpages \glossentry{Stateless}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}\glsgroupskip
 \glsgroupheading{T}\relax \glsresetentrylist %
 \glsnonextpages \glossentry{Telegram}{\glossaryentrynumbers{\relax 

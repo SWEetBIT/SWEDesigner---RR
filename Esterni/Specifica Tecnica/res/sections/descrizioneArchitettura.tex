@@ -37,7 +37,15 @@ L'architettura generale di SWEDesigner si divide in 3 macrocomponenti:
 \caption{Diagramma di \glossaryItem{deployment} per l'architettura}
  \end{figure}
 
-L'architettura proposta segue il \glossaryItem{Design Pattern} MVC. In particolare i ruoli di Model e Controller verranno implementati a livello di \glossaryItem{server}, mentre il ruolo di View viene affidato al \glossaryItem{front-end}. L'interfaccia tra le due componenti verrà gestita grazie ad un set di \glossaryItem{API} disposto dal \glossaryItem{server} \glossaryItem{REST}; il \glossaryItem{Database} serve per garantire la persistenza del programma generato: ogni \glossaryItem{utente} autenticato può salvare i propri progetti e mantenere i diagrammi creati.\\
+L'architettura proposta segue il \glossaryItem{Design Pattern} \emph{Three-tier}. Esso è diviso in 3 livelli: 
+\begin{itemize}
+\item \textbf{Presentation tier}: rappresenta l'interfaccia verso l'utente ovvero lil \glossaryItem{front-end};
+\item \textbf{Business logic}: è il livello che coordina l'applicazione ed effettua quindi le decisioni logiche e le valutazioni ovvero il \glossaryItem{back-end};
+\item \textbf{Data tier}: è il livello dove le informazioni vengono salvate, ovvero il \glossaryItem{database}.
+\end{itemize}
+
+
+In particolare i ruoli di Model e Controller verranno implementati a livello di \glossaryItem{server}, mentre il ruolo di View viene affidato al \glossaryItem{front-end}. L'interfaccia tra le due componenti verrà gestita grazie ad un set di \glossaryItem{API} disposto dal \glossaryItem{server} \glossaryItem{REST}; il \glossaryItem{Database} serve per garantire la persistenza del programma generato: ogni \glossaryItem{utente} autenticato può salvare i propri progetti e mantenere i diagrammi creati.\\
 Le tre macrocomponenti verranno descritte in dettaglio in seguito su questo documento.
 	\subsection{Interfaccia REST-like}
 	\label{3.3}

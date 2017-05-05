@@ -51,17 +51,12 @@
     \item inferiore a 40 il testo è difficile da leggere per chi ha un diploma superiore.
   \end{itemize}
 
-  \subsection{Dimensione del prodotto software}
-  Rappresenta le dimensioni del prodotto software, è misurata in termini di migliaia di linee di codice (KLOC, Thousands Line Of Code),
-  ma da alcuni anni è stata introdotto una nuova misura, legata al numero di funzionalità offerte, e quindi dal valore che il prodotto ha per l’utente.
-  Questa seconda misurazione è espressa come numero di punti funzione (FP, Function Points).
-
   \subsection{Complessità ciclomatica}
-  è una metrica per la misura della complessità del \glossaryItem{Codice};
+  Una metrica per la misura della complessità del \glossaryItem{Codice};
   la quale è calcolata mediate il grafo di controllo di flusso relativo al \glossaryItem{Codice}.
   I nodi del grafo sono gruppi di istruzioni indivisibili. Se nel \glossaryItem{Codice} non sono
   presenti punti decisionali o cicli, allora la complessità ciclomatica sarà pari a 1. La formula per il
-  caclolo della complessità ciclomatica è:
+  calcolo della complessità ciclomatica è:
   \begin{center}
     \emph{Cc = a - n + 2p}
   \end{center}
@@ -74,17 +69,29 @@
   \end{itemize}
 
   \subsection{Variabili non utilizzate e/o non definite}
-  rappresenta il numero di variabili che vengono definite, ma non utilizzate, o viceversa.
+  Rappresenta il numero di variabili che vengono definite, ma non utilizzate, o viceversa.
   Questo viene considerato pollution, e pertanto considerato inaccettabile.
   La misurazione avviene mediante un’analisi dell’AST (Abstract Syntax Tree).
+  \begin{center}
+    \emph{VNU = numero variabili non utilizzate e/o non definite}
+  \end{center}
 
   \subsection{Numero di argomenti per funzione}
   Rappresenta il numero di argomenti di una funzione. Una funzione con troppi argomenti
   risulta complessa e poco mantenibile; pertanto è necessario che tale numero sia contenuto.
+  \begin{center}
+    \emph{NAF = numerio argomenti per funzione}
+  \end{center}
 
   \subsection{Linee di codice per linee di commento}
   Rappresenta il rapporto tra le linee di codice e linee di commento, utile per stimare la manutenibilità del codice.
+  \begin{center}
+    \( LCC = \frac{numero linee di codice}{numero linee di commento} \)
+  \end{center}
 
   \subsection{Copertura del codice}
   Rappresenta la percentuale di istruzioni che sono eseguite durante i test. Maggiore è la percentuale di istruzioni coperte dai test eseguiti, maggiore sarà la probabilità
   che le componenti testate abbiano una ridotta quantità di errori. Il valore di tale indice può essere abbassato da metodi molto semplici che non richiedono testing.
+  \begin{center}
+    \( PCC = {\frac{numero test eseguiti}{numero test pianificati}}*100 \)
+  \end{center}
