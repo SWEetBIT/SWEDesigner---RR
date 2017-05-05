@@ -1,7 +1,7 @@
 \section{Front-end}
 
 	\subsection{Descrizione packages e classi}
-	
+
 	\subsubsection{SWEDesigner::Client}
 		 \begin{figure}[h!]
 		\centering
@@ -9,18 +9,18 @@
 		\caption{Diagramma dei packages SWEDesigner::Client}
  		\end{figure}
 		\paragraph{Informazioni sul Package}
-		\begin{itemize}				
+		\begin{itemize}
 			\item \textbf{Descrizione: }\\
 			Package che racchiude tutta la componente di Front-end scritta in JavaScript.
 			\item \textbf{Padre: }\\ SWEDesigner
 			\item \textbf{Package contenuti: }
-			\begin{itemize}		
+			\begin{itemize}
 				\item SWEDesigner::Client::Components;
 				\item SWEDesigner::Client::Services;
 				\item SWEDesigner::Server;
 			\end{itemize}
 		\end{itemize}
-		
+
 		\paragraph{Informazioni sulle Classi}
 		\begin{itemize}
 			\item SWEDesigner::Client::SWEDesignerApp
@@ -30,9 +30,9 @@
 				\item \textbf{Utilizzo: }\\
 				Qualcosa
 			\end{itemize}
-		\end{itemize}	
-		
-		
+		\end{itemize}
+
+
 		\subsubsection{SWEDesigner::Client::Components}
 		 \begin{figure}[h!]
 		\centering
@@ -40,56 +40,61 @@
 		\caption{Diagramma dei packages SWEDesigner::Client::Components}
  		\end{figure}
 		\paragraph{Informazioni sul Package}
-		\begin{itemize}				
+		\begin{itemize}
 			\item \textbf{Descrizione: }\\
 			Qualcosa
 			\item \textbf{Padre: }\\ SWEDesigner::Client
 			\item \textbf{Package contenuti: }
-			\begin{itemize}		
+			\begin{itemize}
 				\item SWEDesigner::Client::Components::EditorComponents;
 				\item SWEDesigner::Client::Components::DashComponents;
 			\end{itemize}
 		\end{itemize}
-		
+
 		\paragraph{Informazioni sulle Classi}
 		\begin{itemize}
 			\item SWEDesigner::Client::Components::AppComponent
 			\begin{itemize}
 				\item \textbf{Descrizione: }\\
-				Qualcosa
+				Il component descrive un contenitore per la barra di navigazione e le altre
+				componenti dell'applicazione le quali sono istanziate dinamicamente all'
+				interno del template http;
 				\item \textbf{Utilizzo: }\\
-				Qualcosa
+				AppComponent è il primo component che viene istanziato tramite bootsrap.
 			\end{itemize}
-			\item SWEDesigner::Client::Components::NavBarComponent
+			\item SWEDesigner::Client::Components::NavbarComponent
 			\begin{itemize}
 				\item \textbf{Descrizione: }\\
-				Qualcosa
+				Questo component permette la navigazione all'interno dell'applicazione
+				tramite links;
 				\item \textbf{Utilizzo: }\\
-				Qualcosa
-			\end{itemize}
-			\item SWEDesigner::Client::Components::NavComponent
-			\begin{itemize}
-				\item \textbf{Descrizione: }\\
-				Qualcosa
-				\item \textbf{Utilizzo: }\\
-				Qualcosa
+				NavbarComponent è istanziato per bootstrap subito dopo dell'AppComponent
 			\end{itemize}
 			\item SWEDesigner::Client::Components::RegistrationComponent
 			\begin{itemize}
 				\item \textbf{Descrizione: }\\
-				Qualcosa
+				È il componente che descrive la pagina di registrazione dell'applicazione,
+				mette a disposizione dell'utente un form dove iserire le informazioni
+				necessarie alla creazione di un nuovo account utente. Gestisce le
+				operazioni e la logica applicativa per la registrazione servendosi dei
+				metodi forniti dal servizio AuthenticationService;
 				\item \textbf{Utilizzo: }\\
-				Qualcosa
+				Questo componente viene instanziato dinamicamente dal servizio Router del
+				 framework Angular qunado viene richiesta la pagina di registrazione.
 			\end{itemize}
 			\item SWEDesigner::Client::Components::LoginComponent
 			\begin{itemize}
 				\item \textbf{Descrizione: }\\
-				Qualcosa
+				È il componente che descrive la pagina di login dell'applicazione,
+				mette a disposizione dell'utente un form dove iserire username e password.
+				Gestisce le operazioni e la logica applicativa per il login servendosi dei
+				metodi forniti dal servizio AuthenticationService;
 				\item \textbf{Utilizzo: }\\
-				Qualcosa
+				Questo componente viene instanziato dinamicamente dal servizio Router del
+				framework Angular qunado viene richiesta la pagina di login.
 			\end{itemize}
-		\end{itemize}	
-	
+		\end{itemize}
+
 		\subsubsection{SWEDesigner::Client::Components::EditorComponents}
 		 \begin{figure}[h!]
 		\centering
@@ -97,65 +102,93 @@
 		\caption{Diagramma dei packages SWEDesigner::Client::Components::EditorComponents}
  		\end{figure}
 		\paragraph{Informazioni sul Package}
-		\begin{itemize}				
+		\begin{itemize}
 			\item \textbf{Descrizione: }\\
-			Qualcosa
+			Il package contiene tutte le components riguardanti l'editor dei diagrammi.
 			\item \textbf{Padre: }\\ SWEDesigner::Client::Components
 		\end{itemize}
-		
+
 		\paragraph{Informazioni sulle Classi}
 		\begin{itemize}
 			\item SWEDesigner::Client::Components::EditorComponents::ToolboxComponent
 			\begin{itemize}
 				\item \textbf{Descrizione: }\\
-				Qualcosa
+				ToolboxComponent descrive il menu dal quale l'utente può selezionare gli
+				strumenti per disegnare i diagrammi all'interno degli appositi frame. Si
+				occupa delle operazioni e della parte logica, riguardante la costruzione
+				dei diagrammi, servendosi dei metodi forniti dal servizio ProjManagService e
+				della API della libreria grafica;
 				\item \textbf{Utilizzo: }\\
-				Qualcosa
+				MenuComponent componente viene istanziato per bootstrap dopo che è stato
+				istanziato il component EditorComponent.
 			\end{itemize}
 			\item SWEDesigner::Client::Components::EditorComponents::EditorComponent
 			\begin{itemize}
 				\item \textbf{Descrizione: }\\
-				Qualcosa
+				Component che definisce la pagina dell'editor di diagrammi, contiene all'interno
+				del template html gli attributi ToolboxComponent, MenuComponent,
+				ClassFrameComponent, ActivityFrameComponent;
 				\item \textbf{Utilizzo: }\\
-				Qualcosa
+				Questo componente viene instanziato dinamicamente dal servizio Router del
+				framework Angular quando viene richiesta la pagina dell'editor diagrammi.
 			\end{itemize}
 			\item SWEDesigner::Client::Components::EditorComponents::MenuComponent
 			\begin{itemize}
 				\item \textbf{Descrizione: }\\
-				Qualcosa
+				Component che descrive il menu dell'edito dei diagrammi. Il menu da la
+				possibilità all'utente di salvare, esportare, compilare o uscire dal progetto
+				visualizzato nell'editor dei diagrammi. Si occupa delle operazioni e della
+				logica applicativa per le operazioni, precedentemente elencate, servendosi
+				dei metodi messi a disposizione dai servizi contenuti nel package
+				ProjectServices;
 				\item \textbf{Utilizzo: }\\
-				Qualcosa
+				MenuComponent componente viene istanziato per bootstrap dopo che è stato
+				istanziato il component EditorComponent.
 			\end{itemize}
 			\item SWEDesigner::Client::Components::EditorComponents::MethodComponent
 			\begin{itemize}
 				\item \textbf{Descrizione: }\\
-				Qualcosa
+				MethodComponent descrive il frame dove l'utente può disegnare gli activity
+				diagrams per definire i metodi di una classe disegnata nel frame del
+				diagramma delle classi. Si occupa delle operazioni e logica applicativa per
+				la generazione dei diagrammi dei metodi, par fare questo si serve dell'API
+				della libreria grafica;
 				\item \textbf{Utilizzo: }\\
-				Qualcosa
+				Questo component viene istaziato per bootstrap dopo l'istanziazione del
+				componente ClassFrameComponent.
 			\end{itemize}
 			\item SWEDesigner::Client::Components::EditorComponents::ActivityFrameComponent
 			\begin{itemize}
 				\item \textbf{Descrizione: }\\
-				Qualcosa
+				Component che descrive la struttura del frame dove l'utente può visualizzare
+				l'activity frame che rappresenta il flusso logico del programma. Si occupa
+				delle operazioni che portano alla corretta visualizzazione del diagramma
+				servendosi dell'API della libreria grafica;
 				\item \textbf{Utilizzo: }\\
-				Qualcosa
+				Questo component viene istanziato per bootstrap dopo l'istanziazione
+				del component EditorComponent.
 			\end{itemize}
 			\item SWEDesigner::Client::Components::EditorComponents::ClassFrameComponent
 			\begin{itemize}
 				\item \textbf{Descrizione: }\\
-				Qualcosa
+				ClassFrameComponent descrive la struttura del frame dove l'utente può
+				generare, modificare e cancellare le classi che compongono il suo progetto.
+				Si occupa delle operazioni che portano alla corretta visualizzazione del diagramma
+				servendosi dell'API della libreria grafica;
 				\item \textbf{Utilizzo: }\\
-				Qualcosa
+				Questo component viene istanziato per bootstrap dopo l'istanziazione
+				del component EditorComponent.
 			\end{itemize}
 			\item SWEDesigner::Client::Components::EditorComponents::BreadcrumbComponent
 			\begin{itemize}
 				\item \textbf{Descrizione: }\\
-				Qualcosa
+				Component che facilita la navigazione all'interno del ActivityFrameComponent;
 				\item \textbf{Utilizzo: }\\
-				Qualcosa
+				BreadcrumbComponent component viene istanziato per bootstrap dopo l'istanziazione
+				del component ActivityFrameComponent.
 			\end{itemize}
-			\end{itemize}
-			
+		\end{itemize}
+
 		\subsubsection{SWEDesigner::Client::Components::DashComponents}
 		 \begin{figure}[h!]
 		\centering
@@ -163,36 +196,47 @@
 		\caption{Diagramma dei packages SWEDesigner::Client::Components::DashComponents}
  		\end{figure}
 		\paragraph{Informazioni sul Package}
-		\begin{itemize}				
+		\begin{itemize}
 			\item \textbf{Descrizione: }\\
-			Qualcosa
+			Il package contiene tutti i components riguardanti la gestione del profilo
+			e dei progetti dell'utente.
 			\item \textbf{Padre: }\\ SWEDesigner::Client::Components
 		\end{itemize}
-		
+
 		\paragraph{Informazioni sulle Classi}
 		\begin{itemize}
 			\item SWEDesigner::Client::Components::DashComponents::DashComponent
 			\begin{itemize}
 				\item \textbf{Descrizione: }\\
-				Qualcosa
+				Component che definisce la pagina dove l'utente è reindirizzato dopo aver
+				effettuato il login, contiene all'interno del template html gli elementi
+				per l'istanziazione del ProfileComponent e del ProjectComponent.
 				\item \textbf{Utilizzo: }\\
-				Qualcosa
+				Questo componente viene instanziato dinamicamente dal servizio Router del
+				framework Angular subito dopo aver effettuato il login.
 			\end{itemize}
 			\item SWEDesigner::Client::Components::DashComponents::ProfileComponent
 			\begin{itemize}
 				\item \textbf{Descrizione: }\\
-				Qualcosa
+				ProfileComponent contiene le informazioni personali dell'utente. Si occupa
+				delle operazioni che permettono il recupero dei dati utente servendosi di
+				metodi forniti dal servizio AuthenticationService.
 				\item \textbf{Utilizzo: }\\
-				Qualcosa
+				Questo componenet viene istanziato per bootstrap dopo l'istanziazione
+				del component DashComponent.
 			\end{itemize}
 			\item SWEDesigner::Client::Components::DashComponents::ProjectComponent
 			\begin{itemize}
 				\item \textbf{Descrizione: }\\
-				Qualcosa
+				ProfileComponent contiene la lista dei progetti salvati dall'utente, e
+				fornisce dei metodi per la modifica e la cancellazione dei progetti. Si
+				occupa delle operazioni che permettono il recupero delle informazioni sui
+				progetti servendosi di metodi forniti dal servizio ProjManagService.
 				\item \textbf{Utilizzo: }\\
-				Qualcosa
+				Questo componenet viene istanziato per bootstrap dopo l'istanziazione
+				del component DashComponent.
 			\end{itemize}
-		\end{itemize}	
+		\end{itemize}
 
 \subsubsection{SWEDesigner::Client::Service}
 		 \begin{figure}[h!]
@@ -201,26 +245,26 @@
 		\caption{Diagramma dei packages SWEDesigner::Client::Service}
  		\end{figure}
 		\paragraph{Informazioni sul Package}
-		\begin{itemize}				
+		\begin{itemize}
 			\item \textbf{Descrizione: }\\
 			Qualcosa
 			\item \textbf{Padre: }\\ SWEDesigner::Client
 			\item \textbf{Package contenuti: }
-			\begin{itemize}		
+			\begin{itemize}
 				\item SWEDesigner::Client::Services::UserServices;
 				\item SWEDesigner::Client::Services::ProjectServices;
 				\item SWEDesigner::Client::Services::GraphLib;
 			\end{itemize}
 		\end{itemize}
-		
+
 	\subsubsection{SWEDesigner::Client::Services::UserServices}
 		\paragraph{Informazioni sul Package}
-		\begin{itemize}				
+		\begin{itemize}
 			\item \textbf{Descrizione: }\\
 			Qualcosa
 			\item \textbf{Padre: }\\ SWEDesigner::Client::Services
 		\end{itemize}
-		
+
 		\paragraph{Informazioni sulle Classi}
 		\begin{itemize}
 			\item SWEDesigner::Client::Services::UserServices::AuthenticationService
@@ -238,16 +282,16 @@
 				Qualcosa
 			\end{itemize}
 		\end{itemize}
-		
-		
+
+
 		\subsubsection{SWEDesigner::Client::Services::ProjectServices}
 		\paragraph{Informazioni sul Package}
-		\begin{itemize}				
+		\begin{itemize}
 			\item \textbf{Descrizione: }\\
 			Qualcosa
 			\item \textbf{Padre: }\\ SWEDesigner::Client::Services
 		\end{itemize}
-		
+
 		\paragraph{Informazioni sulle Classi}
 		\begin{itemize}
 			\item SWEDesigner::Client::Services::ProjectServices::ProjManagServices
@@ -272,4 +316,3 @@
 				Qualcosa
 			\end{itemize}
 		\end{itemize}
-	
