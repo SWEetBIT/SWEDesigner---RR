@@ -88,17 +88,17 @@ parent={},%
 %
 }%
 }%
-\ifglsentryexists{Back end}{}%
+\ifglsentryexists{Back-end}{}%
 {%
-\gls@defglossaryentry{Back end}%
+\gls@defglossaryentry{Back-end}%
 {%
-name={Back end},%
-sort={Back end},%
+name={Back-end},%
+sort={Back-end},%
 type={main},%
-first={Back end},%
-firstplural={Back ends},%
-text={Back end},%
-plural={Back ends},%
+first={Back-end},%
+firstplural={Back-ends},%
+text={Back-end},%
+plural={Back-ends},%
 description={La parte del prodotto software su cui l'\glossaryItem {Utente} non può interagire e che permette l'esecuzione di tutte le funzioni della parte \glossaryItem {front end}},%
 descriptionplural={La parte del prodotto software su cui l'\glossaryItem {Utente} non può interagire e che permette l'esecuzione di tutte le funzioni della parte \glossaryItem {front end}},%
 symbol={\relax },%
@@ -388,6 +388,96 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{Data base}{}%
+{%
+\gls@defglossaryentry{Data base}%
+{%
+name={Data base},%
+sort={Data base},%
+type={main},%
+first={Data base},%
+firstplural={Data bases},%
+text={Data base},%
+plural={Data bases},%
+description={In informatica, il termine base di dati o banca dati (a volte abbreviato con la sigla DB dall'inglese data base), indica un insieme di dati, omogeneo per contenuti e per formato, memorizzati in un elaboratore elettronico e interrogabili via terminale utilizzando le chiavi di accesso previste.},%
+descriptionplural={In informatica, il termine base di dati o banca dati (a volte abbreviato con la sigla DB dall'inglese data base), indica un insieme di dati, omogeneo per contenuti e per formato, memorizzati in un elaboratore elettronico e interrogabili via terminale utilizzando le chiavi di accesso previste.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Deployment}{}%
+{%
+\gls@defglossaryentry{Deployment}%
+{%
+name={Deployment},%
+sort={Deployment},%
+type={main},%
+first={Deployment},%
+firstplural={Deployments},%
+text={Deployment},%
+plural={Deployments},%
+description={In informatica è la consegna o rilascio al cliente, di una applicazione o di un sistema software tipicamente all'interno di un sistema informatico aziendale.},%
+descriptionplural={In informatica è la consegna o rilascio al cliente, di una applicazione o di un sistema software tipicamente all'interno di un sistema informatico aziendale.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Design Pattern}{}%
+{%
+\gls@defglossaryentry{Design Pattern}%
+{%
+name={Design Pattern},%
+sort={Design Pattern},%
+type={main},%
+first={Design Pattern},%
+firstplural={Design Patterns},%
+text={Design Pattern},%
+plural={Design Patterns},%
+description={In informatica, nell'ambito dell'ingegneria del software, un design pattern, è un concetto che può essere definito "una soluzione progettuale generale ad un problema ricorrente". Si tratta di una descrizione o modello logico da applicare per la risoluzione di un problema che può presentarsi in diverse situazioni durante le fasi di progettazione e sviluppo del software, ancor prima della definizione dell'algoritmo risolutivo della parte computazionale.},%
+descriptionplural={In informatica, nell'ambito dell'ingegneria del software, un design pattern, è un concetto che può essere definito "una soluzione progettuale generale ad un problema ricorrente". Si tratta di una descrizione o modello logico da applicare per la risoluzione di un problema che può presentarsi in diverse situazioni durante le fasi di progettazione e sviluppo del software, ancor prima della definizione dell'algoritmo risolutivo della parte computazionale.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
 \ifglsentryexists{Designer}{}%
 {%
 \gls@defglossaryentry{Designer}%
@@ -658,6 +748,66 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{Event-driven}{}%
+{%
+\gls@defglossaryentry{Event-driven}%
+{%
+name={Event-driven},%
+sort={Event-driven},%
+type={main},%
+first={Event-driven},%
+firstplural={Event-drivens},%
+text={Event-driven},%
+plural={Event-drivens},%
+description={Nella programmazione informatica, la programmazione event-driven è un paradigma di programmazione in cui il flusso del programma è determinato da eventi quali le azioni degli utenti (click del mouse, digitazione di tasti), output dei sensori o messaggi provenienti da altri programmi/thread.},%
+descriptionplural={Nella programmazione informatica, la programmazione event-driven è un paradigma di programmazione in cui il flusso del programma è determinato da eventi quali le azioni degli utenti (click del mouse, digitazione di tasti), output dei sensori o messaggi provenienti da altri programmi/thread.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Express.js}{}%
+{%
+\gls@defglossaryentry{Express.js}%
+{%
+name={Express.js},%
+sort={Express.js},%
+type={main},%
+first={Express.js},%
+firstplural={Express.jss},%
+text={Express.js},%
+plural={Express.jss},%
+description={Express è un framework per applicazioni web \glossaryitem {Node.js} flessibile e leggero che fornisce una serie di funzioni avanzate per le applicazioni web e per dispositivi mobili.},%
+descriptionplural={Express è un framework per applicazioni web \glossaryitem {Node.js} flessibile e leggero che fornisce una serie di funzioni avanzate per le applicazioni web e per dispositivi mobili.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
 \ifglsentryexists{File}{}%
 {%
 \gls@defglossaryentry{File}%
@@ -748,17 +898,17 @@ parent={},%
 %
 }%
 }%
-\ifglsentryexists{Front end}{}%
+\ifglsentryexists{Front-end}{}%
 {%
-\gls@defglossaryentry{Front end}%
+\gls@defglossaryentry{Front-end}%
 {%
-name={Front end},%
-sort={Front end},%
+name={Front-end},%
+sort={Front-end},%
 type={main},%
-first={Front end},%
-firstplural={Front ends},%
-text={Front end},%
-plural={Front ends},%
+first={Front-end},%
+firstplural={Front-ends},%
+text={Front-end},%
+plural={Front-ends},%
 description={La parte del prodotto software con cui l'\glossaryItem {Utente} può interagire},%
 descriptionplural={La parte del prodotto software con cui l'\glossaryItem {Utente} può interagire},%
 symbol={\relax },%
@@ -881,6 +1031,36 @@ text={Google Drive},%
 plural={Google Drives},%
 description={È un servizio, in ambiente cloud computing, di memorizzazione e sincronizzazione onlineche comprende il \glossaryItem {File} hosting, il \glossaryItem {File} sharing e la modifica collaborativa di documenti},%
 descriptionplural={È un servizio, in ambiente cloud computing, di memorizzazione e sincronizzazione onlineche comprende il \glossaryItem {File} hosting, il \glossaryItem {File} sharing e la modifica collaborativa di documenti},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{HTTP}{}%
+{%
+\gls@defglossaryentry{HTTP}%
+{%
+name={HTTP},%
+sort={HTTP},%
+type={main},%
+first={HTTP},%
+firstplural={HTTPs},%
+text={HTTP},%
+plural={HTTPs},%
+description={Acronimo di HyperText Transfer Protocol (protocollo di trasferimento di un ipertesto) è un protocollo a livello applicativo usato come principale sistema per la trasmissione d'informazioni sul web ovvero in un'architettura tipica \glossaryItem {client-server.}},%
+descriptionplural={Acronimo di HyperText Transfer Protocol (protocollo di trasferimento di un ipertesto) è un protocollo a livello applicativo usato come principale sistema per la trasmissione d'informazioni sul web ovvero in un'architettura tipica \glossaryItem {client-server.}},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
@@ -1108,6 +1288,36 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{Libreria}{}%
+{%
+\gls@defglossaryentry{Libreria}%
+{%
+name={Libreria},%
+sort={Libreria},%
+type={main},%
+first={Libreria},%
+firstplural={Librerias},%
+text={Libreria},%
+plural={Librerias},%
+description={In Informatica, è un insieme di funzioni o strutture dati predefinite e predisposte per essere collegate ad un programma software attraverso opportuno collegamento.},%
+descriptionplural={In Informatica, è un insieme di funzioni o strutture dati predefinite e predisposte per essere collegate ad un programma software attraverso opportuno collegamento.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
 \ifglsentryexists{LaTeX}{}%
 {%
 \gls@defglossaryentry{LaTeX}%
@@ -1228,6 +1438,156 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{Markup}{}%
+{%
+\gls@defglossaryentry{Markup}%
+{%
+name={Markup},%
+sort={Markup},%
+type={main},%
+first={Markup},%
+firstplural={Markups},%
+text={Markup},%
+plural={Markups},%
+description={un insieme di regole che descrivono i meccanismi di rappresentazione (strutturali, semantici o presentazionali) di un testo che, utilizzando convenzioni standardizzate, sono utilizzabili su più supporti},%
+descriptionplural={un insieme di regole che descrivono i meccanismi di rappresentazione (strutturali, semantici o presentazionali) di un testo che, utilizzando convenzioni standardizzate, sono utilizzabili su più supporti},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Map-Reduce}{}%
+{%
+\gls@defglossaryentry{Map-Reduce}%
+{%
+name={Map-Reduce},%
+sort={Map-Reduce},%
+type={main},%
+first={Map-Reduce},%
+firstplural={Map-Reduces},%
+text={Map-Reduce},%
+plural={Map-Reduces},%
+description={MapReduce è un \glossaryitem {framework} software brevettato e introdotto da Google per supportare la computazione distribuita su grandi quantità di dati in cluster di computer.},%
+descriptionplural={MapReduce è un \glossaryitem {framework} software brevettato e introdotto da Google per supportare la computazione distribuita su grandi quantità di dati in cluster di computer.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Mongodb}{}%
+{%
+\gls@defglossaryentry{Mongodb}%
+{%
+name={Mongodb},%
+sort={Mongodb},%
+type={main},%
+first={Mongodb},%
+firstplural={Mongodbs},%
+text={Mongodb},%
+plural={Mongodbs},%
+description={MongoDB (da "humongous", enorme) è un DBMS non relazionale, orientato ai documenti. Classificato come un database di tipo \glossaryitem {NoSQL}, MongoDB si allontana dalla struttura tradizionale basata su tabelle dei database relazionali in favore di documenti in stile JSON con schema dinamico, rendendo l'integrazione di dati di alcuni tipi di applicazioni più facile e veloce},%
+descriptionplural={MongoDB (da "humongous", enorme) è un DBMS non relazionale, orientato ai documenti. Classificato come un database di tipo \glossaryitem {NoSQL}, MongoDB si allontana dalla struttura tradizionale basata su tabelle dei database relazionali in favore di documenti in stile JSON con schema dinamico, rendendo l'integrazione di dati di alcuni tipi di applicazioni più facile e veloce},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Mongoose}{}%
+{%
+\gls@defglossaryentry{Mongoose}%
+{%
+name={Mongoose},%
+sort={Mongoose},%
+type={main},%
+first={Mongoose},%
+firstplural={Mongooses},%
+text={Mongoose},%
+plural={Mongooses},%
+description={Mongoose è un web server multipiattaforma scritto da Sergey Lyubka. Con poco più 130KB di codice sorgente, Mongoose è uno fra i server web più piccoli. Via API può essere integrato anche in altri programmi.},%
+descriptionplural={Mongoose è un web server multipiattaforma scritto da Sergey Lyubka. Con poco più 130KB di codice sorgente, Mongoose è uno fra i server web più piccoli. Via API può essere integrato anche in altri programmi.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{MEAN.io}{}%
+{%
+\gls@defglossaryentry{MEAN.io}%
+{%
+name={MEAN.io},%
+sort={MEAN.io},%
+type={main},%
+first={MEAN.io},%
+firstplural={MEAN.ios},%
+text={MEAN.io},%
+plural={MEAN.ios},%
+description={MEAN è una pila di software JavaScript gratuita e open-source per la creazione di siti web dinamici e applicazioni web.},%
+descriptionplural={MEAN è una pila di software JavaScript gratuita e open-source per la creazione di siti web dinamici e applicazioni web.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
 \ifglsentryexists{Merge}{}%
 {%
 \gls@defglossaryentry{Merge}%
@@ -1318,6 +1678,66 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{Middleware}{}%
+{%
+\gls@defglossaryentry{Middleware}%
+{%
+name={Middleware},%
+sort={Middleware},%
+type={main},%
+first={Middleware},%
+firstplural={Middlewares},%
+text={Middleware},%
+plural={Middlewares},%
+description={In informatica , si intende un insieme di programmi informatici che fungono da intermediari tra diverse applicazioni e componenti software.},%
+descriptionplural={In informatica , si intende un insieme di programmi informatici che fungono da intermediari tra diverse applicazioni e componenti software.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Moduli}{}%
+{%
+\gls@defglossaryentry{Moduli}%
+{%
+name={Moduli},%
+sort={Moduli},%
+type={main},%
+first={Moduli},%
+firstplural={Modulis},%
+text={Moduli},%
+plural={Modulis},%
+description={In molti contesti, soprattutto tecnici, un modulo è un componente di un sistema; in molti casi, questo implica anche la presenza di una ben definita interfaccia attraverso cui il modulo può essere integrato facilmente nel sistema.},%
+descriptionplural={In molti contesti, soprattutto tecnici, un modulo è un componente di un sistema; in molti casi, questo implica anche la presenza di una ben definita interfaccia attraverso cui il modulo può essere integrato facilmente nel sistema.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
 \ifglsentryexists{Node.js}{}%
 {%
 \gls@defglossaryentry{Node.js}%
@@ -1331,6 +1751,36 @@ text={Node.js},%
 plural={Node.jss},%
 description={è un \glossaryItem {Frame}work per la realizzazione di applicazioni Web in \glossaryItem {Java}\glossaryItem {Script}, permettendo di utilizzare questo linguaggio, tipicamente utilizzato nella “\glossaryItem {Client}-side”, anche per la scrittura di applicazioni “\glossaryItem {Server}-side”},%
 descriptionplural={è un \glossaryItem {Frame}work per la realizzazione di applicazioni Web in \glossaryItem {Java}\glossaryItem {Script}, permettendo di utilizzare questo linguaggio, tipicamente utilizzato nella “\glossaryItem {Client}-side”, anche per la scrittura di applicazioni “\glossaryItem {Server}-side”},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{NoSQL}{}%
+{%
+\gls@defglossaryentry{NoSQL}%
+{%
+name={NoSQL},%
+sort={NoSQL},%
+type={main},%
+first={NoSQL},%
+firstplural={NoSQLs},%
+text={NoSQL},%
+plural={NoSQLs},%
+description={è un movimento che promuove sistemi software dove la persistenza dei dati è caratterizzata dal fatto di non utilizzare il modello relazionale, di solito usato dai database tradizionali (RDBMS). L'espressione NoSQL fa riferimento al linguaggio SQL, che è il più comune linguaggio di interrogazione dei dati nei database relazionali, qui preso a simbolo dell'intero paradigma relazionale.},%
+descriptionplural={è un movimento che promuove sistemi software dove la persistenza dei dati è caratterizzata dal fatto di non utilizzare il modello relazionale, di solito usato dai database tradizionali (RDBMS). L'espressione NoSQL fa riferimento al linguaggio SQL, che è il più comune linguaggio di interrogazione dei dati nei database relazionali, qui preso a simbolo dell'intero paradigma relazionale.},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
@@ -1648,6 +2098,66 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{Rest}{}%
+{%
+\gls@defglossaryentry{Rest}%
+{%
+name={Rest},%
+sort={Rest},%
+type={main},%
+first={Rest},%
+firstplural={Rests},%
+text={Rest},%
+plural={Rests},%
+description={Acronimo di Representational State Transfer è un tipo di \glossaryItem {RPC}. Si basa su un protocollo di comunicazione \glossaryItem {stateless} di tipo \glossaryItem {client-server}, e solitamente tale protocollo è \glossaryItem {HTTP}},%
+descriptionplural={Acronimo di Representational State Transfer è un tipo di \glossaryItem {RPC}. Si basa su un protocollo di comunicazione \glossaryItem {stateless} di tipo \glossaryItem {client-server}, e solitamente tale protocollo è \glossaryItem {HTTP}},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{RPC}{}%
+{%
+\gls@defglossaryentry{RPC}%
+{%
+name={RPC},%
+sort={RPC},%
+type={main},%
+first={RPC},%
+firstplural={RPCs},%
+text={RPC},%
+plural={RPCs},%
+description={Acronimo di Remote Procedure Call, si riferisce all'attivazione di una procedura da parte di un programma, nel caso in cui tale procedura venga attivata su un computer diverso da quello sul quale il programma stesso viene eseguito.},%
+descriptionplural={Acronimo di Remote Procedure Call, si riferisce all'attivazione di una procedura da parte di un programma, nel caso in cui tale procedura venga attivata su un computer diverso da quello sul quale il programma stesso viene eseguito.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
 \ifglsentryexists{Script}{}%
 {%
 \gls@defglossaryentry{Script}%
@@ -1661,6 +2171,36 @@ text={Script},%
 plural={Scripts},%
 description={In informatica, designa un tipo particolare di programma, scritto in una particolare \glossaryItem {Classe} di linguaggi di programmazione, detti linguaggi di \glossaryItem {Script}ing},%
 descriptionplural={In informatica, designa un tipo particolare di programma, scritto in una particolare \glossaryItem {Classe} di linguaggi di programmazione, detti linguaggi di \glossaryItem {Script}ing},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Schema}{}%
+{%
+\gls@defglossaryentry{Schema}%
+{%
+name={Schema},%
+sort={Schema},%
+type={main},%
+first={Schema},%
+firstplural={Schemas},%
+text={Schema},%
+plural={Schemas},%
+description={Per schema, in \glossaryitem {Mondodb}, si intendono le regole strutturali per la definizione di entità.},%
+descriptionplural={Per schema, in \glossaryitem {Mondodb}, si intendono le regole strutturali per la definizione di entità.},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
@@ -1738,6 +2278,36 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{Single-page application}{}%
+{%
+\gls@defglossaryentry{Single-page application}%
+{%
+name={Single-page application},%
+sort={Single-page application},%
+type={main},%
+first={Single-page application},%
+firstplural={Single-page applications},%
+text={Single-page application},%
+plural={Single-page applications},%
+description={È un'applicazione web o un sito web che può essere usato o consultato su una singola pagina web con l'obiettivo di fornire una esperienza utente più fluida e simile alle applicazioni desktop dei sistemi operativi tradizionali.},%
+descriptionplural={È un'applicazione web o un sito web che può essere usato o consultato su una singola pagina web con l'obiettivo di fornire una esperienza utente più fluida e simile alle applicazioni desktop dei sistemi operativi tradizionali.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
 \ifglsentryexists{Sistema di tiketing}{}%
 {%
 \gls@defglossaryentry{Sistema di tiketing}%
@@ -1798,6 +2368,36 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{SQL}{}%
+{%
+\gls@defglossaryentry{SQL}%
+{%
+name={SQL},%
+sort={SQL},%
+type={main},%
+first={SQL},%
+firstplural={SQLs},%
+text={SQL},%
+plural={SQLs},%
+description={In informatica SQL (Structured Query Language) è un linguaggio standardizzato per database basati sul modello relazionale (RDBMS) progettato per: creare e modificare schemi di database (DDL - Data Definition Language).},%
+descriptionplural={In informatica SQL (Structured Query Language) è un linguaggio standardizzato per database basati sul modello relazionale (RDBMS) progettato per: creare e modificare schemi di database (DDL - Data Definition Language).},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
 \ifglsentryexists{Stand-alone}{}%
 {%
 \gls@defglossaryentry{Stand-alone}%
@@ -1811,6 +2411,36 @@ text={Stand-alone},%
 plural={Stand-alones},%
 description={Indica un software capace di funzionare da solo o in maniera indipendente da altri software},%
 descriptionplural={Indica un software capace di funzionare da solo o in maniera indipendente da altri software},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Stateless}{}%
+{%
+\gls@defglossaryentry{Stateless}%
+{%
+name={Stateless},%
+sort={Stateless},%
+type={main},%
+first={Stateless},%
+firstplural={Statelesss},%
+text={Stateless},%
+plural={Statelesss},%
+description={Protocollo di comunicazione che tratta ogni richiesta in modo indipendente dalle richieste precedenti.},%
+descriptionplural={Protocollo di comunicazione che tratta ogni richiesta in modo indipendente dalle richieste precedenti.},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%

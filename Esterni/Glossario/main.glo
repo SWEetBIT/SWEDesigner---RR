@@ -1,7 +1,7 @@
 \glossaryentry{Account?\glsnonextpages \glossentry{Account}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{API?\glsnonextpages \glossentry{API}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Applicazione?\glsnonextpages \glossentry{Applicazione}|setentrycounter[]{page}\glsnumberformat}{2}
-\glossaryentry{Back end?\glsnonextpages \glossentry{Back end}|setentrycounter[]{page}\glsnumberformat}{2}
+\glossaryentry{Back-end?\glsnonextpages \glossentry{Back-end}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{BOM?\glsnonextpages \glossentry{BOM}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Browser?\glsnonextpages \glossentry{Browser}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Bug?\glsnonextpages \glossentry{Bug}|setentrycounter[]{page}\glsnumberformat}{2}
@@ -11,6 +11,9 @@
 \glossaryentry{Client?\glsnonextpages \glossentry{Client}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Codice?\glsnonextpages \glossentry{Codice}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Committente?\glsnonextpages \glossentry{Committente}|setentrycounter[]{page}\glsnumberformat}{2}
+\glossaryentry{Data base?\glsnonextpages \glossentry{Data base}|setentrycounter[]{page}\glsnumberformat}{2}
+\glossaryentry{Deployment?\glsnonextpages \glossentry{Deployment}|setentrycounter[]{page}\glsnumberformat}{2}
+\glossaryentry{Design Pattern?\glsnonextpages \glossentry{Design Pattern}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Designer?\glsnonextpages \glossentry{Designer}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Desktop?\glsnonextpages \glossentry{Desktop}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Diagramma delle classi?\glsnonextpages \glossentry{Diagramma delle classi}|setentrycounter[]{page}\glsnumberformat}{2}
@@ -20,14 +23,17 @@
 \glossaryentry{Dominio?\glsnonextpages \glossentry{Dominio}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Drag-and-drop?\glsnonextpages \glossentry{Drag-and-drop}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Editor?\glsnonextpages \glossentry{Editor}|setentrycounter[]{page}\glsnumberformat}{2}
+\glossaryentry{Event-driven?\glsnonextpages \glossentry{Event-driven}|setentrycounter[]{page}\glsnumberformat}{2}
+\glossaryentry{Express.js?\glsnonextpages \glossentry{Express.js}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{File?\glsnonextpages \glossentry{File}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Frame?\glsnonextpages \glossentry{Frame}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Framework?\glsnonextpages \glossentry{Framework}|setentrycounter[]{page}\glsnumberformat}{2}
-\glossaryentry{Front end?\glsnonextpages \glossentry{Front end}|setentrycounter[]{page}\glsnumberformat}{2}
+\glossaryentry{Front-end?\glsnonextpages \glossentry{Front-end}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Gantt?\glsnonextpages \glossentry{Gantt}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{GitHub?\glsnonextpages \glossentry{GitHub}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Google?\glsnonextpages \glossentry{Google}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Google Drive?\glsnonextpages \glossentry{Google Drive}|setentrycounter[]{page}\glsnumberformat}{2}
+\glossaryentry{HTTP?\glsnonextpages \glossentry{HTTP}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{IA?\glsnonextpages \glossentry{IA}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{IEC?\glsnonextpages \glossentry{IEC}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{ISO?\glsnonextpages \glossentry{ISO}|setentrycounter[]{page}\glsnumberformat}{2}
@@ -35,14 +41,23 @@
 \glossaryentry{Java?\glsnonextpages \glossentry{Java}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{JavaScript?\glsnonextpages \glossentry{JavaScript}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{JSON?\glsnonextpages \glossentry{JSON}|setentrycounter[]{page}\glsnumberformat}{2}
+\glossaryentry{Libreria?\glsnonextpages \glossentry{Libreria}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{LaTeX?\glsnonextpages \glossentry{LaTeX}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Layer?\glsnonextpages \glossentry{Layer}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Licenza MIT?\glsnonextpages \glossentry{Licenza MIT}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Login?\glsnonextpages \glossentry{Login}|setentrycounter[]{page}\glsnumberformat}{2}
+\glossaryentry{Markup?\glsnonextpages \glossentry{Markup}|setentrycounter[]{page}\glsnumberformat}{2}
+\glossaryentry{Map-Reduce?\glsnonextpages \glossentry{Map-Reduce}|setentrycounter[]{page}\glsnumberformat}{2}
+\glossaryentry{Mongodb?\glsnonextpages \glossentry{Mongodb}|setentrycounter[]{page}\glsnumberformat}{2}
+\glossaryentry{Mongoose?\glsnonextpages \glossentry{Mongoose}|setentrycounter[]{page}\glsnumberformat}{2}
+\glossaryentry{MEAN.io?\glsnonextpages \glossentry{MEAN.io}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Merge?\glsnonextpages \glossentry{Merge}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Metodo?\glsnonextpages \glossentry{Metodo}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Microservizi?\glsnonextpages \glossentry{Microservizi}|setentrycounter[]{page}\glsnumberformat}{2}
+\glossaryentry{Middleware?\glsnonextpages \glossentry{Middleware}|setentrycounter[]{page}\glsnumberformat}{2}
+\glossaryentry{Moduli?\glsnonextpages \glossentry{Moduli}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Node.js?\glsnonextpages \glossentry{Node.js}|setentrycounter[]{page}\glsnumberformat}{2}
+\glossaryentry{NoSQL?\glsnonextpages \glossentry{NoSQL}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Open-source?\glsnonextpages \glossentry{Open-source}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Package?\glsnonextpages \glossentry{Package}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Pattern?\glsnonextpages \glossentry{Pattern}|setentrycounter[]{page}\glsnumberformat}{2}
@@ -53,12 +68,18 @@
 \glossaryentry{Progettazione ad alto livello?\glsnonextpages \glossentry{Progettazione ad alto livello}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Proponente?\glsnonextpages \glossentry{Proponente}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Repository?\glsnonextpages \glossentry{Repository}|setentrycounter[]{page}\glsnumberformat}{2}
+\glossaryentry{Rest?\glsnonextpages \glossentry{Rest}|setentrycounter[]{page}\glsnumberformat}{2}
+\glossaryentry{RPC?\glsnonextpages \glossentry{RPC}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Script?\glsnonextpages \glossentry{Script}|setentrycounter[]{page}\glsnumberformat}{2}
+\glossaryentry{Schema?\glsnonextpages \glossentry{Schema}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{SDK?\glsnonextpages \glossentry{SDK}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Server?\glsnonextpages \glossentry{Server}|setentrycounter[]{page}\glsnumberformat}{2}
+\glossaryentry{Single-page application?\glsnonextpages \glossentry{Single-page application}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Sistema di tiketing?\glsnonextpages \glossentry{Sistema di tiketing}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Slack?\glsnonextpages \glossentry{Slack}|setentrycounter[]{page}\glsnumberformat}{2}
+\glossaryentry{SQL?\glsnonextpages \glossentry{SQL}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Stand-alone?\glsnonextpages \glossentry{Stand-alone}|setentrycounter[]{page}\glsnumberformat}{2}
+\glossaryentry{Stateless?\glsnonextpages \glossentry{Stateless}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Template?\glsnonextpages \glossentry{Template}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Telegram?\glsnonextpages \glossentry{Telegram}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{TexMaker?\glsnonextpages \glossentry{TexMaker}|setentrycounter[]{page}\glsnumberformat}{2}
