@@ -9,9 +9,9 @@
     \item \glossaryItem{Script} \glossaryItem{Perl} per la glossarizzazione dei termini
     \item Aspel
   \end{itemize}
-  \subsection{Dettaglio delle verifiche}
-    \subsubsection{Analisi}
-      \paragraph{Processi}
+  \subsubsection{Dettaglio delle verifiche}
+    \paragraph{Analisi}
+      \subparagraph{Processi}
       Nella seguente tabella sono riportati i valori per la Schedule Variance(SV) e la Budget Variance(BV) riguardanti i processi del periodo di \textbf{Analisi}.\\
       \begin{itemize}
       \item \textbf{Schedule Variance:} I range stabiliti sono:
@@ -51,7 +51,7 @@
       Stando a quanto preventivato dal prospetto economico del \emph{Piano di Progetto \VersionePP{}}, il valore di SV rientra nel range di accettabilità stabilito (SV\(\geq\)-141.25 Euro) che in quello di ottimalità;
       anche il valore di BV rientra nel range di accettabilità stabilito (BV\(\geq\)-282.5 Euro).
       
-      \paragraph{Documenti}
+      \subparagraph{Documenti}
       Nella tabella seguente sono riportati i valori dell'indice Gulpease per ogni documento prodotto nel periodo di Analisi.\\
 
 \begin{itemize}
@@ -81,9 +81,8 @@
         \caption{Indici Gulpease per i documenti - Periodo di Analisi}
       \end{table}
 
-\paragraph{Software}
+\subparagraph{Software}
 \begin{itemize}
-\item \textbf{Dimensione del prodotto software: } ???
 \item \textbf{Complessità ciclomatica: }I range stabiliti sono:
       \begin{itemize}
         \item Range di accettabilità = [0-15];
@@ -123,7 +122,139 @@ Per il periodo di \textbf{Analisi} non è stata applicata questa metrica.
 \begin{itemize}
 \item \textbf{Copertura del codice: }I range stabiliti sono:
       \begin{itemize}
-        \item Range di accettabilità = [70-100];
-        \item Range di ottimalità = [80-100].
+        \item Range di accettabilità = [70\%-100\%];
+        \item Range di ottimalità = [80\%-100\%].
       \end{itemize}
+Per il periodo di \textbf{Analisi} non è stata applicata questa metrica.
+\end{itemize}
+
+
+
+  \subsection{Revisione di progettazione}
+  Prima della consegna relativa alla revisione di progettazione minima, sono stati verificati i processi che hanno portato alla stesura dei documenti ed essi stessi. \\
+  Per i documenti è stata effettuata una verifica di tipo manuale, la quale consiste nella rilettura dei documenti per l'individuazione di errori di forma ed eventuali inconsistenze;
+  e una verifica automatizzata tramite gli strumenti definiti nel documento \emph{Norme di Progetto \VersioneNP{}}, di seguito citati per completezza:
+  \begin{itemize}
+    \item \glossaryItem{Script} \glossaryItem{Perl} per il calcolo dell’indice Gulpease
+    \item \glossaryItem{Script} \glossaryItem{Perl} per la glossarizzazione dei termini
+    \item Aspel
+  \end{itemize}
+  \subsubsection{Dettaglio delle verifiche}
+    \paragraph{Progettazione}
+      \subparagraph{Processi}
+      Nella seguente tabella sono riportati i valori per la Schedule Variance(SV) e la Budget Variance(BV) riguardanti i processi del periodo di \textbf{Progettazione}.\\
+      \begin{itemize}
+      \item \textbf{Schedule Variance:} I range stabiliti sono:
+      \begin{itemize}
+        \item Range di accettabilità = [\(\geq\)-(\emph{141.25})];
+        \item Range di ottimalità = [\(\geq\)0].
+      \end{itemize}
+      
+      \item \textbf{Budget Variance:} I range stabiliti sono:
+      \begin{itemize}
+        \item Range di accettabilità = [\(\geq\)-(\emph{282.5})];
+        \item Range di ottimalità = [\(\geq\)0].
+      \end{itemize}
+      
+      
+      \end{itemize}
+     
+       
+      \begin{table}[H]
+        \centering
+        \begin{tabular}{|l|c|c|}
+          \hline
+          \textbf{Attività} &\textbf{SV}(Euro)  &\textbf{BV}(Euro) \\
+          \hline
+          Analisi dei requisiti  &25 &-45  \\
+          Piano di progetto &35  &0\\
+          Piano di qualifica  &0  &-20\\
+          Norme di progetto &0  &0 \\
+          Studio di fattibilità &0  &10  \\
+          Glossario &0  &0  \\
+          \hline
+          \textbf{Totale} &60  &-65  \\
+          \hline
+        \end{tabular}
+        \caption{Indici SV e BV - Periodo di Analisi}
+      \end{table}
+      Stando a quanto preventivato dal prospetto economico del \emph{Piano di Progetto \VersionePP{}}, il valore di SV rientra nel range di accettabilità stabilito (SV\(\geq\)-141.25 Euro) che in quello di ottimalità;
+      anche il valore di BV rientra nel range di accettabilità stabilito (BV\(\geq\)-282.5 Euro).
+      
+      \subparagraph{Documenti}
+      Nella tabella seguente sono riportati i valori dell'indice Gulpease per ogni documento prodotto nel periodo di Progettazione.\\
+
+\begin{itemize}
+\item \textbf{Indice Gulpease: }I range stabiliti sono:
+      \begin{itemize}
+        \item Range di accettabilità = [40-100];
+        \item Range di ottimalità = [50-100].
+      \end{itemize}
+\end{itemize}      
+      
+      
+      \begin{table}[H]
+        \centering
+        \begin{tabular}{|l|c|c|}
+          \hline
+          \textbf{Documento} &\textbf{Indice Gulpease} &\textbf{Esito}\\
+          \hline
+          Analisi dei requisiti &74.3  &Superato \\
+          Piano di progetto &51.1  &Superato \\
+          Piano di qualifica  &51.3  &Superato \\
+          Norme di progetto &50.7  &Superato \\
+          Studio di fattibilità &49.5  &Superato \\
+          Glossario &51.6  &Superato  \\
+          Verbali esterni &51.1  &Superato \\
+          \hline
+        \end{tabular}
+        \caption{Indici Gulpease per i documenti - Periodo di Progettazione}
+      \end{table}
+
+\subparagraph{Software}
+\begin{itemize}
+\item \textbf{Complessità ciclomatica: }I range stabiliti sono:
+      \begin{itemize}
+        \item Range di accettabilità = [0-15];
+        \item Range di ottimalità = [0-10].
+      \end{itemize}
+Per il periodo di \textbf{Progettazione} non è stata applicata questa metrica.
+
+\item \textbf{Numero di metodi per file: }I range stabiliti sono:
+      \begin{itemize}
+        \item Range di accettabilità = [3-10];
+        \item Range di ottimalità = [0-7].
+      \end{itemize}
+Per il periodo di \textbf{Progettazione} non è stata applicata questa metrica.
+
+\item \textbf{Variabili non utilizzate e/o non definite: }I range stabiliti sono:
+      \begin{itemize}
+        \item Range di accettabilità = [0-0];
+        \item Range di ottimalità = [0-0].
+      \end{itemize}
+Per il periodo di \textbf{Progettazione} non è stata applicata questa metrica.
+
+\item \textbf{Numero di argomenti per funzione: }I range stabiliti sono:
+      \begin{itemize}
+        \item Range di accettabilità = [0-6];
+        \item Range di ottimalità = [0-4].
+      \end{itemize}
+Per il periodo di \textbf{Progettazione} non è stata applicata questa metrica.
+
+\item \textbf{Linee di codice per linee di commento: } I range stabiliti sono:
+      \begin{itemize}
+        \item Range di accettabilità = [>0.25];
+        \item Range di ottimalità = [>0.30].
+      \end{itemize}
+Per il periodo di \textbf{Progettazione} non è stata applicata questa metrica.
+\end{itemize}
+
+\begin{itemize}
+\item \textbf{Copertura del codice: }I range stabiliti sono:
+      \begin{itemize}
+        \item Range di accettabilità = [70\%-100\%];
+        \item Range di ottimalità = [80\%-100\%].
+      \end{itemize}
+Per il periodo di \textbf{Progettazione} non è stata applicata questa metrica.
+
 \end{itemize} 

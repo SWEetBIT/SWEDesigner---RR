@@ -6,10 +6,10 @@
     Per garantire qualitativamente un prodotto software è necessario definire
     degli obiettivi qualitativi e garantire il loro soddisfacimento. Per
     stabilire gli obiettivi di qualità inerenti al prodotto software, il gruppo
-    SWEet BIT ha deciso di seguire lo standard ISO/IEC 9126; questo standard
+    SWEet BIT ha deciso di seguire lo standard \glossaryItem{ISO}/\glossaryItem{IEC} 9126; questo standard
     descrive un modello per definire la qualità di un prodotto software e
     suggerisce delle metriche per poterne misurare la qualità.\\
-    Lo standard ISO/IEC 9126 è descritto nell'Appendice \emph{A - Standard e
+    Lo standard \glossaryItem{ISO}/\glossaryItem{IEC} 9126 è descritto nell'Appendice \emph{A - Standard e
     \glossaryItem{Metodi} per la gestione della Qualità} del presente documento.
 
   \subsubsection{Qualità di processo}
@@ -17,7 +17,7 @@
     ruolo fondamentale sulla qualità del prodotto. Il gruppo SWEet BIT ha deciso
     di adottare il \emph{Ciclo di Deming}, o \emph{Ciclo} \glossaryItem{PDCA},
     come modello per il continuo miglioramento dei processi produttivi. \\
-    Come complemento al ciclo di Deming è stato scelto il modello descritto
+    Come complemento al \emph{ciclo di Deming} è stato scelto il modello descritto
     dallo standard \glossaryItem{ISO}/\glossaryItem{IEC} 15504 detto
     \glossaryItem{SPICE}, il quale fornisce gli strumenti per la valutazione dei
     processi produttivi.\\
@@ -32,7 +32,7 @@
       \item \textbf{SQA} (Software Quality Assurance): si occupa di assicurare
       che i processi siano implementati secondo quanto pianificato e che siano
       forniti sistemi di misurazione dei processi;
-      \item \textbf{Verifica}: si occupa di accertare che l’esecuzione dei
+      \item \textbf{Verifica}: si occupa di accertare che l'esecuzione dei
       processi non abbia introdotto degli errori, e accerta il rispetto delle
       regole, delle convenzioni e delle procedure;
       \item \textbf{Validazione}: si occupa di accertare che i prodotti
@@ -42,7 +42,7 @@
   \subsection{Procedure di controllo di qualità di processo}
   La pianificazione delle attività volte al miglioramento continuo dei processi
   sono descritte nel \emph{Piano di Progetto \VersionePP{}}. Le linee guida per
-  la gestione della qualità del processo, invece, seguono il modello PDCA e
+  la gestione della qualità del processo, invece, seguono il modello \glossaryItem{PDCA} e
   descrivono come devono essere attuate le procedure di controllo:
   \begin{itemize}
     \item La pianificazione deve essere dettagliata, e le attività pianificate
@@ -50,7 +50,7 @@
     \item Le risorse necessarie per conseguire gli obiettivi devono essere
     definite;
     \item Il miglioramento della qualità del processo deve essere verificato
-    attraverso l’utilizzo di apposite metriche, che verranno descritte in seguito.
+    attraverso l'utilizzo di apposite metriche, che verranno descritte in seguito.
   \end{itemize}
 
   \subsection{Organizzazione}
@@ -113,7 +113,7 @@
         \item Verificatore.
       \end{itemize}
 
-		La responsabilità maggiore per l’attività di verifica e validazione ricade sul Responsabile di Progetto e sul Verificatore. Per una descrizione dettagliata di tutti gli altri ruoli e delle loro responsabilità fare riferimento al \emph{Piano di Progetto \VersionePP{}}.
+		La responsabilità maggiore per l’attività di verifica e validazione ricade sul \emph{Responsabile di Progetto} e sul \emph{Verificatore}. Per una descrizione dettagliata di tutti gli altri ruoli e delle loro responsabilità fare riferimento al \emph{Piano di Progetto \VersionePP{}}.
 
       \item \textbf{Risorse tecnologiche:} riguardano tutti i software utilizzati per l'automazione delle attività di verifica su prodotti e processi, e l'hardware necessario per eseguire i suddetti software. Nel documento \emph{Norme di Progetto \VersioneNP{}} sono descritti nel dettaglio tutti gli strumenti software utilizzati.
     \end{itemize}
@@ -141,7 +141,7 @@ La lista di controllo risultante, contenente le tipologie di errori più frequen
 \emph{Norme di Progetto \VersioneNP{}}
 
     \paragraph{Inspection}
-	Consiste nell'analisi mirata di alcune parti del documenti o del codice ritenute fonti maggiori di errore. Deve essere seguita una lista di controllo per svolgere efficacemente questa attività; tale lista deve essere redatta anticipatamente ed è sostanzialmente frutto dell'esperienza maturata dai membri del team con tecniche di walkthrough.
+	Consiste nell'analisi mirata di alcune parti dei documenti o del codice ritenute fonti maggiori di errore. Deve essere seguita una lista di controllo per svolgere efficacemente questa attività; tale lista deve essere redatta anticipatamente ed è sostanzialmente frutto dell'esperienza maturata dai membri del team con tecniche di walkthrough.
 L'inspection è dunque più rapida del walkthrough, in quanto il documento viene
 analizzato solo in alcune sue parti e con una lista di controllo ben precisa. In questa
 attività sono coinvolte solo i verificatori che, dopo aver individuato gli errori, procedono
@@ -154,11 +154,11 @@ Affinché tale attività sia utile e generi risultati attendibili è necessario 
 siano ripetibili: dato un certo input deve essere prodotto sempre uno stesso output in
 uno specifico ambiente. Di conseguenza, i tre elementi fondamentali di un test sono:
     \begin{itemize}
-    \item \textbf{Ambiente:}sistema hardware e software sui quali è stato pianificato l'utilizzo del
+    \item \textbf{Ambiente: }sistema hardware e software sui quali è stato pianificato l'utilizzo del
 prodotto software sviluppato. Su di essi deve essere specificato uno stato iniziale
 dal quale poter eseguire il test;
-    \item \textbf{Specifica:}definizione di quali input sono necessari per l'esecuzione del test e quali output sono attesi;
-    \item \textbf{Procedure:}definizione di come devono essere svolti i test, in che ordine devono
+    \item \textbf{Specifica: }definizione di quali input sono necessari per l'esecuzione del test e quali output sono attesi;
+    \item \textbf{Procedure: }definizione di come devono essere svolti i test, in che ordine devono
 essere eseguiti e come devono essere analizzati i risultati.
     \end{itemize}
 
@@ -169,7 +169,7 @@ essere eseguiti e come devono essere analizzati i risultati.
 
       \item \textbf{Test di integrazione}: l'obiettivo di questo test è verificare che le componenti del sistema vengano aggiunte incrementalmente al prodotto e analizzare che la combinazione di due o più unità software funzioni come previsto. Una componente è l'aggregazione di più unità software.
 Questo tipo di test serve ad individuare errori residui nella realizzazione dei singoli moduli, modifiche delle interfacce e comportamenti inaspettati di componenti software preesistenti forniti da terze parti che non si conoscono a fondo.
-er effettuare tali test devono essere aggiunte delle componenti fittizie al posto di quelle che non sono ancora state sviluppate, in modo da non influenzare negativamente l'esito dell'analisi.
+Per effettuare tali test devono essere aggiunte delle componenti fittizie al posto di quelle che non sono ancora state sviluppate, in modo da non influenzare negativamente l'esito dell'analisi.
 
       \item \textbf{Test di sistema}: l'obiettivo di questo test è verificare il comportamento del prodotto software finale. Lo scopo è quello di capire se esso rispetta i requisiti individuati nella fase di Analisi.
 
@@ -182,7 +182,7 @@ er effettuare tali test devono essere aggiunte delle componenti fittizie al post
 \subsection{Misure e metriche}
 Il processo di verifica, per essere informativo, deve esse quantificabile. Le misure rilevate
 dal processo di verifica devono quindi essere basate su metriche stabilite a priori. Per automatizzare il più possibile il lavoro di misurazione saranno utilizzati degli strumenti, adeguatamente configurati, definiti nelle \emph{Norme di Progetto \VersioneNP{}}, con lo scopo di avere un resoconto affidabile e quantitativo che permetta di assicurare il grado di qualità voluto.
-Le metriche, essendo di natura molto variabile, vi possono essere due tipologie di range:
+Le metriche, essendo di natura molto variabile, possono avere due tipologie di range:
 \begin{itemize}
 \item \textbf{Accettazione}: l'intervallo di valori entro il quale deve trovarsi il risultato della misurazione di un processo, o prodotto, per essere ritenuto accettabile;
 \item \textbf{Ottimale}: l'intervallo di valori in cui si deve trovare il risultato della misurazione di un processo, o prodotto, per essere considerato ottimale.
@@ -208,10 +208,6 @@ Rispetto ad altri ha il vantaggio di utilizzare la lunghezza delle parole in let
 \subsubsection{Metriche per il software}
 Le presenti metriche rappresentano gli obbiettivi di qualità per il prodotto software da perseguire.
 Per ogni metrica indicata è stato definito nelle \emph{Norme di Progetto \VersioneNP{}} come si calcola, e con quale strumento. In \emph{Appendice B} si può visionare il resoconto di tali metriche.
-
-\paragraph{Dimensione del prodotto software:} Rappresenta le dimensioni del prodotto software, è misurata in termini di migliaia di linee di codice (KLOC, Thousands Line Of Code),
-ma da alcuni anni è stata introdotto una nuova misura, legata al numero di funzionalità offerte, e quindi dal valore che il prodotto ha per l’utente.
-Questa seconda misurazione è espressa come numero di punti funzione (FP, Function Points).
 
 \paragraph{Complessità ciclomatica:} è una metrica per la misura della complessità di funzioni, moduli, metodi o classi di un programma; la quale è calcolata mediate il grafo di controllo di flusso relativo al \glossaryItem{Codice}.
             I nodi del grafo sono gruppi di istruzioni indivisibili. Se nel \glossaryItem{Codice} non sono presenti punti decisionali o cicli, allora la complessità ciclomatica sarà pari a 1.
