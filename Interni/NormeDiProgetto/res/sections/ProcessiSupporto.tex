@@ -89,7 +89,7 @@ La documentazione del progetto è contenuta in un \emph{repository} distinto da 
       \paragraph{Indici}
         In ogni documento è presente un indice delle sezioni, un indice delle figure e un indice delle tabelle. Nel caso non siano presenti figure o tabelle i rispettivi indici verranno omessi.        
 
-    \subsubsection{Ciclo di vita}
+    \subsubsection{Ciclo di vita}\label{subsec:ciclovita}
       Ogni documento prodotto segue un preciso iter che scandisce le fasi in cui si trova in ogni istante. Un documento può trovarsi in tre stati diversi:\\
       \begin{itemize}
         \item \textbf{In lavorazione: }Un documento entra in questa fase nel momento della sua creazione e vi rimane per tutto il periodo della sua stesura
@@ -194,7 +194,7 @@ La documentazione del progetto è contenuta in un \emph{repository} distinto da 
         \subsubsection{Classificazione dei documenti}
   \paragraph{Documenti formali}
         Un documento viene definito formale quando viene approvato dal \emph{Responsabile di Progetto} ed è quindi pronto per essere inviato ai richiedenti.\\
-        Per raggiungere questo stato il documento deve seguire l'iter descritto nel \emph{Piano di Qualifica} e nel paragrafo \ref{subsec:ciclovita} riguardante il ciclo di vita dei documenti.
+        Per raggiungere questo stato il documento deve seguire l'iter descritto nel \emph{Norme di Progetto} e nel paragrafo \ref{subsec:ciclovita} riguardante il ciclo di vita dei documenti.
       \paragraph{Documenti informali}
         Un documento è definito informale fino a quando non approvato dal \emph{Responsabile di Progetto}, fino ad allora il suo uso è da considerarsi unicamente interno.
       \paragraph{Versionamento}
@@ -219,6 +219,11 @@ La documentazione del progetto è contenuta in un \emph{repository} distinto da 
     \subsubsection{Repository}
       Sulla \glossaryItem{Repository} di \textbf{\glossaryItem{GitHub}}, raggiungibile all'indirizzo \url{https://GitHub.com/SWEetBIT}, sono caricati i vari \glossaryItem{Template} da utilizzare
       durante la stesura dei documenti e la strumentazione da utilizzare per la formattazione dei termini del \emph{Glossario}.
+
+\subsubsection{Google Drive}
+      Lo strumento di \glossaryItem{Cloud storage} di \glossaryItem{Google}, è stato utilizzato principalmente per tenere traccia di verbali interni e di documentazione interna
+      non formale, che può essere utile a tutti i membri del gruppo, durante le varie fasi di lavorazione del progetto.
+       
     
     \subsection{Configurazione}
       
@@ -230,14 +235,11 @@ La documentazione del progetto è contenuta in un \emph{repository} distinto da 
       alla stesura dei documenti \glossaryItem{\LaTeX}\.\\
       Una volta terminato il lavoro di redazione dei documenti sarà creato un \emph{branch} di verifica per permettere ai \emph{Verificatori} di
       lavorare in parallelo agli altri membri del gruppo.
-    \subsubsection{Google Drive}
-      Lo strumento di \glossaryItem{Cloud storage} di \glossaryItem{Google}, è stato utilizzato principalmente per tenere traccia di verbali interni e di documentazione interna
-      non formale, che può essere utile a tutti i membri del gruppo, durante le varie fasi di lavorazione del progetto.
       
       \subsubsection{Controllo della configurazione}
       I cambiamenti nella configurazione del software e della documentazione vanno controllati e tracciati, possono nascere dal \emph{Piano di Progetto} o dall'iniziativa di un membro.
       \paragraph{Cambiamenti pianificati}
-	Nascono dal \emph{Piano di Progetto}, il cambiamento è già controllato, e quindi basta registrallo aggiornando la versione dell'elemento che è stato cambiato.
+	Nascono dal \emph{Piano di Progetto}, il cambiamento è già controllato, e quindi basta registrarlo aggiornando la versione dell'elemento che è stato cambiato.
 	\paragraph{Cambiamenti non pianificati}
 	Nascono dall'iniziativa di un membro, va proposto agli altri membri del gruppo tramite \emph{Telegram}, nel caso la maggioranza sia d'accordo, il responsabile di progetto incarica un amministratore di implementarlo e motivarlo nella documentazione.
 
@@ -250,15 +252,15 @@ La documentazione del progetto è contenuta in un \emph{repository} distinto da 
 \paragraph{Analisi Statica}
 Per l'analisi statica del codice, descritta nel documento \emph{Piano di Qualifica v}\VersionePQ, e per aiutare l'identificazione automatica di errori, vengono usati i seguenti strumenti:
 \begin{itemize}
-\item \textbf{JSHint: }uno strumento che aiuta ad identificare gli errori e i potenziali problemi nel codice JavaScript;
-\item \textbf{JSLint: }uno strumento usato per verificare che il codice JavaSript compila secondo le regole del linguaggio;
+\item \textbf{JSHint: }uno strumento che aiuta ad identificare gli errori e i potenziali problemi nel codice \glossaryItem{JavaScript};
+\item \textbf{JSLint: }uno strumento usato per verificare che il codice \glossaryItem{JavaScript} compila secondo le regole del linguaggio;
 \item \textbf{Closure Compiler: }strumento utilizzato per  migliorare il codice, controllando la sintassi ed i riferimenti alle variabili.
 \end{itemize}
 
 \paragraph{Analisi Dinamica}
 Per l'analisi dinamica, descritta nel documento \emph{Piano di Qualifica v}\VersionePQ, per verificare tramite test se il prodotto software non abbia errori, viene utilizzato:
 \begin{itemize}
-\item \textbf{Mocha: } una libreria ricca di funzionalità per l'esecuzione di test JavScript
+\item \textbf{Mocha: } una libreria ricca di funzionalità per l'esecuzione di test \glossaryItem{JavaScript}.
 \end{itemize}
 I tipi di test implementati sono:
 \begin{itemize}
@@ -281,9 +283,9 @@ I tipi di test implementati sono:
 \end{itemize}
 
 \paragraph{Metriche}
-Durante l'attività di verifica dei processi vengono definite delle metriche, di seguito riportate, utili alla misurazione quantitativa degli obiettivi di qualità prefissati dal documento \emph{Piano di Qualifica }\VersionePQ. Per ognuna delle metriche definite dal documento \emph{Piano di Qualifica }\VersionePQ viene definito il nome ed il range o il valore di accettazione stabilito. In appendice viene specificato come calcolare tali metriche.\\
+Durante l'attività di verifica dei processi vengono definite delle metriche, di seguito riportate, utili alla misurazione quantitativa degli obiettivi di qualità prefissati dal documento \emph{Piano di Qualifica v}\VersionePQ. Per ognuna delle metriche definite dal documento \emph{Piano di Qualifica v}\VersionePQ{} viene definito il nome ed il range o il valore di accettazione stabilito. In appendice viene specificato come calcolare tali metriche.\\
 \begin{center}
-\begin{tabular}{|p{5cm}|p{3cm}|}
+\begin{tabular}{|p{7cm}|p{2cm}|}
 \hline
 \textbf{Metrica} & \textbf{Range}\\ \hline
 Schedule Variance & [\(\geq\) -141]\\ \hline
