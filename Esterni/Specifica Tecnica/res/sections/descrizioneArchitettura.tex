@@ -14,7 +14,7 @@ che descrive l’architettura del front end dell’applicazione;
 
 \end{itemize}
 
-Per descrivere in maniera formale l'architettura verranno impiegati lo standard \glossaryItem{UML} 2.0 per i diagrammi dei \glossaryItem{package} e delle classi e lo standard \glossaryItem{UML} 2.4 per i \glossaryItem{diagrammi di attività} e sequenza.
+Per descrivere in maniera formale l'architettura verranno impiegati lo standard \glossaryItem{UML} 2.0 per i diagrammi dei \glossaryItem{package} e delle classi e lo standard \glossaryItem{UML} 2.5 per i \glossaryItem{diagrammi di attività} e sequenza.
 
 I diagrammi delle \glossaryItem{classi} che permettono di mostrare l'architettura generale del sistema vengono affiancati anche dai diagrammi di sequenza e attività, che permettono di definire le interazioni tra le componenti, senza preoccuparsi della loro classificazione.
 In questo modo è possibile esprimere alcuni meccanismi tipici di un’applicazione
@@ -41,15 +41,25 @@ L'architettura proposta segue il \glossaryItem{Design Pattern} MVC. In particola
 Le tre macrocomponenti verranno descritte in dettaglio in seguito su questo documento.
 	\subsection{Interfaccia REST-like}
 	\label{3.3}
-	Per l'interfaccia della componente \glossaryItem{back-end} si è scelto di utilizzare uno stile basato REST. All'interno di un’unica sessione utente, a partire dall’operazione di login fino a quella di logout, l'interfaccia con cui si accede agli elementi delle collection può considerarsi e ettivamente REST.\\
+	Per l'interfaccia della componente \glossaryItem{back-end} si è scelto di utilizzare uno stile basato REST. All'interno di un’unica sessione utente, a partire dall’operazione di login fino a quella di logout, l'interfaccia con cui si accede agli elementi delle collection può considerarsi effettivamente REST.\\
 I motivi che hanno spinto alla scelta di RESTsono:
 \begin{itemize}
 \item Semplicità di utilizzo;
 \item Facile integrazione con i \glossaryItem{framework} esistenti; 
 \item Indipendenza dal linguaggio di programmazione utilizzato.
 \end{itemize}	
-REST utilizza il concetto di risorsa, ovvero un aggregato di dati con un nome (URIG) e una rappresentazione, su cui è possibile invocare le operazioni CRUD tramite la seguente corrispondenza:
+REST utilizza il concetto di risorsa, ovvero un aggregato di dati con un nome (URI) e una rappresentazione, su cui è possibile invocare le operazioni CRUD tramite la seguente corrispondenza:
 	\subsection{Architettura del Server}
 	\label{3.4}
+	L'implementazione scelta per il backend dell'applicazione è un server che segue lo stile architetturale \glossaryItem{REST}; ciò implica che:
+	\begin{itemize}
+	\item l'applicazione renda disponibili le sue funzioni in veste di risorse web;
+	\item ogni risorsa resa disponibile è indirizzabile univocamente utilizzando un indirizzo URL;
+	\item l'interfaccia delle risorse deve essere uniforme e deve garantire un insieme ben definito di operazioni e una gestione priva di stato delle operazioni.
+	\end{itemize}
+
+Tale architettura permette l'indipendenza completa tra \glossaryItem{back-end} e \glossaryItem{front-end}, permettendo così espansioni su altre piattaforme senza dover modificare il \glossaryItem{back-end} dell'applicazione.
+Il collegamento tra il \glossaryItem{front-end} e i modelli nel \glossaryItem{back-end} verrà implementato da uno stack di \glossaryItem{middleware}.
 	\subsection{Architettura del Client}
 	\label{3.5}
+	Il \glossaryItem{front-end} di SWEDesigner è una \glossaryItem{Single Page Application} scritta in HTML5, CSS3 e \glossaryItem{JavaScript}.
