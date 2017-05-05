@@ -6,6 +6,11 @@ alto livello, divisi per categoria di applicazione:
 	\subsection{Design Pattern Architetturali}
 	
 		\subsubsection{MVVM}
+		\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.5\linewidth]{GraficiAppendici/mvvm.png}
+		\caption{Diagramma del Design Pattern MVVM}
+	\end{figure}
 		\begin{itemize}
 		\item \textbf{Scopo}: Lo scopo del MVVM è quello di separare le seguenti componenti in modo da non mescolare il codice della logica con quella dell'interfaccia utente:
 		\begin{itemize}
@@ -23,6 +28,11 @@ alto livello, divisi per categoria di applicazione:
 		\end{itemize}
 	
 		\subsubsection{Three-Tier}
+		\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.6\linewidth]{GraficiAppendici/3-tier.png}
+		\caption{Diagramma del Design Pattern Three-Tier}
+	\end{figure}
 		\begin{itemize}
 		\item \textbf{Scopo}: tale design pattern permette una disgiunzione tra i vari gruppi di
 entità che cooperano nell’erogazione del servizio. Esisterà un livello che si occuperà
@@ -35,6 +45,11 @@ persistere i dati e recuperarli. Ogni livello comunicherà solo con i livelli ad
 	\subsection{Design Pattern Creazionali}
 	
 		\subsubsection{Factory Method}
+		\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.5\linewidth]{GraficiAppendici/factory.png}
+		\caption{Diagramma del Design Pattern Factory method}
+	\end{figure}
 		\begin{itemize}
 		\item \textbf{Scopo}: il design pattern Factory Method indirizza il problema della creazione
 di oggetti senza specificarne l’esatta classe, fornendo un’interfaccia per creare un oggetto, ma lasciando che le sottoclassi decidano quale oggetto istanziare. Definisce un’interfaccia (Creator) per ottenere una nuova istanza di un oggetto (Product). Delega ad una classe derivata (ConcreteCreator) la scelta di quale classe istanziare (ConcreteProduct).
@@ -51,6 +66,11 @@ Il Factory Method indirizza questi problemi definendo un metodo separato per la 
 	\subsection{Design Pattern Strutturali}
 
 		\subsubsection{Decorator}
+		\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.5\linewidth]{GraficiAppendici/decorator.png}
+		\caption{Diagramma del Design Pattern Decorator}
+	\end{figure}
 	\begin{itemize}
 	\item \textbf{Scopo}: aggiungere dinamicamente responsabilità a un oggetto. I Decorator forniscono
 un’alternativa flessibile alla definizione di sottoclassi come strumento per l’estensione delle funzionalità;
@@ -66,6 +86,11 @@ decorare in un altro. L’oggetto contenitore è chiamato Decorator. Il Decorato
 \end{itemize}			
 		
 		\subsubsection{Facade}
+		\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.4\linewidth]{GraficiAppendici/facade.png}
+		\caption{Diagramma del Design Pattern Facade}
+	\end{figure}
 		\begin{itemize}
 		\item \textbf{Scopo}: fornire un’interfaccia unificata per un insieme di interfacce presenti in un
 sottosistema. Definisce un’interfaccia di livello più alto che rende il sottosistema più semplice da utilizzare;
@@ -81,7 +106,13 @@ Un obiettivo comune di progettazione è la minimizzazione delle comunicazioni e 
 		\end{itemize}
 	
 	\subsection{Design Pattern Comportamentali}
+	
 		\subsubsection{Dependency Injection}
+		\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.5\linewidth]{GraficiAppendici/dependency.png}
+		\caption{Diagramma del Design Pattern Dependency Injection}
+	\end{figure}
 		\begin{itemize}
 		\item \textbf{Scopo}: Il Dependency Injection è un Design Pattern che permette la separazione del comportamento degli oggetti dalla loro dipendenze. Invece di istanziare le classi in modo diretto ogni componente riceve i riferimenti agli altri componenti necessari come parametri nel costruttore. Un utilizzo comune è quello con i plugin che vengono caricati dinamicamente. Gli elementi coinvolti sono:
 \begin{itemize}
@@ -102,6 +133,11 @@ iniettarvi le dipendenze;
 
 		\end{itemize}
 		\subsubsection{Command}	
+		\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.6\linewidth]{GraficiAppendici/command.png}
+		\caption{Diagramma del Design Pattern Command}
+	\end{figure}
 		\begin{itemize}
 		\item \textbf{Scopo}: Incapsula una richiesta in un oggetto, consentendo di parametrizzare i
 client con richieste diverse, accodare o mantenere uno storico delle richieste e gestire richieste cancellabili;
