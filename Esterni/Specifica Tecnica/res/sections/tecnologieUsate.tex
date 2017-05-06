@@ -2,10 +2,10 @@
 L'architettura è stata progettata utilizzando lo stack di \textbf{\glossaryItem{MEAN}} (\url {http://mean.io/ } ),il quale comprende 4 tecnologie, alcune delle quali espressamente richieste nel \glossaryItem{capitolato} d’appalto. Vengono di seguito elencate e descritte le principali tecnologie impiegate comprese in \textbf{\glossaryItem{MEAN}} e le motivazioni del loro utilizzo:
 \begin{itemize}
 \item \textbf{Node.js}: piattaforma per il \glossaryItem{back-end};
-\item \textbf{Express.js}: \glossaryItem{framework} per la realizzazione dell’applicazione web in \glossaryItem{Node.js} ;
+\item \textbf{Expressjs}: \glossaryItem{framework} per la realizzazione dell’applicazione web in \glossaryItem{Node.js} ;
 \item \textbf{MongoDB}: \glossaryItem{database} di tipo \glossaryItem{NoSQL} per la parte di recupero e salvataggio dei dati; 
 \item \textbf{Mongoose}: \glossaryItem{libreria} per interfacciarsi con il driver di \textbf{MongoDB};
-\item \textbf{Angular.js}: \glossaryItem{framework} \glossaryItem{JavaScript} la realizzazione del \glossaryItem{front-end} .
+\item \textbf{Angular 4.0}: \glossaryItem{framework} \glossaryItem{JavaScript} per la realizzazione del \glossaryItem{front-end} .
 \end{itemize}
 
 	\subsection{Server}
@@ -25,9 +25,9 @@ sono supportate in Node nella versione 4.4 scelta come versione di riferimento p
 lo sviluppo del progetto.
 \end{itemize}
 
-	\subsubsection{Express.js}
-\textbf{Express.js} è un \glossaryItem{framework} minimale per creare  \glossaryItem{Web App} con \glossaryItem{Node.js}. Richiede \glossaryItem{moduli} Node di terze parti per applicazioni che prevedono l'interazione con le \glossaryItem{database}.
-È stato utilizzato il \glossaryItem{framework} \glossaryItem{Express.js} per supportare lo sviluppo dell'application \glossaryItem{server} grazie alle utili e robuste caratteristiche da esso offerte, le quali sono pensate per non oscurare le funzionalità fornite da \glossaryItem{Node.js} aprendo così le porte all'utilizzo di moduli per \glossaryItem{Node.js} atti a supportare specifiche funzionalità.
+	\subsubsection{Expressjs}
+\textbf{Expressjs} è un \glossaryItem{framework} minimale per creare  \glossaryItem{Web App} con \glossaryItem{Node.js}. Richiede \glossaryItem{moduli} Node di terze parti per applicazioni che prevedono l'interazione con le \glossaryItem{database}.
+È stato utilizzato il \glossaryItem{framework} \glossaryItem{Expressjs} per supportare lo sviluppo dell'application \glossaryItem{server} grazie alle utili e robuste caratteristiche da esso offerte, le quali sono pensate per non oscurare le funzionalità fornite da \glossaryItem{Node.js} aprendo così le porte all'utilizzo di moduli per \glossaryItem{Node.js} atti a supportare specifiche funzionalità.
 
 \paragraph{Vantaggi}
 \begin{itemize}
@@ -100,12 +100,12 @@ Vengono di seguito descritte le \glossaryItem{librerie} aggiuntive utilizzate da
 	\subsubsection{Mustache}
 \textbf{Mustache} è un web \glossaryItem{template} che permette di espandere tags all'interno di un \glossaryItem{template}, racchiusi da 2 parentesi graffe,usando valori forniti da oggetti.
 
-	\subsubsection{Passport}: \label{passport} è un \glossaryItem{middleware} di autenticazione per \glossaryItem{Node.js}. Estremamente flessibile e modulare, Passport può essere facilmente inserito in qualsiasi applicazione web basata su Express.
+	\subsubsection{Passport}: \label{passport} è un \glossaryItem{middleware} di autenticazione per \glossaryItem{Node.js}. Estremamente flessibile e modulare, Passport può essere facilmente inserito in qualsiasi applicazione web basata su \glossaryItem{Expressjs}.
 
-	\subsubsection{BodyParser}: \glossaryItem{modulo} di terze parti per la corretta lettura delle informazioni contenute nel body delle richieste \glossaryItem{HTTP}; viene utilizzato come \glossaryItem{middleware} per {ExpressJS} e si occupa della corretta lettura delle informazioni contenute nel body di una richiesta
+	\subsubsection{BodyParser}: \glossaryItem{modulo} di terze parti per la corretta lettura delle informazioni contenute nel body delle richieste \glossaryItem{HTTP}; viene utilizzato come \glossaryItem{middleware} per {Expressjs} e si occupa della corretta lettura delle informazioni contenute nel body di una richiesta
 \glossaryItem{HTTP}. Nel nostro caso verrà impiegato per la lettura dei dati del body in formato \glossaryItem{JSON}.
 
-	\subsubsection{Forge}: è un \glossaryItem{modulo} in \glossaryItem{Javascript} che fornisce funzionalità di criptografia per la sicurezza e un set di strumenti per la realizzazione di \glossaryItem{Web-app}. 
+	\subsubsection{Forge}: è un \glossaryItem{modulo} in \glossaryItem{Javascript} che fornisce funzionalità di criptografia per la sicurezza e un set di strumenti per la realizzazione di \glossaryItem{Web app}. 
 
 	\subsubsection{PassportJWT}: è un \glossaryItem{modulo} che fornisce una strategia Passport(\S\ref{3.2}) per l'autenticazione con un \glossaryItem{JSON} Web Token, che è una tecnica compatta per trasmettere in modo sicuro le informazioni tra 2 oggetti \glossaryItem{JSON}.
 
@@ -113,13 +113,31 @@ Vengono di seguito descritte le \glossaryItem{librerie} aggiuntive utilizzate da
 
 \subsection{Client}
 
+	\subsubsection{Angular 4.0}
+	\textbf{Angular 4.0} è un \glossaryItem{framework} web \glossaryItem{open source} per lo sviluppo di applicazioni Web lato client; utile a semplificare la realizzazione di applicazioni web, come ad esempio le Single Page Application, cioè applicazioni le cui risorse vengono caricate dinamicamente su richiesta, senza necessità di ricaricare l’intera pagina.
+
+\paragraph{Vantaggi}
+\begin{itemize}
+\item \textbf{Velocità}: Riduce in maniera considerevole il codice necessario a realizzare applicazioni \glossaryItem{HTML}/\glossaryItem{JavaScript};
+\item \textbf{Ampia documentazione disponibile};
+\item \textbf{Data Binding bidirezionale}: approccio automatico per aggiornare la vista ogniqualvolta il model cambia e viceversa. Ciò semplifica lo sviluppo eliminando la necessità di manipolare il \glossaryItem{DOM};
+\item \textbf{Sviluppato per facilitare la fase di test};
+\item \textbf{Direttive}: caratteristica peculiare di Angular e permettono di estendere la sintassi \glossaryItem{HTML} , creando dei componenti specifici per la propria applicazione e facilmente riutilizzabili;
+\end{itemize}
+
+\paragraph{Svantaggi}
+\begin{itemize}
+\item \textbf{Maggior studio}: curva di apprendimento più ripida rispetto ad altri \glossaryItem{framework};
+\item \textbf{Codice articolato}: ciò potrebbe comportare, in caso di variazione dei requisiti, delle difficoltà delle successive modifiche.
+\end{itemize}
+
 	\subsubsection{Draw2D}
 	\textbf{Drwa2D} è una libreria \glossaryItem{JavaScript} di \glossaryItem{diagrammi} che consente di creare rapidamente applicazioni di grafici interattive e grafici che vengono eseguiti in modo nativo su tutti i browser principali.
 
 \paragraph{Vantaggi}
 \begin{itemize}
 \item \textbf{Non sono necessari altri plug-in}: Ciò elimina i plug-in di dipendenza dai fornitori;
-\item \textbf{\glossaryItem{Open-source}}:Le tecnologie coinvolte sono libere e ci sono molte implementazioni aperte, nessun fornitore può rimuovere un prodotto o una tecnologia che lascia in pratica la tua applicazione inoperabile;
+\item \textbf{\glossaryItem{Open source}}:Le tecnologie coinvolte sono libere e ci sono molte implementazioni aperte, nessun fornitore può rimuovere un prodotto o una tecnologia che lascia in pratica la tua applicazione inoperabile;
 \item \textbf{Le tecnologie sono standardizzate}: L'applicazione è distribuibile al numero massimo di utenti del browser senza bisogno di ulteriori configurazioni o installazione sul computer \glossaryItem{client}. Gli ambienti aziendali di grandi dimensioni spesso non amano consentire agli individui di installare plug-in del \glossaryItem{browser} e non amano cambiare la build standard creata su tutte le macchine.
 \end{itemize}
 
