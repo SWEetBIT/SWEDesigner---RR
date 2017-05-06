@@ -25,22 +25,6 @@ sono supportate in Node nella versione 4.4 scelta come versione di riferimento p
 lo sviluppo del progetto.
 \end{itemize}
 
-\subsubsection{Mustache}
-\textbf{Mustache} è un web \glossaryItem{template} che permette di espandere tags all'interno di un \glossaryItem{template}, racchiusi da 2 parentesi graffe,usando valori forniti da oggetti.
-
-\paragraph{Vantaggi} 
-\begin{itemize}
-
-\item Si presenta come uno strumento dalle caretteristiche semplici, (\emph{Logic-less templates}) in quanto rimuove i controlli di flusso if ed i cicli for, usa i solo tag di vario tipo per sostituirli;
-
-\item è usato principalmente per \glossaryItem{Web-App}.
-\end{itemize}
-
-\paragraph{Svantaggi} 
-\begin{itemize}
-\item La lettura dei file potrebbe risultare difficoltosa a causa del numero elevato di parentesi per ogni tag, ad esempio ignorare una variabile la sintassi richiede 3 parentesi graffe. 
-\end{itemize}
-	\subsection{Client}
 	\subsubsection{Express.js}
 \textbf{Express.js} è un \glossaryItem{framework} minimale per creare  \glossaryItem{Web App} con \glossaryItem{Node.js}. Richiede \glossaryItem{moduli} Node di terze parti per applicazioni che prevedono l'interazione con le \glossaryItem{database}.
 È stato utilizzato il \glossaryItem{framework} \glossaryItem{Express.js} per supportare lo sviluppo dell'application \glossaryItem{server} grazie alle utili e robuste caratteristiche da esso offerte, le quali sono pensate per non oscurare le funzionalità fornite da \glossaryItem{Node.js} aprendo così le porte all'utilizzo di moduli per \glossaryItem{Node.js} atti a supportare specifiche funzionalità.
@@ -61,6 +45,7 @@ Interface) \glossaryItem{REST} (REpresentational State Transfer) in modo semplic
 maggiormente nelle scelte progettuali.
 \end{itemize}
 
+	
 	\subsubsection{MongoDB}
 \textbf{\glossaryItem{MongoDB}} è un \glossaryItem{database} \glossaryItem{NoSQL} \glossaryItem{open source} scalabile e altamente performante di tipo document-oriented, in cui i dati sono archiviati sotto forma di documenti in stile \glossaryItem{JSON} con schemi dinamici, secondo una struttura semplice e potente. \\
 
@@ -109,8 +94,27 @@ inutitiva, ciò dovuto anche dalla sintassi dichiarativa della libreria stessa.
 documenti, e questo limita l’estrema flessibilità di \glossaryItem{MongoDB}.
 \end{itemize}
 
-	\subsubsection{mxGrafh}
-	\textbf{mxGraph} è una libreria \glossaryItem{JavaScript} di \glossaryItem{diagrammi} che consente di creare rapidamente applicazioni di grafici interattive e grafici che vengono eseguiti in modo nativo su tutti i browser principali.
+\subsection{Librerie}
+Vengono di seguito descritte le \glossaryItem{librerie} aggiuntive utilizzate dal \glossaryItem{back-end}. La scelta è stata effettuata cercando di valutare la diffusione, il livello di stabilità, l'assenza di errori noti.
+
+	\subsubsection{Mustache}
+\textbf{Mustache} è un web \glossaryItem{template} che permette di espandere tags all'interno di un \glossaryItem{template}, racchiusi da 2 parentesi graffe,usando valori forniti da oggetti.
+
+	\subsubsection{Passport}: \label{passport} è un \glossaryItem{middleware} di autenticazione per \glossaryItem{Node.js}. Estremamente flessibile e modulare, Passport può essere facilmente inserito in qualsiasi applicazione web basata su Express.
+
+	\subsubsection{BodyParser}: \glossaryItem{modulo} di terze parti per la corretta lettura delle informazioni contenute nel body delle richieste \glossaryItem{HTTP}; viene utilizzato come \glossaryItem{middleware} per {ExpressJS} e si occupa della corretta lettura delle informazioni contenute nel body di una richiesta
+\glossaryItem{HTTP}. Nel nostro caso verrà impiegato per la lettura dei dati del body in formato \glossaryItem{JSON}.
+
+	\subsubsection{Forge}: è un \glossaryItem{modulo} in \glossaryItem{Javascript} che fornisce funzionalità di criptografia per la sicurezza e un set di strumenti per la realizzazione di \glossaryItem{Web-app}. 
+
+	\subsubsection{PassportJWT}: è un \glossaryItem{modulo} che fornisce una strategia Passport(\S\ref{3.2}) per l'autenticazione con un \glossaryItem{JSON} Web Token, che è una tecnica compatta per trasmettere in modo sicuro le informazioni tra 2 oggetti \glossaryItem{JSON}.
+
+	\subsubsection{Bcrypt}: è una \glossaryItem{libreria} in \glossaryItem{Javascript} che utilizza la funzione di \glossaryItem{hash}ing per criptare le password.
+
+\subsection{Client}
+
+	\subsubsection{Draw2D}
+	\textbf{Drwa2D} è una libreria \glossaryItem{JavaScript} di \glossaryItem{diagrammi} che consente di creare rapidamente applicazioni di grafici interattive e grafici che vengono eseguiti in modo nativo su tutti i browser principali.
 
 \paragraph{Vantaggi}
 \begin{itemize}
