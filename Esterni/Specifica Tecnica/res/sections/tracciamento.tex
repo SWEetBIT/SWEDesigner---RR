@@ -1,5 +1,129 @@
-\section{Tracciamento}
+\def\arraystretch{1.5}
+\rowcolors{2}{D}{P}
 
+\section{Tracciamento}
+In questa sezione vengono tracciate le corrispondenze tra componenti dell'architettura e i requisiti.
+\begin{itemize}
+\item Per ogni componente principale vengono mostrati i requisiti che ne motivano l'esisteza
+\item Per ogni requisito principale vengono mostrate le componenti principali che servono per soddisfarlo
+\end{itemize}
 	\subsection{Tracciamento componenti - requisiti}
-	
+\begin{center}
+
+
+\begin{longtable}{p{14cm}!{\VRule[1pt]}p{2cm}}
+\rowcolor{I}
+\color{white} \textbf{Componente} & \color{white} \textbf{Requisito}\\ 
+\endfirsthead 
+\rowcolor{I} 
+\color{white} \textbf{Componente} & \color{white} \textbf{Requisito}\\  
+\endhead 
+
+SWEDesigner::Client::Components::AppComponent & R0F6 \\
+SWEDesigner::Client::Components::DashComponents & R1F3 R0F5 R0F6 \\
+SWEDesigner::Client::Components::DashComponents::DashComponent & R0F6 \\
+SWEDesigner::Client::Components::DashComponents::ProfileComponent & R1F3 R1F3.1 R1F3.2 R1F3.3 R1F13 R0F5 R0F5.1 R0F5.1.1 R0F5.1.2 R0F5.2 R0F5.3  \\
+SWEDesigner::Client::Components::EditorComponents & R0F6 R0F6.1 R0F6.2 R0F6.3 R0F6.4 \\
+SWEDesigner::Client::Components::EditorComponents::ActivityFrameComponent & R0F6.4 \\
+SWEDesigner::Client::Components::EditorComponents::BreadcrumbComponent & R0F6.4.1 \\
+SWEDesigner::Client::Components::EditorComponents::ClassFrameComponent & R0F6.3.1 R0F6.2.1 \\
+SWEDesigner::Client::Components::EditorComponents::EditorComponent & R0F6.3 \\
+SWEDesigner::Client::Components::EditorComponents::MenuComponent & R0F6.1.1 R0F6.1.1.1 R0F6.1.1.2 R0F6.1.1.3 R0F6.1.1.4 R0F6.2 \\
+SWEDesigner::Client::Components::EditorComponents::MethodComponent & R0F6.3.5 R0F6.2.2 \\
+SWEDesigner::Client::Components::EditorComponents::ToolboxComponent & R0F6.1 \\
+SWEDesigner::Client::Components::LoginComponent & R0F2 R0F2.1 R0F2.2 \\
+SWEDesigner::Client::Components::RegistrationComponent & R0F1 R0F1.1 R0F1.2 R0F1.3 R0F1.4 \\
+SWEDesigner::Client::Services::ProjectServices::ExportServices & R0F6.1.1.3 \\
+SWEDesigner::Client::Services::ProjectServices::GeneratorServices & R0F6.1.1.4 \\
+SWEDesigner::Client::Services::ProjectServices::ProjManagServices & R1F14 \\
+SWEDesigner::Client::Services::UserServices & R0F1 R0F2 \\
+SWEDesigner::Client::Services::UserServices::AuthenticationService & R0F1 R0F1.1 R0F1.2 R0F1.3 R0F1.4 \\
+SWEDesigner::Client::Services::UserServices::ValidationServices & R0F2 R0F2.1 R0F2.2 \\
+SWEDesigner::Server::Controller::Middleware::Encrypt & R0F6.1.1.3 R0F6.1.1.4 \\
+SWEDesigner::Server::Controller::Middleware::ErrHandler & R0F1.5  R0F1.6 R0F1.7 R0F2.3 R1F3.4 R1F3.5 \\
+SWEDesigner::Server::Controller::Middleware::Parse & R0F6.1.1.4 \\
+SWEDesigner::Server::Controller::Middleware::Profile & R0F1 R0F1.1 R0F1.2 R0F1.3 R0F2 R0F2.1 R0F2.2 \\
+SWEDesigner::Server::Controller::Services::EncryptServices & R0F6.1.1.3 R0F6.1.1.4 \\
+SWEDesigner::Server::Controller::Services::JavaGenService & R0F6.1.1.4 \\
+SWEDesigner::Server::Controller::Services::JavaGenService::DownloadService & R0F6.1.1.3 R0F6.1.1.4 \\
+SWEDesigner::Server::Controller::Services::JavaGenService::JavaGenFactory & R0F6.1.1.4 \\
+SWEDesigner::Server::Controller::Services::JavaGenService::ParseService & R0F6.1.1.4 \\
+SWEDesigner::Server::Controller::Services::UserServices & R0F1 R0F2 \\
+SWEDesigner::Server::Controller::Services::UserServices::ForgotService & R1F14 \\
+SWEDesigner::Server::Controller::Services::UserServices::ProfileService & R0F1 \\
+SWEDesigner::Server::Controller::Services::UserServices::UserService & R1f3 R1F3.1 R1F3.2 R1F3.3 R1F13 \\
+SWEDesigner::Server::Controller::Services::UserServices::UserServicesFactory & R0F1 R0F1.1 R0F1.2 R0F1.3 R0F2 R0F2.1 R0F2.2 \\
+SWEDesigner::Server::Model::DBPROJ & R0F5 R0F5.1 R0F5.2 R0F5.3 R0F6.1.1.1 R0F6.1.1.5 R2F6.1.4.1 \\
+SWEDesigner::Server::Model::DBUSR & R0F1 R0F2 \\
+SWEDesigner::Server::Model::MongooseConnection & R0F5.2 R0F5.3 R0F6.1.1.1 R1F6.1.1.5 R1F6.1.3.2 R2F6.1.4.1 R2F6.1.4.3 \\
+
+
+
+
+\rowcolor{white}
+\caption{Tracciamento componenti - requisiti}
+\end{longtable}
+\end{center}
 	\subsection{Tracciamento requisiti - componenti}
+	\begin{center}
+
+
+\begin{longtable}{p{2cm}!{\VRule[1pt]}p{14cm}}
+\rowcolor{I}
+\color{white} \textbf{Requisito} & \color{white} \textbf{Componente}\\ 
+\endfirsthead 
+\rowcolor{I} 
+\color{white} \textbf{Requisito} & \color{white} \textbf{Componente}\\  
+\endhead 
+
+R0F1 & SWEDesigner::Client::Components::RegistrationComponent \newline SWEDesigner::Client::Services::UserServices \newline SWEDesigner::Client::Services::UserServices::AuthenticationService \newline SWEDesigner::Server::Controller::Middleware::Profile \newline SWEDesigner::Server::Controller::Services::UserServices \newline SWEDesigner::Server::Controller::Services::UserServices::ProfileService \newline SWEDesigner::Server::Controller::Services::UserServices::UserServicesFactory \newline SWEDesigner::Server::Model::DBUSR \\
+R0F1.1 & SWEDesigner::Client::Components::RegistrationComponent \newline SWEDesigner::Server::Controller::Middleware::Profile \newline SWEDesigner::Client::Services::UserServices::AuthenticationService \newline SWEDesigner::Server::Controller::Services::UserServices::UserServicesFactory  \\
+R0F1.2 & SWEDesigner::Client::Components::RegistrationComponent \newline SWEDesigner::Client::Services::UserServices::AuthenticationService \newline SWEDesigner::Server::Controller::Middleware::Profile \newline SWEDesigner::Server::Controller::Services::UserServices::UserServicesFactory \\
+R0F1.3 & SWEDesigner::Client::Components::RegistrationComponent \newline SWEDesigner::Client::Services::UserServices::AuthenticationService \newline SWEDesigner::Server::Controller::Middleware::Profile \newline SWEDesigner::Server::Controller::Services::UserServices::UserServicesFactory \\
+R0F1.4 & SWEDesigner::Client::Components::RegistrationComponent \newline SWEDesigner::Client::Services::UserServices::AuthenticationService \\
+R0F1.5  & SWEDesigner::Server::Controller::Middleware::ErrHandler \\
+R0F1.6 & SWEDesigner::Server::Controller::Middleware::ErrHandler \\
+R0F1.7 & SWEDesigner::Server::Controller::Middleware::ErrHandler \\
+R0F2 & SWEDesigner::Client::Components::LoginComponent \newline SWEDesigner::Client::Services::UserServices \newline SWEDesigner::Server::Controller::Middleware::Profile \newline SWEDesigner::Client::Services::UserServices::ValidationServices \newline SWEDesigner::Server::Controller::Services::UserServices \newline SWEDesigner::Server::Controller::Services::UserServices::UserServicesFactory \newline SWEDesigner::Server::Model::DBUSR \\
+R0F2.1 & SWEDesigner::Client::Components::LoginComponent \newline SWEDesigner::Client::Services::UserServices::ValidationServices \newline SWEDesigner::Server::Controller::Middleware::Profile \newline SWEDesigner::Server::Controller::Services::UserServices::UserServicesFactory \\
+R0F2.2 & SWEDesigner::Client::Components::LoginComponent \newline SWEDesigner::Client::Services::UserServices::ValidationServices \newline SWEDesigner::Server::Controller::Middleware::Profile \newline SWEDesigner::Server::Controller::Services::UserServices::UserServicesFactory \\
+R0F2.3 & SWEDesigner::Server::Controller::Middleware::ErrHandler \\
+R0F5 & SWEDesigner::Client::Components::DashComponents \newline SWEDesigner::Client::Components::DashComponents::ProjectComponent \newline SWEDesigner::Server::Model::DBPROJ \\
+R0F5.1 & SWEDesigner::Client::Components::DashComponents::ProjectComponent \newline SWEDesigner::Server::Model::DBPROJ \\
+R0F5.1.1 & SWEDesigner::Client::Components::DashComponents::ProjectComponent \\
+R0F5.1.2 & SWEDesigner::Client::Components::DashComponents::ProjectComponent \\
+R0F5.2 & SWEDesigner::Client::Components::DashComponents::ProjectComponent \newline SWEDesigner::Server::Model::DBPROJ \newline SWEDesigner::Server::Model::MongooseConnection \\
+R0F5.3 & SWEDesigner::Client::Components::DashComponents::ProjectComponent \newline SWEDesigner::Server::Model::DBPROJ \newline SWEDesigner::Server::Model::MongooseConnection \\
+R0F6 & SWEDesigner::Client::Components::AppComponent \newline SWEDesigner::Client::Components::DashComponents \newline SWEDesigner::Client::Components::DashComponents::DashComponent \newline SWEDesigner::Client::Components::EditorComponents \\
+R0F6.1 & SWEDesigner::Client::Components::EditorComponents \newline SWEDesigner::Client::Components::EditorComponents::ToolboxComponent \\
+R0F6.1.1 & SWEDesigner::Client::Components::EditorComponents::MenuComponent \\
+R0F6.1.1.1 & SWEDesigner::Client::Components::EditorComponents::MenuComponent \newline SWEDesigner::Server::Model::DBPROJ \newline SWEDesigner::Server::Model::MongooseConnection \\
+R0F6.1.1.2 & SWEDesigner::Client::Components::EditorComponents::MenuComponent \\
+R0F6.1.1.3 & SWEDesigner::Client::Components::EditorComponents::MenuComponent \newline SWEDesigner::Client::Services::ProjectServices::ExportServices \newline SWEDesigner::Server::Controller::Middleware::Encrypt \newline SWEDesigner::Server::Controller::Services::EncryptServices \newline SWEDesigner::Server::Controller::Services::JavaGenService::DownloadService \\
+R0F6.1.1.4 & SWEDesigner::Client::Components::EditorComponents::MenuComponent \newline SWEDesigner::Client::Services::ProjectServices::GeneratorServices \newline SWEDesigner::Server::Controller::Middleware::Encrypt \newline SWEDesigner::Server::Controller::Middleware::Parse \newline SWEDesigner::Server::Controller::Services::JavaGenService \newline SWEDesigner::Server::Controller::Services::EncryptServices \newline SWEDesigner::Server::Controller::Services::JavaGenService::DownloadService \newline SWEDesigner::Server::Controller::Services::JavaGenService::JavaGenFactory \newline SWEDesigner::Server::Controller::Services::JavaGenService::ParseService \\
+R0F6.1.1.5 & SWEDesigner::Server::Model::DBPROJ \\
+R0F6.2 & SWEDesigner::Client::Components::EditorComponents \newline SWEDesigner::Client::Components::EditorComponents::MenuComponent \\
+R0F6.2.1 & SWEDesigner::Client::Components::EditorComponents::ClassFrameComponent \\
+R0F6.2.2 & SWEDesigner::Client::Components::EditorComponents::MethodComponent \\
+R0F6.3 & SWEDesigner::Client::Components::EditorComponents \newline SWEDesigner::Client::Components::EditorComponents::EditorComponent \\
+R0F6.3.1 & SWEDesigner::Client::Components::EditorComponents::ClassFrameComponent \\
+R0F6.3.5 & SWEDesigner::Client::Components::EditorComponents::MethodComponent \\
+R0F6.4 & SWEDesigner::Client::Components::EditorComponents \newline SWEDesigner::Client::Components::EditorComponents::ActivityFrameComponent \\
+R0F6.4.1 & SWEDesigner::Client::Components::EditorComponents::BreadcrumbComponent \\
+R1F13 & SWEDesigner::Client::Components::DashComponents::ProfileComponent \newline SWEDesigner::Server::Controller::Services::UserServices::UserService \\
+R1F14 & SWEDesigner::Client::Services::ProjectServices::ProjManagServices \newline SWEDesigner::Server::Controller::Services::UserServices::ForgotService \\
+R1F3 & SWEDesigner::Client::Components::DashComponents \newline SWEDesigner::Client::Components::DashComponents::ProfileComponent \newline SWEDesigner::Server::Controller::Services::UserServices::UserService \\
+R1F3.1 & SWEDesigner::Client::Components::DashComponents::ProfileComponent \newline SWEDesigner::Server::Controller::Services::UserServices::UserService \\
+R1F3.2 & SWEDesigner::Client::Components::DashComponents::ProfileComponent \newline SWEDesigner::Server::Controller::Services::UserServices::UserService \\
+R1F3.3 & SWEDesigner::Client::Components::DashComponents::ProfileComponent \newline SWEDesigner::Server::Controller::Services::UserServices::UserService \\
+R1F3.4 & SWEDesigner::Server::Controller::Middleware::ErrHandler \\
+R1F3.5 & SWEDesigner::Server::Controller::Middleware::ErrHandler \\
+R1F6.1.1.5 & SWEDesigner::Server::Model::MongooseConnection \\
+R1F6.1.3.2 & SWEDesigner::Server::Model::MongooseConnection \\
+R2F6.1.4.1 & SWEDesigner::Server::Model::DBPROJ \newline SWEDesigner::Server::Model::MongooseConnection \\
+R2F6.1.4.3 & SWEDesigner::Server::Model::MongooseConnection \\
+
+\rowcolor{white}
+\caption{Tracciamento requisiti - componenti}
+\end{longtable}
+\end{center}
