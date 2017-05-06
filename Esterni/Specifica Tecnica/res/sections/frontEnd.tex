@@ -26,9 +26,10 @@
 			\item SWEDesigner::Client::SWEDesignerApp
 			\begin{itemize}
 				\item \textbf{Descrizione: }\\
-				Qualcosa
+				Questa classe detta anche \emph{root module} si occupa di definire i
+				moduli che compongono l'applicazione e come istanziarli.
 				\item \textbf{Utilizzo: }\\
-				Qualcosa
+				È il primo modulo su cuo viene fatto il bootstrap per lanciare l'applicazione
 			\end{itemize}
 		\end{itemize}
 
@@ -42,7 +43,7 @@
 		\paragraph{Informazioni sul Package}
 		\begin{itemize}
 			\item \textbf{Descrizione: }\\
-			Qualcosa
+			Questo package contiene tutti i components dell'applicazione
 			\item \textbf{Padre: }\\ SWEDesigner::Client
 			\item \textbf{Package contenuti: }
 			\begin{itemize}
@@ -189,11 +190,11 @@
 			\end{itemize}
 		\end{itemize}
 
-		\subsubsection{SWEDesigner::Client::Components::DashComponents}
+		\subsubsection{SWEDesigner::Client::Components::DashboardComponents}
 		 \begin{figure}[h!]
 		\centering
 		\includegraphics[scale=0.4]{Disegnetti/SWEDesigner__Client__Components__DashComponents.png}
-		\caption{Diagramma dei packages SWEDesigner::Client::Components::DashboardComponents}
+		\caption{Diagramma dei packages SWEDesigner::Client::Components::DashComponents}
  		\end{figure}
 		\paragraph{Informazioni sul Package}
 		\begin{itemize}
@@ -205,7 +206,7 @@
 
 		\paragraph{Informazioni sulle Classi}
 		\begin{itemize}
-			\item SWEDesigner::Client::Components::DashComponents::DashboardComponent
+			\item SWEDesigner::Client::Components::DashComponents::DashComponent
 			\begin{itemize}
 				\item \textbf{Descrizione: }\\
 				Component che definisce la pagina dove l'utente è reindirizzato dopo aver
@@ -247,7 +248,8 @@
 		\paragraph{Informazioni sul Package}
 		\begin{itemize}
 			\item \textbf{Descrizione: }\\
-			Qualcosa
+			Il package contiene i servizi per le operazioni con la libreria grafica
+			\emph{draw2d} e con il server.
 			\item \textbf{Padre: }\\ SWEDesigner::Client
 			\item \textbf{Package contenuti: }
 			\begin{itemize}
@@ -261,7 +263,8 @@
 		\paragraph{Informazioni sul Package}
 		\begin{itemize}
 			\item \textbf{Descrizione: }\\
-			Qualcosa
+			Questo package contiene le classi che offrono servizi di registrazione, login
+			e recupero dati utente dal server.
 			\item \textbf{Padre: }\\ SWEDesigner::Client::Services
 		\end{itemize}
 
@@ -270,16 +273,20 @@
 			\item SWEDesigner::Client::Services::UserServices::AuthenticationService
 			\begin{itemize}
 				\item \textbf{Descrizione: }\\
-				Qualcosa
+				Questa classe definisce i metodi di comunicazione con il server per quanto
+				riguarda i servizi di registrazione, login e recupero dati utente;
 				\item \textbf{Utilizzo: }\\
-				Qualcosa
+				La classe è istanziata dal framework Angular e i suoi metodi sono utilizzati
+				dai components LoginComponent, RegistrationComponent e ProfileComponent.
 			\end{itemize}
-			\item SWEDesigner::Client::Services::UserServices::ValidationServices
+			\item SWEDesigner::Client::Services::UserServices::ValidationService
 			\begin{itemize}
 				\item \textbf{Descrizione: }\\
-				Qualcosa
+				ValidationService descrive dei metodi per verificare la validità degli input
+				operati dall'utente;
 				\item \textbf{Utilizzo: }\\
-				Qualcosa
+				Essa è istanziata dal framework Angular e i suoi metodi sono utilizzati
+				dal component RegistrationComponent.
 			\end{itemize}
 		\end{itemize}
 
@@ -288,31 +295,38 @@
 		\paragraph{Informazioni sul Package}
 		\begin{itemize}
 			\item \textbf{Descrizione: }\\
-			Qualcosa
+			Questo package contiene i servizi inerenti alla gestione dei progetti e
+			l'operatività dell'editor.
 			\item \textbf{Padre: }\\ SWEDesigner::Client::Services
 		\end{itemize}
 
 		\paragraph{Informazioni sulle Classi}
 		\begin{itemize}
-			\item SWEDesigner::Client::Services::ProjectServices::ProjManagServices
+			\item SWEDesigner::Client::Services::ProjectServices::ProjManagService
 			\begin{itemize}
 				\item \textbf{Descrizione: }\\
-				Qualcosa
+				Classe che definisce le operazioni inerenti alla gestione dei progetti
+				dell'utente;
 				\item \textbf{Utilizzo: }\\
-				Qualcosa
+				ProjManagService è istanziata da Angular, i suoi metodi venogo utilizzati
+				dai components ProjectComponent e MenuComponent.
 			\end{itemize}
-			\item SWEDesigner::Client::Services::ProjectServices::ExportServices
+			\item SWEDesigner::Client::Services::ProjectServices::ExportService
 			\begin{itemize}
 				\item \textbf{Descrizione: }\\
-				Qualcosa
+				ExportServices definisce le operazioni necessarie a esportare il progetto
+				dell'utente;
 				\item \textbf{Utilizzo: }\\
-				Qualcosa
+				Essa è istaziata dal framework Angular e i suoi metodi sono utilizzati
+				dal component MenuComponent.
 			\end{itemize}
-			\item SWEDesigner::Client::Services::ProjectServices::GeneratorServices
+			\item SWEDesigner::Client::Services::ProjectServices::GeneratorService
 			\begin{itemize}
 				\item \textbf{Descrizione: }\\
-				Qualcosa
+				Classe che definisce le operazioni necessarie alla compilazione del
+				progetto dell'utente;
 				\item \textbf{Utilizzo: }\\
-				Qualcosa
+				GeneratorService è istanziata dal framework Angular e utilizzata dal
+				components MenuComponet.
 			\end{itemize}
 		\end{itemize}
