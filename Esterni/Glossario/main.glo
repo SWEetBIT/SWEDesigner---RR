@@ -22,9 +22,10 @@
 \glossaryentry{Diff-match-Patch?\glsnonextpages \glossentry{Diff-match-Patch}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Dominio?\glsnonextpages \glossentry{Dominio}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Drag-and-drop?\glsnonextpages \glossentry{Drag-and-drop}|setentrycounter[]{page}\glsnumberformat}{2}
+\glossaryentry{DOM?\glsnonextpages \glossentry{DOM}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Editor?\glsnonextpages \glossentry{Editor}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Event-driven?\glsnonextpages \glossentry{Event-driven}|setentrycounter[]{page}\glsnumberformat}{2}
-\glossaryentry{Express.js?\glsnonextpages \glossentry{Express.js}|setentrycounter[]{page}\glsnumberformat}{2}
+\glossaryentry{Expressjs?\glsnonextpages \glossentry{Expressjs}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{File?\glsnonextpages \glossentry{File}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Frame?\glsnonextpages \glossentry{Frame}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Framework?\glsnonextpages \glossentry{Framework}|setentrycounter[]{page}\glsnumberformat}{2}
@@ -33,7 +34,9 @@
 \glossaryentry{GitHub?\glsnonextpages \glossentry{GitHub}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Google?\glsnonextpages \glossentry{Google}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Google Drive?\glsnonextpages \glossentry{Google Drive}|setentrycounter[]{page}\glsnumberformat}{2}
+\glossaryentry{Hash?\glsnonextpages \glossentry{Hash}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{HTTP?\glsnonextpages \glossentry{HTTP}|setentrycounter[]{page}\glsnumberformat}{2}
+\glossaryentry{HTML?\glsnonextpages \glossentry{HTML}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{IA?\glsnonextpages \glossentry{IA}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{IEC?\glsnonextpages \glossentry{IEC}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{ISO?\glsnonextpages \glossentry{ISO}|setentrycounter[]{page}\glsnumberformat}{2}
@@ -48,17 +51,17 @@
 \glossaryentry{Login?\glsnonextpages \glossentry{Login}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Markup?\glsnonextpages \glossentry{Markup}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Map-Reduce?\glsnonextpages \glossentry{Map-Reduce}|setentrycounter[]{page}\glsnumberformat}{2}
+\glossaryentry{Middleware?\glsnonextpages \glossentry{Middleware}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Mongodb?\glsnonextpages \glossentry{Mongodb}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Mongoose?\glsnonextpages \glossentry{Mongoose}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{MEAN.io?\glsnonextpages \glossentry{MEAN.io}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Merge?\glsnonextpages \glossentry{Merge}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Metodo?\glsnonextpages \glossentry{Metodo}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Microservizi?\glsnonextpages \glossentry{Microservizi}|setentrycounter[]{page}\glsnumberformat}{2}
-\glossaryentry{Middleware?\glsnonextpages \glossentry{Middleware}|setentrycounter[]{page}\glsnumberformat}{2}
-\glossaryentry{Moduli?\glsnonextpages \glossentry{Moduli}|setentrycounter[]{page}\glsnumberformat}{2}
+\glossaryentry{Modulo?\glsnonextpages \glossentry{Modulo}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Node.js?\glsnonextpages \glossentry{Node.js}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{NoSQL?\glsnonextpages \glossentry{NoSQL}|setentrycounter[]{page}\glsnumberformat}{2}
-\glossaryentry{Open-source?\glsnonextpages \glossentry{Open-source}|setentrycounter[]{page}\glsnumberformat}{2}
+\glossaryentry{Open source?\glsnonextpages \glossentry{Open source}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Package?\glsnonextpages \glossentry{Package}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{Pattern?\glsnonextpages \glossentry{Pattern}|setentrycounter[]{page}\glsnumberformat}{2}
 \glossaryentry{PDCA?\glsnonextpages \glossentry{PDCA}|setentrycounter[]{page}\glsnumberformat}{2}

@@ -718,6 +718,36 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{DOM}{}%
+{%
+\gls@defglossaryentry{DOM}%
+{%
+name={DOM},%
+sort={DOM},%
+type={main},%
+first={DOM},%
+firstplural={DOMs},%
+text={DOM},%
+plural={DOMs},%
+description={letteralmente modello a oggetti del documento, è una forma di rappresentazione dei documenti strutturati come modello orientato agli oggetti;usato per la rappresentazione di documenti strutturati in maniera da essere neutrali sia per la lingua che per la piattaforma.},%
+descriptionplural={letteralmente modello a oggetti del documento, è una forma di rappresentazione dei documenti strutturati come modello orientato agli oggetti;usato per la rappresentazione di documenti strutturati in maniera da essere neutrali sia per la lingua che per la piattaforma.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
 \ifglsentryexists{Editor}{}%
 {%
 \gls@defglossaryentry{Editor}%
@@ -778,17 +808,17 @@ parent={},%
 %
 }%
 }%
-\ifglsentryexists{Express.js}{}%
+\ifglsentryexists{Expressjs}{}%
 {%
-\gls@defglossaryentry{Express.js}%
+\gls@defglossaryentry{Expressjs}%
 {%
-name={Express.js},%
-sort={Express.js},%
+name={Expressjs},%
+sort={Expressjs},%
 type={main},%
-first={Express.js},%
-firstplural={Express.jss},%
-text={Express.js},%
-plural={Express.jss},%
+first={Expressjs},%
+firstplural={Expressjss},%
+text={Expressjs},%
+plural={Expressjss},%
 description={Express è un framework per applicazioni web \glossaryitem {Node.js} flessibile e leggero che fornisce una serie di funzioni avanzate per le applicazioni web e per dispositivi mobili.},%
 descriptionplural={Express è un framework per applicazioni web \glossaryitem {Node.js} flessibile e leggero che fornisce una serie di funzioni avanzate per le applicazioni web e per dispositivi mobili.},%
 symbol={\relax },%
@@ -1048,6 +1078,36 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{Hash}{}%
+{%
+\gls@defglossaryentry{Hash}%
+{%
+name={Hash},%
+sort={Hash},%
+type={main},%
+first={Hash},%
+firstplural={Hashs},%
+text={Hash},%
+plural={Hashs},%
+description={In informatica una funzione crittografica di hash è un algoritmo matematico che trasforma dei dati di lunghezza arbitraria (messaggio) in una stringa binaria di dimensione fissa chiamata valore di hash.},%
+descriptionplural={In informatica una funzione crittografica di hash è un algoritmo matematico che trasforma dei dati di lunghezza arbitraria (messaggio) in una stringa binaria di dimensione fissa chiamata valore di hash.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
 \ifglsentryexists{HTTP}{}%
 {%
 \gls@defglossaryentry{HTTP}%
@@ -1061,6 +1121,36 @@ text={HTTP},%
 plural={HTTPs},%
 description={Acronimo di HyperText Transfer Protocol (protocollo di trasferimento di un ipertesto) è un protocollo a livello applicativo usato come principale sistema per la trasmissione d'informazioni sul web ovvero in un'architettura tipica \glossaryItem {client-server.}},%
 descriptionplural={Acronimo di HyperText Transfer Protocol (protocollo di trasferimento di un ipertesto) è un protocollo a livello applicativo usato come principale sistema per la trasmissione d'informazioni sul web ovvero in un'architettura tipica \glossaryItem {client-server.}},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{HTML}{}%
+{%
+\gls@defglossaryentry{HTML}%
+{%
+name={HTML},%
+sort={HTML},%
+type={main},%
+first={HTML},%
+firstplural={HTMLs},%
+text={HTML},%
+plural={HTMLs},%
+description={acronimo di "HyperText Markup Language", è un linguaggio per la progettazione delle pagine web.},%
+descriptionplural={acronimo di "HyperText Markup Language", è un linguaggio per la progettazione delle pagine web.},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
@@ -1498,6 +1588,36 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{Middleware}{}%
+{%
+\gls@defglossaryentry{Middleware}%
+{%
+name={Middleware},%
+sort={Middleware},%
+type={main},%
+first={Middleware},%
+firstplural={Middlewares},%
+text={Middleware},%
+plural={Middlewares},%
+description={In informatica, il termine si riferisce ad un insieme di programmi informatici che fungono da intermediari tra diverse applicazioni e componenti software. Sono spesso utilizzati come supporto per sistemi distribuiti complessi con architetture che hanno varie funzionalità del software logicamente separate ovvero suddivise su più strati o livelli software differenti in comunicazione tra loro. L'integrazione dei processi e dei servizi, residenti su sistemi con tecnologie e architetture diverse, è un'altra funzione delle applicazioni middleware.},%
+descriptionplural={In informatica, il termine si riferisce ad un insieme di programmi informatici che fungono da intermediari tra diverse applicazioni e componenti software. Sono spesso utilizzati come supporto per sistemi distribuiti complessi con architetture che hanno varie funzionalità del software logicamente separate ovvero suddivise su più strati o livelli software differenti in comunicazione tra loro. L'integrazione dei processi e dei servizi, residenti su sistemi con tecnologie e architetture diverse, è un'altra funzione delle applicazioni middleware.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
 \ifglsentryexists{Mongodb}{}%
 {%
 \gls@defglossaryentry{Mongodb}%
@@ -1678,47 +1798,17 @@ parent={},%
 %
 }%
 }%
-\ifglsentryexists{Middleware}{}%
+\ifglsentryexists{Modulo}{}%
 {%
-\gls@defglossaryentry{Middleware}%
+\gls@defglossaryentry{Modulo}%
 {%
-name={Middleware},%
-sort={Middleware},%
+name={Modulo},%
+sort={Modulo},%
 type={main},%
-first={Middleware},%
-firstplural={Middlewares},%
-text={Middleware},%
-plural={Middlewares},%
-description={In informatica , si intende un insieme di programmi informatici che fungono da intermediari tra diverse applicazioni e componenti software.},%
-descriptionplural={In informatica , si intende un insieme di programmi informatici che fungono da intermediari tra diverse applicazioni e componenti software.},%
-symbol={\relax },%
-symbolplural={\relax },%
-user1={},%
-user2={},%
-user3={},%
-user4={},%
-user5={},%
-user6={},%
-long={},%
-longplural={},%
-short={},%
-shortplural={},%
-counter={page},%
-parent={},%
-%
-}%
-}%
-\ifglsentryexists{Moduli}{}%
-{%
-\gls@defglossaryentry{Moduli}%
-{%
-name={Moduli},%
-sort={Moduli},%
-type={main},%
-first={Moduli},%
-firstplural={Modulis},%
-text={Moduli},%
-plural={Modulis},%
+first={Modulo},%
+firstplural={Modulos},%
+text={Modulo},%
+plural={Modulos},%
 description={In molti contesti, soprattutto tecnici, un modulo è un componente di un sistema; in molti casi, questo implica anche la presenza di una ben definita interfaccia attraverso cui il modulo può essere integrato facilmente nel sistema.},%
 descriptionplural={In molti contesti, soprattutto tecnici, un modulo è un componente di un sistema; in molti casi, questo implica anche la presenza di una ben definita interfaccia attraverso cui il modulo può essere integrato facilmente nel sistema.},%
 symbol={\relax },%
@@ -1798,17 +1888,17 @@ parent={},%
 %
 }%
 }%
-\ifglsentryexists{Open-source}{}%
+\ifglsentryexists{Open source}{}%
 {%
-\gls@defglossaryentry{Open-source}%
+\gls@defglossaryentry{Open source}%
 {%
-name={Open-source},%
-sort={Open-source},%
+name={Open source},%
+sort={Open source},%
 type={main},%
-first={Open-source},%
-firstplural={Open-sources},%
-text={Open-source},%
-plural={Open-sources},%
+first={Open source},%
+firstplural={Open sources},%
+text={Open source},%
+plural={Open sources},%
 description={Indica che il \glossaryItem {Codice} sorgente di un prodotto software è reso acessibile da una licenza, essa permette a terzi il diritto di poter studiare, cambiare e ridistribuire il software modificato},%
 descriptionplural={Indica che il \glossaryItem {Codice} sorgente di un prodotto software è reso acessibile da una licenza, essa permette a terzi il diritto di poter studiare, cambiare e ridistribuire il software modificato},%
 symbol={\relax },%
