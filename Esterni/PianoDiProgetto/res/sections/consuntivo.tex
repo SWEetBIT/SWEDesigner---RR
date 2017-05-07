@@ -6,6 +6,7 @@ Questa sezione contiene il prospetto economico che riporta i consuntivi dei vari
 	\item \textbf{In pari:} Consuntivo e preventivo coincidono. \\
 \end{itemize}
 	\subsection{Analisi}
+	Essendo il periodo di \textbf{Analisi} considerato periodo di investimento, il consuntivo viene presentato a scopo informativo ma non conteggiato nel preventivo a finire.
 	\subsubsection{Consuntivo}
 	Di seguito è presentata la tabella contenente i dati del consuntivo per il periodo di \textbf{Analisi}.
 	\begin{table}[H]
@@ -45,3 +46,107 @@ Questa sezione contiene il prospetto economico che riporta i consuntivi dei vari
 	\end{table}
 	\subsubsection{Conclusioni}
 	Durante il periodo di \textbf{Analisi} si è riusciti a risparmiare delle ore per quanto riguarda i ruoli di \textit{Responsabile di Progetto} e \textit{Amministratore}, mentre si è reso necessario l'impiego di un numero maggiore di ore, rispetto a quelle previste, per il ruolo di \textit{Analista}. Per quanto riguarda i ruoli di \textit{Verificatore}, le ore stimate sono risultate sufficienti. Il risultato finale del periodo è complessivamente di un'ora lavorativa oltre il previsto, con una spesa aggiuntiva di 25€.
+	\subsection{Consolidamento dei Requisiti}
+	Essendo il periodo di \textbf{Consolidamento dei Requisiti} considerato periodo di investimento, il consuntivo viene presentato a scopo informativo ma non conteggiato nel preventivo a finire.
+		\subsubsection{Consuntivo}
+		Di seguito è presentata la tabella contenente i dati del consuntivo per il periodo di \textbf{Consolidamento dei Requisiti}.
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{|c|c|c|}
+			\hline
+			\textbf{Ruolo}		& \textbf{Ore}	& \textbf{Costo} \\
+			\hline
+			Project Manager		& 0			& 0	\\
+			Amministratore		& 0			& 0	\\
+			Analista			& +1		& +25 \\
+			Progettista			& 0			& 0	\\
+			Programmatore		& 0			& 0	\\
+			Verificatore		& 0			& 0	\\
+			\hline
+			\textbf{Totale}		& +1		& +25 \\
+			\hline
+		\end{tabular}
+		\caption{Costo per ruolo, periodo di Consolidamento dei Requisiti}
+	\end{table}
+	Nella tabella seguente sono riportate le differenze tra le ore di lavoro previste per ogni componente e quelle realmente impiegate.
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{|c|c|c|c|c|c|c|c|}
+			\hline
+			\textbf{Nominativo}		& \textbf{PM}	& \textbf{Am}	& \textbf{An}	& \textbf{Pt}	& \textbf{Pr}	& \textbf{Ve}	& \textbf{Ore totali}     \\
+			\hline
+			Salvatore Pilò			& 		& 		& +1	&		&		&		& +1 \\
+			Fabio Massignan			&		& 		&		&		&		& 		& 0	 \\
+			Sebastiano Bertolin		&		& 	 	& -1	&		&		&		& -1 \\
+			Davide Santimaria		&		& 		& 		&		&		&		& 0	 \\
+			Malick Bodian			& 		&		& +1	&		&		& 		& +1 \\
+			Gianmarco Salmistraro	&		&		& 	 	&		&		& 		& 0	 \\
+			\hline
+		\end{tabular}
+		\caption{Differenza consuntivo preventivo per componente, periodo di Consolidamento dei Requisiti}
+	\end{table}
+		\subsubsection{Conclusioni}
+		Durante il periodo di \textbf{Consolidamento dei Requisiti} si è riusciti a risparmiare un ora per quanto riguarda il ruolo di \textit{Analista}. Per quanto riguarda i ruoli di \textit{Responsabile di Progetto}, \textit{Amministratore} e \textit{Verificatore} le ore stimate sono risultate sufficienti. Il risultato finale del periodo è complessivamente di un ora lavorativa in meno rispetto al previsto, risparmiando così 25€ e bilanciando il deficit prodotto dal periodo di \textbf{Analisi}.
+	\subsection{Progettazione Architetturale}
+		\subsubsection{Consuntivo}
+		Di seguito è presentata la tabella contenente i dati del consuntivo per il periodo di \textbf{Progettazione Architetturale}.
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{|c|c|c|}
+			\hline
+			\textbf{Ruolo}		& \textbf{Ore}	& \textbf{Costo} \\
+			\hline
+			Project Manager		& 0			& 0	\\
+			Amministratore		& +1		& +20 \\
+			Analista			& -1		& -25 \\
+			Progettista			& +2		& +44 \\
+			Programmatore		& 0			& 0	\\
+			Verificatore		& +1		& +15 \\
+			\hline
+			\textbf{Totale}		& +3		& +54 \\
+			\hline
+		\end{tabular}
+		\caption{Costo per ruolo, periodo di Progettazione Architetturale}
+	\end{table}
+	Nella tabella seguente sono riportate le differenze tra le ore di lavoro previste per ogni componente e quelle realmente impiegate.
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{|c|c|c|c|c|c|c|c|}
+			\hline
+			\textbf{Nominativo}		& \textbf{PM}	& \textbf{Am}	& \textbf{An}	& \textbf{Pt}	& \textbf{Pr}	& \textbf{Ve}	& \textbf{Ore totali}     \\
+			\hline
+			Salvatore Pilò			& 		& 		& -1	& +2	&		&		& +1 \\
+			Fabio Massignan			&		& 		&		&		&		& +2	& +2 \\
+			Sebastiano Bertolin		&		& 	 	& 		& -2	&		&		& -2 \\
+			Davide Santimaria		&		& 		& +1	&		&		& -1	& 0	 \\
+			Malick Bodian			& 		& +1	& 		& +2	&		& 		& +3 \\
+			Gianmarco Salmistraro	&		&		& -1 	&		&		& 		& -1 \\
+			\hline
+		\end{tabular}
+		\caption{Differenza consuntivo preventivo per componente, periodo di Progettazione Architetturale}
+	\end{table}
+		\subsubsection{Conclusioni}
+		Durante il periodo di \textbf{Progettazione Architetturale} si è presentata la necessità di impiegare alcune ore per la correzione dei vari documenti e ciò ha comportato un ora aggiuntiva di lavoro per il ruolo di \textit{Analista}. Sono state invece risparmiate delle ore per quanto riguarda i ruoli di \textit{Amministratore}, \textit{Progettista} e \textit{Verificatore}. Per quanto riguarda il ruolo di \textit{Responsabile di Progetto}, le ore preventivate sono risultate sufficienti. Il risultato finale del periodo è complessivamente di tre ore lavorative in meno rispetto al previsto, con un risparmio di 54€.
+	\subsection{Preventivo a Finire}
+	Viene qui presentata una tabella contenente l'attuale preventivo a finire. Vengono inseriti i valori del periodo di \textbf{Analisi} e \textbf{Consolidamento dei Requisiti} a scopo riassuntivo, tuttavia essi non verranno conteggiati nel calcolo delle ore rendicontate. Qualora il valore del consuntivo non fosse ancora presente, verrà usato il valore del preventivo.
+	\def\arraystretch{1.5}
+	\rowcolors{2}{D}{P}
+	\begin{longtable}{p{5cm}!{\VRule[1pt]}p{4cm}!{\VRule[1pt]}p{4cm}}
+	\rowcolor{I}
+	\color{white} \textbf{Periodo} & \color{white} \textbf{Preventivo €} & \color{white} \textbf{Consuntivo €} \\ 
+	\endfirsthead 
+	\rowcolor{I} 
+	\color{white} \textbf{Periodo} & \color{white} \textbf{Consuntivo €} & \color{white} \textbf{Consuntivo €} \\
+	\endhead
+	\multicolumn{3}{c}{\textbf{Investimento}} \\
+	Analisi							& 2825		& 2850	\\
+	Consolidamento dei Requisiti	& 695		& 670	\\
+	\multicolumn{3}{c}{\textbf{Rendicontato}} \\
+	Progettazione Architetturale			& 3430				& 3376	\\
+	Progettazione di Dettaglio e Codifica	& 5418				& Non presente	\\
+	Verifica e Validazione					& 2594				& Non presente	\\
+	\textbf{Totale}							& \textbf{14962}	& \textbf{14908} \\
+	\textbf{Rendicontato}					& \textbf{11442}	& \textbf{11388} \\
+	\rowcolor{white}
+	\caption{Preventivo a finire}
+	\end{longtable}
