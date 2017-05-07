@@ -2,7 +2,7 @@
 	\subsection{Metodo e formalismo di specifica}
 Le scelte architetturali per lo sviluppo di SWEDesigner sono state fortemente influenzate dallo stack tecnologico utilizzato. \\
 
-Nell’esposizione dell’architettura dell'applicazione si procederà con un approccio \glossaryItem{top-down}, descrivendo l'architettura iniziando dal generale ed andando al particolare; si è partiti suddividendo il sistema in \glossaryItem{front-end} e \glossaryItem{back-end}, definendo l'interfaccia di comunicazione, scegliendo di seguire in ciascuno l'organizzazione suggeritaci dai \glossaryItem{framework}. 
+Nell’esposizione dell’architettura dell'applicazione si procederà con un approccio \glossaryItem{top-down}, descrivendo l'architettura iniziando dal generale ed andando al particolare; si è partiti suddividendo il sistema in \glossaryItem{front-end} e \glossaryItem{back-end}, definendo l'interfaccia di comunicazione, scegliendo di seguire in ciascuno l'organizzazione suggeritaci dai \glossaryItem{framework}.
 
 La descrizione dell’architettura di SWEDesigner è suddivisa in quattro sezioni:
 \begin{itemize}
@@ -37,7 +37,7 @@ L'architettura generale di SWEDesigner si divide in 3 macrocomponenti:
 \caption{Diagramma di \glossaryItem{deployment} per l'architettura}
  \end{figure}
 
-L'architettura proposta segue il \glossaryItem{Design Pattern} \emph{Three-tier}. Esso è diviso in 3 livelli: 
+L'architettura proposta segue il \glossaryItem{Design Pattern} \emph{Three-tier}. Esso è diviso in 3 livelli:
 \begin{itemize}
 \item \textbf{Presentation tier}: rappresenta l'interfaccia verso l'utente ovvero lil \glossaryItem{front-end};
 \item \textbf{Business logic}: è il livello che coordina l'applicazione ed effettua quindi le decisioni logiche e le valutazioni ovvero il \glossaryItem{back-end};
@@ -53,9 +53,9 @@ Le tre macrocomponenti verranno descritte in dettaglio in seguito su questo docu
 I motivi che hanno spinto alla scelta di RESTsono:
 \begin{itemize}
 \item Semplicità di utilizzo;
-\item Facile integrazione con i \glossaryItem{framework} esistenti; 
+\item Facile integrazione con i \glossaryItem{framework} esistenti;
 \item Indipendenza dal linguaggio di programmazione utilizzato.
-\end{itemize}	
+\end{itemize}
 REST utilizza il concetto di risorsa, ovvero un aggregato di dati con un nome (URI) e una rappresentazione, su cui è possibile invocare le operazioni CRUD tramite la seguente corrispondenza:
 	\subsection{Architettura del Server}
 	\label{3.4}
@@ -70,4 +70,10 @@ Tale architettura permette l'indipendenza completa tra \glossaryItem{back-end} e
 Il collegamento tra il \glossaryItem{front-end} e i modelli nel \glossaryItem{back-end} verrà implementato da uno stack di \glossaryItem{middleware}.
 	\subsection{Architettura del Client}
 	\label{3.5}
-	Il \glossaryItem{front-end} di SWEDesigner è una \glossaryItem{Single Page Application} scritta in HTML5, CSS3 e \glossaryItem{JavaScript}.
+	Il \glossaryItem{front-end} di SWEDesigner è una \glossaryItem{Single Page Application}
+	realizzata nel framework Angular4.0. L'architettura è MVVM (\emph{Model-View-View Model}),
+	sono descritti due package principali Components e Services, i Components costituiscono
+	la parte Viewmodel dell'architettura, contiene classi atte a rendere dinamica la pagina web;
+	il package Services, che ripecchia la parte Model, offre metodi per l'interazione con il
+	lato server e la libreria grafica. La parte View non viene descritta in quanto composta da
+	 template html statici che sono strettamente legati	omonimi components.
