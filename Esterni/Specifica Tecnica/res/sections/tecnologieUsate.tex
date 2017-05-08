@@ -3,7 +3,7 @@ L'architettura è stata progettata utilizzando lo stack di \textbf{\glossaryItem
 \begin{itemize}
 \item \textbf{Node.js}: piattaforma per il \glossaryItem{back-end};
 \item \textbf{Expressjs}: \glossaryItem{framework} per la realizzazione dell’applicazione web in \glossaryItem{Node.js} ;
-\item \textbf{MongoDB}: \glossaryItem{database} di tipo \glossaryItem{NoSQL} per la parte di recupero e salvataggio dei dati; 
+\item \textbf{MongoDB}: \glossaryItem{database} di tipo \glossaryItem{NoSQL} per la parte di recupero e salvataggio dei dati;
 \item \textbf{Mongoose}: \glossaryItem{libreria} per interfacciarsi con il driver di \textbf{MongoDB};
 \item \textbf{Angular 4.0}: \glossaryItem{framework} \glossaryItem{JavaScript} per la realizzazione del \glossaryItem{front-end} .
 \end{itemize}
@@ -12,7 +12,7 @@ L'architettura è stata progettata utilizzando lo stack di \textbf{\glossaryItem
 	\subsubsection{Node.js}
 \textbf{Node.js} è una \glossaryItem{piattaforma} software costruita sul motore \glossaryItem{JavaScript} di \glossaryItem{Chrome} che permette di realizzare facilmente applicazioni di rete scalabili e veloci. \glossaryItem{Node.js} utilizza \glossaryItem{JavaScript} come linguaggio di programmazione, e grazie al suo modello \glossaryItem{event-driven} con chiamate di input/output non bloccanti risulta essere leggero e e ciente.
 
-\paragraph{Vantaggi} 
+\paragraph{Vantaggi}
 \begin{itemize}
 \item \textbf{Approccio asincrono}: \glossaryItem{Node.js} permette di accedere alle risorse del sistema operativo in modalità \glossaryItem{event-driven} e non sfruttando il classico modello basato su processi concorrenti utilizzato dai classici web \glossaryItem{server}. Ciò garantisce una maggiore efficienza in termini di prestazioni, poiché durante le attese il runtime può gestire qualcos’altro in maniera asincrona;
 \item \textbf{Architettura modulare}: Lavorando con \glossaryItem{Node.js} è molto facile organizzare il lavoro in librerie, importare i \glossaryItem{moduli} e combinarli fra loro.Questo è reso molto comodo attraverso il \glossaryItem{node package manager} (\textbf{npm}) attraverso il quale lo sviluppatore può contribuire e accedere ai \glossaryItem{package} messi a disposizione dalla community.
@@ -20,7 +20,7 @@ L'architettura è stata progettata utilizzando lo stack di \textbf{\glossaryItem
 
 \paragraph{Svantaggi}
 \begin{itemize}
-\item \textbf{Supporto incompleto alle feature di ES6}: Molte delle feature di ES6 non
+\item \textbf{Supporto incompleto alle feature di \glossaryItem{ES6}}: Molte delle feature di ES6 non
 sono supportate in Node nella versione 4.4 scelta come versione di riferimento per
 lo sviluppo del progetto.
 \end{itemize}
@@ -45,7 +45,7 @@ Interface) \glossaryItem{REST} (REpresentational State Transfer) in modo semplic
 maggiormente nelle scelte progettuali.
 \end{itemize}
 
-	
+
 	\subsubsection{MongoDB}
 \textbf{\glossaryItem{MongoDB}} è un \glossaryItem{database} \glossaryItem{NoSQL} \glossaryItem{open source} scalabile e altamente performante di tipo document-oriented, in cui i dati sono archiviati sotto forma di documenti in stile \glossaryItem{JSON} con schemi dinamici, secondo una struttura semplice e potente. \\
 
@@ -58,7 +58,7 @@ maggiormente nelle scelte progettuali.
 \item Permette di definire query complesse utilizzando un linguaggio che non è \glossaryItem{SQL};
 \item Permette di processare parallelamente i dati (\glossaryItem{Map-Reduce});
 \item Tipi di dato più flessibili.
-\end{itemize}  
+\end{itemize}
 
 \paragraph{Svantaggi}
 \begin{itemize}
@@ -98,18 +98,18 @@ documenti, e questo limita l’estrema flessibilità di \glossaryItem{MongoDB}.
 Vengono di seguito descritte le \glossaryItem{librerie} aggiuntive utilizzate dal \glossaryItem{back-end}. La scelta è stata effettuata cercando di valutare la diffusione, il livello di stabilità, l'assenza di errori noti.
 
 	\subsubsection{Mustache}
-\textbf{Mustache} è un web \glossaryItem{template} che permette di espandere tags all'interno di un \glossaryItem{template}, racchiusi da 2 parentesi graffe,usando valori forniti da oggetti.
+\textbf{Mustache} è un \glossaryItem{template} engine che permette di espandere tags all'interno di un \glossaryItem{template}, racchiusi da 2 parentesi graffe,usando valori forniti da oggetti.
 
-	\subsubsection{Passport}: \label{passport} è un \glossaryItem{middleware} di autenticazione per \glossaryItem{Node.js}. Estremamente flessibile e modulare, Passport può essere facilmente inserito in qualsiasi applicazione web basata su \glossaryItem{Expressjs}.
+	\subsubsection{Passport:} \label{passport} È un \glossaryItem{middleware} di autenticazione per \glossaryItem{Node.js}. Estremamente flessibile e modulare, Passport può essere facilmente inserito in qualsiasi applicazione web basata su \glossaryItem{Expressjs}.
 
-	\subsubsection{BodyParser}: \glossaryItem{modulo} di terze parti per la corretta lettura delle informazioni contenute nel body delle richieste \glossaryItem{HTTP}; viene utilizzato come \glossaryItem{middleware} per {Expressjs} e si occupa della corretta lettura delle informazioni contenute nel body di una richiesta
+	\subsubsection{BodyParser:} \glossaryItem{Modulo} di terze parti per la corretta lettura delle informazioni contenute nel body delle richieste \glossaryItem{HTTP}; viene utilizzato come \glossaryItem{middleware} per {Expressjs} e si occupa della corretta lettura delle informazioni contenute nel body di una richiesta
 \glossaryItem{HTTP}. Nel nostro caso verrà impiegato per la lettura dei dati del body in formato \glossaryItem{JSON}.
 
-	\subsubsection{Forge}: è un \glossaryItem{modulo} in \glossaryItem{Javascript} che fornisce funzionalità di criptografia per la sicurezza e un set di strumenti per la realizzazione di \glossaryItem{Web app}. 
+	\subsubsection{Forge:} È un \glossaryItem{modulo} in \glossaryItem{Javascript} che fornisce funzionalità di criptografia per la sicurezza e un set di strumenti per la realizzazione di \glossaryItem{Web app}.
 
-	\subsubsection{PassportJWT}: è un \glossaryItem{modulo} che fornisce una strategia Passport(\S\ref{3.2}) per l'autenticazione con un \glossaryItem{JSON} Web Token, che è una tecnica compatta per trasmettere in modo sicuro le informazioni tra 2 oggetti \glossaryItem{JSON}.
+	\subsubsection{PassportJWT:} È un \glossaryItem{modulo} che fornisce una strategia Passport(\S\ref{3.2}) per l'autenticazione con un \glossaryItem{JSON} Web Token, che è una tecnica compatta per trasmettere in modo sicuro le informazioni tra 2 oggetti \glossaryItem{JSON}.
 
-	\subsubsection{Bcrypt}: è una \glossaryItem{libreria} in \glossaryItem{Javascript} che utilizza la funzione di \glossaryItem{hash}ing per criptare le password.
+	\subsubsection{Bcrypt:} È una \glossaryItem{libreria} in \glossaryItem{Javascript} che utilizza la funzione di \glossaryItem{hash}ing per criptare le password.
 
 \subsection{Client}
 
@@ -143,7 +143,7 @@ Vengono di seguito descritte le \glossaryItem{librerie} aggiuntive utilizzate da
 
 \paragraph{Svantaggi}
 \begin{itemize}
-\item \textbf{Aumento rapido di celle}: Poiché il numero di celle visibili sullo schermo degli utenti aumenta di centinaia, la valutazione rallenta oltre i limiti accettabili sulla maggior parte dei \glossaryItem{browser}. Nella teoria della gestione delle informazioni, visualizzare diverse centinaia di celle è generalmente sbagliato, in quanto l'utente non può interpretare i dati. 
+\item \textbf{Aumento rapido di celle}: Poiché il numero di celle visibili sullo schermo degli utenti aumenta di centinaia, la valutazione rallenta oltre i limiti accettabili sulla maggior parte dei \glossaryItem{browser}. Nella teoria della gestione delle informazioni, visualizzare diverse centinaia di celle è generalmente sbagliato, in quanto l'utente non può interpretare i dati.
 \end{itemize}
 
 \subsubsection{HTML5}
