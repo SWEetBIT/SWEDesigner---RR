@@ -48,6 +48,8 @@
 		\setentrycounter[]{page}\glsnumberformat{2}}}%
 \glsnonextpages \glossentry{Diff-match-Patch}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}%
+\glsnonextpages \glossentry{DOM}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{2}}}%
 \glsnonextpages \glossentry{Dominio}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}%
 \glsnonextpages \glossentry{Drag-and-drop}{\glossaryentrynumbers{\relax 
@@ -55,9 +57,11 @@
 \glsgroupheading{E}\relax \glsresetentrylist %
 \glsnonextpages \glossentry{Editor}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}%
+\glsnonextpages \glossentry{ES6}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{2}}}%
 \glsnonextpages \glossentry{Event-driven}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}%
-\glsnonextpages \glossentry{Express.js}{\glossaryentrynumbers{\relax 
+\glsnonextpages \glossentry{Expressjs}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}\glsgroupskip
 \glsgroupheading{F}\relax \glsresetentrylist %
 \glsnonextpages \glossentry{File}{\glossaryentrynumbers{\relax 
@@ -76,8 +80,14 @@
 \glsnonextpages \glossentry{Google}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}%
 \glsnonextpages \glossentry{Google Drive}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{2}}}%
+\glsnonextpages \glossentry{GUI}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}\glsgroupskip
 \glsgroupheading{H}\relax \glsresetentrylist %
+\glsnonextpages \glossentry{Hash}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{2}}}%
+\glsnonextpages \glossentry{HTML}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{2}}}%
 \glsnonextpages \glossentry{HTTP}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}\glsgroupskip
 \glsgroupheading{I}\relax \glsresetentrylist %
@@ -122,7 +132,7 @@
 		\setentrycounter[]{page}\glsnumberformat{2}}}%
 \glsnonextpages \glossentry{Middleware}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}%
-\glsnonextpages \glossentry{Moduli}{\glossaryentrynumbers{\relax 
+\glsnonextpages \glossentry{Modulo}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}%
 \glsnonextpages \glossentry{Mongodb}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}%
@@ -134,7 +144,7 @@
 \glsnonextpages \glossentry{NoSQL}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}\glsgroupskip
 \glsgroupheading{O}\relax \glsresetentrylist %
-\glsnonextpages \glossentry{Open-source}{\glossaryentrynumbers{\relax 
+\glsnonextpages \glossentry{Open source}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}\glsgroupskip
 \glsgroupheading{P}\relax \glsresetentrylist %
 \glsnonextpages \glossentry{Package}{\glossaryentrynumbers{\relax 
@@ -180,6 +190,8 @@
 \glsnonextpages \glossentry{Stand-alone}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}%
 \glsnonextpages \glossentry{Stateless}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{2}}}%
+\glsnonextpages \glossentry{SVG}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}\glsgroupskip
 \glsgroupheading{T}\relax \glsresetentrylist %
 \glsnonextpages \glossentry{Telegram}{\glossaryentrynumbers{\relax 
@@ -196,6 +208,8 @@
 \glsnonextpages \glossentry{UML}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}%
 \glsnonextpages \glossentry{Use Case}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{2}}}%
+\glsnonextpages \glossentry{User experience}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}%
 \glsnonextpages \glossentry{Username}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}%
