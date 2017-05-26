@@ -16,7 +16,8 @@
     "cors":"*",
     "jsonwebtoken": "*",
     "body-parser": "*",
-    "passport-jwt": "*"
+    "passport-jwt": "*",
+    "node-forge": "*"
   },
   "author": "spilo",
   "license": "ISC"
