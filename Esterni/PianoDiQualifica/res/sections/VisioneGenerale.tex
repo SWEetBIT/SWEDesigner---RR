@@ -52,172 +52,57 @@
     \item Il miglioramento della qualità del processo deve essere verificato
     attraverso l'utilizzo di apposite metriche, che verranno descritte in seguito.
   \end{itemize}
+  
+  
+\subsection{Obiettivi di qualità di prodotto}  
+Gli obiettivi di qualità del software che il gruppo SWEet BIT vuole raggiungere nel progetto, sono un sottoinsieme di quelli definiti dallo standard ISO/IEC 9126:2001.
+Per ogni metrica indicata è stato definito nelle \emph{Norme di Progetto}\VersioneNP{} come si calcola e con quale strumento.
 
-  \subsection{Organizzazione}
-    Per ognuno dei periodi descritto dal \emph{Piano di Progetto \VersionePP{}}
-    è necessario seguire una verifica mirata al tipo di processo e relativo
-    prodotto:
-    \begin{itemize}
-      \item \textbf{Analisi:} in questo periodo vengono controllati i processi e
-      la documentazione prodotta. La verifica dovrà essere eseguita secondo i
-      metodi descritti nel documento \emph{Norme di Progetto \VersioneNP{}};
-      \item \textbf{Consolidamento dei requisiti:} durante questo periodo sono
-      verificati i processi che portano all'incremento dei documenti, e i
-      documenti stessi, prodotti durante il periodo di analisi.
-      Le procedure di verifica sono descritte nel documento
-      \emph{Norme di Progetto \VersioneNP{}};
-      \item \textbf{Progettazione Architetturale:} in questo periodo vengono
-      verificati i processi, e relativi prodotti, che portano all'incremento dei
-      documenti redatti nel precedente periodo di \emph{Consolidamento dei Requisiti};
-      sempre in questa fase sono verificati i processi e prodotti riguardanti la
-      \emph{Progettazione Architetturale}. Le procedure di verifica sono descritte
-      in dettaglio nel documento \emph{Norme di Progetto \VersioneNP{}};
-      \item \textbf{Progettazione di Dettaglio e Codifica:} anche in questo
-      periodo vengono verificati i processi, e relativi prodotti, che portano
-      all'incremento dei documenti del periodo di \emph{Progettazione Architetturale}.
-      Vengono verificati processi e prodotti della sotto-fase di codifica. Le
-      procedure di verifica sono descritte nel documento
-      \emph{Norme di Progetto \VersioneNP{}}.
-      \item \textbf{Verifica e Validazione:} sono verificati i processi che
-      portano all'aggiornamento della documentazione e i documenti stessi. In
-      questo periodo vengono effettuati i test per la validazione del prodotto
-      finale.
-    \end{itemize}
-
-  \subsection{Pianificazione strategica e temporale}
-    Intendendo rispettare le scadenze specificate nel \emph{Piano di Progetto
-    \VersionePP{}}, è necessario un approccio organico e ben pianificato alle
-    attività di verifica. Deve essere pianificato ogni incremento su
-    \glossaryItem{Codice} e documentazione e di conseguenza lo dovranno essere
-    tutte le attività di verifica, in modo da avere il tempo di effettuare le
-    dovute correzioni. Ogni processo di verifica dovrà essere automatizzato il
-    più possibile per poter, dove possibile, risparmiare su risorse umane.
-    L'utilizzo di software apposito, e dei metodi per la verifica, sono descritti
-    nel documento \emph{Norme di Progetto \VersioneNP{}}.
-
-
-  \subsection{Gestione delle responsabilità}
-    Il \emph{Responsabile di Progetto} e i \emph{Verificatori} hanno la responsabilità delle attività di verifica.
-    I compiti di queste figure sono argomento trattato nel documento \emph{Piano di Progetto \VersionePP{}}.
-
-  \subsection{Risorse}
-    Si possono identificare due distinti tipi di risorse necessari a garantire la qualità dei prodotti e processi e sono:
-    \begin{itemize}
-      \item \textbf{Risorse umane:} riguardano i ruoli rivestiti dai vari componenti del gruppo SWEet BIT:
-      \begin{itemize}
-        \item Responsabile di progetto;
-        \item Amministratore;
-        \item Analista;
-        \item Progettista;
-        \item Programmatore;
-        \item Verificatore.
-      \end{itemize}
-
-		La responsabilità maggiore per l’attività di verifica e validazione ricade sul \emph{Responsabile di Progetto} e sul \emph{Verificatore}. Per una descrizione dettagliata di tutti gli altri ruoli e delle loro responsabilità fare riferimento al \emph{Piano di Progetto \VersionePP{}}.
-
-      \item \textbf{Risorse tecnologiche:} riguardano tutti i software utilizzati per l'automazione delle attività di verifica su prodotti e processi, e l'hardware necessario per eseguire i suddetti software. Nel documento \emph{Norme di Progetto \VersioneNP{}} sono descritti nel dettaglio tutti gli strumenti software utilizzati.
-    \end{itemize}
-
-\subsection{Tecniche di analisi}
-\subsubsection{Analisi statica}
-    L'analisi statica è il processo di verifica del sistema o di un suo componente, senza che esso debba necessariamente poter essere eseguito.
-    Questa tecnica permette di verificare sia la documentazione che il \glossaryItem{Codice}, individuandone errori ed anomalie. Questa tecnica di analisi può essere svolta in due modi distinti e complementari.
-
-    \paragraph{Walkthrough}
-    Si svolge effettuando una lettura critica e a largo spettro del documento.
-È una tecnica utilizzata soprattutto nelle prime attività del progetto, quando ancora
-non è presente un'esperienza tale da permettere una verifica più mirata e precisa.
-Il verificatore genererà, infatti, una lista di controllo con gli errori più frequenti
-in modo da favorire il miglioramento della verifica nei periodi successivi.
-Il walkthrough è un'attività onerosa e collaborativa che richiede l'intervento di
-più persone per essere efficace. Questa tecnica si svolge in tre fasi principali:
+\subsubsection{Funzionalità} Il prodotto deve possedere tutte le funzionalità descritte dai requisiti obbligatori ed in gran parte anche da quelle definite dai requisiti desiderabili. Gli obiettivi di funzionalità del prodotto e le relative metriche sono:
 \begin{itemize}
-\item \textbf{Fase uno:} lettura dei documenti ed individuazione degli errori;
-\item \textbf{Fase due:} discussione dei errori riscontrati e delle correzioni da applicare;
-\item \textbf{Fase tre:} correzione degli errori rilevati, e stesura di un rapporto che ne elenchi le modifiche effettuate
+\item \textbf{Copertura requisiti obbligatori: }[100];
+\item \textbf{Copertura requisiti desiderabili: }[70 - 100].
 \end{itemize}
 
-La lista di controllo risultante, contenente le tipologie di errori più frequenti è in appendice alle
-\emph{Norme di Progetto \VersioneNP{}}
-
-    \paragraph{Inspection}
-	Consiste nell'analisi mirata di alcune parti dei documenti o del codice ritenute fonti maggiori di errore. Deve essere seguita una lista di controllo per svolgere efficacemente questa attività; tale lista deve essere redatta anticipatamente ed è sostanzialmente frutto dell'esperienza maturata dai membri del team con tecniche di walkthrough.
-L'inspection è dunque più rapida del walkthrough, in quanto il documento viene
-analizzato solo in alcune sue parti e con una lista di controllo ben precisa. In questa
-attività sono coinvolte solo i verificatori che, dopo aver individuato gli errori, procedono
-alla loro correzione e alla redazione di un rapporto che tenga traccia del lavoro svolto.
-
-\subsubsection{Analisi dinamica}
-    L'analisi dinamica è il processo che verifica il prodotto software mentre esso è in esecuzione. Viene effettuata tramite test che devono essere coerentemente pianificati in modo da evitare spreco di risorse.
-    L'obiettivo dei test sul software è la realizzazione di un prodotto il più possibile esente da errori. Il principale ostacolo alla fase di test è sintetizzato nella tesi di Dijkstra, che afferma che il test può indicare la presenza di errori, ma non ne può garantire l'assenza.
-Affinché tale attività sia utile e generi risultati attendibili è necessario che i test effettuati
-siano ripetibili: dato un certo input deve essere prodotto sempre uno stesso output in
-uno specifico ambiente. Di conseguenza, i tre elementi fondamentali di un test sono:
-    \begin{itemize}
-    \item \textbf{Ambiente: }sistema hardware e software sui quali è stato pianificato l'utilizzo del
-prodotto software sviluppato. Su di essi deve essere specificato uno stato iniziale
-dal quale poter eseguire il test;
-    \item \textbf{Specifica: }definizione di quali input sono necessari per l'esecuzione del test e quali output sono attesi;
-    \item \textbf{Procedure: }definizione di come devono essere svolti i test, in che ordine devono
-essere eseguiti e come devono essere analizzati i risultati.
-    \end{itemize}
-
-
-    Organizzazione delle attività di test:
-    \begin{itemize}
-      \item \textbf{Test di unità}: l'obiettivo di questo test è verificare che ogni unità del \glossaryItem{Codice} si comporti esattamente come previsto. Un unità di \glossaryItem{Codice} è la più piccola parte di software che è utile verificare singolarmente e che viene prodotta da un singolo programmatore. Attraverso tali test si vuole verificare il corretto funzionamento dei moduli che compongono l'intero sistema, in modo da esaminare possibili errori di implementazione da parte dei programmatori.
-
-      \item \textbf{Test di integrazione}: l'obiettivo di questo test è verificare che le componenti del sistema vengano aggiunte incrementalmente al prodotto e analizzare che la combinazione di due o più unità software funzioni come previsto. Una componente è l'aggregazione di più unità software.
-Questo tipo di test serve ad individuare errori residui nella realizzazione dei singoli moduli, modifiche delle interfacce e comportamenti inaspettati di componenti software preesistenti forniti da terze parti che non si conoscono a fondo.
-Per effettuare tali test devono essere aggiunte delle componenti fittizie al posto di quelle che non sono ancora state sviluppate, in modo da non influenzare negativamente l'esito dell'analisi.
-
-      \item \textbf{Test di sistema}: l'obiettivo di questo test è verificare il comportamento del prodotto software finale. Lo scopo è quello di capire se esso rispetta i requisiti individuati nella fase di Analisi.
-
-      \item \textbf{Test di regressione}: l'obiettivo di questo test è stabilire se le modifiche apportate al software hanno compromesso componenti software precedentemente funzionanti.
-      Questi test vengono eseguiti ogni volta che viene apportata una modifica al software.
-      Tale operazione è aiutata dal tracciamento, che permette di individuare e ripetere facilmente i test di unità, integrazione ed eventualmente sistema che sono stati potenzialmente influenzati dalla modifica;
-      \item \textbf{Test di accettazione}: l'obiettivo di questo test è la realizzazione del collaudo del prodotto software eseguito in presenza del proponente. Se l'esito risulta positivo, si può procedere al rilascio ufficiale del prodotto.
-    \end{itemize}
-
-\subsection{Misure e metriche}
-Il processo di verifica, per essere informativo, deve esse quantificabile. Le misure rilevate
-dal processo di verifica devono quindi essere basate su metriche stabilite a priori. Per automatizzare il più possibile il lavoro di misurazione saranno utilizzati degli strumenti, adeguatamente configurati, definiti nelle \emph{Norme di Progetto \VersioneNP{}}, con lo scopo di avere un resoconto affidabile e quantitativo che permetta di assicurare il grado di qualità voluto.
-Le metriche, essendo di natura molto variabile, possono avere due tipologie di range:
+\subsubsection{Affidabilità} Il prodotto deve superare tutti i test per verificare che funzioni in tutte le situazioni in cui si può trovare.
+Gli obiettivi di affidabilità del prodotto e le relative metriche sono:
 \begin{itemize}
-\item \textbf{Accettazione}: l'intervallo di valori entro il quale deve trovarsi il risultato della misurazione di un processo, o prodotto, per essere ritenuto accettabile;
-\item \textbf{Ottimale}: l'intervallo di valori in cui si deve trovare il risultato della misurazione di un processo, o prodotto, per essere considerato ottimale.
-    Questo range è l'obiettivo del gruppo SWEet BIT.
+\item \textbf{Percentuale test superati: }[100].
 \end{itemize}
 
-\subsubsection{Metriche per i processi}
-Le seguenti metriche rappresentano un indicatore volto a monitorare i tempi e i costi associati al progetto. Sono metriche che danno un riscontro immediato sullo stato attuale del progetto, mantenendo il controllo sui processi durante il loro svolgimento.\linebreak
-Per ogni metrica indicata è stato definito nelle \emph{Norme di Progetto \VersioneNP{}} come si calcola, e con quale strumento. In \emph{Appendice B} si può visionare il resoconto di tali metriche.
+\subsubsection{Efficienza} Il prodotto non presenterà un alto grado di complessità. 
+Gli obiettivi di efficienza del prodotto e le relative metriche sono:
+\begin{itemize}
+\item \textbf{Profondità di annidamento: }[0 - 4].
+\end{itemize}
 
-\paragraph{Schedule Variance (SV):} è un indice che dà informazioni necessarie a determinare se ci si trova in anticipo, in ritardo o in linea alle tempistiche delle attività di progetto. Si tratta di un indicatore di efficacia nei confronti del cliente. Se il risultato di tale metrica risulta positivo significa che il progetto sta procedendo con maggior velocità rispetto a quanto pianificato, viceversa
-se negativo. Alla fine del progetto questo indice assumerà il valore 0, perchè in quel momento tutte le attività saranno state realizzate.
+\subsubsection{Manutenibilità} Il prodotto risulterà manutenibile nel tempo. 
+Gli obiettivi di manutenibilità del prodotto e le relative metriche sono:
+\begin{itemize}
+\item \textbf{Complessità ciclomatica: }[0 - 10];
+\item \textbf{Variabili inutilizzate: }[0 - 0];
+\item \textbf{Argomenti per funzione: }[0 - 4];
+\item \textbf{Linee di codice per linee di commento: }[>0.30];
+\item \textbf{Copertura del codice: }[80 - 100];
+\end{itemize}
 
-\paragraph{Budget Variance (BV):} è un indice che dà informazioni necessarie a determinare se vi sono state più o meno spese rispetto al previsto. Si tratta di un indicatore che ha un valore contabile e finanziario. Se il risultato di tale metrica risulta positivo significa che l'attuazione del progetto sta consumando il proprio budget con minor velocità rispetto a quanto pianificato, viceversa se negativo.
 
-\subsubsection{Metriche per i documenti}
-La seguente metrica rappresenta un indicatore volto a misurare la complessità con la quale vengono costruite le frasi all'interno dei documenti.
-È stato definito nelle \emph{Norme di Progetto \VersioneNP{}} come si calcola, e con quale strumento. In \emph{Appendice B} si può visionare il resoconto di tale metrica.
 
-\paragraph{Indice Gulpease:} è un indice di leggibilità di un testo per la lingua italiana.
-Rispetto ad altri ha il vantaggio di utilizzare la lunghezza delle parole in lettere anziché in sillabe, semplificandone il calcolo automatico. Permette di misurare la complessità dello stile di un documento.
+\subsection{Obiettivi di qualità di processo}  
+Gli obiettivi di qualità di processo che il gruppo SWEet BIT vuole raggiungere nel progetto, sono un sottoinsieme di quelli definiti dallo standard ISO/IEC 12207:2008.
+Sono metriche che danno un riscontro immediato sullo stato attuale del progetto, mantenendo il controllo sui processi durante il loro svolgimento.
+Per ogni metrica indicata è stato definito nelle \emph{Norme di Progetto}\VersioneNP{} come si calcola e con quale strumento.
 
-\subsubsection{Metriche per il software}
-Le presenti metriche rappresentano gli obbiettivi di qualità per il prodotto software da perseguire.
-Per ogni metrica indicata è stato definito nelle \emph{Norme di Progetto \VersioneNP{}} come si calcola, e con quale strumento. In \emph{Appendice B} si può visionare il resoconto di tali metriche.
+\subsubsection{Controllo di pianificazione dei processi}
+Un insieme di metriche che indicano se ci si trova allineati o meno tra quanto pianificato e quanto è stato effettivamente eseguito.
+\begin{itemize}
+\item \textbf{Schedule Variance (SV): }[];
+\item \textbf{Budget Variance (BV): }[].
+\end{itemize}
 
-\paragraph{Complessità ciclomatica:} è una metrica per la misura della complessità di funzioni, moduli, metodi o classi di un programma; la quale è calcolata mediate il grafo di controllo di flusso relativo al \glossaryItem{Codice}.
-            I nodi del grafo sono gruppi di istruzioni indivisibili. Se nel \glossaryItem{Codice} non sono presenti punti decisionali o cicli, allora la complessità ciclomatica sarà pari a 1.
-            Alti valori di complessità ciclomatica implicano una ridotta manutenibilità del codice. Valori bassi di complessità ciclomatica potrebbero però determinare scarsa efficienza dei metodi.
+\subsubsection{Documentazione}
+Un insieme di metriche che indicano il grado di leggibilità della documentazione relativa alle funzionalità e alle caratteristiche del sistema software prodotto.
+\begin{itemize}
+\item \textbf{Indice di Gulpease: }[60 - 100].
+\end{itemize}
 
-\paragraph{Variabili non utilizzate e/o non definite:} rappresenta il numero di variabili che vengono definite, ma non utilizzate, o viceversa. Questo viene considerato pollution, e pertanto considerato inaccettabile. La misurazione avviene mediante un’analisi dell’AST (Abstract Syntax Tree).
-
-\paragraph{Numero di argomenti per funzione:} rappresenta il numero di argomenti di una funzione. Una funzione con troppi argomenti risulta complessa e poco mantenibile; pertanto è necessario che tale numero sia contenuto.
-
-\paragraph{Linee di codice per linee di commento:} rappresenta il rapporto tra le linee di codice e linee di commento, utile per stimare la manutenibilità del codice.
-
-\paragraph{Copertura del codice:} rappresenta la percentuale di istruzioni che sono eseguite durante i test. Maggiore è la percentuale di istruzioni coperte dai test eseguiti, maggiore sarà la probabilità
-che le componenti testate abbiano una ridotta quantità di errori. Il valore di tale indice può essere abbassato da metodi molto semplici che non richiedono testing.
