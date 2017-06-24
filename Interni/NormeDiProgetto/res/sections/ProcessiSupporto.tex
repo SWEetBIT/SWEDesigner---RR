@@ -250,7 +250,34 @@ La documentazione del progetto è contenuta in un \emph{repository} distinto da 
     Vengono qui elencati, e sommariamente descritti, gli strumenti automatizzati per effettuare la verifica dei documenti redatti e del \glossaryItem{Codice} prodotto.
 
 \paragraph{Analisi Statica}
-Per l'analisi statica del codice, descritta nel documento \emph{Piano di Qualifica v}\VersionePQ, e per aiutare l'identificazione automatica di errori, vengono usati i seguenti strumenti:
+    L'analisi statica è il processo di verifica del sistema o di un suo componente, senza che esso debba necessariamente poter essere eseguito.
+    Questa tecnica permette di verificare sia la documentazione che il \glossaryItem{Codice}, individuandone errori ed anomalie. Questa tecnica di analisi può essere svolta in due modi distinti e complementari.
+    
+    \subparagraph{Walkthrough}
+    Si svolge effettuando una lettura critica e a largo spettro del documento.
+È una tecnica utilizzata soprattutto nelle prime attività del progetto, quando ancora
+non è presente un'esperienza tale da permettere una verifica più mirata e precisa.
+Il verificatore genererà, infatti, una lista di controllo con gli errori più frequenti
+in modo da favorire il miglioramento della verifica nei periodi successivi.
+Il walkthrough è un'attività onerosa e collaborativa che richiede l'intervento di
+più persone per essere efficace. Questa tecnica si svolge in tre fasi principali:
+\begin{itemize}
+\item \textbf{Fase uno:} lettura dei documenti ed individuazione degli errori;
+\item \textbf{Fase due:} discussione dei errori riscontrati e delle correzioni da applicare;
+\item \textbf{Fase tre:} correzione degli errori rilevati, e stesura di un rapporto che ne elenchi le modifiche effettuate
+\end{itemize}
+
+La lista di controllo risultante, contenente le tipologie di errori più frequenti è riportata in appendice.
+
+    \subparagraph{Inspection}
+	Consiste nell'analisi mirata di alcune parti dei documenti o del codice ritenute fonti maggiori di errore. Deve essere seguita una lista di controllo per svolgere efficacemente questa attività; tale lista deve essere redatta anticipatamente ed è sostanzialmente frutto dell'esperienza maturata dai membri del team con tecniche di walkthrough.
+L'inspection è dunque più rapida del walkthrough, in quanto il documento viene
+analizzato solo in alcune sue parti e con una lista di controllo ben precisa. In questa
+attività sono coinvolte solo i verificatori che, dopo aver individuato gli errori, procedono
+alla loro correzione e alla redazione di un rapporto che tenga traccia del lavoro svolto.
+
+
+Per aiutare l'identificazione automatica di errori, vengono usati i seguenti strumenti:
 \begin{itemize}
 \item \textbf{JSHint: }uno strumento che aiuta ad identificare gli errori e i potenziali problemi nel codice \glossaryItem{JavaScript};
 \item \textbf{JSLint: }uno strumento usato per verificare che il codice \glossaryItem{JavaScript} compila secondo le regole del linguaggio;
@@ -258,32 +285,65 @@ Per l'analisi statica del codice, descritta nel documento \emph{Piano di Qualifi
 \end{itemize}
 
 \paragraph{Analisi Dinamica}
-Per l'analisi dinamica, descritta nel documento \emph{Piano di Qualifica v}\VersionePQ, per verificare tramite test se il prodotto software non abbia errori, viene utilizzato:
-\begin{itemize}
-\item \textbf{Mocha: } una libreria ricca di funzionalità per l'esecuzione di test \glossaryItem{JavaScript}.
-\end{itemize}
-I tipi di test implementati sono:
-\begin{itemize}
-\item \textbf{Test di Unità: }Verificano che ogni singola unità funzioni correttamente; un'unità è la più piccola quantità di software che conviene verificare da sola. Vengono identificati tramite la seguente notazione:
-\begin{center}
-\emph{TU[CodiceTest]}
-\end{center}
-\item \textbf{Test di Integrazione: }Verificano che più unità funzionino assieme nel modo corretto. Vengono identificati tramite la seguente notazione:
+    L'analisi dinamica è il processo che verifica il prodotto software mentre esso è in esecuzione. Viene effettuata tramite test che devono essere coerentemente pianificati in modo da evitare spreco di risorse.
+    L'obiettivo dei test sul software è la realizzazione di un prodotto il più possibile esente da errori. Il principale ostacolo alla fase di test è sintetizzato nella tesi di Dijkstra, che afferma che il test può indicare la presenza di errori, ma non ne può garantire l'assenza.
+Affinché tale attività sia utile e generi risultati attendibili è necessario che i test effettuati
+siano ripetibili: dato un certo input deve essere prodotto sempre uno stesso output in
+uno specifico ambiente. Di conseguenza, i tre elementi fondamentali di un test sono:
+    \begin{itemize}
+    \item \textbf{Ambiente: }sistema hardware e software sui quali è stato pianificato l'utilizzo del
+prodotto software sviluppato. Su di essi deve essere specificato uno stato iniziale
+dal quale poter eseguire il test;
+    \item \textbf{Specifica: }definizione di quali input sono necessari per l'esecuzione del test e quali output sono attesi;
+    \item \textbf{Procedure: }definizione di come devono essere svolti i test, in che ordine devono
+essere eseguiti e come devono essere analizzati i risultati.
+    \end{itemize}
+
+
+    Organizzazione delle attività di test:
+    \begin{itemize}
+      \item \textbf{Test di unità}: l'obiettivo di questo test è verificare che ogni unità del \glossaryItem{Codice} si comporti esattamente come previsto. Un unità di \glossaryItem{Codice} è la più piccola parte di software che è utile verificare singolarmente e che viene prodotta da un singolo programmatore. Attraverso tali test si vuole verificare il corretto funzionamento dei moduli che compongono l'intero sistema, in modo da esaminare possibili errori di implementazione da parte dei programmatori.
+      Vengono identificati tramite la seguente notazione:
 \begin{center}
 \emph{TI[CodiceTest]}
 \end{center}
-\item \textbf{Test di Sistema: }Verificano che il prodotto software copra i requisiti. Vengono identificati tramite la seguente notazione:
+      
+
+      \item \textbf{Test di integrazione}: l'obiettivo di questo test è verificare che le componenti del sistema vengano aggiunte incrementalmente al prodotto e analizzare che la combinazione di due o più unità software funzioni come previsto. Una componente è l'aggregazione di più unità software.
+Questo tipo di test serve ad individuare errori residui nella realizzazione dei singoli moduli, modifiche delle interfacce e comportamenti inaspettati di componenti software preesistenti forniti da terze parti che non si conoscono a fondo.
+Per effettuare tali test devono essere aggiunte delle componenti fittizie al posto di quelle che non sono ancora state sviluppate, in modo da non influenzare negativamente l'esito dell'analisi.
+Vengono identificati tramite la seguente notazione:
+\begin{center}
+\emph{TI[CodiceTest]}
+\end{center}
+      \item \textbf{Test di sistema}: l'obiettivo di questo test è verificare il comportamento del prodotto software finale. Lo scopo è quello di capire se esso rispetta i requisiti individuati nella fase di Analisi.
+Vengono identificati tramite la seguente notazione:
 \begin{center}
 \emph{TS[CodiceProgressivoRequisito]}
 \end{center}
-\item \textbf{Test di Accettazione: }Verificano in presenza del Proponente la completezza del prodotto durante il collaudo. Vengono identificati tramite la seguente notazione:
+
+      \item \textbf{Test di regressione}: l'obiettivo di questo test è stabilire se le modifiche apportate al software hanno compromesso componenti software precedentemente funzionanti.
+      Questi test vengono eseguiti ogni volta che viene apportata una modifica al software.
+      Tale operazione è aiutata dal tracciamento, che permette di individuare e ripetere facilmente i test di unità, integrazione ed eventualmente sistema che sono stati potenzialmente influenzati dalla modifica.
+Non vengono attualmente implemantati.
+      \item \textbf{Test di accettazione}: l'obiettivo di questo test è la realizzazione del collaudo del prodotto software eseguito in presenza del proponente. Se l'esito risulta positivo, si può procedere al rilascio ufficiale del prodotto.
+Vengono identificati tramite la seguente notazione:
 \begin{center}
 \emph{TA[CodiceTest]}
 \end{center}
 \end{itemize}
 
+
+
+
+
+Per verificare tramite test se il prodotto software non abbia errori, viene utilizzato:
+\begin{itemize}
+\item \textbf{Mocha: } una libreria ricca di funzionalità per l'esecuzione di test \glossaryItem{JavaScript}.
+\end{itemize}
+
 \paragraph{Metriche}
-Durante l'attività di verifica dei processi vengono definite delle metriche, di seguito riportate, utili alla misurazione quantitativa degli obiettivi di qualità prefissati dal documento \emph{Piano di Qualifica v}\VersionePQ. Per ognuna delle metriche definite dal documento \emph{Piano di Qualifica v}\VersionePQ{} viene definito il nome ed il range o il valore di accettazione stabilito. In appendice viene specificato come calcolare tali metriche.\\
+Durante l'attività di verifica dei processi vengono definite delle metriche, di seguito riportate, utili alla misurazione quantitativa degli obiettivi di qualità prefissati dal documento \emph{Piano di Qualifica v}\VersionePQ. Per ognuna delle metriche viene definito il nome ed il range o il valore di accettazione stabilito. In appendice viene specificato il significato e come calcolare tali metriche.\\
 \begin{table}[H]
 		\centering
 		\begin{tabular}{|p{7cm}|p{2cm}|}
