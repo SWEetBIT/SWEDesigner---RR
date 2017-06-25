@@ -178,17 +178,71 @@ I progettisti devono osservare le seguenti norme, al fine di uniformare il codic
 \end{itemize}
 \end{itemize}
 
+\paragraph{Specifica Tecnica}
+I Progettisti devono descrivere la progettazione ad alto livello dell’architettura dell’applicazione e dei singoli componenti nella “Specifica Tecnica \VersioneST ”. Devono inoltre
+provvedere alla progettazione di opportuni test di integrazione.
+\begin{itemize}
+\item \emph{Diagrammi \glossaryItem{UML}} \\
+Devono essere realizzati i seguenti diagrammi:
+\begin{itemize}
+\item diagrammi delle classi;
+\item diagrammi dei \glossaryItem{package};
+\item diagrammi di attività;
+\item diagrammi di sequenza.
+\end{itemize}
+
+\item \emph{\glossaryItem{Design pattern}}\\
+I Progettisti devono descrivere i design pattern utilizzati per realizzare l’architettura.
+Di tali design pattern, si deve includere una breve descrizione e un diagramma
+che ne esemplifichi il funzionamento e la struttura.
+\item \emph{Tracciamento componenti}\\
+Ogni requisito deve essere tracciato al componente che lo soddisfa. L’applicazione
+web \glossaryItem{Trender} genera automaticamente le tabelle di tracciamento.
+In questo modo sarà possibile garantire che ogni requisito venga soddisfatto e,
+al tempo stesso, misurare il progresso nell’attività di progettazione.
+\item \emph{Test di integrazione}\\
+I Progettisti devono definire delle classi di verifica. Tali classi sono necessarie
+per verificare che i componenti del sistema funzionino nella maniera prevista.
+
+\end{itemize}
+
+\paragraph{Definizione di Prodotto}
+I Progettisti devono produrre la “Definizione di Prodotto”. In essa viene descritta la progettazione di dettaglio del sistema, ampliando quanto scritto nella “Specifica Tecnica \VersioneST ”.
+\begin{itemize}
+\item \emph{Diagrammi UML}\\
+Devono essere redatti i seguenti diagrammi:
+\begin{itemize}
+\item diagrammi delle classi;
+\item diagrammi di attività;
+\item diagrammi di sequenza.
+\end{itemize}
+
+\item \emph{Definizione di classe}\\
+Ogni classe progettata deve essere descritta all’interno della “Definizione di Prodotto”. Tale descrizione deve comprendere una spiegazione sullo scopo della classe e deve specificare quale funzionalità essa modella. Nella descrizione devono inoltre essere presenti l’elenco di metodi e attributi della classe.
+\item \emph{Tracciamento classi}\\
+Ogni requisito deve essere tracciato alle classi che lo soddisfano. Il software
+Trender genera in automatico le tabelle di tracciamento. In questo modo sarà possibile misurare il progresso nell’attività di progettazione e garantire che ogni classe soddisfi almeno un requisito.
+\item \emph{Test di unità}\\
+I Progettisti devono definire i test di unità necessari per verificare che i componenti del sistema funzionino nel modo previsto.
+\end{itemize}
+
+
 \subsubsection{Codifica dei file e documentazione}
    \paragraph{Codifica e convenzioni}
-   Tutti i file contenenti codice o documentazione dovranno essere in codifica \glossaryItem{UTF-8} senza \glossaryItem{BOM}.\\
-   È ammessa la possibilità di effettuare modifiche alle convenzioni stabilite in seguito ad una decisione del \emph{Responsabile di Progetto}.\\
-   L’unica lingua ammessa per i nomi di variabili, classi e funzioni è l’inglese.
-
-\paragraph{Nomenclatura del codice:}
-In fase di codifica i programmatori devono rispettare le seguenti norme di codifica:
+   Di seguito vengono elencate le convenzioni stabilite; è contemplata la modifica delle stesse, previa autorizzazione del \emph{Project Manager};
 \begin{itemize}
+\item Tutti i file contenenti codice o documentazione dovranno essere in codifica \glossaryItem{UTF-8} senza \glossaryItem{BOM};
+\item È ammessa la possibilità di effettuare modifiche alle convenzioni stabilite in seguito ad una decisione del \emph{Responsabile di Progetto};
+\item L'unica lingua ammessa per i nomi di variabili, classi e funzioni è l'inglese;
+\item I commenti devono essere fatti in italiano;
+\item I nomi delle classi devono avere l’iniziale maiuscola;
+\item I nomi di variabili e metodi devono avere la prima lettera minuscola, mentre devono essere maiuscole le iniziali delle eventuali altre parole che compongono il nome stesso;
+\item Identazione effettuata tramite tabs; 
+\item I comandi if / else / for / while / try vengono sempre seguiti le parentesi graffe e bisogna sempre andare a capo dopo la loro apertura;
+\item Nessun spazio di riempimento in costruzioni vuote (ad esempio, {}, [], fn ());
+\item I nomi delle variabili e dei metodi devono essere il più descrittivi possibili, ad eccezioni degli iteratori;
 \item I nomi di metodi e funzioni devono essere adottati quelli definiti nel documento \emph{Specifica Tecnica};
-\item I programmatori possono introdurre funzioni ausiliarie non presenti nella progettazione;
+\item I programmatori possono introdurre funzioni ausiliarie non presenti nella progettazione.
 \end{itemize}   
      
    
@@ -204,6 +258,13 @@ In fase di codifica i programmatori devono rispettare le seguenti norme di codif
        * Descrizione dettagliata del file
        */
      \end{lstlisting}
+     \begin{itemize}
+     \item Nome: è il nome del file, estensione compresa;
+     \item Autore: è l'indirizzo e-mail dell'autore;
+     \item Data di creazione: è la data di creazione del file;
+     \item Breve descrizione del file: qui viene inserita una descrizione sintetica del file;
+     \item Descrizione dettagliata del file: qui viene inserita una descrizione più approfondita di quella precedente, illustrando tutti i dettagli che compongono il file.
+     \end{itemize}
      Prima di ogni classe dovrà esserci un commento contenente:
      \begin{lstlisting}[frame=single]
        /*!
@@ -211,6 +272,7 @@ In fase di codifica i programmatori devono rispettare le seguenti norme di codif
        * \brief Breve descrizione della classe
        */
      \end{lstlisting}
+
      Prima di ogni metodo dovrà essere inserito un commento contenente:
      \begin{lstlisting}[frame=single]
        /*!
