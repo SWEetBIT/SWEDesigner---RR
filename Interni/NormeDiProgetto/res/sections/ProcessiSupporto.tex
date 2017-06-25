@@ -209,20 +209,7 @@ La documentazione del progetto è contenuta in un \emph{repository} distinto da 
           \item Z: indica il numero crescente di modifiche minori apportate al documento;
         \end{itemize}
 
-\subsection{Coordinamento}
-    Il coordinamento del gruppo avviene tramite:
-    \begin{itemize}
-      \item \glossaryItem{Repository} su \textbf{\glossaryItem{GitHub}};
-      \item \glossaryItem{Google Drive};
-      \item \glossaryItem{Telegram}
-    \end{itemize}
-    \subsubsection{Repository}
-      Sulla \glossaryItem{Repository} di \textbf{\glossaryItem{GitHub}}, raggiungibile all'indirizzo \url{https://GitHub.com/SWEetBIT}, sono caricati i vari \glossaryItem{Template} da utilizzare
-      durante la stesura dei documenti e la strumentazione da utilizzare per la formattazione dei termini del \emph{Glossario}.
 
-\subsubsection{Google Drive}
-      Lo strumento di \glossaryItem{Cloud storage} di \glossaryItem{Google}, è stato utilizzato principalmente per tenere traccia di verbali interni e di documentazione interna
-      non formale, che può essere utile a tutti i membri del gruppo, durante le varie fasi di lavorazione del progetto.
        
     
     \subsection{Configurazione}
@@ -246,14 +233,48 @@ La documentazione del progetto è contenuta in un \emph{repository} distinto da 
 
 
       
-  \subsubsection{Verifica}
-    Vengono qui elencati, e sommariamente descritti, gli strumenti automatizzati per effettuare la verifica dei documenti redatti e del \glossaryItem{Codice} prodotto.
+  \subsection{Verifica}
+    Vengono qui elencati, e sommariamente descritti, gli strumenti automatizzati e le politiche adottate per effettuare la verifica dei documenti redatti e del \glossaryItem{Codice} prodotto.
 
-\paragraph{Analisi Statica}
+\subsubsection{Verifica dei documenti}
+Nel verificare i documenti, i verificatori dovranno seguire le seguenti direttive:
+\begin{itemize}
+\item Controllare il diario delle modifiche per vedere cos'è cambiato nel documento
+dall'ultima verifica;
+\item Rileggere le parti modificate del documento, concentrandosi maggiormente nella
+ricerca degli errori più frequenti, riportati in appendice nella lista di controllo;
+\item Nel caso di un errore o un'incongruenza nel contenuto, il verificatore dovrà segnalare all'autore l'errore riscontrato, che provvederà a correggerlo;
+\item Infine, il verificatore aggiornerà il diario delle modifiche registrando la verifica e
+aggiornerà la versione del documento;
+\item Nel caso si siano riscontrati frequentemente errori dello stesso tipo, tali errori
+dovranno essere inseriti nella lista di controllo.
+
+\end{itemize}
+
+\subsubsection{Verifica dei requisiti}
+I verificatori, nel controllare i requisiti, dovranno prestare attenzione a questi elementi:
+\begin{itemize}
+\item Correttezza ortografica e lessicale del testo;
+\item Correttezza del codice identificativo prodotto da \glossaryItem{Trender};
+\item Atomicità dei requisiti foglia.
+\end{itemize}
+
+\subsubsection{Verifica dei diagrammi UML}
+I verificatori, nel controllare i diagrammi UML, dovranno prestare attenzione a
+questi elementi:
+\begin{itemize}
+\item Correttezza ortografica e lessicale del testo;
+\item Correttezza del formalismo grafico utilizzato;
+\item Correttezza logica del diagramma.
+\end{itemize}
+
+
+
+\subsubsection{Analisi Statica}
     L'analisi statica è il processo di verifica del sistema o di un suo componente, senza che esso debba necessariamente poter essere eseguito.
     Questa tecnica permette di verificare sia la documentazione che il \glossaryItem{Codice}, individuandone errori ed anomalie. Questa tecnica di analisi può essere svolta in due modi distinti e complementari.
     
-    \subparagraph{Walkthrough}
+    \paragraph{Walkthrough}
     Si svolge effettuando una lettura critica e a largo spettro del documento.
 È una tecnica utilizzata soprattutto nelle prime attività del progetto, quando ancora
 non è presente un'esperienza tale da permettere una verifica più mirata e precisa.
@@ -269,7 +290,7 @@ più persone per essere efficace. Questa tecnica si svolge in tre fasi principal
 
 La lista di controllo risultante, contenente le tipologie di errori più frequenti è riportata in appendice.
 
-    \subparagraph{Inspection}
+    \paragraph{Inspection}
 	Consiste nell'analisi mirata di alcune parti dei documenti o del codice ritenute fonti maggiori di errore. Deve essere seguita una lista di controllo per svolgere efficacemente questa attività; tale lista deve essere redatta anticipatamente ed è sostanzialmente frutto dell'esperienza maturata dai membri del team con tecniche di walkthrough.
 L'inspection è dunque più rapida del walkthrough, in quanto il documento viene
 analizzato solo in alcune sue parti e con una lista di controllo ben precisa. In questa
@@ -284,7 +305,7 @@ Per aiutare l'identificazione automatica di errori, vengono usati i seguenti str
 \item \textbf{Closure Compiler: }strumento utilizzato per  migliorare il codice, controllando la sintassi ed i riferimenti alle variabili.
 \end{itemize}
 
-\paragraph{Analisi Dinamica}
+\subsubsection{Analisi Dinamica}
     L'analisi dinamica è il processo che verifica il prodotto software mentre esso è in esecuzione. Viene effettuata tramite test che devono essere coerentemente pianificati in modo da evitare spreco di risorse.
     L'obiettivo dei test sul software è la realizzazione di un prodotto il più possibile esente da errori. Il principale ostacolo alla fase di test è sintetizzato nella tesi di Dijkstra, che afferma che il test può indicare la presenza di errori, ma non ne può garantire l'assenza.
 Affinché tale attività sia utile e generi risultati attendibili è necessario che i test effettuati
@@ -342,7 +363,7 @@ Per verificare tramite test se il prodotto software non abbia errori, viene util
 \item \textbf{Mocha: } una libreria ricca di funzionalità per l'esecuzione di test \glossaryItem{JavaScript}.
 \end{itemize}
 
-\paragraph{Metriche}
+\subsubsection{Metriche}
 Durante l'attività di verifica dei processi vengono definite delle metriche, di seguito riportate, utili alla misurazione quantitativa degli obiettivi di qualità prefissati dal documento \emph{Piano di Qualifica v}\VersionePQ. Per ognuna delle metriche viene definito il nome ed il range o il valore di accettazione stabilito. In appendice viene specificato il significato e come calcolare tali metriche.\\
 \begin{table}[H]
 		\centering
