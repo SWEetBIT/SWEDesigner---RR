@@ -24,7 +24,7 @@ Il \glossaryItem{Codice} progressivo può includere diversi livelli di gerarchia
 \label{ssec:UC0}
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.5]{../../Casi D'uso/Generale.png}
+\includegraphics[scale=0.5]{../../Casi D'uso/generale.png}
 \caption{Caso d'uso UC0}
  \end{figure}
 \begin{itemize}
@@ -32,12 +32,9 @@ Il \glossaryItem{Codice} progressivo può includere diversi livelli di gerarchia
 \item \textbf{Descrizione}: Vengono visualizzate in generale le vari funzionalità che l'\glossaryItem{Applicazione} permette ai vari utenti di svolgere;
 \item \textbf{Precondizione}: L'\glossaryItem{Applicazione} predispone l'interazione con un attore, facendolo accedere alle diverse funzionalità proposte;
 \item \textbf{Postcondizione}: Dopo l'interazione avvenuta con un attore, l'\glossaryItem{Applicazione} si troverà in un nuovo stato pronto ad interagire con un nuovo attore;
-\item \textbf{Scenario principale}: \begin{enumerate}\item Registrazione (UC1);\item Autenticazione (UC2);\item Gestione profilo(UC3);\item Logout (UC4);\item Gestione progetti (UC5);\item Visione generale Tool \glossaryItem{Designer} (UC6).
+\item \textbf{Scenario principale}: \begin{enumerate}\item Registrazione (UC1);\item Autenticazione (UC2);\item Gestione profilo(UC3);\item Logout (UC4);\item Gestione progetti (UC5);\item Visione generale Tool \glossaryItem{Designer} (UC6); \item Password dimenticata.
  \end{enumerate}
- \item \textbf{Scenario alternativo}: \begin{enumerate}
- \item Password dimenticata (UC7;
- \item Invio password per email (UC7.1).
- \end{enumerate}
+
  
 \end{itemize}
 \newpage
@@ -332,11 +329,11 @@ Il \glossaryItem{Codice} progressivo può includere diversi livelli di gerarchia
 \item \textbf{Descrizione}: L'\glossaryItem{Applicazione} visualizza l'editor dei \glossaryItem{Diagrammi};
 \item \textbf{Precondizione}: L' attore ha effettuato l'accesso;
 \item \textbf{Postcondizione}: L'\glossaryItem{Applicazione} visualizza la finestra;
-\item \textbf{Scenario principale}: \begin{enumerate}\item Visione generale strumenti (UC6.1);\item Visione generale strumenti grafici (UC6.2);\item Visione generale disegnatore \glossaryItem{Diagrammi} (UC6.3);\item Visione generale pannello laterale (UC6.4).
+\item \textbf{Scenario principale}: \begin{enumerate}\item Utilizzo strumenti per la gestione di file ed editor (UC6.1);\item Utilizzo strumenti grafici per classi e metodi (UC6.2);\item Implementazione \glossaryItem{diagrammi} di classi e metodi (UC6.3);\item Consultazione flusso del programma (UC6.4).
  \end{enumerate}
 \end{itemize}
 \newpage
-\subsection{UC6.1 - Visione generale strumenti}
+\subsection{UC6.1 - Utilizzo strumenti per la gestione di file ed editor}
 \label{ssec:UC6.1}
 \begin{figure}[h!]
 \centering
@@ -429,10 +426,10 @@ svolge le sue funzioni;
 \item \textbf{Descrizione}: L’attore può accedere alle voci annulla, ripristina, taglia, copia, incolla, \glossaryItem{Zoom} in e \glossaryItem{Zoom} out appartenenti alla voce edit del menù;
 \item \textbf{Precondizione}: L'attore ha aperto un progetto;
 \item \textbf{Postcondizione}: L’\glossaryItem{Applicazione} visualizza la lista delle funzionalità disponibili;
-\item \textbf{Scenario principale}: \begin{enumerate}\item Annulla (UC6.1.2.1);\item Ripristina (UC6.1.2.2);\item Taglia (UC6.1.2.3);\item Copia (UC6.1.2.4);\item Incolla (UC6.1.2.5);\item \glossaryItem{Zoom} in (UC6.1.2.6);\item \glossaryItem{Zoom} out (UC6.1.2.7).
+\item \textbf{Scenario principale}: \begin{enumerate}\item Annullare operazione sull'editor (UC6.1.2.1);\item Ripristinare operazione sull'editor (UC6.1.2.2);\item Eliminare elemento dal diagramma (UC6.1.2.3);\item Copiare elemento sul diagramma (UC6.1.2.4);\item Inserire elemento sul diagramma (UC6.1.2.5);\item Ingrandire visualizzazione diagrammi (UC6.1.2.6);\item Ridurre visualizzazione diagrammi (UC6.1.2.7).
  \end{enumerate}
 \end{itemize}
-\subsection{UC6.1.2.1 - Annulla}
+\subsection{UC6.1.2.1 - Annullare operazione sull'editor}
 \label{ssec:UC6.1.2.1}
 \begin{itemize}
 \item \textbf{Attori}: \glossaryItem{Utente} autenticato;
@@ -441,7 +438,7 @@ svolge le sue funzioni;
 \item \textbf{Postcondizione}: L’\glossaryItem{Applicazione} torna allo stato precedente l’ultima modifica;
 \item \textbf{Scenario principale}: L'attore annulla l'ultima modifica applicata.
 \end{itemize}
-\subsection{UC6.1.2.2 - Ripristina}
+\subsection{UC6.1.2.2 - Ripristinare operazione sull'editor}
 \label{ssec:UC6.1.2.2}
 \begin{itemize}
 \item \textbf{Attori}: \glossaryItem{Utente} autenticato;
@@ -450,7 +447,7 @@ svolge le sue funzioni;
 \item \textbf{Postcondizione}: L’\glossaryItem{Applicazione} torna allo stato precedente l’ultima modifica;
 \item \textbf{Scenario principale}: L'attore ripristina le modifiche effettuate successivamente allo stato attuale.
 \end{itemize}
-\subsection{UC6.1.2.3 - Taglia}
+\subsection{UC6.1.2.3 - Eliminare elemento dal \glossaryItem{diagramma}}
 \label{ssec:UC6.1.2.3}
 \begin{itemize}
 \item \textbf{Attori}: \glossaryItem{Utente} autenticato;
@@ -459,7 +456,7 @@ svolge le sue funzioni;
 \item \textbf{Postcondizione}: L’\glossaryItem{Applicazione} taglia l’elemento selezionato;
 \item \textbf{Scenario principale}: L'attore 'taglia' un determinato elemento del progetto.
 \end{itemize}
-\subsection{UC6.1.2.4 - Copia}
+\subsection{UC6.1.2.4 - Copiare elemento sul \glossaryItem{diagramma}}
 \label{ssec:UC6.1.2.4}
 \begin{itemize}
 \item \textbf{Attori}: \glossaryItem{Utente} autenticato;
@@ -468,7 +465,7 @@ svolge le sue funzioni;
 \item \textbf{Postcondizione}: L’\glossaryItem{Applicazione} copia l’elemento selezionato;
 \item \textbf{Scenario principale}: L'attore 'copia' un determinato elemento del progetto.
 \end{itemize}
-\subsection{UC6.1.2.5 - Incolla}
+\subsection{UC6.1.2.5 - Inserire elemento sul \glossaryItem{diagramma}}
 \label{ssec:UC6.1.2.5}
 \begin{itemize}
 \item \textbf{Attori}: \glossaryItem{Utente} autenticato;
@@ -477,7 +474,7 @@ svolge le sue funzioni;
 \item \textbf{Postcondizione}: L’\glossaryItem{Applicazione} inserisce l’elemento designato;
 \item \textbf{Scenario principale}: L'attore 'incolla' un determinato elemento del progetto.
 \end{itemize}
-\subsection{UC6.1.2.6 - \glossaryItem{Zoom} in}
+\subsection{UC6.1.2.6 - Ingrandire visualizzazione \glossaryItem{diagrammi}}
 \label{ssec:UC6.1.2.6}
 \begin{itemize}
 \item \textbf{Attori}: \glossaryItem{Utente} autenticato;
@@ -486,7 +483,7 @@ svolge le sue funzioni;
 \item \textbf{Postcondizione}: L’\glossaryItem{Applicazione} ingrandisce gli elementi nella finestra del disegnatore dei \glossaryItem{Diagrammi} (UC 6.3);
 \item \textbf{Scenario principale}: L'attore ingrandisce la visualizzazione di una determinata sezione.
 \end{itemize}
-\subsection{UC6.1.2.7 - \glossaryItem{Zoom} out}
+\subsection{UC6.1.2.7 - Ridurre visualizzazione \glossaryItem{diagrammi}}
 \label{ssec:UC6.1.2.7}
 \begin{itemize}
 \item \textbf{Attori}: \glossaryItem{Utente} autenticato;
@@ -600,7 +597,7 @@ svolge le sue funzioni;
 \item \textbf{Scenario principale}: L'attore elimina un \glossaryItem{layer} esistente.
 \end{itemize}
 \newpage
-\subsection{UC6.2 - Visione generale strumenti grafici}
+\subsection{UC6.2 - Utilizzo strumenti grafici per classi e metodi }
 \label{ssec:UC6.2}
 \begin{figure}[h!]
 \centering
@@ -748,7 +745,7 @@ svolge le sue funzioni;
 \item \textbf{Precondizione}: Viene selezionato un \glossaryItem{Metodo} di una \glossaryItem{Classe} che risiede nel \glossaryItem{Frame} del \glossaryItem{Diagramma} delle  \glossaryItem{Classi};
 \item \textbf{Postcondizione}: Viene aggiunto al \glossaryItem{Diagramma delle attività} di un \glossaryItem{Metodo} un nuovo elemento operazione e viene istanziato con il valore di default il campo operazione;
 \item \textbf{Scenario principale}: L'attore aggiunge un nuovo elemento operazione al diagramma delle attività;
-\item \textbf{Scenari alternativi}: L'elemento non è posizionato all'interno della finestra del \glossaryItem{Diagramma delle attività} di un \glossaryItem{Metodo}.
+%\item \textbf{Scenari alternativi}: L'elemento non è posizionato all'interno della finestra del \glossaryItem{Diagramma delle attività} di un \glossaryItem{Metodo}. 
 \end{itemize}
 \subsection{UC6.2.2.2 - Nuova chiamata a metodo}
 \label{ssec:UC6.2.2.2}
@@ -758,7 +755,7 @@ svolge le sue funzioni;
 \item \textbf{Precondizione}: Il \glossaryItem{Metodo} di una \glossaryItem{Classe} è stato selezionato ed è visualizzata correttamente la finestra del \glossaryItem{Diagramma delle attività} di esso;
 \item \textbf{Postcondizione}: Un elemento chiamata a \glossaryItem{Metodo} è aggiunto al \glossaryItem{Diagramma delle attività} del \glossaryItem{Metodo} di una \glossaryItem{Classe};
 \item \textbf{Scenario principale}: L'attore aggiunge un nuovo elemento chiamata a metodo al diagramma delle attività;
-\item \textbf{Scenari alternativi}: L'elemento non è posizionato all'interno della finestra del \glossaryItem{Diagramma delle attività} di un \glossaryItem{Metodo}.
+%\item \textbf{Scenari alternativi}: L'elemento non è posizionato all'interno della finestra del \glossaryItem{Diagramma delle attività} di un \glossaryItem{Metodo}.
 \end{itemize}
 \subsection{UC6.2.2.3 - Nuova variabile}
 \label{ssec:UC6.2.2.3}
@@ -816,7 +813,7 @@ svolge le sue funzioni;
 \item \textbf{Scenario principale}: L'attore aggiunge un nuovo elemento output pin al diagramma delle attività.
 \end{itemize}
 \newpage
-\subsection{UC6.3 - Visione generale  disegnatore diagrammi}
+\subsection{UC6.3 - Implementazione diagrammi di metodi e classi}
 \label{ssec:UC6.3}
 \begin{figure}[h!]
 \centering
@@ -1361,7 +1358,7 @@ svolge le sue funzioni;
 \item \textbf{Scenario principale}: L'attore modifica un elemento commento nel diagramma del metodo del codice.
 \end{itemize};
 \newpage
-\subsection{UC6.4 - Visione generale pannello laterale}
+\subsection{UC6.4 - Consultazione flusso del programma}
 \label{ssec:UC6.4}
 
 \begin{figure}[h!]
@@ -1395,8 +1392,14 @@ svolge le sue funzioni;
 \item \textbf{Postcondizione}: Vengono visualizzati in ordine di accesso tutti i \glossaryItem{Metodi} selezionati dall'\glossaryItem{Utente} nella visione principale del programma;
 \item \textbf{Scenario principale}: L'attore visiona i vari metodi selezionati durante la navigazione tra le chiamate a metodi.
 \end{itemize}
+\newpage
 \subsection{UC7 - Password dimenticata}
 \label{ssec:UC7}
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.5]{../../Casi D'uso/UC7.png}
+\caption{Caso d'uso UC7}
+ \end{figure}
 \begin{itemize}
 \item \textbf{Attori}: \glossaryItem{Utente} non autenticato;
 \item \textbf{Descrizione}: L'attore ha smarrito la password e l'\glossaryItem{Applicazione} può fornirgliene una temporanea;
@@ -1407,7 +1410,7 @@ svolge le sue funzioni;
 \subsection{UC7.1 - Invio password per email}
 \label{ssec:UC7.1}
 \begin{itemize}
-\item \textbf{Attori}: \glossaryItem{Utente} autenticato;
+\item \textbf{Attori}: \glossaryItem{Utente} non autenticato;
 \item \textbf{Descrizione}: Viene inviata una password temporanea all'attore per permettergli di accedere all'\glossaryItem{Applicazione};
 \item \textbf{Precondizione}: L'attore richiede una password temporanea;
 \item \textbf{Postcondizione}: L'\glossaryItem{Applicazione} ha inviato all'attore una mail contenente la password temporanea;
