@@ -10,16 +10,28 @@
 \setlength{\cftsubsecnumwidth}{3em}
 
 %\usepackage{glossaries}
-\usepackage[toc]{glossaries}
+\usepackage[nonumberlist]{glossaries}
+\usepackage{titletoc}
 
+
+
+\titlepage{}
 \newglossarystyle{myaltlistgroup}{%
   \setglossarystyle{altlistgroup}%
   \renewcommand*{\glsgroupheading}[1]{%
-	\pagebreak%  
-    \item\makebox[\linewidth]{\Large\textbf{\glsgetgrouptitle{##1}}}%
+   \newpage
+    \section{##1}%
     \vspace*{-\baselineskip}%
-    \item\makebox[\linewidth]{\hspace*{3cm}\hrulefill\hspace*{3cm}}%
+	
+    \item\makebox[\linewidth]{\hspace*{4cm}\hrulefill\hspace*{2cm}}%
+  	
   }%
+}
+
+\newcommand\invisiblesection[1]{%
+  \refstepcounter{subsection}%
+  \addcontentsline{toc}{subsection}{\protect\numberline{\thesection}#1}%
+  \sectionmark{#1}
 }
 
 \makeglossaries
@@ -41,6 +53,11 @@
 \makeFrontPage
 
 \include{res/versions}
+
+		\tableofcontents
+	\label{LastFrontPage}
+	\titleformat{\section}[block]{\bfseries\filcenter\fontsize{25pt}{25pt}\selectfont}{}{1em}{}	
+			
 
 %\tableofcontents
 %\listoffigures
