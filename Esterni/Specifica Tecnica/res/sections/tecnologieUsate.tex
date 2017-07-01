@@ -20,9 +20,7 @@ L'architettura è stata progettata utilizzando lo stack di \textbf{\glossaryItem
 
 \paragraph{Svantaggi}
 \begin{itemize}
-\item \textbf{Supporto incompleto alle feature di \glossaryItem{ES6}}: Molte delle feature di ES6 non
-sono supportate in Node nella versione 4.4 scelta come versione di riferimento per
-lo sviluppo del progetto.
+\item \textbf{Programmazione Asincrona}: nonostante questo aspetto è stato inserito anche nei vantaggi, la natura asincrona rende più complessa la comprensione.
 \end{itemize}
 
 	\subsubsection{Expressjs}
@@ -54,10 +52,8 @@ maggiormente nelle scelte progettuali.
 
 \item \textbf{Alte performance}: non ci sono join che possono rallentare le operazioni di lettura o scrittura. L'indicizzazione include gli indici di chiave anche sui documenti innestati e sugli array, permettendo una rapida interrogazione al \glossaryItem{database};
 \item \textbf{Affidabilità}: alto meccanismo di replicazione su server;
-\item \textbf{Schemaless}: non esiste nessuno \glossaryItem{schema} , è più flessibile e può essere facilmente traspostoin un modello ad oggetti;
 \item Permette di definire query complesse utilizzando un linguaggio che non è \glossaryItem{SQL};
 \item Permette di processare parallelamente i dati (\glossaryItem{Map-Reduce});
-\item Tipi di dato più flessibili.
 \end{itemize}
 
 \paragraph{Svantaggi}
@@ -95,11 +91,29 @@ documenti, e questo limita l’estrema flessibilità di \glossaryItem{MongoDB}.
 \end{itemize}
 
 \subsubsection{Grunt}
-Si tratta di un JavaScript Task Runner che automaatizza la compilazione e l'esecuzione dei test di unità.
-Mediante l'utilizzo di un \emph{gruntfile} è possibile pianiicare delle attività che verranno svolte in maniera automatizzata in maniera tale da ottenere un notevole risparmio
+Si tratta di un JavaScript Task Runner che automatizza la compilazione e l'esecuzione dei test di unità.
+Mediante l'utilizzo di un \emph{gruntfile} è possibile pianificare delle attività che verranno svolte in maniera automatizzata in maniera tale da ottenere un notevole risparmio
 di tempo sul lavoro.\\
-Tale strumento si è rivelato piuttosto utile per riuscire ad integrare l'utilizzo della libreria grafica Draw2D all'interno di Angular 4 in quano semplifica e automatizza il building
+Tale strumento si è rivelato piuttosto utile per riuscire ad integrare l'utilizzo della libreria grafica Draw2D all'interno di Angular 4 in quanto semplifica e automatizza il building
 del progetto.
+\paragraph{Vantaggi}
+\begin{itemize}
+\item Utilizzando Grunt è possibile eseguire facilmente la compilazione e la verifica dei file;
+\item Grunt unifica i flussi di lavoro degli sviluppatori web;
+\item Puoi facilmente lavorare con un nuovo codice base utilizzando Grunt perché contiene meno infrastrutture;
+\item Accelera il flusso di lavoro di sviluppo e migliora le prestazioni dei progetti.
+\end{itemize}
+
+\paragraph{Svantaggi}
+\begin{itemize}
+\item Ogni volta che i pacchetti npm vengono aggiornati, è necessario attendere l'aggiornamento dell'autore del Grunt.
+
+\item Ogni attività è progettata per fare un lavoro specificato. Se si desidera estendere un'operazione specificata, è necessario utilizzare alcuni trucchi per ottenere il lavoro svolto.
+
+\item Grunt include un gran numero di parametri di configurazione per singoli plugin. Di solito, i file di configurazione Grunt sono più lunghi.
+
+\end{itemize}
+
 
 \subsection{Librerie}
 Vengono di seguito descritte le \glossaryItem{librerie} aggiuntive utilizzate dal \glossaryItem{back-end}. La scelta è stata effettuata cercando di valutare la diffusione, il livello di stabilità, l'assenza di errori noti.
