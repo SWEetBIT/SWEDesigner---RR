@@ -1,0 +1,21 @@
+\section{Riunione 19/06/2017}
+  \subsection{Informazioni sulla riunione}
+    \begin{itemize}
+      \item \textbf{Data: }02/06/2017
+      \item \textbf{Luogo: }Aula Torre Archimede
+      \item \textbf{Ora: }14:00
+      \item \textbf{Durata: }3h
+      \item \textbf{Argomento: }Specifica Tecnica - Architettura server
+      \item \textbf{Partecipanti Interni: }Santimaria Davide - Massignan Fabio - Salmistraro Gianmarco - Bodian Malick - Pilò Salvatore - Bertolin Sebastiano;
+      \item \textbf{Partecipanti Esterni: }/
+    \end{itemize}
+  \subsection{Decisioni prese}
+		\begin{itemize}
+			\item Cambio dei modelli architetturali previsti in precedenza per il back-end, in particolare:
+      \begin{itemize}
+        \item Eliminazione del pattern Factory per quanto riguarda il servizio di parsing previsto nel Middleware
+        \item Drastica modifica nel'architettura del Model così da rendere più modulare ed estensibile la componente di connessione e interrogazione del database.
+      \end{itemize}
+      Tale decisione è stata presa alla luce del lavoro di codifica che ha evidenziato degli errori fatto in tempo di progettazione.
+      Alcune componenti, infatti, si sono rivelate differenti, nelle interazioni e nel funzionamento, rispetto a quanto pensato nel periodo precedente.
+		\end{itemize}
