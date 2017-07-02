@@ -3,7 +3,7 @@
     \subsubsection{Informazioni generali}
       \begin{itemize}
         \item \textbf{Descrizione:}\\
-        Questo package contiente tutte le componenti del server scritte in JavaScript
+        Questo package contiente tutte le componenti del server scritte in JavaScript.
         \item \textbf{Padre: } SWEDesigner
         \item \textbf{Package contenuti:}\\
         \begin{itemize}
@@ -154,5 +154,154 @@
             \end{itemize}
             \item emph{+drop_schema() : void}//
             Si tratta della funzione che elimina il database.
+          \end{itemize}
+        \end{itemize}
+  \subsection{SWEDesigner::Server::Controller::Middleware}
+    \subsubsection{Informazioni generali}
+      In questa versione del documento sono omesse le classi errHandler e Profile pocihé verranno definite in seguito.
+      \begin{itemize}
+        \item \textbf{Descrizione: }\\
+        In questo package sono definite tutte le componenti middleware del server scritte in JavaScript.
+        \item \textbf{Padre: }SWEDesigner::Server::Controller
+      \end{itemize}
+    \subsubsection{Classi}
+      \subsubsubsection{SWEDesigner::Server::Controller::Middleware::midLoader}
+        \begin{itemize}
+          \item \textbf{Descrizione: }\\
+          La classe contenente i metodi di caricamento dei servizi utilizzati dalle componenti middleware
+          \item \textbf{Utilizzo: }\\
+          La classe viene utilizzata all'avvio dell'applicazione per caricare tutto cià che serve per il funzionamento del middleware.
+          \item \textbf{Metodi:}\\
+          \begin{itemize}
+            \item \emph{+load() : void}\\
+            La funziona carica il servizio di parsing
+          \end{itemize}
+        \end{itemize}
+      \subsubsubsection{SWEDesigner::Server::Controller::Middleware::Parse}
+        \begin{itemize}
+          \item \textbf{Descrizione: }\\
+          La classe si occupa di gestire il caricamento del template e di richiamare il servizio di parsing
+          \item \textbf{Utilizzo: }\\
+          La classe viene utilizzata sia per il caricamento del template all'avvio dell'applicazione, sia per richiamare il servizio di parsing quando il client lo richiede.
+          \item \textbf{Metodi: }\\
+          \begin{itemize}
+            \item emph{+load() : void}\\
+            La funzione si occupa di ripulire la cache, compilare il template e caricarlo in cache.
+            \item emph{+parse(template: Object, myMu: Object, cb: function) : void}\\
+            La funzione si occupa di richiamare la funzione di parsing del relativo servizio
+            \item \textbf{Parametri: }\\
+            \begin{itemize}
+              \item emph{template: Object}\\
+              Il template precompilato da Moustache.
+              \item emph{myMu: Object}\\
+              L'oggetto JSON di cui è necessario il parsing.
+              \item emph{cb: function}\\
+              Callback che gestisce la chiamata asincrona al modulo di Moustahce.
+            \end{itemize}
+            \item emph{+getTemplate() : string}\\
+            La funzione ritorna il percorso in cui è contenuto il template, compilato o meno.
+          \end{itemize}
+        \end{itemize}
+      \subsubsubsection{SWEDesigner::Server::Controller:Middleware::Encrypt}
+        \begin{itemize}
+          \item \textbf{Descrizione: }\\
+          La classe si occupa di gestire le funzionalità del servizio di encrypt.
+          \item \textbf{Utilizzo: }\\
+          La classe viene utilizzata per chiamare le funzioni di encrypt del relativo servizio.
+          \item \textbf{Metodi:}\\
+          \begin{itemize}
+            \item emph{+encrypt(myFile: Object, key: string, iv: string) : Object}\\
+            La funzione si occupa di richiamare la funzione di encrypt del relativo servizio e ritorna il file crittato correttamente.
+            \item \textbf{Parametri: }\\
+            \begin{itemize}
+              \item emph{myFile: Object}\\
+              Oggetto JSON da crittare
+              \item emph{key: string}\\
+              Chiave crittografica
+              \item emph{iv: string}\\
+              IV necessario per la crittografia in AES
+            \end{itemize}
+            \item emph{+decrypt(myFile: Object, key: string, iv: string) : Object}\\
+            La funzione si occupa di richiamare la funzione di decrypt del relativo servizio e ritorna il JSON decriptato.
+            \item \textbf{Parametri: }\\
+            \begin{itemize}
+              \item emph{myFile: Object}\\
+              Oggetto JSON da crittare
+              \item emph{key: string}\\
+              Chiave crittografica
+              \item emph{iv: string}\\
+              IV necessario per la crittografia in AES
+            \end{itemize}
+            \item emph{+getKey() : void}\\
+            La funzione si occupa di richiamare la funzione di generazione della chiave crittografica del relativo servizio.
+            \item emph{+getI() : void}\\
+            La funzione si occupa di richiamare la funzione di generazione del valore iv per la crittografia del relativo servizio.
+          \end{itemize}
+        \end{itemize}
+  \subsection{SWEDesigner::Server::Controller::Services}
+    \subsubsection{Informazioni generali}
+      In tale versione del documento non sarà trattato il servizio di Profile poiché verrà trattato nelle versioni successive.
+      \begin{itemize}
+        \item \textbf{Descrizione: }\\
+        Questo package contiene tutti i servizi utilizzati dal middleware del server scritti in JavaScript.
+        \item \textbf{Padre: }SWEDesigner::Server::Controller
+      \end{itemize}
+    \subsubsection{Classi}
+      \subsubsubsection{SWEDesigner::Server::Controller::Services::parseService}
+        \begin{itemize}
+          \item \textbf{Descrizione:}\\
+          La classe si occupa di renderizzare il template pre-compilato e generare, così, un file scritto in Java.
+          \item \textbf{Utilizzo:}\\
+          La classe viene utilizzata ogni volta che il client richiede la generazione di codice Java a partire dai diagrammi UML disegnati.
+          \item \textbf{Metodi:}\\
+          \begin{itemize}
+            \item emph{+parsing(template: string, myMu: Object, cb: function) : void}\\
+            La funzione renderizza il template pre-compilato in fase di avvio dell'applicazione generando, a fronte dell'oggetto JSON inviato, un file in Java.
+            \item \textbf{Parametri: }\\
+            \begin{itemize}
+            \begin{itemize}
+              \item emph{template: string}\\
+              Il percorso del template precompilato da Moustache.
+              \item emph{myMu: Object}\\
+              L'oggetto JSON di cui è necessario il parsing.
+              \item emph{cb: function}\\
+              Callback che gestisce la chiamata asincrona al modulo di Moustahce.
+            \end{itemize}
+          \end{itemize}
+        \end{itemize}
+      \subsubsubsection{SWEDesigner::Server::Controller::Services::encryptService}
+        \begin{itemize}
+          \item \textbf{Descrizione: }\\
+          La classe si occupa di tutti i servizi òegati alla crittografia.
+          \item \textbf{Utilizzo: }\\
+          La classe viene utilizzata per generare le chiavi crittografiche da salvare nel database al primo avvio, qualora queste non esistessero, e di realizzare tutti i servizi legati alla crittografia, quindi encrypt e decrypt.
+          \item \textbf{Metodi: }\\
+            \begin{itemize}
+            \item emph{+encrypt(myFile: Object, key: string, iv: string) : Object}\\
+            La funzione si occupa di criptare il file in arrivo mediante codifica AES utilizzando gli algoritmi di Forge.
+            \item \textbf{Parametri: }\\
+            \begin{itemize}
+              \item emph{myFile: Object}\\
+              Oggetto JSON da crittare
+              \item emph{key: string}\\
+              Chiave crittografica
+              \item emph{iv: string}\\
+              IV necessario per la crittografia in AES
+            \end{itemize}
+            \item emph{+decrypt(myFile: Object, key: string, iv: string) : Object}\\
+            La funzione si occupa di decriptare il file in arrivo mediante gi algritmi di Forge.
+            \item \textbf{Parametri: }\\
+            \begin{itemize}
+              \item emph{myFile: Object}\\
+              Oggetto JSON da crittare
+              \item emph{key: string}\\
+              Chiave crittografica
+              \item emph{iv: string}\\
+              IV necessario per la crittografia in AES
+            \end{itemize}
+             \item emph{+getKey() : string}\\
+             La funzione genera, tramite Forge, una chiave crittografica e la ritorna.
+             \item emph{+getIv() : string}\\
+             La funzione genera, tramite Forge, un gruppo di iv e lo ritorna.
           \end{itemize}
         \end{itemize}
