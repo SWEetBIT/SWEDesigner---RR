@@ -30,7 +30,8 @@
 				\item \textbf{Descrizione: }\\
 				Classe che consente il caricamento del server.
 				\item \textbf{Utilizzo: }\\
-				La classe viene utilizzata per caricare tutte le componenti del server nel momento dell'avvio dell'applicazione.
+				La classe viene utilizzata per caricare tutte le componenti del server nel momento dell'avvio dell'applicazione.\\
+				In particolare crea o si connette al database, crea o carica i parametri crittografici dal database e compila (inserisce in cache) il template di Moustache.
 			\end{itemize}
 		\end{itemize}
 
@@ -50,7 +51,7 @@
 				\item \emph{SWEDesigner::Server::Controller::Middleware};\\
 				Si tratta del package contenente tutte le componenti middleware che rispondono alle varie richieste del client.
 				\item \emph{SWEDesigner::Server::Controller::Services};\\
-				Si tratta del package contentente tutti i servizi utilizzati dalle componenti middleware per il corretto svolgersi delle loro operazioni.
+				Si tratta del package contenente tutti i servizi utilizzati dalle componenti middleware per il corretto svolgersi delle loro operazioni.
 			\end{itemize}
 		\end{itemize}
 
@@ -68,7 +69,7 @@
 				\item \textbf{Descrizione: }\\
 				Si tratta della classe che si occupa della gestione degli errori nelle richieste REST che derivano dal client.
 				\item \textbf{Utilizzo: }\\
-				La classe, interfacciandosi con un'interfaccia di express, si occupa di gestire, grazie ad una relazione con la realita interfaccia di express, tutti gli errori delle richieste arrivate dal client.
+				La classe, interfacciandosi con un'interfaccia di express, si occupa di gestire, grazie ad una relazione con la relativa interfaccia di express, tutti gli errori delle richieste arrivate dal client.
 				\item \textbf{Relazioni con le altre classi: }
 				\begin{itemize}
 					\item \emph{IN} express::ErrHandler
@@ -77,16 +78,17 @@
 			\item SWEDesigner::Server::Controller::Middleware::MidLoader
 			\begin{itemize}
 				\item \textbf{Descrizione: }\\
-				Si tratta della classe che si occupa di caricare tutte le componenti middleware del server.
+				Si tratta della classe che si occupa di caricare tutte le componenti del middleware utili da pre-caricare.\\
+				In particolare si occupa di istanziare e compilare, quindi caricare in cache, il template di Moustahce per il parsing.
 				\item \textbf{Utilizzo: }\\
-				La classe carica tutte le componenti middelware del servr applicando il design patter \glossaryItem{Facade}.
+				La classe si occupa di istanziare e caricare i template per il servizio di parsing.
 			\end{itemize}
 			\item SWEDesigner::Server::Controller::Middleware::Parse
 			\begin{itemize}
 				\item \textbf{Descrizione: }\\
 				Classe per la gestione del parsing dei file JSON.
 				\item \textbf{Utilizzo: }\\
-				La classe, utilizzando la componente esterna Moustache, si occupa di fare il parsing dei file JSON in arrivo dal client e creare, tramite il servizio JavaGen, il codice
+				La classe, utilizzando la componente esterna Moustache, si occupa di fare il parsing dei file JSON in arrivo dal client e creare, tramite il servizio parseService, il codice
 				sorgente.
 				\item \textbf{Relazioni con le altre classi: }
 				\begin{itemize}
@@ -111,7 +113,7 @@
 				\item \textbf{Descrizione: }\\
 				Classe per l'encrypt e il decrypt dei file di progetto.
 				\item \textbf{Utilizzo: }\\
-				La classe, utilizzando il modulo esterno Forge, encrypta i file di progetto generati tramite SWEDesigner e ne effettua la decrittazione al momento del caricamento
+				La classe, utilizzando il modulo esterno Forge, encrypta i file di progetto, con chiave AES, generati tramite SWEDesigner e ne effettua la decrittazione al momento del caricamento
 				degli stessi.
 				\item \textbf{Relazioni con le altre classi: }
 				\begin{itemize}
@@ -130,68 +132,26 @@
 			\item \textbf{Padre: }\\ SWEDesigner::Server::Controller
 			\item \textbf{Package contenuti: }
 			\begin{itemize}
-				\item \emph{SWEDesigner::Server::Controller::Services::JavaGenServices};\\
-				Tramite questo package si effettuano tutti i servizi dediti alla generaizone di codice sorgente a partire dagli UML creati dall'utente
-				all'intero di SWEDesigner.
 				\item \emph{SWEDesigner::Server::Controller::Services::UserServices}
 				Il package presenta tutti quei servizi utili alle componenti middleware per la gestione del profilo dell'utente.
 			\end{itemize}
 		\end{itemize}
 		\paragraph{Informazioni sulle Classi}
 		\begin{itemize}
-			\item SWEDesigner::Server::Controller::Services::EncryptServices
+			\item SWEDesigner::Server::Controller::Services::EncryptService
 			\begin{itemize}
 				\item \textbf{Descrizione: }\\
 				La classe offre il servizio di encrypt e decrypt utile alla componente Middleware::Encrypt.
 				\item \textbf{Utilizzo: }\\
-				Il servizio in questione offre tutti i metodoti utili al middleware per effettuare la criptazione e decrittazione dei file di progetto caricati e salvati dagli utenti.
+				Il servizio in questione offre tutti i metodi utili al middleware per effettuare la criptazione e decrittazione dei file di progetto caricati e salvati dagli utenti.
 			\end{itemize}
-		\end{itemize}
-
-		\subsubsection{SWEDesigner::Server::Controller::Services::JavaGenService}
-		\begin{figure}[h!]
-		\centering
-		\includegraphics[scale=0.4]{Disegnetti/SWEDesigner__Server__Controller__Services__JavaGenService.png}
-		\caption{Diagramma dei packages SWEDesigner::Server::Controller::Services::JavaGenService}
- 		\end{figure}
-		\paragraph{Informazioni sul Package}
-		\begin{itemize}
-			\item \textbf{Descrizione: }\\
-			Il pacchetto contiente tutti i servizi di generazione e download del codice sorgente a parite dagli UML	disegnati dall'utente.
-			\item \textbf{Padre: }\\ SWEDesigner::Server::Controller::Services
-		\end{itemize}
-		\paragraph{Informazioni sulle Classi}
-		\begin{itemize}
-			\item SWEDesigner::Server::Controller::Services::JavaGenService::JavaGenFactory
+			\item SWEDesigner::Server::Controller::Services::parseService
 			\begin{itemize}
 				\item \textbf{Descrizione: }\\
-				La classe implementa il pattern \glossaryItem{Factory} per la creazione di un controller che si occupi di gestire i servizi di generazione codice.
+				La classe offre il servizio di parsing del JSON inviato dal client che verrà trasformato, utilizzando il template di Moustache, in codice sorgente Java.
 				\item \textbf{Utilizzo: }\\
-				La classe viene utilizzata come creator per la creazione del controller dei servizi di generazione, tramite parsing, e download del codice sorgente.
-			\end{itemize}
-			\item SWEDesigner::Server::Controller::Services::JavaGenService::ParseService
-			\begin{itemize}
-				\item \textbf{Descrizione: }\\
-				La classe effettua il parsing del JSON generato dai diagrammi UML e lo trasforma in codice sorgente Java.
-				\item \textbf{Utilizzo: }\\
-				Mediante l'utilizzo del modulo esterno Moustache, il servizio si occupa di effettuare il parsing del JSON inviato tramite richista REST dal client e di generare
-				il codice sorgente associato.
-				\item \textbf{Relazioni con le altre classi: }
-				\begin{itemize}
-					\item \emph{OUT} Express::ReqHandler
-				\end{itemize}
-			\end{itemize}
-			\item SWEDesigner::Server::Controller::Services::JavaGenService::DownloadService
-			\begin{itemize}
-				\item \textbf{Descrizione: }\\
-				La classe effettua il download del codice sorgente generato a partire dagli UML dell'utente.
-				\item \textbf{Utilizzo: }\\
-				La classe invia al client che lo ha richiesto lo stream del file .jar sorgente creato a partire dal JSON inviato tramite richiesta REST.
-				\item \textbf{Relazioni con le altre classi: }
-				\begin{itemize}
-					\item \emph{OUT} Express::ReqHandler
-				\end{itemize}
-			\end{itemize}
+				Il servizio in questione, utilizzando il template pre-compilato dal midLoader, si occupa di renderizzare il JSON inviato dal client, convertire lo stream risultante in in JSON e rispedirlo al chiamante tramite callback.
+			\end {itemize}
 		\end{itemize}
 
 		\subsubsection{SWEDesigner::Server::Controller::Services::UserServices}
@@ -260,7 +220,7 @@
 		\paragraph{Informazioni sul Package}
 		\begin{itemize}
 			\item \textbf{Descrizione: }\\
-			Il package si occupa delle comunicazioni con il database passando peril modulo di Mongoose per le richieste allo stesso.
+			Il package si occupa delle comunicazioni con il database passando per il modulo di Mongoose per le richieste allo stesso.
 			\item \textbf{Padre: }\\ SWEDesigner
 		\end{itemize}
 
@@ -269,16 +229,16 @@
 			\item SWEDesigner::Server::Model::MongooseConnection
 			\begin{itemize}
 				\item \textbf{Descrizione: }\\
-				La classe stablisce la connessione al database.
+				La classe stabilisce la connessione al database.
 				\item \textbf{Utilizzo: }\\
 				La classe si connette al database passando per il modulo di Mongoose.
 			\end{itemize}
-			\item SWEDesigner::Server::Model::Model
+			\item SWEDesginer::Server::Model::mongooseRequest
 			\begin{itemize}
 				\item \textbf{Descrizione: }\\
-				La classe implementa il pattern \glossaryItem{Facade} per la realizzazione del data tier.
+				La classe si occupa di gestire le interrogazioni al database, comprendendo il drop dello schema
 				\item \textbf{Utilizzo: }\\
-				La classe fornisce un'interfaccia per le classi che gestiscono il database.
+				La classe si occupa di gestire tutte le query ritornando un errore o il valore atteso qualora questo sia presente nel database.
 			\end{itemize}
 			\item SWEDesigner::Server::Model::DBUSR
 			\begin{itemize}
@@ -293,5 +253,12 @@
 				La classe gestisce il database dei progetti.
 				\item \textbf{Utilizzo: }\\
 				La classe fornisce tutti gli strumenti per la lettura e la scrittura di un progetto.
+			\end{itemize}
+			\item SWEDesigner::Server::Model::DBCRYPT
+			\begin{itemize}
+				\item \textbf{Descrizione: }\\
+				La classe gestisce il database dei dei parametri crittografici.
+				\item \textbf{Utilizzo: }\\
+				La classe fornisce tutti gli strumenti per la lettura e la scrittura di una chiave crittografica.
 			\end{itemize}
 		\end{itemize}
