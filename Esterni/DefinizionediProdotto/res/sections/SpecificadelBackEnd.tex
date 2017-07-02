@@ -1,6 +1,158 @@
 \section{Specifica Back-End}
-\subsection{Informazioni generali}
-
-
-\subsection{Classi}
-	
+  \subsection{SWEDesigner::Server}
+    \subsubsection{Informazioni generali}
+      \begin{itemize}
+        \item \textbf{Descrizione:}\\
+        Questo package contiente tutte le componenti del server scritte in JavaScript
+        \item \textbf{Padre: } SWEDesigner
+        \item \textbf{Package contenuti:}\\
+        \begin{itemize}
+          \item Controller \\
+          Questo package contiene al suo interno tutti i controller che implementano il pattern MVVM fornito da \glossaryItem{Angular.js}.
+          In particolare sono contenuti i Middleware e tutti i Servizi da essi utilizzati.
+          \item Model \\
+          Questo package contiene tutte le classi utili per la creazione del database, la connessione ad esso e le relative interrogazioni.
+        \end{itemize}
+      \end{itemize}
+    \subsubsection{Classi}
+      \subsubsubsection{SWEDesigner::Server::serverLoader}
+        \begin{itemize}
+          \item \textbf{Descrizione:}\\
+          Classe che consente il caricamento di tutte le componenti e gli elementi utili al primo avvio dell'applicazione
+          \item \textbf{Utilizzo:}\\
+          La classe viene utilizzata per il caricamento del server e di tutti i suoi elementi.
+          \item \textbf{Metodi:}\\
+          \begin{itemize}
+            \item \emph{+ load(db: string, mR: string, mu: string, encr: string, cb: function): void}\\
+            Si tratta della funzione principale che si occupa di chiamare i metodi load contenuti in tutte le altre classi.
+            \item \textbf{Parametri:}\\
+            \begin{itemize}
+              \item \emph{db: string}\\
+              Il path del modulo che gestisce la connessione al database.
+              \item \emph{mR: string}\\
+              Il path del modulo che gestisce le query.
+              \item \emph{mu: string}\\
+              Il path del modulo che gestisce il servizio di parsing.
+              \item \emph{encr: string}\\
+              Il path del modulo che gestisce il servizio di encrypt.
+              \item \emph{cb: function}taliano
+              Callback che gestisce le rischieste asicnrone al database.
+            \end{itemize}
+            \item \textbf{- loadCryptParam(db: string, cb: function): void}\\
+            Si tratta della funzione utilizzata da load per la richiesta dei parametri crittografici al database.
+            \item \textbf{Parametri:}\\
+            \begin{itemize}
+              \item \emph{db: string}\\
+              Il path del modulo che gestisce la connessione al database.
+              \item \emph{cb: function}
+              Callback che gestisce le rischieste asicnrone al database.
+            \end{itemize}
+          \end{itemize}
+        \end{itemize}
+  \subsection{SWEDesigner::Server::Model}
+    \subsubsection{Informazioni generali}
+      \begin{itemize}
+        \item \textbf{Descrizione:}\\
+        Questo package contiene tutte le classi e le funzionalità legate al database.
+        \item \textbf{Padre: }SWEDesigner::Server
+      \end{itemize}
+    \subsubsection{Classi}
+      \subsubsubsection{SWEDesigner::Server::Model::mongooseConnection}
+        \begin{itemize}
+          \item \textbf{Descrizione: }\\
+          Classe che si occupa della connessione al database e degli errori che ne possono derivare
+          \item \textbf{Utilizzo: }\\
+          La classe viene utilizzata per effettuare la connessione al database all'avvio dell'applicazione.
+          \item \textbf{Metodi: }\\
+          \begin{itemize}
+            \item \emph{+ conn() : void}\\
+            Si tratta della funzione che effettua la connessione al database e ne gestisce gli eventuali errori derivanti.
+          \end{itemize}
+        \end{itemize}
+      \subsubsubsection{SWEDesiger::Server::Model::mongooseRequest}
+        Tutte le query riguardanti l'aggiornamento e la cancellazione di dati dal database verranno trattate nella successiva versione di questo documento.
+        \begin{itemize}
+          \item \textbf{Descrizione: }\\
+          Classe che si occupa di gestire tutte le query da e vero il database.
+          \item \textbf{Utilizzo: }\\
+          La classe viene utilizzata per tutte le richieste, inserimento e fetch, di dati dal e nel database.
+          \item \textbf{Metodi: }\\
+          \begin{itemize}
+            \item emph{+ins_usr(usr: Object, cb: function) : void}\\
+            Si tratta della funzione che si occupa di inserire un utente all'interno del database.
+            \item \textbf{Parametri: }\\
+            \begin{itemize}
+              \item emph{usr: Object}\\
+              L'utente, in formato JSON, da inserire all'interno dello schema.
+              \item emph{cb: function}\\
+              Callback che gestisce le richieste asincrone al database.
+            \end{itemize}
+            \item emph{+ins_proj(proj: Object, cb: function) : void}\\
+            Si tratta della funzione che si occupa di inserire un progetto all'interno del database.
+            \item \textbf{Parametri: }\\
+            \begin{itemize}
+              \item emph{proj: Object}\\
+              Il progetto, in formato JSON, da inserire all'interno dello schema.
+              \item emph{cd: function}\\
+              Callback che gestisce le richieste asincrone al database.
+            \end{itemize}
+            \item emph{+ins_crypt_param(k: string, i: string, cb: function) : void}\\
+            Si tratta della funzione che si occupa di inserire una chiave crittografica all'interno del database.
+            \item \textbf{Parametri: }\\
+            \begin{itemize}
+              \item emph{k: string}\\
+              La chiave crittografica.
+              \item emph{i: string}\\
+              Valore iv per la crittografia.
+              \item emph{cb: function}\\
+              Callback che gestisce le richieste asincrone al database.
+            \end{itemize}
+            \item emph{+load_all_proj(username: string, cb: function) : void}\\
+            Si tratta della funzione che si occupa di richiedere tutti i progetti di un dato utente.
+            \item \textbf{Parametri: }\\
+            \begin{itemize}
+              \item emph{username: string}\\
+              Nome dell'utente di cui sono richiesti i progetti.
+              \item emph{cd: function}\\
+              Callback che gestisce le richieste asincrone al database.
+            \end{itemize}
+            \item emph{+load_key_crypt(cb: function) : void}\\
+            Si tratta della funzione che si occupa di richiedere l'unica chiave crittografica salvata nel database.
+            \item \textbf{Parametri: }\\
+            \begin{itemize}
+              \item emph{cb: function}\\
+              Callback che gestisce le richieste asincrone al database.
+            \end{itemize}
+            \item emph{+load_proj(projectName: string, cb: function) : void }\\
+            Si tratta della funzione che si occupa di cercare e ritornare un dato progetto.
+            \item \textbf{Parametri: }\\
+            \begin{itemize}
+              \item emph{projectName: string}\\
+              Nome del progetto richiesto
+              \item emph{cb: function}\\
+              Callback che gestisce le richieste asincrone al database.
+            \end{itemize}
+            \item emph{+login(username: string, password: string, cb: function) : void}\\
+            Si tratta della funzione che verifica che l'utente che cerca di loggare esiste all'interno del database.
+            \item \textbf{Parametri: }\\
+            \begin{itemize}
+              \item emph{username: string}\\
+              L'username dell'utente che cerca di loggare.
+              \item emph{password: string}\\
+              La password dell'utente che cerca di loggare.
+              \item emph{cb: function}\\
+              Callback che gestisce le richieste asincrone al database.
+            \end{itemize}
+            \item emph{+forgot_mail(username: string, cd: function)}\\
+            Si tratta della funzione che restituisce la mail dell'utente dato.
+            \item \textbf{Parametri: }\\
+            \begin{itemize}
+              \item emph{username: string}\\
+              Nome dell'utente
+              \item emph{cb: function}\\
+              Callback che gestisce le richieste asincrone al database.
+            \end{itemize}
+            \item emph{+drop_schema() : void}//
+            Si tratta della funzione che elimina il database.
+          \end{itemize}
+        \end{itemize}

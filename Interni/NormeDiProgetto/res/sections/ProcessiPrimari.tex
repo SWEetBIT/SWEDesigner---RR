@@ -237,16 +237,18 @@ I Progettisti devono definire i test di unità necessari per verificare che i co
 \item I commenti devono essere fatti in italiano;
 \item I nomi delle classi devono avere l’iniziale maiuscola;
 \item I nomi di variabili e metodi devono avere la prima lettera minuscola, mentre devono essere maiuscole le iniziali delle eventuali altre parole che compongono il nome stesso;
-\item Identazione effettuata tramite tabs; 
+\item Identazione effettuata tramite tabs;
 \item I comandi if / else / for / while / try vengono sempre seguiti le parentesi graffe e bisogna sempre andare a capo dopo la loro apertura;
 \item Nessun spazio di riempimento in costruzioni vuote (ad esempio, {}, [], fn ());
 \item I nomi delle variabili e dei metodi devono essere il più descrittivi possibili, ad eccezioni degli iteratori;
 \item I nomi di metodi e funzioni devono essere adottati quelli definiti nel documento \emph{Specifica Tecnica};
 \item I programmatori possono introdurre funzioni ausiliarie non presenti nella progettazione.
-\end{itemize}   
-     
-   
+\end{itemize}
+
+
    \paragraph{Documentazione del codice}
+     Tutta la documentazione del codice dovrà seguire lo schema offerto da jsdoc in modo tale da garantire
+     una corretta generazione del manuale dello sviluppatore e quello del manutentore.
      I file contenti codice dovranno essere provvisti di un'intestazione contenente:
      \begin{lstlisting}[frame=single]
        /*!
@@ -282,7 +284,7 @@ I Progettisti devono definire i test di unità necessari per verificare che i co
        * \return Valore ritornato dalla funzione
       */
   \end{lstlisting}
-      
+
 \subsubsection{Strumenti e ambienti di sviluppo}
 \paragraph{Stesura del codice}
 Per la stesura del codice è consigliabile usare uno dei seguenti editor:
