@@ -15,7 +15,7 @@
         \end{itemize}
       \end{itemize}
     \subsubsection{Classi}
-      \subsubsubsection{SWEDesigner::Server::serverLoader}
+      \paragraph{SWEDesigner::Server::serverLoader}
         \begin{itemize}
           \item \textbf{Descrizione:}\\
           Classe che consente il caricamento di tutte le componenti e gli elementi utili al primo avvio dell'applicazione
@@ -57,7 +57,7 @@
         \item \textbf{Padre: }SWEDesigner::Server
       \end{itemize}
     \subsubsection{Classi}
-      \subsubsubsection{SWEDesigner::Server::Model::mongooseConnection}
+      \paragraph{SWEDesigner::Server::Model::mongooseConnection}
         \begin{itemize}
           \item \textbf{Descrizione: }\\
           Classe che si occupa della connessione al database e degli errori che ne possono derivare
@@ -69,7 +69,7 @@
             Si tratta della funzione che effettua la connessione al database e ne gestisce gli eventuali errori derivanti.
           \end{itemize}
         \end{itemize}
-      \subsubsubsection{SWEDesiger::Server::Model::mongooseRequest}
+      \paragraph{SWEDesiger::Server::Model::mongooseRequest}
         Tutte le query riguardanti l'aggiornamento e la cancellazione di dati dal database verranno trattate nella successiva versione di questo documento.
         \begin{itemize}
           \item \textbf{Descrizione: }\\
@@ -78,81 +78,81 @@
           La classe viene utilizzata per tutte le richieste, inserimento e fetch, di dati dal e nel database.
           \item \textbf{Metodi: }\\
           \begin{itemize}
-            \item emph{+ins_usr(usr: Object, cb: function) : void}\\
-            Si tratta della funzione che si occupa di inserire un utente all'interno del database.
+            \item \emph{+\texttt{ins\_usr}(usr: Object, cb: function) : void}\\
+            Si tratta della funzione che si occupa di inserire un utente all'interno del database.\\
             \item \textbf{Parametri: }\\
             \begin{itemize}
-              \item emph{usr: Object}\\
+              \item \emph{usr: Object}\\
               L'utente, in formato JSON, da inserire all'interno dello schema.
-              \item emph{cb: function}\\
+              \item \emph{cb: function}\\
               Callback che gestisce le richieste asincrone al database.
             \end{itemize}
-            \item emph{+ins_proj(proj: Object, cb: function) : void}\\
-            Si tratta della funzione che si occupa di inserire un progetto all'interno del database.
+            \item \emph{+\texttt{ins\_proj}(proj: Object, cb: function) : void}\\
+            Si tratta della funzione che si occupa di inserire un progetto all'interno del database.\\
             \item \textbf{Parametri: }\\
             \begin{itemize}
-              \item emph{proj: Object}\\
+              \item \emph{proj: Object}\\
               Il progetto, in formato JSON, da inserire all'interno dello schema.
-              \item emph{cd: function}\\
+              \item \emph{cd: function}\\
               Callback che gestisce le richieste asincrone al database.
             \end{itemize}
-            \item emph{+ins_crypt_param(k: string, i: string, cb: function) : void}\\
-            Si tratta della funzione che si occupa di inserire una chiave crittografica all'interno del database.
+            \item \emph{+\texttt{ins\_crypt\_param}(k: string, i: string, cb: function) : void}\\
+            Si tratta della funzione che si occupa di inserire una chiave crittografica all'interno del database.\\
             \item \textbf{Parametri: }\\
             \begin{itemize}
-              \item emph{k: string}\\
+              \item \emph{k: string}\\
               La chiave crittografica.
-              \item emph{i: string}\\
+              \item \emph{i: string}\\
               Valore iv per la crittografia.
-              \item emph{cb: function}\\
+              \item \emph{cb: function}\\
               Callback che gestisce le richieste asincrone al database.
             \end{itemize}
-            \item emph{+load_all_proj(username: string, cb: function) : void}\\
-            Si tratta della funzione che si occupa di richiedere tutti i progetti di un dato utente.
+            \item \emph{+\texttt{load\_all\_proj}(username: string, cb: function) : void}\\
+            Si tratta della funzione che si occupa di richiedere tutti i progetti di un dato utente.\\
             \item \textbf{Parametri: }\\
             \begin{itemize}
-              \item emph{username: string}\\
+              \item \emph{username: string}\\
               Nome dell'utente di cui sono richiesti i progetti.
-              \item emph{cd: function}\\
+              \item \emph{cd: function}\\
               Callback che gestisce le richieste asincrone al database.
             \end{itemize}
-            \item emph{+load_key_crypt(cb: function) : void}\\
-            Si tratta della funzione che si occupa di richiedere l'unica chiave crittografica salvata nel database.
+            \item \emph{+\texttt{load\_key\_crypt}(cb: function) : void}\\
+            Si tratta della funzione che si occupa di richiedere l'unica chiave crittografica salvata nel database.\\
             \item \textbf{Parametri: }\\
             \begin{itemize}
-              \item emph{cb: function}\\
+              \item \emph{cb: function}\\
               Callback che gestisce le richieste asincrone al database.
             \end{itemize}
-            \item emph{+load_proj(projectName: string, cb: function) : void }\\
-            Si tratta della funzione che si occupa di cercare e ritornare un dato progetto.
+            \item \emph{+\texttt{load\_proj}(projectName: string, cb: function) : void }\\
+            Si tratta della funzione che si occupa di cercare e ritornare un dato progetto.\\
             \item \textbf{Parametri: }\\
             \begin{itemize}
-              \item emph{projectName: string}\\
+              \item \emph{projectName: string}\\
               Nome del progetto richiesto
-              \item emph{cb: function}\\
+              \item \emph{cb: function}\\
               Callback che gestisce le richieste asincrone al database.
             \end{itemize}
-            \item emph{+login(username: string, password: string, cb: function) : void}\\
-            Si tratta della funzione che verifica che l'utente che cerca di loggare esiste all'interno del database.
+            \item \emph{+login(username: string, password: string, cb: function) : void}\\
+            Si tratta della funzione che verifica che l'utente che cerca di loggare esiste all'interno del database.\\
             \item \textbf{Parametri: }\\
             \begin{itemize}
-              \item emph{username: string}\\
+              \item \emph{username: string}\\
               L'username dell'utente che cerca di loggare.
-              \item emph{password: string}\\
+              \item \emph{password: string}\\
               La password dell'utente che cerca di loggare.
-              \item emph{cb: function}\\
+              \item \emph{cb: function}\\
               Callback che gestisce le richieste asincrone al database.
             \end{itemize}
-            \item emph{+forgot_mail(username: string, cd: function)}\\
-            Si tratta della funzione che restituisce la mail dell'utente dato.
+            \item \emph{+\texttt{forgot\_mail}(username: string, cd: function)}\\
+            Si tratta della funzione che restituisce la mail dell'utente dato.\\
             \item \textbf{Parametri: }\\
             \begin{itemize}
-              \item emph{username: string}\\
+              \item \emph{username: string}\\
               Nome dell'utente
-              \item emph{cb: function}\\
+              \item \emph{cb: function}\\
               Callback che gestisce le richieste asincrone al database.
             \end{itemize}
-            \item emph{+drop_schema() : void}//
+            \item \emph{+\texttt{drop\_schema}() : void}//
             Si tratta della funzione che elimina il database.
           \end{itemize}
         \end{itemize}
@@ -165,7 +165,7 @@
         \item \textbf{Padre: }SWEDesigner::Server::Controller
       \end{itemize}
     \subsubsection{Classi}
-      \subsubsubsection{SWEDesigner::Server::Controller::Middleware::midLoader}
+      \paragraph{SWEDesigner::Server::Controller::Middleware::midLoader}
         \begin{itemize}
           \item \textbf{Descrizione: }\\
           La classe contenente i metodi di caricamento dei servizi utilizzati dalle componenti middleware
@@ -177,7 +177,7 @@
             La funziona carica il servizio di parsing
           \end{itemize}
         \end{itemize}
-      \subsubsubsection{SWEDesigner::Server::Controller::Middleware::Parse}
+      \paragraph{SWEDesigner::Server::Controller::Middleware::Parse}
         \begin{itemize}
           \item \textbf{Descrizione: }\\
           La classe si occupa di gestire il caricamento del template e di richiamare il servizio di parsing
@@ -185,24 +185,24 @@
           La classe viene utilizzata sia per il caricamento del template all'avvio dell'applicazione, sia per richiamare il servizio di parsing quando il client lo richiede.
           \item \textbf{Metodi: }\\
           \begin{itemize}
-            \item emph{+load() : void}\\
+            \item \emph{+load() : void}\\
             La funzione si occupa di ripulire la cache, compilare il template e caricarlo in cache.
-            \item emph{+parse(template: Object, myMu: Object, cb: function) : void}\\
+            \item \emph{+parse(template: Object, myMu: Object, cb: function) : void}\\
             La funzione si occupa di richiamare la funzione di parsing del relativo servizio
             \item \textbf{Parametri: }\\
             \begin{itemize}
-              \item emph{template: Object}\\
+              \item \emph{template: Object}\\
               Il template precompilato da Moustache.
-              \item emph{myMu: Object}\\
+              \item \emph{myMu: Object}\\
               L'oggetto JSON di cui è necessario il parsing.
-              \item emph{cb: function}\\
+              \item \emph{cb: function}\\
               Callback che gestisce la chiamata asincrona al modulo di Moustahce.
             \end{itemize}
-            \item emph{+getTemplate() : string}\\
+            \item \emph{+getTemplate() : string}\\
             La funzione ritorna il percorso in cui è contenuto il template, compilato o meno.
           \end{itemize}
         \end{itemize}
-      \subsubsubsection{SWEDesigner::Server::Controller:Middleware::Encrypt}
+      \paragraph{SWEDesigner::Server::Controller:Middleware::Encrypt}
         \begin{itemize}
           \item \textbf{Descrizione: }\\
           La classe si occupa di gestire le funzionalità del servizio di encrypt.
@@ -210,31 +210,31 @@
           La classe viene utilizzata per chiamare le funzioni di encrypt del relativo servizio.
           \item \textbf{Metodi:}\\
           \begin{itemize}
-            \item emph{+encrypt(myFile: Object, key: string, iv: string) : Object}\\
+            \item \emph{+encrypt(myFile: Object, key: string, iv: string) : Object}\\
             La funzione si occupa di richiamare la funzione di encrypt del relativo servizio e ritorna il file crittato correttamente.
             \item \textbf{Parametri: }\\
             \begin{itemize}
-              \item emph{myFile: Object}\\
+              \item \emph{myFile: Object}\\
               Oggetto JSON da crittare
-              \item emph{key: string}\\
+              \item \emph{key: string}\\
               Chiave crittografica
-              \item emph{iv: string}\\
+              \item \emph{iv: string}\\
               IV necessario per la crittografia in AES
             \end{itemize}
-            \item emph{+decrypt(myFile: Object, key: string, iv: string) : Object}\\
+            \item \emph{+decrypt(myFile: Object, key: string, iv: string) : Object}\\
             La funzione si occupa di richiamare la funzione di decrypt del relativo servizio e ritorna il JSON decriptato.
             \item \textbf{Parametri: }\\
             \begin{itemize}
-              \item emph{myFile: Object}\\
+              \item \emph{myFile: Object}\\
               Oggetto JSON da crittare
-              \item emph{key: string}\\
+              \item \emph{key: string}\\
               Chiave crittografica
-              \item emph{iv: string}\\
+              \item \emph{iv: string}\\
               IV necessario per la crittografia in AES
             \end{itemize}
-            \item emph{+getKey() : void}\\
+            \item \emph{+getKey() : void}\\
             La funzione si occupa di richiamare la funzione di generazione della chiave crittografica del relativo servizio.
-            \item emph{+getI() : void}\\
+            \item \emph{+getI() : void}\\
             La funzione si occupa di richiamare la funzione di generazione del valore iv per la crittografia del relativo servizio.
           \end{itemize}
         \end{itemize}
@@ -247,7 +247,7 @@
         \item \textbf{Padre: }SWEDesigner::Server::Controller
       \end{itemize}
     \subsubsection{Classi}
-      \subsubsubsection{SWEDesigner::Server::Controller::Services::parseService}
+      \paragraph{SWEDesigner::Server::Controller::Services::parseService}
         \begin{itemize}
           \item \textbf{Descrizione:}\\
           La classe si occupa di renderizzare il template pre-compilato e generare, così, un file scritto in Java.
@@ -255,21 +255,20 @@
           La classe viene utilizzata ogni volta che il client richiede la generazione di codice Java a partire dai diagrammi UML disegnati.
           \item \textbf{Metodi:}\\
           \begin{itemize}
-            \item emph{+parsing(template: string, myMu: Object, cb: function) : void}\\
+            \item \emph{+parsing(template: string, myMu: Object, cb: function) : void}\\
             La funzione renderizza il template pre-compilato in fase di avvio dell'applicazione generando, a fronte dell'oggetto JSON inviato, un file in Java.
             \item \textbf{Parametri: }\\
             \begin{itemize}
-            \begin{itemize}
-              \item emph{template: string}\\
+              \item \emph{template: string}\\
               Il percorso del template precompilato da Moustache.
-              \item emph{myMu: Object}\\
+              \item \emph{myMu: Object}\\
               L'oggetto JSON di cui è necessario il parsing.
-              \item emph{cb: function}\\
+              \item \emph{cb: function}\\
               Callback che gestisce la chiamata asincrona al modulo di Moustahce.
             \end{itemize}
-          \end{itemize}
         \end{itemize}
-      \subsubsubsection{SWEDesigner::Server::Controller::Services::encryptService}
+       \end{itemize}
+      \paragraph{SWEDesigner::Server::Controller::Services::encryptService}
         \begin{itemize}
           \item \textbf{Descrizione: }\\
           La classe si occupa di tutti i servizi òegati alla crittografia.
@@ -277,31 +276,31 @@
           La classe viene utilizzata per generare le chiavi crittografiche da salvare nel database al primo avvio, qualora queste non esistessero, e di realizzare tutti i servizi legati alla crittografia, quindi encrypt e decrypt.
           \item \textbf{Metodi: }\\
             \begin{itemize}
-            \item emph{+encrypt(myFile: Object, key: string, iv: string) : Object}\\
+            \item \emph{+encrypt(myFile: Object, key: string, iv: string) : Object}\\
             La funzione si occupa di criptare il file in arrivo mediante codifica AES utilizzando gli algoritmi di Forge.
             \item \textbf{Parametri: }\\
             \begin{itemize}
-              \item emph{myFile: Object}\\
+              \item \emph{myFile: Object}\\
               Oggetto JSON da crittare
-              \item emph{key: string}\\
+              \item \emph{key: string}\\
               Chiave crittografica
-              \item emph{iv: string}\\
+              \item \emph{iv: string}\\
               IV necessario per la crittografia in AES
             \end{itemize}
-            \item emph{+decrypt(myFile: Object, key: string, iv: string) : Object}\\
+            \item \emph{+decrypt(myFile: Object, key: string, iv: string) : Object}\\
             La funzione si occupa di decriptare il file in arrivo mediante gi algritmi di Forge.
             \item \textbf{Parametri: }\\
             \begin{itemize}
-              \item emph{myFile: Object}\\
+              \item \emph{myFile: Object}\\
               Oggetto JSON da crittare
-              \item emph{key: string}\\
+              \item \emph{key: string}\\
               Chiave crittografica
-              \item emph{iv: string}\\
+              \item \emph{iv: string}\\
               IV necessario per la crittografia in AES
             \end{itemize}
-             \item emph{+getKey() : string}\\
+             \item \emph{+getKey() : string}\\
              La funzione genera, tramite Forge, una chiave crittografica e la ritorna.
-             \item emph{+getIv() : string}\\
+             \item \emph{+getIv() : string}\\
              La funzione genera, tramite Forge, un gruppo di iv e lo ritorna.
           \end{itemize}
         \end{itemize}
