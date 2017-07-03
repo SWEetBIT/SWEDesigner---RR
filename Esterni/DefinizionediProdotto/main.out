@@ -12,32 +12,53 @@
 \BOOKMARK [2][-]{subsection.2.4}{Standard di programmazione}{section.2}% 12
 \BOOKMARK [2][-]{subsection.2.5}{Strumenti di lavoro}{section.2}% 13
 \BOOKMARK [1][-]{section.3}{Specifica Front-End}{}% 14
-\BOOKMARK [2][-]{subsection.3.1}{Informazioni generali}{section.3}% 15
-\BOOKMARK [2][-]{subsection.3.2}{Classi}{section.3}% 16
-\BOOKMARK [1][-]{section.4}{Specifica Back-End}{}% 17
-\BOOKMARK [2][-]{subsection.4.1}{SWEDesigner::Server}{section.4}% 18
-\BOOKMARK [3][-]{subsubsection.4.1.1}{Informazioni generali}{subsection.4.1}% 19
-\BOOKMARK [3][-]{subsubsection.4.1.2}{Classi}{subsection.4.1}% 20
-\BOOKMARK [4][-]{paragraph.4.1.2.1}{SWEDesigner::Server::serverLoader}{subsubsection.4.1.2}% 21
-\BOOKMARK [2][-]{subsection.4.2}{SWEDesigner::Server::Model}{section.4}% 22
-\BOOKMARK [3][-]{subsubsection.4.2.1}{Informazioni generali}{subsection.4.2}% 23
-\BOOKMARK [3][-]{subsubsection.4.2.2}{Classi}{subsection.4.2}% 24
-\BOOKMARK [4][-]{paragraph.4.2.2.1}{SWEDesigner::Server::Model::mongooseConnection}{subsubsection.4.2.2}% 25
-\BOOKMARK [4][-]{paragraph.4.2.2.2}{SWEDesiger::Server::Model::mongooseRequest}{subsubsection.4.2.2}% 26
-\BOOKMARK [2][-]{subsection.4.3}{SWEDesigner::Server::Controller::Middleware}{section.4}% 27
-\BOOKMARK [3][-]{subsubsection.4.3.1}{Informazioni generali}{subsection.4.3}% 28
-\BOOKMARK [3][-]{subsubsection.4.3.2}{Classi}{subsection.4.3}% 29
-\BOOKMARK [4][-]{paragraph.4.3.2.1}{SWEDesigner::Server::Controller::Middleware::midLoader}{subsubsection.4.3.2}% 30
-\BOOKMARK [4][-]{paragraph.4.3.2.2}{SWEDesigner::Server::Controller::Middleware::Parse}{subsubsection.4.3.2}% 31
-\BOOKMARK [4][-]{paragraph.4.3.2.3}{SWEDesigner::Server::Controller:Middleware::Encrypt}{subsubsection.4.3.2}% 32
-\BOOKMARK [2][-]{subsection.4.4}{SWEDesigner::Server::Controller::Services}{section.4}% 33
-\BOOKMARK [3][-]{subsubsection.4.4.1}{Informazioni generali}{subsection.4.4}% 34
-\BOOKMARK [3][-]{subsubsection.4.4.2}{Classi}{subsection.4.4}% 35
-\BOOKMARK [4][-]{paragraph.4.4.2.1}{SWEDesigner::Server::Controller::Services::parseService}{subsubsection.4.4.2}% 36
-\BOOKMARK [4][-]{paragraph.4.4.2.2}{SWEDesigner::Server::Controller::Services::encryptService}{subsubsection.4.4.2}% 37
-\BOOKMARK [1][-]{section.5}{Diagrammi di sequenza}{}% 38
-\BOOKMARK [1][-]{section.6}{Tracciamento}{}% 39
-\BOOKMARK [2][-]{subsection.6.1}{Tracciamento Classi-Requisiti}{section.6}% 40
-\BOOKMARK [2][-]{subsection.6.2}{Tracciamento Requisiti-Classi}{section.6}% 41
-\BOOKMARK [2][-]{subsection.6.3}{Tracciamento Componenti-Requisiti}{section.6}% 42
-\BOOKMARK [2][-]{subsection.6.4}{Tracciamento Requisiti-Componenti}{section.6}% 43
+\BOOKMARK [2][-]{subsection.3.1}{SWEDesigner::Client}{section.3}% 15
+\BOOKMARK [3][-]{subsubsection.3.1.1}{Informazioni generali}{subsection.3.1}% 16
+\BOOKMARK [3][-]{subsubsection.3.1.2}{Classi}{subsection.3.1}% 17
+\BOOKMARK [2][-]{subsection.3.2}{SWEDesigner::Client::Components}{section.3}% 18
+\BOOKMARK [3][-]{subsubsection.3.2.1}{Informazioni generali}{subsection.3.2}% 19
+\BOOKMARK [3][-]{subsubsection.3.2.2}{Classi}{subsection.3.2}% 20
+\BOOKMARK [2][-]{subsection.3.3}{SWEDesigner::Client::Components::Activity-Frame}{section.3}% 21
+\BOOKMARK [3][-]{subsubsection.3.3.1}{Informazioni generali}{subsection.3.3}% 22
+\BOOKMARK [3][-]{subsubsection.3.3.2}{Classi}{subsection.3.3}% 23
+\BOOKMARK [2][-]{subsection.3.4}{SWEDesigner::Client::Components::Editor}{section.3}% 24
+\BOOKMARK [3][-]{subsubsection.3.4.1}{Informazioni generali}{subsection.3.4}% 25
+\BOOKMARK [3][-]{subsubsection.3.4.2}{Classi}{subsection.3.4}% 26
+\BOOKMARK [4][-]{paragraph.3.4.2.1}{SWEDesigner::Client::Components::Editor::Class-Menu}{subsubsection.3.4.2}% 27
+\BOOKMARK [4][-]{paragraph.3.4.2.2}{SWEDesigner::Client::Components::Editor::Toolbar}{subsubsection.3.4.2}% 28
+\BOOKMARK [2][-]{subsection.3.5}{SWEDesigner::Client::Components::Menu}{section.3}% 29
+\BOOKMARK [3][-]{subsubsection.3.5.1}{Informazioni generali}{subsection.3.5}% 30
+\BOOKMARK [3][-]{subsubsection.3.5.2}{Classi}{subsection.3.5}% 31
+\BOOKMARK [4][-]{paragraph.3.5.2.1}{SWEDesigner::Client::Components::Menu::File}{subsubsection.3.5.2}% 32
+\BOOKMARK [4][-]{paragraph.3.5.2.2}{SWEDesigner::Client::Components::Menu::Layer}{subsubsection.3.5.2}% 33
+\BOOKMARK [4][-]{paragraph.3.5.2.3}{SWEDesigner::Client::Components::Menu::Modifica}{subsubsection.3.5.2}% 34
+\BOOKMARK [4][-]{paragraph.3.5.2.4}{SWEDesigner::Client::Components::Menu::Profilo}{subsubsection.3.5.2}% 35
+\BOOKMARK [4][-]{paragraph.3.5.2.5}{SWEDesigner::Client::Components::Menu::Progetto}{subsubsection.3.5.2}% 36
+\BOOKMARK [4][-]{paragraph.3.5.2.6}{SWEDesigner::Client::Components::Menu::Template}{subsubsection.3.5.2}% 37
+\BOOKMARK [1][-]{section.4}{Specifica Back-End}{}% 38
+\BOOKMARK [2][-]{subsection.4.1}{SWEDesigner::Server}{section.4}% 39
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Informazioni generali}{subsection.4.1}% 40
+\BOOKMARK [3][-]{subsubsection.4.1.2}{Classi}{subsection.4.1}% 41
+\BOOKMARK [4][-]{paragraph.4.1.2.1}{SWEDesigner::Server::serverLoader}{subsubsection.4.1.2}% 42
+\BOOKMARK [2][-]{subsection.4.2}{SWEDesigner::Server::Model}{section.4}% 43
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Informazioni generali}{subsection.4.2}% 44
+\BOOKMARK [3][-]{subsubsection.4.2.2}{Classi}{subsection.4.2}% 45
+\BOOKMARK [4][-]{paragraph.4.2.2.1}{SWEDesigner::Server::Model::mongooseConnection}{subsubsection.4.2.2}% 46
+\BOOKMARK [4][-]{paragraph.4.2.2.2}{SWEDesiger::Server::Model::mongooseRequest}{subsubsection.4.2.2}% 47
+\BOOKMARK [2][-]{subsection.4.3}{SWEDesigner::Server::Controller::Middleware}{section.4}% 48
+\BOOKMARK [3][-]{subsubsection.4.3.1}{Informazioni generali}{subsection.4.3}% 49
+\BOOKMARK [3][-]{subsubsection.4.3.2}{Classi}{subsection.4.3}% 50
+\BOOKMARK [4][-]{paragraph.4.3.2.1}{SWEDesigner::Server::Controller::Middleware::midLoader}{subsubsection.4.3.2}% 51
+\BOOKMARK [4][-]{paragraph.4.3.2.2}{SWEDesigner::Server::Controller::Middleware::Parse}{subsubsection.4.3.2}% 52
+\BOOKMARK [4][-]{paragraph.4.3.2.3}{SWEDesigner::Server::Controller:Middleware::Encrypt}{subsubsection.4.3.2}% 53
+\BOOKMARK [2][-]{subsection.4.4}{SWEDesigner::Server::Controller::Services}{section.4}% 54
+\BOOKMARK [3][-]{subsubsection.4.4.1}{Informazioni generali}{subsection.4.4}% 55
+\BOOKMARK [3][-]{subsubsection.4.4.2}{Classi}{subsection.4.4}% 56
+\BOOKMARK [4][-]{paragraph.4.4.2.1}{SWEDesigner::Server::Controller::Services::parseService}{subsubsection.4.4.2}% 57
+\BOOKMARK [4][-]{paragraph.4.4.2.2}{SWEDesigner::Server::Controller::Services::encryptService}{subsubsection.4.4.2}% 58
+\BOOKMARK [1][-]{section.5}{Diagrammi di sequenza}{}% 59
+\BOOKMARK [1][-]{section.6}{Tracciamento}{}% 60
+\BOOKMARK [2][-]{subsection.6.1}{Tracciamento Classi-Requisiti}{section.6}% 61
+\BOOKMARK [2][-]{subsection.6.2}{Tracciamento Requisiti-Classi}{section.6}% 62
+\BOOKMARK [2][-]{subsection.6.3}{Tracciamento Componenti-Requisiti}{section.6}% 63
+\BOOKMARK [2][-]{subsection.6.4}{Tracciamento Requisiti-Componenti}{section.6}% 64

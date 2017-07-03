@@ -1,6 +1,89 @@
 \section{Specifica Front-End}
-\subsection{Informazioni generali}
-
-
-\subsection{Classi}
-	
+	\subsection{SWEDesigner::Client}
+		\subsubsection{Informazioni generali}
+		\subsubsection{Classi}
+	\subsection{SWEDesigner::Client::Components}
+		\subsubsection{Informazioni generali}
+		\subsubsection{Classi}
+	\subsection{SWEDesigner::Client::Components::Activity-Frame}
+		\subsubsection{Informazioni generali}
+		\subsubsection{Classi}
+	\subsection{SWEDesigner::Client::Components::Editor}
+		\subsubsection{Informazioni generali}
+		\subsubsection{Classi}
+			\paragraph{SWEDesigner::Client::Components::Editor::Class-Menu}
+				\begin{itemize}
+          			\item \textbf{Descrizione:}\\
+          			\item \textbf{Utilizzo:}\\
+          			\item \textbf{Metodi:}\\
+          		\end{itemize}
+			\paragraph{SWEDesigner::Client::Components::Editor::Toolbar}
+				\begin{itemize}
+          			\item \textbf{Descrizione:}\\
+          			La classe si occupa di fornire una toolbar per l'inserimento degli elementi del diagramma delle attività o del diagramma delle classi.
+          			\item \textbf{Utilizzo:}\\
+          			Ogni volta che viene selezionato un elemento esso viene inserito sul grafico. Nel caso dei connettori occorre selezionare, successivamente al connettore, i due elementi da collegare.
+          			\item \textbf{Metodi:}\\
+          			\begin{itemize}
+          				\item \emph{+addClasse(): void}\\
+          				Il metodo aggiunge una classe di nome "Classe" nell'area di disegno;
+          				\item \emph{+addAstratta(): void}\\
+          				Il metodo aggiunge una classe astratta di nome "ClasseAstratta" nell'area di disegno;
+          				\item \emph{+addInterfaccia(): void}\\
+          				Il metodo aggiunge un interfaccia di nome "Interfaccia" nell'area di disegno;
+          				\item \emph{+addGeneralizzazione(): void}\\
+          				Il metodo seleziona il tipo di connettore "Generalizzazione";
+          				\item \emph{+addImplementazione(): void}\\
+          				Il metodo seleziona il tipo di connettore "Implementazione";
+          				\item \emph{+addCommento(): void}\\
+          				Il metodo aggiunge un elemento di tipo "Commento" nell'area di disegno;
+          				\item \emph{+addAssociazione(): void}\\
+          				Il metodo seleziona il tipo di connettore "Associazione";
+          				\item \emph{+addConnettore(cellView: any): void}\\
+          				Il metodo serve, in caso venga selezionato un connettore, a selezionare i due elementi da collegare con il connettore selezionato con uno dei metodi precedenti.
+          				\item \textbf{Parametri:}\\
+            				\begin{itemize}
+            					\item \emph{cellView: any}\\
+            					Elemento da selezionare per essere collegato con il connettore selezionato
+            				\end{itemize}
+          			\end{itemize}
+          		\end{itemize}
+	\subsection{SWEDesigner::Client::Components::Menu}
+		\subsubsection{Informazioni generali}
+		\subsubsection{Classi}
+			\paragraph{SWEDesigner::Client::Components::Menu::File}
+				\begin{itemize}
+          			\item \textbf{Descrizione:}\\
+          			\item \textbf{Utilizzo:}\\
+          			\item \textbf{Metodi:}\\
+          		\end{itemize}
+			\paragraph{SWEDesigner::Client::Components::Menu::Layer}
+				\begin{itemize}
+          			\item \textbf{Descrizione:}\\
+          			\item \textbf{Utilizzo:}\\
+          			\item \textbf{Metodi:}\\
+          		\end{itemize}
+			\paragraph{SWEDesigner::Client::Components::Menu::Modifica}
+				\begin{itemize}
+          			\item \textbf{Descrizione:}\\
+          			\item \textbf{Utilizzo:}\\
+          			\item \textbf{Metodi:}\\
+          		\end{itemize}
+			\paragraph{SWEDesigner::Client::Components::Menu::Profilo}
+				\begin{itemize}
+          			\item \textbf{Descrizione:}\\
+          			\item \textbf{Utilizzo:}\\
+          			\item \textbf{Metodi:}\\
+          		\end{itemize}
+			\paragraph{SWEDesigner::Client::Components::Menu::Progetto}
+				\begin{itemize}
+          			\item \textbf{Descrizione:}\\
+          			\item \textbf{Utilizzo:}\\
+          			\item \textbf{Metodi:}\\
+          		\end{itemize}
+			\paragraph{SWEDesigner::Client::Components::Menu::Template}
+				\begin{itemize}
+          			\item \textbf{Descrizione:}\\
+          			\item \textbf{Utilizzo:}\\
+          			\item \textbf{Metodi:}\\
+          		\end{itemize}
