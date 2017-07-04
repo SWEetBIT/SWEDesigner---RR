@@ -47,20 +47,20 @@
 \contentsline {subsubsection}{\numberline {4.2.2}Classi}{14}{subsubsection.4.2.2}
 \contentsline {paragraph}{\numberline {4.2.2.1}SWEDesigner::Server::Model::mongooseConnection}{14}{paragraph.4.2.2.1}
 \contentsline {paragraph}{\numberline {4.2.2.2}SWEDesiger::Server::Model::mongooseRequest}{15}{paragraph.4.2.2.2}
-\contentsline {subsection}{\numberline {4.3}SWEDesigner::Server::Controller::Middleware}{17}{subsection.4.3}
-\contentsline {subsubsection}{\numberline {4.3.1}Informazioni generali}{17}{subsubsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3}SWEDesigner::Server::Controller::Middleware}{18}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}Informazioni generali}{18}{subsubsection.4.3.1}
 \contentsline {subsubsection}{\numberline {4.3.2}Classi}{18}{subsubsection.4.3.2}
 \contentsline {paragraph}{\numberline {4.3.2.1}SWEDesigner::Server::Controller::Middleware::midLoader}{18}{paragraph.4.3.2.1}
-\contentsline {paragraph}{\numberline {4.3.2.2}SWEDesigner::Server::Controller::Middleware::Parse}{18}{paragraph.4.3.2.2}
-\contentsline {paragraph}{\numberline {4.3.2.3}SWEDesigner::Server::Controller:Middleware::Encrypt}{19}{paragraph.4.3.2.3}
-\contentsline {subsection}{\numberline {4.4}SWEDesigner::Server::Controller::Services}{20}{subsection.4.4}
-\contentsline {subsubsection}{\numberline {4.4.1}Informazioni generali}{20}{subsubsection.4.4.1}
-\contentsline {subsubsection}{\numberline {4.4.2}Classi}{20}{subsubsection.4.4.2}
-\contentsline {paragraph}{\numberline {4.4.2.1}SWEDesigner::Server::Controller::Services::parseService}{20}{paragraph.4.4.2.1}
-\contentsline {paragraph}{\numberline {4.4.2.2}SWEDesigner::Server::Controller::Services::encryptService}{21}{paragraph.4.4.2.2}
-\contentsline {section}{\numberline {5}Diagrammi di sequenza}{22}{section.5}
-\contentsline {section}{\numberline {6}Tracciamento}{23}{section.6}
-\contentsline {subsection}{\numberline {6.1}Tracciamento Classi-Requisiti}{23}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Tracciamento Requisiti-Classi}{23}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}Tracciamento Componenti-Requisiti}{23}{subsection.6.3}
-\contentsline {subsection}{\numberline {6.4}Tracciamento Requisiti-Componenti}{23}{subsection.6.4}
+\contentsline {paragraph}{\numberline {4.3.2.2}SWEDesigner::Server::Controller::Middleware::Parse}{19}{paragraph.4.3.2.2}
+\contentsline {paragraph}{\numberline {4.3.2.3}SWEDesigner::Server::Controller:Middleware::Encrypt}{20}{paragraph.4.3.2.3}
+\contentsline {subsection}{\numberline {4.4}SWEDesigner::Server::Controller::Services}{21}{subsection.4.4}
+\contentsline {subsubsection}{\numberline {4.4.1}Informazioni generali}{21}{subsubsection.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.2}Classi}{21}{subsubsection.4.4.2}
+\contentsline {paragraph}{\numberline {4.4.2.1}SWEDesigner::Server::Controller::Services::parseService}{21}{paragraph.4.4.2.1}
+\contentsline {paragraph}{\numberline {4.4.2.2}SWEDesigner::Server::Controller::Services::encryptService}{22}{paragraph.4.4.2.2}
+\contentsline {section}{\numberline {5}Diagrammi di sequenza}{24}{section.5}
+\contentsline {section}{\numberline {6}Tracciamento}{25}{section.6}
+\contentsline {subsection}{\numberline {6.1}Tracciamento Classi-Requisiti}{25}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Tracciamento Requisiti-Classi}{25}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Tracciamento Componenti-Requisiti}{25}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Tracciamento Requisiti-Componenti}{25}{subsection.6.4}
