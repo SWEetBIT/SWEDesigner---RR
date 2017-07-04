@@ -65,7 +65,6 @@ in seguito, Mongoose, che introduce una costruzione a schemi per le collections 
 \glossaryItem{MongoDB} e quindi vincola i documenti inseriti ad avere una struttura uniforme;
 \item \textbf{Nessun supporto per le transazioni}: sono supportate alcune operazioni atomiche,
 ma a livello di documento;
-\item \textbf{Nessun \glossaryItem{join}}: va simulato via codice attraverso query multiple;
 \item \textbf{Problemi di concorrenza}: per le operazioni di scrittura viene creato un lock
 sull’intero database. Questo lock blocca anche le operazioni di lettura.
 \end{itemize}
@@ -81,20 +80,19 @@ dati e per il cast dei tipi;
 \item \textbf{Permette di eseguire dei \glossaryItem{join} tra collections}: Sebbene non sia previsto da
 \glossaryItem{MongoDB}, \glossaryItem{mongoose} prevede la funzione populate per imitare la funzione di \glossaryItem{join} in modo completamente trasparente per l’utilizzatore;
 \item \textbf{Rapido ed intuitivo}: La strutturazione dei dati con questa libreria è rapida ed
-inutitiva, ciò dovuto anche dalla sintassi dichiarativa della libreria stessa.
+intuitiva, ciò dovuto anche dalla sintassi dichiarativa della libreria stessa.
 \end{itemize}
 
 \paragraph{Svantaggi}
 \begin{itemize}
-\item \textbf{Schema-based}: è basato sulla creazione di una forte schematizzazione per i
-documenti, e questo limita l’estrema flessibilità di \glossaryItem{MongoDB}.
+\item Non sono stati rilevati particolari svantaggi.
 \end{itemize}
 
 \subsubsection{Grunt}
 Si tratta di un JavaScript Task Runner che automatizza la compilazione e l'esecuzione dei test di unità.
 Mediante l'utilizzo di un \emph{gruntfile} è possibile pianificare delle attività che verranno svolte in maniera automatizzata in maniera tale da ottenere un notevole risparmio
 di tempo sul lavoro.\\
-Tale strumento si è rivelato piuttosto utile per riuscire ad integrare l'utilizzo della libreria grafica Draw2D all'interno di Angular 4 in quanto semplifica e automatizza il building
+Tale strumento si è rivelato piuttosto utile per riuscire ad integrare l'utilizzo della libreria grafica JointJS all'interno di Angular 4 in quanto semplifica e automatizza il building
 del progetto.
 \paragraph{Vantaggi}
 \begin{itemize}
@@ -152,19 +150,21 @@ Vengono di seguito descritte le \glossaryItem{librerie} aggiuntive utilizzate da
 \item \textbf{Codice articolato}: ciò potrebbe comportare, in caso di variazione dei requisiti, delle difficoltà delle successive modifiche.
 \end{itemize}
 
-	\subsubsection{Draw2D}
-	\textbf{Drwa2D} è una libreria \glossaryItem{JavaScript} di \glossaryItem{diagrammi} che consente di creare rapidamente applicazioni di grafici interattive e grafici che vengono eseguiti in modo nativo su tutti i browser principali.
+	\subsubsection{JointJS}
+	\textbf{JoniJS} è una libreria JavaScript per la creazione di diagrammi e grafici. I diagrammi possono essere completamente interattivi. L'API di JointJS è adatto sia per l'implementazione di uno strumento di diagramma sia per la semplice pubblicazione di diagrammi.
 
 \paragraph{Vantaggi}
 \begin{itemize}
-\item \textbf{Non sono necessari altri plug-in}: Ciò elimina i plug-in di dipendenza dai fornitori;
-\item \textbf{\glossaryItem{Open source}}:Le tecnologie coinvolte sono libere e ci sono molte implementazioni aperte, nessun fornitore può rimuovere un prodotto o una tecnologia che lascia in pratica la tua applicazione inoperabile;
-\item \textbf{Le tecnologie sono standardizzate}: L'applicazione è distribuibile al numero massimo di utenti del browser senza bisogno di ulteriori configurazioni o installazione sul computer \glossaryItem{client}. Gli ambienti aziendali di grandi dimensioni spesso non amano consentire agli individui di installare plug-in del \glossaryItem{browser} e non amano cambiare la build standard creata su tutte le macchine.
+\item Permette di collegare oggetti vettoriali con vari tipi di frecce;
+\item Possibilità di interagire con connessioni e oggetti;
+\item Elementi pronti per l'uso di schemi ben noti (per lo sviluppo di questo progetto interessa soprattutto UML);
+\item Diagrammi gerarchici;
+\item Possibilità di personalizzazione.
 \end{itemize}
 
 \paragraph{Svantaggi}
 \begin{itemize}
-\item \textbf{Aumento rapido di celle}: Poiché il numero di celle visibili sullo schermo degli utenti aumenta di centinaia, la valutazione rallenta oltre i limiti accettabili sulla maggior parte dei \glossaryItem{browser}. Nella teoria della gestione delle informazioni, visualizzare diverse centinaia di celle è generalmente sbagliato, in quanto l'utente non può interpretare i dati.
+\item Non sono stati rilevati particolari svantaggi.
 \end{itemize}
 
 \subsubsection{HTML5}
