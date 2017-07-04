@@ -266,3 +266,164 @@ Per il periodo di \textbf{Progettazione} non è stata applicata questa metrica.
 Per il periodo di \textbf{Progettazione} non è stata applicata questa metrica.
 
 \end{itemize} 
+
+
+
+
+
+\subsection{Revisione di Qualifica}
+  Prima della consegna relativa alla revisione di qualifica, sono stati verificati i processi che hanno portato alla stesura dei documenti e sono state applicate delle misurazioni per verificare la qualità del software prodotto. \\
+  Per i documenti è stata effettuata una verifica di tipo manuale, la quale consiste nella rilettura dei documenti per l'individuazione di errori di forma ed eventuali inconsistenze;
+  e una verifica automatizzata tramite gli strumenti definiti nel documento \emph{Norme di Progetto \VersioneNP{}}, di seguito citati per completezza:
+  \begin{itemize}
+    \item \glossaryItem{Script} \glossaryItem{Perl} per il calcolo dell’indice Gulpease
+    \item \glossaryItem{Script} \glossaryItem{Perl} per la glossarizzazione dei termini
+    \item Aspel
+  \end{itemize}
+  Per la verifica del software sono stati utilizzati dei software di controllo, descritti nelle \emph{Norme di Progetto \VersioneNP{}}.
+  \subsubsection{Dettaglio delle verifiche}
+    \paragraph{Progettazione di Dettaglio e Codifica}
+      \subparagraph{Processi}
+      Nella seguente tabella sono riportati i valori per la Schedule Variance(SV) e la Budget Variance(BV) riguardanti i processi del periodo di \textbf{Progettazione di Dettaglio e Codifica}.\\
+      \begin{itemize}
+      \item \textbf{Schedule Variance:} I range stabiliti sono:
+      \begin{itemize}
+        \item Range di accettabilità = [\(\geq\)-(\emph{141.25})];
+        \item Range di ottimalità = [\(\geq\)0].
+      \end{itemize}
+      
+      \item \textbf{Budget Variance:} I range stabiliti sono:
+      \begin{itemize}
+        \item Range di accettabilità = [\(\geq\)-(\emph{282.5})];
+        \item Range di ottimalità = [\(\geq\)0].
+      \end{itemize}
+      
+      
+      \end{itemize}
+     
+       
+      \begin{table}[H]
+        \centering
+        \begin{tabular}{|l|c|c|}
+          \hline
+          \textbf{Attività} &\textbf{SV}(Euro)  &\textbf{BV}(Euro) \\
+          \hline
+          Analisi dei requisiti  &0 &0  \\
+          Piano di progetto &0 &0\\
+          Piano di qualifica  &+10  &0\\
+          Norme di progetto &0  &0 \\
+          Studio di fattibilità &0  &0  \\
+          Glossario &0  &0  \\
+          Specifica Tecnica &0 &-85*\\
+          Definizione di Prodotto &0 &0\\
+          Codifica &0 &-40**\\
+          Manuale Utente &0 &0\\
+          \hline
+          \textbf{Totale} &10  &-125  \\
+          \hline
+        \end{tabular}
+        \caption{Indici SV e BV - Periodo di Progettazione di Dettaglio e Codifica}
+      \end{table}
+      Stando a quanto preventivato dal prospetto economico del \emph{Piano di Progetto \VersionePP{}}, il valore di SV rientra nel range di accettabilità stabilito (SV\(\geq\)-141.25 Euro) che in quello di ottimalità;
+      anche il valore di BV rientra nel range di accettabilità stabilito (BV\(\geq\)-282.5 Euro).
+      * è stato necessario allocare un numero maggiore di ore per la \emph{Specifica Tecnica} rispetto a quanto preventivato in seguito alla valutazione negativa, e alla conseguente richiesta di miglioramento ottenuta in sede di RP.
+      **è stato necessario allocare un numero maggiore di ore per la fase di codifica in quanto si sono riscontrati dei problemi hardware ad un terminale di uno sviluppatore.
+      
+      
+      \subparagraph{Documenti}
+      Nella tabella seguente sono riportati i valori dell'indice Gulpease per ogni documento prodotto nel periodo di Progettazione di Dettaglio e Codifica.\\
+
+\begin{itemize}
+\item \textbf{Indice Gulpease: }I range stabiliti sono:
+      \begin{itemize}
+        \item Range di accettabilità = [40-100];
+        \item Range di ottimalità = [50-100].
+      \end{itemize}
+\end{itemize}      
+      
+      
+      \begin{table}[H]
+        \centering
+        \begin{tabular}{|l|c|c|}
+          \hline
+          \textbf{Documento} &\textbf{Indice Gulpease} &\textbf{Esito}\\
+          \hline
+          Analisi dei requisiti &74.3  &Superato \\
+          Piano di progetto &51.1  &Superato \\
+          Piano di qualifica  &51.3  &Superato \\
+          Norme di progetto &50.7  &Superato \\
+          Studio di fattibilità &49.5  &Superato \\
+          Glossario &51.6  &Superato  \\
+          Verbali esterni &51.1  &Superato \\
+          Specifica Tecnica & & \\
+          Definizione di Prodotto & & \\
+          Manuale Utente & & \\
+          \hline
+        \end{tabular}
+        \caption{Indici Gulpease per i documenti - Periodo di Progettazione di Dettaglio e Codifica}
+      \end{table}
+
+\subparagraph{Software}
+\begin{itemize}
+\item \textbf{Complessità ciclomatica: }I range stabiliti sono:
+      \begin{itemize}
+        \item Range di accettabilità = [0-15];
+        \item Range di ottimalità = [0-10].
+        \item \textbf{Media: }4;
+        \item \textbf{Massimo: }12;
+      \end{itemize}
+
+\item \textbf{Variabili non utilizzate e/o non definite: }I range stabiliti sono:
+      \begin{itemize}
+        \item Range di accettabilità = [0-0];
+        \item Range di ottimalità = [0-0].
+        \item \textbf{Media: }0;
+        \item \textbf{Massimo: }0;
+      \end{itemize}
+
+\item \textbf{Numero di argomenti per funzione: }I range stabiliti sono:
+      \begin{itemize}
+        \item Range di accettabilità = [0-6];
+        \item Range di ottimalità = [0-4].
+        \item \textbf{Media: }2
+        \item \textbf{Massimo: }5;
+      \end{itemize}
+
+
+\item \textbf{Linee di codice per linee di commento: } I range stabiliti sono:
+      \begin{itemize}
+        \item Range di accettabilità = [>0.25];
+        \item Range di ottimalità = [>0.30].
+        \item \textbf{Media: }0.32;
+      \end{itemize}
+
+\item \textbf{Copertura requisiti desiderabili: }I range stabiliti sono:
+      \begin{itemize}
+        \item Range di accettabilità = [60\%-100\%];
+        \item Range di ottimalità = [70\%-100\%].
+        \item \textbf{Media: }65\%;
+      \end{itemize}
+      
+		\item \textbf{Profondità di annidamento: }I range stabiliti sono:
+      \begin{itemize}
+        \item Range di accettabilità = [0-7];
+        \item Range di ottimalità = [0-4].
+        \item \textbf{Media: }4;
+      \end{itemize}      
+      
+      
+      \item \textbf{Copertura requisiti obbligatori: }I range stabiliti sono:
+      \begin{itemize}
+        \item Range di accettabilità = [90\%-100\%];
+        \item Range di ottimalità = [100\%-100\%].
+        \item \textbf{Media: }95\%;
+      \end{itemize}
+      
+\item \textbf{Percentuale test superati: }I range stabiliti sono:
+      \begin{itemize}
+        \item Range di accettabilità = [100\%-100\%];
+        \item Range di ottimalità = [100\%-100\%].
+        \item \textbf{Media: }100\%;
+      \end{itemize}
+
+\end{itemize}
