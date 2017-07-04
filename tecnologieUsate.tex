@@ -1,0 +1,245 @@
+\section{Tecnologie utilizzate}
+L'architettura è stata progettata utilizzando lo stack di \textbf{\glossaryItem{MEAN}} (\url {http://mean.io/ } ),il quale comprende 4 tecnologie, alcune delle quali espressamente richieste nel \glossaryItem{capitolato} d’appalto. Vengono di seguito elencate e descritte le principali tecnologie impiegate comprese in \textbf{\glossaryItem{MEAN}} e le motivazioni del loro utilizzo:
+\begin{itemize}
+\item \textbf{Node.js 6.10}: piattaforma per il \glossaryItem{back-end};
+\item \textbf{Express.js}: \glossaryItem{framework} per la realizzazione dell’applicazione web in \glossaryItem{Node.js} ;
+\item \textbf{MongoDB}: \glossaryItem{database} di tipo \glossaryItem{NoSQL} per la parte di recupero e salvataggio dei dati;
+\item \textbf{Mongoose}: \glossaryItem{libreria} per interfacciarsi con il driver di \textbf{MongoDB};
+\item \textbf{Angular 4.0}: \glossaryItem{framework} \glossaryItem{JavaScript} per la realizzazione del \glossaryItem{front-end} .
+\end{itemize}
+
+	\subsection{Server}
+	\subsubsection{Node.js}
+\textbf{Node.js} è una \glossaryItem{piattaforma} software costruita sul motore \glossaryItem{JavaScript} di \glossaryItem{Chrome} che permette di realizzare facilmente applicazioni di rete scalabili e veloci. \glossaryItem{Node.js} utilizza \glossaryItem{JavaScript} come linguaggio di programmazione, e grazie al suo modello \glossaryItem{event-driven} con chiamate di input/output non bloccanti risulta essere leggero e efficiente.
+
+\paragraph{Vantaggi}
+\begin{itemize}
+\item \textbf{Approccio asincrono}: \glossaryItem{Node.js} permette di accedere alle risorse del sistema operativo in modalità \glossaryItem{event-driven} e non sfruttando il classico modello basato su processi concorrenti utilizzato dai classici web \glossaryItem{server}. Ciò garantisce una maggiore efficienza in termini di prestazioni, poiché durante le attese il runtime può gestire qualcos’altro in maniera asincrona;
+\item \textbf{Architettura modulare}: Lavorando con \glossaryItem{Node.js} è molto facile organizzare il lavoro in librerie, importare i \glossaryItem{moduli} e combinarli fra loro.Questo è reso molto comodo attraverso il \glossaryItem{node package manager} (\textbf{npm}) attraverso il quale lo sviluppatore può contribuire e accedere ai \glossaryItem{package} messi a disposizione dalla community.
+\end{itemize}
+
+\paragraph{Svantaggi}
+\begin{itemize}
+\item \textbf{Programmazione Asincrona}: nonostante questo aspetto è stato inserito anche nei vantaggi, la natura asincrona rende più complessa la comprensione.
+\end{itemize}
+
+	\subsubsection{Expressjs}
+\textbf{Expressjs} è un \glossaryItem{framework} minimale per creare  \glossaryItem{Web App} con \glossaryItem{Node.js}. Richiede \glossaryItem{moduli} Node di terze parti per applicazioni che prevedono l'interazione con le \glossaryItem{database}.
+È stato utilizzato il \glossaryItem{framework} \glossaryItem{Expressjs} per supportare lo sviluppo dell'application \glossaryItem{server} grazie alle utili e robuste caratteristiche da esso offerte, le quali sono pensate per non oscurare le funzionalità fornite da \glossaryItem{Node.js} aprendo così le porte all'utilizzo di moduli per \glossaryItem{Node.js} atti a supportare specifiche funzionalità.
+
+\paragraph{Vantaggi}
+\begin{itemize}
+\item \textbf{Minimale}: si basa su \glossaryItem{Node.js} e permette di estenderlo a seconda dei bisogni
+dell’applicazione;
+\item\textbf{Documentazione}: esaustiva e completa;
+\item\textbf{Apprendimento}: facile da imparare.
+\end{itemize}
+
+\paragraph{Svantaggi}
+\begin{itemize}
+\item \textbf{Integrazione}: richiede di integrare \glossaryItem{moduli} diversi per comporre l’applicazione
+finale. Altri \glossaryItem{framework} permettono di definire \glossaryItem{API} (Application Programming
+Interface) \glossaryItem{REST} (REpresentational State Transfer) in modo semplice, ma vincolano
+maggiormente nelle scelte progettuali.
+\end{itemize}
+
+
+	\subsubsection{MongoDB}
+\textbf{\glossaryItem{MongoDB}} è un \glossaryItem{database} \glossaryItem{NoSQL} \glossaryItem{open source} scalabile e altamente performante di tipo document-oriented, in cui i dati sono archiviati sotto forma di documenti in stile \glossaryItem{JSON} con schemi dinamici, secondo una struttura semplice e potente. \\
+
+\paragraph{Vantaggi}
+ \begin{itemize}
+
+\item \textbf{Alte performance}: non ci sono join che possono rallentare le operazioni di lettura o scrittura. L'indicizzazione include gli indici di chiave anche sui documenti innestati e sugli array, permettendo una rapida interrogazione al \glossaryItem{database};
+\item \textbf{Affidabilità}: alto meccanismo di replicazione su server;
+\item Permette di definire query complesse utilizzando un linguaggio che non è \glossaryItem{SQL};
+\item Permette di processare parallelamente i dati (\glossaryItem{Map-Reduce});
+\end{itemize}
+
+\paragraph{Svantaggi}
+\begin{itemize}
+\item \textbf{Flessibilità}: per i tipi di dato. Sebbene questo possa essere visto come vantaggio,
+è opinione del team che un’eccessiva flessibilità possa portare più problemi che
+benefici: allo scopo di aggiungere rigidità è stato infatti scelto, come verrà descritto
+in seguito, Mongoose, che introduce una costruzione a schemi per le collections di
+\glossaryItem{MongoDB} e quindi vincola i documenti inseriti ad avere una struttura uniforme;
+\item \textbf{Nessun supporto per le transazioni}: sono supportate alcune operazioni atomiche,
+ma a livello di documento;
+\item \textbf{Problemi di concorrenza}: per le operazioni di scrittura viene creato un lock
+sull’intero database. Questo lock blocca anche le operazioni di lettura.
+\end{itemize}
+	\subsubsection{Mongoose}
+\textbf{Mongoose} è una \glossaryItem{libreria} per interfacciarsi a \glossaryItem{MongoDB} che permette di definire degli schemi per modellare i dati del \glossaryItem{database}, imponendo una certa struttura per la creazione di nuovi Document . Inoltre fornisce molti strumenti utili per la validazione dei dati, per la definizione di query e per il cast dei tipi predefiniti.
+Per interfacciare l'application \glossaryItem{server} con \glossaryItem{MongoDB} sono disponibili diversi progetti \glossaryItem{open source}. Per questo progetto è stato scelto di utilizzare \glossaryItem{Mongoose.js} , attualmente il più di uso.
+
+\paragraph{Vantaggi}
+\begin{itemize}
+\item \textbf{Diffusione}: è la libreria più diffusa per interfacciarsi con \glossaryItem{MongoDB};
+\item \textbf{Funzionalità aggiuntive}: permette di definire strumenti per la validazione dei
+dati e per il cast dei tipi;
+\item \textbf{Permette di eseguire dei \glossaryItem{join} tra collections}: Sebbene non sia previsto da
+\glossaryItem{MongoDB}, \glossaryItem{mongoose} prevede la funzione populate per imitare la funzione di \glossaryItem{join} in modo completamente trasparente per l’utilizzatore;
+\item \textbf{Rapido ed intuitivo}: La strutturazione dei dati con questa libreria è rapida ed
+intuitiva, ciò dovuto anche dalla sintassi dichiarativa della libreria stessa.
+\end{itemize}
+
+\paragraph{Svantaggi}
+\begin{itemize}
+\item Non sono stati rilevati particolari svantaggi.
+\end{itemize}
+
+\subsubsection{Grunt}
+Si tratta di un JavaScript Task Runner che automatizza la compilazione e l'esecuzione dei test di unità.
+Mediante l'utilizzo di un \emph{gruntfile} è possibile pianificare delle attività che verranno svolte in maniera automatizzata in maniera tale da ottenere un notevole risparmio
+di tempo sul lavoro.\\
+Tale strumento si è rivelato piuttosto utile per riuscire ad integrare l'utilizzo della libreria grafica JointJS all'interno di Angular 4 in quanto semplifica e automatizza il building
+del progetto.
+\paragraph{Vantaggi}
+\begin{itemize}
+\item Utilizzando Grunt è possibile eseguire facilmente la compilazione e la verifica dei file;
+\item Grunt unifica i flussi di lavoro degli sviluppatori web;
+\item Puoi facilmente lavorare con un nuovo codice base utilizzando Grunt perché contiene meno infrastrutture;
+\item Accelera il flusso di lavoro di sviluppo e migliora le prestazioni dei progetti.
+\end{itemize}
+
+\paragraph{Svantaggi}
+\begin{itemize}
+\item Ogni volta che i pacchetti npm vengono aggiornati, è necessario attendere l'aggiornamento dell'autore del Grunt.
+
+\item Ogni attività è progettata per fare un lavoro specificato. Se si desidera estendere un'operazione specificata, è necessario utilizzare alcuni trucchi per ottenere il lavoro svolto.
+
+\item Grunt include un gran numero di parametri di configurazione per singoli plugin. Di solito, i file di configurazione Grunt sono più lunghi.
+
+\end{itemize}
+
+
+\subsection{Librerie}
+Vengono di seguito descritte le \glossaryItem{librerie} aggiuntive utilizzate dal \glossaryItem{back-end}. La scelta è stata effettuata cercando di valutare la diffusione, il livello di stabilità, l'assenza di errori noti.
+
+	\subsubsection{Mustache}
+\textbf{Mustache} è un \glossaryItem{template} engine che permette di espandere tags all'interno di un \glossaryItem{template}, racchiusi da 2 parentesi graffe,usando valori forniti da oggetti.
+
+	\paragraph{Vantaggi}
+\begin{itemize}
+	\item Fornisce una sintassi pulita e di facile comprensione. Avere una sintassi leggibile è sempre un vantaggio enorme, in quanto ciò significa una manutenzione più facile e una maggiore leggibilità del codice in futuro;
+	\item Open source;
+	\item I templates di Mustache possono essere compilati in file JS, in modo che possano essere direttamente caricati.
+\end{itemize}	
+
+	\paragraph{Svantaggi}
+	\begin{itemize}
+	\item Non sono stati rilevati particolari svantaggi.
+	\end{itemize}
+	
+	
+
+
+	\subsubsection{Passport:} \label{passport} È un \glossaryItem{middleware} di autenticazione per \glossaryItem{Node.js}. Estremamente flessibile e modulare, Passport può essere facilmente inserito in qualsiasi applicazione web basata su \glossaryItem{Expressjs}.
+	\paragraph{Vantaggi}
+	\begin{itemize}
+	\item Facile integrazione con Expressjs;
+	\item Flessibile e modulare;
+	\item Serializzazione dell'utente autenticato;
+	\item Gestione della sessione.
+	\end{itemize}
+	
+	\paragraph{Svantaggi}
+	\begin{itemize}
+	\item Non sono stati rilevati particolari svantaggi.
+	\end{itemize}
+
+	\subsubsection{BodyParser:} \glossaryItem{Modulo} di terze parti per la corretta lettura delle informazioni contenute nel body delle richieste \glossaryItem{HTTP}; viene utilizzato come \glossaryItem{middleware} per {Expressjs} e si occupa della corretta lettura delle informazioni contenute nel body di una richiesta \glossaryItem{HTTP}. Nel nostro caso verrà impiegato per la lettura dei dati del body in formato \glossaryItem{JSON}.
+	\paragraph{Vantaggi}
+	\begin{itemize}
+	\item Analizza le richieste del body prima degli altri gestori, e le rende disponibili sotto la proprietà req.body.
+	\end{itemize}
+	\paragraph{Svantaggi}
+		\begin{itemize}
+	\item Non è in grado di gestire body multipli a causa della loro natura complessa e tipicamente di grandi dimensioni.
+	\end{itemize}
+
+	\subsubsection{Forge:} È un \glossaryItem{modulo} in \glossaryItem{Javascript} che fornisce funzionalità di criptografia per la sicurezza e un set di strumenti per la realizzazione di \glossaryItem{Web app}.
+
+	\subsubsection{PassportJWT:} È un \glossaryItem{modulo} che fornisce una strategia Passport(\S\ref{3.2}) per l'autenticazione con un \glossaryItem{JSON} Web Token, che è una tecnica compatta per trasmettere in modo sicuro le informazioni tra 2 oggetti \glossaryItem{JSON}.
+	\paragraph{Vantaggi}
+	\begin{itemize}
+	\item Richiede l'utilizzo di meno query, e ciò implica tempi di risposta più rapidi.	
+	\end{itemize}
+
+	\paragraph{Svantaggi}
+	\begin{itemize}
+	\item Si basa su una sola chiave, quindi c'è un maggior rischio di compromettere tutti i dati;
+	\item La comprensione è complicata, se il programmatore non ha conoscenze di criptografia c'è il rischio di grandi lacune nella sicurezza del sistema.
+	\end{itemize}
+	\subsubsection{Bcrypt:} È una \glossaryItem{libreria} in \glossaryItem{Javascript} che utilizza la funzione di \glossaryItem{hash}ing per criptare le password.
+	\paragraph{Vantaggi}
+		\begin{itemize}
+		\item Difficoltà per un utente malintenzionato nel forzare una password grazie alla funzione di hashing.
+		\end{itemize}
+		
+		\paragraph{Svantaggi}
+		\begin{itemize}
+		\item Non è stato rilevato nessuno svantaggio rilevante.
+		\end{itemize}
+\subsection{Client}
+
+	\subsubsection{Angular 4.0}
+	\textbf{Angular 4.0} è un \glossaryItem{framework} web \glossaryItem{open source} per lo sviluppo di applicazioni Web lato client; utile a semplificare la realizzazione di applicazioni web, come ad esempio le Single Page Application, cioè applicazioni le cui risorse vengono caricate dinamicamente su richiesta, senza necessità di ricaricare l’intera pagina.
+
+\paragraph{Vantaggi}
+\begin{itemize}
+\item \textbf{Velocità}: Riduce in maniera considerevole il codice necessario a realizzare applicazioni \glossaryItem{HTML}/\glossaryItem{JavaScript};
+\item \textbf{Ampia documentazione disponibile};
+\item \textbf{Data Binding bidirezionale}: approccio automatico per aggiornare la vista ogniqualvolta il model cambia e viceversa. Ciò semplifica lo sviluppo eliminando la necessità di manipolare il \glossaryItem{DOM};
+\item \textbf{Sviluppato per facilitare la fase di test};
+\item \textbf{Direttive}: caratteristica peculiare di Angular e permettono di estendere la sintassi \glossaryItem{HTML} , creando dei componenti specifici per la propria applicazione e facilmente riutilizzabili;
+\end{itemize}
+
+\paragraph{Svantaggi}
+\begin{itemize}
+\item \textbf{Maggior studio}: curva di apprendimento più ripida rispetto ad altri \glossaryItem{framework};
+\item \textbf{Codice articolato}: ciò potrebbe comportare, in caso di variazione dei requisiti, delle difficoltà delle successive modifiche.
+\end{itemize}
+
+	\subsubsection{JointJS}
+	\textbf{JoniJS} è una libreria JavaScript per la creazione di diagrammi e grafici. I diagrammi possono essere completamente interattivi. L'API di JointJS è adatto sia per l'implementazione di uno strumento di diagramma sia per la semplice pubblicazione di diagrammi.
+
+\paragraph{Vantaggi}
+\begin{itemize}
+\item Permette di collegare oggetti vettoriali con vari tipi di frecce;
+\item Possibilità di interagire con connessioni e oggetti;
+\item Elementi pronti per l'uso di schemi ben noti (per lo sviluppo di questo progetto interessa soprattutto UML);
+\item Diagrammi gerarchici;
+\item Possibilità di personalizzazione.
+\end{itemize}
+
+\paragraph{Svantaggi}
+\begin{itemize}
+\item Non sono stati rilevati particolari svantaggi.
+\end{itemize}
+
+\subsubsection{HTML5}
+È un linguaggio di markup per la strutturazione delle pagine web, pubblicato come W3C Recommendation da ottobre 2014. L’uso di HTML5 rispetto a XHTML
+(e\textbf{X}tensible \textbf{H}yper\textbf{T}ext \textbf{M}arkup \textbf{L}anguage) è stato deciso all'unanimità dal gruppo.
+
+\paragraph{Vantaggi}
+\begin{itemize}
+\item Raccomandazione W3C;
+\item reazione di pagine interattive: soprattutto se usato insieme a CSS.
+\end{itemize}
+
+\paragraph{Svantaggi}
+\begin{itemize}
+\item Supporto: non tutti i browser lo supportano allo stesso modo, e non tutte le caratteristiche definite sono ancora completamente supportate.
+\end{itemize}
+
+\subsubsection{CSS3}
+È un linguaggio utilizzato per definire la formattazione di documenti HTML.
+Le regole per la composizione di un foglio di stile CSS sono definite dal W3C
+a partire dal 1996. Inoltre permette di separare i contenuti delle pagine HTML dalla loro formattazione, assicurando una maggiore manutenibilità e riutilizzo.
+
+\paragraph{Vantaggi}
+\begin{itemize}
+\item Separazione tra contenuto e presentazione;
+\item Raccomandato da W3C.
+\end{itemize}
