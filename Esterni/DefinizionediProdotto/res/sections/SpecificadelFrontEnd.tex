@@ -1,50 +1,115 @@
 \section{Specifica Front-End}
 	\subsection{SWEDesigner::Client}
 		\subsubsection{Informazioni generali}
+			\begin{itemize}
+          		\item \textbf{Descrizione:}\\
+          		Questo package racchiude tutta la componente di Front-end scritta in TypeScript.
+          		\item \textbf{Padre:} SWEDesigner
+          		\item \textbf{Package contenuti:}\\
+          		\begin{itemize}
+          			\item Components\\
+          			Questo package contiene tutti i components dell’applicazione
+          			\item Services\\
+          			Questo package contiene i servizi per le operazioni di iterazione tra i components e
+il server
+          		\end{itemize}
+          	\end{itemize}
 		\subsubsection{Classi}
 	\subsection{SWEDesigner::Client::Components}
 		\subsubsection{Informazioni generali}
+			\begin{itemize}
+          		\item \textbf{Descrizione:}\\
+          		Questo package contiene tutti i components dell’applicazione.
+          		\item \textbf{Padre:} SWEDesigner::Client
+          		\item \textbf{Package contenuti:}\\
+          		\begin{itemize}
+          			\item Menu\\
+          			Il package contiene tutti i components riguardanti la gestione delle funzionalità fornite dal menu.
+          			\item Editor\\
+          			Il package contiene tutte le components riguardanti l’editor dei diagrammi.
+          			\item ActivityFrame\\
+          			Il package contiene i components riguardanti la gestione dell’activity frame, per la visione del flusso del programma.
+          		\end{itemize}
+          	\end{itemize}
 		\subsubsection{Classi}
 			\paragraph{SWEDesigner::Client::Components::AppComponent}
 				\begin{itemize}
           			\item \textbf{Descrizione:}\\
+          			Questo component descrive un contenitore per la barra di navigazione e le altre componenti dell’applicazione le quali sono istanziate dinamicamente all’interno del template http.
           			\item \textbf{Utilizzo:}\\
+          			AppComponent è il primo component che viene istanziato tramite bootsrap.
           			\item \textbf{Metodi:}\\
           		\end{itemize}
 			\paragraph{SWEDesigner::Client::Components::NavbarComponent}
 				\begin{itemize}
           			\item \textbf{Descrizione:}\\
+          			Questo component permette la navigazione all’interno dell’applicazione tramite links.
           			\item \textbf{Utilizzo:}\\
+          			NavbarComponent è istanziato per bootstrap subito dopo dell’AppComponent.
           			\item \textbf{Metodi:}\\
           		\end{itemize}
 			\paragraph{SWEDesigner::Client::Components::RegistrationComponent}
 				\begin{itemize}
           			\item \textbf{Descrizione:}\\
+          			È il componente che descrive la pagina di registrazione dell’applicazione, mette a disposizione dell’utente un form dove iserire le informazioni necessarie alla creazione di un nuovo account utente. Gestisce le operazioni e la logica applicativa per la registrazione servendosi dei metodi forniti dal servizio AuthenticationService.
           			\item \textbf{Utilizzo:}\\
+          			Questo componente viene istanziato dinamicamente dal servizio Router del framework Angular quando viene richiesta la pagina di registrazione.
           			\item \textbf{Metodi:}\\
           		\end{itemize}
 			\paragraph{SWEDesigner::Client::Components::LoginComponent}
 				\begin{itemize}
           			\item \textbf{Descrizione:}\\
+          			È il componente che descrive la pagina di login dell’applicazione, mette a disposizione dell’utente un form dove inserire username e password. Gestisce le operazioni e la logica applicativa per il login servendosi dei metodi forniti dal servizio AuthenticationService.
           			\item \textbf{Utilizzo:}\\
+          			Questo componente viene istanziato dinamicamente dal servizio Router del framework Angular qunado viene richiesta la pagina di login.
           			\item \textbf{Metodi:}\\
           		\end{itemize}
 	\subsection{SWEDesigner::Client::Components::ActivityFrame}
 		\subsubsection{Informazioni generali}
+			\begin{itemize}
+          		\item \textbf{Descrizione:}\\
+          		Questo package contiene i components riguardanti la gestione dell’activity frame, per la visione del flusso del programma.
+          		\item \textbf{Padre:} SWEDesigner::Client::Components
+          	\end{itemize}
 		\subsubsection{Classi}
+			\paragraph{SWEDesigner::Client::Components::Editor::ActivityFrame::ActivityFrameComponent}
+				\begin{itemize}
+          			\item \textbf{Descrizione:}\\
+          			Component che descrive la struttura del frame dove l’utente può visualizzare l’activity frame che rappresenta il flusso logico del programma.
+          			\item \textbf{Utilizzo:}\\
+          			Questo component viene istanziato per bootstrap dopo l’istanziazione del component AppComponent.
+          			\item \textbf{Metodi:}\\
+          		\end{itemize}
 	\subsection{SWEDesigner::Client::Components::Editor}
 		\subsubsection{Informazioni generali}
+			\begin{itemize}
+          		\item \textbf{Descrizione:}\\
+          		Il package contiene tutte le components riguardanti l’editor dei diagrammi.
+          		\item \textbf{Padre:} SWEDesigner::Client::Components
+          	\end{itemize}
 		\subsubsection{Classi}
 			\paragraph{SWEDesigner::Client::Components::Editor::ClassMenuComponent}
 				\begin{itemize}
           			\item \textbf{Descrizione:}\\
+          			Questo component descrive il menu dal quale l’utente può selezionare gli strumenti per disegnare i diagrammi all’interno degli appositi frame. Si occupa delle operazioni e della parte logica, riguardante la costruzione dei diagrammi, servendosi dei metodi forniti delle API della libreria grafica.
           			\item \textbf{Utilizzo:}\\
+          			Questo componente viene istanziato per bootstrap dopo che è stato istanziato il component AppComponent.
           			\item \textbf{Metodi:}\\
           		\end{itemize}
           	\paragraph{SWEDesigner::Client::Components::Editor::EditorComponent}
 				\begin{itemize}
           			\item \textbf{Descrizione:}\\
+          			Questo componente contiene la rappresentazione grafica dei diagrammi disegnati dall’utente.
           			\item \textbf{Utilizzo:}\\
+          			Questo componente viene instanziato dinamicamente dal servizio Router del framework Angular quando viene richiesta la pagina dell’editor diagrammi.
+          			\item \textbf{Metodi:}\\
+          		\end{itemize}
+          	\paragraph{SWEDesigner::Client::Components::Editor::ClassMenuComponent}
+				\begin{itemize}
+          			\item \textbf{Descrizione:}\\
+          			Questo component permette la modifica dei campi dati di un oggetto selezionato nell’editorComponent.
+          			\item \textbf{Utilizzo:}\\
+          			Questo component è figlio di editorComponent viene visualizzato quando viene selezionato un elemento editabile nell’editorComponent.
           			\item \textbf{Metodi:}\\
           		\end{itemize}
 			\paragraph{SWEDesigner::Client::Components::Editor::ToolbarComponent}
@@ -80,130 +145,191 @@
           		\end{itemize}
 	\subsection{SWEDesigner::Client::Components::Menu}
 		\subsubsection{Informazioni generali}
+			\begin{itemize}
+          		\item \textbf{Descrizione:}\\
+          		Il package contiene tutti i components riguardanti la gestione delle funzionalità fornite dal menu.
+          		\item \textbf{Padre:} SWEDesigner::Client::Components
+          	\end{itemize}
 		\subsubsection{Classi}
 			\paragraph{SWEDesigner::Client::Components::Menu::MenuComponent}
 				\begin{itemize}
           			\item \textbf{Descrizione:}\\
+          			Component che contiene l’insieme di funzionalità fornite all’utente per la gestione dei progetti, dei propri dati personali, e della rappresentazione dei grafici su cui sta lavorando.
           			\item \textbf{Utilizzo:}\\
+          			Component che viene istanziato per bootstrap dopo che è stato istanziato il component appComponent.
           			\item \textbf{Metodi:}\\
           		\end{itemize}
 			\paragraph{SWEDesigner::Client::Components::Menu::FileComponent}
 				\begin{itemize}
           			\item \textbf{Descrizione:}\\
+          			Component che contiene l’insieme di funzionalità fornite all’utente per la gestione del progetto attualmente in uso.
           			\item \textbf{Utilizzo:}\\
+          			Component che viene istanziato per bootstrap dopo che è stato istanziato il component menuComponent.
           			\item \textbf{Metodi:}\\
           		\end{itemize}
 			\paragraph{SWEDesigner::Client::Components::Menu::LayerComponent}
 				\begin{itemize}
           			\item \textbf{Descrizione:}\\
+          			Component che contiene l’insieme di funzionalità fornite all’utente per la gestione dei layer del progetto in uso.
           			\item \textbf{Utilizzo:}\\
+          			Component che viene istanziato per bootstrap dopo che è stato istanziato il component menuComponent.
           			\item \textbf{Metodi:}\\
           		\end{itemize}
 			\paragraph{SWEDesigner::Client::Components::Menu::ProgettoComponent}
 				\begin{itemize}
           			\item \textbf{Descrizione:}\\
+          			Component che contiene l’insieme di funzionalità fornite all’utente per la gestione dei propri progetti salvati.
           			\item \textbf{Utilizzo:}\\
+          			progettoComponent viene istanziato per bootstrap dopo che è stato istanziato il component menuComponent.
           			\item \textbf{Metodi:}\\
           		\end{itemize}
 			\paragraph{SWEDesigner::Client::Components::Menu::ProfiloComponent}
 				\begin{itemize}
           			\item \textbf{Descrizione:}\\
+          			Component che contiene l’insieme di funzionalità fornite all’utente per la gestione dei propri dati personali.
           			\item \textbf{Utilizzo:}\\
+          			Component che viene istanziato per bootstrap dopo che è stato istanziato il component menuComponent.
           			\item \textbf{Metodi:}\\
           		\end{itemize}
 			\paragraph{SWEDesigner::Client::Components::Menu::ModificaComponent}
 				\begin{itemize}
           			\item \textbf{Descrizione:}\\
+          			Component che contiene l’insieme di funzionalità fornite all’utente per la modifica del progetto in uso, come ad esempio effettuare lo zoom, oppure eliminare o copiare un elemento selezionato.
           			\item \textbf{Utilizzo:}\\
+          			Component che viene istanziato per bootstrap dopo che è stato istanziato il component menuComponent.
           			\item \textbf{Metodi:}\\
           		\end{itemize}
           	\paragraph{SWEDesigner::Client::Components::Menu::TemplateComponent}
 				\begin{itemize}
           			\item \textbf{Descrizione:}\\
+          			Component che contiene l’insieme di funzionalità fornite all’utente per l’importazione e gestione dei template.
           			\item \textbf{Utilizzo:}\\
+          			Component che viene istanziato per bootstrap dopo che è stato istanziato il component menuComponent.
           			\item \textbf{Metodi:}\\
           		\end{itemize}
     \subsection{SWEDesigner::Client::Services}
 		\subsubsection{Informazioni generali}
+			\begin{itemize}
+          		\item \textbf{Descrizione:}\\
+          		Il package contiene i servizi per le operazioni di iterazione tra i component e il server.
+          		\item \textbf{Padre:} SWEDesigner::Client
+          		\item \textbf{Package contenuti:}\\
+          		\begin{itemize}
+          			\item Models\\
+          			Il package contiene moduli necessari a storicizzare i dati inseriti all’interno dei diagrammi.
+          		\end{itemize}
+          	\end{itemize}
 		\subsubsection{Classi}
 			\paragraph{SWEDesigner::Client::Services::MenuService}
 				\begin{itemize}
           			\item \textbf{Descrizione:}\\
+          			Classe che definisce i metodi per le operazioni fornite all’utente dal menu.
           			\item \textbf{Utilizzo:}\\
+          			É istaziata dal framework Angular e i suoi metodi sono utilizzati dal component menuComponent.
           			\item \textbf{Metodi:}\\
           		\end{itemize}
           	\paragraph{SWEDesigner::Client::Services::EditorService}
 				\begin{itemize}
           			\item \textbf{Descrizione:}\\
+          			Classe che definisce i metodi per le operazioni all’interno dei diagrammi e la comunicazione tra componenti e server.
           			\item \textbf{Utilizzo:}\\
+          			É istaziata dal framework Angular e i suoi metodi sono utilizzati dai component editorComponent e classMenuComponent.
           			\item \textbf{Metodi:}\\
           		\end{itemize}
           	\paragraph{SWEDesigner::Client::Services::ToolbarService}
 				\begin{itemize}
           			\item \textbf{Descrizione:}\\
+          			Classe che definisce i metodi per le operazioni di inserimento di nuovi elementi all’interno dell’editor di diagrammi.
           			\item \textbf{Utilizzo:}\\
+          			É istaziata dal framework Angular e i suoi metodi sono utilizzati dal component editorComponent.
           			\item \textbf{Metodi:}\\
           		\end{itemize}
           	\paragraph{SWEDesigner::Client::Services::ActivityFrameService}
 				\begin{itemize}
           			\item \textbf{Descrizione:}\\
+          			Classe che definisce i metodi per le operazioni di navigazione tra i metodi all’interno dell’activity frame.
           			\item \textbf{Utilizzo:}\\
+          			É istaziata dal framework Angular e i suoi metodi sono utilizzati dal component activityFrameComponent.
           			\item \textbf{Metodi:}\\
           		\end{itemize}
           	\paragraph{SWEDesigner::Client::Services::ClassMenuService}
 				\begin{itemize}
           			\item \textbf{Descrizione:}\\
+          			Classe che definisce i metodi per le operazioni di modifica di un elemento selezionato all’interno del diagramma rappresentato.
           			\item \textbf{Utilizzo:}\\
+          			É istaziata dal framework Angular e i suoi metodi sono utilizzati dal component classMenuService.
           			\item \textbf{Metodi:}\\
           		\end{itemize}
           	\paragraph{SWEDesigner::Client::Services::AccountService}
 				\begin{itemize}
           			\item \textbf{Descrizione:}\\
+          			Classe che definisce i metodi di registrazione, login e recupero dati utente dal server.
           			\item \textbf{Utilizzo:}\\
+          			É istaziata dal framework Angular e i suoi metodi sono utilizzati dai component registrationComponent e loginComponent.
           			\item \textbf{Metodi:}\\
           		\end{itemize}
 	\subsection{SWEDesigner::Client::Services::Models}
 		\subsubsection{Informazioni generali}
+			\begin{itemize}
+          		\item \textbf{Descrizione:}\\
+          		Il package contiene moduli necessari a storicizzare i dati inseriti all’interno
+dei diagrammi.
+          		\item \textbf{Padre:} SWEDesigner::Client::Services
+          	\end{itemize}
 		\subsubsection{Classi}
 			\paragraph{SWEDesigner::Client::Services::Param}
 				\begin{itemize}
           			\item \textbf{Descrizione:}\\
+          			Classe che definisce i metodi di settaggio e richiesta dei parametri nome e tipo.
           			\item \textbf{Utilizzo:}\\
+          			É istaziata dal framework Angular e i suoi metodi sono utilizzati dal model attributo.
           			\item \textbf{Metodi:}\\
           		\end{itemize}
           	\paragraph{SWEDesigner::Client::Services::Attributo}
 				\begin{itemize}
           			\item \textbf{Descrizione:}\\
+          			Classe derivata da Param che definisce i metodi di settaggio e richiesta dei parametri di visibilità.
           			\item \textbf{Utilizzo:}\\
+          			É istaziata dal framework Angular e i suoi metodi sono utilizzati dal model classe.
           			\item \textbf{Metodi:}\\
           		\end{itemize}
           	\paragraph{SWEDesigner::Client::Services::Metodo}
 				\begin{itemize}
           			\item \textbf{Descrizione:}\\
+          			Classe che definisce i metodi di settaggio e richiesta dei metodi definiti all’interno dei diagrammi.
           			\item \textbf{Utilizzo:}\\
+          			É istaziata dal framework Angular e i suoi metodi sono utilizzati dal model classe.
           			\item \textbf{Metodi:}\\
           		\end{itemize}
           	\paragraph{SWEDesigner::Client::Services::Classe}
 				\begin{itemize}
           			\item \textbf{Descrizione:}\\
+          			Classe che definisce i metodi di settaggio e richiesta di tutti gli elementi che sono contenuti in una classe. Contiene un array di metodi, con le relative rappresentazioni grafiche dei metodi implementati, e un array di attributi, oltre ai campi utili all’identificazione della classe.
           			\item \textbf{Utilizzo:}\\
+          			É istaziata dal framework Angular e i suoi metodi sono utilizzati dal model global.
           			\item \textbf{Metodi:}\\
           		\end{itemize}
           	\paragraph{SWEDesigner::Client::Services::ClasseAstratta}
 				\begin{itemize}
           			\item \textbf{Descrizione:}\\
+          			Classe derivata da classe che definisce i metodi di settaggio e richiesta dei parametri di una classe astratta.
           			\item \textbf{Utilizzo:}\\
+          			É istaziata dal framework Angular e i suoi metodi sono utilizzati dal model global.
           			\item \textbf{Metodi:}\\
           		\end{itemize}
           	\paragraph{SWEDesigner::Client::Services::Interface}
 				\begin{itemize}
           			\item \textbf{Descrizione:}\\
+          			Classe derivata da classe che definisce i metodi di settaggio e richiesta dei parametri di una interface.
           			\item \textbf{Utilizzo:}\\
+          			É istaziata dal framework Angular e i suoi metodi sono utilizzati dal model global.
           			\item \textbf{Metodi:}\\
           		\end{itemize}
           	\paragraph{SWEDesigner::Client::Services::Global}
 				\begin{itemize}
           			\item \textbf{Descrizione:}\\
+          			Classe che definisce i metodi di settaggio e richiesta di tutte le classi contenenti nel diagramma delle classi.
           			\item \textbf{Utilizzo:}\\
+          			É istaziata dal framework Angular e i suoi metodi sono utilizzati dal servizio editorService.
           			\item \textbf{Metodi:}\\
           		\end{itemize}
