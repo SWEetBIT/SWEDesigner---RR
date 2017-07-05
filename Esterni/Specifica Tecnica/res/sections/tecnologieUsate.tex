@@ -118,18 +118,76 @@ Vengono di seguito descritte le \glossaryItem{librerie} aggiuntive utilizzate da
 
 	\subsubsection{Mustache}
 \textbf{Mustache} è un \glossaryItem{template} engine che permette di espandere tags all'interno di un \glossaryItem{template}, racchiusi da 2 parentesi graffe,usando valori forniti da oggetti.
+	\paragraph{Vantaggi}
+	\begin{itemize}
+	\item Mustache fornisce una sintassi pulita e facile da comprendere. Avere una sintassi leggibile è sempre un vantaggio enorme, in quanto ciò significa una manutenzione più facile e una maggiore leggibilità del codice;
+	\item I templates di Mustache possono essere compilati in file JS, così facendo possono essere direttamente carcati;
+	\item E' popolare, quindi nel web è presente una grande comunità in grado di consigliare e aiutare su ogni problema.
+	\end{itemize}
+	
+	\paragraph{Svantaggi}
+	\begin{itemize}
+	\item Non sono stati rilevati particolari svantaggi.
+	\end{itemize}
 
 	\subsubsection{Passport:} \label{passport} È un \glossaryItem{middleware} di autenticazione per \glossaryItem{Node.js}. Estremamente flessibile e modulare, Passport può essere facilmente inserito in qualsiasi applicazione web basata su \glossaryItem{Expressjs}.
+	\paragraph{Vantaggi}
+	\begin{itemize}
+	\item Passport è facile da implementare con Express;
+	\item E' molto flessibile e modulare;
+	\item Permette la serializzazione dell'utente autenticato.
+	\end{itemize}
+	
+	\paragraph{Svantaggi}
+	\begin{itemize}
+	\item Non sono stati rilevati particolari svantaggi.
+	\end{itemize}
 
 	\subsubsection{BodyParser:} \glossaryItem{Modulo} di terze parti per la corretta lettura delle informazioni contenute nel body delle richieste \glossaryItem{HTTP}; viene utilizzato come \glossaryItem{middleware} per {Expressjs} e si occupa della corretta lettura delle informazioni contenute nel body di una richiesta
 \glossaryItem{HTTP}. Nel nostro caso verrà impiegato per la lettura dei dati del body in formato \glossaryItem{JSON}.
+	\paragraph{Vantaggi}
+	\begin{itemize}
+	\item Permette di memorizzare nel middleware una determinata richiesta del body, e di visualizzarla tramite il comando req.body.
+	\end{itemize}
+	\paragraph{Svantaggi}
+	\begin{itemize}
+	\item Non prevede il salvataggio di richieste multiple da parte di più body.
+	\end{itemize}
+
 
 	\subsubsection{Forge:} È un \glossaryItem{modulo} in \glossaryItem{Javascript} che fornisce funzionalità di criptografia per la sicurezza e un set di strumenti per la realizzazione di \glossaryItem{Web app}.
+	\paragraph{Vantaggi}
+	\begin{itemize}
+	\item Permette la creazione di code e sincronizzazione di attività in un'applicazione Web.
+	\item Si basa su AES per la criptazione e la decriptazione in modalità CBC.
+	\end{itemize}
+	
+	\paragraph{Svantaggi}
+	\begin{itemize}
+	\item Non sono stati rilevati particolari svantaggi.
+	\end{itemize}
 
 	\subsubsection{PassportJWT:} È un \glossaryItem{modulo} che fornisce una strategia Passport(\S\ref{3.2}) per l'autenticazione con un \glossaryItem{JSON} Web Token, che è una tecnica compatta per trasmettere in modo sicuro le informazioni tra 2 oggetti \glossaryItem{JSON}.
+	\paragraph{Vantaggi}
+	\begin{itemize}
+	\item Necessita di poche query, quindi i tempi di risposta sono più rapidi;
+	\end{itemize}
+	
+	\paragraph{Svantaggi}
+	\begin{itemize}
+	\item Funziona con solo una chiave, quindi c'è maggiore possibilità per un utente malintenzionato di capire la criptazione.
+	\end{itemize}
 
 	\subsubsection{Bcrypt:} È una \glossaryItem{libreria} in \glossaryItem{Javascript} che utilizza la funzione di \glossaryItem{hash}ing per criptare le password.
+	\paragraph{Vantaggi}
+	\begin{itemize}
+	\item E' lento a calcolare l'hash, questo perchè così facendo scoraggia l'attaccante;
+	\end{itemize}
 
+	\paragraph{Svantaggi}
+	\begin{itemize}
+	\item Non sono stati rilevati particolari svantaggi;
+	\end{itemize}
 \subsection{Client}
 
 	\subsubsection{Angular 4.0}
