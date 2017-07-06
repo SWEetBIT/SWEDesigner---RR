@@ -480,7 +480,103 @@ dei diagrammi.
           			Classe che definisce i metodi di settaggio e richiesta di tutti gli elementi che sono contenuti in una classe. Contiene un array di metodi, con le relative rappresentazioni grafiche dei metodi implementati, e un array di attributi, oltre ai campi utili all’identificazione della classe.
           			\item \textbf{Utilizzo:}\\
           			É istaziata dal framework Angular e i suoi metodi sono utilizzati dal model global.
+          			\item \textbf{Attributi:}\\
+          			\begin{itemize}
+          				\item \emph{-nome: string}\\
+            			Il nome della classe
+            			\item \emph{-attributi: Attributo[]}\\
+            			Array di attributi della classe
+            			\item \emph{-metodi: Metodo[]}\\
+            			Array di metodi della classe
+            			\item \emph{-classePadre: string}\\
+            			La classe estesa da questa classe
+          			\end{itemize}
           			\item \textbf{Metodi:}\\
+          			\begin{itemize}
+          				\item \emph{-constructor(nome: string): void}\\
+            			Costruisce un nuovo oggetto di tipo classe e gli assegna un nome
+            			\item \textbf{Parametri:}\\
+            				\begin{itemize}
+            					\item \emph{nome: string}\\
+            					Nome della classe
+            				\end{itemize}
+            			\item \emph{+addAttributo(tipo: string, nome: string, acc?: string): void}\\
+            			Aggiunge un nuovo attribuo alla lista degli attributi dopo aver controllato che non ne esista già uno con lo stesso nome
+            			\item \textbf{Parametri:}\\
+            				\begin{itemize}
+            					\item \emph{tipo: string}\\
+            					Tipo del nuovo attributo
+            					\item \emph{nome: string}\\
+            					Nome del nuovo attributo
+            					\item \emph{acc?: string}\\
+            					Visibilità dell'attributo
+            				\end{itemize}
+            			\item \emph{+addSottoclasse(superclass: string): void}\\
+            			Inserisce il nome della classe che questa classe estende
+            			\item \textbf{Parametri:}\\
+            				\begin{itemize}
+            					\item \emph{superclass: string}\\
+            					Nome della classe padre
+            				\end{itemize}
+            			\item \emph{+addMetodo(metodo: Metodo): void}\\
+            			Aggiunge un nuovo metodo
+            			\item \textbf{Parametri:}\\
+            				\begin{itemize}
+            					\item \emph{metodo: Metodo}\\
+            					Metodo precostruito
+            				\end{itemize}
+            			\item \emph{+changeNome(name: string): void}\\
+            			Modifica il nome della classe
+            			\item \textbf{Parametri:}\\
+            				\begin{itemize}
+            					\item \emph{name: string}\\
+            					Nuovo nome della classe
+            				\end{itemize}
+            			\item \emph{+changeAttr(nomeAttr: string, tipo?: string, nuovoNome?: string, acc?: string): void}\\
+            			Modifica un attributo, se questo è presente nell'array degli attributi
+            			\item \textbf{Parametri:}\\
+            				\begin{itemize}
+            					\item \emph{nomeAttr: string}\\
+            					Nome dell'attributo da modificare
+            					\item \emph{tipo?: string}\\
+            					Nuovo tipo dell'attributo
+            					\item \emph{nuovoNome?: string}\\
+            					Nuovo nome dell'attributo
+            					\item \emph{acc?: string}\\
+            					Nuova visibilità dell'attributo
+            				\end{itemize}
+            			\item \emph{+removeAttr(nomeAttr: string): void}\\
+            			Rimuove un attributo dalla lista degli attributi
+            			\item \textbf{Parametri:}\\
+            				\begin{itemize}
+            					\item \emph{nomeAttr: string}\\
+            					Nome dell'attributo da eliminare
+            				\end{itemize}
+            			\item \emph{+removeMetodo(nomeMetodo: string): void}\\
+            			Rimuove un metodo dall'array dei metodi
+            			\item \textbf{Parametri:}\\
+            				\begin{itemize}
+            					\item \emph{nomeMetodo: string}\\
+            					Nome del metodo da eliminare
+            				\end{itemize}
+            			\item \emph{+getNome() : string}\\
+            			Ritorna il nome della classe
+            			\item \emph{+getAttributi(): Attributo[]}\\
+            			Ritorna l'array degli attributi
+            			\item \emph{+getMetodi(): Metodo[]}\\
+            			Ritorna l'array dei metodi
+            			\item \emph{+retriveMethod(name: string): Metodo}\\
+            			Ritorna un metodo dall'array dei metodi se è presente un metodo con quel nome
+            			\item \textbf{Parametri:}\\
+            				\begin{itemize}
+            					\item \emph{name: string}\\
+            					Nome del metodo
+            				\end{itemize}
+            			\item \emph{+getSottoclasse(): string}\\
+            			Ritorna il nome della superclasse
+            			\item \emph{+toJSON(): JSON}\\ 
+            			Effettua override della funziona toJSON
+          			\end{itemize}
           		\end{itemize}
           	\paragraph{SWEDesigner::Client::Services::ClasseAstratta}
 				\begin{itemize}
