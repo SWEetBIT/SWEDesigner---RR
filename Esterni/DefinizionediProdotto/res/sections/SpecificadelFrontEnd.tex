@@ -228,13 +228,115 @@ il server
           			É istaziata dal framework Angular e i suoi metodi sono utilizzati dal component menuComponent.
           			\item \textbf{Metodi:}\\
           		\end{itemize}
-          	\paragraph{SWEDesigner::Client::Services::EditorService}
+          	\paragraph{SWEDesigner::Client::Services::MainEditorService}
 				\begin{itemize}
           			\item \textbf{Descrizione:}\\
           			Classe che definisce i metodi per le operazioni all’interno dei diagrammi e la comunicazione tra componenti e server.
           			\item \textbf{Utilizzo:}\\
           			É istaziata dal framework Angular e i suoi metodi sono utilizzati dai component editorComponent e classMenuComponent.
+          			\item \textbf{Attributi:}\\
+          			\begin{itemize}
+          				\item \emph{-Project: Global}\\
+          				Si utilizza per memorizzare e recuperare informazione riguardo il progetto corrente
+          				\item \emph{-selectedClasse: Classe}\\
+          				Memorizza la classe corrispondente di tipo "Classe" della classe selezionata nel canvas dell'editor
+          				\item \emph{-editorComp: EditorComponent}\\
+          				Si utilizza per accedere direttamente all'EditorComponent
+          				\item \emph{-graph: JSON}\\
+          				Si utilizza per per salvare il grafico dell'editor
+          				\item \emph{-activityMode: boolean}\\
+          				Indica se il diagramma delle attività è in uso
+          			\end{itemize}
           			\item \textbf{Metodi:}\\
+          			\begin{itemize}
+          				\item \emph{+setEditorComp(editCmp: EditorComponent): void}\\
+          				Questo metodo viene usato per l'istanziazione dell'EditorComponent come proprietà interna di questa classe
+          				\item \textbf{Parametri:}\\
+            				\begin{itemize}
+            					\item \emph{editCmp: EditorComponent}\\
+            					L'istanza dell'EditorComponent
+            				\end{itemize}
+          				\item \emph{+getClassList(): Classe[]}\\
+          				Questo metodo viene usato per richiamare l'array di classi presente nel progetto
+          				\item \emph{+getSelectedClasse(): void}\\
+          				Questo metodo ritorna la classe selezionata di tipo "Classe"
+          				\item \emph{+addClass(classe: Classe, graphElement: any): void}\\
+          				Questo metodo aggiunge un oggetto di tipo classe nell'array di classi del progetto
+          				\item \textbf{Parametri:}\\
+            				\begin{itemize}
+            					\item \emph{classe: Classe}\\
+            					Questo oggetto è una rappresentazione, di tipo "Classe" o "ClasseAstratta", del parametro graphelement
+            					\item \emph{graphElement: any}\\
+            					Questo è un elemento della libreria grafica JointJs
+            				\end{itemize}
+          				\item \emph{+selectClasse(nome: string): Classe}\\
+          				Questo metodo cerca, all'interno della collezione di classi del progetto, una classe con lo stesso nome di quello fornito come parametro
+          				\item \textbf{Parametri:}\\
+            				\begin{itemize}
+            					\item \emph{nome: string}\\
+            					Nome della classe da cercare
+            				\end{itemize}
+          				\item \emph{+setActivityMode(): void}\\
+          				Questo metodo setta a True il valore di activityMode
+          				\item \emph{+setClassMode(): void}\\
+          				Questo metodo setta a False il valore di activityMode
+          				\item \emph{+getActivityModeStatus(): boolean}\\
+          				Questo metodo ritorna il valore di activityMode
+          				\item \emph{+addAttributo(tipo: string, nome: string, acc: string): void}\\
+          				Questo metodo richiama il metodo addAttributo della "selectedClasse"
+          				\item \textbf{Parametri:}\\
+            				\begin{itemize}
+            					\item \emph{tipo: string}\\
+            					Il tipo dell'attributo da aggiungere con addAttributo
+            					\item \emph{nome: string}\\
+            					Il nome dell'attributo da aggiungere con addAttributo
+            					\item \emph{acc: string}\\
+            					La visibilità dell'attributo da aggiungere con addAttributo
+            				\end{itemize}
+            			\item \emph{+removeAttributo(nome: string): void}\\
+          				Questo metodo richiama il metodo removeAttr della "selectedClasse"
+          				\item \textbf{Parametri:}\\
+            				\begin{itemize}
+            					\item \emph{nome: string}\\
+            					Il nome dell'attributo da rimuovere
+            				\end{itemize}
+            			\item \emph{+storeGraph(graph: JSON): void}\\
+          				Questo metodo salva in "this.graph" il grafico passato come parametro
+          				\item \textbf{Parametri:}\\
+            				\begin{itemize}
+            					\item \emph{graph: JSON}\\
+            					Un grafico in formato JSON
+            				\end{itemize}
+            			\item \emph{+enterClassMode(): void}\\
+          				Questo metodo viene utilizzato per ripristinare il diagramma delle classi memorizzato in "this.graph"
+          				\item \emph{+addMetodo(tipo: string, nome: string, acc: string, listArgs?: any): void}\\
+          				Questo metodo aggiunge un nuovo metodo alla "selectedClasse"
+          				\item \textbf{Parametri:}\\
+            				\begin{itemize}
+            					\item \emph{tipo: string}\\
+            					Tipo di ritorno del metodo
+            					\item \emph{nome: string}\\
+            					Nome del metodo
+            					\item \emph{acc: string}\\
+            					La visibilità del metodo
+            					\item \emph{listArgs?: any}\\
+            					Lista dei parametri del metodo, se ce ne sono
+            				\end{itemize}
+            			\item \emph{+removeMetodo(nome: string): void}\\
+          				Questo metodo richiama il metodo removeMetodo della "selectedClasse"
+          				\item \textbf{Parametri:}\\
+            				\begin{itemize}
+            					\item \emph{nome: string}\\
+            					Nome del metodo da eliminare
+            				\end{itemize}
+            			\item \emph{+enterActivityMode(name: string): void}\\
+          				Questo metodo cerca un metodo nella "selectedClasse" e recupera il suo diagramma per chiamare il metodo replaceDiagram dell'editorComp, il quale carica i metodi del diagramma in Canvas
+          				\item \textbf{Parametri:}\\
+            				\begin{itemize}
+            					\item \emph{name: string}\\
+            					Nome del metodo da trovare
+            				\end{itemize}
+          			\end{itemize}
           		\end{itemize}
           	\paragraph{SWEDesigner::Client::Services::ToolbarService}
 				\begin{itemize}
