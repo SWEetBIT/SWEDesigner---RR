@@ -1,10 +1,10 @@
 \select@language {italian}
 \select@language {italian}
-\contentsline {figure}{\numberline {1}{\ignorespaces Diagramma della classe SWEDesigner::Server::serverLoader}}{22}{figure.1}
-\contentsline {figure}{\numberline {2}{\ignorespaces Diagramma della classe SWEDesigner::Server::Model::mongooseConnection}}{24}{figure.2}
-\contentsline {figure}{\numberline {3}{\ignorespaces Diagramma della classe SWEDesigner::Server::Model::mongooseRequest}}{24}{figure.3}
-\contentsline {figure}{\numberline {4}{\ignorespaces Diagramma della classe SWEDesigner::Server::Controller::Middleware::midLoader}}{28}{figure.4}
-\contentsline {figure}{\numberline {5}{\ignorespaces Diagramma della classe SWEDesigner::Server::Controller::Middleware::Parse}}{28}{figure.5}
-\contentsline {figure}{\numberline {6}{\ignorespaces Diagramma della classe SWEDesigner::Server::Controller::Middleware::Encrypt}}{29}{figure.6}
-\contentsline {figure}{\numberline {7}{\ignorespaces Diagramma della classe SWEDesigner::Server::Controller::Services::parseService}}{31}{figure.7}
-\contentsline {figure}{\numberline {8}{\ignorespaces Diagramma della classe SWEDesigner::Server::Controller::Services::encryptService}}{31}{figure.8}
+\contentsline {figure}{\numberline {1}{\ignorespaces Diagramma della classe SWEDesigner::Server::serverLoader}}{34}{figure.1}
+\contentsline {figure}{\numberline {2}{\ignorespaces Diagramma della classe SWEDesigner::Server::Model::mongooseConnection}}{36}{figure.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces Diagramma della classe SWEDesigner::Server::Model::mongooseRequest}}{36}{figure.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces Diagramma della classe SWEDesigner::Server::Controller::Middleware::midLoader}}{40}{figure.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces Diagramma della classe SWEDesigner::Server::Controller::Middleware::Parse}}{40}{figure.5}
+\contentsline {figure}{\numberline {6}{\ignorespaces Diagramma della classe SWEDesigner::Server::Controller::Middleware::Encrypt}}{41}{figure.6}
+\contentsline {figure}{\numberline {7}{\ignorespaces Diagramma della classe SWEDesigner::Server::Controller::Services::parseService}}{43}{figure.7}
+\contentsline {figure}{\numberline {8}{\ignorespaces Diagramma della classe SWEDesigner::Server::Controller::Services::encryptService}}{43}{figure.8}

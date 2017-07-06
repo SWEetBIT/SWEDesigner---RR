@@ -168,7 +168,82 @@ il server
           			Questo component permette la modifica dei campi dati di un oggetto selezionato nell’editorComponent.
           			\item \textbf{Utilizzo:}\\
           			Questo component è figlio di editorComponent viene visualizzato quando viene selezionato un elemento editabile nell’editorComponent.
+          			\item \textbf{Attributi:}\\
+          			\begin{itemize}
+          				\item \emph{+classe: any}\\
+            			La classe correntemente selezionata dell'EditorComponent
+            			\item \emph{+name: string}\\
+            			Il nome della classe correntemente selezionata
+            			\item \emph{+nomeAttributoAttuale: boolean}\\
+            			True se il nome del nuovo attributo è uguale all'attributo attuale
+            			\item \emph{+sub: Subscription}\\
+            			Subscription dell'oggetto observable
+            			\item \emph{+types: string[]}\\
+            			Array contenente i tipi di dato primitivi
+            			\item \emph{+accessoAttr: string[]}\\
+            			Array contenente i tipi di accesso
+            			\item \emph{+selectedTipoAtt: string}\\
+            			Memorizza il tipo selezionato per il costruttore del nuovo attributo
+            			\item \emph{+selectedAccAtt: string}\\
+            			Memorizza la visibilità selezionata per creare un nuovo attributo
+            			\item \emph{+selectedTipoMet: string}\\
+            			Memorizza il tipo di ritorno per costruire un nuovo metodo
+            			\item \emph{+selectedAccMet: string}\\
+            			Memorizza il tipo di visibilità per costruire un nuovo metodo
+            			\item \emph{+parametriMetodo: Param[]}\\
+            			Memorizza un array di parametri per costruire un nuovo metodo
+          			\end{itemize}
           			\item \textbf{Metodi:}\\
+          			\begin{itemize}
+          				\item \emph{+addAttributo(nome: string): void}\\
+            			Aggiunge un attributo alla classe
+            			\item \textbf{Parametri:}\\
+            				\begin{itemize}
+            					\item \emph{nome: string}\\
+            					Nome del nuovo attributo
+            				\end{itemize}
+            			\item \emph{+removeAttributo(nome: string): void}\\
+            			Rimuove un attributo dalla classe
+            			\item \textbf{Parametri:}\\
+            				\begin{itemize}
+            					\item \emph{nome: string}\\
+            					Nome dell'attributo da eliminare
+            				\end{itemize}
+            			\item \emph{+changeAttributo(): void}\\
+            			Modifica le proprietà di un attributo
+            			\item \emph{+changeNome(name: string): void}\\
+            			Modifica il nome della classe
+            			\item \textbf{Parametri:}\\
+            				\begin{itemize}
+            					\item \emph{name: string}\\
+            					Nuovo nome della classe
+            				\end{itemize}
+            			\item \emph{+ngOnDestroy(): void}\\
+            			Previene memory leak quando il componente è distrutto
+            			\item \emph{+aggiungiParam(): void}\\
+            			Aggiunge un nuovo parametri nell'array dei parametri
+            			\item \emph{+addMetodo(nome: string): void}\\
+            			Aggiunge un nuovo metodo alla classe
+            			\item \textbf{Parametri:}\\
+            				\begin{itemize}
+            					\item \emph{nome: string}\\
+            					Nome del metodo
+            				\end{itemize}
+            			\item \emph{+removeMetodo(nome: string): void}\\
+            			Rimuove un metodo dalla classe
+            			\item \textbf{Parametri:}\\
+            				\begin{itemize}
+            					\item \emph{nome: string}\\
+            					Nome del metodo da rimuovere
+            				\end{itemize}
+            			\item \emph{+modifyMetodo(nome: string): void}\\
+            			Fa entrare l'editor in modalità Activity per modificare il corpo del metodo
+            			\item \textbf{Parametri:}\\
+            				\begin{itemize}
+            					\item \emph{nome: string}\\
+            					Nome del metodo da modificare
+            				\end{itemize}
+          			\end{itemize}
           		\end{itemize}
 			\paragraph{SWEDesigner::Client::Components::Editor::ToolbarComponent}
 				\begin{itemize}
@@ -780,31 +855,31 @@ dei diagrammi.
           			É istaziata dal framework Angular e i suoi metodi sono utilizzati dal servizio editorService.
           			\item \textbf{Attributi:}\\
           			\begin{itemize}
-          				\item \emph{-nome_progetto: string}
+          				\item \emph{-nomeprogetto: string}\\
           				Nome del progetto
-          				\item \emph{-diagramma: string}
+          				\item \emph{-diagramma: string}\\
           				JSON convertito in string del diagramma
-          				\item \emph{-classi: Classe[]}
+          				\item \emph{-classi: Classe[]}\\
           				Array di classi
           			\end{itemize}
           			\item \textbf{Metodi:}\\
           			\begin{itemize}
-          				\item \emph{+addClasse(nome: string): void}
+          				\item \emph{+addClasse(nome: string): void}\\
           				Nome del progetto
-          				\item \emph{+changeTitolo(titolo: string): void}
+          				\item \emph{+changeTitolo(titolo: string): void}\\
           				JSON convertito in string del diagramma
-          				\item \emph{+setDiagramma(diagramma: string): void}
+          				\item \emph{+setDiagramma(diagramma: string): void}\\
           				Setta l'attributo diagramma della classe
           				\item \textbf{Parametri:}\\
             				\begin{itemize}
             					\item \emph{diagramma: string}\\
             					Diagramma
             				\end{itemize}
-          				\item \emph{+getDiagramma(): string}
+          				\item \emph{+getDiagramma(): string}\\
           				Ritorna il diagramma del progetto
-          				\item \emph{+getTitolo(): string}
+          				\item \emph{+getTitolo(): string}\\
           				Ritorna il nome del progetto
-          				\item \emph{+getClassi(): Classe[]}
+          				\item \emph{+getClassi(): Classe[]}\\
           				Ritorna la collezione di classi
           				\item \emph{+toJSON(): string}
           				Ritorna un JSON del progetto in formato string
