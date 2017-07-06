@@ -504,7 +504,29 @@ dei diagrammi.
           			Classe derivata da classe che definisce i metodi di settaggio e richiesta dei parametri di una classe astratta.
           			\item \textbf{Utilizzo:}\\
           			É istaziata dal framework Angular e i suoi metodi sono utilizzati dal model global.
+          			\item \textbf{Attributi:}\\
+          			\begin{itemize}
+          				\item \emph{-abstractMethods: MetodiAstratti[]}\\
+            			Contiene la lista dei metodi della classe
+          			\end{itemize}
           			\item \textbf{Metodi:}\\
+          			\begin{itemize}
+          				\item \emph{+addAbstractMethods(nome: string, tipo: string, acc:string, listaParam: string[]): void}\\
+          				Questo metodo aggiunge un metodo alla classe astratta
+          				\item \textbf{Parametri:}\\
+            				\begin{itemize}
+            					\item \emph{nome: string}\\
+            					Nome del metodo
+            					\item \emph{tipo: string}\\
+            					Tipo di ritorno del metodo
+            					\item \emph{acc:string}\\
+            					Visibilità del metodo
+            					\item \emph{listaParam: string[]}\\
+            					Lista dei parametri del metodo
+            				\end{itemize}
+          				\item \emph{+toJSON()): void}\\
+          				Questo metodo effettua il parsing della classe selezionata e lo trasforma in JSON
+          			\end{itemize}
           		\end{itemize}
           	\paragraph{SWEDesigner::Client::Services::Interface}
 				\begin{itemize}
