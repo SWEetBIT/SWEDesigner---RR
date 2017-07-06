@@ -297,7 +297,18 @@ il server
           			Classe che definisce i metodi per le operazioni fornite all’utente dal menu.
           			\item \textbf{Utilizzo:}\\
           			É istaziata dal framework Angular e i suoi metodi sono utilizzati dal component menuComponent.
+          			\item \textbf{Attributi:}\\
+          			\begin{itemize}
+          				\item \emph{-selectedGraphService: Subject<any>}\\
+          				\item \emph{-selectedGrapg: Observable<any>}\\
+          			\end{itemize}
           			\item \textbf{Metodi:}\\
+          			\begin{itemize}
+          				\item \emph{+zoomIn(): void}\\
+          				Aumenta la dimensione degli oggetti nell'editor
+          				\item \emph{+zoomOut(): void}\\
+          				Diminuisce la dimensione degli oggetti nell'editor
+          			\end{itemize}
           		\end{itemize}
           	\paragraph{SWEDesigner::Client::Services::MainEditorService}
 				\begin{itemize}
@@ -415,7 +426,6 @@ il server
           			Classe che definisce i metodi per le operazioni di inserimento di nuovi elementi all’interno dell’editor di diagrammi.
           			\item \textbf{Utilizzo:}\\
           			É istaziata dal framework Angular e i suoi metodi sono utilizzati dal component editorComponent.
-          			\item \textbf{Metodi:}\\
           		\end{itemize}
           	\paragraph{SWEDesigner::Client::Services::ActivityFrameService}
 				\begin{itemize}
@@ -423,7 +433,6 @@ il server
           			Classe che definisce i metodi per le operazioni di navigazione tra i metodi all’interno dell’activity frame.
           			\item \textbf{Utilizzo:}\\
           			É istaziata dal framework Angular e i suoi metodi sono utilizzati dal component activityFrameComponent.
-          			\item \textbf{Metodi:}\\
           		\end{itemize}
           	\paragraph{SWEDesigner::Client::Services::ClassMenuService}
 				\begin{itemize}
