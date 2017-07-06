@@ -22,3 +22,6 @@
 \contentsline {figure}{\numberline {20}{\ignorespaces Diagramma della classe SWEDesigner::Server::Controller::Middleware::Encrypt}}{48}{figure.20}
 \contentsline {figure}{\numberline {21}{\ignorespaces Diagramma della classe SWEDesigner::Server::Controller::Services::parseService}}{50}{figure.21}
 \contentsline {figure}{\numberline {22}{\ignorespaces Diagramma della classe SWEDesigner::Server::Controller::Services::encryptService}}{50}{figure.22}
+\contentsline {figure}{\numberline {23}{\ignorespaces Sequence diagram generazione codice java}}{52}{figure.23}
+\contentsline {figure}{\numberline {24}{\ignorespaces Sequence diagram caricamento moduli server}}{52}{figure.24}
+\contentsline {figure}{\numberline {25}{\ignorespaces Sequence diagram per operazioni di encrypt e decrypt}}{53}{figure.25}
