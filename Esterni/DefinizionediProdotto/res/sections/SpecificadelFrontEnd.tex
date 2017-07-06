@@ -472,7 +472,87 @@ dei diagrammi.
           			Classe che definisce i metodi di settaggio e richiesta dei metodi definiti all’interno dei diagrammi.
           			\item \textbf{Utilizzo:}\\
           			É istaziata dal framework Angular e i suoi metodi sono utilizzati dal model classe.
+          			\item \textbf{Attributi:}\\
+          			\begin{itemize}
+          				\item \emph{+nome: string}\\
+            			Nome del metodo
+            			\item \emph{+accesso: string}\\
+            			Visibilità del metodo
+            			\item \emph{+tipoRitorno: string}\\
+            			Tipo di ritorno del metodo
+            			\item \emph{+listaArgomenti: Param[]}\\
+            			Lista argomenti del metodo
+            			\item \emph{+diagramma: JSON}\\
+            			Definisce il metodo corrente in JSON
+          			\end{itemize}
           			\item \textbf{Metodi:}\\
+          			\begin{itemize}
+          				\item \emph{-constructor(nome: string, acc: string, tipo: string, listaArg?: Param[]): void}\\
+          				Costruttore
+          				\item \textbf{Parametri:}\\
+            				\begin{itemize}
+            					\item \emph{nome: string}\\
+            					Nome del metodo
+            					\item \emph{acc: string}\\
+            					Visibilità del metodo
+            					\item \emph{tipo: string}\\
+            					Tipo di ritorno del metodo
+            					\item \emph{listaArg?: Param[]}\\
+            					Lista argomenti del metodo
+            				\end{itemize}
+          				\item \emph{+changeNome(name: string): void}\\
+          				Modifica il nome del metodo
+          				\item \textbf{Parametri:}\\
+            				\begin{itemize}
+            					\item \emph{name: string}\\
+            					Nuovo nome del metodo
+            				\end{itemize}
+          				\item \emph{+changeTipoRitorno(tipo: string): void}\\
+          				Modifica il tipo di ritorno del metodo
+          				\item \textbf{Parametri:}\\
+            				\begin{itemize}
+            					\item \emph{tipo: string}\\
+            					Nuovo tipo di ritorno del metodo
+            				\end{itemize}
+          				\item \emph{+changeAccesso(acc: string): void}\\
+          				Modifica la visibilità del metodo
+          				\item \textbf{Parametri:}\\
+            				\begin{itemize}
+            					\item \emph{acc: string}\\
+            					Nuova visibilità del metodo
+            				\end{itemize}          				
+          				\item \emph{+changeListaArg(listArg: Param[]): void}\\
+          				 Cambia il riferimento all'array dei parametri formali
+          				 \item \textbf{Parametri:}\\
+            				\begin{itemize}
+            					\item \emph{listArg: Param[]}\\
+            					Array dei parametri
+            				\end{itemize}         				
+          				\item \emph{+addArgomento(arg: Param) : void}\\
+          				Aggiunge un nuovo parametro al metodo
+          				\item \textbf{Parametri:}\\
+            				\begin{itemize}
+            					\item \emph{arg: Param}\\
+            					Parametro
+            				\end{itemize}          				
+          				\item \emph{+addDiagram(dia: JSON): void}\\
+          				Assegna il file JSON al diagramma degli attributi
+          				\item \textbf{Parametri:}\\
+            				\begin{itemize}
+            					\item \emph{dia: JSON}\\
+            					File JSON
+            				\end{itemize}          				
+          				\item \emph{+getDiagram(): void}\\
+          				Ritorna il diagramma del metodo          				
+          				\item \emph{+getNome(): string}\\
+          				Ritorna il nome del metodo
+          				\item \emph{+getAccesso(): string}\\
+          				Ritorna il tipo di visibilità del metodo          				
+          				\item \emph{+getTipoRitorno(): string}\\
+          				Ritorna il tipo di ritorno del metodo          				
+          				\item \emph{+getListaArgomenti(): Param[]}\\
+          				Ritorna l'array degli argomenti          				
+            		\end{itemize}
           		\end{itemize}
           	\paragraph{SWEDesigner::Client::Services::Classe}
 				\begin{itemize}
