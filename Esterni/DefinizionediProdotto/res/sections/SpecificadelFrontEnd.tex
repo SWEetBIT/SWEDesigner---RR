@@ -456,7 +456,43 @@ dei diagrammi.
           			Classe che definisce i metodi di settaggio e richiesta dei parametri nome e tipo.
           			\item \textbf{Utilizzo:}\\
           			É istaziata dal framework Angular e i suoi metodi sono utilizzati dal model attributo.
+          			\item \textbf{Attributi:}\\
+          			\begin{itemize}
+          				\item \emph{-type: string}\\
+            			Tipo del parametro
+            			\item \emph{-name: string}\\
+            			Nome del parametro
+          			\end{itemize}
           			\item \textbf{Metodi:}\\
+          			\begin{itemize}
+          				\item \emph{-constructor(tipo: string, nome: string): void}\\
+            			Costruttore
+            			\item \textbf{Parametri:}\\
+            				\begin{itemize}
+            					\item \emph{tipo: string}\\
+            					Tipo del parametro
+            					\item \emph{nome: string}\\
+            					Nome del parametro
+            				\end{itemize}
+            			\item \emph{+getTipo(): string}\\
+            			Ritorna il tipo del parametro
+            			\item \emph{+getNome(): string}\\
+            			Ritorna il nome del parametro
+            			\item \emph{+changeTipo(tipo: string): void}\\
+            			Modifica il tipo del parametro
+            			\item \textbf{Parametri:}\\
+            				\begin{itemize}
+            					\item \emph{tipo: string}\\
+            					Nuovo tipo
+            				\end{itemize}
+            			\item \emph{+changeNome(nome: string): void}\\
+            			Modifica il nome del parametro
+            			\item \textbf{Parametri:}\\
+            				\begin{itemize}
+            					\item \emph{nome: string}\\
+            					Nuovo nome
+            				\end{itemize}            			
+          			\end{itemize}
           		\end{itemize}
           	\paragraph{SWEDesigner::Client::Services::Attributo}
 				\begin{itemize}
