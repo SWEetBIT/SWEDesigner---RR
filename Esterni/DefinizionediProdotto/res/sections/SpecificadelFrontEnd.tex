@@ -102,7 +102,94 @@ il server
           			Questo componente contiene la rappresentazione grafica dei diagrammi disegnati dall’utente.
           			\item \textbf{Utilizzo:}\\
           			Questo componente viene instanziato dinamicamente dal servizio Router del framework Angular quando viene richiesta la pagina dell’editor diagrammi.
+          			\item \textbf{Attributi:}\\
+          			\begin{itemize}
+          				\item \emph{-graph: any}\\
+            			Contiene tutti gli elementi del grafico
+            			\item \emph{-paper: any}\\
+            			Assicura che vengano renderizzati gli elementi del grafico
+            			\item \emph{+xAx: number}\\
+            			Serve per scalare il grafico
+            			\item \emph{-sub: Subscription}\\
+            			Permette la funzione di zoom
+            			\item \emph{-selectedCell: any}\\
+            			Punta all'elemento selezionato con il click
+            			\item \emph{-connettore: any}\\
+            			Il tipo del connettore selezionato
+            			\item \emph{-elementToConnect: any}\\
+            			Punta all'elemento selezionato con il click, che sarà collegato con il connettore
+          			\end{itemize}
           			\item \textbf{Metodi:}\\
+          			\begin{itemize}
+          				\item \emph{-constructor(private classMenuService: ClassMenuService, private editService: EditServiceService, private mainEditorService: MainEditorService): void}\\
+          				Questo metodo è il costruttore della classe
+          				\item \textbf{Parametri:}\\
+            				\begin{itemize}
+            					\item \emph{private classMenuService: ClassMenuService}\\
+            					Service ClassMenuService
+            					\item \emph{private editService: EditServiceService}\\
+            					Service EditServiceService
+            					\item \emph{private mainEditorService: MainEditorService}\\
+            					Service MainEditorService
+            				\end{itemize}
+          				\item \emph{+this.paper.on('cell:pointerdown', (cellView) =>: void}\\
+          				Questo metodo riconosce quando una classe viene cliccata e quindi la seleziona
+          				\item \textbf{Parametri:}\\
+            				\begin{itemize}
+            					\item \emph{cellView: any}\\
+            					Elemento cliccato
+            				\end{itemize}
+          				\item \emph{+this.paper.on('blank:pointerdown', () =>: void}\\
+          				Questo metodo riconosce quanto la classe viene deselezionata cliccando al di fuori di essa
+          				\item \emph{+this.paper.on('cell:pointerdown', (cellView) =>: void}\\
+          				
+          				\item \textbf{Parametri:}\\
+            				\begin{itemize}
+            					\item \emph{cellView: any}\\
+            					
+            				\end{itemize}
+          				\item \emph{+replaceDiagram(graph: JSON): void}\\
+          				Questo metodo viene utilizzato per rimpiazzare l'editor con una nuova finestra contenuta nel file JSON
+          				\item \textbf{Parametri:}\\
+            				\begin{itemize}
+            					\item \emph{graph: JSON}\\
+            					Grafico da aprire in formato JSON
+            				\end{itemize}
+          				\item \emph{+selectElementsToConnect(cell: any): void}\\  
+          				Questo metodo viene utilizzato per selezionare gli elementi da collegare con il connettore selezionato
+          				\item \textbf{Parametri:}\\
+            				\begin{itemize}
+            					\item \emph{cell: any}\\
+            					Elemento selezionato
+            				\end{itemize}
+            			\item \emph{+elementSelection(cellView: any): void}\\
+            			Questo metodo seleziona un elemento nell'editor
+            			\item \textbf{Parametri:}\\
+            				\begin{itemize}
+            					\item \emph{cellView: any}\\
+            					Elemento selezionato
+            				\end{itemize}
+            			\item \emph{+addConnettore(connettore: any): void}\\
+            			Aggiunge il connettore alla classe
+            			\item \textbf{Parametri:}\\
+            				\begin{itemize}
+            					\item \emph{connettore: any}\\
+            					Connettore da aggiungere
+            				\end{itemize} 
+            			\item \emph{+addElement(element: any): void}\\
+            			Questo metodo aggiunge un elemento all'editor
+            			\item \textbf{Parametri:}\\
+            				\begin{itemize}
+            					\item \emph{element: any}\\
+            					Elemento da aggiungere all'editor
+            				\end{itemize}   
+            			\item \emph{+zoomIn(): void}\\
+            			Questo metodo incrementa la scala dell'editor
+            			\item \emph{+zoomOut(): void}\\
+            			Questo metodo decrementa la scala dell'editor   	
+            			\item \emph{+cloneElement(): void}\\
+            			Questo metodo clona l'elemento selezionato			
+          			\end{itemize}
           		\end{itemize}
           	\paragraph{SWEDesigner::Client::Components::Editor::ClassMenuComponent}
 				\begin{itemize}
