@@ -1,9 +1,245 @@
 \section{Tracciamento}
 
 	\subsection{Tracciamento Classi-Requisiti}
+\begin{center}
+\begin{longtable}{p{13cm}!{\VRule[1pt]}p{2cm}}
+\rowcolor{I}
+\color{white} \textbf{Componenti} & \color{white} \textbf{Classi}\\ 
+\endfirsthead 
+\rowcolor{I} 
+\color{white} \textbf{Componenti} & \color{white} \textbf{Classi}\\  
+\endhead 
+
+SWEDesiger::Server::Model::mongooseRequest::dropSchema() & R0F6.1.1.4\\
+SWEDesiger::Server::Model::mongooseRequest::forgotMail() & R1F13\\
+SWEDesiger::Server::Model::mongooseRequest::inscryptparam() & R0F6.1.1.3\newline R0F5.1.2\\
+SWEDesiger::Server::Model::mongooseRequest::insproj() & R0F5.1\\
+SWEDesiger::Server::Model::mongooseRequest::insUsr() & R0F1.1\newline R0F1.2\newline R0F1.3\\
+SWEDesiger::Server::Model::mongooseRequest::loadAllProj() & R0F5\\
+SWEDesiger::Server::Model::mongooseRequest::loadKeyCrypy() & R0F6.1.1.3\newline R0F5.1.2\\
+SWEDesiger::Server::Model::mongooseRequest::loadProj() & R0F5.1\\
+SWEDesiger::Server::Model::mongooseRequest::login() & R0F2\\
+SWEDesigner::Client::Components::Editor::ClassMenuComponent ::addAttributo() & R0F6.3.1.5.3\\
+SWEDesigner::Client::Components::Editor::ClassMenuComponent ::addMetodo() & \\
+SWEDesigner::Client::Components::Editor::ClassMenuComponent ::aggiungiParam() & \\
+SWEDesigner::Client::Components::Editor::ClassMenuComponent ::changeAttributo() & R0F6.3.1.5.2\\
+SWEDesigner::Client::Components::Editor::ClassMenuComponent ::changeNome() & R0F6.3.1.5.1\\
+SWEDesigner::Client::Components::Editor::ClassMenuComponent ::modifyMetodo() & R0F6.3.1.5.4\\
+SWEDesigner::Client::Components::Editor::ClassMenuComponent ::removeAttributo & R0F6.3.1.11\\
+SWEDesigner::Client::Components::Editor::ClassMenuComponent ::removeMetodo() & R0F6.3.1.10\\
+SWEDesigner::Client::Components::Editor::EditorComponent ::addConnettore() & R0F6.2.1.3\\
+SWEDesigner::Client::Components::Editor::EditorComponent ::addElement() & \\
+SWEDesigner::Client::Components::Editor::EditorComponent ::cloneElement() & R1F6.1.2.4\newline R1F6.1.2.5\\
+SWEDesigner::Client::Components::Editor::EditorComponent ::constructior() & \\
+SWEDesigner::Client::Components::Editor::EditorComponent ::elementSelection() & R0F6.2.1.3.1\newline R0F6.2.1.3.2\\
+SWEDesigner::Client::Components::Editor::EditorComponent ::replaceDiagram() & \\
+SWEDesigner::Client::Components::Editor::EditorComponent ::selectElementsToConnect() & R0F6.2.1.3.1\newline R0F6.2.1.3.2\\
+SWEDesigner::Client::Components::Editor::EditorComponent::ZoomIn() & R0F6.3.2\\
+SWEDesigner::Client::Components::Editor::EditorComponent::ZoomOut() & R0F6.3.3\\
+SWEDesigner::Client::Components::Editor::ToolbarComponent ::addAssociazione() & R0F6.2.1.3\\
+SWEDesigner::Client::Components::Editor::ToolbarComponent ::addAstratta() & R0F6.2.1.1\newline R0F6.3.1.5.6\\
+SWEDesigner::Client::Components::Editor::ToolbarComponent ::addClasse() & R0F6.2.1.1\\
+SWEDesigner::Client::Components::Editor::ToolbarComponent ::addCommento() & R0F6.3.1.8\\
+SWEDesigner::Client::Components::Editor::ToolbarComponent ::addConnettore & R0F6.2.1.3\\
+SWEDesigner::Client::Components::Editor::ToolbarComponent ::addGeneralizzazione() & R0F6.2.1.3\\
+SWEDesigner::Client::Components::Editor::ToolbarComponent::addImplementazione() & R0F6.2.1.3\\
+SWEDesigner::Client::Components::Editor::ToolbarComponent::addInterfaccia() & R0F6.2.1.1\newline R0F6.3.1.5.7\\
+SWEDesigner::Client::Components::Menu::ModificaComponent::doZoomIN() & R0F6.3.2\\
+SWEDesigner::Client::Components::Menu::ModificaComponent::DoZoomOut() & R0F6.3.3\\
+SWEDesigner::Client::Services::Attributo::changeAccesso() & R0F6.3.1.5.2\\
+SWEDesigner::Client::Services::Attributo::getAccesso() & \\
+SWEDesigner::Client::Services::Classe::addAttributo() & R0F6.3.1.5.2\\
+SWEDesigner::Client::Services::Classe::addMetodo() & R0F6.3.1.5.4\\
+SWEDesigner::Client::Services::Classe::addSottoclasse() & \\
+SWEDesigner::Client::Services::Classe::changeAttr() & R0F6.3.1.5.2\\
+SWEDesigner::Client::Services::Classe::changeNome() & R0F6.3.1.5.1\\
+SWEDesigner::Client::Services::Classe::constructor() & \\
+SWEDesigner::Client::Services::Classe::getAttributi() & R0F6.3.1.5.2\\
+SWEDesigner::Client::Services::Classe::getMetodi() & R0F6.3.1.5.4\\
+SWEDesigner::Client::Services::Classe::getNome() & R0F6.3.1.5.1\\
+SWEDesigner::Client::Services::Classe::getSottoclasse() & \\
+SWEDesigner::Client::Services::Classe::removeAttr() & R0F6.3.1.11\\
+SWEDesigner::Client::Services::Classe::removevMetodo() & R0F6.3.1.10\\
+SWEDesigner::Client::Services::Classe::retriveMethod() & R0F6.3.1.5.4\\
+SWEDesigner::Client::Services::Classe::toJSON() & R0F6.1.1.1\\
+SWEDesigner::Client::Services::ClasseAstratta::addAbstractMethods() & R0F6.3.1.5.5\\
+SWEDesigner::Client::Services::ClasseAstratta::toJSON() & R0F6.1.1.1\\
+SWEDesigner::Client::Services::ClassMenuService::classSelection() & \\
+SWEDesigner::Client::Services::Global::addClasse() & \\
+SWEDesigner::Client::Services::Global::changeTitolo() & \\
+SWEDesigner::Client::Services::Global::getClassi() & \\
+SWEDesigner::Client::Services::Global::getDiagramma() & \\
+SWEDesigner::Client::Services::Global::getTitolo() & \\
+SWEDesigner::Client::Services::Global::setDiagramma() & \\
+SWEDesigner::Client::Services::Global::toJSON() & \\
+SWEDesigner::Client::Services::Interface::addAbstractMethods() & R0F6.3.1.5.2\\
+SWEDesigner::Client::Services::MainEditorService::addAttributo() & R0F6.3.1.5.3\\
+SWEDesigner::Client::Services::MainEditorService::addClass() & R0F6.3.1.5\\
+SWEDesigner::Client::Services::MainEditorService::addMetodo() & R0F6.3.1.5.5\\
+SWEDesigner::Client::Services::MainEditorService::enterActivityMode() & R0F6.3\\
+SWEDesigner::Client::Services::MainEditorService::enterClassMode() & \\
+SWEDesigner::Client::Services::MainEditorService::getActivityModeStatus() & R0F6.3\\
+SWEDesigner::Client::Services::MainEditorService::getClassList & \\
+SWEDesigner::Client::Services::MainEditorService::getSelectedClasse() & R0F6.3.1.5\\
+SWEDesigner::Client::Services::MainEditorService::removeAtributo() & R0F6.3.1.11\\
+SWEDesigner::Client::Services::MainEditorService::removeMetodo() & R0F6.3.1.10\\
+SWEDesigner::Client::Services::MainEditorService::selectClasse() & R0F6.3.1.5\\
+SWEDesigner::Client::Services::MainEditorService::setActivityMode() & R0F6.3\\
+SWEDesigner::Client::Services::MainEditorService::setClassMode() & R0F6.2\\
+SWEDesigner::Client::Services::MainEditorService::setEditorComp() & \\
+SWEDesigner::Client::Services::MainEditorService::storeGraph() & \\
+SWEDesigner::Client::Services::MenuService::zoomIn() & R0F6.3.2\\
+SWEDesigner::Client::Services::MenuService::zoomOut() & R0F6.3.3\\
+SWEDesigner::Client::Services::Metodo::addArgomento() & R0F6.3.1.5.4.4\\
+SWEDesigner::Client::Services::Metodo::addDiagram() & \\
+SWEDesigner::Client::Services::Metodo::changeAccesso() & R0F6.3.1.5.4.5\\
+SWEDesigner::Client::Services::Metodo::changeListaArg() & R0F6.3.1.5.4.4\\
+SWEDesigner::Client::Services::Metodo::changeNome() & R0F6.3.1.5.4.2\\
+SWEDesigner::Client::Services::Metodo::constructor() & \\
+SWEDesigner::Client::Services::Metodo::getAccesso() & R0F6.3.1.5.4.5\\
+SWEDesigner::Client::Services::Metodo::getDiagram() & \\
+SWEDesigner::Client::Services::Metodo::getListaArgomenti() & R0F6.3.1.5.4.4\\
+SWEDesigner::Client::Services::Metodo::getNome() & R0F6.3.1.5.4.2\\
+SWEDesigner::Client::Services::Metodo::getTipoRitorno() & R0F6.3.1.5.4.3\\
+SWEDesigner::Client::Services::Metodo::tipoDiRitorno() & R0F6.3.1.5.4.3\\
+SWEDesigner::Client::Services::Param::changeNome() & R0F6.3.1.5.2\\
+SWEDesigner::Client::Services::Param::changeTipo() & \\
+SWEDesigner::Client::Services::Param::getNome() & \\
+SWEDesigner::Client::Services::Param::getTipo() & \\
+SWEDesigner::Server::Controller::Middleware::midLoader::load() & \\
+SWEDesigner::Server::Controller::Middleware::Parse::getTamplate() & R0F6.1.1.4\\
+SWEDesigner::Server::Controller::Middleware::Parse::load() & R0F6.1.1.4\\
+SWEDesigner::Server::Controller::Middleware::Parse::parse() & R0F6.1.1.4\\
+SWEDesigner::Server::Controller::Services::encryptService::decrypt() & R0F5.1.2\\
+SWEDesigner::Server::Controller::Services::encryptService::encrypt() & R0F6.1.1.3\\
+SWEDesigner::Server::Controller::Services::encryptService::getIv() & R0F6.1.1.3\newline R0F5.1.2\\
+SWEDesigner::Server::Controller::Services::encryptService::getKey() & R0F6.1.1.3\newline R0F5.1.2\\
+SWEDesigner::Server::Controller::Services::parseService::parsing() & R0F6.1.1.4\\
+SWEDesigner::Server::Controller:Middleware::Encrypt::decrypt() & R0F5.1.2\\
+SWEDesigner::Server::Controller:Middleware::Encrypt::encrypt() & R0F6.1.1.3\\
+SWEDesigner::Server::Controller:Middleware::Encrypt::getIv() & R0F6.1.1.3\newline R0F5.1.2\\
+SWEDesigner::Server::Controller:Middleware::Encrypt::getKey() & R0F6.1.1.3\newline R0F5.1.2\\
+SWEDesigner::Server::Model::mongooseConnection::conn() & R0F1.1\newline R0F1.2\newline R0F1.3\\
+SWEDesigner::Server::serverLoader::load() & \\
+
+
+\rowcolor{white}
+\caption{Tracciamento Classi - Requisiti}
+\end{longtable}
+\end{center}	
+	
+	\newpage
 	
 	\subsection{Tracciamento Requisiti-Classi}
-	
-	\subsection{Tracciamento Componenti-Requisiti}
-	
-	\subsection{Tracciamento Requisiti-Componenti}
+	\begin{center}
+\begin{longtable}{p{2cm}!{\VRule[1pt]}p{13cm}}
+\rowcolor{I}
+\color{white} \textbf{Requisiti} & \color{white} \textbf{Classi}\\ 
+\endfirsthead 
+\rowcolor{I} 
+\color{white} \textbf{Requisiti} & \color{white} \textbf{Classi}\\  
+\endhead 
+
+R0F1.1 & SWEDesigner::Server::Model::mongooseConnection::conn()\\
+R0F1.1 & SWEDesiger::Server::Model::mongooseRequest::insUsr()\\
+R0F1.2 & SWEDesigner::Server::Model::mongooseConnection::conn()\\
+R0F1.2 & SWEDesiger::Server::Model::mongooseRequest::insUsr()\\
+R0F1.3 & SWEDesigner::Server::Model::mongooseConnection::conn()\\
+R0F1.3 & SWEDesiger::Server::Model::mongooseRequest::insUsr()\\
+R0F2 & SWEDesiger::Server::Model::mongooseRequest::login()\\
+R0F5 & SWEDesiger::Server::Model::mongooseRequest::loadAllProj()\\
+R0F5.1 & SWEDesiger::Server::Model::mongooseRequest::insproj()\\
+R0F5.1 & SWEDesiger::Server::Model::mongooseRequest::loadProj()\\
+R0F5.1.2 & SWEDesiger::Server::Model::mongooseRequest::inscryptparam()\\
+R0F5.1.2 & SWEDesiger::Server::Model::mongooseRequest::loadKeyCrypy()\\
+R0F5.1.2 & SWEDesigner::Server::Controller:Middleware::Encrypt::decrypt()\\
+R0F5.1.2 & SWEDesigner::Server::Controller:Middleware::Encrypt::getKey()\\
+R0F5.1.2 & SWEDesigner::Server::Controller:Middleware::Encrypt::getIv()\\
+R0F5.1.2 & SWEDesigner::Server::Controller::Services::encryptService::decrypt()\\
+R0F5.1.2 & SWEDesigner::Server::Controller::Services::encryptService::getKey()\\
+R0F5.1.2 & SWEDesigner::Server::Controller::Services::encryptService::getIv()\\
+R0F6.1.1.1 & SWEDesigner::Client::Services::ClasseAstratta::toJSON()\\
+R0F6.1.1.1 & SWEDesigner::Client::Services::Classe::toJSON()\\
+R0F6.1.1.3 & SWEDesiger::Server::Model::mongooseRequest::inscryptparam()\\
+R0F6.1.1.3 & SWEDesiger::Server::Model::mongooseRequest::loadKeyCrypy()\\
+R0F6.1.1.3 & SWEDesigner::Server::Controller:Middleware::Encrypt::encrypt()\\
+R0F6.1.1.3 & SWEDesigner::Server::Controller:Middleware::Encrypt::getKey()\\
+R0F6.1.1.3 & SWEDesigner::Server::Controller:Middleware::Encrypt::getIv()\\
+R0F6.1.1.3 & SWEDesigner::Server::Controller::Services::encryptService::encrypt()\\
+R0F6.1.1.3 & SWEDesigner::Server::Controller::Services::encryptService::getKey()\\
+R0F6.1.1.3 & SWEDesigner::Server::Controller::Services::encryptService::getIv()\\
+R0F6.1.1.4 & SWEDesiger::Server::Model::mongooseRequest::dropSchema()\\
+R0F6.1.1.4 & SWEDesigner::Server::Controller::Middleware::Parse::load()\\
+R0F6.1.1.4 & SWEDesigner::Server::Controller::Middleware::Parse::parse()\\
+R0F6.1.1.4 & SWEDesigner::Server::Controller::Middleware::Parse::getTamplate()\\
+R0F6.1.1.4 & SWEDesigner::Server::Controller::Services::parseService::parsing()\\
+R0F6.2 & SWEDesigner::Client::Services::MainEditorService::setClassMode()\\
+R0F6.2.1.1 & SWEDesigner::Client::Components::Editor::ToolbarComponent::addClasse()\\
+R0F6.2.1.1 & SWEDesigner::Client::Components::Editor::ToolbarComponent::addAstratta()\\
+R0F6.2.1.1 & SWEDesigner::Client::Components::Editor::ToolbarComponent::addInterfaccia()\\
+R0F6.2.1.3 & SWEDesigner::Client::Components::Editor::EditorComponent::addConnettore()\\
+R0F6.2.1.3 & SWEDesigner::Client::Components::Editor::ToolbarComponent::addGeneralizzazione()\\
+R0F6.2.1.3 & SWEDesigner::Client::Components::Editor::ToolbarComponent::addImplementazione()\\
+R0F6.2.1.3 & SWEDesigner::Client::Components::Editor::ToolbarComponent::addAssociazione()\\
+R0F6.2.1.3 & SWEDesigner::Client::Components::Editor::ToolbarComponent::addConnettore\\
+R0F6.2.1.3.1 & SWEDesigner::Client::Components::Editor::EditorComponent::selectElementsToConnect()\\
+R0F6.2.1.3.1 & SWEDesigner::Client::Components::Editor::EditorComponent::elementSelection()\\
+R0F6.2.1.3.2 & SWEDesigner::Client::Components::Editor::EditorComponent::selectElementsToConnect()\\
+R0F6.2.1.3.2 & SWEDesigner::Client::Components::Editor::EditorComponent::elementSelection()\\
+R0F6.3 & SWEDesigner::Client::Services::MainEditorService::setActivityMode()\\
+R0F6.3 & SWEDesigner::Client::Services::MainEditorService::getActivityModeStatus()\\
+R0F6.3 & SWEDesigner::Client::Services::MainEditorService::enterActivityMode()\\
+R0F6.3.1.10 & SWEDesigner::Client::Services::MainEditorService::removeMetodo()\\
+R0F6.3.1.10 & SWEDesigner::Client::Services::Classe::removevMetodo()\\
+R0F6.3.1.10 & SWEDesigner::Client::Components::Editor::ClassMenuComponent::removeMetodo()\\
+R0F6.3.1.11 & SWEDesigner::Client::Services::MainEditorService::removeAtributo()\\
+R0F6.3.1.11 & SWEDesigner::Client::Services::Classe::removeAttr()\\
+R0F6.3.1.11 & SWEDesigner::Client::Components::Editor::ClassMenuComponent::removeAttributo\\
+R0F6.3.1.5 & SWEDesigner::Client::Services::MainEditorService::getSelectedClasse()\\
+R0F6.3.1.5 & SWEDesigner::Client::Services::MainEditorService::addClass()\\
+R0F6.3.1.5 & SWEDesigner::Client::Services::MainEditorService::selectClasse()\\
+R0F6.3.1.5.1 & SWEDesigner::Client::Services::Classe::changeNome()\\
+R0F6.3.1.5.1 & SWEDesigner::Client::Services::Classe::getNome()\\
+R0F6.3.1.5.1 & SWEDesigner::Client::Components::Editor::ClassMenuComponent::changeNome()\\
+R0F6.3.1.5.2 & SWEDesigner::Client::Services::Classe::addAttributo()\\
+R0F6.3.1.5.2 & SWEDesigner::Client::Services::Classe::changeAttr()\\
+R0F6.3.1.5.2 & SWEDesigner::Client::Services::Classe::getAttributi()\\
+R0F6.3.1.5.2 & SWEDesigner::Client::Components::Editor::ClassMenuComponent::changeAttributo()\\
+R0F6.3.1.5.2 & SWEDesigner::Client::Services::Param::changeNome()\\
+R0F6.3.1.5.2 & SWEDesigner::Client::Services::Attributo::changeAccesso()\\
+R0F6.3.1.5.2 & SWEDesigner::Client::Services::Interface::addAbstractMethods()\\
+R0F6.3.1.5.3 & SWEDesigner::Client::Services::MainEditorService::addAttributo()\\
+R0F6.3.1.5.3 & SWEDesigner::Client::Components::Editor::ClassMenuComponent::addAttributo()\\
+R0F6.3.1.5.4 & SWEDesigner::Client::Services::Classe::addMetodo()\\
+R0F6.3.1.5.4 & SWEDesigner::Client::Services::Classe::getMetodi()\\
+R0F6.3.1.5.4 & SWEDesigner::Client::Services::Classe::retriveMethod()\\
+R0F6.3.1.5.4 & SWEDesigner::Client::Components::Editor::ClassMenuComponent::modifyMetodo()\\
+R0F6.3.1.5.4.2 & SWEDesigner::Client::Services::Metodo::changeNome()\\
+R0F6.3.1.5.4.2 & SWEDesigner::Client::Services::Metodo::getNome()\\
+R0F6.3.1.5.4.3 & SWEDesigner::Client::Services::Metodo::tipoDiRitorno()\\
+R0F6.3.1.5.4.3 & SWEDesigner::Client::Services::Metodo::getTipoRitorno()\\
+R0F6.3.1.5.4.4 & SWEDesigner::Client::Services::Metodo::changeListaArg()\\
+R0F6.3.1.5.4.4 & SWEDesigner::Client::Services::Metodo::addArgomento()\\
+R0F6.3.1.5.4.4 & SWEDesigner::Client::Services::Metodo::getListaArgomenti()\\
+R0F6.3.1.5.4.5 & SWEDesigner::Client::Services::Metodo::changeAccesso()\\
+R0F6.3.1.5.4.5 & SWEDesigner::Client::Services::Metodo::getAccesso()\\
+R0F6.3.1.5.5 & SWEDesigner::Client::Services::MainEditorService::addMetodo()\\
+R0F6.3.1.5.5 & SWEDesigner::Client::Services::ClasseAstratta::addAbstractMethods()\\
+R0F6.3.1.5.6 & SWEDesigner::Client::Components::Editor::ToolbarComponent::addAstratta()\\
+R0F6.3.1.5.7 & SWEDesigner::Client::Components::Editor::ToolbarComponent::addInterfaccia()\\
+R0F6.3.1.8 & SWEDesigner::Client::Components::Editor::ToolbarComponent::addCommento()\\
+R0F6.3.2 & SWEDesigner::Client::Components::Editor::EditorComponent::ZoomIn()\\
+R0F6.3.2 & SWEDesigner::Client::Components::Menu::ModificaComponent::doZoomIN()\\
+R0F6.3.2 & SWEDesigner::Client::Services::MenuService::zoomIn()\\
+R0F6.3.3 & SWEDesigner::Client::Components::Editor::EditorComponent::ZoomOut()\\
+R0F6.3.3 & SWEDesigner::Client::Components::Menu::ModificaComponent::DoZoomOut()\\
+R0F6.3.3 & SWEDesigner::Client::Services::MenuService::zoomOut()\\
+R1F13 & SWEDesiger::Server::Model::mongooseRequest::forgotMail()\\
+R1F6.1.2.4 & SWEDesigner::Client::Components::Editor::EditorComponent::cloneElement()\\
+R1F6.1.2.5 & SWEDesigner::Client::Components::Editor::EditorComponent::cloneElement()\\
+
+
+\rowcolor{white}
+\caption{Tracciamento Requisiti - Classe}
+\end{longtable}
+\end{center}
