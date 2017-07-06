@@ -431,7 +431,18 @@ il server
           			Classe che definisce i metodi per le operazioni di modifica di un elemento selezionato all’interno del diagramma rappresentato.
           			\item \textbf{Utilizzo:}\\
           			É istaziata dal framework Angular e i suoi metodi sono utilizzati dal component classMenuService.
+          			\item \textbf{Attributi:}\\
+          			\begin{itemize}
+          				\item \emph{-selectedClassSource: Subject<any>}\\
+            			Subject della classe selezionata
+            			\item \emph{+selectedClass: Observable<any>}\\
+            			Observable della classe selezionata sul diagramma
+          			\end{itemize}
           			\item \textbf{Metodi:}\\
+          			\begin{itemize}
+          				\item \emph{+classSelection(classe: any): void}\\
+            			Aggiorna il subject della classe
+          			\end{itemize}
           		\end{itemize}
           	\paragraph{SWEDesigner::Client::Services::AccountService}
 				\begin{itemize}
@@ -439,7 +450,6 @@ il server
           			Classe che definisce i metodi di registrazione, login e recupero dati utente dal server.
           			\item \textbf{Utilizzo:}\\
           			É istaziata dal framework Angular e i suoi metodi sono utilizzati dai component registrationComponent e loginComponent.
-          			\item \textbf{Metodi:}\\
           		\end{itemize}
 	\subsection{SWEDesigner::Client::Services::Models}
 		\subsubsection{Informazioni generali}
