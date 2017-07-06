@@ -436,7 +436,7 @@ il server
           				\item \emph{-selectedClassSource: Subject<any>}\\
             			Subject della classe selezionata
             			\item \emph{+selectedClass: Observable<any>}\\
-            			Observable della classe selezionata sul diagramma
+            			Observable della classe selezionata
           			\end{itemize}
           			\item \textbf{Metodi:}\\
           			\begin{itemize}
@@ -782,5 +782,35 @@ dei diagrammi.
           			Classe che definisce i metodi di settaggio e richiesta di tutte le classi contenenti nel diagramma delle classi.
           			\item \textbf{Utilizzo:}\\
           			É istaziata dal framework Angular e i suoi metodi sono utilizzati dal servizio editorService.
+          			\item \textbf{Attributi:}\\
+          			\begin{itemize}
+          				\item \emph{-nome_progetto: string}
+          				Nome del progetto
+          				\item \emph{-diagramma: string}
+          				JSON convertito in string del diagramma
+          				\item \emph{-classi: Classe[]}
+          				Array di classi
+          			\end{itemize}
           			\item \textbf{Metodi:}\\
+          			\begin{itemize}
+          				\item \emph{+addClasse(nome: string): void}
+          				Nome del progetto
+          				\item \emph{+changeTitolo(titolo: string): void}
+          				JSON convertito in string del diagramma
+          				\item \emph{+setDiagramma(diagramma: string): void}
+          				Setta l'attributo diagramma della classe
+          				\item \textbf{Parametri:}\\
+            				\begin{itemize}
+            					\item \emph{diagramma: string}\\
+            					Diagramma
+            				\end{itemize}
+          				\item \emph{+getDiagramma(): string}
+          				Ritorna il diagramma del progetto
+          				\item \emph{+getDiagramma(): string}
+          				Ritorna il nome del progetto
+          				\item \emph{+getDiagramma(): Classe[]}
+          				Ritorna la collezione di classi
+          				\item \emph{+toJSON(): string}
+          				Ritorna un JSON del progetto in formato string
+          			\end{itemize}
           		\end{itemize}
