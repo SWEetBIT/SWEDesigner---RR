@@ -14,13 +14,38 @@
       dei membri del gruppo, analisi delle difficoltà nell’individuazione dei requisiti e loro verificabilità.
     \end{itemize}
     Un'ulteriore riunione, a \emph{Studio di Fattibilità} concluso, determinerà la scelta del \glossaryItem{capitolato}.
+    \subsubsection{Pianificazione ed esecuzione}
+    Scelto un capitolato d’appalto, il gruppo deve entrare formalmente in contatto con l’ente autore del capitolato; il gruppo deve esprimere a tale ente il proprio desiderio di rispondere al capitolato. Se le parti giungono a un accordo, il responsabile di progetto deve avviare le attività dei processi di:
+    \begin{itemize}
+    	\item gestione di progetto;
+    	\item documentazione di progetto;
+    	\item gestione della configurazione;
+    	\item sviluppo.
+    \end{itemize}
+    \subsubsection{Documentazione fornita}
+    Di seguito vengono elencati i documenti forniti al \textit{Proponente} e ai \textit{Committenti} al fine di assicurare la massima trasparenza circa le attività di:
+    \begin{itemize}
+    	\item \textbf{Pianificazione, consegna e completamento}: descritte all'interno del \textit{Piano di Progetto};
+    	\item \textbf{Analisi}: analisi dei requisiti e dei casi d'uso del gruppo vengono definite all'interno del documento \textit{Analisi dei Requisiti};
+    	\item \textbf{Progettazione Architetturale}: una panoramica ad alto livello dell'applicazione, assieme alle tecnologie adottate, viene descritta nel documento \textit{Specifica Tecnica};
+    	\item \textbf{Progettazione di Dettaglio}: l'insieme delle classi, dei metodi, degli attributi e
+delle scelte implementative sono racchiuse nel documento \textit{Definizione di Prodotto};
+		\item \textbf{Verifica e Validazione}: descritte all'interno del \textit{Piano di Qualifica};
+		\item \textbf{Garanzia della Qualità dei processi e di prodotto}: descritte e definite nel
+sopra citato \textit{Piano di Qualifica}.
+    \end{itemize}
+    \subsubsection{Consegna del prodotto}
+    Il gruppo deve consegnare il prodotto dopo averlo collaudato pubblicamente; il collaudo deve includere almeno i seguenti punti:
+    \begin{itemize}
+    	\item un'illustrazione delle principali funzionalità del prodotto, che riassuma almeno i requisiti giudicati obbligatori nel documento \textit{Analisi dei Requisiti};
+    	\item un esempio d'uso del prodotto dal vivo.
+    \end{itemize}
+    Dopo il collaudo finale, il gruppo consegnerà il prodotto al cliente in un giorno con lui concordato.
 	\subsection{Sviluppo}
 		\subsubsection{Analisi dei requisiti}
-		 La stesura del documento di \emph{Analisi dei Requisiti} è compito degli \emph{Analisti} e si divide nelle fasi di seguito riportante.\\
-		 Per semplificare il tracciamento degli \glossaryItem{Use Case} e dei Requisiti si è scelto di utilizzare \textbf{Trender}, uno strumento \glossaryItem{Open-source} che permette
-        di gestire al meglio entrambi gli elementi e le realizioni fra gli stessi.\\
-        Il tool permette l'esportazione di questi direttamente in \glossaryItem{\LaTeX}\, così da semplificare la scrittura degli stessi all'interno della documentazione.
-    Il documento dovrà seguire, inoltre, le norme specificate di seguito.
+		 La stesura del documento di \emph{Analisi dei Requisiti} è compito degli \emph{Analisti} e dovrà seguire le specifiche di seguito riportate.\\
+		 Per semplificare il tracciamento degli \glossaryItem{Use Case} e dei Requisiti si è scelto di utilizzare \textbf{Trender}, uno strumento \glossaryItem{Open-source} che permette di gestire al meglio entrambi gli elementi e le relazioni fra gli stessi.\\
+        Il tool permette l'esportazione di questi direttamente in \glossaryItem{\LaTeX}\, così da semplificare la scrittura degli stessi all'interno della documentazione. Il documento dovrà seguire, inoltre, le norme specificate di seguito.
     \paragraph{Classificazione dei requisiti}
       È compito degli \emph{Analisti} stilare una lista dei requisiti emersi dal \glossaryItem{capitolato} e da eventuali riunioni con il \glossaryItem{Proponente}. Questi dovranno essere
       classificati per tipo e per importanza utilizzando la seguente codifica:
@@ -94,29 +119,16 @@
       \end{center}
       Il software provvederà a generare anche i \glossaryItem{File} \glossaryItem{LaTeX} corrispondenti.
 \subsubsection{Progettazione}
-	\paragraph{Attività progettuali} Il lavoro dei progettisti consiste nel progettare
-struttura e comportamento del software in modo da implementare tutti i requisiti
-obbligatori individuati dagli analisti; inoltre, i progettisti dovranno prevedere
-anche il massimo della copertura dei requisiti desiderabili. Nello specifico, il lavoro dei progettisti si articola in due
-attività:
+	\paragraph{Attività progettuali} Il lavoro dei \textit{Progettisti} consiste nel progettare struttura e comportamento del software in modo da implementare tutti i requisiti obbligatori individuati dagli analisti; inoltre, i progettisti dovranno prevedere anche il massimo della copertura dei requisiti desiderabili. Nello specifico, il lavoro dei progettisti si articola in due attività:
 \begin{itemize}
-\item \textbf{Progettazione architetturale} (descritta in §5.3.5 di ISO/IEC 12207:1995): definire l’architettura del sistema, cioè individuare e descrivere le componenti
-del sistema, esplicitandone ruoli e relazioni tra essi; ogni progettista
-documenta i prodotti di questa attività nel documento di \emph{Specifica Tecnica}.
-\item \textbf{Progettazione di dettaglio} (descritta in §5.3.6 di ISO/IEC 12207:1995): definire, in dettaglio, il comportamento delle componenti del sistema;
-ogni progettista documenta i prodotti di questa attività nel documento di
+\item \textbf{Progettazione architetturale} (descritta in §5.3.5 di ISO/IEC 12207:1995): definire l’architettura del sistema, cioè individuare e descrivere le componenti del sistema, esplicitandone ruoli e relazioni tra essi; ogni progettista documenta i prodotti di questa attività nel documento di \emph{Specifica Tecnica}.
+\item \textbf{Progettazione di dettaglio} (descritta in §5.3.6 di ISO/IEC 12207:1995): definire, in dettaglio, il comportamento delle componenti del sistema; ogni progettista documenta i prodotti di questa attività nel documento di
 \emph{Definizione di Prodotto}.
 \end{itemize}
-Per ognuna di queste due attività, ogni progettista deve definire dei test che
-permettano la verifica del sistema:
+Per ognuna di queste due attività, ogni \textit{Progettista} deve definire dei test che permettano la verifica del sistema:
 \begin{itemize}
-\item durante la progettazione architetturale, i progettisti definiscono i test di
-integrazione, cioè dei test che verificano il corretto interfacciarsi delle
-componenti del sistema;
-\item durante la progettazione di dettaglio, la specifica del comportamento di
-una componente dev’essere accompagnata dalla definizione di un test di
-unità che verifichi il corretto funzionamento della componente isolata.
-
+\item durante la progettazione architetturale, i progettisti definiscono i test di integrazione, cioè dei test che verificano il corretto interfacciarsi delle componenti del sistema;
+\item durante la progettazione di dettaglio, la specifica del comportamento di una componente dev’essere accompagnata dalla definizione di un test di unità che verifichi il corretto funzionamento della componente isolata.
 \end{itemize}
 \paragraph{Diagrammi} Per descrivere l’architettura e il comportamento del
 sistema i progettisti utilizzano i diagrammi \glossaryItem{UML} descritti qui di seguito, seguendo
@@ -227,8 +239,9 @@ I Progettisti devono definire i test di unità necessari per verificare che i co
 \end{itemize}
 
 
-\subsubsection{Codifica dei file e documentazione}
-   \paragraph{Codifica e convenzioni}
+\subsubsection{Codifica}
+Scopo dell’attività di codifica è implementare in codice quanto descritto nel documento \textit{Definizione di Prodotto}. Per mantenere un alto grado di comprensione del codice sorgente, i programmatori devono seguire delle linee guida sulle tecnologie da usare, sulla nomenclatura e sulla documentazione.
+   \paragraph{Convenzioni e nomenclatura del codice}
    Di seguito vengono elencate le convenzioni stabilite; è contemplata la modifica delle stesse, previa autorizzazione del \emph{Project Manager};
 \begin{itemize}
 \item Tutti i file contenenti codice o documentazione dovranno essere in codifica \glossaryItem{UTF-8} senza \glossaryItem{BOM};
@@ -237,15 +250,15 @@ I Progettisti devono definire i test di unità necessari per verificare che i co
 \item I commenti devono essere fatti in italiano;
 \item I nomi delle classi devono avere l’iniziale maiuscola;
 \item I nomi di variabili e metodi devono avere la prima lettera minuscola, mentre devono essere maiuscole le iniziali delle eventuali altre parole che compongono il nome stesso;
-\item Identazione effettuata tramite tabs;
+\item Indentazione effettuata tramite tabs;
 \item I comandi if / else / for / while / try vengono sempre seguiti le parentesi graffe e bisogna sempre andare a capo dopo la loro apertura;
 \item Nessun spazio di riempimento in costruzioni vuote (ad esempio, {}, [], fn ());
 \item I nomi delle variabili e dei metodi devono essere il più descrittivi possibili, ad eccezioni degli iteratori;
 \item I nomi di metodi e funzioni devono essere adottati quelli definiti nel documento \emph{Specifica Tecnica};
 \item I programmatori possono introdurre funzioni ausiliarie non presenti nella progettazione.
 \end{itemize}
-
-
+	\paragraph{Efficienza}
+	Il \textit{Programmatore} deve produrre codice sorgente efficiente. In particolare, deve evitare la ricorsione; nel caso fosse molto difficile trovare un metodo iterativo equivalente, egli è tenuto a fornire una prova di terminazione dell’algoritmo ricorsivo.
    \paragraph{Documentazione del codice}
      Tutta la documentazione del codice dovrà seguire lo schema offerto da jsdoc in modo tale da garantire
      una corretta generazione del manuale dello sviluppatore e quello del manutentore.
@@ -285,17 +298,7 @@ I Progettisti devono definire i test di unità necessari per verificare che i co
       */
   \end{lstlisting}
 
-\subsubsection{Strumenti e ambienti di sviluppo}
-\paragraph{Stesura del codice}
-Per la stesura del codice è consigliabile usare uno dei seguenti editor:
-\begin{itemize}
-\item gedit \href{http://projects.gnome.org/gedit}{(http://projects.gnome.org/gedit)};
-\item \glossaryItem{Microsoft Visual Studio} \href{https://www.visualstudio.com/it/}{(https://www.visualstudio.com/it/)}.
-\end{itemize}
-
-Microsoft Visual Studio è un \glossaryItem{IDE} per lo sviluppo di applicazioni per tablet, smartphone e computer, oltre a siti e servizi web. E' fortemente consigliato per lo sviluppo di questo progetto dato che supporta numerosi linguaggi di programmazione tra cui \glossaryItem{Node.js}, \glossaryItem{HTML}, \glossaryItem{Java} e \glossaryItem{Javascript}, tutti linguaggi fondamentali per la realizzazione del capitolato richiesto.
-
-\paragraph{\glossaryItem{Framework}}
+\paragraph{Tecnologie e infrastruttura}
 Per lo sviluppo del progetto è previsto l'utilizzo dello stack \glossaryItem{MEAN}, contenente le seguenti tecnologie:
 \begin{itemize}
 \item \glossaryItem{Mongodb};
@@ -303,3 +306,5 @@ Per lo sviluppo del progetto è previsto l'utilizzo dello stack \glossaryItem{ME
 \item \glossaryItem{Angular js};
 \item \glossaryItem{Node js}.
 \end{itemize}
+Per la stesura del codice ogni \textit{Programmatore} deve scrivere codice usando \glossaryItem{Microsoft Visual Studio} \url{https://www.visualstudio.com/it/} ed è tenuto ad accettare la formattazione automatica del codice.\\
+Microsoft Visual Studio è un \glossaryItem{IDE} per lo sviluppo di applicazioni per tablet, smartphone e computer, oltre a siti e servizi web. E' fortemente consigliato per lo sviluppo di questo progetto dato che supporta numerosi linguaggi di programmazione tra cui \glossaryItem{Node.js}, \glossaryItem{HTML}, \glossaryItem{Java} e \glossaryItem{Javascript}, tutti linguaggi fondamentali per la realizzazione del capitolato richiesto.
