@@ -238,40 +238,6 @@ La documentazione del progetto è contenuta in un \emph{repository} distinto da 
   Vengono qui elencati, e sommariamente descritti, gli strumenti automatizzati e le politiche adottate per effettuare la verifica dei documenti redatti e del \glossaryItem{Codice} prodotto.\\
   Per le attività di verifica si farà un largo uso delle metriche descritte in dettaglio nel \textit{Piano di Qualifica}.
 
-\subsubsection{Verifica dei documenti}
-Nel verificare i documenti, i verificatori dovranno seguire le seguenti direttive:
-\begin{itemize}
-\item Controllare il diario delle modifiche per vedere cos'è cambiato nel documento
-dall'ultima verifica;
-\item Rileggere le parti modificate del documento, concentrandosi maggiormente nella
-ricerca degli errori più frequenti, riportati in appendice nella lista di controllo;
-\item Nel caso di un errore o un'incongruenza nel contenuto, il verificatore dovrà segnalare all'autore l'errore riscontrato, che provvederà a correggerlo;
-\item Infine, il verificatore aggiornerà il diario delle modifiche registrando la verifica e
-aggiornerà la versione del documento;
-\item Nel caso si siano riscontrati frequentemente errori dello stesso tipo, tali errori
-dovranno essere inseriti nella lista di controllo.
-
-\end{itemize}
-
-\subsubsection{Verifica dei requisiti}
-I verificatori, nel controllare i requisiti, dovranno prestare attenzione a questi elementi:
-\begin{itemize}
-\item Correttezza ortografica e lessicale del testo;
-\item Correttezza del codice identificativo prodotto da \glossaryItem{Trender};
-\item Atomicità dei requisiti foglia.
-\end{itemize}
-
-\subsubsection{Verifica dei diagrammi UML}
-I verificatori, nel controllare i diagrammi UML, dovranno prestare attenzione a
-questi elementi:
-\begin{itemize}
-\item Correttezza ortografica e lessicale del testo;
-\item Correttezza del formalismo grafico utilizzato;
-\item Correttezza logica del diagramma.
-\end{itemize}
-
-
-
 \subsubsection{Analisi Statica}
     L'analisi statica è il processo di verifica del sistema o di un suo componente, senza che esso debba necessariamente poter essere eseguito.
     Questa tecnica permette di verificare sia la documentazione che il \glossaryItem{Codice}, individuandone errori ed anomalie. Questa tecnica di analisi può essere svolta in due modi distinti e complementari.
@@ -305,6 +271,35 @@ Per aiutare l'identificazione automatica di errori, vengono usati i seguenti str
 \item \textbf{JSHint: }uno strumento che aiuta ad identificare gli errori e i potenziali problemi nel codice \glossaryItem{JavaScript};
 \item \textbf{JSLint: }uno strumento usato per verificare che il codice \glossaryItem{JavaScript} compila secondo le regole del linguaggio;
 \item \textbf{Closure Compiler: }strumento utilizzato per  migliorare il codice, controllando la sintassi ed i riferimenti alle variabili.
+\end{itemize}
+
+Nel verificare i documenti, i verificatori dovranno seguire le seguenti direttive:
+\begin{itemize}
+\item Controllare il diario delle modifiche per vedere cos'è cambiato nel documento
+dall'ultima verifica;
+\item Rileggere le parti modificate del documento, concentrandosi maggiormente nella
+ricerca degli errori più frequenti, riportati in appendice nella lista di controllo;
+\item Nel caso di un errore o un'incongruenza nel contenuto, il verificatore dovrà segnalare all'autore l'errore riscontrato, che provvederà a correggerlo;
+\item Infine, il verificatore aggiornerà il diario delle modifiche registrando la verifica e
+aggiornerà la versione del documento;
+\item Nel caso si siano riscontrati frequentemente errori dello stesso tipo, tali errori
+dovranno essere inseriti nella lista di controllo.
+
+\end{itemize}
+
+I verificatori, nel controllare i requisiti, dovranno prestare attenzione a questi elementi:
+\begin{itemize}
+\item Correttezza ortografica e lessicale del testo;
+\item Correttezza del codice identificativo prodotto da \glossaryItem{Trender};
+\item Atomicità dei requisiti foglia.
+\end{itemize}
+
+I verificatori, nel controllare i diagrammi \glossaryItem{UML}, dovranno prestare attenzione a
+questi elementi:
+\begin{itemize}
+\item Correttezza ortografica e lessicale del testo;
+\item Correttezza del formalismo grafico utilizzato;
+\item Correttezza logica del diagramma.
 \end{itemize}
 
 \subsubsection{Analisi Dinamica}
