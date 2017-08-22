@@ -1,18 +1,9 @@
 \section{Visione generale delle strategie di verifica}
-  \subsection{Definizione obiettivi di qualità}
+  \subsection{Obiettivi di qualità}
   Questa sezione si presta a descrivere sia gli obiettivi di qualità riguardanti
   il prodotto che quelli relativi ai processi necessari alla sua produzione.
-  \subsubsection{Qualità di prodotto}
-    Per garantire qualitativamente un prodotto software è necessario definire
-    degli obiettivi qualitativi e garantire il loro soddisfacimento. Per
-    stabilire gli obiettivi di qualità inerenti al prodotto software, il gruppo
-    SWEet BIT ha deciso di seguire lo standard \glossaryItem{ISO}/\glossaryItem{IEC} 9126; questo standard
-    descrive un modello per definire la qualità di un prodotto software e
-    suggerisce delle metriche per poterne misurare la qualità.\\
-    Lo standard \glossaryItem{ISO}/\glossaryItem{IEC} 9126 è descritto nell'Appendice \emph{A - Standard e
-    \glossaryItem{Metodi} per la gestione della Qualità} del presente documento.
-
-  \subsubsection{Qualità di processo}
+  
+  \subsection{Qualità di processo}
     La qualità dei processi che portano allo sviluppo di un software hanno un
     ruolo fondamentale sulla qualità del prodotto. Il gruppo SWEet BIT ha deciso
     di adottare il \emph{Ciclo di Deming}, o \emph{Ciclo} \glossaryItem{PDCA},
@@ -25,21 +16,7 @@
     \emph{Ciclo di Deming} sono descritti nell'Appendice \emph{A - Standard e
     \glossaryItem{Metodi} per la gestione della Qualità} del presente documento.
 
-
-  \subsection{Procedure di controllo di qualità del prodotto}
-    Il controllo per la qualità del prodotto definisce i seguenti processi:
-    \begin{itemize}
-      \item \textbf{SQA} (Software Quality Assurance): si occupa di assicurare
-      che i processi siano implementati secondo quanto pianificato e che siano
-      forniti sistemi di misurazione dei processi;
-      \item \textbf{Verifica}: si occupa di accertare che l'esecuzione dei
-      processi non abbia introdotto degli errori, e accerta il rispetto delle
-      regole, delle convenzioni e delle procedure;
-      \item \textbf{Validazione}: si occupa di accertare che i prodotti
-      realizzati siano conformi alle attese.
-    \end{itemize}
-
-  \subsection{Procedure di controllo di qualità di processo}
+  \subsubsection{Procedure di controllo di qualità di processo}
   La pianificazione delle attività volte al miglioramento continuo dei processi
   sono descritte nel \emph{Piano di Progetto \VersionePP{}}. Le linee guida per
   la gestione della qualità del processo, invece, seguono il modello \glossaryItem{PDCA} e
@@ -53,30 +30,70 @@
     attraverso l'utilizzo di apposite metriche, che verranno descritte in seguito.
   \end{itemize}
   
-  
-\subsection{Obiettivi di qualità di prodotto}  
+\subsubsection{Obiettivi di qualità di processo}  
+Gli obiettivi di qualità di processo che il gruppo SWEet BIT vuole raggiungere nel progetto, sono un sottoinsieme di quelli definiti dallo standard ISO/IEC 12207:2008.
+Sono metriche che danno un riscontro immediato sullo stato attuale del progetto, mantenendo il controllo sui processi durante il loro svolgimento.
+Per ogni metrica indicata è stato definito nelle \emph{Norme di Progetto}\VersioneNP{} come si calcola e con quale strumento.
+
+\paragraph{Controllo di pianificazione dei processi}
+Un insieme di metriche che indicano se ci si trova allineati o meno tra quanto pianificato e quanto è stato effettivamente eseguito.
+\begin{itemize}
+\item \textbf{Schedule Variance (SV): }[];
+\item \textbf{Budget Variance (BV): }[].
+\end{itemize}
+
+\paragraph{Documentazione}
+Un insieme di metriche che indicano il grado di leggibilità della documentazione relativa alle funzionalità e alle caratteristiche del sistema software prodotto.
+\begin{itemize}
+\item \textbf{Indice di Gulpease: }[60 - 100].
+\end{itemize}
+
+\subsection{Qualità di prodotto}
+    Per garantire qualitativamente un prodotto software è necessario definire
+    degli obiettivi qualitativi e garantire il loro soddisfacimento. Per
+    stabilire gli obiettivi di qualità inerenti al prodotto software, il gruppo
+    SWEet BIT ha deciso di seguire lo standard \glossaryItem{ISO}/\glossaryItem{IEC} 9126; questo standard
+    descrive un modello per definire la qualità di un prodotto software e
+    suggerisce delle metriche per poterne misurare la qualità.\\
+    Lo standard \glossaryItem{ISO}/\glossaryItem{IEC} 9126 è descritto nell'Appendice \emph{A - Standard e
+    \glossaryItem{Metodi} per la gestione della Qualità} del presente documento.
+
+  \subsubsection{Procedure di controllo di qualità di prodotto}
+    Il controllo per la qualità del prodotto definisce i seguenti processi:
+    \begin{itemize}
+      \item \textbf{SQA} (Software Quality Assurance): si occupa di assicurare
+      che i processi siano implementati secondo quanto pianificato e che siano
+      forniti sistemi di misurazione dei processi;
+      \item \textbf{Verifica}: si occupa di accertare che l'esecuzione dei
+      processi non abbia introdotto degli errori, e accerta il rispetto delle
+      regole, delle convenzioni e delle procedure;
+      \item \textbf{Validazione}: si occupa di accertare che i prodotti
+      realizzati siano conformi alle attese.
+    \end{itemize}
+
+\subsubsection{Obiettivi di qualità di prodotto}  
 Gli obiettivi di qualità del software che il gruppo SWEet BIT vuole raggiungere nel progetto, sono un sottoinsieme di quelli definiti dallo standard ISO/IEC 9126:2001.
 Per ogni metrica indicata è stato definito nelle \emph{Norme di Progetto} \VersioneNP{} come si calcola e con quale strumento.
 
-\subsubsection{Funzionalità} Il prodotto deve possedere tutte le funzionalità descritte dai requisiti obbligatori ed in gran parte anche quelle definite dai requisiti desiderabili. Gli obiettivi di funzionalità del prodotto e le relative metriche sono:
+\paragraph{Funzionalità} Il prodotto deve possedere tutte le funzionalità descritte dai requisiti obbligatori ed in gran parte anche quelle definite dai requisiti desiderabili. Gli obiettivi di funzionalità del prodotto e le relative metriche sono:
 \begin{itemize}
 \item \textbf{Copertura requisiti obbligatori: }[100];
 \item \textbf{Copertura requisiti desiderabili: }[70 - 100].
 \end{itemize}
 
-\subsubsection{Affidabilità} Il prodotto deve superare tutti i test per verificare che funzioni in tutte le situazioni in cui si può trovare.
+\paragraph{Affidabilità} Il prodotto deve superare tutti i test per verificare che funzioni in tutte le situazioni in cui si può trovare.
 Gli obiettivi di affidabilità del prodotto e le relative metriche sono:
 \begin{itemize}
 \item \textbf{Percentuale test superati: }[100].
 \end{itemize}
 
-\subsubsection{Efficienza} Il prodotto non presenterà un alto grado di complessità. 
+\paragraph{Efficienza} Il prodotto non presenterà un alto grado di complessità. 
 Gli obiettivi di efficienza del prodotto e le relative metriche sono:
 \begin{itemize}
 \item \textbf{Profondità di annidamento: }[0 - 4].
 \end{itemize}
 
-\subsubsection{Manutenibilità} Il prodotto risulterà manutenibile nel tempo. 
+\paragraph{Manutenibilità} Il prodotto risulterà manutenibile nel tempo. 
 Gli obiettivi di manutenibilità del prodotto e le relative metriche sono:
 \begin{itemize}
 \item \textbf{Complessità ciclomatica: }[0 - 10];
@@ -85,24 +102,3 @@ Gli obiettivi di manutenibilità del prodotto e le relative metriche sono:
 \item \textbf{Linee di codice per linee di commento: }[>0.30];
 \item \textbf{Copertura del codice: }[80 - 100];
 \end{itemize}
-
-
-
-\subsection{Obiettivi di qualità di processo}  
-Gli obiettivi di qualità di processo che il gruppo SWEet BIT vuole raggiungere nel progetto, sono un sottoinsieme di quelli definiti dallo standard ISO/IEC 12207:2008.
-Sono metriche che danno un riscontro immediato sullo stato attuale del progetto, mantenendo il controllo sui processi durante il loro svolgimento.
-Per ogni metrica indicata è stato definito nelle \emph{Norme di Progetto}\VersioneNP{} come si calcola e con quale strumento.
-
-\subsubsection{Controllo di pianificazione dei processi}
-Un insieme di metriche che indicano se ci si trova allineati o meno tra quanto pianificato e quanto è stato effettivamente eseguito.
-\begin{itemize}
-\item \textbf{Schedule Variance (SV): }[];
-\item \textbf{Budget Variance (BV): }[].
-\end{itemize}
-
-\subsubsection{Documentazione}
-Un insieme di metriche che indicano il grado di leggibilità della documentazione relativa alle funzionalità e alle caratteristiche del sistema software prodotto.
-\begin{itemize}
-\item \textbf{Indice di Gulpease: }[60 - 100].
-\end{itemize}
-

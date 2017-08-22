@@ -18,6 +18,7 @@ I test effettuati vengono divisi in livelli differenti  e si concretizzano in un
 \subsection{Test di Sistema}
 Vengono descritti i test per verificare il comportamento del sistema rispetto ai requisiti deginiti nell'\emph{Analisi dei Requisiti v}\VersioneAR.
 I test sotto riportati sono quelli relativi ai requisiti rilevanti meritevoli di test.
+\subsubsection{Specifica dei test di Sistema}
 \begin{longtable}{p{2.5cm}!{\VRule[1pt]}p{6cm}!{\VRule[1pt]}p{1.5cm}!{\VRule[1pt]}p{3cm}}
 \rowcolor{I}
 \color{white} \textbf{Test} & \color{white} \textbf{Descrizione}  & \color{white} \textbf{Stato}  & \color{white} \textbf{Requisito}\\ 
@@ -138,6 +139,8 @@ TS13 & Verificare che i browser in uso siano Google Chrome versione 49.X o Mozil
 
 
 \subsection{Test di Integrazione}
+I test di integrazione consentono di controllare che più moduli funzionino assieme in modo corretto.
+\subsubsection{Specifica dei test di Integrazione}
 \begin{longtable}{p{2cm}!{\VRule[1pt]}p{9.5cm}!{\VRule[1pt]}p{1.5cm}}
 \rowcolor{I}
 \color{white} \textbf{Test} & \color{white} \textbf{Descrizione}  & \color{white} \textbf{Stato}\\ 
@@ -177,7 +180,7 @@ TI14 & Verificare che il sistema gestisca correttamente le componenti relative a
 \caption{Descrizione test di Integrazione}
 \end{longtable}
 
-
+\subsubsection{Tracciamento test di integrazione - componenti}
 \begin{longtable}{p{2cm}!{\VRule[1pt]}p{10cm}}
 \rowcolor{I}
 \color{white} \textbf{Test} & \color{white} \textbf{Componenti aggiunte} \\ 
@@ -220,7 +223,9 @@ TI14 & SWEDesigner::Client::Service::Model\\
 
 
 \newpage
-\subsection{Test di Accettazione}
+\subsection{Test di Validazione}
+I test di validazione hanno lo scopo di accertare che esso sia conforme alle attese. Per ogni test viene riportata una descrizione contenente i passi che l’utente deve seguire per verificare che i requisiti siano soddisfatti.
+\subsubsection{Specifica dei test di Validazione}
 \begin{longtable}{p{2cm}!{\VRule[1pt]}p{7cm}!{\VRule[1pt]}p{1.5cm}!{\VRule[1pt]}p{2.5cm}}
 \rowcolor{I}
 \color{white} \textbf{Test} & \color{white} \textbf{Descrizione}  & \color{white} \textbf{Stato}  & \color{white} \textbf{Requisito}\\ 
@@ -419,7 +424,10 @@ TA20 & L'utente non ancora autenticato, che ha smarrito la password ha la possib
 
 
 \subsection{Test di Unità}
+I test di unità verificano che ogni singola unità (parte di una componente software) funzioni correttamente; definiamo un’unità come la più piccola quantità di software che conviene verificare da sola. Solitamente l’unità è il metodo di una classe.\\
 I test sotto riportati sono quelli relativi ai requisiti rilevanti meritevoli di test.
+
+\subsubsection{Specifica dei test di Unità}
 \begin{longtable}{p{2cm}!{\VRule[1pt]}p{5cm}!{\VRule[1pt]}p{4.5cm}!{\VRule[1pt]}p{1.5cm}}
 \rowcolor{I}
 \color{white} \textbf{Test} & \color{white} \textbf{Descrizione}  & \color{white} \textbf{Metodi}  & \color{white} \textbf{Stato}\\ 
