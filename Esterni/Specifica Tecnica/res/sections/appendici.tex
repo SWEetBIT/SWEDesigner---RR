@@ -4,7 +4,7 @@ ricorrenti. L’impiego di questi modelli rende l'architettura più manutenibile
 di seguito illustrati i \glossaryItem{Design Pattern} implementati nella costruzione dell’architettura di
 alto livello, divisi per categoria di applicazione:
 	\subsection{\glossaryItem{Design Pattern} Architetturali}
-	
+
 		\subsubsection{MVVM}
 		\begin{figure}[H]
 		\centering
@@ -19,15 +19,15 @@ alto livello, divisi per categoria di applicazione:
 		\item ViewModel - è il punto di incontro tra la View e il Model: i dati ricevuti da quest’ultimo sono elaborati per essere presentati e passati alla View.
 		\end{itemize}
 
-		\item \textbf{Motivazione}: MVVM è stato progettato per utilizzare le funzioni di binding dei dati in WPF (Windows Presentation Foundation) per facilitare la separazione della view dal resto del modello, rimuovendo praticamente tutti i codici \glossaryItem{GUI} dal livello di visualizzazione. Invece di richiedere agli sviluppatori di \glossaryItem{user experience (UX)} di scrivere il codice \glossaryItem{GUI}, possono utilizzare il linguaggio di marcatura dei \glossaryItem{frameworki} e creare connessioni di dati al modello di visualizzazione, che viene scritto e gestito dagli sviluppatori di applicazioni. La separazione dei ruoli consente ai progettisti interattivi di concentrarsi sulle esigenze UX anziché sulla programmazione della logica aziendale. 
-Gli strati di un'applicazione possono quindi essere sviluppati in più flussi di lavoro per una maggiore produttività. 
+		\item \textbf{Motivazione}: MVVM è stato progettato per utilizzare le funzioni di binding dei dati in WPF (Windows Presentation Foundation) per facilitare la separazione della view dal resto del modello, rimuovendo praticamente tutti i codici \glossaryItem{GUI} dal livello di visualizzazione. Invece di richiedere agli sviluppatori di \glossaryItem{user experience (UX)} di scrivere il codice \glossaryItem{GUI}, possono utilizzare il linguaggio di marcatura dei \glossaryItem{framework} e creare connessioni di dati al modello di visualizzazione, che viene scritto e gestito dagli sviluppatori di applicazioni. La separazione dei ruoli consente ai progettisti interattivi di concentrarsi sulle esigenze UX anziché sulla programmazione della logica aziendale. 
+Gli strati di un'applicazione possono quindi essere sviluppati in più flussi di lavoro per una maggiore produttività.
 \item \textbf{Applicabilità}: il modello MVVM è in definitiva la moderna struttura del modello MVC, quindi l'obiettivo principale è sempre lo stesso per fornire una netta separazione tra logica di dominio e livello di presentazione. Esso è applicabile nei seguenti casi:
 \begin{itemize}
 \item Quando si vuole ottenere la vera separazione tra la view e la model oltre a conseguire la separazione e l'efficienza che si guadagna ad averla;
-\item Quando si vuole codice manutenibile e estensibile. 
+\item Quando si vuole codice manutenibile e estensibile.
 \end{itemize}
 		\end{itemize}
-	
+
 		\subsubsection{Three-Tier}
 		\begin{figure}[H]
 		\centering
@@ -44,7 +44,7 @@ persistere i dati e recuperarli. Ogni livello comunicherà solo con i livelli ad
 	\item \textbf{Motivazione}: si tratta di un pattern molto utilizzato nelle \glossaryItem{applicazioni web} perché rende l’applicazione flessibile, riutilizzabile e scalabile. Con la separazione di un’applicazione in livelli, gli sviluppatori, per modificare o aggiungere funzionalità, possono infatti modificare solo uno specifico livello piuttosto che dover riscrivere l’intera applicazione. Ciò garantisce dunque una maggiore semplicità di progettazione/implementazione secondo la filosofia del divide et impera ed una maggiore manutenibilità.
 		\end{itemize}
 	\subsection{\glossaryItem{Design Pattern} Creazionali}
-	
+
 		\subsubsection{Factory Method}
 		\begin{figure}[H]
 		\centering
@@ -62,8 +62,8 @@ Il Factory Method indirizza questi problemi definendo un metodo separato per la 
 		\item si desidera che la creazione di un oggetto non richieda l’accesso ad informazioni o risorse che non dovrebbero essere contenute nella classe di composizione;
 		\item si desidera che la gestione del ciclo di vita degli oggetti gestiti debba essere centralizzata in modo da assicurare un comportamento consistente all’interno dell’applicazione.
 		\end{itemize}
-		\end{itemize}				
-		
+		\end{itemize}
+
 	\subsection{\glossaryItem{Design Pattern} Strutturali}
 
 		\subsubsection{Decorator}
@@ -84,8 +84,8 @@ decorare in un altro. L’oggetto contenitore è chiamato Decorator. Il Decorato
 	\item Si vuole poter togliere responsabilità agli oggetti;
 	\item Si vuole definire un gran numero di estensioni indipendenti.
 	\end{itemize}
-\end{itemize}			
-		
+\end{itemize}
+
 		\subsubsection{Facade}
 		\begin{figure}[H]
 		\centering
@@ -105,9 +105,9 @@ Un obiettivo comune di progettazione è la minimizzazione delle comunicazioni e 
 		\end{itemize}
 
 		\end{itemize}
-	
+
 	\subsection{\glossaryItem{Design Pattern} Comportamentali}
-	
+
 		\subsubsection{Dependency Injection}
 		\begin{figure}[H]
 		\centering
@@ -133,7 +133,7 @@ iniettarvi le dipendenze;
 \end{itemize}
 
 		\end{itemize}
-		\subsubsection{Command}	
+		\subsubsection{Command}
 		\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.6\linewidth]{GraficiAppendici/command.png}
@@ -153,5 +153,3 @@ nulla dell’operazione richiesta o del destinatario della richiesta. Il pattern
 		\end{itemize}
 
 		\end{itemize}
-		
-	
