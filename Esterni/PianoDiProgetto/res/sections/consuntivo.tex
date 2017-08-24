@@ -176,17 +176,17 @@ Questa sezione contiene il prospetto economico che riporta i consuntivi dei vari
 			\hline
 			\textbf{Ruolo}		& \textbf{Ore}	& \textbf{Costo} \\
 			\hline
-			Project Manager		& 0			&	\\
-			Amministratore		& +2		& +40	\\
-			Analista			& 0			&  \\
-			Progettista			& +8		& +176	\\
-			Programmatore		& +8		& +200	\\
-			Verificatore		& +10		& +150	\\
+			Project Manager		& +4		& +120 \\
+			Amministratore		& -1  		& -20 \\
+			Analista			& -4		& -100 \\
+			Progettista			& -8 		& -176 \\
+			Programmatore		& -15 		& -225 \\
+			Verificatore		& -12  		& -180 \\
 			\hline
-			\textbf{Totale}		& +28		& +466	\\
+			\textbf{Totale}		& -31  		& -581 \\
 			\hline
 		\end{tabular}
-		\caption{Costo per ruolo, periodo di Progettazione di Dettaglio e Codifica}
+		\caption{Costo per ruolo, periodo di Verifica e Validazione}
 	\end{table}
 	Nella tabella seguente sono riportate le differenze tra le ore di lavoro previste per ogni componente e quelle realmente impiegate.
 	\begin{table}[H]
@@ -195,20 +195,42 @@ Questa sezione contiene il prospetto economico che riporta i consuntivi dei vari
 			\hline
 			\textbf{Nominativo}		& \textbf{PM}	& \textbf{Am}	& \textbf{An}	& \textbf{Pt}	& \textbf{Pr}	& \textbf{Ve}	& \textbf{Ore totali}     \\
 			\hline
-			Salvatore Pilò			& 		& 		& 		& +2	&		& +2	& +4 \\
-			Fabio Massignan			& 		& 		&		&		& +2	& 		& +2 \\
-			Sebastiano Bertolin		&		& 	 	& 		& +2	& 		&		& +2 \\
-			Davide Santimaria		&		& 		&		&		& +3	& 		& +3 \\
-			Malick Bodian			& 		& +2	& 		& +4	&		& +8	& +14 \\
-			Gianmarco Salmistraro	&		&		& 	 	&		& +3	& 		& +3 \\
+			Salvatore Pilò			& +2	& 		& -4	&   	& -6	&   	& -8 \\
+			Fabio Massignan			& 		& 		&   	& -2	&   	& -5	& -7 \\
+			Sebastiano Bertolin		&		& 	 	& 		& -3  	& 		&		& -3 \\
+			Davide Santimaria		&		& +2	&		& -3	&   	& -5	& -6 \\
+			Malick Bodian			& +2	& -3  	& 		&   	& -6	&   	& -7 \\
+			Gianmarco Salmistraro	&		&		& 	 	&		& -3  	& -2	& -5 \\
 			\hline
 		\end{tabular}
 		\caption{Differenza consuntivo preventivo per componente, periodo di Verifica e Validazione}
 	\end{table}
 		\subsubsection{Conclusioni}
-		Durante il periodo di \textbf{Verifica e Validazione} si è recuperato il ritardo generatosi nel periodo di \textbf{Progettazione di Dettaglio e Codifica} ed inoltre è stato necessario ancora una volta un intervento di correzione di parte dei documenti. Ciò ha fatto aumentare i costi ...
-	\subsection{Preventivo a Finire}
-	Viene qui presentata una tabella contenente l'attuale preventivo a finire. Vengono inseriti i valori del periodo di \textbf{Analisi} e \textbf{Consolidamento dei Requisiti} a scopo riassuntivo, tuttavia essi non verranno conteggiati nel calcolo delle ore rendicontate. Qualora il valore del consuntivo non fosse ancora presente, verrà usato il valore del preventivo.
+		Durante il periodo di \textbf{Verifica e Validazione} si è recuperato il ritardo generatosi nel periodo di \textbf{Progettazione di Dettaglio e Codifica} ed inoltre è stato necessario ancora una volta un intervento di correzione di parte dei documenti. Ciò ha fatto aumentare di molto le ore di lavoro, generando una spesa aggiuntiva di 581€.
+	\subsection{Consuntivo finale}
+	\subsubsection{consuntivo delle ore rendicontate}
+	Viene qui riportata una tabella contenente le ore a consuntivo contenente le sole ore svolte nei periodi rendicontati.
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{|c|c|c|c|c|c|c|c|}
+			\hline
+			\textbf{Nominativo}		& \textbf{PM}	& \textbf{Am}	& \textbf{An}	& \textbf{Pt}	& \textbf{Pr}	& \textbf{Ve}	& \textbf{Totale}     \\
+			\hline
+			Salvatore Pilò			& 8 (+2) 	& 5		& 9 (-5)	& 38 (+4) 	& 17 (-6)  	& 28 (+2)  	& 105  (-3) \\
+			Fabio Massignan			& 5		& 2		& 0  	& 37 (-2) 	& 28 (+2) 	& 33 (-3) 	& 105  (-3) \\
+			Sebastiano Bertolin		& 5		& 0		& 0		& 46 (-3)  	& 18	& 36	& 105  (-3) \\
+			Davide Santimaria		& 5		& 0 (+2)	& 5	(+1)	& 22 (-3)	& 25 (+3)  	& 48 (-6) 	& 105  (-3) \\
+			Malick Bodian			& 0 (+2)	& 16 	& 5		& 31 (+6) 	& 18 (-6)  	& 22 (+8) 	& 92  (+10) \\
+			Gianmarco Salmistraro	& 5		& 9		& 3	(-1) 	& 30	& 41 (+1)  	& 17 (-3) 	& 105  (-3) \\
+			\hline
+			\textbf{Totale			& 28 (+4)	& 32 (+2)	& 22 (-5)	& 204 (+2)	& 147 (-6)	& 184 (-2)	& 617 (-5)}	\\
+			\hline
+		\end{tabular}
+		\caption{Distribuzione ore rendicontate}
+	\end{table}
+	\subsubsection{Consuntivo economico}
+	Viene qui presentata una tabella contenente l'attuale preventivo a finire. Vengono inseriti i valori del periodo di \textbf{Analisi} e \textbf{Consolidamento dei Requisiti} a scopo riassuntivo, tuttavia essi non verranno conteggiati nel calcolo delle ore rendicontate. Qualora il valore del consuntivo non fosse ancora presente, verrà usato il valore del preventivo.\\
+	
 	\def\arraystretch{1.5}
 	\rowcolors{2}{D}{P}
 	\begin{longtable}{p{5cm}!{\VRule[1pt]}p{4cm}!{\VRule[1pt]}p{4cm}}
@@ -224,9 +246,12 @@ Questa sezione contiene il prospetto economico che riporta i consuntivi dei vari
 	\multicolumn{3}{c}{\textbf{Rendicontato}} \\
 	Progettazione Architetturale			& 3430				& 3376	\\
 	Progettazione di Dettaglio e Codifica	& 5418				& 4952	\\
-	Verifica e Validazione					& 2594				& Non presente	\\
-	\textbf{Totale}							& \textbf{14962}	& \textbf{14442} \\
-	\textbf{Rendicontato}					& \textbf{11442}	& \textbf{10922} \\
+	Verifica e Validazione					& 2594				& 3175	\\
+	\textbf{Totale}							& \textbf{14962}	& \textbf{15023} \\
+	\textbf{Rendicontato}					& \textbf{11442}	& \textbf{11503} \\
 	\rowcolor{white}
 	\caption{Preventivo a finire}
 	\end{longtable}
+	\subsubsection{Conclusione}
+	Con la conclusione del periodo di \textit{Verifica e Validazione} si può vedere come il costo finale sia leggermente maggiore rispetto al costo preventivato e ciò è stato causato soprattutto dal grosso aumento dei costi nell'ultimo periodo. Ciò nonostante il preventivo proposto era di 1.500€, pertanto, vista la differenza irrisoria, non saranno richieste spese aggiuntive al cliente.\\
+	Nel complesso, si è cercato di rispettare al meglio la pianificazione ma, visto il verificarsi di alcuni rischi durante il periodo di \textit{Progettazione di Dettaglio e Codifica} e il conseguente ritardo che hanno comportato, non è stato possibile il rispetto totale della pianificazione. Inoltre, proprio per il motivo appena citato, alcuni membri del gruppo avranno raggiunto un numero di ore/persona inferiore rispetto agli altri, i quali, per cercare di recuperare questa mancanza di lavoro, hanno dovuto incrementare il proprio orario di lavoro fino al raggiungimento delle 105 ore/persona massime consentite.
