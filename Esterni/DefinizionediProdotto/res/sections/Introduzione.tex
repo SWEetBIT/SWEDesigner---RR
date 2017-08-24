@@ -16,7 +16,7 @@ Con lo scopo di evitare ambiguità di linguaggio e di massimizzare la comprensio
 	\item \textbf{Capitolato d'Appalto C6: SWEDesigner} \\
 		\url{http://www.math.unipd.it/~tullio/IS-1/2016/Progetto/C6p.pdf}; \\
 	\item \textbf{Norme di Progetto:} \textit{Norme di Progetto v\VersioneNP}. \\
-	
+
 		\item \textbf{Analisi dei Requisiti:} \textit{Analisi dei Requisiti v\VersioneAR}. \\
 \end{itemize}
 \subsubsection{Informativi}
@@ -61,3 +61,18 @@ Observer, Template Method, Command, Strategy, Iterator}: \url{http:
 \item \textbf{Mustache}: \url{http://mustache.github.io/}.
 \end{itemize}
 
+\subsection{Descrizione dell'architettura}
+  È doveroso soffermarsi, in questa sezione del documento, sulla descrizione generale dell'architettura utilizzata all'interno del
+  progetto per via di alcune soluzioni "esotiche" adottate in fase di sviluppo.\\
+  L'architettura utilizzata segue, per quanto possibile, quella di Angular4 per quanto riguarda il Client anche se presenta qualche "anomalia" nel
+  patter MVVM offerto dal Framework.\\
+  Si è scelto di inserire il Model e il Controller nel Back-End così da gestire tutte le operazioni di interaccia con il Database solo lato server
+  alleggerendo quindi il client dal carico che le varie chiamate offrono.\\
+  Nonostante questo, è presente, seppur in maniera "nascosta", un Model e una View-Model all'interno del Client.\\
+  Ogni Component infatti fa sia da View che da View-Model mentre ogni servizio offre le funzionalità di un Model, quindi si occupa di
+  gestire le richieste al Server.\\
+  Sul Server ogni richiesta è gestita da Express.js e dalle sue funzioni di routing contenute all'interno del file \emph{index.js} nel quale è presente il
+  caricamento di ogni componenete del Server e la gestione di tutte le funzioni di routing necessarie al corretto funzionamento di ogni servizio.\\
+  Al primo avvio verranno caricati tutti i servizi di Middleware e inizializzati tutti i parametri necessari al corretto funzionamento del Server.\\
+  Per ogni richiesta in arrivo dai servizi del Client, Express.js si occuperà di istanziare un servizio, tramite patter Factory, che gestisce la richiesta e
+  restituisce una risposta, generalmente \emph{true} o \emph{false}, al servizio sul Client che ha effettuato la richiesta.\\
