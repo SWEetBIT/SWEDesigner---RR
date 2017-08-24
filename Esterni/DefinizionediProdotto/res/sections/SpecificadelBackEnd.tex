@@ -85,7 +85,6 @@
 		\includegraphics[scale=0.8]{Classi/MongooseRequest.png}
 		\caption{Diagramma della classe SWEDesigner::Server::Model::mongooseRequest}
  		\end{figure}
-        Tutte le query riguardanti l'aggiornamento e la cancellazione di dati dal database verranno trattate nella successiva versione di questo documento.
         \begin{itemize}
           \item \textbf{Descrizione: }\\
           Classe che si occupa di gestire tutte le query da e vero il database.
@@ -158,12 +157,102 @@
               \item \emph{cb: function}\\
               Callback che gestisce le richieste asincrone al database.
             \end{itemize}
-            \item \emph{+\texttt{forgot\_mail}(username: string, cd: function)}\\
+            \item \emph{+\texttt{forgot\_mail}(username: string, cb: function)}\\
             Si tratta della funzione che restituisce la mail dell'utente dato.\\
             \item \textbf{Parametri: }\\
             \begin{itemize}
               \item \emph{username: string}\\
               Nome dell'utente
+              \item \emph{cb: function}\\
+              Callback che gestisce le richieste asincrone al database.
+            \end{itemize}
+            \item \emph{+\texttt{update\_mail}(username: string, mail: string, cb: function)}\\
+            Si tratta della funzione che permette di aggiornare il campo mail di un utente.\\
+            \item \textbf{Parametri: }
+            \begin{itemize}
+              \item \emph{username: string}\\
+              Nome dell'utente
+              \item \emph{mail: string}\\
+              Nuova mail
+              \item \emph{cb: function}\\
+              Callback che gestisce le richieste asincrone al database.
+            \end{itemize}
+            \item \emph{+\texttt{update\_password}(username: string, password: string, cb: function)}\\
+            Si tratta della funzione che permette di aggiornare il campo password di un utente.\\
+            \item \textbf{Parametri: }
+            \begin{itemize}
+              \item \emph{username: string}\\
+              Nome dell'utente
+              \item \emph{password: string}\\
+              Nuova password
+              \item \emph{cb: function}\\
+              Callback che gestisce le richieste asincrone al database.
+            \end{itemize}
+            \item \emph{+\texttt{update\_username}(username: string, newUsername: string, cb: function)}\\
+            Si tratta della funzione che permette di aggiornare l'username di un utente.\\
+            \item \textbf{Parametri: }
+            \begin{itemize}
+              \item \emph{username: string}\\
+              Nome dell'utente
+              \item \emph{newUsername: string}\\
+              Nuovo username
+              \item \emph{cb: function}\\
+              Callback che gestisce le richieste asincrone al database.
+            \end{itemize}
+            \item \emph{+\texttt{update\_proj}(projName: string, usr: string, proj: JSON, cb: function)}\\
+            Si tratta della funzione che permette di aggiornare il corpo di un progetto.\\
+            \item \textbf{Parametri: }
+            \begin{itemize}
+              \item \emph{projName: string}\\
+              Nome del progetto
+              \item \emph{usr: string}\\
+              Username dell'utente proprietario del progetto
+              \item \emph{proj: JSON}\\
+              Corpo del progetto
+              \item \emph{cb: function}\\
+              Callback che gestisce le richieste asincrone al database.
+            \end{itemize}
+            \item \emph{+\texttt{update\_nameProj}(projName: string, usr: string, newName: string, cb: function)}\\
+            Si tratta della funzione che permette di aggiornare il nome di un progetto.\\
+            \item \textbf{Parametri: }
+            \begin{itemize}
+              \item \emph{projName: string}\\
+              Nome del progetto
+              \item \emph{usr: string}\\
+              Username dell'utente proprietario del progetto
+              \item \emph{newName: string}\\
+              Nuovo nome del progetto
+              \item \emph{cb: function}\\
+              Callback che gestisce le richieste asincrone al database.
+            \end{itemize}
+            \item \emph{+\texttt{login}(mail: string, pwd: string, cb: function)}\\
+            Si tratta della funzione che permette di autenticarsi controllando che i dati richiesti dal client esistano nel database.\\
+            \item \textbf{Parametri: }
+            \begin{itemize}
+              \item \emph{mail: string}\\
+              E-mail dell'utente.
+              \item \emph{pwd: string}\\
+              Password dell'utente.
+              \item \emph{cb: function}\\
+              Callback che gestisce le richieste asincrone al database.
+            \end{itemize}
+            \item \emph{+\texttt{delete\_user}(username: string, cb: function)}\\
+            Si tratta della funzione che elimina un utente dal database.\\
+            \item \textbf{Parametri: }
+            \begin{itemize}
+              \item \emph{username: string}\\
+              Username dell'utente.
+              \item \emph{cb: function}\\
+              Callback che gestisce le richieste asincrone al database.
+            \end{itemize}
+            \item \emph{+\texttt{delete\_proj}(username: string, projName: string, cb: function)}\\
+            Si tratta della funzione che elimina un progetto dal database.\\
+            \item \textbf{Parametri: }
+            \begin{itemize}
+              \item \emph{username: string}\\
+              Username dell'utente.
+              \item \emph{projName: string}\\
+              Nome del progetto.
               \item \emph{cb: function}\\
               Callback che gestisce le richieste asincrone al database.
             \end{itemize}
@@ -173,7 +262,6 @@
         \end{itemize}
   \subsection{SWEDesigner::Server::Controller::Middleware}
     \subsubsection{Informazioni generali}
-      In questa versione del documento sono omesse le classi errHandler e Profile pocihé verranno definite in seguito.
       \begin{itemize}
         \item \textbf{Descrizione: }\\
         In questo package sono definite tutte le componenti middleware del server scritte in JavaScript.
@@ -270,7 +358,6 @@
         \end{itemize}
   \subsection{SWEDesigner::Server::Controller::Services}
     \subsubsection{Informazioni generali}
-      In tale versione del documento non sarà trattato il servizio di Profile poiché verrà trattato nelle versioni successive.
       \begin{itemize}
         \item \textbf{Descrizione: }\\
         Questo package contiene tutti i servizi utilizzati dal middleware del server scritti in JavaScript.
