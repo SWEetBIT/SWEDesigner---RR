@@ -7,59 +7,59 @@
 \contentsline {subsection}{\numberline {1.4}Riferimenti}{7}{subsection.1.4}
 \contentsline {subsubsection}{\numberline {1.4.1}Normativi}{7}{subsubsection.1.4.1}
 \contentsline {subsubsection}{\numberline {1.4.2}Informativi}{8}{subsubsection.1.4.2}
-\contentsline {section}{\numberline {2}Standard di progetto}{9}{section.2}
-\contentsline {subsection}{\numberline {2.1}Standard di progettazione architetturale}{9}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Standard di documentazione del codice}{9}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Standard di denominazione di entit\IeC {\`a} e relazioni}{9}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Standard di programmazione}{9}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}Strumenti di lavoro}{9}{subsection.2.5}
-\contentsline {section}{\numberline {3}Specifica Front-End}{10}{section.3}
-\contentsline {subsection}{\numberline {3.1}SWEDesigner::Client}{10}{subsection.3.1}
-\contentsline {subsubsection}{\numberline {3.1.1}Informazioni generali}{10}{subsubsection.3.1.1}
-\contentsline {subsubsection}{\numberline {3.1.2}Classi}{10}{subsubsection.3.1.2}
-\contentsline {subsection}{\numberline {3.2}SWEDesigner::Client::Components}{10}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {3.2.1}Informazioni generali}{10}{subsubsection.3.2.1}
-\contentsline {subsubsection}{\numberline {3.2.2}Classi}{11}{subsubsection.3.2.2}
-\contentsline {paragraph}{\numberline {3.2.2.1}SWEDesigner::Client::Components::AppComponent}{11}{paragraph.3.2.2.1}
-\contentsline {paragraph}{\numberline {3.2.2.2}SWEDesigner::Client::Components::NavbarComponent}{11}{paragraph.3.2.2.2}
-\contentsline {paragraph}{\numberline {3.2.2.3}SWEDesigner::Client::Components::RegistrationComponent}{11}{paragraph.3.2.2.3}
-\contentsline {paragraph}{\numberline {3.2.2.4}SWEDesigner::Client::Components::LoginComponent}{11}{paragraph.3.2.2.4}
-\contentsline {subsection}{\numberline {3.3}SWEDesigner::Client::Components::ActivityFrame}{12}{subsection.3.3}
-\contentsline {subsubsection}{\numberline {3.3.1}Informazioni generali}{12}{subsubsection.3.3.1}
-\contentsline {subsubsection}{\numberline {3.3.2}Classi}{12}{subsubsection.3.3.2}
-\contentsline {paragraph}{\numberline {3.3.2.1}SWEDesigner::Client::Components::Editor::ActivityFrame::ActivityFrameComponent}{12}{paragraph.3.3.2.1}
-\contentsline {subsection}{\numberline {3.4}SWEDesigner::Client::Components::Editor}{12}{subsection.3.4}
-\contentsline {subsubsection}{\numberline {3.4.1}Informazioni generali}{12}{subsubsection.3.4.1}
-\contentsline {subsubsection}{\numberline {3.4.2}Classi}{12}{subsubsection.3.4.2}
-\contentsline {paragraph}{\numberline {3.4.2.1}SWEDesigner::Client::Components::Editor::EditorComponent}{12}{paragraph.3.4.2.1}
-\contentsline {paragraph}{\numberline {3.4.2.2}SWEDesigner::Client::Components::Editor::ClassMenuComponent}{15}{paragraph.3.4.2.2}
-\contentsline {paragraph}{\numberline {3.4.2.3}SWEDesigner::Client::Components::Editor::ToolbarComponent}{18}{paragraph.3.4.2.3}
-\contentsline {subsection}{\numberline {3.5}SWEDesigner::Client::Components::Menu}{19}{subsection.3.5}
-\contentsline {subsubsection}{\numberline {3.5.1}Informazioni generali}{19}{subsubsection.3.5.1}
-\contentsline {subsubsection}{\numberline {3.5.2}Classi}{19}{subsubsection.3.5.2}
-\contentsline {paragraph}{\numberline {3.5.2.1}SWEDesigner::Client::Components::Menu::MenuComponent}{19}{paragraph.3.5.2.1}
+\contentsline {subsection}{\numberline {1.5}Descrizione dell'architettura}{9}{subsection.1.5}
+\contentsline {section}{\numberline {2}Standard di progetto}{10}{section.2}
+\contentsline {subsection}{\numberline {2.1}Standard di progettazione architetturale}{10}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Standard di documentazione del codice}{10}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Standard di denominazione di entit\IeC {\`a} e relazioni}{10}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Standard di programmazione}{10}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Strumenti di lavoro}{10}{subsection.2.5}
+\contentsline {section}{\numberline {3}Specifica Front-End}{11}{section.3}
+\contentsline {subsection}{\numberline {3.1}SWEDesigner::Client}{11}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Informazioni generali}{11}{subsubsection.3.1.1}
+\contentsline {subsection}{\numberline {3.2}SWEDesigner::Client::Components}{11}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Informazioni generali}{11}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Classi}{12}{subsubsection.3.2.2}
+\contentsline {paragraph}{\numberline {3.2.2.1}SWEDesigner::Client::Components::AppComponent}{12}{paragraph.3.2.2.1}
+\contentsline {paragraph}{\numberline {3.2.2.2}SWEDesigner::Client::Components::NavbarComponent}{12}{paragraph.3.2.2.2}
+\contentsline {paragraph}{\numberline {3.2.2.3}SWEDesigner::Client::Components::RegistrationComponent}{12}{paragraph.3.2.2.3}
+\contentsline {paragraph}{\numberline {3.2.2.4}SWEDesigner::Client::Components::LoginComponent}{12}{paragraph.3.2.2.4}
+\contentsline {subsection}{\numberline {3.3}SWEDesigner::Client::Components::ActivityFrame}{13}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}Informazioni generali}{13}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.2}Classi}{13}{subsubsection.3.3.2}
+\contentsline {paragraph}{\numberline {3.3.2.1}SWEDesigner::Client::Components::Editor::ActivityFrame::ActivityFrameComponent}{13}{paragraph.3.3.2.1}
+\contentsline {subsection}{\numberline {3.4}SWEDesigner::Client::Components::Editor}{13}{subsection.3.4}
+\contentsline {subsubsection}{\numberline {3.4.1}Informazioni generali}{13}{subsubsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.2}Classi}{13}{subsubsection.3.4.2}
+\contentsline {paragraph}{\numberline {3.4.2.1}SWEDesigner::Client::Components::Editor::EditorComponent}{13}{paragraph.3.4.2.1}
+\contentsline {paragraph}{\numberline {3.4.2.2}SWEDesigner::Client::Components::Editor::ClassMenuComponent}{16}{paragraph.3.4.2.2}
+\contentsline {paragraph}{\numberline {3.4.2.3}SWEDesigner::Client::Components::Editor::ToolbarComponent}{19}{paragraph.3.4.2.3}
+\contentsline {subsection}{\numberline {3.5}SWEDesigner::Client::Components::Menu}{20}{subsection.3.5}
+\contentsline {subsubsection}{\numberline {3.5.1}Informazioni generali}{20}{subsubsection.3.5.1}
+\contentsline {subsubsection}{\numberline {3.5.2}Classi}{20}{subsubsection.3.5.2}
+\contentsline {paragraph}{\numberline {3.5.2.1}SWEDesigner::Client::Components::Menu::MenuComponent}{20}{paragraph.3.5.2.1}
 \contentsline {paragraph}{\numberline {3.5.2.2}SWEDesigner::Client::Components::Menu::FileComponent}{20}{paragraph.3.5.2.2}
-\contentsline {paragraph}{\numberline {3.5.2.3}SWEDesigner::Client::Components::Menu::LayerComponent}{20}{paragraph.3.5.2.3}
-\contentsline {paragraph}{\numberline {3.5.2.4}SWEDesigner::Client::Components::Menu::ProgettoComponent}{20}{paragraph.3.5.2.4}
-\contentsline {paragraph}{\numberline {3.5.2.5}SWEDesigner::Client::Components::Menu::ProfiloComponent}{20}{paragraph.3.5.2.5}
+\contentsline {paragraph}{\numberline {3.5.2.3}SWEDesigner::Client::Components::Menu::LayerComponent}{21}{paragraph.3.5.2.3}
+\contentsline {paragraph}{\numberline {3.5.2.4}SWEDesigner::Client::Components::Menu::ProgettoComponent}{21}{paragraph.3.5.2.4}
+\contentsline {paragraph}{\numberline {3.5.2.5}SWEDesigner::Client::Components::Menu::ProfiloComponent}{21}{paragraph.3.5.2.5}
 \contentsline {paragraph}{\numberline {3.5.2.6}SWEDesigner::Client::Components::Menu::ModificaComponent}{21}{paragraph.3.5.2.6}
-\contentsline {paragraph}{\numberline {3.5.2.7}SWEDesigner::Client::Components::Menu::TemplateComponent}{21}{paragraph.3.5.2.7}
+\contentsline {paragraph}{\numberline {3.5.2.7}SWEDesigner::Client::Components::Menu::TemplateComponent}{22}{paragraph.3.5.2.7}
 \contentsline {subsection}{\numberline {3.6}SWEDesigner::Client::Services}{22}{subsection.3.6}
 \contentsline {subsubsection}{\numberline {3.6.1}Informazioni generali}{22}{subsubsection.3.6.1}
 \contentsline {subsubsection}{\numberline {3.6.2}Classi}{22}{subsubsection.3.6.2}
 \contentsline {paragraph}{\numberline {3.6.2.1}SWEDesigner::Client::Services::MenuService}{22}{paragraph.3.6.2.1}
 \contentsline {paragraph}{\numberline {3.6.2.2}SWEDesigner::Client::Services::MainEditorService}{23}{paragraph.3.6.2.2}
-\contentsline {paragraph}{\numberline {3.6.2.3}SWEDesigner::Client::Services::ToolbarService}{26}{paragraph.3.6.2.3}
+\contentsline {paragraph}{\numberline {3.6.2.3}SWEDesigner::Client::Services::ToolbarService}{27}{paragraph.3.6.2.3}
 \contentsline {paragraph}{\numberline {3.6.2.4}SWEDesigner::Client::Services::ActivityFrameService}{27}{paragraph.3.6.2.4}
 \contentsline {paragraph}{\numberline {3.6.2.5}SWEDesigner::Client::Services::ClassMenuService}{27}{paragraph.3.6.2.5}
 \contentsline {paragraph}{\numberline {3.6.2.6}SWEDesigner::Client::Services::AccountService}{28}{paragraph.3.6.2.6}
 \contentsline {subsection}{\numberline {3.7}SWEDesigner::Client::Services::Models}{28}{subsection.3.7}
 \contentsline {subsubsection}{\numberline {3.7.1}Informazioni generali}{28}{subsubsection.3.7.1}
-\contentsline {subsubsection}{\numberline {3.7.2}Classi}{28}{subsubsection.3.7.2}
-\contentsline {paragraph}{\numberline {3.7.2.1}SWEDesigner::Client::Services::Param}{28}{paragraph.3.7.2.1}
+\contentsline {subsubsection}{\numberline {3.7.2}Classi}{29}{subsubsection.3.7.2}
+\contentsline {paragraph}{\numberline {3.7.2.1}SWEDesigner::Client::Services::Param}{29}{paragraph.3.7.2.1}
 \contentsline {paragraph}{\numberline {3.7.2.2}SWEDesigner::Client::Services::Attributo}{30}{paragraph.3.7.2.2}
 \contentsline {paragraph}{\numberline {3.7.2.3}SWEDesigner::Client::Services::Metodo}{31}{paragraph.3.7.2.3}
-\contentsline {paragraph}{\numberline {3.7.2.4}SWEDesigner::Client::Services::Classe}{33}{paragraph.3.7.2.4}
+\contentsline {paragraph}{\numberline {3.7.2.4}SWEDesigner::Client::Services::Classe}{34}{paragraph.3.7.2.4}
 \contentsline {paragraph}{\numberline {3.7.2.5}SWEDesigner::Client::Services::ClasseAstratta}{37}{paragraph.3.7.2.5}
 \contentsline {paragraph}{\numberline {3.7.2.6}SWEDesigner::Client::Services::Interface}{38}{paragraph.3.7.2.6}
 \contentsline {paragraph}{\numberline {3.7.2.7}SWEDesigner::Client::Services::Global}{39}{paragraph.3.7.2.7}
@@ -85,6 +85,9 @@
 \contentsline {paragraph}{\numberline {4.4.2.1}SWEDesigner::Server::Controller::Services::parseService}{52}{paragraph.4.4.2.1}
 \contentsline {paragraph}{\numberline {4.4.2.2}SWEDesigner::Server::Controller::Services::encryptService}{53}{paragraph.4.4.2.2}
 \contentsline {section}{\numberline {5}Diagrammi di sequenza}{55}{section.5}
-\contentsline {section}{\numberline {6}Tracciamento}{56}{section.6}
-\contentsline {subsection}{\numberline {6.1}Tracciamento Classi-Requisiti}{56}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Tracciamento Requisiti-Classi}{60}{subsection.6.2}
+\contentsline {subsection}{\numberline {5.1}Generazione Codice}{55}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Caricamento moduli del Server}{55}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Encrypt/Decrypt}{56}{subsection.5.3}
+\contentsline {section}{\numberline {6}Tracciamento}{57}{section.6}
+\contentsline {subsection}{\numberline {6.1}Tracciamento Classi-Requisiti}{57}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Tracciamento Requisiti-Classi}{61}{subsection.6.2}

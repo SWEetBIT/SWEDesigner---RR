@@ -15,7 +15,6 @@
 il server
           		\end{itemize}
           	\end{itemize}
-		\subsubsection{Classi}
 	\subsection{SWEDesigner::Client::Components}
 		\subsubsection{Informazioni generali}
 			\begin{itemize}
@@ -87,7 +86,7 @@ il server
           	\paragraph{SWEDesigner::Client::Components::Editor::EditorComponent}
           	\begin{figure}[h!]
 			\centering
-			\includegraphics[scale=0.8]{Classi/SWEDesigner__Client__Components__Editor__EditorComponent.png}
+			\includegraphics[scale=0.5]{Classi/SWEDesigner__Client__Components__Editor__EditorComponent.png}
 			\caption{Diagramma della classe SWEDesigner::Client::Components::Editor::EditorComponent}
  			\end{figure}
 				\begin{itemize}
@@ -132,7 +131,7 @@ il server
             					\item \emph{graph: JSON}\\
             					Grafico da aprire in formato JSON
             				\end{itemize}
-          				\item \emph{+selectElementsToConnect(cell: any): void}\\  
+          				\item \emph{+selectElementsToConnect(cell: any): void}\\
           				Questo metodo viene utilizzato per selezionare gli elementi da collegare con il connettore selezionato
           				\item \textbf{Parametri:}\\
             				\begin{itemize}
@@ -152,20 +151,20 @@ il server
             				\begin{itemize}
             					\item \emph{connettore: any}\\
             					Connettore da aggiungere
-            				\end{itemize} 
+            				\end{itemize}
             			\item \emph{+addElement(element: any): void}\\
             			Questo metodo aggiunge un elemento all'editor
             			\item \textbf{Parametri:}\\
             				\begin{itemize}
             					\item \emph{element: any}\\
             					Elemento da aggiungere all'editor
-            				\end{itemize}   
+            				\end{itemize}
             			\item \emph{+zoomIn(): void}\\
             			Questo metodo incrementa la scala dell'editor
             			\item \emph{+zoomOut(): void}\\
-            			Questo metodo decrementa la scala dell'editor   	
+            			Questo metodo decrementa la scala dell'editor
             			\item \emph{+cloneElement(): void}\\
-            			Questo metodo clona l'elemento selezionato			
+            			Questo metodo clona l'elemento selezionato
           			\end{itemize}
           		\end{itemize}
           	\paragraph{SWEDesigner::Client::Components::Editor::ClassMenuComponent}
@@ -613,7 +612,7 @@ dei diagrammi.
             				\begin{itemize}
             					\item \emph{nome: string}\\
             					Nuovo nome
-            				\end{itemize}            			
+            				\end{itemize}
           			\end{itemize}
           		\end{itemize}
           	\paragraph{SWEDesigner::Client::Services::Attributo}
@@ -708,38 +707,38 @@ dei diagrammi.
             				\begin{itemize}
             					\item \emph{acc: string}\\
             					Nuova visibilità del metodo
-            				\end{itemize}          				
+            				\end{itemize}
           				\item \emph{+changeListaArg(listArg: Param[]): void}\\
           				 Cambia il riferimento all'array dei parametri formali
           				 \item \textbf{Parametri:}\\
             				\begin{itemize}
             					\item \emph{listArg: Param[]}\\
             					Array dei parametri
-            				\end{itemize}         				
+            				\end{itemize}
           				\item \emph{+addArgomento(arg: Param) : void}\\
           				Aggiunge un nuovo parametro al metodo
           				\item \textbf{Parametri:}\\
             				\begin{itemize}
             					\item \emph{arg: Param}\\
             					Parametro
-            				\end{itemize}          				
+            				\end{itemize}
           				\item \emph{+addDiagram(dia: JSON): void}\\
           				Assegna il file JSON al diagramma degli attributi
           				\item \textbf{Parametri:}\\
             				\begin{itemize}
             					\item \emph{dia: JSON}\\
             					File JSON
-            				\end{itemize}          				
+            				\end{itemize}
           				\item \emph{+getDiagram(): void}\\
-          				Ritorna il diagramma del metodo          				
+          				Ritorna il diagramma del metodo
           				\item \emph{+getNome(): string}\\
           				Ritorna il nome del metodo
           				\item \emph{+getAccesso(): string}\\
-          				Ritorna il tipo di visibilità del metodo          				
+          				Ritorna il tipo di visibilità del metodo
           				\item \emph{+getTipoRitorno(): string}\\
-          				Ritorna il tipo di ritorno del metodo          				
+          				Ritorna il tipo di ritorno del metodo
           				\item \emph{+getListaArgomenti(): Param[]}\\
-          				Ritorna l'array degli argomenti          				
+          				Ritorna l'array degli argomenti
             		\end{itemize}
           		\end{itemize}
           	\paragraph{SWEDesigner::Client::Services::Classe}
@@ -847,7 +846,7 @@ dei diagrammi.
             				\end{itemize}
             			\item \emph{+getSottoclasse(): string}\\
             			Ritorna il nome della superclasse
-            			\item \emph{+toJSON(): JSON}\\ 
+            			\item \emph{+toJSON(): JSON}\\
             			Effettua override della funziona toJSON
           			\end{itemize}
           		\end{itemize}

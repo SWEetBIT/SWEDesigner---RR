@@ -5,16 +5,16 @@
 \BOOKMARK [2][-]{subsection.1.4}{Riferimenti}{section.1}% 5
 \BOOKMARK [3][-]{subsubsection.1.4.1}{Normativi}{subsection.1.4}% 6
 \BOOKMARK [3][-]{subsubsection.1.4.2}{Informativi}{subsection.1.4}% 7
-\BOOKMARK [1][-]{section.2}{Standard di progetto}{}% 8
-\BOOKMARK [2][-]{subsection.2.1}{Standard di progettazione architetturale}{section.2}% 9
-\BOOKMARK [2][-]{subsection.2.2}{Standard di documentazione del codice}{section.2}% 10
-\BOOKMARK [2][-]{subsection.2.3}{Standard di denominazione di entit\340 e relazioni}{section.2}% 11
-\BOOKMARK [2][-]{subsection.2.4}{Standard di programmazione}{section.2}% 12
-\BOOKMARK [2][-]{subsection.2.5}{Strumenti di lavoro}{section.2}% 13
-\BOOKMARK [1][-]{section.3}{Specifica Front-End}{}% 14
-\BOOKMARK [2][-]{subsection.3.1}{SWEDesigner::Client}{section.3}% 15
-\BOOKMARK [3][-]{subsubsection.3.1.1}{Informazioni generali}{subsection.3.1}% 16
-\BOOKMARK [3][-]{subsubsection.3.1.2}{Classi}{subsection.3.1}% 17
+\BOOKMARK [2][-]{subsection.1.5}{Descrizione dell'architettura}{section.1}% 8
+\BOOKMARK [1][-]{section.2}{Standard di progetto}{}% 9
+\BOOKMARK [2][-]{subsection.2.1}{Standard di progettazione architetturale}{section.2}% 10
+\BOOKMARK [2][-]{subsection.2.2}{Standard di documentazione del codice}{section.2}% 11
+\BOOKMARK [2][-]{subsection.2.3}{Standard di denominazione di entit\340 e relazioni}{section.2}% 12
+\BOOKMARK [2][-]{subsection.2.4}{Standard di programmazione}{section.2}% 13
+\BOOKMARK [2][-]{subsection.2.5}{Strumenti di lavoro}{section.2}% 14
+\BOOKMARK [1][-]{section.3}{Specifica Front-End}{}% 15
+\BOOKMARK [2][-]{subsection.3.1}{SWEDesigner::Client}{section.3}% 16
+\BOOKMARK [3][-]{subsubsection.3.1.1}{Informazioni generali}{subsection.3.1}% 17
 \BOOKMARK [2][-]{subsection.3.2}{SWEDesigner::Client::Components}{section.3}% 18
 \BOOKMARK [3][-]{subsubsection.3.2.1}{Informazioni generali}{subsection.3.2}% 19
 \BOOKMARK [3][-]{subsubsection.3.2.2}{Classi}{subsection.3.2}% 20
@@ -83,6 +83,9 @@
 \BOOKMARK [4][-]{paragraph.4.4.2.1}{SWEDesigner::Server::Controller::Services::parseService}{subsubsection.4.4.2}% 83
 \BOOKMARK [4][-]{paragraph.4.4.2.2}{SWEDesigner::Server::Controller::Services::encryptService}{subsubsection.4.4.2}% 84
 \BOOKMARK [1][-]{section.5}{Diagrammi di sequenza}{}% 85
-\BOOKMARK [1][-]{section.6}{Tracciamento}{}% 86
-\BOOKMARK [2][-]{subsection.6.1}{Tracciamento Classi-Requisiti}{section.6}% 87
-\BOOKMARK [2][-]{subsection.6.2}{Tracciamento Requisiti-Classi}{section.6}% 88
+\BOOKMARK [2][-]{subsection.5.1}{Generazione Codice}{section.5}% 86
+\BOOKMARK [2][-]{subsection.5.2}{Caricamento moduli del Server}{section.5}% 87
+\BOOKMARK [2][-]{subsection.5.3}{Encrypt/Decrypt}{section.5}% 88
+\BOOKMARK [1][-]{section.6}{Tracciamento}{}% 89
+\BOOKMARK [2][-]{subsection.6.1}{Tracciamento Classi-Requisiti}{section.6}% 90
+\BOOKMARK [2][-]{subsection.6.2}{Tracciamento Requisiti-Classi}{section.6}% 91
