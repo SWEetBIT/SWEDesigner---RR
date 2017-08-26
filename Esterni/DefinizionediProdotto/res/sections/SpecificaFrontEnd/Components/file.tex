@@ -1,0 +1,47 @@
+\begin{itemize}
+	\item \textbf{Descrizione:}\\
+	È il componente che descrive la voce \textit{File} del menu dell'editor.
+	\item \textbf{Utilizzo:}\\
+	
+	\item \textbf{Attributi:}
+		\begin{itemize}
+			\item \emph{nome_progetto: string}\\
+			Contiene il nome del progetto corrente
+		\end{itemize}
+	\item \textbf{Metodi:}
+		\begin{itemize}
+			\item \emph{-constructor(private menuService: MenuService,
+    private mainEditorService: MainEditorService,
+    private accountService: AccountService)}\\
+    		\\
+    		\textbf{Parametri:}
+    		\begin{itemize}
+    			\item \emph{menuService: MenuService}\\
+    			
+    			\item \emph{mainEditorService: MainEditorService}\\
+    			
+    			\item \emph{accountService: AccountService}\\
+    			
+    		\end{itemize}
+    		\item \emph{-save(projName: string)}\\
+    		Memorizza un progetto nel database\\
+    		\textbf{Parametri:}
+    		\begin{itemize}
+    			\item \emph{projName: string}\\
+    			Nome del progetto da memorizzare
+    		\end{itemize}
+    		\item \emph{-updateProj()}\\
+    		Aggiorna un progetto esistente
+    		\item \emph{-export()}\\
+    		Esporta il progetto corrente
+    		\item \emph{-generate()}\\
+    		Genera il codice Java
+    		\item \emph{-import(event)}\\
+    		Importa un progetto esistente\\
+    		\textbf{Parametri:}
+    		\begin{itemize}
+    			\item \emph{event: any}\\
+    			Progetto da importare
+    		\end{itemize}
+		\end{itemize}
+\end{itemize}
