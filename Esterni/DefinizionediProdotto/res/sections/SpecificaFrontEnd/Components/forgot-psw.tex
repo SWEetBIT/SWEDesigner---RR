@@ -1,0 +1,23 @@
+\begin{itemize}
+	\item \textbf{Descrizione:}\\
+	È il componente che descrive la pagina per il recupero della password dell'applicazione, mette a disposizione un form in cui inserire l'indirizzo email. Gestisce le operazioni e la logica applicativa relativa al recupero della password.
+	\item \textbf{Utilizzo:}\\
+	Questo componente viene istanziato dinamicamente dal servizio Router del framework Angular quando viene richiesta la pagina di password dimenticata.
+	\item \textbf{Metodi:}
+		\begin{itemize}
+			\item \emph{-constructor(private accountService: AccountService)}\\
+    	Crea un istanziazione di Forgot-pswComponent
+    	\item \textbf{Parametri:}
+    		\begin{itemize}
+    			\item \emph{-accountService: AccountService}
+    			Necessario per l'importazione di AccountService
+    		\end{itemize}
+    		\item \emph{+tryGetNewPassword(e: any)}\\
+    		Invia all'utente la password per email
+    	\item \textbf{Parametri:}
+    		\begin{itemize}
+    			\item \emph{+e: any}
+    			Contiente i dati dell'utente che ha richiesto il recupero password
+    		\end{itemize}
+		\end{itemize}
+\end{itemize}
