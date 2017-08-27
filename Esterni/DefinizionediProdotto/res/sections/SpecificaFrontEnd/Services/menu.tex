@@ -12,9 +12,9 @@
 	\item \textbf{Attributi:}
 		\begin{itemize}
 			\item \emph{-selectedGraphService: Subject<any>}\\
-			
+			Memorizza l'array con tutte le shape
 			\item \emph{-importData: any}\\
-			
+			Serve per importare il progetto
 		\end{itemize}
 	\item \textbf{Metodi:}
 		\begin{itemize}
@@ -41,7 +41,7 @@
     			\item \emph{proj: JSON}\\
     			Progetto corrente
     			\item \emph{cb: Function}\\
-    			
+    			Funzione
     		\end{itemize}
     		\item \emph{+updateData(proj: JSON, cb: Function)}\\
     		Aggiorna i dati del progetto corrente nel database\\
@@ -50,7 +50,7 @@
     			\item \emph{proj: JSON}\\
     			Progetto corrente
     			\item \emph{cb: Function}\\
-    			
+    			Funzione
     		\end{itemize}
     		\item \emph{+updateName(usr: string, oldName: string, newName: string, cb: Function)}\\
     		Aggiorna il nome del progetto corrente\\
@@ -63,7 +63,7 @@
     			\item \emph{newName: string}\\
     			Nuovo nome del progetto
     			\item \emph{cb: Function}\\
-    			
+    			Funzione
     		\end{itemize}
     		\item \emph{+encrypt(proj: JSON)}\\
     		Richiede al server la funzione di criptazione\\
@@ -79,7 +79,7 @@
     			\item \emph{file: any}\\
     			File da caricare
     			\item \emph{onloadCallBack: any}\\
-    			
+    			Funzione
     		\end{itemize}
     		\item \emph{+import(event: any)}\\
     		Importa un file esterno\\
@@ -89,7 +89,7 @@
     			File da importare
     		\end{itemize}
     		\item \emph{+getImportData()}\\
-    		
+    		Ritorna importData
     		\item \emph{+donwload()}\\
     		Richiede al server la funzione di parsing e download
     		\item \emph{+code()}\\
