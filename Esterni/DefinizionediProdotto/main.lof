@@ -1,13 +1,52 @@
 \select@language {italian}
 \select@language {italian}
-\contentsline {figure}{\numberline {1}{\ignorespaces Diagramma della classe SWEDesigner::Server::serverLoader}}{74}{figure.1}
-\contentsline {figure}{\numberline {2}{\ignorespaces Diagramma della classe SWEDesigner::Server::Model::mongooseConnection}}{76}{figure.2}
-\contentsline {figure}{\numberline {3}{\ignorespaces Diagramma della classe SWEDesigner::Server::Model::mongooseRequest}}{76}{figure.3}
-\contentsline {figure}{\numberline {4}{\ignorespaces Diagramma della classe SWEDesigner::Server::Controller::Middleware::midLoader}}{82}{figure.4}
-\contentsline {figure}{\numberline {5}{\ignorespaces Diagramma della classe SWEDesigner::Server::Controller::Middleware::Parse}}{82}{figure.5}
-\contentsline {figure}{\numberline {6}{\ignorespaces Diagramma della classe SWEDesigner::Server::Controller::Middleware::Encrypt}}{83}{figure.6}
-\contentsline {figure}{\numberline {7}{\ignorespaces Diagramma della classe SWEDesigner::Server::Controller::Services::parseService}}{85}{figure.7}
-\contentsline {figure}{\numberline {8}{\ignorespaces Diagramma della classe SWEDesigner::Server::Controller::Services::encryptService}}{86}{figure.8}
-\contentsline {figure}{\numberline {9}{\ignorespaces Sequence diagram generazione codice java}}{88}{figure.9}
-\contentsline {figure}{\numberline {10}{\ignorespaces Sequence diagram caricamento moduli server}}{89}{figure.10}
-\contentsline {figure}{\numberline {11}{\ignorespaces Sequence diagram per operazioni di encrypt e decrypt}}{90}{figure.11}
+\contentsline {figure}{\numberline {1}{\ignorespaces Diagramma della classe AuthenticationGuard}}{13}{figure.1}
+\contentsline {figure}{\numberline {2}{\ignorespaces Diagramma della classe Global}}{14}{figure.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces Diagramma della classe RegistrationComponent}}{18}{figure.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces Diagramma della classe LoginComponent}}{19}{figure.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces Diagramma della classe Forgot-pswComponent}}{20}{figure.5}
+\contentsline {figure}{\numberline {6}{\ignorespaces Diagramma della classe FileComponent}}{22}{figure.6}
+\contentsline {figure}{\numberline {7}{\ignorespaces Diagramma della classe ModificaComponent}}{24}{figure.7}
+\contentsline {figure}{\numberline {8}{\ignorespaces Diagramma della classe ProfiloComponent}}{24}{figure.8}
+\contentsline {figure}{\numberline {9}{\ignorespaces Diagramma della classe EditorComponent}}{26}{figure.9}
+\contentsline {figure}{\numberline {10}{\ignorespaces Diagramma della classe Activity-menu}}{31}{figure.10}
+\contentsline {figure}{\numberline {11}{\ignorespaces Diagramma della classe ToolbarComponent}}{35}{figure.11}
+\contentsline {figure}{\numberline {12}{\ignorespaces Diagramma della classe ActivityService}}{37}{figure.12}
+\contentsline {figure}{\numberline {13}{\ignorespaces Diagramma della classe Class-menu}}{43}{figure.13}
+\contentsline {figure}{\numberline {14}{\ignorespaces Diagramma della classe All-shape}}{47}{figure.14}
+\contentsline {figure}{\numberline {15}{\ignorespaces Diagramma della classe Attributo}}{49}{figure.15}
+\contentsline {figure}{\numberline {16}{\ignorespaces Diagramma della classe Classe-astratta}}{50}{figure.16}
+\contentsline {figure}{\numberline {17}{\ignorespaces Diagramma della classe Classe}}{52}{figure.17}
+\contentsline {figure}{\numberline {18}{\ignorespaces Diagramma della classe End}}{55}{figure.18}
+\contentsline {figure}{\numberline {19}{\ignorespaces Diagramma della classe If-node}}{56}{figure.19}
+\contentsline {figure}{\numberline {20}{\ignorespaces Diagramma della classe Interface}}{57}{figure.20}
+\contentsline {figure}{\numberline {21}{\ignorespaces Diagramma della classe Merge-node}}{59}{figure.21}
+\contentsline {figure}{\numberline {22}{\ignorespaces Diagramma della classe Metodo}}{60}{figure.22}
+\contentsline {figure}{\numberline {23}{\ignorespaces Diagramma della classe Operation}}{63}{figure.23}
+\contentsline {figure}{\numberline {24}{\ignorespaces Diagramma della classe Param}}{64}{figure.24}
+\contentsline {figure}{\numberline {25}{\ignorespaces Diagramma della classe Shape}}{66}{figure.25}
+\contentsline {figure}{\numberline {26}{\ignorespaces Diagramma della classe Start}}{68}{figure.26}
+\contentsline {figure}{\numberline {27}{\ignorespaces Diagramma della classe Variabile}}{69}{figure.27}
+\contentsline {figure}{\numberline {28}{\ignorespaces Diagramma della classe While-node}}{70}{figure.28}
+\contentsline {figure}{\numberline {29}{\ignorespaces Diagramma della classe Change-class-name}}{71}{figure.29}
+\contentsline {figure}{\numberline {30}{\ignorespaces Diagramma della classe Class-add-attribute}}{72}{figure.30}
+\contentsline {figure}{\numberline {31}{\ignorespaces Diagramma della classe Class-add-main-method}}{73}{figure.31}
+\contentsline {figure}{\numberline {32}{\ignorespaces Diagramma della classe Class-add-method}}{74}{figure.32}
+\contentsline {figure}{\numberline {33}{\ignorespaces Diagramma della classe Class-list-attribute}}{75}{figure.33}
+\contentsline {figure}{\numberline {34}{\ignorespaces Diagramma della classe Class-list-attribute}}{76}{figure.34}
+\contentsline {figure}{\numberline {35}{\ignorespaces Diagramma della classe Class-list-method}}{77}{figure.35}
+\contentsline {figure}{\numberline {36}{\ignorespaces Diagramma della classe Display-class-name}}{78}{figure.36}
+\contentsline {figure}{\numberline {37}{\ignorespaces Diagramma della classe AccountService}}{79}{figure.37}
+\contentsline {figure}{\numberline {38}{\ignorespaces Diagramma della classe Main-editorService}}{84}{figure.38}
+\contentsline {figure}{\numberline {39}{\ignorespaces Diagramma della classe MenuService}}{90}{figure.39}
+\contentsline {figure}{\numberline {40}{\ignorespaces Diagramma della classe SWEDesigner::Server::serverLoader}}{93}{figure.40}
+\contentsline {figure}{\numberline {41}{\ignorespaces Diagramma della classe SWEDesigner::Server::Model::mongooseConnection}}{95}{figure.41}
+\contentsline {figure}{\numberline {42}{\ignorespaces Diagramma della classe SWEDesigner::Server::Model::mongooseRequest}}{95}{figure.42}
+\contentsline {figure}{\numberline {43}{\ignorespaces Diagramma della classe SWEDesigner::Server::Controller::Middleware::midLoader}}{101}{figure.43}
+\contentsline {figure}{\numberline {44}{\ignorespaces Diagramma della classe SWEDesigner::Server::Controller::Middleware::Parse}}{101}{figure.44}
+\contentsline {figure}{\numberline {45}{\ignorespaces Diagramma della classe SWEDesigner::Server::Controller::Middleware::Encrypt}}{102}{figure.45}
+\contentsline {figure}{\numberline {46}{\ignorespaces Diagramma della classe SWEDesigner::Server::Controller::Services::parseService}}{104}{figure.46}
+\contentsline {figure}{\numberline {47}{\ignorespaces Diagramma della classe SWEDesigner::Server::Controller::Services::encryptService}}{105}{figure.47}
+\contentsline {figure}{\numberline {48}{\ignorespaces Sequence diagram generazione codice java}}{107}{figure.48}
+\contentsline {figure}{\numberline {49}{\ignorespaces Sequence diagram caricamento moduli server}}{108}{figure.49}
+\contentsline {figure}{\numberline {50}{\ignorespaces Sequence diagram per operazioni di encrypt e decrypt}}{109}{figure.50}

@@ -1,112 +1,112 @@
 \select@language {italian}
 \select@language {italian}
-\contentsline {section}{\numberline {1}Introduzione}{8}{section.1}
-\contentsline {subsection}{\numberline {1.1}Scopo del documento}{8}{subsection.1.1}
-\contentsline {subsection}{\numberline {1.2}Scopo del prodotto}{8}{subsection.1.2}
-\contentsline {subsection}{\numberline {1.3}Glossario}{8}{subsection.1.3}
-\contentsline {subsection}{\numberline {1.4}Riferimenti}{8}{subsection.1.4}
-\contentsline {subsubsection}{\numberline {1.4.1}Normativi}{8}{subsubsection.1.4.1}
-\contentsline {subsubsection}{\numberline {1.4.2}Informativi}{9}{subsubsection.1.4.2}
-\contentsline {subsection}{\numberline {1.5}Descrizione dell'architettura}{10}{subsection.1.5}
-\contentsline {section}{\numberline {2}Standard di progetto}{11}{section.2}
-\contentsline {subsection}{\numberline {2.1}Standard di progettazione architetturale}{11}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Standard di documentazione del codice}{11}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Standard di denominazione di entit\IeC {\`a} e relazioni}{11}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Standard di programmazione}{11}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}Strumenti di lavoro}{11}{subsection.2.5}
-\contentsline {section}{\numberline {3}Specifica Front-End}{12}{section.3}
-\contentsline {subsection}{\numberline {3.1}SWEDesigner::Client}{12}{subsection.3.1}
-\contentsline {subsubsection}{\numberline {3.1.1}Informazioni generali}{12}{subsubsection.3.1.1}
-\contentsline {subsubsection}{\numberline {3.1.2}Classi}{12}{subsubsection.3.1.2}
-\contentsline {paragraph}{\numberline {3.1.2.1}SWEDesigner::AuthenticationGuard}{12}{paragraph.3.1.2.1}
-\contentsline {paragraph}{\numberline {3.1.2.2}SWEDesigner::Global}{13}{paragraph.3.1.2.2}
-\contentsline {subsection}{\numberline {3.2}SWEDesigner::Client::Components}{16}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {3.2.1}Informazioni generali}{16}{subsubsection.3.2.1}
-\contentsline {subsubsection}{\numberline {3.2.2}Classi}{16}{subsubsection.3.2.2}
-\contentsline {paragraph}{\numberline {3.2.2.1}SWEDesigner::Client::Components::RegistrationComponent}{16}{paragraph.3.2.2.1}
-\contentsline {paragraph}{\numberline {3.2.2.2}SWEDesigner::Client::Components::LoginComponent}{17}{paragraph.3.2.2.2}
-\contentsline {paragraph}{\numberline {3.2.2.3}SWEDesigner::Client::Components::Forgot-pswComponent}{17}{paragraph.3.2.2.3}
-\contentsline {subsection}{\numberline {3.3}SWEDesigner::Client::Components::Editor-container}{18}{subsection.3.3}
-\contentsline {subsubsection}{\numberline {3.3.1}Informazioni generali}{18}{subsubsection.3.3.1}
-\contentsline {subsubsection}{\numberline {3.3.2}Classi}{18}{subsubsection.3.3.2}
-\contentsline {paragraph}{\numberline {3.3.2.1}SWEDesigner::Client::Components::Editor-container::Editor-containerComponent}{18}{paragraph.3.3.2.1}
-\contentsline {paragraph}{\numberline {3.3.2.2}SWEDesigner::Client::Components::Editor-container::Activity-frameComponent}{19}{paragraph.3.3.2.2}
-\contentsline {subsection}{\numberline {3.4}SWEDesigner::Client::Components::Editor-container::Menu}{19}{subsection.3.4}
-\contentsline {subsubsection}{\numberline {3.4.1}Informazioni generali}{19}{subsubsection.3.4.1}
-\contentsline {subsubsection}{\numberline {3.4.2}Classi}{19}{subsubsection.3.4.2}
-\contentsline {paragraph}{\numberline {3.4.2.1}SWEDesigner::Client::Components::Editor-container::Menu::MenuComponent}{19}{paragraph.3.4.2.1}
-\contentsline {paragraph}{\numberline {3.4.2.2}SWEDesigner::Client::Components::Editor-container::Menu::FileComponent}{20}{paragraph.3.4.2.2}
-\contentsline {paragraph}{\numberline {3.4.2.3}SWEDesigner::Client::Components::Editor-container::Menu::ModificaComponent}{21}{paragraph.3.4.2.3}
-\contentsline {paragraph}{\numberline {3.4.2.4}SWEDesigner::Client::Components::Editor-container::Menu::ProfiloComponent}{21}{paragraph.3.4.2.4}
-\contentsline {paragraph}{\numberline {3.4.2.5}SWEDesigner::Client::Components::Editor-container::Menu::ProgettoComponent}{22}{paragraph.3.4.2.5}
-\contentsline {subsection}{\numberline {3.5}SWEDesigner::Client::Components::Editor-container::Editor}{22}{subsection.3.5}
-\contentsline {subsubsection}{\numberline {3.5.1}Informazioni generali}{22}{subsubsection.3.5.1}
-\contentsline {subsubsection}{\numberline {3.5.2}Classi}{22}{subsubsection.3.5.2}
-\contentsline {paragraph}{\numberline {3.5.2.1}SWEDesigner::Client::Components::Editor-container::Editor::EditorComponent}{22}{paragraph.3.5.2.1}
-\contentsline {paragraph}{\numberline {3.5.2.2}SWEDesigner::Client::Components::Editor-container::Editor::Activity-menuComponent}{24}{paragraph.3.5.2.2}
-\contentsline {paragraph}{\numberline {3.5.2.3}SWEDesigner::Client::Components::Editor-container::Editor::ToolbarComponent}{27}{paragraph.3.5.2.3}
-\contentsline {paragraph}{\numberline {3.5.2.4}SWEDesigner::Client::Components::Editor-container::Editor::ActivityService}{28}{paragraph.3.5.2.4}
-\contentsline {paragraph}{\numberline {3.5.2.5}SWEDesigner::Client::Components::Editor-container::Editor::Class-menuService}{33}{paragraph.3.5.2.5}
-\contentsline {paragraph}{\numberline {3.5.2.6}SWEDesigner::Client::Components::Editor-container::Editor::All-shape}{37}{paragraph.3.5.2.6}
-\contentsline {paragraph}{\numberline {3.5.2.7}SWEDesigner::Client::Components::Editor-container::Editor::Attributo}{38}{paragraph.3.5.2.7}
-\contentsline {paragraph}{\numberline {3.5.2.8}SWEDesigner::Client::Components::Editor-container::Editor::Class-errors}{39}{paragraph.3.5.2.8}
-\contentsline {paragraph}{\numberline {3.5.2.9}SWEDesigner::Client::Components::Editor-container::Editor::Classe-astratta}{39}{paragraph.3.5.2.9}
-\contentsline {paragraph}{\numberline {3.5.2.10}SWEDesigner::Client::Components::Editor-container::Editor::Classe}{40}{paragraph.3.5.2.10}
-\contentsline {paragraph}{\numberline {3.5.2.11}SWEDesigner::Client::Components::Editor-container::Editor::Elemento-metodo}{43}{paragraph.3.5.2.11}
-\contentsline {paragraph}{\numberline {3.5.2.12}SWEDesigner::Client::Components::Editor-container::Editor::End}{43}{paragraph.3.5.2.12}
-\contentsline {paragraph}{\numberline {3.5.2.13}SWEDesigner::Client::Components::Editor-container::Editor::If-node}{44}{paragraph.3.5.2.13}
-\contentsline {paragraph}{\numberline {3.5.2.14}SWEDesigner::Client::Components::Editor-container::Editor::Interface}{45}{paragraph.3.5.2.14}
-\contentsline {paragraph}{\numberline {3.5.2.15}SWEDesigner::Client::Components::Editor-container::Editor::Merge-node}{46}{paragraph.3.5.2.15}
-\contentsline {paragraph}{\numberline {3.5.2.16}SWEDesigner::Client::Components::Editor-container::Editor::Metodo}{47}{paragraph.3.5.2.16}
-\contentsline {paragraph}{\numberline {3.5.2.17}SWEDesigner::Client::Components::Editor-container::Editor::Operation}{49}{paragraph.3.5.2.17}
-\contentsline {paragraph}{\numberline {3.5.2.18}SWEDesigner::Client::Components::Editor-container::Editor::Operazione}{50}{paragraph.3.5.2.18}
-\contentsline {paragraph}{\numberline {3.5.2.19}SWEDesigner::Client::Components::Editor-container::Editor::Param}{50}{paragraph.3.5.2.19}
-\contentsline {paragraph}{\numberline {3.5.2.20}SWEDesigner::Client::Components::Editor-container::Editor::Shape}{51}{paragraph.3.5.2.20}
-\contentsline {paragraph}{\numberline {3.5.2.21}SWEDesigner::Client::Components::Editor-container::Editor::Start}{53}{paragraph.3.5.2.21}
-\contentsline {paragraph}{\numberline {3.5.2.22}SWEDesigner::Client::Components::Editor-container::Editor::Variabile}{54}{paragraph.3.5.2.22}
-\contentsline {paragraph}{\numberline {3.5.2.23}SWEDesigner::Client::Components::Editor-container::Editor::While-node}{55}{paragraph.3.5.2.23}
-\contentsline {subsection}{\numberline {3.6}SWEDesigner::Client::Components::Editor-container::Editor::Edit-class-menu}{56}{subsection.3.6}
-\contentsline {subsubsection}{\numberline {3.6.1}Informazioni generali}{56}{subsubsection.3.6.1}
-\contentsline {subsubsection}{\numberline {3.6.2}Classi}{56}{subsubsection.3.6.2}
-\contentsline {paragraph}{\numberline {3.6.2.1}SWEDesigner::Client::Components::Editor-container::Editor::Edit-class-menu::Edit-class-menuComponent}{56}{paragraph.3.6.2.1}
-\contentsline {paragraph}{\numberline {3.6.2.2}SWEDesigner::Client::Components::Editor-container::Editor::Edit-class-menu::Change-class-nameComponent}{56}{paragraph.3.6.2.2}
-\contentsline {paragraph}{\numberline {3.6.2.3}SWEDesigner::Client::Components::Editor-container::Editor::Edit-class-menu::Class-add-attributeComponent}{57}{paragraph.3.6.2.3}
-\contentsline {paragraph}{\numberline {3.6.2.4}SWEDesigner::Client::Components::Editor-container::Editor::Edit-class-menu::Class-add-main-methodComponent}{58}{paragraph.3.6.2.4}
-\contentsline {paragraph}{\numberline {3.6.2.5}SWEDesigner::Client::Components::Editor-container::Editor::Edit-class-menu::Class-add-methodComponent}{58}{paragraph.3.6.2.5}
-\contentsline {paragraph}{\numberline {3.6.2.6}SWEDesigner::Client::Components::Editor-container::Editor::Edit-class-menu::Class-list-attributeComponent}{59}{paragraph.3.6.2.6}
-\contentsline {paragraph}{\numberline {3.6.2.7}SWEDesigner::Client::Components::Editor-container::Editor::Edit-class-menu::Class-list-methodComponent}{60}{paragraph.3.6.2.7}
-\contentsline {paragraph}{\numberline {3.6.2.8}SWEDesigner::Client::Components::Editor-container::Editor::Edit-class-menu::Display-class-nameComponent}{61}{paragraph.3.6.2.8}
-\contentsline {subsection}{\numberline {3.7}SWEDesigner::Client::Services}{61}{subsection.3.7}
-\contentsline {subsubsection}{\numberline {3.7.1}Informazioni generali}{61}{subsubsection.3.7.1}
-\contentsline {subsubsection}{\numberline {3.7.2}Classi}{62}{subsubsection.3.7.2}
-\contentsline {paragraph}{\numberline {3.7.2.1}SWEDesigner::Client::Services::AccountService}{62}{paragraph.3.7.2.1}
-\contentsline {paragraph}{\numberline {3.7.2.2}SWEDesigner::Client::Services::Main-editorService}{66}{paragraph.3.7.2.2}
-\contentsline {paragraph}{\numberline {3.7.2.3}SWEDesigner::Client::Services::MenuService}{71}{paragraph.3.7.2.3}
-\contentsline {section}{\numberline {4}Specifica Back-End}{74}{section.4}
-\contentsline {subsection}{\numberline {4.1}SWEDesigner::Server}{74}{subsection.4.1}
-\contentsline {subsubsection}{\numberline {4.1.1}Informazioni generali}{74}{subsubsection.4.1.1}
-\contentsline {subsubsection}{\numberline {4.1.2}Classi}{74}{subsubsection.4.1.2}
-\contentsline {paragraph}{\numberline {4.1.2.1}SWEDesigner::Server::serverLoader}{74}{paragraph.4.1.2.1}
-\contentsline {subsection}{\numberline {4.2}SWEDesigner::Server::Model}{75}{subsection.4.2}
-\contentsline {subsubsection}{\numberline {4.2.1}Informazioni generali}{75}{subsubsection.4.2.1}
-\contentsline {subsubsection}{\numberline {4.2.2}Classi}{75}{subsubsection.4.2.2}
-\contentsline {paragraph}{\numberline {4.2.2.1}SWEDesigner::Server::Model::mongooseConnection}{75}{paragraph.4.2.2.1}
-\contentsline {paragraph}{\numberline {4.2.2.2}SWEDesiger::Server::Model::mongooseRequest}{76}{paragraph.4.2.2.2}
-\contentsline {subsection}{\numberline {4.3}SWEDesigner::Server::Controller::Middleware}{82}{subsection.4.3}
-\contentsline {subsubsection}{\numberline {4.3.1}Informazioni generali}{82}{subsubsection.4.3.1}
-\contentsline {subsubsection}{\numberline {4.3.2}Classi}{82}{subsubsection.4.3.2}
-\contentsline {paragraph}{\numberline {4.3.2.1}SWEDesigner::Server::Controller::Middleware::midLoader}{82}{paragraph.4.3.2.1}
-\contentsline {paragraph}{\numberline {4.3.2.2}SWEDesigner::Server::Controller::Middleware::Parse}{82}{paragraph.4.3.2.2}
-\contentsline {paragraph}{\numberline {4.3.2.3}SWEDesigner::Server::Controller:Middleware::Encrypt}{83}{paragraph.4.3.2.3}
-\contentsline {subsection}{\numberline {4.4}SWEDesigner::Server::Controller::Services}{85}{subsection.4.4}
-\contentsline {subsubsection}{\numberline {4.4.1}Informazioni generali}{85}{subsubsection.4.4.1}
-\contentsline {subsubsection}{\numberline {4.4.2}Classi}{85}{subsubsection.4.4.2}
-\contentsline {paragraph}{\numberline {4.4.2.1}SWEDesigner::Server::Controller::Services::parseService}{85}{paragraph.4.4.2.1}
-\contentsline {paragraph}{\numberline {4.4.2.2}SWEDesigner::Server::Controller::Services::encryptService}{86}{paragraph.4.4.2.2}
-\contentsline {section}{\numberline {5}Diagrammi di sequenza}{88}{section.5}
-\contentsline {subsection}{\numberline {5.1}Generazione Codice}{88}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Caricamento moduli del Server}{88}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Encrypt/Decrypt}{89}{subsection.5.3}
-\contentsline {section}{\numberline {6}Tracciamento}{90}{section.6}
-\contentsline {subsection}{\numberline {6.1}Tracciamento Classi-Requisiti}{90}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Tracciamento Requisiti-Classi}{94}{subsection.6.2}
+\contentsline {section}{\numberline {1}Introduzione}{9}{section.1}
+\contentsline {subsection}{\numberline {1.1}Scopo del documento}{9}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Scopo del prodotto}{9}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Glossario}{9}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Riferimenti}{9}{subsection.1.4}
+\contentsline {subsubsection}{\numberline {1.4.1}Normativi}{9}{subsubsection.1.4.1}
+\contentsline {subsubsection}{\numberline {1.4.2}Informativi}{10}{subsubsection.1.4.2}
+\contentsline {subsection}{\numberline {1.5}Descrizione dell'architettura}{11}{subsection.1.5}
+\contentsline {section}{\numberline {2}Standard di progetto}{12}{section.2}
+\contentsline {subsection}{\numberline {2.1}Standard di progettazione architetturale}{12}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Standard di documentazione del codice}{12}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Standard di denominazione di entit\IeC {\`a} e relazioni}{12}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Standard di programmazione}{12}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Strumenti di lavoro}{12}{subsection.2.5}
+\contentsline {section}{\numberline {3}Specifica Front-End}{13}{section.3}
+\contentsline {subsection}{\numberline {3.1}SWEDesigner::Client}{13}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Informazioni generali}{13}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}Classi}{13}{subsubsection.3.1.2}
+\contentsline {paragraph}{\numberline {3.1.2.1}SWEDesigner::AuthenticationGuard}{13}{paragraph.3.1.2.1}
+\contentsline {paragraph}{\numberline {3.1.2.2}SWEDesigner::Global}{14}{paragraph.3.1.2.2}
+\contentsline {subsection}{\numberline {3.2}SWEDesigner::Client::Components}{17}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Informazioni generali}{17}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Classi}{18}{subsubsection.3.2.2}
+\contentsline {paragraph}{\numberline {3.2.2.1}SWEDesigner::Client::Components::RegistrationComponent}{18}{paragraph.3.2.2.1}
+\contentsline {paragraph}{\numberline {3.2.2.2}SWEDesigner::Client::Components::LoginComponent}{19}{paragraph.3.2.2.2}
+\contentsline {paragraph}{\numberline {3.2.2.3}SWEDesigner::Client::Components::Forgot-pswComponent}{19}{paragraph.3.2.2.3}
+\contentsline {subsection}{\numberline {3.3}SWEDesigner::Client::Components::Editor-container}{20}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}Informazioni generali}{20}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.2}Classi}{21}{subsubsection.3.3.2}
+\contentsline {paragraph}{\numberline {3.3.2.1}SWEDesigner::Client::Components::Editor-container::Editor-containerComponent}{21}{paragraph.3.3.2.1}
+\contentsline {paragraph}{\numberline {3.3.2.2}SWEDesigner::Client::Components::Editor-container::Activity-frameComponent}{21}{paragraph.3.3.2.2}
+\contentsline {subsection}{\numberline {3.4}SWEDesigner::Client::Components::Editor-container::Menu}{21}{subsection.3.4}
+\contentsline {subsubsection}{\numberline {3.4.1}Informazioni generali}{21}{subsubsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.2}Classi}{22}{subsubsection.3.4.2}
+\contentsline {paragraph}{\numberline {3.4.2.1}SWEDesigner::Client::Components::Editor-container::Menu::MenuComponent}{22}{paragraph.3.4.2.1}
+\contentsline {paragraph}{\numberline {3.4.2.2}SWEDesigner::Client::Components::Editor-container::Menu::FileComponent}{22}{paragraph.3.4.2.2}
+\contentsline {paragraph}{\numberline {3.4.2.3}SWEDesigner::Client::Components::Editor-container::Menu::ModificaComponent}{23}{paragraph.3.4.2.3}
+\contentsline {paragraph}{\numberline {3.4.2.4}SWEDesigner::Client::Components::Editor-container::Menu::ProfiloComponent}{24}{paragraph.3.4.2.4}
+\contentsline {paragraph}{\numberline {3.4.2.5}SWEDesigner::Client::Components::Editor-container::Menu::ProgettoComponent}{25}{paragraph.3.4.2.5}
+\contentsline {subsection}{\numberline {3.5}SWEDesigner::Client::Components::Editor-container::Editor}{25}{subsection.3.5}
+\contentsline {subsubsection}{\numberline {3.5.1}Informazioni generali}{25}{subsubsection.3.5.1}
+\contentsline {subsubsection}{\numberline {3.5.2}Classi}{26}{subsubsection.3.5.2}
+\contentsline {paragraph}{\numberline {3.5.2.1}SWEDesigner::Client::Components::Editor-container::Editor::EditorComponent}{26}{paragraph.3.5.2.1}
+\contentsline {paragraph}{\numberline {3.5.2.2}SWEDesigner::Client::Components::Editor-container::Editor::Activity-menuComponent}{31}{paragraph.3.5.2.2}
+\contentsline {paragraph}{\numberline {3.5.2.3}SWEDesigner::Client::Components::Editor-container::Editor::ToolbarComponent}{34}{paragraph.3.5.2.3}
+\contentsline {paragraph}{\numberline {3.5.2.4}SWEDesigner::Client::Components::Editor-container::Editor::ActivityService}{36}{paragraph.3.5.2.4}
+\contentsline {paragraph}{\numberline {3.5.2.5}SWEDesigner::Client::Components::Editor-container::Editor::Class-menuService}{42}{paragraph.3.5.2.5}
+\contentsline {paragraph}{\numberline {3.5.2.6}SWEDesigner::Client::Components::Editor-container::Editor::All-shape}{47}{paragraph.3.5.2.6}
+\contentsline {paragraph}{\numberline {3.5.2.7}SWEDesigner::Client::Components::Editor-container::Editor::Attributo}{49}{paragraph.3.5.2.7}
+\contentsline {paragraph}{\numberline {3.5.2.8}SWEDesigner::Client::Components::Editor-container::Editor::Class-errors}{50}{paragraph.3.5.2.8}
+\contentsline {paragraph}{\numberline {3.5.2.9}SWEDesigner::Client::Components::Editor-container::Editor::Classe-astratta}{50}{paragraph.3.5.2.9}
+\contentsline {paragraph}{\numberline {3.5.2.10}SWEDesigner::Client::Components::Editor-container::Editor::Classe}{51}{paragraph.3.5.2.10}
+\contentsline {paragraph}{\numberline {3.5.2.11}SWEDesigner::Client::Components::Editor-container::Editor::Elemento-metodo}{55}{paragraph.3.5.2.11}
+\contentsline {paragraph}{\numberline {3.5.2.12}SWEDesigner::Client::Components::Editor-container::Editor::End}{55}{paragraph.3.5.2.12}
+\contentsline {paragraph}{\numberline {3.5.2.13}SWEDesigner::Client::Components::Editor-container::Editor::If-node}{56}{paragraph.3.5.2.13}
+\contentsline {paragraph}{\numberline {3.5.2.14}SWEDesigner::Client::Components::Editor-container::Editor::Interface}{57}{paragraph.3.5.2.14}
+\contentsline {paragraph}{\numberline {3.5.2.15}SWEDesigner::Client::Components::Editor-container::Editor::Merge-node}{58}{paragraph.3.5.2.15}
+\contentsline {paragraph}{\numberline {3.5.2.16}SWEDesigner::Client::Components::Editor-container::Editor::Metodo}{59}{paragraph.3.5.2.16}
+\contentsline {paragraph}{\numberline {3.5.2.17}SWEDesigner::Client::Components::Editor-container::Editor::Operation}{63}{paragraph.3.5.2.17}
+\contentsline {paragraph}{\numberline {3.5.2.18}SWEDesigner::Client::Components::Editor-container::Editor::Operazione}{64}{paragraph.3.5.2.18}
+\contentsline {paragraph}{\numberline {3.5.2.19}SWEDesigner::Client::Components::Editor-container::Editor::Param}{64}{paragraph.3.5.2.19}
+\contentsline {paragraph}{\numberline {3.5.2.20}SWEDesigner::Client::Components::Editor-container::Editor::Shape}{65}{paragraph.3.5.2.20}
+\contentsline {paragraph}{\numberline {3.5.2.21}SWEDesigner::Client::Components::Editor-container::Editor::Start}{68}{paragraph.3.5.2.21}
+\contentsline {paragraph}{\numberline {3.5.2.22}SWEDesigner::Client::Components::Editor-container::Editor::Variabile}{68}{paragraph.3.5.2.22}
+\contentsline {paragraph}{\numberline {3.5.2.23}SWEDesigner::Client::Components::Editor-container::Editor::While-node}{70}{paragraph.3.5.2.23}
+\contentsline {subsection}{\numberline {3.6}SWEDesigner::Client::Components::Editor-container::Editor::Edit-class-menu}{71}{subsection.3.6}
+\contentsline {subsubsection}{\numberline {3.6.1}Informazioni generali}{71}{subsubsection.3.6.1}
+\contentsline {subsubsection}{\numberline {3.6.2}Classi}{71}{subsubsection.3.6.2}
+\contentsline {paragraph}{\numberline {3.6.2.1}SWEDesigner::Client::Components::Editor-container::Editor::Edit-class-menu::Edit-class-menuComponent}{71}{paragraph.3.6.2.1}
+\contentsline {paragraph}{\numberline {3.6.2.2}SWEDesigner::Client::Components::Editor-container::Editor::Edit-class-menu::Change-class-nameComponent}{71}{paragraph.3.6.2.2}
+\contentsline {paragraph}{\numberline {3.6.2.3}SWEDesigner::Client::Components::Editor-container::Editor::Edit-class-menu::Class-add-attributeComponent}{72}{paragraph.3.6.2.3}
+\contentsline {paragraph}{\numberline {3.6.2.4}SWEDesigner::Client::Components::Editor-container::Editor::Edit-class-menu::Class-add-main-methodComponent}{73}{paragraph.3.6.2.4}
+\contentsline {paragraph}{\numberline {3.6.2.5}SWEDesigner::Client::Components::Editor-container::Editor::Edit-class-menu::Class-add-methodComponent}{74}{paragraph.3.6.2.5}
+\contentsline {paragraph}{\numberline {3.6.2.6}SWEDesigner::Client::Components::Editor-container::Editor::Edit-class-menu::Class-list-attributeComponent}{75}{paragraph.3.6.2.6}
+\contentsline {paragraph}{\numberline {3.6.2.7}SWEDesigner::Client::Components::Editor-container::Editor::Edit-class-menu::Class-list-methodComponent}{77}{paragraph.3.6.2.7}
+\contentsline {paragraph}{\numberline {3.6.2.8}SWEDesigner::Client::Components::Editor-container::Editor::Edit-class-menu::Display-class-nameComponent}{78}{paragraph.3.6.2.8}
+\contentsline {subsection}{\numberline {3.7}SWEDesigner::Client::Services}{78}{subsection.3.7}
+\contentsline {subsubsection}{\numberline {3.7.1}Informazioni generali}{78}{subsubsection.3.7.1}
+\contentsline {subsubsection}{\numberline {3.7.2}Classi}{79}{subsubsection.3.7.2}
+\contentsline {paragraph}{\numberline {3.7.2.1}SWEDesigner::Client::Services::AccountService}{79}{paragraph.3.7.2.1}
+\contentsline {paragraph}{\numberline {3.7.2.2}SWEDesigner::Client::Services::Main-editorService}{83}{paragraph.3.7.2.2}
+\contentsline {paragraph}{\numberline {3.7.2.3}SWEDesigner::Client::Services::MenuService}{89}{paragraph.3.7.2.3}
+\contentsline {section}{\numberline {4}Specifica Back-End}{93}{section.4}
+\contentsline {subsection}{\numberline {4.1}SWEDesigner::Server}{93}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}Informazioni generali}{93}{subsubsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.2}Classi}{93}{subsubsection.4.1.2}
+\contentsline {paragraph}{\numberline {4.1.2.1}SWEDesigner::Server::serverLoader}{93}{paragraph.4.1.2.1}
+\contentsline {subsection}{\numberline {4.2}SWEDesigner::Server::Model}{94}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Informazioni generali}{94}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}Classi}{94}{subsubsection.4.2.2}
+\contentsline {paragraph}{\numberline {4.2.2.1}SWEDesigner::Server::Model::mongooseConnection}{94}{paragraph.4.2.2.1}
+\contentsline {paragraph}{\numberline {4.2.2.2}SWEDesiger::Server::Model::mongooseRequest}{95}{paragraph.4.2.2.2}
+\contentsline {subsection}{\numberline {4.3}SWEDesigner::Server::Controller::Middleware}{101}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}Informazioni generali}{101}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}Classi}{101}{subsubsection.4.3.2}
+\contentsline {paragraph}{\numberline {4.3.2.1}SWEDesigner::Server::Controller::Middleware::midLoader}{101}{paragraph.4.3.2.1}
+\contentsline {paragraph}{\numberline {4.3.2.2}SWEDesigner::Server::Controller::Middleware::Parse}{101}{paragraph.4.3.2.2}
+\contentsline {paragraph}{\numberline {4.3.2.3}SWEDesigner::Server::Controller:Middleware::Encrypt}{102}{paragraph.4.3.2.3}
+\contentsline {subsection}{\numberline {4.4}SWEDesigner::Server::Controller::Services}{104}{subsection.4.4}
+\contentsline {subsubsection}{\numberline {4.4.1}Informazioni generali}{104}{subsubsection.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.2}Classi}{104}{subsubsection.4.4.2}
+\contentsline {paragraph}{\numberline {4.4.2.1}SWEDesigner::Server::Controller::Services::parseService}{104}{paragraph.4.4.2.1}
+\contentsline {paragraph}{\numberline {4.4.2.2}SWEDesigner::Server::Controller::Services::encryptService}{105}{paragraph.4.4.2.2}
+\contentsline {section}{\numberline {5}Diagrammi di sequenza}{107}{section.5}
+\contentsline {subsection}{\numberline {5.1}Generazione Codice}{107}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Caricamento moduli del Server}{107}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Encrypt/Decrypt}{108}{subsection.5.3}
+\contentsline {section}{\numberline {6}Tracciamento}{109}{section.6}
+\contentsline {subsection}{\numberline {6.1}Tracciamento Classi-Requisiti}{109}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Tracciamento Requisiti-Classi}{113}{subsection.6.2}
