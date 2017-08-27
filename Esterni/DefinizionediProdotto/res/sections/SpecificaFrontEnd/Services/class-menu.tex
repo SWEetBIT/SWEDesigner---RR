@@ -1,3 +1,9 @@
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=0.8]{res/sections/SpecificaFrontEnd/Services/Disegnetti/class-menu.png}
+	\caption{Diagramma della classe Class-menu}
+\end{figure}
+
 \begin{itemize}
 	\item \textbf{Descrizione:}\\
 	
@@ -7,7 +13,7 @@
 		\begin{itemize}
 			\item \emph{-selectedClassSource: Subject<any>}\\
 			Risorsa observable oggetto-classe
-			\item \emph{-selectedClass}\\
+			\item \emph{-selectedClass: any}\\
 			Stream observable oggetto-classe
 			\item \emph{-classe: any}\\
 			La classe correntemente selezionata nell'editor
@@ -83,14 +89,14 @@
     			\item \emph{acc: string}\\
     			Visibilità dell'attributo
     		\end{itemize}
-    		\item \emph{removeAttributo(nome: string)}\\
+    		\item \emph{+removeAttributo(nome: string)}\\
     		Rimuove un attributo dalla classe selezionata\\
     		\textbf{Parametri:}
     		\begin{itemize}
     			\item \emph{nome: string}\\
     			Nome dell'attributo da rimuovere
     		\end{itemize}
-    		\item \emph{changeAttributo(+name: string, oldName: string, tipo: string, acc: string , stat: boolean, final: boolean)}\\
+    		\item \emph{+changeAttributo(name: string, oldName: string, tipo: string, acc: string , stat: boolean, final: boolean)}\\
     		Modifica le proprietà di un attributo della classe selezionata\\
     		\textbf{Parametri:}
     		\begin{itemize}
