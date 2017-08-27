@@ -43,67 +43,68 @@
 \BOOKMARK [4][-]{paragraph.3.5.2.1}{SWEDesigner::Client::Components::Editor-container::Editor::EditorComponent}{subsubsection.3.5.2}% 43
 \BOOKMARK [4][-]{paragraph.3.5.2.2}{SWEDesigner::Client::Components::Editor-container::Editor::Activity-menuComponent}{subsubsection.3.5.2}% 44
 \BOOKMARK [4][-]{paragraph.3.5.2.3}{SWEDesigner::Client::Components::Editor-container::Editor::ToolbarComponent}{subsubsection.3.5.2}% 45
-\BOOKMARK [4][-]{paragraph.3.5.2.4}{SWEDesigner::Client::Components::Editor-container::Editor::Class-menuService}{subsubsection.3.5.2}% 46
-\BOOKMARK [4][-]{paragraph.3.5.2.5}{SWEDesigner::Client::Components::Editor-container::Editor::All-shape}{subsubsection.3.5.2}% 47
-\BOOKMARK [4][-]{paragraph.3.5.2.6}{SWEDesigner::Client::Components::Editor-container::Editor::Attributo}{subsubsection.3.5.2}% 48
-\BOOKMARK [4][-]{paragraph.3.5.2.7}{SWEDesigner::Client::Components::Editor-container::Editor::Class-errors}{subsubsection.3.5.2}% 49
-\BOOKMARK [4][-]{paragraph.3.5.2.8}{SWEDesigner::Client::Components::Editor-container::Editor::Classe-astratta}{subsubsection.3.5.2}% 50
-\BOOKMARK [4][-]{paragraph.3.5.2.9}{SWEDesigner::Client::Components::Editor-container::Editor::Classe}{subsubsection.3.5.2}% 51
-\BOOKMARK [4][-]{paragraph.3.5.2.10}{SWEDesigner::Client::Components::Editor-container::Editor::Elemento-metodo}{subsubsection.3.5.2}% 52
-\BOOKMARK [4][-]{paragraph.3.5.2.11}{SWEDesigner::Client::Components::Editor-container::Editor::End}{subsubsection.3.5.2}% 53
-\BOOKMARK [4][-]{paragraph.3.5.2.12}{SWEDesigner::Client::Components::Editor-container::Editor::If-node}{subsubsection.3.5.2}% 54
-\BOOKMARK [4][-]{paragraph.3.5.2.13}{SWEDesigner::Client::Components::Editor-container::Editor::Interface}{subsubsection.3.5.2}% 55
-\BOOKMARK [4][-]{paragraph.3.5.2.14}{SWEDesigner::Client::Components::Editor-container::Editor::Merge-node}{subsubsection.3.5.2}% 56
-\BOOKMARK [4][-]{paragraph.3.5.2.15}{SWEDesigner::Client::Components::Editor-container::Editor::Metodo}{subsubsection.3.5.2}% 57
-\BOOKMARK [4][-]{paragraph.3.5.2.16}{SWEDesigner::Client::Components::Editor-container::Editor::Operation}{subsubsection.3.5.2}% 58
-\BOOKMARK [4][-]{paragraph.3.5.2.17}{SWEDesigner::Client::Components::Editor-container::Editor::Operazione}{subsubsection.3.5.2}% 59
-\BOOKMARK [4][-]{paragraph.3.5.2.18}{SWEDesigner::Client::Components::Editor-container::Editor::Param}{subsubsection.3.5.2}% 60
-\BOOKMARK [4][-]{paragraph.3.5.2.19}{SWEDesigner::Client::Components::Editor-container::Editor::Shape}{subsubsection.3.5.2}% 61
-\BOOKMARK [4][-]{paragraph.3.5.2.20}{SWEDesigner::Client::Components::Editor-container::Editor::Start}{subsubsection.3.5.2}% 62
-\BOOKMARK [4][-]{paragraph.3.5.2.21}{SWEDesigner::Client::Components::Editor-container::Editor::Variabile}{subsubsection.3.5.2}% 63
-\BOOKMARK [4][-]{paragraph.3.5.2.22}{SWEDesigner::Client::Components::Editor-container::Editor::While-node}{subsubsection.3.5.2}% 64
-\BOOKMARK [2][-]{subsection.3.6}{SWEDesigner::Client::Components::Editor-container::Editor::Edit-class-menu}{section.3}% 65
-\BOOKMARK [3][-]{subsubsection.3.6.1}{Informazioni generali}{subsection.3.6}% 66
-\BOOKMARK [3][-]{subsubsection.3.6.2}{Classi}{subsection.3.6}% 67
-\BOOKMARK [4][-]{paragraph.3.6.2.1}{SWEDesigner::Client::Components::Editor-container::Editor::Edit-class-menu::Edit-class-menuComponent}{subsubsection.3.6.2}% 68
-\BOOKMARK [4][-]{paragraph.3.6.2.2}{SWEDesigner::Client::Components::Editor-container::Editor::Edit-class-menu::Change-class-nameComponent}{subsubsection.3.6.2}% 69
-\BOOKMARK [4][-]{paragraph.3.6.2.3}{SWEDesigner::Client::Components::Editor-container::Editor::Edit-class-menu::Class-add-attributeComponent}{subsubsection.3.6.2}% 70
-\BOOKMARK [4][-]{paragraph.3.6.2.4}{SWEDesigner::Client::Components::Editor-container::Editor::Edit-class-menu::Class-add-main-methodComponent}{subsubsection.3.6.2}% 71
-\BOOKMARK [4][-]{paragraph.3.6.2.5}{SWEDesigner::Client::Components::Editor-container::Editor::Edit-class-menu::Class-add-methodComponent}{subsubsection.3.6.2}% 72
-\BOOKMARK [4][-]{paragraph.3.6.2.6}{SWEDesigner::Client::Components::Editor-container::Editor::Edit-class-menu::Class-list-attributeComponent}{subsubsection.3.6.2}% 73
-\BOOKMARK [4][-]{paragraph.3.6.2.7}{SWEDesigner::Client::Components::Editor-container::Editor::Edit-class-menu::Class-list-methodComponent}{subsubsection.3.6.2}% 74
-\BOOKMARK [4][-]{paragraph.3.6.2.8}{SWEDesigner::Client::Components::Editor-container::Editor::Edit-class-menu::Display-class-nameComponent}{subsubsection.3.6.2}% 75
-\BOOKMARK [2][-]{subsection.3.7}{SWEDesigner::Client::Services}{section.3}% 76
-\BOOKMARK [3][-]{subsubsection.3.7.1}{Informazioni generali}{subsection.3.7}% 77
-\BOOKMARK [3][-]{subsubsection.3.7.2}{Classi}{subsection.3.7}% 78
-\BOOKMARK [4][-]{paragraph.3.7.2.1}{SWEDesigner::Client::Services::AccountService}{subsubsection.3.7.2}% 79
-\BOOKMARK [4][-]{paragraph.3.7.2.2}{SWEDesigner::Client::Services::Main-editorService}{subsubsection.3.7.2}% 80
-\BOOKMARK [4][-]{paragraph.3.7.2.3}{SWEDesigner::Client::Services::MenuService}{subsubsection.3.7.2}% 81
-\BOOKMARK [1][-]{section.4}{Specifica Back-End}{}% 82
-\BOOKMARK [2][-]{subsection.4.1}{SWEDesigner::Server}{section.4}% 83
-\BOOKMARK [3][-]{subsubsection.4.1.1}{Informazioni generali}{subsection.4.1}% 84
-\BOOKMARK [3][-]{subsubsection.4.1.2}{Classi}{subsection.4.1}% 85
-\BOOKMARK [4][-]{paragraph.4.1.2.1}{SWEDesigner::Server::serverLoader}{subsubsection.4.1.2}% 86
-\BOOKMARK [2][-]{subsection.4.2}{SWEDesigner::Server::Model}{section.4}% 87
-\BOOKMARK [3][-]{subsubsection.4.2.1}{Informazioni generali}{subsection.4.2}% 88
-\BOOKMARK [3][-]{subsubsection.4.2.2}{Classi}{subsection.4.2}% 89
-\BOOKMARK [4][-]{paragraph.4.2.2.1}{SWEDesigner::Server::Model::mongooseConnection}{subsubsection.4.2.2}% 90
-\BOOKMARK [4][-]{paragraph.4.2.2.2}{SWEDesiger::Server::Model::mongooseRequest}{subsubsection.4.2.2}% 91
-\BOOKMARK [2][-]{subsection.4.3}{SWEDesigner::Server::Controller::Middleware}{section.4}% 92
-\BOOKMARK [3][-]{subsubsection.4.3.1}{Informazioni generali}{subsection.4.3}% 93
-\BOOKMARK [3][-]{subsubsection.4.3.2}{Classi}{subsection.4.3}% 94
-\BOOKMARK [4][-]{paragraph.4.3.2.1}{SWEDesigner::Server::Controller::Middleware::midLoader}{subsubsection.4.3.2}% 95
-\BOOKMARK [4][-]{paragraph.4.3.2.2}{SWEDesigner::Server::Controller::Middleware::Parse}{subsubsection.4.3.2}% 96
-\BOOKMARK [4][-]{paragraph.4.3.2.3}{SWEDesigner::Server::Controller:Middleware::Encrypt}{subsubsection.4.3.2}% 97
-\BOOKMARK [2][-]{subsection.4.4}{SWEDesigner::Server::Controller::Services}{section.4}% 98
-\BOOKMARK [3][-]{subsubsection.4.4.1}{Informazioni generali}{subsection.4.4}% 99
-\BOOKMARK [3][-]{subsubsection.4.4.2}{Classi}{subsection.4.4}% 100
-\BOOKMARK [4][-]{paragraph.4.4.2.1}{SWEDesigner::Server::Controller::Services::parseService}{subsubsection.4.4.2}% 101
-\BOOKMARK [4][-]{paragraph.4.4.2.2}{SWEDesigner::Server::Controller::Services::encryptService}{subsubsection.4.4.2}% 102
-\BOOKMARK [1][-]{section.5}{Diagrammi di sequenza}{}% 103
-\BOOKMARK [2][-]{subsection.5.1}{Generazione Codice}{section.5}% 104
-\BOOKMARK [2][-]{subsection.5.2}{Caricamento moduli del Server}{section.5}% 105
-\BOOKMARK [2][-]{subsection.5.3}{Encrypt/Decrypt}{section.5}% 106
-\BOOKMARK [1][-]{section.6}{Tracciamento}{}% 107
-\BOOKMARK [2][-]{subsection.6.1}{Tracciamento Classi-Requisiti}{section.6}% 108
-\BOOKMARK [2][-]{subsection.6.2}{Tracciamento Requisiti-Classi}{section.6}% 109
+\BOOKMARK [4][-]{paragraph.3.5.2.4}{SWEDesigner::Client::Components::Editor-container::Editor::ActivityService}{subsubsection.3.5.2}% 46
+\BOOKMARK [4][-]{paragraph.3.5.2.5}{SWEDesigner::Client::Components::Editor-container::Editor::Class-menuService}{subsubsection.3.5.2}% 47
+\BOOKMARK [4][-]{paragraph.3.5.2.6}{SWEDesigner::Client::Components::Editor-container::Editor::All-shape}{subsubsection.3.5.2}% 48
+\BOOKMARK [4][-]{paragraph.3.5.2.7}{SWEDesigner::Client::Components::Editor-container::Editor::Attributo}{subsubsection.3.5.2}% 49
+\BOOKMARK [4][-]{paragraph.3.5.2.8}{SWEDesigner::Client::Components::Editor-container::Editor::Class-errors}{subsubsection.3.5.2}% 50
+\BOOKMARK [4][-]{paragraph.3.5.2.9}{SWEDesigner::Client::Components::Editor-container::Editor::Classe-astratta}{subsubsection.3.5.2}% 51
+\BOOKMARK [4][-]{paragraph.3.5.2.10}{SWEDesigner::Client::Components::Editor-container::Editor::Classe}{subsubsection.3.5.2}% 52
+\BOOKMARK [4][-]{paragraph.3.5.2.11}{SWEDesigner::Client::Components::Editor-container::Editor::Elemento-metodo}{subsubsection.3.5.2}% 53
+\BOOKMARK [4][-]{paragraph.3.5.2.12}{SWEDesigner::Client::Components::Editor-container::Editor::End}{subsubsection.3.5.2}% 54
+\BOOKMARK [4][-]{paragraph.3.5.2.13}{SWEDesigner::Client::Components::Editor-container::Editor::If-node}{subsubsection.3.5.2}% 55
+\BOOKMARK [4][-]{paragraph.3.5.2.14}{SWEDesigner::Client::Components::Editor-container::Editor::Interface}{subsubsection.3.5.2}% 56
+\BOOKMARK [4][-]{paragraph.3.5.2.15}{SWEDesigner::Client::Components::Editor-container::Editor::Merge-node}{subsubsection.3.5.2}% 57
+\BOOKMARK [4][-]{paragraph.3.5.2.16}{SWEDesigner::Client::Components::Editor-container::Editor::Metodo}{subsubsection.3.5.2}% 58
+\BOOKMARK [4][-]{paragraph.3.5.2.17}{SWEDesigner::Client::Components::Editor-container::Editor::Operation}{subsubsection.3.5.2}% 59
+\BOOKMARK [4][-]{paragraph.3.5.2.18}{SWEDesigner::Client::Components::Editor-container::Editor::Operazione}{subsubsection.3.5.2}% 60
+\BOOKMARK [4][-]{paragraph.3.5.2.19}{SWEDesigner::Client::Components::Editor-container::Editor::Param}{subsubsection.3.5.2}% 61
+\BOOKMARK [4][-]{paragraph.3.5.2.20}{SWEDesigner::Client::Components::Editor-container::Editor::Shape}{subsubsection.3.5.2}% 62
+\BOOKMARK [4][-]{paragraph.3.5.2.21}{SWEDesigner::Client::Components::Editor-container::Editor::Start}{subsubsection.3.5.2}% 63
+\BOOKMARK [4][-]{paragraph.3.5.2.22}{SWEDesigner::Client::Components::Editor-container::Editor::Variabile}{subsubsection.3.5.2}% 64
+\BOOKMARK [4][-]{paragraph.3.5.2.23}{SWEDesigner::Client::Components::Editor-container::Editor::While-node}{subsubsection.3.5.2}% 65
+\BOOKMARK [2][-]{subsection.3.6}{SWEDesigner::Client::Components::Editor-container::Editor::Edit-class-menu}{section.3}% 66
+\BOOKMARK [3][-]{subsubsection.3.6.1}{Informazioni generali}{subsection.3.6}% 67
+\BOOKMARK [3][-]{subsubsection.3.6.2}{Classi}{subsection.3.6}% 68
+\BOOKMARK [4][-]{paragraph.3.6.2.1}{SWEDesigner::Client::Components::Editor-container::Editor::Edit-class-menu::Edit-class-menuComponent}{subsubsection.3.6.2}% 69
+\BOOKMARK [4][-]{paragraph.3.6.2.2}{SWEDesigner::Client::Components::Editor-container::Editor::Edit-class-menu::Change-class-nameComponent}{subsubsection.3.6.2}% 70
+\BOOKMARK [4][-]{paragraph.3.6.2.3}{SWEDesigner::Client::Components::Editor-container::Editor::Edit-class-menu::Class-add-attributeComponent}{subsubsection.3.6.2}% 71
+\BOOKMARK [4][-]{paragraph.3.6.2.4}{SWEDesigner::Client::Components::Editor-container::Editor::Edit-class-menu::Class-add-main-methodComponent}{subsubsection.3.6.2}% 72
+\BOOKMARK [4][-]{paragraph.3.6.2.5}{SWEDesigner::Client::Components::Editor-container::Editor::Edit-class-menu::Class-add-methodComponent}{subsubsection.3.6.2}% 73
+\BOOKMARK [4][-]{paragraph.3.6.2.6}{SWEDesigner::Client::Components::Editor-container::Editor::Edit-class-menu::Class-list-attributeComponent}{subsubsection.3.6.2}% 74
+\BOOKMARK [4][-]{paragraph.3.6.2.7}{SWEDesigner::Client::Components::Editor-container::Editor::Edit-class-menu::Class-list-methodComponent}{subsubsection.3.6.2}% 75
+\BOOKMARK [4][-]{paragraph.3.6.2.8}{SWEDesigner::Client::Components::Editor-container::Editor::Edit-class-menu::Display-class-nameComponent}{subsubsection.3.6.2}% 76
+\BOOKMARK [2][-]{subsection.3.7}{SWEDesigner::Client::Services}{section.3}% 77
+\BOOKMARK [3][-]{subsubsection.3.7.1}{Informazioni generali}{subsection.3.7}% 78
+\BOOKMARK [3][-]{subsubsection.3.7.2}{Classi}{subsection.3.7}% 79
+\BOOKMARK [4][-]{paragraph.3.7.2.1}{SWEDesigner::Client::Services::AccountService}{subsubsection.3.7.2}% 80
+\BOOKMARK [4][-]{paragraph.3.7.2.2}{SWEDesigner::Client::Services::Main-editorService}{subsubsection.3.7.2}% 81
+\BOOKMARK [4][-]{paragraph.3.7.2.3}{SWEDesigner::Client::Services::MenuService}{subsubsection.3.7.2}% 82
+\BOOKMARK [1][-]{section.4}{Specifica Back-End}{}% 83
+\BOOKMARK [2][-]{subsection.4.1}{SWEDesigner::Server}{section.4}% 84
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Informazioni generali}{subsection.4.1}% 85
+\BOOKMARK [3][-]{subsubsection.4.1.2}{Classi}{subsection.4.1}% 86
+\BOOKMARK [4][-]{paragraph.4.1.2.1}{SWEDesigner::Server::serverLoader}{subsubsection.4.1.2}% 87
+\BOOKMARK [2][-]{subsection.4.2}{SWEDesigner::Server::Model}{section.4}% 88
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Informazioni generali}{subsection.4.2}% 89
+\BOOKMARK [3][-]{subsubsection.4.2.2}{Classi}{subsection.4.2}% 90
+\BOOKMARK [4][-]{paragraph.4.2.2.1}{SWEDesigner::Server::Model::mongooseConnection}{subsubsection.4.2.2}% 91
+\BOOKMARK [4][-]{paragraph.4.2.2.2}{SWEDesiger::Server::Model::mongooseRequest}{subsubsection.4.2.2}% 92
+\BOOKMARK [2][-]{subsection.4.3}{SWEDesigner::Server::Controller::Middleware}{section.4}% 93
+\BOOKMARK [3][-]{subsubsection.4.3.1}{Informazioni generali}{subsection.4.3}% 94
+\BOOKMARK [3][-]{subsubsection.4.3.2}{Classi}{subsection.4.3}% 95
+\BOOKMARK [4][-]{paragraph.4.3.2.1}{SWEDesigner::Server::Controller::Middleware::midLoader}{subsubsection.4.3.2}% 96
+\BOOKMARK [4][-]{paragraph.4.3.2.2}{SWEDesigner::Server::Controller::Middleware::Parse}{subsubsection.4.3.2}% 97
+\BOOKMARK [4][-]{paragraph.4.3.2.3}{SWEDesigner::Server::Controller:Middleware::Encrypt}{subsubsection.4.3.2}% 98
+\BOOKMARK [2][-]{subsection.4.4}{SWEDesigner::Server::Controller::Services}{section.4}% 99
+\BOOKMARK [3][-]{subsubsection.4.4.1}{Informazioni generali}{subsection.4.4}% 100
+\BOOKMARK [3][-]{subsubsection.4.4.2}{Classi}{subsection.4.4}% 101
+\BOOKMARK [4][-]{paragraph.4.4.2.1}{SWEDesigner::Server::Controller::Services::parseService}{subsubsection.4.4.2}% 102
+\BOOKMARK [4][-]{paragraph.4.4.2.2}{SWEDesigner::Server::Controller::Services::encryptService}{subsubsection.4.4.2}% 103
+\BOOKMARK [1][-]{section.5}{Diagrammi di sequenza}{}% 104
+\BOOKMARK [2][-]{subsection.5.1}{Generazione Codice}{section.5}% 105
+\BOOKMARK [2][-]{subsection.5.2}{Caricamento moduli del Server}{section.5}% 106
+\BOOKMARK [2][-]{subsection.5.3}{Encrypt/Decrypt}{section.5}% 107
+\BOOKMARK [1][-]{section.6}{Tracciamento}{}% 108
+\BOOKMARK [2][-]{subsection.6.1}{Tracciamento Classi-Requisiti}{section.6}% 109
+\BOOKMARK [2][-]{subsection.6.2}{Tracciamento Requisiti-Classi}{section.6}% 110
