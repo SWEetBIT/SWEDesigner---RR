@@ -23,8 +23,6 @@
 			Indica se è in uso l'activity diagram
 			\item \emph{-mainExist: boolean}\\
 			Indica se esiste il metodo main
-			\item \emph{-varCode: string[]}\\
-			
 		\end{itemize}
 	\item \textbf{Metodi:}
 		\begin{itemize}
@@ -151,84 +149,77 @@
     			Conettore da aggiungere
     		\end{itemize}
     		\item \emph{+addSuperclass(subclassName: string, superclassName: string)}\\
-    		\\
+    		Aggiunge una classe padre\\
     		\textbf{Parametri:}
     		\begin{itemize}
     			\item \emph{subclassName: string}\\
-    			
+    			Classe figlia
     			\item \emph{superclassName: string}\\
-    			
+    			Classe padre
     		\end{itemize}
     		\item \emph{+getClass(name: string)}\\
-    		\\
+    		Ritorna la classe selezionata\\
     		\textbf{Parametri:}
     		\begin{itemize}
     			\item \emph{name: string}\\
-    			
+    			Nome della classe
     		\end{itemize}
     		\item \emph{+getProject()}\\
-    		
+    		Ritorna la lista dei progetti
     		\item \emph{+retriveGraph()}\\
-    		
+    		Ritorna tutte le shape nel diagramma
     		\item \emph{+importProject(importData: any)}\\
-    		\\
+    		Importa un progetto da un file JSON\\
     		\textbf{Parametri:}
     		\begin{itemize}
     			\item \emph{importData: any}\\
-    			
+    			File JSON conenente il progetto
     		\end{itemize}
     		\item \emph{+loadProject(project: any)}\\
-    		\\
+    		Carica un progetto dal database\\
     		\textbf{Parametri:}
     		\begin{itemize}
     			\item \emph{project: any}\\
-    			
+    			Progetto da caricare
     		\end{itemize}
     		\item \emph{+removeClass(name: string, classe: any)}\\
-    		\\
+    		Rimuove una classe\\
     		\textbf{Parametri:}
     		\begin{itemize}
     			\item \emph{name: string}\\
-    			
+    			Nome della classe
     			\item \emph{classe: any}\\
-    			
+    			Riferimento alla shape della classe
     		\end{itemize}
     		\item \emph{+removeShapeActivity(element: any)}\\
-    		\\
+    		Rimuove una shape dall'activity\\
     		\textbf{Parametri:}
     		\begin{itemize}
     			\item \emph{element: any}\\
-    			
+    			Shape da rimuovere
     		\end{itemize}
     		\item \emph{addShape(cell: any)}\\
-    		\\
+    		Aggiunge una shape al diagramma\\
     		\textbf{Parametri:}
     		\begin{itemize}
     			\item \emph{cell: any}\\
-    			
+    			Shape da aggiungere
     		\end{itemize}
     		\item \emph{+connetActivity(con: any)}\\
-    		\\
+    		Connette le shape dell'activity\\
     		\textbf{Parametri:}
     		\begin{itemize}
     			\item \emph{con: any}\\
-    			
-    		\end{itemize}
-    		\item \emph{+setConnetionActivity(ids: string[])}\\
-    		\\
-    		\textbf{Parametri:}
-    		\begin{itemize}
-    			\item \emph{ids: string[]}\\
-    			
+    			Shape da connettere
     		\end{itemize}
     		\item \emph{+setCode(vars: string[])}\\
-    		\\
+    		Memorizza tutti i diagrammi tradotti\\
     		\textbf{Parametri:}
     		\begin{itemize}
     			\item \emph{vars: string[]}\\
-    			
+    			Diagrammi tradotti
     		\end{itemize}
     		\item \emph{+checkrefresh()}\\
-    		
+    		Controlla di poter effettuare il refresh della finestra
 		\end{itemize}
 \end{itemize}

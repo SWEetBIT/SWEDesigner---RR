@@ -20,11 +20,9 @@
     		\item \emph{-listaArgomenti: Param[]}\\
     		Lista di argomenti del metodo
     		\item \emph{-diagramma: JSON}\\
-    		
+    		Definisce il metodo corrente in formato JSON
     		\item \emph{-shapeList: AllShape}\\
-    		
-    		\item \emph{-mapVarVisibili: Map<string, string>}\\
-    		
+    		Lista delle shapes
     		\item \emph{-statico: boolean}\\
     		True se il metodo è marcato static
     		\item \emph{-main: boolean}\\
@@ -102,23 +100,21 @@
     		\item \emph{+getListaArgomenti()}\\
     		Ritorna la lista degli argomenti del metodo
     		\item \emph{+getShapeList()}\\
-    		
-    		\item \emph{+getMapVars()}\\
-    		
+    		Ritorna la lista della shape
     		\item \emph{+isConstructor()}\\
-    		
+    		True se è un contruttore
     		\item \emph{+isStatic()}\\
-    		
+    		True se è marcato static
     		\item \emph{+staticString()}\\
-    		
+    		Aggiunge la stringa static al metodo
     		\item \emph{+setVars(vars: Map<string, string>)}\\
-    		\\
+    		Setta la dichiarazione delle variabili nel metodo\\
     		\textbf{Parametri:}
     		\begin{itemize}
     			\item \emph{vars: Map<string, string>}\\
-    			
+    			Variabili
     		\end{itemize}
     		\item \emph{+paramToString()}\\
-    		
+    		Traduce i parametri dei metodi in string
     	\end{itemize}
 \end{itemize}
