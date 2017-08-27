@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.8.9)  27 AUG 2017 11:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.8.9)  27 AUG 2017 15:14
 entering extended mode
 **./main.tex
 (main.tex
@@ -2067,22 +2067,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
  []
 
-) (res/sections/SpecificaFrontEnd/Components/activity-menu.tex)
-Overfull \hbox (111.57707pt too wide) in paragraph at lines 119--119
+) (res/sections/SpecificaFrontEnd/Components/activity-menu.tex
+Overfull \hbox (111.57707pt too wide) in paragraph at lines 1--1
 [] []|\T1/lmr/bx/n/10.95 3.5.2.2 SWE-De-si-gner::Client::Components::Editor-con
 tainer::Editor::Activity-menuComponent[] 
- []
-
-(res/sections/SpecificaFrontEnd/Components/toolbar.tex)
-Overfull \hbox (75.42741pt too wide) in paragraph at lines 122--122
-[] []|\T1/lmr/bx/n/10.95 3.5.2.3 SWE-De-si-gner::Client::Components::Editor-con
-tainer::Editor::ToolbarComponent[] 
- []
-
-(res/sections/SpecificaFrontEnd/Services/activity.tex
-Overfull \hbox (53.10094pt too wide) in paragraph at lines 1--1
-[] []|\T1/lmr/bx/n/10.95 3.5.2.4 SWE-De-si-gner::Client::Components::Editor-con
-tainer::Editor::ActivityService[] 
  []
 
 
@@ -2125,9 +2113,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+
+ []
+
 File: ../../common/logo.jpg Graphic file (type jpg)
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 19.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 23.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -2141,6 +2139,323 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [19]
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--47
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--60
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+
+ []
+
+File: ../../common/logo.jpg Graphic file (type jpg)
+<use ../../common/logo.jpg>
+Package pdftex.def Info: ../../common/logo.jpg used on input line 63.
+(pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (30.0pt): 
+ Make it at least 32.53278pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--69
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--82
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
+
+ []
+
+File: ../../common/logo.jpg Graphic file (type jpg)
+<use ../../common/logo.jpg>
+Package pdftex.def Info: ../../common/logo.jpg used on input line 104.
+(pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (30.0pt): 
+ Make it at least 32.53278pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
+
+ []
+
+) (res/sections/SpecificaFrontEnd/Components/toolbar.tex
+Overfull \hbox (75.42741pt too wide) in paragraph at lines 1--1
+[] []|\T1/lmr/bx/n/10.95 3.5.2.3 SWE-De-si-gner::Client::Components::Editor-con
+tainer::Editor::ToolbarComponent[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+
+ []
+
+File: ../../common/logo.jpg Graphic file (type jpg)
+<use ../../common/logo.jpg>
+Package pdftex.def Info: ../../common/logo.jpg used on input line 34.
+(pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (30.0pt): 
+ Make it at least 32.53278pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
+
+ []
+
+) (res/sections/SpecificaFrontEnd/Services/activity.tex
+Overfull \hbox (53.10094pt too wide) in paragraph at lines 1--1
+[] []|\T1/lmr/bx/n/10.95 3.5.2.4 SWE-De-si-gner::Client::Components::Editor-con
+tainer::Editor::ActivityService[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+File: ../../common/logo.jpg Graphic file (type jpg)
+<use ../../common/logo.jpg>
+Package pdftex.def Info: ../../common/logo.jpg used on input line 9.
+(pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (30.0pt): 
+ Make it at least 32.53278pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
@@ -2190,7 +2505,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
 
+File: ../../common/logo.jpg Graphic file (type jpg)
+<use ../../common/logo.jpg>
+Package pdftex.def Info: ../../common/logo.jpg used on input line 52.
+(pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (30.0pt): 
+ Make it at least 32.53278pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[24]
 Underfull \hbox (badness 10000) in paragraph at lines 53--56
 
  []
@@ -2210,22 +2540,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
-File: ../../common/logo.jpg Graphic file (type jpg)
-<use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 65.
-(pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
-Underfull \hbox (badness 10000) has occurred while \output is active
-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (30.0pt): 
- Make it at least 32.53278pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[20]
 Underfull \hbox (badness 10000) in paragraph at lines 67--70
 
  []
@@ -2280,7 +2595,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--100
 
  []
 
+File: ../../common/logo.jpg Graphic file (type jpg)
+<use ../../common/logo.jpg>
+Package pdftex.def Info: ../../common/logo.jpg used on input line 100.
+(pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (30.0pt): 
+ Make it at least 32.53278pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[25]
 Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
  []
@@ -2300,22 +2630,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 110--111
 
  []
 
-File: ../../common/logo.jpg Graphic file (type jpg)
-<use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 112.
-(pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
-Underfull \hbox (badness 10000) has occurred while \output is active
-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (30.0pt): 
- Make it at least 32.53278pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[21]
 Underfull \hbox (badness 10000) in paragraph at lines 112--113
 
  []
@@ -2370,7 +2685,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 141--144
 
  []
 
+File: ../../common/logo.jpg Graphic file (type jpg)
+<use ../../common/logo.jpg>
+Package pdftex.def Info: ../../common/logo.jpg used on input line 145.
+(pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (30.0pt): 
+ Make it at least 32.53278pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[26]
 Underfull \hbox (badness 10000) in paragraph at lines 145--146
 
  []
@@ -2395,22 +2725,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--155
 
  []
 
-File: ../../common/logo.jpg Graphic file (type jpg)
-<use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 155.
-(pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
-Underfull \hbox (badness 10000) has occurred while \output is active
-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (30.0pt): 
- Make it at least 32.53278pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[22]
 Underfull \hbox (badness 10000) in paragraph at lines 156--157
 
  []
@@ -2465,7 +2780,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 185--188
 
  []
 
+File: ../../common/logo.jpg Graphic file (type jpg)
+<use ../../common/logo.jpg>
+Package pdftex.def Info: ../../common/logo.jpg used on input line 188.
+(pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (30.0pt): 
+ Make it at least 32.53278pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[27]
 Underfull \hbox (badness 10000) in paragraph at lines 189--190
 
  []
@@ -2493,7 +2823,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
 File: ../../common/logo.jpg Graphic file (type jpg)
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 5.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 30.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -2506,10 +2836,10 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[23]
+[28]
 File: ../../common/logo.jpg Graphic file (type jpg)
  <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 38.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 70.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -2522,7 +2852,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[24]
+[29]
 Overfull \hbox (2.07417pt too wide) in paragraph at lines 71--74
 []\T1/lmr/m/it/10.95 +addAttributo(nome: string, sta-ti-cAtt: boo-lean, fi-na-l
 Att: boo-lean, ti-po: string,
@@ -2530,7 +2860,7 @@ Att: boo-lean, ti-po: string,
 
 File: ../../common/logo.jpg Graphic file (type jpg)
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 81.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 109.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -2543,10 +2873,10 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[25]
+[30]
 File: ../../common/logo.jpg Graphic file (type jpg)
  <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 120.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 151.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -2559,7 +2889,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[26]) (res/sections/SpecificaFrontEnd/Services/all-shape.tex
+[31]) (res/sections/SpecificaFrontEnd/Services/all-shape.tex
 Overfull \hbox (21.05107pt too wide) in paragraph at lines 1--1
 [] []|\T1/lmr/bx/n/10.95 3.5.2.6 SWE-De-si-gner::Client::Components::Editor-con
 tainer::Editor::All-shape[] 
@@ -2575,22 +2905,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-File: ../../common/logo.jpg Graphic file (type jpg)
-<use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 5.
-(pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
-Underfull \hbox (badness 10000) has occurred while \output is active
-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (30.0pt): 
- Make it at least 32.53278pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[27]
 Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
@@ -2640,7 +2955,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--38
 
  []
 
+File: ../../common/logo.jpg Graphic file (type jpg)
+<use ../../common/logo.jpg>
+Package pdftex.def Info: ../../common/logo.jpg used on input line 38.
+(pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (30.0pt): 
+ Make it at least 32.53278pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[32]
 Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
@@ -2660,22 +2990,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--52
 
  []
 
-File: ../../common/logo.jpg Graphic file (type jpg)
-<use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 52.
-(pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
-Underfull \hbox (badness 10000) has occurred while \output is active
-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (30.0pt): 
- Make it at least 32.53278pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[28]
 Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
@@ -2731,7 +3046,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
 
+File: ../../common/logo.jpg Graphic file (type jpg)
+<use ../../common/logo.jpg>
+Package pdftex.def Info: ../../common/logo.jpg used on input line 11.
+(pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (30.0pt): 
+ Make it at least 32.53278pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[33]
 Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
@@ -2746,22 +3076,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
  []
 
-File: ../../common/logo.jpg Graphic file (type jpg)
-<use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 26.
-(pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
-Underfull \hbox (badness 10000) has occurred while \output is active
-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (30.0pt): 
- Make it at least 32.53278pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[29]
 Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
@@ -2796,7 +3111,7 @@ g, li-sta-Pa-ram: string[])
 
 File: ../../common/logo.jpg Graphic file (type jpg)
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 32.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 23.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -2809,7 +3124,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[30]) (res/sections/SpecificaFrontEnd/Services/classe.tex
+[34]) (res/sections/SpecificaFrontEnd/Services/classe.tex
 Overfull \hbox (9.8522pt too wide) in paragraph at lines 1--1
 [] []|\T1/lmr/bx/n/10.95 3.5.2.10 SWE-De-si-gner::Client::Components::Editor-co
 ntainer::Editor::Classe[] 
@@ -2827,7 +3142,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
 File: ../../common/logo.jpg Graphic file (type jpg)
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 36.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 25.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -2840,10 +3155,10 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[31]
+[35]
 File: ../../common/logo.jpg Graphic file (type jpg)
  <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 81.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 70.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -2856,12 +3171,27 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[32]
+[36]
 Underfull \hbox (badness 10000) in paragraph at lines 110--111
 
  []
 
+File: ../../common/logo.jpg Graphic file (type jpg)
+<use ../../common/logo.jpg>
+Package pdftex.def Info: ../../common/logo.jpg used on input line 111.
+(pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (30.0pt): 
+ Make it at least 32.53278pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[37]
 Underfull \hbox (badness 10000) in paragraph at lines 112--113
 
  []
@@ -2881,22 +3211,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
  []
 
-File: ../../common/logo.jpg Graphic file (type jpg)
-<use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 121.
-(pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
-Underfull \hbox (badness 10000) has occurred while \output is active
-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (30.0pt): 
- Make it at least 32.53278pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[33]
 Underfull \hbox (badness 10000) in paragraph at lines 123--126
 
  []
@@ -2947,7 +3262,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
  []
 
+File: ../../common/logo.jpg Graphic file (type jpg)
+<use ../../common/logo.jpg>
+Package pdftex.def Info: ../../common/logo.jpg used on input line 22.
+(pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (30.0pt): 
+ Make it at least 32.53278pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[38]
 Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
@@ -2968,22 +3298,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-File: ../../common/logo.jpg Graphic file (type jpg)
-<use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 6.
-(pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
-Underfull \hbox (badness 10000) has occurred while \output is active
-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (30.0pt): 
- Make it at least 32.53278pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[34]
 Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
@@ -3044,7 +3359,22 @@ Overfull \hbox (24.04561pt too wide) in paragraph at lines 1--1
 ntainer::Editor::Interface[] 
  []
 
+File: ../../common/logo.jpg Graphic file (type jpg)
+<use ../../common/logo.jpg>
+Package pdftex.def Info: ../../common/logo.jpg used on input line 2.
+(pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (30.0pt): 
+ Make it at least 32.53278pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[39]
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
@@ -3056,7 +3386,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
 File: ../../common/logo.jpg Graphic file (type jpg)
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 11.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 45.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -3069,23 +3399,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[35]
-File: ../../common/logo.jpg Graphic file (type jpg)
- <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 53.
-(pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
-
-Underfull \hbox (badness 10000) has occurred while \output is active
-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (30.0pt): 
- Make it at least 32.53278pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[36]) (res/sections/SpecificaFrontEnd/Services/merge-node.tex
+[40]) (res/sections/SpecificaFrontEnd/Services/merge-node.tex
 Overfull \hbox (41.01944pt too wide) in paragraph at lines 1--1
 [] []|\T1/lmr/bx/n/10.95 3.5.2.15 SWE-De-si-gner::Client::Components::Editor-co
 ntainer::Editor::Merge-node[] 
@@ -3137,19 +3451,9 @@ Overfull \hbox (17.99347pt too wide) in paragraph at lines 1--1
 ntainer::Editor::Metodo[] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
-
- []
-
 File: ../../common/logo.jpg Graphic file (type jpg)
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 10.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 2.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -3162,7 +3466,17 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[37]
+[41]
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
@@ -3179,7 +3493,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
 File: ../../common/logo.jpg Graphic file (type jpg)
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 49.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 41.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -3192,10 +3506,10 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[38]
+[42]
 File: ../../common/logo.jpg Graphic file (type jpg)
  <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 96.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 90.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -3208,7 +3522,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[39]
+[43]
 Underfull \hbox (badness 10000) in paragraph at lines 98--99
 
  []
@@ -3269,19 +3583,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--16
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
-
- []
-
 File: ../../common/logo.jpg Graphic file (type jpg)
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 19.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 10.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -3294,7 +3598,17 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[40]
+[44]
+Underfull \hbox (badness 10000) in paragraph at lines 13--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 20--23
 
  []
@@ -3353,7 +3667,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
 File: ../../common/logo.jpg Graphic file (type jpg)
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 21.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 12.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -3366,7 +3680,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[41]
+[45]
 Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
@@ -3397,7 +3711,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
 
+File: ../../common/logo.jpg Graphic file (type jpg)
+<use ../../common/logo.jpg>
+Package pdftex.def Info: ../../common/logo.jpg used on input line 11.
+(pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (30.0pt): 
+ Make it at least 32.53278pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[46]
 Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
@@ -3412,22 +3741,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
-File: ../../common/logo.jpg Graphic file (type jpg)
-<use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 17.
-(pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
-Underfull \hbox (badness 10000) has occurred while \output is active
-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (30.0pt): 
- Make it at least 32.53278pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[42]
 Underfull \hbox (badness 10000) in paragraph at lines 21--24
 
  []
@@ -3482,7 +3796,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--59
 
  []
 
+File: ../../common/logo.jpg Graphic file (type jpg)
+<use ../../common/logo.jpg>
+Package pdftex.def Info: ../../common/logo.jpg used on input line 60.
+(pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (30.0pt): 
+ Make it at least 32.53278pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[47]
 Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
  []
@@ -3497,22 +3826,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
 
-File: ../../common/logo.jpg Graphic file (type jpg)
-<use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 68.
-(pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
-Underfull \hbox (badness 10000) has occurred while \output is active
-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (30.0pt): 
- Make it at least 32.53278pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[43]
 Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
@@ -3573,7 +3887,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--20
 
  []
 
+File: ../../common/logo.jpg Graphic file (type jpg)
+<use ../../common/logo.jpg>
+Package pdftex.def Info: ../../common/logo.jpg used on input line 20.
+(pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (30.0pt): 
+ Make it at least 32.53278pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[48]
 Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
  []
@@ -3594,22 +3923,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-File: ../../common/logo.jpg Graphic file (type jpg)
-<use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 3.
-(pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
-Underfull \hbox (badness 10000) has occurred while \output is active
-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (30.0pt): 
- Make it at least 32.53278pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[44]
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
@@ -3664,7 +3978,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
 
+File: ../../common/logo.jpg Graphic file (type jpg)
+<use ../../common/logo.jpg>
+Package pdftex.def Info: ../../common/logo.jpg used on input line 34.
+(pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (30.0pt): 
+ Make it at least 32.53278pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[49]
 Underfull \hbox (badness 10000) in paragraph at lines 34--37
 
  []
@@ -3679,22 +4008,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--44
 
  []
 
-File: ../../common/logo.jpg Graphic file (type jpg)
-<use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 45.
-(pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
-Underfull \hbox (badness 10000) has occurred while \output is active
-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (30.0pt): 
- Make it at least 32.53278pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[45]
 Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
@@ -3755,7 +4069,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
+File: ../../common/logo.jpg Graphic file (type jpg)
+<use ../../common/logo.jpg>
+Package pdftex.def Info: ../../common/logo.jpg used on input line 24.
+(pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (30.0pt): 
+ Make it at least 32.53278pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[50]
 Underfull \hbox (badness 10000) in paragraph at lines 26--29
 
  []
@@ -3770,22 +4099,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
 
-File: ../../common/logo.jpg Graphic file (type jpg)
-<use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 33.
-(pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
-
-Underfull \hbox (badness 10000) has occurred while \output is active
-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (30.0pt): 
- Make it at least 32.53278pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[46])
+)
 Overfull \hbox (5.54959pt too wide) in paragraph at lines 182--182
 |[]\T1/lmr/bx/n/12 SWEDesigner::Client::Components::Editor-container::Editor::E
 dit-
@@ -3802,51 +4116,25 @@ Overfull \hbox (214.20079pt too wide) in paragraph at lines 195--195
 tainer::Editor::Edit-class-menu::Edit-class-menuComponent[] 
  []
 
-(res/sections/SpecificaFrontEnd/Components/change-class-name.tex)
-Overfull \hbox (231.28764pt too wide) in paragraph at lines 198--198
+(res/sections/SpecificaFrontEnd/Components/change-class-name.tex
+Overfull \hbox (231.28764pt too wide) in paragraph at lines 1--1
 [] []|\T1/lmr/bx/n/10.95 3.6.2.2 SWE-De-si-gner::Client::Components::Editor-con
 tainer::Editor::Edit-class-menu::Change-class-nameComponent[] 
  []
 
-(res/sections/SpecificaFrontEnd/Components/class-add-attribute.tex)
-Overfull \hbox (233.5001pt too wide) in paragraph at lines 201--201
-[] []|\T1/lmr/bx/n/10.95 3.6.2.3 SWE-De-si-gner::Client::Components::Editor-con
-tainer::Editor::Edit-class-menu::Class-add-attributeComponent[] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
  []
 
-(res/sections/SpecificaFrontEnd/Components/class-add-main-method.tex)
-Overfull \hbox (257.34676pt too wide) in paragraph at lines 204--204
-[] []|\T1/lmr/bx/n/10.95 3.6.2.4 SWE-De-si-gner::Client::Components::Editor-con
-tainer::Editor::Edit-class-menu::Class-add-main-methodComponent[] 
- []
 
-(res/sections/SpecificaFrontEnd/Components/class-add-method.tex)
-Overfull \hbox (226.04091pt too wide) in paragraph at lines 207--207
-[] []|\T1/lmr/bx/n/10.95 3.6.2.5 SWE-De-si-gner::Client::Components::Editor-con
-tainer::Editor::Edit-class-menu::Class-add-methodComponent[] 
- []
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
-(res/sections/SpecificaFrontEnd/Components/class-list-attribute.tex)
-Overfull \hbox (230.24683pt too wide) in paragraph at lines 210--210
-[] []|\T1/lmr/bx/n/10.95 3.6.2.6 SWE-De-si-gner::Client::Components::Editor-con
-tainer::Editor::Edit-class-menu::Class-list-attributeComponent[] 
- []
-
-(res/sections/SpecificaFrontEnd/Components/class-list-method.tex)
-Overfull \hbox (222.78763pt too wide) in paragraph at lines 213--213
-[] []|\T1/lmr/bx/n/10.95 3.6.2.7 SWE-De-si-gner::Client::Components::Editor-con
-tainer::Editor::Edit-class-menu::Class-list-methodComponent[] 
- []
-
-(res/sections/SpecificaFrontEnd/Components/display-class-name.tex)
-Overfull \hbox (231.04462pt too wide) in paragraph at lines 216--216
-[] []|\T1/lmr/bx/n/10.95 3.6.2.8 SWE-De-si-gner::Client::Components::Editor-con
-tainer::Editor::Edit-class-menu::Display-class-nameComponent[] 
  []
 
 File: ../../common/logo.jpg Graphic file (type jpg)
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 222.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 19.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -3859,12 +4147,195 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[47]
+[51]) (res/sections/SpecificaFrontEnd/Components/class-add-attribute.tex
+Overfull \hbox (233.5001pt too wide) in paragraph at lines 1--1
+[] []|\T1/lmr/bx/n/10.95 3.6.2.3 SWE-De-si-gner::Client::Components::Editor-con
+tainer::Editor::Edit-class-menu::Class-add-attributeComponent[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+
+Overfull \hbox (2.07417pt too wide) in paragraph at lines 22--25
+[]\T1/lmr/m/it/10.95 +addAttributo(nome: string, sta-ti-cAtt: boo-lean, fi-na-l
+Att: boo-lean, ti-po: string,
+ []
+
+) (res/sections/SpecificaFrontEnd/Components/class-add-main-method.tex
+Overfull \hbox (257.34676pt too wide) in paragraph at lines 1--1
+[] []|\T1/lmr/bx/n/10.95 3.6.2.4 SWE-De-si-gner::Client::Components::Editor-con
+tainer::Editor::Edit-class-menu::Class-add-main-methodComponent[] 
+ []
+
+File: ../../common/logo.jpg Graphic file (type jpg)
+<use ../../common/logo.jpg>
+Package pdftex.def Info: ../../common/logo.jpg used on input line 2.
+(pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (30.0pt): 
+ Make it at least 32.53278pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[52]
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+) (res/sections/SpecificaFrontEnd/Components/class-add-method.tex
+Overfull \hbox (226.04091pt too wide) in paragraph at lines 1--1
+[] []|\T1/lmr/bx/n/10.95 3.6.2.5 SWE-De-si-gner::Client::Components::Editor-con
+tainer::Editor::Edit-class-menu::Class-add-methodComponent[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+File: ../../common/logo.jpg Graphic file (type jpg)
+<use ../../common/logo.jpg>
+Package pdftex.def Info: ../../common/logo.jpg used on input line 30.
+(pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (30.0pt): 
+ Make it at least 32.53278pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[53]) (res/sections/SpecificaFrontEnd/Components/class-list-attribute.tex
+Overfull \hbox (230.24683pt too wide) in paragraph at lines 1--1
+[] []|\T1/lmr/bx/n/10.95 3.6.2.6 SWE-De-si-gner::Client::Components::Editor-con
+tainer::Editor::Edit-class-menu::Class-list-attributeComponent[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+
+Overfull \hbox (5.1538pt too wide) in paragraph at lines 15--18
+[]\T1/lmr/m/it/10.95 +changeAttributo(newName: string, old-Na-me: string, ti-po
+: string, acc: string,
+ []
+
+File: ../../common/logo.jpg Graphic file (type jpg)
+<use ../../common/logo.jpg>
+Package pdftex.def Info: ../../common/logo.jpg used on input line 18.
+(pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (30.0pt): 
+ Make it at least 32.53278pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[54]) (res/sections/SpecificaFrontEnd/Components/class-list-method.tex
+Overfull \hbox (222.78763pt too wide) in paragraph at lines 1--1
+[] []|\T1/lmr/bx/n/10.95 3.6.2.7 SWE-De-si-gner::Client::Components::Editor-con
+tainer::Editor::Edit-class-menu::Class-list-methodComponent[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+File: ../../common/logo.jpg Graphic file (type jpg)
+<use ../../common/logo.jpg>
+Package pdftex.def Info: ../../common/logo.jpg used on input line 21.
+(pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (30.0pt): 
+ Make it at least 32.53278pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[55]) (res/sections/SpecificaFrontEnd/Components/display-class-name.tex
+Overfull \hbox (231.04462pt too wide) in paragraph at lines 1--1
+[] []|\T1/lmr/bx/n/10.95 3.6.2.8 SWE-De-si-gner::Client::Components::Editor-con
+tainer::Editor::Edit-class-menu::Display-class-nameComponent[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+)
 Underfull \hbox (badness 10000) in paragraph at lines 222--223
 
  []
 
-(res/sections/SpecificaFrontEnd/Services/account.tex)
+File: ../../common/logo.jpg Graphic file (type jpg)
+<use ../../common/logo.jpg>
+Package pdftex.def Info: ../../common/logo.jpg used on input line 224.
+(pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (30.0pt): 
+ Make it at least 32.53278pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[56] (res/sections/SpecificaFrontEnd/Services/account.tex)
 (res/sections/SpecificaFrontEnd/Services/main-editor.tex)
 (res/sections/SpecificaFrontEnd/Services/menu.tex))
 File: ../../common/logo.jpg Graphic file (type jpg)
@@ -3883,12 +4354,12 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[48] (res/sections/SpecificadelBackEnd.tex
+[57] (res/sections/SpecificadelBackEnd.tex
 Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
-<Classi/ServerLoader.png, id=885, 439.6425pt x 91.84312pt>
+<Classi/ServerLoader.png, id=931, 439.6425pt x 91.84312pt>
 File: Classi/ServerLoader.png Graphic file (type png)
 
 <use Classi/ServerLoader.png>
@@ -3914,7 +4385,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[49 <./Classi/ServerLoader.png>]
+[58 <./Classi/ServerLoader.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
@@ -3924,7 +4395,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--49
 
  []
 
-<Classi/MongooseConnection.png, id=893, 163.3603pt x 76.78688pt>
+<Classi/MongooseConnection.png, id=939, 163.3603pt x 76.78688pt>
 File: Classi/MongooseConnection.png Graphic file (type png)
 
 <use Classi/MongooseConnection.png>
@@ -3949,12 +4420,12 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[50]
+[59]
 Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
  []
 
-<Classi/MongooseRequest.png, id=899, 386.19281pt x 198.7425pt>
+<Classi/MongooseRequest.png, id=945, 386.19281pt x 198.7425pt>
 File: Classi/MongooseRequest.png Graphic file (type png)
 
 <use Classi/MongooseRequest.png>
@@ -3980,7 +4451,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[51 <./Classi/MongooseConnection.png> <./Classi/MongooseRequest.png>]
+[60 <./Classi/MongooseConnection.png> <./Classi/MongooseRequest.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 95--97
 
  []
@@ -4030,7 +4501,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[52]
+[61]
 Underfull \hbox (badness 10000) in paragraph at lines 126--127
 
  []
@@ -4080,7 +4551,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[53]
+[62]
 Underfull \hbox (badness 10000) in paragraph at lines 160--162
 
  []
@@ -4120,7 +4591,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[54]
+[63]
 Underfull \hbox (badness 10000) in paragraph at lines 202--204
 
  []
@@ -4150,7 +4621,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[55]
+[64]
 Underfull \hbox (badness 10000) in paragraph at lines 239--241
 
  []
@@ -4175,7 +4646,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[56] <Classi/MidLoader.png, id=934, 112.92188pt x 76.78688pt>
+[65] <Classi/MidLoader.png, id=980, 112.92188pt x 76.78688pt>
 File: Classi/MidLoader.png Graphic file (type png)
 
 <use Classi/MidLoader.png>
@@ -4192,7 +4663,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 282--283
 
  []
 
-<Classi/Parse.png, id=935, 362.85562pt x 106.89937pt>
+<Classi/Parse.png, id=981, 362.85562pt x 106.89937pt>
 File: Classi/Parse.png Graphic file (type png)
  <use Classi/Parse.png>
 Package pdftex.def Info: Classi/Parse.png used on input line 291.
@@ -4213,7 +4684,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[57 <./Classi/MidLoader.png> <./Classi/Parse.png>]
+[66 <./Classi/MidLoader.png> <./Classi/Parse.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 299--300
 
  []
@@ -4223,7 +4694,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 305--306
 
  []
 
-<Classi/Encrypt.png, id=943, 340.27126pt x 121.95563pt>
+<Classi/Encrypt.png, id=990, 340.27126pt x 121.95563pt>
 File: Classi/Encrypt.png Graphic file (type png)
 
 <use Classi/Encrypt.png>
@@ -4250,7 +4721,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[58 <./Classi/Encrypt.png>]
+[67 <./Classi/Encrypt.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 329--330
 
  []
@@ -4280,7 +4751,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[59] <Classi/ParseService.png, id=955, 373.395pt x 76.78688pt>
+[68] <Classi/ParseService.png, id=1002, 373.395pt x 76.78688pt>
 File: Classi/ParseService.png Graphic file (type png)
 
 <use Classi/ParseService.png>
@@ -4317,8 +4788,8 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[60 <./Classi/ParseService.png>]
-<Classi/EncryptService.png, id=963, 335.75438pt x 121.95563pt>
+[69 <./Classi/ParseService.png>]
+<Classi/EncryptService.png, id=1009, 335.75438pt x 121.95563pt>
 File: Classi/EncryptService.png Graphic file (type png)
 
 <use Classi/EncryptService.png>
@@ -4360,7 +4831,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[61 <./Classi/EncryptService.png>])
+[70 <./Classi/EncryptService.png>])
 File: ../../common/logo.jpg Graphic file (type jpg)
  <use ../../common/logo.jpg>
 Package pdftex.def Info: ../../common/logo.jpg used on input line 9.
@@ -4376,15 +4847,15 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[62] (res/sections/DiagrammidiSequenza.tex
-<Sequence/generazioneJava.png, id=975, 665.48625pt x 516.42938pt>
+[71] (res/sections/DiagrammidiSequenza.tex
+<Sequence/generazioneJava.png, id=1021, 665.48625pt x 516.42938pt>
 File: Sequence/generazioneJava.png Graphic file (type png)
 
 <use Sequence/generazioneJava.png>
 Package pdftex.def Info: Sequence/generazioneJava.png used on input line 14.
 (pdftex.def)             Requested size: 332.74231pt x 258.21405pt.
 
-<Sequence/serverLoading.png, id=976, 1653.17625pt x 678.28406pt>
+<Sequence/serverLoading.png, id=1022, 1653.17625pt x 678.28406pt>
 File: Sequence/serverLoading.png Graphic file (type png)
 
 <use Sequence/serverLoading.png>
@@ -4405,8 +4876,8 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[63 <./Sequence/generazioneJava.png>]
-<Sequence/wncryptDecrypt.png, id=983, 1049.42062pt x 516.42938pt>
+[72 <./Sequence/generazioneJava.png>]
+<Sequence/wncryptDecrypt.png, id=1030, 1049.42062pt x 516.42938pt>
 File: Sequence/wncryptDecrypt.png Graphic file (type png)
 
 <use Sequence/wncryptDecrypt.png>
@@ -4431,7 +4902,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[64 <./Sequence/serverLoading.png>] (res/sections/Tracciamento.tex
+[73 <./Sequence/serverLoading.png>] (res/sections/Tracciamento.tex
 Overfull \hbox (33.53764pt too wide) in alignment at lines 5--8
  [] [] 
  []
@@ -4617,7 +5088,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[65 <./Sequence/wncryptDecrypt.png>]
+[74 <./Sequence/wncryptDecrypt.png>]
 Overfull \hbox (3.31943pt too wide) in paragraph at lines 54--55
 []|\T1/lmr/m/n/10.95 R0F6.3.1.5.2| 
  []
@@ -4692,7 +5163,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[66]
+[75]
 Overfull \hbox (11.83606pt too wide) in paragraph at lines 93--94
 []|\T1/lmr/m/n/10.95 R0F6.3.1.5.4.4| 
  []
@@ -4767,7 +5238,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[67]
+[76]
 File: ../../common/logo.jpg Graphic file (type jpg)
  <use ../../common/logo.jpg>
 Package pdftex.def Info: ../../common/logo.jpg used on input line 131.
@@ -4783,7 +5254,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[68]
+[77]
 Overfull \hbox (33.53764pt too wide) in alignment at lines 135--138
  [] [] 
  []
@@ -5060,7 +5531,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[69]
+[78]
 Overfull \hbox (11.83606pt too wide) in paragraph at lines 223--223
 []|\T1/lmr/m/n/10.95 R0F6.3.1.5.4.4| 
  []
@@ -5151,7 +5622,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[70]))
+[79]))
 File: ../../common/logo.jpg Graphic file (type jpg)
  <use ../../common/logo.jpg>
 Package pdftex.def Info: ../../common/logo.jpg used on input line 23.
@@ -5167,7 +5638,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[71] 
+[80] 
 AED: lastpage setting LastPage
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 25.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 25.
@@ -5178,13 +5649,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 22D808A5CC43EA35316EE855241F6B1C;11382.
  ) 
 Here is how much of TeX's memory you used:
- 12249 strings out of 493333
- 177708 string characters out of 3139183
+ 12258 strings out of 493333
+ 177771 string characters out of 3139183
  299734 words of memory out of 3000000
  15128 multiletter control sequences out of 15000+200000
  75016 words of font info for 56 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,16n,57p,803b,552s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,16n,57p,803b,554s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
 iKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx1
@@ -5194,9 +5665,9 @@ m Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9
 ic/lm/lmri7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmro10.pfb><
 C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/
 MiKTeX 2.9/fonts/type1/public/lm/lmtti10.pfb>
-Output written on main.pdf (72 pages, 663340 bytes).
+Output written on main.pdf (81 pages, 679389 bytes).
 PDF statistics:
- 1103 PDF objects out of 1200 (max. 8388607)
- 196 named destinations out of 1000 (max. 500000)
+ 1153 PDF objects out of 1200 (max. 8388607)
+ 205 named destinations out of 1000 (max. 500000)
  941 words of extra memory for PDF output out of 10000 (max. 10000000)
 
