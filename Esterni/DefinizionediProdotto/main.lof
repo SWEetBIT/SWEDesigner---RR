@@ -33,20 +33,19 @@
 \contentsline {figure}{\numberline {31}{\ignorespaces Diagramma della classe Class-add-main-method}}{73}{figure.31}
 \contentsline {figure}{\numberline {32}{\ignorespaces Diagramma della classe Class-add-method}}{74}{figure.32}
 \contentsline {figure}{\numberline {33}{\ignorespaces Diagramma della classe Class-list-attribute}}{75}{figure.33}
-\contentsline {figure}{\numberline {34}{\ignorespaces Diagramma della classe Class-list-attribute}}{76}{figure.34}
-\contentsline {figure}{\numberline {35}{\ignorespaces Diagramma della classe Class-list-method}}{77}{figure.35}
-\contentsline {figure}{\numberline {36}{\ignorespaces Diagramma della classe Display-class-name}}{78}{figure.36}
-\contentsline {figure}{\numberline {37}{\ignorespaces Diagramma della classe AccountService}}{79}{figure.37}
-\contentsline {figure}{\numberline {38}{\ignorespaces Diagramma della classe Main-editorService}}{84}{figure.38}
-\contentsline {figure}{\numberline {39}{\ignorespaces Diagramma della classe MenuService}}{90}{figure.39}
-\contentsline {figure}{\numberline {40}{\ignorespaces Diagramma della classe SWEDesigner::Server::serverLoader}}{93}{figure.40}
-\contentsline {figure}{\numberline {41}{\ignorespaces Diagramma della classe SWEDesigner::Server::Model::mongooseConnection}}{95}{figure.41}
-\contentsline {figure}{\numberline {42}{\ignorespaces Diagramma della classe SWEDesigner::Server::Model::mongooseRequest}}{95}{figure.42}
-\contentsline {figure}{\numberline {43}{\ignorespaces Diagramma della classe SWEDesigner::Server::Controller::Middleware::midLoader}}{101}{figure.43}
-\contentsline {figure}{\numberline {44}{\ignorespaces Diagramma della classe SWEDesigner::Server::Controller::Middleware::Parse}}{101}{figure.44}
-\contentsline {figure}{\numberline {45}{\ignorespaces Diagramma della classe SWEDesigner::Server::Controller::Middleware::Encrypt}}{102}{figure.45}
-\contentsline {figure}{\numberline {46}{\ignorespaces Diagramma della classe SWEDesigner::Server::Controller::Services::parseService}}{104}{figure.46}
-\contentsline {figure}{\numberline {47}{\ignorespaces Diagramma della classe SWEDesigner::Server::Controller::Services::encryptService}}{105}{figure.47}
-\contentsline {figure}{\numberline {48}{\ignorespaces Sequence diagram generazione codice java}}{107}{figure.48}
-\contentsline {figure}{\numberline {49}{\ignorespaces Sequence diagram caricamento moduli server}}{108}{figure.49}
-\contentsline {figure}{\numberline {50}{\ignorespaces Sequence diagram per operazioni di encrypt e decrypt}}{109}{figure.50}
+\contentsline {figure}{\numberline {34}{\ignorespaces Diagramma della classe Class-list-method}}{77}{figure.34}
+\contentsline {figure}{\numberline {35}{\ignorespaces Diagramma della classe Display-class-name}}{78}{figure.35}
+\contentsline {figure}{\numberline {36}{\ignorespaces Diagramma della classe AccountService}}{79}{figure.36}
+\contentsline {figure}{\numberline {37}{\ignorespaces Diagramma della classe Main-editorService}}{84}{figure.37}
+\contentsline {figure}{\numberline {38}{\ignorespaces Diagramma della classe MenuService}}{89}{figure.38}
+\contentsline {figure}{\numberline {39}{\ignorespaces Diagramma della classe SWEDesigner::Server::serverLoader}}{93}{figure.39}
+\contentsline {figure}{\numberline {40}{\ignorespaces Diagramma della classe SWEDesigner::Server::Model::mongooseConnection}}{95}{figure.40}
+\contentsline {figure}{\numberline {41}{\ignorespaces Diagramma della classe SWEDesigner::Server::Model::mongooseRequest}}{95}{figure.41}
+\contentsline {figure}{\numberline {42}{\ignorespaces Diagramma della classe SWEDesigner::Server::Controller::Middleware::midLoader}}{101}{figure.42}
+\contentsline {figure}{\numberline {43}{\ignorespaces Diagramma della classe SWEDesigner::Server::Controller::Middleware::Parse}}{101}{figure.43}
+\contentsline {figure}{\numberline {44}{\ignorespaces Diagramma della classe SWEDesigner::Server::Controller::Middleware::Encrypt}}{102}{figure.44}
+\contentsline {figure}{\numberline {45}{\ignorespaces Diagramma della classe SWEDesigner::Server::Controller::Services::parseService}}{104}{figure.45}
+\contentsline {figure}{\numberline {46}{\ignorespaces Diagramma della classe SWEDesigner::Server::Controller::Services::encryptService}}{105}{figure.46}
+\contentsline {figure}{\numberline {47}{\ignorespaces Sequence diagram generazione codice java}}{107}{figure.47}
+\contentsline {figure}{\numberline {48}{\ignorespaces Sequence diagram caricamento moduli server}}{108}{figure.48}
+\contentsline {figure}{\numberline {49}{\ignorespaces Sequence diagram per operazioni di encrypt e decrypt}}{109}{figure.49}

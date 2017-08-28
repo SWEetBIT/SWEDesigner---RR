@@ -1,13 +1,13 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.6.24)  28 AUG 2017 08:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.8.9)  28 AUG 2017 08:53
 entering extended mode
 **./main.tex
 (main.tex
-LaTeX2e <2016/03/31>
+LaTeX2e <2017/01/01> patch level 1
 Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
 (../../common/global.tex) (../../common/layout.tex
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size11.clo"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
 File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -22,21 +22,21 @@ File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count87
@@ -52,20 +52,20 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks15
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks16
 \inpenc@posthook=\toks17
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
 File: t1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -302,7 +302,7 @@ File: t1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
 File: ot1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -343,7 +343,7 @@ File: ot1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
 File: omsenc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -369,20 +369,20 @@ Now handling font encoding U ...
 ))
    defining Unicode char U+00A0 (decimal 160)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2016/04/23 3.9r The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\babel-english\english.ldf"
-Language: english 2012/08/20 v3.3p English support from the babel system
+("C:\Program Files\MiKTeX 2.9\tex\latex\babel-english\english.ldf"
+Language: english 2017/01/24 v3.3q English support from the babel system
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2016/04/23 3.9r Babel common definitions
 \babel@savecnt=\count90
 \U@D=\dimen111
@@ -391,27 +391,27 @@ File: babel.def 2016/04/23 3.9r Babel common definitions
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\babel-italian\italian.ldf"
+("C:\Program Files\MiKTeX 2.9\tex\latex\babel-italian\italian.ldf"
 Language: italian 2015/03/26 v1.3n Italian support from the babel system
 \it@lettering=\count91
 \it@doublequoteactive=\count92
 \it@ISOcompliance=\count93
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
-Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
+Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count94
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\parskip.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\parskip.sty"
 Package: parskip 2001/04/09 non-zero parskip adjustments
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\etaremune\etaremune.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\etaremune\etaremune.sty"
 Package: etaremune 2005/06/01 v1.2 Reversed enumerate (HA)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
 \XKV@toks=\toks18
 \XKV@tempa@toks=\toks19
 )
@@ -421,39 +421,39 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 \c@EM@itemctr=\count96
 \c@EM@etaremunectr=\count97
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\appendix\appendix.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\appendix\appendix.sty"
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
 \c@@pps=\count98
 \c@@ppsavesec=\count99
 \c@@ppsaveapp=\count100
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\eurosym\eurosym.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\eurosym\eurosym.sty"
 Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
 \@eurobox=\box26
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
-Package: color 2016/05/09 v1.1c Standard LaTeX Color (DPC)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: pdftex.def on input line 144.
+Package color Info: Driver file: pdftex.def on input line 147.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count101
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
-File: dvipsnam.def 2015/12/30 v3.0k Driver-dependent file (DPC,SPQR)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box27
 \beforetitleunit=\skip43
@@ -465,7 +465,7 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidthlast=\dimen115
 \titlewidthfirst=\dimen116
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count102
 \float@exts=\toks21
@@ -473,14 +473,14 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks22
 \@floatcapt=\box29
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
-Package: hyperref 2016/05/21 v6.83p Hypertext links for LaTeX
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -514,28 +514,28 @@ Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
 Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
 Package: xcolor-patch 2016/05/16 xcolor patch
 Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
-Package: atbegshi 2016/05/16 v1.17 At begin shipout hook (HO)
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen117
 \Hy@linkcounter=\count103
 \Hy@pagecounter=\count104
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
-File: pd1enc.def 2016/05/21 v6.83p Hyperref: PDFDocEncoding definition (HO)
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2016/06/24 v6.83q Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
 \Hy@SavedSpaceFactor=\count105
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 4362.
@@ -548,7 +548,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4735.
 \c@Hy@tempcnt=\count106
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -573,12 +573,12 @@ LaTeX Info: Redefining \pageref on input line 6416.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
-File: hpdftex.def 2016/05/21 v6.83p Hyperref driver for pdfTeX
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2016/06/24 v6.83q Hyperref driver for pdfTeX
 \Fld@listcount=\count111
 \c@bookmark@seq@number=\count112
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
@@ -587,7 +587,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 62.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\breakurl\breakurl.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\breakurl\breakurl.sty"
 Package: breakurl 2013/04/10 v1.40 Breakable hyperref URLs
 
 
@@ -596,27 +596,27 @@ Package breakurl Warning: You are using breakurl while processing via pdflatex.
 (breakurl)                \burl will be just a synonym of \url.
 (breakurl)                 on input line 48.
 
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2016/10/09 v1.0u Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
-File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 96.
+Package graphics Info: Driver file: pdftex.def on input line 99.
 )
 \Gin@req@height=\dimen121
 \Gin@req@width=\dimen122
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lastpage\lastpage.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\lastpage\lastpage.sty"
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\longtable.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\longtable.sty"
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip46
 \LTright=\skip47
@@ -634,7 +634,7 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \c@LT@chunks=\count117
 \LT@p@ftn=\toks23
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen124
 \lightrulewidth=\dimen125
@@ -654,11 +654,11 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count121
 \@thisrulewidth=\dimen136
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
 Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
-Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen137
 \extrarowheight=\dimen138
 \NC@list=\toks24
@@ -673,24 +673,28 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \TX@cols=\count122
 \TX@ftn=\toks25
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip52
+\multirow@cntb=\count123
+\multirow@dima=\skip53
 \bigstrutjot=\dimen144
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 \everycr=\toks26
-\minrowclearance=\skip52
+\minrowclearance=\skip54
 )
 LaTeX Info: Redefining \color on input line 709.
-\rownum=\count123
+\rownum=\count124
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
@@ -701,41 +705,42 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ms\ragged2e.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\ms\ragged2e.sty"
 Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ms\everysel.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\ms\everysel.sty"
 Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 )
-\CenteringLeftskip=\skip53
-\RaggedLeftLeftskip=\skip54
-\RaggedRightLeftskip=\skip55
-\CenteringRightskip=\skip56
-\RaggedLeftRightskip=\skip57
-\RaggedRightRightskip=\skip58
-\CenteringParfillskip=\skip59
-\RaggedLeftParfillskip=\skip60
-\RaggedRightParfillskip=\skip61
-\JustifyingParfillskip=\skip62
-\CenteringParindent=\skip63
-\RaggedLeftParindent=\skip64
-\RaggedRightParindent=\skip65
-\JustifyingParindent=\skip66
+\CenteringLeftskip=\skip55
+\RaggedLeftLeftskip=\skip56
+\RaggedRightLeftskip=\skip57
+\CenteringRightskip=\skip58
+\RaggedLeftRightskip=\skip59
+\RaggedRightRightskip=\skip60
+\CenteringParfillskip=\skip61
+\RaggedLeftParfillskip=\skip62
+\RaggedRightParfillskip=\skip63
+\JustifyingParfillskip=\skip64
+\CenteringParindent=\skip65
+\RaggedLeftParindent=\skip66
+\RaggedRightParindent=\skip67
+\JustifyingParindent=\skip68
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
-Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
-\fancy@headwidth=\skip67
-\f@ncyO@elh=\skip68
-\f@ncyO@erh=\skip69
-\f@ncyO@olh=\skip70
-\f@ncyO@orh=\skip71
-\f@ncyO@elf=\skip72
-\f@ncyO@erf=\skip73
-\f@ncyO@olf=\skip74
-\f@ncyO@orf=\skip75
+("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip69
+\f@nch@O@elh=\skip70
+\f@nch@O@erh=\skip71
+\f@nch@O@olh=\skip72
+\f@nch@O@orh=\skip73
+\f@nch@O@elf=\skip74
+\f@nch@O@erf=\skip75
+\f@nch@O@olf=\skip76
+\f@nch@O@orf=\skip77
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\textcomp.sty"
-Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty"
+Package: textcomp 2017/01/24 v2.0c Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
 (textcomp)               4 = 5 + \texteuro
@@ -749,12 +754,12 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.def"
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
 File: ts1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
@@ -890,64 +895,64 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\changepage\changepage.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\changepage\changepage.sty"
 Package: changepage 2009/10/20 v1.0c check page and change page layout
-\c@cp@cntr=\count124
-\cp@tempcnt=\count125
+\c@cp@cntr=\count125
+\cp@tempcnt=\count126
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grffile.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grffile.sty"
 Package: grffile 2016/05/16 v1.17 Extended file name support for graphics (HO)
 Package grffile Info: Option `multidot' is set to `true'.
 Package grffile Info: Option `extendedchars' is set to `false'.
 Package grffile Info: Option `space' is set to `true'.
 Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 486.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count126
-\calc@Bcount=\count127
+\calc@Acount=\count127
+\calc@Bcount=\count128
 \calc@Adimen=\dimen145
 \calc@Bdimen=\dimen146
-\calc@Askip=\skip76
-\calc@Bskip=\skip77
+\calc@Askip=\skip78
+\calc@Bskip=\skip79
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count128
-\calc@Cskip=\skip78
+\calc@Ccount=\count129
+\calc@Cskip=\skip80
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.sty"
-\lst@mode=\count129
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
+\lst@mode=\count130
 \lst@gtempboxa=\box34
 \lst@token=\toks27
-\lst@length=\count130
+\lst@length=\count131
 \lst@currlwidth=\dimen147
-\lst@column=\count131
-\lst@pos=\count132
+\lst@column=\count132
+\lst@pos=\count133
 \lst@lostspace=\dimen148
 \lst@width=\dimen149
-\lst@newlines=\count133
-\lst@lineno=\count134
+\lst@newlines=\count134
+\lst@lineno=\count135
 \lst@maxwidth=\dimen150
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count135
-\lst@skipnumbers=\count136
+\c@lstnumber=\count136
+\lst@skipnumbers=\count137
 \lst@framebox=\box35
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
-Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2017/01/24 v2.0c Standard LaTeX package
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
-File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2017/01/24 v2.0c Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\lmodern.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\lmodern.sty"
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -982,50 +987,50 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
-Package: amsmath 2016/03/10 v2.15b AMS math features
-\@mathmargin=\skip79
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip81
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks28
 \ex@=\dimen151
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen152
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count137
-LaTeX Info: Redefining \frac on input line 199.
-\uproot@=\count138
-\leftroot@=\count139
-LaTeX Info: Redefining \overline on input line 297.
-\classnum@=\count140
-\DOTSCASE@=\count141
-LaTeX Info: Redefining \ldots on input line 394.
-LaTeX Info: Redefining \dots on input line 397.
-LaTeX Info: Redefining \cdots on input line 518.
+\inf@bad=\count138
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count139
+\leftroot@=\count140
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count141
+\DOTSCASE@=\count142
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
 \Mathstrutbox@=\box36
 \strutbox@=\box37
 \big@size=\dimen153
-LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
-\macc@depth=\count142
-\c@MaxMatrixCols=\count143
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count143
+\c@MaxMatrixCols=\count144
 \dotsspace@=\muskip11
-\c@parentequation=\count144
-\dspbrk@lvl=\count145
+\c@parentequation=\count145
+\dspbrk@lvl=\count146
 \tag@help=\toks29
-\row@=\count146
-\column@=\count147
-\maxfields@=\count148
+\row@=\count147
+\column@=\count148
+\maxfields@=\count149
 \andhelp@=\toks30
 \eqnshift@=\dimen154
 \alignsep@=\dimen155
@@ -1034,13 +1039,13 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 \totwidth@=\dimen158
 \lineht@=\dimen159
 \@envbody=\toks31
-\multlinegap=\skip80
-\multlinetaggap=\skip81
+\multlinegap=\skip82
+\multlinetaggap=\skip83
 \mathdisplay@stack=\toks32
-LaTeX Info: Redefining \[ on input line 2739.
-LaTeX Info: Redefining \] on input line 2740.
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
@@ -1068,13 +1073,13 @@ LaTeX Font Info:    ... okay on input line 10.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 10.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 10.
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 10.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 *geometry* driver: auto-detecting
@@ -1113,29 +1118,42 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 LaTeX Info: Redefining \it@ocap on input line 10.
 LaTeX Info: Redefining \it@ccap on input line 10.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count149
+\scratchcounter=\count150
 \scratchdimen=\dimen160
 \scratchbox=\box38
-\nofMPsegments=\count150
-\nofMParguments=\count151
+\nofMPsegments=\count151
+\nofMParguments=\count152
 \everyMPshowfont=\toks33
-\MPscratchCnt=\count152
+\MPscratchCnt=\count153
 \MPscratchDim=\dimen161
-\MPnumerator=\count153
-\makeMPintoPDFobject=\count154
+\MPnumerator=\count154
+\makeMPintoPDFobject=\count155
 \everyMPtoPDFconversion=\toks34
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
 )
 \AtBeginShipoutBox=\box39
 Package hyperref Info: Link coloring ON on input line 10.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count155
+\c@section@level=\count156
 )
 LaTeX Info: Redefining \ref on input line 10.
 LaTeX Info: Redefining \pageref on input line 10.
@@ -1145,25 +1163,12 @@ LaTeX Info: Redefining \nameref on input line 10.
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-)
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
-)
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 10.
-
-ABD: EverySelectfont initializing macros
+ ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 10.
-\c@lstlisting=\count156
+\c@lstlisting=\count157
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -1204,30 +1209,28 @@ File: ../../common/logo.jpg Graphic file (type jpg)
 Package pdftex.def Info: ../../common/logo.jpg used on input line 14.
 (pdftex.def)             Requested size: 284.52756pt x 102.44997pt.
 LaTeX Font Info:    Try loading font information for TS1+lmr on input line 14.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 14.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Try loading font information for OML+lmm on input line 14.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 14.
 
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Try loading font information for OMX+lmex on input line 14.
 
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1238,21 +1241,20 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 14.
 LaTeX Font Info:    Try loading font information for U+msa on input line 14.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 14.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 
-{C:/Users/Fabio/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <../../commo
-n/logo.jpg>]
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <../../common/logo.jpg>]
 \openout2 = `res/versions.aux'.
 
-(res/versions.tex
+ (res/versions.tex
 Overfull \hbox (0.83209pt too wide) in alignment at lines 7--22
  [] [] [] [] 
  []
@@ -1594,8 +1596,13 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [5] (main.lof
+Overfull \hbox (28.26187pt too wide) in paragraph at lines 44--44
+ [][] [][][]\T1/lmr/m/n/10.95 Diagramma del-la clas-se SWE-De-si-gner::Server::
+Controller::Middleware::midLoader[][] [][]  
+ []
+
 File: ../../common/logo.jpg Graphic file (type jpg)
- <use ../../common/logo.jpg>
+<use ../../common/logo.jpg>
 Package pdftex.def Info: ../../common/logo.jpg used on input line 45.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
@@ -1610,31 +1617,25 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [6]
-Overfull \hbox (28.26187pt too wide) in paragraph at lines 45--45
- [][] [][][]\T1/lmr/m/n/10.95 Diagramma del-la clas-se SWE-De-si-gner::Server::
-Controller::Middleware::midLoader[][] [][]  
- []
-
-
-Overfull \hbox (3.07742pt too wide) in paragraph at lines 46--46
+Overfull \hbox (3.07742pt too wide) in paragraph at lines 45--45
  [][] [][][]\T1/lmr/m/n/10.95 Diagramma del-la clas-se SWE-De-si-gner::Server::
 Controller::Middleware::Parse[][] [][]  
  []
 
 
-Overfull \hbox (15.79176pt too wide) in paragraph at lines 47--47
+Overfull \hbox (15.79176pt too wide) in paragraph at lines 46--46
  [][] [][][]\T1/lmr/m/n/10.95 Diagramma del-la clas-se SWE-De-si-gner::Server::
 Controller::Middleware::Encrypt[][] [][]  
  []
 
 
-Overfull \hbox (18.52979pt too wide) in paragraph at lines 48--48
+Overfull \hbox (18.52979pt too wide) in paragraph at lines 47--47
  [][] [][][]\T1/lmr/m/n/10.95 Diagramma del-la clas-se SWE-De-si-gner::Server::
 Controller::Services::parseService[][] [][]  
  []
 
 
-Overfull \hbox (29.72342pt too wide) in paragraph at lines 49--49
+Overfull \hbox (29.72342pt too wide) in paragraph at lines 48--48
  [][] [][][]\T1/lmr/m/n/10.95 Diagramma del-la clas-se SWE-De-si-gner::Server::
 Controller::Services::encryptService[][] [][]  
  []
@@ -1688,7 +1689,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 Package xcolor Warning: Incompatible color definition on input line 17.
 
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 17.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Underfull \hbox (badness 10000) in paragraph at lines 16--18
@@ -1853,7 +1854,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
 (res/sections/SpecificaFrontEnd/Services/authenticationguard.tex
 <res/sections/SpecificaFrontEnd/Services/Disegnetti/authenticationguard.png, id
-=777, 476.53032pt x 91.84312pt>
+=775, 476.53032pt x 91.84312pt>
 File: res/sections/SpecificaFrontEnd/Services/Disegnetti/authenticationguard.pn
 g Graphic file (type png)
 
@@ -1862,19 +1863,9 @@ g Graphic file (type png)
 Package pdftex.def Info: res/sections/SpecificaFrontEnd/Services/Disegnetti/aut
 henticationguard.png used on input line 3.
 (pdftex.def)             Requested size: 381.22478pt x 73.47458pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
 File: ../../common/logo.jpg Graphic file (type jpg)
-<use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 20.
+ <use ../../common/logo.jpg>
+Package pdftex.def Info: ../../common/logo.jpg used on input line 21.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -1889,12 +1880,12 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 
 [13 <./res/sections/SpecificaFrontEnd/Services/Disegnetti/authenticationguard.p
 ng>]
-Underfull \hbox (badness 10000) in paragraph at lines 23--26
+Underfull \hbox (badness 10000) in paragraph at lines 24--27
 
  []
 
 ) (res/sections/SpecificaFrontEnd/Services/global.tex
-<res/sections/SpecificaFrontEnd/Services/Disegnetti/global.png, id=785, 355.327
+<res/sections/SpecificaFrontEnd/Services/Disegnetti/global.png, id=783, 355.327
 5pt x 410.2828pt>
 File: res/sections/SpecificaFrontEnd/Services/Disegnetti/global.png Graphic fil
 e (type png)
@@ -1903,14 +1894,10 @@ e (type png)
 Package pdftex.def Info: res/sections/SpecificaFrontEnd/Services/Disegnetti/glo
 bal.png used on input line 3.
 (pdftex.def)             Requested size: 284.26237pt x 328.22668pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
 File: ../../common/logo.jpg Graphic file (type jpg)
+
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 9.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 10.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -1924,11 +1911,8 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [14 <./res/sections/SpecificaFrontEnd/Services/Disegnetti/global.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
 File: ../../common/logo.jpg Graphic file (type jpg)
+
 <use ../../common/logo.jpg>
 Package pdftex.def Info: ../../common/logo.jpg used on input line 55.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
@@ -1980,7 +1964,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [17] (res/sections/SpecificaFrontEnd/Components/registration.tex
-<res/sections/SpecificaFrontEnd/Components/Disegnetti/registration.png, id=807,
+<res/sections/SpecificaFrontEnd/Components/Disegnetti/registration.png, id=805,
  485.56406pt x 91.84312pt>
 File: res/sections/SpecificaFrontEnd/Components/Disegnetti/registration.png Gra
 phic file (type png)
@@ -1991,7 +1975,7 @@ egistration.png used on input line 3.
 (pdftex.def)             Requested size: 388.45177pt x 73.47458pt.
 )
 (res/sections/SpecificaFrontEnd/Components/login.tex
-<res/sections/SpecificaFrontEnd/Components/Disegnetti/login.png, id=808, 485.56
+<res/sections/SpecificaFrontEnd/Components/Disegnetti/login.png, id=806, 485.56
 406pt x 106.89937pt>
 File: res/sections/SpecificaFrontEnd/Components/Disegnetti/login.png Graphic fi
 le (type png)
@@ -2021,7 +2005,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 
 [18 <./res/sections/SpecificaFrontEnd/Components/Disegnetti/registration.png>])
 (res/sections/SpecificaFrontEnd/Components/forgot-psw.tex
-<res/sections/SpecificaFrontEnd/Components/Disegnetti/forgot-psw.png, id=816, 3
+<res/sections/SpecificaFrontEnd/Components/Disegnetti/forgot-psw.png, id=814, 3
 62.10281pt x 91.84312pt>
 File: res/sections/SpecificaFrontEnd/Components/Disegnetti/forgot-psw.png Graph
 ic file (type png)
@@ -2076,11 +2060,6 @@ Overfull \hbox (81.1836pt too wide) in paragraph at lines 1--1
 tainer::Editor-containerComponent[] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
-
- []
-
 ) (res/sections/SpecificaFrontEnd/Components/activity-frame.tex)
 Overfull \hbox (70.94763pt too wide) in paragraph at lines 74--74
 [] []|\T1/lmr/bx/n/10.95 3.3.2.2 SWE-De-si-gner::Client::Components::Editor-con
@@ -2108,13 +2087,8 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
-
- []
-
-) (res/sections/SpecificaFrontEnd/Components/file.tex
-<res/sections/SpecificaFrontEnd/Components/Disegnetti/file.png, id=834, 811.531
+[21]) (res/sections/SpecificaFrontEnd/Components/file.tex
+<res/sections/SpecificaFrontEnd/Components/Disegnetti/file.png, id=832, 811.531
 88pt x 168.63pt>
 File: res/sections/SpecificaFrontEnd/Components/Disegnetti/file.png Graphic fil
 e (type png)
@@ -2134,11 +2108,6 @@ Overfull \hbox (49.88657pt too wide) in paragraph at lines 7--7
 tainer::Menu::FileComponent[] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
 File: ../../common/logo.jpg Graphic file (type jpg)
 <use ../../common/logo.jpg>
 Package pdftex.def Info: ../../common/logo.jpg used on input line 24.
@@ -2156,7 +2125,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 
 [22 <./res/sections/SpecificaFrontEnd/Components/Disegnetti/file.png>])
 (res/sections/SpecificaFrontEnd/Components/modifica.tex
-<res/sections/SpecificaFrontEnd/Components/Disegnetti/modifica.png, id=841, 154
+<res/sections/SpecificaFrontEnd/Components/Disegnetti/modifica.png, id=839, 154
 .32657pt x 183.68625pt>
 File: res/sections/SpecificaFrontEnd/Components/Disegnetti/modifica.png Graphic
  file (type png)
@@ -2175,11 +2144,6 @@ Overfull \hbox (77.00308pt too wide) in paragraph at lines 7--7
 tainer::Menu::ModificaComponent[] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
 File: ../../common/logo.jpg Graphic file (type jpg)
 <use ../../common/logo.jpg>
 Package pdftex.def Info: ../../common/logo.jpg used on input line 18.
@@ -2196,7 +2160,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [23]) (res/sections/SpecificaFrontEnd/Components/profilo.tex
-<res/sections/SpecificaFrontEnd/Components/Disegnetti/profilo.png, id=847, 362.
+<res/sections/SpecificaFrontEnd/Components/Disegnetti/profilo.png, id=845, 362.
 10281pt x 121.95563pt>
 File: res/sections/SpecificaFrontEnd/Components/Disegnetti/profilo.png Graphic 
 file (type png)
@@ -2228,11 +2192,6 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 
 [24 <./res/sections/SpecificaFrontEnd/Components/Disegnetti/modifica.png> <./re
 s/sections/SpecificaFrontEnd/Components/Disegnetti/profilo.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 26--28
 
  []
@@ -2254,7 +2213,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 107--108
  []
 
 (res/sections/SpecificaFrontEnd/Components/editor.tex
-<res/sections/SpecificaFrontEnd/Components/Disegnetti/editor.png, id=856, 1053.
+<res/sections/SpecificaFrontEnd/Components/Disegnetti/editor.png, id=854, 1053.
 9375pt x 623.32875pt>
 File: res/sections/SpecificaFrontEnd/Components/Disegnetti/editor.png Graphic f
 ile (type png)
@@ -2289,14 +2248,9 @@ Overfull \hbox (68.11983pt too wide) in paragraph at lines 7--7
 tainer::Editor::EditorComponent[] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
 File: ../../common/logo.jpg Graphic file (type jpg)
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 9.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 10.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -2310,11 +2264,8 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [26 <./res/sections/SpecificaFrontEnd/Components/Disegnetti/editor.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
 File: ../../common/logo.jpg Graphic file (type jpg)
+
 <use ../../common/logo.jpg>
 Package pdftex.def Info: ../../common/logo.jpg used on input line 46.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
@@ -2362,7 +2313,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [29]) (res/sections/SpecificaFrontEnd/Components/activity-menu.tex
-<res/sections/SpecificaFrontEnd/Components/Disegnetti/activity-menu.png, id=883
+<res/sections/SpecificaFrontEnd/Components/Disegnetti/activity-menu.png, id=881
 , 599.23875pt x 591.71063pt>
 File: res/sections/SpecificaFrontEnd/Components/Disegnetti/activity-menu.png Gr
 aphic file (type png)
@@ -2401,17 +2352,8 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [30]
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
-
- []
-
 File: ../../common/logo.jpg Graphic file (type jpg)
-<use ../../common/logo.jpg>
+ <use ../../common/logo.jpg>
 Package pdftex.def Info: ../../common/logo.jpg used on input line 13.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
@@ -2458,7 +2400,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [33]) (res/sections/SpecificaFrontEnd/Components/toolbar.tex
-<res/sections/SpecificaFrontEnd/Components/Disegnetti/toolbar.png, id=906, 599.
+<res/sections/SpecificaFrontEnd/Components/Disegnetti/toolbar.png, id=904, 599.
 23875pt x 365.11406pt>
 File: res/sections/SpecificaFrontEnd/Components/Disegnetti/toolbar.png Graphic 
 file (type png)
@@ -2479,16 +2421,6 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Overfull \hbox (75.42741pt too wide) in paragraph at lines 7--7
 [] []|\T1/lmr/bx/n/10.95 3.5.2.3 SWE-De-si-gner::Client::Components::Editor-con
 tainer::Editor::ToolbarComponent[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
  []
 
 File: ../../common/logo.jpg Graphic file (type jpg)
@@ -2524,7 +2456,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 
 [35 <./res/sections/SpecificaFrontEnd/Components/Disegnetti/toolbar.png>])
 (res/sections/SpecificaFrontEnd/Services/activity.tex
-<res/sections/SpecificaFrontEnd/Services/Disegnetti/activity.png, id=918, 394.4
+<res/sections/SpecificaFrontEnd/Services/Disegnetti/activity.png, id=916, 394.4
 7375pt x 653.44125pt>
 File: res/sections/SpecificaFrontEnd/Services/Disegnetti/activity.png Graphic f
 ile (type png)
@@ -2543,19 +2475,9 @@ Overfull \hbox (53.10094pt too wide) in paragraph at lines 7--7
 tainer::Editor::ActivityService[] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
 File: ../../common/logo.jpg Graphic file (type jpg)
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 18.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 17.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -2571,7 +2493,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 [36]
 File: ../../common/logo.jpg Graphic file (type jpg)
  <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 18.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 17.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -2604,7 +2526,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 [38]
 File: ../../common/logo.jpg Graphic file (type jpg)
  <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 108.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 109.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -2620,7 +2542,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 [39]
 File: ../../common/logo.jpg Graphic file (type jpg)
  <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 152.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 153.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -2636,7 +2558,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 [40]
 File: ../../common/logo.jpg Graphic file (type jpg)
  <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 196.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 197.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -2650,7 +2572,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [41]) (res/sections/SpecificaFrontEnd/Services/class-menu.tex
-<res/sections/SpecificaFrontEnd/Services/Disegnetti/class-menu.png, id=951, 694
+<res/sections/SpecificaFrontEnd/Services/Disegnetti/class-menu.png, id=949, 694
 .09312pt x 531.48563pt>
 File: res/sections/SpecificaFrontEnd/Services/Disegnetti/class-menu.png Graphic
  file (type png)
@@ -2670,19 +2592,9 @@ Overfull \hbox (71.35487pt too wide) in paragraph at lines 7--7
 tainer::Editor::Class-menuService[] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
 File: ../../common/logo.jpg Graphic file (type jpg)
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 11.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 12.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -2699,7 +2611,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 File: ../../common/logo.jpg Graphic file (type jpg)
 
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 44.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 45.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -2713,14 +2625,14 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [43]
-Overfull \hbox (2.07417pt too wide) in paragraph at lines 77--80
+Overfull \hbox (2.07417pt too wide) in paragraph at lines 78--81
 []\T1/lmr/m/it/10.95 +addAttributo(nome: string, sta-ti-cAtt: boo-lean, fi-na-l
 Att: boo-lean, ti-po: string,
  []
 
 File: ../../common/logo.jpg Graphic file (type jpg)
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 87.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 88.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -2736,7 +2648,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 [44]
 File: ../../common/logo.jpg Graphic file (type jpg)
  <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 126.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 127.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -2750,7 +2662,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [45]) (res/sections/SpecificaFrontEnd/Services/all-shape.tex
-<res/sections/SpecificaFrontEnd/Services/Disegnetti/all-shape.png, id=974, 268.
+<res/sections/SpecificaFrontEnd/Services/Disegnetti/all-shape.png, id=972, 268.
 00125pt x 274.02374pt>
 File: res/sections/SpecificaFrontEnd/Services/Disegnetti/all-shape.png Graphic 
 file (type png)
@@ -2769,19 +2681,9 @@ Overfull \hbox (21.05107pt too wide) in paragraph at lines 7--7
 tainer::Editor::All-shape[] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
 File: ../../common/logo.jpg Graphic file (type jpg)
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 11.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 10.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -2797,7 +2699,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 [46]
 File: ../../common/logo.jpg Graphic file (type jpg)
  <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 36.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 32.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -2812,7 +2714,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 
 [47 <./res/sections/SpecificaFrontEnd/Services/Disegnetti/all-shape.png>])
 (res/sections/SpecificaFrontEnd/Services/attributo.tex
-<res/sections/SpecificaFrontEnd/Services/Disegnetti/attributo.png, id=986, 208.
+<res/sections/SpecificaFrontEnd/Services/Disegnetti/attributo.png, id=984, 208.
 52907pt x 183.68625pt>
 File: res/sections/SpecificaFrontEnd/Services/Disegnetti/attributo.png Graphic 
 file (type png)
@@ -2831,14 +2733,9 @@ Overfull \hbox (21.969pt too wide) in paragraph at lines 7--7
 tainer::Editor::Attributo[] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
 File: ../../common/logo.jpg Graphic file (type jpg)
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 10.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 8.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -2852,13 +2749,9 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [48]
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
 File: ../../common/logo.jpg Graphic file (type jpg)
-<use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 38.
+ <use ../../common/logo.jpg>
+Package pdftex.def Info: ../../common/logo.jpg used on input line 36.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -2879,7 +2772,7 @@ tainer::Editor::Class-errors[]
  []
 
 (res/sections/SpecificaFrontEnd/Services/classe-astratta.tex
-<res/sections/SpecificaFrontEnd/Services/Disegnetti/classe-astratta.png, id=999
+<res/sections/SpecificaFrontEnd/Services/Disegnetti/classe-astratta.png, id=997
 , 517.935pt x 138.5175pt>
 File: res/sections/SpecificaFrontEnd/Services/Disegnetti/classe-astratta.png Gr
 aphic file (type png)
@@ -2895,16 +2788,6 @@ tainer::Editor::Classe-astratta[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
-
 Overfull \hbox (17.46425pt too wide) in paragraph at lines 26--29
 []\T1/lmr/m/it/10.95 +addAbstractMethods(nome: string, ti-po: string, acc:strin
 g, li-sta-Pa-ram: string[]) 
@@ -2912,7 +2795,7 @@ g, li-sta-Pa-ram: string[])
 
 File: ../../common/logo.jpg Graphic file (type jpg)
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 36.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 32.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -2927,7 +2810,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 
 [50 <./res/sections/SpecificaFrontEnd/Services/Disegnetti/classe-astratta.png>]
 ) (res/sections/SpecificaFrontEnd/Services/classe.tex
-<res/sections/SpecificaFrontEnd/Services/Disegnetti/classe.png, id=1006, 511.91
+<res/sections/SpecificaFrontEnd/Services/Disegnetti/classe.png, id=1004, 511.91
 25pt x 425.33907pt>
 File: res/sections/SpecificaFrontEnd/Services/Disegnetti/classe.png Graphic fil
 e (type png)
@@ -2942,19 +2825,9 @@ Overfull \hbox (9.8522pt too wide) in paragraph at lines 7--7
 ntainer::Editor::Classe[] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
 File: ../../common/logo.jpg Graphic file (type jpg)
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 11.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 8.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -2971,7 +2844,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 File: ../../common/logo.jpg Graphic file (type jpg)
 
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 53.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 50.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -2987,7 +2860,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 [52]
 File: ../../common/logo.jpg Graphic file (type jpg)
  <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 99.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 97.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -3041,20 +2914,9 @@ Overfull \hbox (72.37752pt too wide) in paragraph at lines 146--146
 ntainer::Editor::Elemento-metodo[] 
  []
 
-(res/sections/SpecificaFrontEnd/Services/end.tex
-<res/sections/SpecificaFrontEnd/Services/Disegnetti/end.png, id=1023, 274.77657
-pt x 91.84312pt>
-File: res/sections/SpecificaFrontEnd/Services/Disegnetti/end.png Graphic file (
-type png)
-
-<use res/sections/SpecificaFrontEnd/Services/Disegnetti/end.png>
-Package pdftex.def Info: res/sections/SpecificaFrontEnd/Services/Disegnetti/end
-.png used on input line 3.
-(pdftex.def)             Requested size: 219.82153pt x 73.47458pt.
 File: ../../common/logo.jpg Graphic file (type jpg)
-
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 5.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 146.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -3067,18 +2929,19 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[54]
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
+[54] (res/sections/SpecificaFrontEnd/Services/end.tex
+<res/sections/SpecificaFrontEnd/Services/Disegnetti/end.png, id=1027, 274.77657
+pt x 91.84312pt>
+File: res/sections/SpecificaFrontEnd/Services/Disegnetti/end.png Graphic file (
+type png)
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
-) (res/sections/SpecificaFrontEnd/Services/if-node.tex
-<res/sections/SpecificaFrontEnd/Services/Disegnetti/if-node.png, id=1030, 274.7
+<use res/sections/SpecificaFrontEnd/Services/Disegnetti/end.png>
+Package pdftex.def Info: res/sections/SpecificaFrontEnd/Services/Disegnetti/end
+.png used on input line 3.
+(pdftex.def)             Requested size: 219.82153pt x 73.47458pt.
+)
+(res/sections/SpecificaFrontEnd/Services/if-node.tex
+<res/sections/SpecificaFrontEnd/Services/Disegnetti/if-node.png, id=1028, 274.7
 7657pt x 138.5175pt>
 File: res/sections/SpecificaFrontEnd/Services/Disegnetti/if-node.png Graphic fi
 le (type png)
@@ -3097,19 +2960,9 @@ Overfull \hbox (14.66283pt too wide) in paragraph at lines 7--7
 ntainer::Editor::If-node[] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
 File: ../../common/logo.jpg Graphic file (type jpg)
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 16.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 12.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -3127,34 +2980,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--30
 
  []
 
-) (res/sections/SpecificaFrontEnd/Services/interface.tex
-<res/sections/SpecificaFrontEnd/Services/Disegnetti/interface.png, id=1037, 511
-.9125pt x 153.57375pt>
-File: res/sections/SpecificaFrontEnd/Services/Disegnetti/interface.png Graphic 
-file (type png)
-
-<use res/sections/SpecificaFrontEnd/Services/Disegnetti/interface.png>
-Package pdftex.def Info: res/sections/SpecificaFrontEnd/Services/Disegnetti/int
-erface.png used on input line 3.
-(pdftex.def)             Requested size: 409.53056pt x 122.85915pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Overfull \hbox (24.04561pt too wide) in paragraph at lines 7--7
-[] []|\T1/lmr/bx/n/10.95 3.5.2.14 SWE-De-si-gner::Client::Components::Editor-co
-ntainer::Editor::Interface[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
 File: ../../common/logo.jpg Graphic file (type jpg)
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 9.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 44.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -3167,14 +2995,26 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[56 <./res/sections/SpecificaFrontEnd/Services/Disegnetti/if-node.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
+[56 <./res/sections/SpecificaFrontEnd/Services/Disegnetti/if-node.png>])
+(res/sections/SpecificaFrontEnd/Services/interface.tex
+<res/sections/SpecificaFrontEnd/Services/Disegnetti/interface.png, id=1041, 511
+.9125pt x 153.57375pt>
+File: res/sections/SpecificaFrontEnd/Services/Disegnetti/interface.png Graphic 
+file (type png)
 
+<use res/sections/SpecificaFrontEnd/Services/Disegnetti/interface.png>
+Package pdftex.def Info: res/sections/SpecificaFrontEnd/Services/Disegnetti/int
+erface.png used on input line 3.
+(pdftex.def)             Requested size: 409.53056pt x 122.85915pt.
+
+Overfull \hbox (24.04561pt too wide) in paragraph at lines 7--7
+[] []|\T1/lmr/bx/n/10.95 3.5.2.14 SWE-De-si-gner::Client::Components::Editor-co
+ntainer::Editor::Interface[] 
  []
 
 File: ../../common/logo.jpg Graphic file (type jpg)
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 39.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 35.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -3189,7 +3029,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 
 [57 <./res/sections/SpecificaFrontEnd/Services/Disegnetti/interface.png>])
 (res/sections/SpecificaFrontEnd/Services/merge-node.tex
-<res/sections/SpecificaFrontEnd/Services/Disegnetti/merge-node.png, id=1050, 27
+<res/sections/SpecificaFrontEnd/Services/Disegnetti/merge-node.png, id=1048, 27
 4.77657pt x 106.89937pt>
 File: res/sections/SpecificaFrontEnd/Services/Disegnetti/merge-node.png Graphic
  file (type png)
@@ -3204,19 +3044,9 @@ Overfull \hbox (41.01944pt too wide) in paragraph at lines 7--7
 ntainer::Editor::Merge-node[] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
 File: ../../common/logo.jpg Graphic file (type jpg)
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 12.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 10.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -3231,7 +3061,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 
 [58 <./res/sections/SpecificaFrontEnd/Services/Disegnetti/merge-node.png>])
 (res/sections/SpecificaFrontEnd/Services/metodo.tex
-<res/sections/SpecificaFrontEnd/Services/Disegnetti/metodo.png, id=1057, 618.05
+<res/sections/SpecificaFrontEnd/Services/Disegnetti/metodo.png, id=1055, 618.05
 907pt x 486.31688pt>
 File: res/sections/SpecificaFrontEnd/Services/Disegnetti/metodo.png Graphic fil
 e (type png)
@@ -3254,19 +3084,9 @@ Overfull \hbox (17.99347pt too wide) in paragraph at lines 7--7
 ntainer::Editor::Metodo[] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
 File: ../../common/logo.jpg Graphic file (type jpg)
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 26.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 22.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -3282,7 +3102,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 [59]
 File: ../../common/logo.jpg Graphic file (type jpg)
  <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 36.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 30.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -3299,7 +3119,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 File: ../../common/logo.jpg Graphic file (type jpg)
 
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 82.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 77.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -3312,8 +3132,24 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[61]) (res/sections/SpecificaFrontEnd/Services/operation.tex
-<res/sections/SpecificaFrontEnd/Services/Disegnetti/operation.png, id=1075, 274
+[61]
+File: ../../common/logo.jpg Graphic file (type jpg)
+ <use ../../common/logo.jpg>
+Package pdftex.def Info: ../../common/logo.jpg used on input line 119.
+(pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (30.0pt): 
+ Make it at least 32.53278pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[62]) (res/sections/SpecificaFrontEnd/Services/operation.tex
+<res/sections/SpecificaFrontEnd/Services/Disegnetti/operation.png, id=1078, 274
 .77657pt x 153.57375pt>
 File: res/sections/SpecificaFrontEnd/Services/Disegnetti/operation.png Graphic 
 file (type png)
@@ -3322,41 +3158,15 @@ file (type png)
 Package pdftex.def Info: res/sections/SpecificaFrontEnd/Services/Disegnetti/ope
 ration.png used on input line 3.
 (pdftex.def)             Requested size: 219.82153pt x 122.85915pt.
-File: ../../common/logo.jpg Graphic file (type jpg)
 
-<use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 5.
-(pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
-
-Underfull \hbox (badness 10000) has occurred while \output is active
-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (30.0pt): 
- Make it at least 32.53278pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[62]
 Overfull \hbox (31.0037pt too wide) in paragraph at lines 7--7
 [] []|\T1/lmr/bx/n/10.95 3.5.2.17 SWE-De-si-gner::Client::Components::Editor-co
 ntainer::Editor::Operation[] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
 File: ../../common/logo.jpg Graphic file (type jpg)
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 41.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 37.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -3377,7 +3187,7 @@ ntainer::Editor::Operazione[]
  []
 
 (res/sections/SpecificaFrontEnd/Services/param.tex
-<res/sections/SpecificaFrontEnd/Services/Disegnetti/param.png, id=1087, 268.001
+<res/sections/SpecificaFrontEnd/Services/Disegnetti/param.png, id=1085, 268.001
 25pt x 183.68625pt>
 File: res/sections/SpecificaFrontEnd/Services/Disegnetti/param.png Graphic file
  (type png)
@@ -3392,19 +3202,9 @@ Overfull \hbox (11.61194pt too wide) in paragraph at lines 7--7
 ntainer::Editor::Param[] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
 File: ../../common/logo.jpg Graphic file (type jpg)
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 27.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 24.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -3419,7 +3219,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 
 [64 <./res/sections/SpecificaFrontEnd/Services/Disegnetti/param.png>])
 (res/sections/SpecificaFrontEnd/Services/shape.tex
-<res/sections/SpecificaFrontEnd/Services/Disegnetti/shape.png, id=1094, 237.888
+<res/sections/SpecificaFrontEnd/Services/Disegnetti/shape.png, id=1092, 237.888
 75pt x 319.94531pt>
 File: res/sections/SpecificaFrontEnd/Services/Disegnetti/shape.png Graphic file
  (type png)
@@ -3438,19 +3238,9 @@ Overfull \hbox (8.66301pt too wide) in paragraph at lines 7--7
 ntainer::Editor::Shape[] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
 File: ../../common/logo.jpg Graphic file (type jpg)
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 24.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 20.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -3466,7 +3256,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 [65]
 File: ../../common/logo.jpg Graphic file (type jpg)
  <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 48.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 44.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -3481,7 +3271,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 
 [66 <./res/sections/SpecificaFrontEnd/Services/Disegnetti/shape.png>])
 (res/sections/SpecificaFrontEnd/Services/start.tex
-<res/sections/SpecificaFrontEnd/Services/Disegnetti/start.png, id=1107, 274.776
+<res/sections/SpecificaFrontEnd/Services/Disegnetti/start.png, id=1105, 274.776
 57pt x 106.89937pt>
 File: res/sections/SpecificaFrontEnd/Services/Disegnetti/start.png Graphic file
  (type png)
@@ -3500,19 +3290,9 @@ Overfull \hbox (3.52916pt too wide) in paragraph at lines 7--7
 ntainer::Editor::Start[] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
 File: ../../common/logo.jpg Graphic file (type jpg)
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 14.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 8.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -3526,7 +3306,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [67]) (res/sections/SpecificaFrontEnd/Services/variabile.tex
-<res/sections/SpecificaFrontEnd/Services/Disegnetti/variabile.png, id=1113, 362
+<res/sections/SpecificaFrontEnd/Services/Disegnetti/variabile.png, id=1111, 362
 .85562pt x 213.79875pt>
 File: res/sections/SpecificaFrontEnd/Services/Disegnetti/variabile.png Graphic 
 file (type png)
@@ -3545,19 +3325,9 @@ Overfull \hbox (24.59271pt too wide) in paragraph at lines 7--7
 ntainer::Editor::Variabile[] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
 File: ../../common/logo.jpg Graphic file (type jpg)
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 20.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 16.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -3574,7 +3344,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 File: ../../common/logo.jpg Graphic file (type jpg)
 
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 46.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 43.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -3589,7 +3359,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 
 [69 <./res/sections/SpecificaFrontEnd/Services/Disegnetti/variabile.png>])
 (res/sections/SpecificaFrontEnd/Services/while-node.tex
-<res/sections/SpecificaFrontEnd/Services/Disegnetti/while-node.png, id=1126, 27
+<res/sections/SpecificaFrontEnd/Services/Disegnetti/while-node.png, id=1124, 27
 4.77657pt x 138.5175pt>
 File: res/sections/SpecificaFrontEnd/Services/Disegnetti/while-node.png Graphic
  file (type png)
@@ -3604,19 +3374,9 @@ Overfull \hbox (38.82181pt too wide) in paragraph at lines 7--7
 ntainer::Editor::While-node[] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
 File: ../../common/logo.jpg Graphic file (type jpg)
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 25.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 21.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -3648,7 +3408,7 @@ tainer::Editor::Edit-class-menu::Edit-class-menuComponent[]
 
 (res/sections/SpecificaFrontEnd/Components/change-class-name.tex
 <res/sections/SpecificaFrontEnd/Components/Disegnetti/change-class-name.png, id
-=1133, 398.99063pt x 91.84312pt>
+=1131, 398.99063pt x 91.84312pt>
 File: res/sections/SpecificaFrontEnd/Components/Disegnetti/change-class-name.pn
 g Graphic file (type png)
 
@@ -3663,14 +3423,9 @@ Overfull \hbox (231.28764pt too wide) in paragraph at lines 7--7
 tainer::Editor::Edit-class-menu::Change-class-nameComponent[] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
 File: ../../common/logo.jpg Graphic file (type jpg)
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 10.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 8.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -3684,14 +3439,9 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [71 <./res/sections/SpecificaFrontEnd/Components/Disegnetti/change-class-name.p
-ng>]
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
-) (res/sections/SpecificaFrontEnd/Components/class-add-attribute.tex
+ng>]) (res/sections/SpecificaFrontEnd/Components/class-add-attribute.tex
 <res/sections/SpecificaFrontEnd/Components/Disegnetti/class-add-attribute.png, 
-id=1140, 557.08125pt x 106.89937pt>
+id=1138, 557.08125pt x 106.89937pt>
 File: res/sections/SpecificaFrontEnd/Components/Disegnetti/class-add-attribute.
 png Graphic file (type png)
 
@@ -3711,19 +3461,9 @@ Overfull \hbox (233.5001pt too wide) in paragraph at lines 7--7
 tainer::Editor::Edit-class-menu::Class-add-attributeComponent[] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
 File: ../../common/logo.jpg Graphic file (type jpg)
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 24.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 20.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -3745,7 +3485,7 @@ Att: boo-lean, ti-po: string,
 
 ) (res/sections/SpecificaFrontEnd/Components/class-add-main-method.tex
 <res/sections/SpecificaFrontEnd/Components/Disegnetti/class-add-main-method.png
-, id=1148, 398.99063pt x 91.84312pt>
+, id=1146, 398.99063pt x 91.84312pt>
 File: res/sections/SpecificaFrontEnd/Components/Disegnetti/class-add-main-metho
 d.png Graphic file (type png)
 
@@ -3760,19 +3500,9 @@ Overfull \hbox (257.34676pt too wide) in paragraph at lines 7--7
 tainer::Editor::Edit-class-menu::Class-add-main-methodComponent[] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
 File: ../../common/logo.jpg Graphic file (type jpg)
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 20.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 17.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -3788,7 +3518,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 [73 <./res/sections/SpecificaFrontEnd/Components/Disegnetti/class-add-main-meth
 od.png>]) (res/sections/SpecificaFrontEnd/Components/class-add-method.tex
 <res/sections/SpecificaFrontEnd/Components/Disegnetti/class-add-method.png, id=
-1155, 584.1825pt x 138.5175pt>
+1153, 584.1825pt x 138.5175pt>
 File: res/sections/SpecificaFrontEnd/Components/Disegnetti/class-add-method.png
  Graphic file (type png)
 
@@ -3807,19 +3537,9 @@ Overfull \hbox (226.04091pt too wide) in paragraph at lines 7--7
 tainer::Editor::Edit-class-menu::Class-add-methodComponent[] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
 File: ../../common/logo.jpg Graphic file (type jpg)
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 36.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 33.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -3835,7 +3555,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 [74 <./res/sections/SpecificaFrontEnd/Components/Disegnetti/class-add-method.pn
 g>]) (res/sections/SpecificaFrontEnd/Components/class-list-attribute.tex
 <res/sections/SpecificaFrontEnd/Components/Disegnetti/class-list-attribute.png,
- id=1162, 663.98062pt x 106.89937pt>
+ id=1160, 663.98062pt x 106.89937pt>
 File: res/sections/SpecificaFrontEnd/Components/Disegnetti/class-list-attribute
 .png Graphic file (type png)
 
@@ -3849,41 +3569,15 @@ Overfull \hbox (112.93153pt too wide) in paragraph at lines 3--4
  [][] 
  []
 
-File: res/sections/SpecificaFrontEnd/Components/Disegnetti/class-list-attribute
-.png Graphic file (type png)
 
-<use res/sections/SpecificaFrontEnd/Components/Disegnetti/class-list-attribute.
-png>
-Package pdftex.def Info: res/sections/SpecificaFrontEnd/Components/Disegnetti/c
-lass-list-attribute.png used on input line 9.
-(pdftex.def)             Requested size: 531.18521pt x 85.51959pt.
-
-Overfull \hbox (112.93153pt too wide) in paragraph at lines 9--10
- [][] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Overfull \hbox (230.24683pt too wide) in paragraph at lines 13--13
+Overfull \hbox (230.24683pt too wide) in paragraph at lines 7--7
 [] []|\T1/lmr/bx/n/10.95 3.6.2.6 SWE-De-si-gner::Client::Components::Editor-con
 tainer::Editor::Edit-class-menu::Class-list-attributeComponent[] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
-
- []
-
 File: ../../common/logo.jpg Graphic file (type jpg)
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 18.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 10.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -3898,14 +3592,35 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 
 [75 <./res/sections/SpecificaFrontEnd/Components/Disegnetti/class-list-attribut
 e.png>]
-Overfull \hbox (5.1538pt too wide) in paragraph at lines 27--30
+Overfull \hbox (5.1538pt too wide) in paragraph at lines 21--24
 []\T1/lmr/m/it/10.95 +changeAttributo(newName: string, old-Na-me: string, ti-po
 : string, acc: string,
  []
 
+) (res/sections/SpecificaFrontEnd/Components/class-list-method.tex
+<res/sections/SpecificaFrontEnd/Components/Disegnetti/class-list-method.png, id
+=1167, 398.99063pt x 121.95563pt>
+File: res/sections/SpecificaFrontEnd/Components/Disegnetti/class-list-method.pn
+g Graphic file (type png)
+
+<use res/sections/SpecificaFrontEnd/Components/Disegnetti/class-list-method.png
+>
+Package pdftex.def Info: res/sections/SpecificaFrontEnd/Components/Disegnetti/c
+lass-list-method.png used on input line 3.
+(pdftex.def)             Requested size: 319.19293pt x 97.5646pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (222.78763pt too wide) in paragraph at lines 7--7
+[] []|\T1/lmr/bx/n/10.95 3.6.2.7 SWE-De-si-gner::Client::Components::Editor-con
+tainer::Editor::Edit-class-menu::Class-list-methodComponent[] 
+ []
+
 File: ../../common/logo.jpg Graphic file (type jpg)
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 50.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 12.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -3918,36 +3633,9 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[76]) (res/sections/SpecificaFrontEnd/Components/class-list-method.tex
-<res/sections/SpecificaFrontEnd/Components/Disegnetti/class-list-method.png, id
-=1174, 398.99063pt x 121.95563pt>
-File: res/sections/SpecificaFrontEnd/Components/Disegnetti/class-list-method.pn
-g Graphic file (type png)
-
-<use res/sections/SpecificaFrontEnd/Components/Disegnetti/class-list-method.png
->
-Package pdftex.def Info: res/sections/SpecificaFrontEnd/Components/Disegnetti/c
-lass-list-method.png used on input line 3.
-(pdftex.def)             Requested size: 319.19293pt x 97.5646pt.
-
-Overfull \hbox (222.78763pt too wide) in paragraph at lines 7--7
-[] []|\T1/lmr/bx/n/10.95 3.6.2.7 SWE-De-si-gner::Client::Components::Editor-con
-tainer::Editor::Edit-class-menu::Class-list-methodComponent[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
-) (res/sections/SpecificaFrontEnd/Components/display-class-name.tex
+[76]) (res/sections/SpecificaFrontEnd/Components/display-class-name.tex
 <res/sections/SpecificaFrontEnd/Components/Disegnetti/display-class-name.png, i
-d=1175, 398.99063pt x 91.84312pt>
+d=1173, 398.99063pt x 91.84312pt>
 File: res/sections/SpecificaFrontEnd/Components/Disegnetti/display-class-name.p
 ng Graphic file (type png)
 
@@ -3968,7 +3656,7 @@ tainer::Editor::Edit-class-menu::Display-class-nameComponent[]
 
 File: ../../common/logo.jpg Graphic file (type jpg)
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 8.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 14.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -3982,24 +3670,28 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [77 <./res/sections/SpecificaFrontEnd/Components/Disegnetti/class-list-method.p
-ng>]
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
-)
+ng>])
 Underfull \hbox (badness 10000) in paragraph at lines 222--223
 
  []
 
+(res/sections/SpecificaFrontEnd/Services/account.tex
+<res/sections/SpecificaFrontEnd/Services/Disegnetti/account.png, id=1180, 492.3
+3937pt x 395.22656pt>
+File: res/sections/SpecificaFrontEnd/Services/Disegnetti/account.png Graphic fi
+le (type png)
+
+<use res/sections/SpecificaFrontEnd/Services/Disegnetti/account.png>
+Package pdftex.def Info: res/sections/SpecificaFrontEnd/Services/Disegnetti/acc
+ount.png used on input line 3.
+(pdftex.def)             Requested size: 393.87201pt x 316.18167pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: ../../common/logo.jpg Graphic file (type jpg)
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 226.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 10.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -4013,29 +3705,10 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [78 <./res/sections/SpecificaFrontEnd/Components/Disegnetti/display-class-name.
-png>] (res/sections/SpecificaFrontEnd/Services/account.tex
-<res/sections/SpecificaFrontEnd/Services/Disegnetti/account.png, id=1189, 492.3
-3937pt x 395.22656pt>
-File: res/sections/SpecificaFrontEnd/Services/Disegnetti/account.png Graphic fi
-le (type png)
-
-<use res/sections/SpecificaFrontEnd/Services/Disegnetti/account.png>
-Package pdftex.def Info: res/sections/SpecificaFrontEnd/Services/Disegnetti/acc
-ount.png used on input line 3.
-(pdftex.def)             Requested size: 393.87201pt x 316.18167pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
+png>]
 File: ../../common/logo.jpg Graphic file (type jpg)
-<use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 18.
+ <use ../../common/logo.jpg>
+Package pdftex.def Info: ../../common/logo.jpg used on input line 24.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -4052,7 +3725,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 File: ../../common/logo.jpg Graphic file (type jpg)
 
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 61.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 68.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -4068,7 +3741,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 [80]
 File: ../../common/logo.jpg Graphic file (type jpg)
  <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 105.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 112.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -4084,7 +3757,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 [81]
 File: ../../common/logo.jpg Graphic file (type jpg)
  <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 149.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 158.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -4098,7 +3771,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [82]) (res/sections/SpecificaFrontEnd/Services/main-editor.tex
-<res/sections/SpecificaFrontEnd/Services/Disegnetti/main-editor.png, id=1211, 6
+<res/sections/SpecificaFrontEnd/Services/Disegnetti/main-editor.png, id=1209, 6
 24.83438pt x 638.385pt>
 File: res/sections/SpecificaFrontEnd/Services/Disegnetti/main-editor.png Graphi
 c file (type png)
@@ -4115,19 +3788,9 @@ Overfull \hbox (81.6145pt too wide) in paragraph at lines 3--4
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
 File: ../../common/logo.jpg Graphic file (type jpg)
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 20.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 24.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -4143,7 +3806,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 [83]
 File: ../../common/logo.jpg Graphic file (type jpg)
  <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 22.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 26.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -4160,7 +3823,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 File: ../../common/logo.jpg Graphic file (type jpg)
 
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 65.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 70.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -4176,7 +3839,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 [85]
 File: ../../common/logo.jpg Graphic file (type jpg)
  <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 107.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 114.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -4192,7 +3855,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 [86]
 File: ../../common/logo.jpg Graphic file (type jpg)
  <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 150.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 159.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -4208,7 +3871,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 [87]
 File: ../../common/logo.jpg Graphic file (type jpg)
  <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 197.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 207.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -4222,7 +3885,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [88]) (res/sections/SpecificaFrontEnd/Services/menu.tex
-<res/sections/SpecificaFrontEnd/Services/Disegnetti/menu.png, id=1244, 495.3506
+<res/sections/SpecificaFrontEnd/Services/Disegnetti/menu.png, id=1242, 495.3506
 3pt x 350.05782pt>
 File: res/sections/SpecificaFrontEnd/Services/Disegnetti/menu.png Graphic file 
 (type png)
@@ -4231,23 +3894,10 @@ File: res/sections/SpecificaFrontEnd/Services/Disegnetti/menu.png Graphic file
 Package pdftex.def Info: res/sections/SpecificaFrontEnd/Services/Disegnetti/men
 u.png used on input line 3.
 (pdftex.def)             Requested size: 396.28105pt x 280.04662pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
 File: ../../common/logo.jpg Graphic file (type jpg)
+
 <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 23.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 10.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -4260,27 +3910,27 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[89]
+[89 <./res/sections/SpecificaFrontEnd/Services/Disegnetti/menu.png>]
+File: ../../common/logo.jpg Graphic file (type jpg)
+
+<use ../../common/logo.jpg>
+Package pdftex.def Info: ../../common/logo.jpg used on input line 49.
+(pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (30.0pt): 
+ Make it at least 32.53278pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[90]
 File: ../../common/logo.jpg Graphic file (type jpg)
  <use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 40.
-(pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
-
-Underfull \hbox (badness 10000) has occurred while \output is active
-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (30.0pt): 
- Make it at least 32.53278pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[90 <./res/sections/SpecificaFrontEnd/Services/Disegnetti/menu.png>]
-File: ../../common/logo.jpg Graphic file (type jpg)
-
-<use ../../common/logo.jpg>
-Package pdftex.def Info: ../../common/logo.jpg used on input line 83.
+Package pdftex.def Info: ../../common/logo.jpg used on input line 93.
 (pdftex.def)             Requested size: 79.02257pt x 28.45274pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -4314,7 +3964,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
-<Classi/ServerLoader.png, id=1267, 439.6425pt x 91.84312pt>
+<Classi/ServerLoader.png, id=1265, 439.6425pt x 91.84312pt>
 File: Classi/ServerLoader.png Graphic file (type png)
 
 <use Classi/ServerLoader.png>
@@ -4350,7 +4000,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--49
 
  []
 
-<Classi/MongooseConnection.png, id=1274, 163.3603pt x 76.78688pt>
+<Classi/MongooseConnection.png, id=1272, 163.3603pt x 76.78688pt>
 File: Classi/MongooseConnection.png Graphic file (type png)
 
 <use Classi/MongooseConnection.png>
@@ -4380,7 +4030,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
  []
 
-<Classi/MongooseRequest.png, id=1280, 386.19281pt x 198.7425pt>
+<Classi/MongooseRequest.png, id=1278, 386.19281pt x 198.7425pt>
 File: Classi/MongooseRequest.png Graphic file (type png)
 
 <use Classi/MongooseRequest.png>
@@ -4601,7 +4251,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[100] <Classi/MidLoader.png, id=1315, 112.92188pt x 76.78688pt>
+[100] <Classi/MidLoader.png, id=1313, 112.92188pt x 76.78688pt>
 File: Classi/MidLoader.png Graphic file (type png)
 
 <use Classi/MidLoader.png>
@@ -4609,7 +4259,7 @@ Package pdftex.def Info: Classi/MidLoader.png used on input line 274.
 (pdftex.def)             Requested size: 90.3376pt x 61.42957pt.
 
 Overfull \hbox (21.8744pt too wide) in paragraph at lines 275--275
-[]\T1/lmr/m/n/10.95 Figura 43: []Diagramma del-la clas-se SWE-De-si-gner::Serve
+[]\T1/lmr/m/n/10.95 Figura 42: []Diagramma del-la clas-se SWE-De-si-gner::Serve
 r::Controller::Middleware::midLoader 
  []
 
@@ -4618,7 +4268,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 282--283
 
  []
 
-<Classi/Parse.png, id=1316, 362.85562pt x 106.89937pt>
+<Classi/Parse.png, id=1314, 362.85562pt x 106.89937pt>
 File: Classi/Parse.png Graphic file (type png)
  <use Classi/Parse.png>
 Package pdftex.def Info: Classi/Parse.png used on input line 291.
@@ -4649,7 +4299,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 305--306
 
  []
 
-<Classi/Encrypt.png, id=1324, 340.27126pt x 121.95563pt>
+<Classi/Encrypt.png, id=1322, 340.27126pt x 121.95563pt>
 File: Classi/Encrypt.png Graphic file (type png)
 
 <use Classi/Encrypt.png>
@@ -4657,7 +4307,7 @@ Package pdftex.def Info: Classi/Encrypt.png used on input line 321.
 (pdftex.def)             Requested size: 272.21736pt x 97.5646pt.
 
 Overfull \hbox (9.4043pt too wide) in paragraph at lines 322--322
-[]\T1/lmr/m/n/10.95 Figura 45: []Diagramma del-la clas-se SWE-De-si-gner::Serve
+[]\T1/lmr/m/n/10.95 Figura 44: []Diagramma del-la clas-se SWE-De-si-gner::Serve
 r::Controller::Middleware::Encrypt 
  []
 
@@ -4706,7 +4356,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[103] <Classi/ParseService.png, id=1337, 373.395pt x 76.78688pt>
+[103] <Classi/ParseService.png, id=1335, 373.395pt x 76.78688pt>
 File: Classi/ParseService.png Graphic file (type png)
 
 <use Classi/ParseService.png>
@@ -4714,7 +4364,7 @@ Package pdftex.def Info: Classi/ParseService.png used on input line 370.
 (pdftex.def)             Requested size: 298.7164pt x 61.42957pt.
 
 Overfull \hbox (12.14232pt too wide) in paragraph at lines 371--371
-[]\T1/lmr/m/n/10.95 Figura 46: []Diagramma del-la clas-se SWE-De-si-gner::Serve
+[]\T1/lmr/m/n/10.95 Figura 45: []Diagramma del-la clas-se SWE-De-si-gner::Serve
 r::Controller::Services::parseService 
  []
 
@@ -4744,7 +4394,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [104 <./Classi/ParseService.png>]
-<Classi/EncryptService.png, id=1344, 335.75438pt x 121.95563pt>
+<Classi/EncryptService.png, id=1342, 335.75438pt x 121.95563pt>
 File: Classi/EncryptService.png Graphic file (type png)
 
 <use Classi/EncryptService.png>
@@ -4752,7 +4402,7 @@ Package pdftex.def Info: Classi/EncryptService.png used on input line 396.
 (pdftex.def)             Requested size: 268.60387pt x 97.5646pt.
 
 Overfull \hbox (23.33595pt too wide) in paragraph at lines 397--397
-[]\T1/lmr/m/n/10.95 Figura 47: []Diagramma del-la clas-se SWE-De-si-gner::Serve
+[]\T1/lmr/m/n/10.95 Figura 46: []Diagramma del-la clas-se SWE-De-si-gner::Serve
 r::Controller::Services::encryptService 
  []
 
@@ -4803,14 +4453,14 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [106] (res/sections/DiagrammidiSequenza.tex
-<Sequence/generazioneJava.png, id=1356, 665.48625pt x 516.42938pt>
+<Sequence/generazioneJava.png, id=1354, 665.48625pt x 516.42938pt>
 File: Sequence/generazioneJava.png Graphic file (type png)
 
 <use Sequence/generazioneJava.png>
 Package pdftex.def Info: Sequence/generazioneJava.png used on input line 14.
 (pdftex.def)             Requested size: 332.74231pt x 258.21405pt.
 
-<Sequence/serverLoading.png, id=1357, 1653.17625pt x 678.28406pt>
+<Sequence/serverLoading.png, id=1355, 1653.17625pt x 678.28406pt>
 File: Sequence/serverLoading.png Graphic file (type png)
 
 <use Sequence/serverLoading.png>
@@ -4832,7 +4482,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [107 <./Sequence/generazioneJava.png>]
-<Sequence/wncryptDecrypt.png, id=1364, 1049.42062pt x 516.42938pt>
+<Sequence/wncryptDecrypt.png, id=1362, 1049.42062pt x 516.42938pt>
 File: Sequence/wncryptDecrypt.png Graphic file (type png)
 
 <use Sequence/wncryptDecrypt.png>
@@ -5604,26 +5254,25 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 22D808A5CC43EA35316EE855241F6B1C;11382.
  ) 
 Here is how much of TeX's memory you used:
- 12427 strings out of 493335
- 189633 string characters out of 3136680
- 300158 words of memory out of 3000000
- 15223 multiletter control sequences out of 15000+200000
+ 12483 strings out of 493333
+ 189264 string characters out of 3139183
+ 299739 words of memory out of 3000000
+ 15280 multiletter control sequences out of 15000+200000
  75016 words of font info for 56 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,16n,57p,803b,552s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
-ts/type1/public/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
-blic/lm/lmbxi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lm
-r10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri7.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmro10.pfb><C:/Program Files (x86)/Mi
-KTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
-nts/type1/public/lm/lmtti10.pfb>
-Output written on main.pdf (116 pages, 1475933 bytes).
+ 43i,16n,57p,803b,554s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
+iKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx1
+2.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbxi10.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/lm/lmri7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmro10.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/lm/lmtti10.pfb>
+Output written on main.pdf (116 pages, 1428384 bytes).
 PDF statistics:
- 1505 PDF objects out of 1728 (max. 8388607)
- 279 named destinations out of 1000 (max. 500000)
+ 1503 PDF objects out of 1728 (max. 8388607)
+ 278 named destinations out of 1000 (max. 500000)
  1131 words of extra memory for PDF output out of 10000 (max. 10000000)
 
